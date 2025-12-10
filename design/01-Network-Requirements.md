@@ -14,6 +14,8 @@ Requirements include:
 
 High availability ensures that patient care systems and hospital applications stay online.
 
+---
+
 ## 📌 2. Redundancy
 
 Redundancy protects the network against hardware or link failures.  
@@ -23,3 +25,29 @@ The design must include:
 - Backup routing paths  
 
 If one device or link goes down, traffic should automatically reroute.
+
+---
+
+## 📌 3. Network Segmentation (VLANs)
+
+To improve performance and security, the network must separate traffic by department or function:
+
+- Emergency Department  
+- Administration / Billing  
+- ICU & Inpatient Care  
+- Imaging / Radiology  
+- Pharmacy  
+
+Segmentation helps reduce congestion and limits security risks.
+
+---
+
+## 📌 4. Security Requirements
+
+Security is critical to protect patient information and hospital systems.  
+Requirements include:
+
+- ACLs to restrict access between departments  
+- Firewall  
+- Protection for sensitive medical devices  
+
