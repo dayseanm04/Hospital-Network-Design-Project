@@ -66,3 +66,4 @@ The design should make upgrades easy without major redesign.
 
 ---
 
+**Note: Since im using Cisco Packet Tracer there are some limitations**
