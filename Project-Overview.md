@@ -98,7 +98,8 @@ This project aims to:
 - Testing and verification results  
 - Final summarized network report  
 
-**Note: I will make the changes when its nessasry**
+## Note: I will make the changes when its nessasry
+
 ---
 
 This overview provides the foundation for planning and building the hospital’s network in the following sections.
