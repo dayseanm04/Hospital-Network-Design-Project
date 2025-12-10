@@ -51,3 +51,18 @@ Requirements include:
 - Firewall  
 - Protection for sensitive medical devices  
 
+--- 
+
+## 📌 5. Scalability
+
+The network must support future expansion, including:
+
+- Additional patient rooms  
+- New departments or clinics  
+- More PCs, phones, printers, and medical devices  
+- Additional servers or cloud services  
+
+The design should make upgrades easy without major redesign.
+
+---
+
