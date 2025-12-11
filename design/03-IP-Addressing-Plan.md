@@ -58,6 +58,31 @@ Each floor uses a separate **/24 network**
 | Security Station | 172.16.3.224/29 | 255.255.255.248 | .225 – .230 | 3 |
 
 
+**Floor 4 Total Allocated IPs:** about 214  
+**Floor 4 Total Devices:** about 109  
+
+# 🧩 Floor 4 – IP Addressing (172.16.4.0/24)
+
+| Department | Subnet | Mask | Usable IP Range | Devices |
+|-----------|--------|------|------------------|---------|
+| Primary Care | 172.16.4.0/26 | 255.255.255.192 | .1 – .62 | 30 |
+| Pediatrics (Specialty Care) | 172.16.4.64/27 | 255.255.255.224 | .65 – .94 | 26 |
+| General Inpatient Wing | 172.16.4.96/27 | 255.255.255.224 | .97 – .126 | 15 |
+| ICU (Floor 4) | 172.16.4.128/27 | 255.255.255.224 | .129 – .158 | 15 |
+| Phlebotomy / Blood Draw | 172.16.4.160/28 | 255.255.255.240 | .161 – .174 | 9 |
+| Nurse Station | 172.16.4.176/28 | 255.255.255.240 | .177 – .190 | 7 |
+| ICU Receptionist | 172.16.4.192/28 | 255.255.255.240 | .193 – .206 | 7 |
+| Specialty Care Receptionist | 172.16.4.208/28 | 255.255.255.240 | .209 – .222 | 5 |
+
+
+
+
+
+
+
+
+
+
 
 
 
