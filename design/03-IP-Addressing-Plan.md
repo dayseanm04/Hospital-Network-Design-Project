@@ -26,6 +26,7 @@ Each floor uses a separate **/24 network**
 
 ---
 
+# 🧩 Floor 2 – IP Addressing (172.16.2.0/24)
 
 | Department | Subnet | Mask | Usable IP Range | Devices |
 |-----------|--------|------|------------------|---------|
@@ -34,4 +35,6 @@ Each floor uses a separate **/24 network**
 | Human Resources | 172.16.2.64/27 | 255.255.255.224 | .65 – .94 | 13 |
 | Supply Chain / Purchasing | 172.16.2.96/28 | 255.255.255.240 | .97 – .110 | 6 |
 | Floor 2 Reception | 172.16.2.112/28 | 255.255.255.240 | .113 – .126 | 6 |
+| Security Station | 172.16.2.128/28 | 255.255.255.240 | .129 – .142 | 3 |
+| Insurance | 172.16.2.144/28 | 255.255.255.240 | .145 – .158 | 7 |
 
