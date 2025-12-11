@@ -54,3 +54,18 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 ---
 
+## 🧱 Floor 4 – Specialty Care, Clinics & ICU (172.16.4.0/24)
+
+| VLAN ID | Department                          | Subnet             | Mask               | Default Gateway    |
+|--------:|-------------------------------------|--------------------|--------------------|--------------------|
+| 400     | Primary Care                        | 172.16.4.0/26      | 255.255.255.192    | 172.16.4.1         |
+| 410     | Specialty Care (Pediatrics)         | 172.16.4.64/27     | 255.255.255.224    | 172.16.4.65        |
+| 420     | General Inpatient Wing (Floor 4)    | 172.16.4.96/27     | 255.255.255.224    | 172.16.4.97        |
+| 430     | ICU (Floor 4)                       | 172.16.4.128/27    | 255.255.255.224    | 172.16.4.129       |
+| 440     | Phlebotomy / Blood Draw             | 172.16.4.160/28    | 255.255.255.240    | 172.16.4.161       |
+| 450     | Nurse Station (Floor 4)             | 172.16.4.176/28    | 255.255.255.240    | 172.16.4.177       |
+| 460     | ICU Receptionist (Floor 4)          | 172.16.4.192/28    | 255.255.255.240    | 172.16.4.193       |
+| 470     | Specialty Care Receptionist         | 172.16.4.208/28    | 255.255.255.240    | 172.16.4.209       |
+| 480     | Primary Care Receptionist           | 172.16.4.224/28    | 255.255.255.240    | 172.16.4.225       |
+| 490     | Security Station (Floor 4)          | 172.16.4.240/29    | 255.255.255.248    | 172.16.4.241       |
+
