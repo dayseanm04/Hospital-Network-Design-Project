@@ -103,9 +103,9 @@ This floor serves specialized care units and additional inpatient rooms.
 - Pediatrics and ICU require **secure, uninterrupted connectivity.  
 
 ### Totals
-- **40 PCs**  
-- **20+ IP Phones 
-- **4 Printers**  
+- **56 PCs**  
+- **44+ IP Phones**
+- **20 Printers**  
 - **49 Employees**
 
 ---
