@@ -84,3 +84,7 @@ The **default gateway is always the first usable IP address in each subnet**.
   - Troubleshoot issues by floor or department
 
 This VLAN design will be used when configuring **SVIs on the Layer 3 switch**, **inter-VLAN routing**, and **ACLs** in the configuration phase.
+
+---
+
+**Note: I will make changes when necessary**
