@@ -38,7 +38,7 @@ Floor 1 contains the highest-priority departments that require fast access, low 
 ## 📌 Floor 2 – Administration, HR & IT  
 This floor contains mainly office-based departments that handle hospital operations and sensitive data.
 
-### Key Departments
+### Departments
 - Human Resources (HR)  
 - Billing & Finance  
 - IT Department  
@@ -61,3 +61,26 @@ This floor contains mainly office-based departments that handle hospital operati
 
 ---
 
+## 📌 Floor 3 – Inpatient Care (ICU & General Care)  
+This floor includes critical departments that require constant uptime for patient monitoring and communication.
+
+### Departments
+- Radiology / Imaging Labs  
+- Intensive Care Unit (ICU)  
+- Nurse Stations  
+- Inpatient Rooms  
+- Floor Reception  
+- Security Station  
+
+### **Network Impact**
+- **Life-critical systems** such as ICU monitoring require high availability.  
+- Medical equipment must be isolated from general user traffic.  
+- Imaging labs generate **large data files** that require stable high-speed connections.  
+
+### **Totals**
+- **39 PCs**  
+- **34 IP Phones**  
+- **13 Printers**  
+- **45 Employees**
+
+---
