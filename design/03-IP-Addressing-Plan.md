@@ -56,10 +56,13 @@ Each floor uses a separate **/24 network**
 | ICU Receptionist | 172.16.3.192/28 | 255.255.255.240 | .193 – .206 | 7 |
 | Floor 3 Receptionist | 172.16.3.208/28 | 255.255.255.240 | .209 – .222 | 7 |
 | Security Station | 172.16.3.224/29 | 255.255.255.248 | .225 – .230 | 3 |
-
+| Primary Care Receptionist | 172.16.4.224/28 | 255.255.255.240 | .225 – .238 | 5 |
+| Security Station | 172.16.4.240/29 | 255.255.255.248 | .241 – .246 | 3 |
 
 **Floor 4 Total Allocated IPs:** about 214  
-**Floor 4 Total Devices:** about 109  
+**Floor 4 Total Devices:** about 122  
+
+---
 
 # 🧩 Floor 4 – IP Addressing (172.16.4.0/24)
 
@@ -73,9 +76,11 @@ Each floor uses a separate **/24 network**
 | Nurse Station | 172.16.4.176/28 | 255.255.255.240 | .177 – .190 | 7 |
 | ICU Receptionist | 172.16.4.192/28 | 255.255.255.240 | .193 – .206 | 7 |
 | Specialty Care Receptionist | 172.16.4.208/28 | 255.255.255.240 | .209 – .222 | 5 |
+| Primary Care Receptionist | 172.16.4.224/28 | 255.255.255.240 | .225 – .238 | 5 |
+| Security Station | 172.16.4.240/29 | 255.255.255.248 | .241 – .246 | 3 |
 
-
-
+**Floor 4 Total Allocated IPs:** about 214  
+**Floor 4 Total Devices:** about 120  
 
 
 
