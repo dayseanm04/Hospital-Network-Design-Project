@@ -104,7 +104,7 @@ This floor serves specialized care units and additional inpatient rooms.
 
 ### Totals
 - **56 PCs**  
-- **44+ IP Phones**
+- **46 IP Phones**
 - **20 Printers**  
 - **65 Employees**
 
@@ -114,7 +114,7 @@ This floor serves specialized care units and additional inpatient rooms.
 
 | Category | Total |
 |---------|-------|
-| **PCs** | 174 |
-| **Printers** | 28 |
-| **IP Phones** | 100+ |
-| **Employees** | 181 |
+| **PCs** | 200 |
+| **Printers** | 62 |
+| **IP Phones** | 147 |
+| **Employees** | 197 |
