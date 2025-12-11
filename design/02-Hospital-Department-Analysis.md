@@ -78,9 +78,9 @@ This floor includes critical departments that require constant uptime for patien
 - Imaging labs generate **large data files** that require stable high-speed connections.  
 
 ### Totals
-- **39 PCs**  
-- **34 IP Phones**  
-- **13 Printers**  
+- **48 PCs**  
+- **37 IP Phones**  
+- **15 Printers**  
 - **45 Employees**
 
 ---
@@ -106,7 +106,7 @@ This floor serves specialized care units and additional inpatient rooms.
 - **56 PCs**  
 - **44+ IP Phones**
 - **20 Printers**  
-- **49 Employees**
+- **65 Employees**
 
 ---
 
