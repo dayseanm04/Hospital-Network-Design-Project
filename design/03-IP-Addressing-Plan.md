@@ -44,7 +44,12 @@ Each floor uses a separate **/24 network**
 
 ---
 
+# 🧩 Floor 3 – IP Addressing (172.16.3.0/24)
 
+| Department | Subnet | Mask | Usable IP Range | Devices |
+|-----------|--------|------|------------------|---------|
+| Nurse Offices | 172.16.3.0/26 | 255.255.255.192 | .1 – .62 | 30 |
+| ICU (Floor 3) | 172.16.3.64/27 | 255.255.255.224 | .65 – .94 | 15 |
 
 
 
