@@ -26,3 +26,12 @@ Each floor uses a separate **/24 network**
 
 ---
 
+
+| Department | Subnet | Mask | Usable IP Range | Devices |
+|-----------|--------|------|------------------|---------|
+| Medical Records / HIM | 172.16.2.0/27 | 255.255.255.224 | .1 – .30 | 18 |
+| Billing & Finance | 172.16.2.32/27 | 255.255.255.224 | .33 – .62 | 18 |
+| Human Resources | 172.16.2.64/27 | 255.255.255.224 | .65 – .94 | 13 |
+| Supply Chain / Purchasing | 172.16.2.96/28 | 255.255.255.240 | .97 – .110 | 6 |
+| Floor 2 Reception | 172.16.2.112/28 | 255.255.255.240 | .113 – .126 | 6 |
+
