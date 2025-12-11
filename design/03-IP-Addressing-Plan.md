@@ -21,3 +21,8 @@ Each floor uses a separate **/24 network**
 | Security Station | 172.16.1.192/28 | 255.255.255.240 | .193 – .206 | 3 |
 | ED Nurse Station 2 | 172.16.1.208/28 | 255.255.255.240 | .209 – .222 | 9 |
 
+**Floor 1 Total Allocated IPs:** about 190  
+**Floor 1 Total Devices:** about 100
+
+---
+
