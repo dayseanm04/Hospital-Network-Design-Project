@@ -54,10 +54,10 @@ This floor contains mainly office-based departments that handle hospital operati
 - Less real-time traffic than clinical floors, but **high security** and **data integrity** is required.
 
 ### Totals
-- **37 PCs**  
-- **23 IP Phones**  
+- **38 PCs**  
+- **35 IP Phones**  
 - **10 Printers**  
-- **35 Employees**
+- **38 Employees**
 
 ---
 
