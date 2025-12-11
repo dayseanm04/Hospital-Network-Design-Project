@@ -69,3 +69,18 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 480     | Primary Care Receptionist           | 172.16.4.224/28    | 255.255.255.240    | 172.16.4.225       |
 | 490     | Security Station (Floor 4)          | 172.16.4.240/29    | 255.255.255.248    | 172.16.4.241       |
 
+## ✅ Summary
+
+- Each department has:
+  - Its **own VLAN ID**
+  - A subnet from the **IP Addressing Plan**
+  - A **default gateway** set to the first usable IP
+- Floors are separated by:
+  - Different **172.16.x.0/24** networks
+  - VLANs that match the department structure
+- This design makes it easy to:
+  - Apply ACLs between VLANs
+  - Prioritize traffic (ED, ICU, Imaging)
+  - Troubleshoot issues by floor or department
+
+This VLAN design will be used when configuring **SVIs on the Layer 3 switch**, **inter-VLAN routing**, and **ACLs** in the configuration phase.
