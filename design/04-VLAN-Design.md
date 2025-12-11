@@ -37,3 +37,20 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 (**Note:** I will cnfigure Management VLANs for IT using a separate subnet and VLAN ID.)
 
+---
+
+## 🧱 Floor 3 – Inpatient Care & ICU (172.16.3.0/24)
+
+| VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
+|--------:|-------------------------------|--------------------|--------------------|--------------------|
+| 300     | Nurse Offices                 | 172.16.3.0/26      | 255.255.255.192    | 172.16.3.1         |
+| 310     | ICU (Floor 3)                 | 172.16.3.64/27     | 255.255.255.224    | 172.16.3.65        |
+| 320     | General Inpatient Wing (F3)   | 172.16.3.96/27     | 255.255.255.224    | 172.16.3.97        |
+| 330     | Radiology / Imaging           | 172.16.3.128/27    | 255.255.255.224    | 172.16.3.129       |
+| 340     | Nurse Station (Floor 3)       | 172.16.3.160/27    | 255.255.255.224    | 172.16.3.161       |
+| 350     | ICU Receptionist (Floor 3)    | 172.16.3.192/28    | 255.255.255.240    | 172.16.3.193       |
+| 360     | Floor 3 Receptionist          | 172.16.3.208/28    | 255.255.255.240    | 172.16.3.209       |
+| 370     | Security Station (Floor 3)    | 172.16.3.224/29    | 255.255.255.248    | 172.16.3.225       |
+
+---
+
