@@ -66,4 +66,5 @@ The design should make upgrades easy without major redesign.
 
 ---
 
-**Note: Since im using Cisco Packet Tracer there are some limitations**
+### Note Since im using Cisco Packet Tracer there are some limitations
+- The devices are strictly PCs, IP Phones and printers. It dosent include hospital equipments sicns I cant simulate that in Packet Tracer
