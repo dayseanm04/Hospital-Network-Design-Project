@@ -39,6 +39,9 @@ Each floor uses a separate **/24 network**
 | Insurance | 172.16.2.144/28 | 255.255.255.240 | .145 – .158 | 7 |
 | IT Department | 172.16.2.160/28 | 255.255.255.240 | .161 – .174 | 12 |
 
+**Floor 2 Total Allocated IPs:** about 130  
+**Floor 2 Total Devices:** about 86 
+
 ---
 
 
