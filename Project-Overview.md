@@ -1,6 +1,6 @@
 # 🏥 Project Overview
 
-I this project focuses i will be designing and building a complete network infrastructure for hospital using **Cisco Packet Tracer**.  
+In this project I will be designing and building a complete network infrastructure for hospital using **Cisco Packet Tracer**.  
 The goal is to create a secure, reliable, and scalable network that supports hospital operations, clinical services, and administrative work.
 
 
