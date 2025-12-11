@@ -72,15 +72,40 @@ This floor includes critical departments that require constant uptime for patien
 - Floor Reception  
 - Security Station  
 
-### **Network Impact**
+### Network Impact
 - **Life-critical systems** such as ICU monitoring require high availability.  
 - Medical equipment must be isolated from general user traffic.  
 - Imaging labs generate **large data files** that require stable high-speed connections.  
 
-### **Totals**
+### Totals
 - **39 PCs**  
 - **34 IP Phones**  
 - **13 Printers**  
 - **45 Employees**
+
+---
+
+## 📌 Floor 4 – Specialty Care, Clinics & Final Inpatient Rooms  
+This floor serves specialized care units and additional inpatient rooms.
+
+### Departments
+- Pediatrics Specialty Care  
+- Primary Care Clinics  
+- ICU (Floor 4)  
+- Nurse Stations  
+- Phlebotomy / Blood Draw  
+- Reception Areas  
+- Security Station  
+- Inpatient Rooms  
+
+### Network Impact
+- Clinics generate moderate network load through Eleectronic Medical Access, scheduling, and charting.  
+- Pediatrics and ICU require **secure, uninterrupted connectivity.  
+
+### Totals
+- **40 PCs**  
+- **20+ IP Phones 
+- **4 Printers**  
+- **49 Employees**
 
 ---
