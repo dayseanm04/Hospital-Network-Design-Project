@@ -82,13 +82,32 @@ Each floor uses a separate **/24 network**
 **Floor 4 Total Allocated IPs:** about 214  
 **Floor 4 Total Devices:** about 120  
 
+---
 
+# ✅ Summary of Addressing Plan
 
+| Floor | Total IPs Allocated | Total Devices | Notes |
+|-------|----------------------|---------------|--------|
+| Floor 1 | 190 | about 100 | ED, Pharmacy, Imaging |
+| Floor 2 | 130 | about 86 | Administrative + IT departments |
+| Floor 3 | 216 | about 122 | ICU, Radiology, Nurse Stations |
+| Floor 4 | 214 | about 120 | Clinics, Pediatrics, ICU |
 
+---
 
+# 📘 Notes
 
+- Each floor uses its own **/24 network** to keep addressing simple.  
+- I divided the using VLSM to avoid wasting IP addresses.  
+- Clinical areas use larger subnets due to more devices (PCs, phones).  
+- Administrative areas mostly fit into **/27** or **/28** subnets.  
+- Security stations often use the smallest subnets (**/28** or **/29**).
+- The devices are strictly PCs, IP Phones and printers. It dosent include hospital equipments sicns I cant simulate that in Packet Tracer
 
+---
 
+This IP plan will be used later in the **VLAN design**, **routing config**, and **device configuration** sections.
 
+---
 
-
+**Note: the number of divices might be off a little, it wont affect the network**
