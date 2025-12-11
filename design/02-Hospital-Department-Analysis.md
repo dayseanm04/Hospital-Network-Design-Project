@@ -119,4 +119,9 @@ This floor serves specialized care units and additional inpatient rooms.
 | **IP Phones** | 147 |
 | **Employees** | 197 |
 
-**Note: the numbers might be off a little bit since im in the planning stage!**
+---
+
+### Note
+- The number of divices might be off a little, it wont affect the network
+- The devices are strictly PCs, IP Phones and printers. It dosent include hospital equipments sicns I cant simulate that in Packet Tracer
+
