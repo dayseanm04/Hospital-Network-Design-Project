@@ -11,3 +11,4 @@ Each floor uses a separate **/24 network**
 | Department | Subnet | Mask | Usable IP Range | Devices |
 |-----------|--------|------|------------------|---------|
 | Emergency Department (ED) | 172.16.1.0/26 | 255.255.255.192 | .1 – .62 | 37 |
+| X-Ray / Imaging | 172.16.1.64/27 | 255.255.255.224 | .65 – .94 | 11 |
