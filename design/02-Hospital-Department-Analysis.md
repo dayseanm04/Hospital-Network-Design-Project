@@ -109,3 +109,12 @@ This floor serves specialized care units and additional inpatient rooms.
 - **49 Employees**
 
 ---
+
+## 📌 Hospital Summary
+
+| Category | Total |
+|---------|-------|
+| **PCs** | 174 |
+| **Printers** | 28 |
+| **IP Phones** | 100+ |
+| **Employees** | 181 |
