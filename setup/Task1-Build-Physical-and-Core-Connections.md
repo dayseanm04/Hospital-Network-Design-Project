@@ -19,3 +19,12 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Hostname: HS-Core-FW
 - Interfaces:
   - G1/1–G1/9 → Gigabit Ethernet
+
+---
+
+## 🧠 3. Hospital Core Router Setup Information
+- Device: Cisco PT-Router
+- Hostname: HS-Core-R1
+- Interfaces:
+  - G0/0–G0/1 → Gigabit Ethernet
+  - G0/2–G0/9 → Fiber
