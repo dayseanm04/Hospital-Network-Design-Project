@@ -46,7 +46,7 @@ These switches connect end devices (PCs, phones and printers) on each floor of t
 | Device Name | Model | Quantity | Floor / Purpose | Notes |
 |-------------|--------|----------|------------------|-------|
 | Floor1-ASW1 | Cisco 3560-24PC | 1 | Floor 1 | Routing disabled |
-| Floo2-AWS1 | Cisco 3560-24PC | 1 | Floor 2 | Routing disabled |
-| Floo3-AWS1 | Cisco 3560-24PC | 1 | Floor 3 | Routing disabled |
-| Floo4-AWS1 | Cisco 3560-24PC | 1 | Floor 4 | Routing disabled |
+| Floor2-AWS1 | Cisco 3560-24PC | 1 | Floor 2 | Routing disabled |
+| Floor3-AWS1 | Cisco 3560-24PC | 1 | Floor 3 | Routing disabled |
+| Floor4-AWS1 | Cisco 3560-24PC | 1 | Floor 4 | Routing disabled |
 
