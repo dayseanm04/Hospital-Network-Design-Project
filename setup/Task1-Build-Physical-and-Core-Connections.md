@@ -48,4 +48,54 @@ Connect the firewall to the hospital core router.
 | HS-Core-FW G1/3 | HS-CW-R1 G0/0 |
 | HS-Core-FW G1/4 | HS-CW-R1 G1/0 |
 
+## 🏛️ 6. Distribution Switch Connections
+
+### **Distribution Switch Information**
+- Model: Cisco 3650-24PT
+- Devices: DSW1 and DSW2
+
+### DSW1 to Core Router
+| DSW1 Interface | Core Router Interface | Media |
+|---------------|----------------------|-------|
+| G1/1/1 | HS-CW-R1 G2/0 | Fiber |
+| G1/1/2 | HS-CW-R1 G3/0 | Fiber |
+
+### DSW2 to Core Router
+| DSW2 Interface | Core Router Interface | Media |
+|---------------|----------------------|-------|
+| G1/1/1 | HS-CW-R1 G4/0 | Fiber |
+| G1/1/2 | HS-CW-R1 G5/0 | Fiber |
+
+✔️ These connections will support redundancy and load balancing.
+
+---
+
+## 🔄 7. Distribution Switch Interconnection
+
+Connect the two distribution switches together.
+
+| DSW1 Interface | DSW2 Interface | Media |
+|---------------|---------------|-------|
+| G1/1/3 | G1/1/3 | Fiber |
+| G1/1/4 | G1/1/4 | Fiber |
+
+✔️ These links will later be bundled using EtherChannel.
+
+---
+
+## 🏢 8. Access Switch Connections
+
+### **Access Switch Information**
+- Model: Cisco 3650-24PT
+- Devices: ASW1, ASW2, ASW3
+
+---
+
+### Floor1-ASW1 Connections
+| ASW1 Interface | Distribution Switch | Interface |
+|---------------|---------------------|-----------|
+| G1/0/24 | DSW1 | G1/0/1 |
+| G1/0/23 | DSW1 | G1/0/2 |
+| G1/0/22 | DSW2 | G1/0/1 |
+| G1/0/21 | DSW2 | G1/0/2 |
 
