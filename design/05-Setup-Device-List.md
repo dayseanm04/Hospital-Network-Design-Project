@@ -31,10 +31,10 @@ Note: I may be updated some of the devices as the project evolves (When its nece
 These switches handle routing for VLANs, inter-VLAN connectivity and redundancy.
 
 ### Distribution Switches
-| Device Name | Model | Quantity | Role | Notes |
-|-------------|--------|----------|------|-------|
-| DIST-SW1 | Cisco 3650-24PC | 1 | Primary distribution switch | Routing enabled |
-| DIST-SW2 | Cisco 3650-24PC | 1 | Secondary distribution switch | Routing enabled |
+| Device Name | Model | Role | Notes |
+|-------------|--------|------|-------|
+| DIST-SW1 | Cisco 3650-24PC | Primary distribution switch | Routing enabled |
+| DIST-SW2 | Cisco 3650-24PC | Secondary distribution switch | Routing enabled |
 
 ---
 
