@@ -28,3 +28,24 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Interfaces:
   - G0/0–G0/1 → Gigabit Ethernet
   - G0/2–G0/9 → Fiber
+
+## 🔗 4. ISP to Hospital Core Firewall Connections
+Connect the ISP router to the hospital firewall for security and redundancy.
+
+| ISP Router Interface | Firewall Interface |
+|----------------------|--------------------|
+| ISP1-R1 G5/0 | HS-Core-FW G1/1 |
+| ISP1-R1 G6/0 | HS-Core-FW G1/2 |
+
+---
+
+## 🔗 5. Firewall to Hospital Core Router Connections
+
+Connect the firewall to the hospital core router.
+
+| Firewall Interface | Core Router Interface |
+|--------------------|-----------------------|
+| HS-Core-FW G1/3 | HS-CW-R1 G0/0 |
+| HS-Core-FW G1/4 | HS-CW-R1 G1/0 |
+
+
