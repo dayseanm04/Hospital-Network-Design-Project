@@ -13,12 +13,31 @@ Note: I may be updated some of the devices as the project evolves (When its nece
 
 # 🧠 1. Core Layer Devices (Tier 1)
 
-These devices provide routing between VLANs, connect to the ISPs, and sit at the top of the network hierarchy.
-
-### **Core Routers**
+### Core Routers
 
 | Device Name | Model | Quantity | Role | Notes |
 |-------------|--------|----------|------|-------|
 | CORE-RTR1 | Cisco PT-Router | 1 | Main hospital router | Connects to ISP 1 |
 
 ---
+
+# 🏛️ 2. Distribution Layer Devices (Tier 2)
+
+These switches handle routing for VLANs, inter-VLAN connectivity and redundancy.
+
+### Distribution Switches
+| Device Name | Model | Quantity | Role | Notes |
+|-------------|--------|----------|------|-------|
+| DIST-SW1 | Cisco 3650-24PC | 1 | Primary distribution switch | Routing enabled |
+| DIST-SW2 | Cisco 3650-24PC | 1 | Secondary distribution switch | Routing enabled |
+
+---
+
+# 🏢 3. Access Layer Devices (Tier 3)
+
+These switches connect end devices (PCs, phones and printers) on each floor of the hospital.
+
+### Access Switches
+| Device Name | Model | Quantity | Floor / Purpose | Notes |
+|-------------|--------|----------|------------------|-------|
+
