@@ -54,6 +54,8 @@ Connect the firewall to the hospital core router.
 - Model: Cisco 3650-24PT
 - Devices: DSW1 and DSW2
 
+---
+
 ### DSW1 to Core Router
 | DSW1 Interface | Core Router Interface | Media |
 |---------------|----------------------|-------|
@@ -99,3 +101,26 @@ Connect the two distribution switches together.
 | G1/0/22 | DSW2 | G1/0/1 |
 | G1/0/21 | DSW2 | G1/0/2 |
 
+---
+
+### **Floor2-ASW1 Connections**
+| ASW2 Interface | Distribution Switch | Interface |
+|---------------|---------------------|-----------|
+| G1/0/24 | DSW1 | G1/0/3 |
+| G1/0/23 | DSW1 | G1/0/4 |
+| G1/0/22 | DSW2 | G1/0/3 |
+| G1/0/21 | DSW2 | G1/0/4 |
+
+---
+
+### **Floor3-ASW1 Connections**
+| ASW3 Interface | Distribution Switch | Interface |
+|---------------|---------------------|-----------|
+| G1/0/24 | DSW1 | G1/0/5 |
+| G1/0/23 | DSW1 | G1/0/6 |
+| G1/0/22 | DSW2 | G1/0/5 |
+| G1/0/21 | DSW2 | G1/0/6 |
+
+✔️ Each access switch has **dual uplinks** for redundancy.
+
+---
