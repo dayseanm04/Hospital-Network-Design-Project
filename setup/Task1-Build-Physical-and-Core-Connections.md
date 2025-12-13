@@ -124,3 +124,16 @@ Connect the two distribution switches together.
 ✔️ Each access switch has **dual uplinks** for redundancy.
 
 ---
+
+## ✅ 9. Task Completion Checklist
+
+- ✅ ISP router connected to hospital firewall  
+- ✅ Firewall connected to the hospital core router  
+- ✅ Core router is connected to the distribution switches  
+- ✅ Distribution switches are interconnected  
+- ✅ Access switches hab dual connections to the distribution layers
+
+
+## 📌 Note:
+Note that I may update the connections when nessasry
+
