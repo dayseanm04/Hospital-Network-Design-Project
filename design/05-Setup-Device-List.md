@@ -22,7 +22,7 @@ Note: I may be updated some of the devices as the project evolves (When its nece
 ### Core Firewall
 | Device Name | Model | Quantity | Role | Notes |
 |-------------|--------|----------|------|-------|
-| HS-CORE-FW | Cisco ASA 5506 | 1 | Security/perimeter firewall | Sits between ISP routers and the HS-CORE-RTR1 |
+| HS-CORE-FW | Cisco ASA 5506 | 1 | Security/perimeter firewall | Sits between ISP router and the HS-CORE-RTR1 |
 
 ---
 
