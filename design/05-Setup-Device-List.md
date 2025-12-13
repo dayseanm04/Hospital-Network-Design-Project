@@ -17,7 +17,12 @@ Note: I may be updated some of the devices as the project evolves (When its nece
 
 | Device Name | Model | Quantity | Role | Notes |
 |-------------|--------|----------|------|-------|
-| CORE-RTR1 | Cisco PT-Router | 1 | Main hospital router | Connects to ISP 1 |
+| HS-CORE-RTR1 | Cisco PT-Router | 1 | Main hospital router | Connects to HS-CORE-FW 1 |
+
+### Core Firewall
+| Device Name | Model | Quantity | Role | Notes |
+|-------------|--------|----------|------|-------|
+| HS-CORE-FW | Cisco ASA 5506 | 1 | Security/perimeter firewall | Sits between ISP routers and the HS-CORE-RTR1 |
 
 ---
 
