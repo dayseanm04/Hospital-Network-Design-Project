@@ -45,4 +45,6 @@ These switches connect end devices (PCs, phones and printers) on each floor of t
 ### Access Switches
 | Device Name | Model | Quantity | Floor / Purpose | Notes |
 |-------------|--------|----------|------------------|-------|
+| FL1-ACC-SW1 | Cisco 3560-24PC | 1 | Floor 1 | Routing disabled |
+| FL1-ACC-SW2 | Cisco 3560-24PC | 1 | Floor 2 | Routing disabled |
 
