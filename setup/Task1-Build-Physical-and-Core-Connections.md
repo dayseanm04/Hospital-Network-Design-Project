@@ -137,3 +137,7 @@ Connect the two distribution switches together.
 ## 📌 Note:
 Note that I may update the connections when nessasry
 
+## Network Diagram:
+
+<img width="695" height="611" alt="3-tier" src="https://github.com/user-attachments/assets/3d0b558e-51db-4a0e-9a47-193a979c699c" />
+
