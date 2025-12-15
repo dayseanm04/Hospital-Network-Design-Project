@@ -131,6 +131,25 @@ Connect the two distribution switches together.
 | G1/0/22 | DSW2 | G1/0/7 |
 | G1/0/21 | DSW2 | G1/0/8 |
 
+---
+
+### Floor3-ASW1 Connections
+| Floor3-ASW1 Interface | Distribution Switch | Interface |
+|---------------|---------------------|-----------|
+| G1/0/24 | DSW1 | G1/0/9 |
+| G1/0/23 | DSW1 | G1/0/10 |
+| G1/0/22 | DSW2 | G1/0/9 |
+| G1/0/21 | DSW2 | G1/0/10 |
+
+---
+
+### Floor3-ASW2 Connections
+| Floor3-ASW1 Interface | Distribution Switch | Interface |
+|---------------|---------------------|-----------|
+| G1/0/24 | DSW1 | G1/0/11 |
+| G1/0/23 | DSW1 | G1/0/12 |
+| G1/0/22 | DSW2 | G1/0/11 |
+| G1/0/21 | DSW2 | G1/0/12 |
 
 ✔️ Each access switch has **dual uplinks** for redundancy.
 
