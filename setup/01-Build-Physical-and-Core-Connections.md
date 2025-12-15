@@ -114,7 +114,7 @@ Connect the two distribution switches together.
 ---
 
 ### Floor2-ASW1 Connections
-| Floor3-ASW1 Interface | Distribution Switch | Interface |
+| Floor2-ASW1 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/5 |
 | G1/0/23 | DSW1 | G1/0/6 |
@@ -124,7 +124,7 @@ Connect the two distribution switches together.
 ---
 
 ### Floor2-ASW2 Connections
-| Floor3-ASW1 Interface | Distribution Switch | Interface |
+| Floor2-ASW2 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/7 |
 | G1/0/23 | DSW1 | G1/0/8 |
@@ -144,7 +144,7 @@ Connect the two distribution switches together.
 ---
 
 ### Floor3-ASW2 Connections
-| Floor3-ASW1 Interface | Distribution Switch | Interface |
+| Floor3-ASW2 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/11 |
 | G1/0/23 | DSW1 | G1/0/12 |
