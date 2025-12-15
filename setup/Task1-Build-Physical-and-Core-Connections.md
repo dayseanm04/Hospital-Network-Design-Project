@@ -50,7 +50,7 @@ Connect the firewall to the hospital core router.
 
 ## 🏛️ 6. Distribution Switch Connections
 
-### **Distribution Switch Information**
+### Distribution Switch Information
 - Model: Cisco 3650-24PT
 - Devices: DSW1 and DSW2
 
@@ -87,9 +87,9 @@ Connect the two distribution switches together.
 
 ## 🏢 8. Access Switch Connections
 
-### **Access Switch Information**
+### Access Switch Information
 - Model: Cisco 3650-24PT
-- Devices: ASW1, ASW2, ASW3
+- Devices: Floor1-ASW1, Floor1-ASW2 Floor2-ASW1, Floor2-ASW2, Floor3-ASW1, Floor3-ASW2
 
 ---
 
@@ -161,7 +161,7 @@ Connect the two distribution switches together.
 - ✅ Firewall connected to the hospital core router  
 - ✅ Core router is connected to the distribution switches  
 - ✅ Distribution switches are interconnected  
-- ✅ Access switches hab dual connections to the distribution layers
+- ✅ Access switches has dual connections to the distribution layers
 
 
 ## 📌 Note:
