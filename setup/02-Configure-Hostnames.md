@@ -1,6 +1,6 @@
 # Task 2 – Configure Hostnames 🏷️
 
-## 📌 Objective
+### 📌 Objective
 Assign clear and consistent hostnames to all network devices in the hospital network.  
 This helps with **identification**, **troubleshooting**, and **network documentation**.
 
