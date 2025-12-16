@@ -53,9 +53,9 @@ Each floor uses a separate **/24 network**
 | General Inpatient Wing | 172.16.3.96/27 | 255.255.255.224 | .97 – .126 | 15 | 30 |
 | Radiology / Imaging | 172.16.3.128/27 | 255.255.255.224 | .129 – .158 | 12 | 30 |
 | Nurse Station | 172.16.3.160/27 | 255.255.255.224 | .161 – .190 | 11 | 30 |
-| ICU Receptionist | 172.16.3.192/28 | 255.255.255.240 | .193 – .206 | 7 | 126 |
-| Floor 3 Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .127| 7 | 126 |
-| Primary Care Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .127| 5 | 126 |
+| ICU Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | 7 | 126 |
+| Floor 3 Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .127| 7 | 126 |
+| Primary Care Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .127| 5 | 126 |
 
 **Floor 3 Total Allocated IPs:** about 214  
 **Floor 3 Total Devices:** about 122  
