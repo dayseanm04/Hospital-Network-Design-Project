@@ -34,7 +34,6 @@ Connect the ISP router to the hospital firewall for security and redundancy.
 | ISP Router Interface | Firewall Interface |
 |----------------------|--------------------|
 | ISP1-R1 G5/0 | HS-Core-FW G1/1 |
-| ISP1-R1 G6/0 | HS-Core-FW G1/2 |
 
 ---
 
