@@ -60,13 +60,11 @@ Connect the firewall to the hospital core router.
 | DSW1 Interface | Core Router Interface | Media |
 |---------------|----------------------|-------|
 | G1/1/1 | HS-CW-R1 G2/0 | Fiber |
-| G1/1/2 | HS-CW-R1 G3/0 | Fiber |
 
 ### DSW2 to Core Router
 | DSW2 Interface | Core Router Interface | Media |
 |---------------|----------------------|-------|
-| G1/1/1 | HS-CW-R1 G4/0 | Fiber |
-| G1/1/2 | HS-CW-R1 G5/0 | Fiber |
+| G1/1/1 | HS-CW-R1 G3/0 | Fiber |
 
 ✔️ These connections will support redundancy and load balancing.
 
