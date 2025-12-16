@@ -18,7 +18,7 @@ Each floor uses a separate **/24 network**
 | Pharmacy | 172.16.1.144/28 | 255.255.255.240 | .145 – .158 | 6 | 14 |
 | Main Lobby Reception | 172.16.1.160/28 | 255.255.255.240 | .161 – .174 | 5 | 14 |
 | Loading Dock / Supply | 172.16.1.176/28 | 255.255.255.240 | .177 – .190 | 6 | 14 |
-| ED Nurse Station 2 | 172.16.1.192/28 | 255.255.255.240 | .193 – .206 | 3 | 14 |
+| ED Nurse Station 2 | 172.16.1.192/28 | 255.255.255.240 | .193 – .206 | 9 | 14 |
 
 
 **Floor 1 Total Allocated IPs:** about 190  
