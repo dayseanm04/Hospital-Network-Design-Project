@@ -76,8 +76,8 @@ Connect the two distribution switches together.
 
 | DSW1 Interface | DSW2 Interface | Media |
 |---------------|---------------|-------|
+| G1/1/2 | G1/1/2 | Fiber |
 | G1/1/3 | G1/1/3 | Fiber |
-| G1/1/4 | G1/1/4 | Fiber |
 
 ✔️ These links will later be bundled using EtherChannel.
 
