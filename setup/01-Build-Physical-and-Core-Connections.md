@@ -9,8 +9,8 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Device Type: Cisco PT-Router
 - Hostname: ISP1-R1
 - Interfaces:
-  - G0/0–G0/4 → Fiber
-  - G0/5–G0/9 → Gigabit Ethernet
+  - G0/0 – G0/4 → Fiber
+  - G0/5 – G0/9 → Gigabit Ethernet
  
 ---
 
@@ -18,7 +18,7 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Device: Cisco ASA 5506
 - Hostname: HS-Core-FW
 - Interfaces:
-  - G1/1–G1/9 → Gigabit Ethernet
+  - G1/1 – G1/9 → Gigabit Ethernet
 
 ---
 
@@ -26,8 +26,8 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Device: Cisco PT-Router
 - Hostname: HS-Core-R1
 - Interfaces:
-  - G0/0–G0/1 → Gigabit Ethernet
-  - G0/2–G0/9 → Fiber
+  - G0/0 – G0/1 → Gigabit Ethernet
+  - G0/2 – G0/9 → Fiber
 
 ## 🔗 4. ISP to Hospital Core Firewall Connections
 Connect the ISP router to the hospital firewall for security and redundancy.
