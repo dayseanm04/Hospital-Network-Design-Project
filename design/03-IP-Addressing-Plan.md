@@ -83,7 +83,7 @@ Each floor uses a separate **/24 network**
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
-| Nurse Offices | 172.16.5.0/26 | 255.255.255.192 | .1 – .62 | 30 | 62
+| Security Stations  | 172.16.5.0/26 | 255.255.255.192 | .1 – .62 | 30 | 62
 
 ---
 
