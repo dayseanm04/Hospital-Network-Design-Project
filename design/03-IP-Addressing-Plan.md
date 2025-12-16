@@ -34,7 +34,7 @@ Each floor uses a separate **/24 network**
 | Billing & Finance | 172.16.2.32/27 | 255.255.255.224 | .33 – .62 | 18 | 30 |
 | Human Resources | 172.16.2.64/27 | 255.255.255.224 | .65 – .94 | 13 | 30 |
 | Supply Chain / Purchasing | 172.16.2.96/28 | 255.255.255.240 | .97 – .110 | 6 | 14 |
-| Floor 2 Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | 6 | 14 |
+| Floor 2 Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | 6 | 126 |
 | Insurance | 172.16.2.128/28 | 255.255.255.240 | .129 – .142 | 3 | 14 |
 | IT Department | 172.16.2.144/28 | 255.255.255.240 | .145 – .158 | 7 | 14 |
 
@@ -53,7 +53,7 @@ Each floor uses a separate **/24 network**
 | General Inpatient Wing | 172.16.3.96/27 | 255.255.255.224 | .97 – .126 | 15 | 30 |
 | Radiology / Imaging | 172.16.3.128/27 | 255.255.255.224 | .129 – .158 | 12 | 30 |
 | Nurse Station | 172.16.3.160/27 | 255.255.255.224 | .161 – .190 | 11 | 30 |
-| ICU Receptionist | 172.16.3.192/28 | 255.255.255.240 | .193 – .206 | 7 | 14 |
+| ICU Receptionist | 172.16.3.192/28 | 255.255.255.240 | .193 – .206 | 7 | 126 |
 | Floor 3 Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .127| 7 | 126 |
 | Primary Care Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .127| 5 | 126 |
 
@@ -84,7 +84,7 @@ Each floor uses a separate **/24 network**
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
 | Security Stations  | 172.16.5.0/26 | 255.255.255.192 | .1 – .62 | about 20 | 62|
-| All receptionists | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | about 30 | 127 |
+| All receptionists | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | about 30 | 126 |
 
 ---
 
