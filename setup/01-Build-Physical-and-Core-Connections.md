@@ -21,7 +21,7 @@ The goal is to ensure all devices are **properly connected and ready for configu
 
 ---
 
-## 🧠 3. Hospital Core Router Setup Information
+## 🧠 3. Hospital Core Router Information
 - Device: Cisco PT-Router
 - Hostname: HS-Core-R1
 - Interfaces:
