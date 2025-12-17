@@ -34,8 +34,8 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 200     | Medical Records / HIM         | 172.16.2.0/27      | 255.255.255.224    | 172.16.2.1         |
 | 210     | Billing & Finance             | 172.16.2.32/27     | 255.255.255.224    | 172.16.2.33        |
 | 220     | Human Resources (HR)          | 172.16.2.64/27     | 255.255.255.224    | 172.16.2.65        |
-| 260     | Insurance                     | 172.16.2.128/27   | 255.255.255.224    | 172.16.2.129       |
-| 270    | IT Department (user VLAN)     | 172.16.2.144/28    | 255.255.255.240    | 172.16.2.145       |
+| 230     | Insurance                     | 172.16.2.128/27   | 255.255.255.224    | 172.16.2.129       |
+| 240    | IT Department (user VLAN)     | 172.16.2.144/28    | 255.255.255.240    | 172.16.2.145       |
 | 180     | Supply Chain / Purchasing     | 172.16.7.0/27    | 255.255.255.224    | 172.16.7.1       |
 
 ## 🧩 Security Stations(172.16.5.0/26) & Receptionists (172.16.6.0/26)
