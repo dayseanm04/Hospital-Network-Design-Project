@@ -11,7 +11,6 @@ This task focuses:
 ---
 
 ## ✅ Standard VLAN Configuration Pattern
-Use this same pattern for **every VLAN** listed below:
 
 #### 1️⃣ Enter global configuration mode  
 `configure terminal`
@@ -24,4 +23,18 @@ Use this same pattern for **every VLAN** listed below:
 
 #### 4️⃣ Exit VLAN configuration mode  
 `exit`
+
+## ✅ Standard Interface Assignment Pattern
+
+#### 1️⃣ Enter interface configuration  
+- `interface range [INTERFACE_RANGE]`
+
+#### 2️⃣ Assign VLAN  
+- `switchport access vlan [VLAN_ID]`
+
+#### 3️⃣ Enable interface  
+- `no shutdown`
+
+#### 4️⃣ Exit interface configuration  
+- `exit`
 
