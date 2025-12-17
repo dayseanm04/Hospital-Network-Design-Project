@@ -83,7 +83,7 @@ Each floor uses a separate **/24 network**
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
-| Security Stations  | 172.16.5.0/26 | 255.255.255.192 | .1 – .62 | about 20 | 62|
+| Security Stations (Floor 1- 4)  | 172.16.5.0/26 | 255.255.255.192 | .1 – .62 | about 20 | 62|
 | All receptionists | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | about 30 | 126 |
 
 ---
