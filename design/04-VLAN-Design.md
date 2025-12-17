@@ -55,10 +55,10 @@ The **default gateway is always the first usable IP address in each subnet**.
 | VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
 |--------:|-------------------------------|--------------------|--------------------|--------------------|
 | 300     | Nurse Offices                 | 172.16.3.0/26      | 255.255.255.192    | 172.16.3.1         |
+| 300     | Nurse Station (Floor 3)       | 172.16.3.0/26      | 255.255.255.192    | 172.16.3.1         |
 | 310     | ICU (Floor 3)                 | 172.16.3.64/27     | 255.255.255.224    | 172.16.3.65        |
 | 320     | General Inpatient Wing (F3)   | 172.16.3.96/27     | 255.255.255.224    | 172.16.3.97        |
 | 330     | Radiology / Imaging           | 172.16.3.128/27    | 255.255.255.224    | 172.16.3.129       |
-| 340     | Nurse Station (Floor 3)       | 172.16.3.160/27    | 255.255.255.224    | 172.16.3.161       |
 
 ## 🧩 Security Stations(172.16.5.0/26) & Receptionists (172.16.6.0/26)
 
