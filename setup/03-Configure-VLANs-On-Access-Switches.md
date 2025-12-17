@@ -27,14 +27,20 @@ This task focuses:
 ## ✅ Standard Interface Assignment Pattern
 
 #### 1️⃣ Enter interface configuration  
-- `interface range [INTERFACE_RANGE]`
+`interface range [INTERFACE_RANGE]`
 
 #### 2️⃣ Assign VLAN  
-- `switchport access vlan [VLAN_ID]`
+`switchport access vlan [VLAN_ID]`
 
 #### 3️⃣ Enable interface  
-- `no shutdown`
+`no shutdown`
 
 #### 4️⃣ Exit interface configuration  
-- `exit`
+`exit`
+
+---
+
+# 🏥 Floor 1 Access Switches
+
+## 🧩 Floor 1 – F1-ASW1
 
