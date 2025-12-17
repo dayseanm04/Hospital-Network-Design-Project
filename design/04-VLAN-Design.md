@@ -17,6 +17,8 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 ## 🧩 Security Stations(172.16.5.0/26) & Receptionists (172.16.6.0/26)
 
+| VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
+|--------:|-------------------------------|--------------------|--------------------|--------------------|
 | 500     | Floor 1 Security Station      | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1       |
 | 500     | Hospital Security / Safety Office      | 172.16.6.0/25  |  255.255.255.128  |  172.16.5.1   |
 | 600     | Main Lobby Reception          | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1     |
