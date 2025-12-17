@@ -88,6 +88,9 @@ Each floor uses a separate **/24 network**
 |-----------|--------|------|------------------|---------|----------|
 | Security Stations (Floor 1- 4) | 172.16.5.0/26 | 255.255.255.192 | .1 – .62 | about 20 | 62|
 | Receptionists (Floor 1- 4) | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | about 30 | 126 |
+| Loading Dock / Supply /Supply Chain / Purchasing  | 172.16.7.0/27 | 255.255.255.224 | .1 - .30 | about 15 | 30 |
+
+
 
 ---
 
