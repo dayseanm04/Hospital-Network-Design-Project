@@ -35,8 +35,8 @@ Each floor uses a separate **/24 network**
 | Medical Records / HIM | 172.16.2.0/27 | 255.255.255.224 | .1 – .30 | 18 | 30 |
 | Billing & Finance | 172.16.2.32/27 | 255.255.255.224 | .33 – .62 | 18 | 30 |
 | Human Resources | 172.16.2.64/27 | 255.255.255.224 | .65 – .94 | 13 | 30 |
-| Insurance | 172.16.2.128/28 | 255.255.255.240 | .129 – .142 | 3 | 14 |
-| IT Department | 172.16.2.144/28 | 255.255.255.240 | .145 – .158 | 7 | 14 |
+| Insurance | 172.16.2.128/27 | 255.255.255.224 | .97 – .126 | 12 | 30 |
+| IT Department | 172.16.2.144/27 | 255.255.255.224 | .129 – .159 | 7 | 14 |
 | Floor 2 Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 6 | 126 |
 | Supply Chain / Purchasing | 172.16.7.0/27 | 255.255.255.224 | .1 - .30 | 6 | 30 |
 
@@ -86,7 +86,7 @@ Each floor uses a separate **/24 network**
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
-| Security Stations (Floor 1- 4) | 172.16.5.0/26 | 255.255.255.192 | .1 – .62 | about 20 | 62|
+| Security Stations (Floor 1 - 4) | 172.16.5.0/26 | 255.255.255.192 | .1 – .62 | about 20 | 62|
 | Receptionists (Floor 1- 4) | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | about 30 | 126 |
 | Loading Dock / Supply / Supply Chain / Purchasing  | 172.16.7.0/27 | 255.255.255.224 | .1 - .30 | about 15 | 30 |
 
