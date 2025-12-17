@@ -105,8 +105,8 @@ Each floor uses a separate **/24 network**
 - I divided the using VLSM to avoid wasting IP addresses.  
 - Clinical areas use larger subnets due to more devices (PCs, phones).  
 - Administrative areas mostly fit into **/27** or **/28** subnets.  
-- Security stations often use the smallest subnets (**/28** or **/29**).
-- The devices are strictly PCs, IP Phones and printers. It dosent include hospital equipments sicns I cant simulate that in Packet Tracer
+- Security stations share the same subnet **172.16.5.0/26**
+- The devices are strictly PCs, IP Phones and printers. It dosent include hospital equipments sinces I cant simulate that in Packet Tracer
 
 ---
 
