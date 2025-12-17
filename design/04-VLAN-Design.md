@@ -47,9 +47,9 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 320     | General Inpatient Wing (F3)   | 172.16.3.96/27     | 255.255.255.224    | 172.16.3.97        |
 | 330     | Radiology / Imaging           | 172.16.3.128/27    | 255.255.255.224    | 172.16.3.129       |
 | 340     | Nurse Station (Floor 3)       | 172.16.3.160/27    | 255.255.255.224    | 172.16.3.161       |
+| 500     | Security Station (Floor 3)    | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1      |
 | 600     | ICU Receptionist (Floor 3)    | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
 | 600     | Floor 3 Receptionist          | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
-| 500     | Security Station (Floor 3)    | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1      |
 
 ---
 
@@ -63,10 +63,11 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 430     | ICU (Floor 4)                       | 172.16.4.128/27    | 255.255.255.224    | 172.16.4.129       |
 | 440     | Phlebotomy / Blood Draw             | 172.16.4.160/28    | 255.255.255.240    | 172.16.4.161       |
 | 450     | Nurse Station (Floor 4)             | 172.16.4.176/28    | 255.255.255.240    | 172.16.4.177       |
+| 500     | Security Station (Floor 4)          | 172.16.5.0/26    | 255.255.255.192    | 172.16.5.1       |
 | 600     | ICU Receptionist (Floor 4)          | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
 | 600     | Specialty Care Receptionist         | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
 | 600     | Primary Care Receptionist           | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
-| 500     | Security Station (Floor 4)          | 172.16.5.0/26    | 255.255.255.192    | 172.16.5.1       |
+
 
 ## ✅ Summary
 
