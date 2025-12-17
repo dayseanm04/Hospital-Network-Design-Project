@@ -29,10 +29,11 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 210     | Billing & Finance             | 172.16.2.32/27     | 255.255.255.224    | 172.16.2.33        |
 | 220     | Human Resources (HR)          | 172.16.2.64/27     | 255.255.255.224    | 172.16.2.65        |
 | 230     | Supply Chain / Purchasing     | 172.16.2.96/28     | 255.255.255.240    | 172.16.2.97        |
-| 600     | Floor 2 Reception             | 172.16.6.0/25   | 255.255.255.128    | 172.16.6.1       |
-| 500     | Floor 2 Security Station      | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1       |
 | 260     | Insurance                     | 172.16.2.144/28    | 255.255.255.240    | 172.16.2.145       |
 | 270    | IT Department (user VLAN)     | 172.16.2.160/28    | 255.255.255.240    | 172.16.2.161       |
+| 500     | Floor 2 Security Station      | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1       |
+| 600     | Floor 2 Reception             | 172.16.6.0/25   | 255.255.255.128    | 172.16.6.1       |
+
 
 (**Note:** I will cnfigure Management VLANs for IT using a separate subnet and VLAN ID.)
 
@@ -75,9 +76,13 @@ The **default gateway is always the first usable IP address in each subnet**.
   - Its **own VLAN ID**
   - A subnet from the **IP Addressing Plan**
   - A **default gateway** set to the first usable IP
+  - The receptionists are on the same vlan
+  - The Security stations are on the same vlan
+  
 - Floors are separated by:
   - Different **172.16.x.0/24** networks
   - VLANs that match the department structure
+  
 - This design makes it easy to:
   - Apply ACLs between VLANs
   - Prioritize traffic (ED, ICU, Imaging)
