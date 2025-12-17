@@ -82,7 +82,7 @@ Each floor uses a separate **/24 network**
 **Floor 4 Total Allocated IPs:** about 214  
 **Floor 4 Total Devices:** about 120  
 
-## 🧩 Security Stations & Receptionists Addressing (172.16.5.0/27)
+## 🧩 Security Stations & Receptionists Addressing (172.16.5.0/26)
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
