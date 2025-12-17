@@ -19,6 +19,8 @@ Each floor uses a separate **/24 network**
 | Loading Dock | 172.16.1.160/28 | 255.255.255.240 | .161 – .174 | 5 | 14 |
 | ED Nurse Station 2 / Supply | 172.16.1.176/28 | 255.255.255.240 | .177 – .190 | 6 | 14 |
 | Main Lobby Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 5 | 126|
+| Floor 2 Security Station  | 172.16.5.0/26  | 255.255.255.192   | .1 - .126  | 126 |
+
 
 
 **Floor 1 Total Allocated IPs:** about 190  
@@ -36,7 +38,7 @@ Each floor uses a separate **/24 network**
 | Supply Chain / Purchasing | 172.16.2.96/28 | 255.255.255.240 | .97 – .110 | 6 | 14 |
 | Insurance | 172.16.2.128/28 | 255.255.255.240 | .129 – .142 | 3 | 14 |
 | IT Department | 172.16.2.144/28 | 255.255.255.240 | .145 – .158 | 7 | 14 |
-| Floor 2 Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | 6 | 126 |
+| Floor 2 Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 6 | 126 |
 
 
 **Floor 2 Total Allocated IPs:** about 130  
@@ -53,9 +55,9 @@ Each floor uses a separate **/24 network**
 | General Inpatient Wing | 172.16.3.96/27 | 255.255.255.224 | .97 – .126 | 15 | 30 |
 | Radiology / Imaging | 172.16.3.128/27 | 255.255.255.224 | .129 – .158 | 12 | 30 |
 | Nurse Station | 172.16.3.160/27 | 255.255.255.224 | .161 – .190 | 11 | 30 |
-| ICU Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .127 | 7 | 126 |
-| Floor 3 Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .127| 7 | 126 |
-| Primary Care Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .127| 5 | 126 |
+| ICU Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 7 | 126 |
+| Floor 3 Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .126| 7 | 126 |
+| Primary Care Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .126| 5 | 126 |
 
 **Floor 3 Total Allocated IPs:** about 214  
 **Floor 3 Total Devices:** about 122  
@@ -73,8 +75,8 @@ Each floor uses a separate **/24 network**
 | Phlebotomy / Blood Draw | 172.16.4.160/27 | 255.255.255.224 | .161 – .190 | 9 | 30 |
 | Nurse Station | 172.16.4.176/27 | 255.255.255.224 | .193 – .222 | 7 | 30 |
 | ICU Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .127 | 7 | 126 |
-| Specialty Care Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .127 | 5 | 126 |
-| Primary Care Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .127 | 5 | 126 |
+| Specialty Care Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .126 | 5 | 126 |
+| Primary Care Receptionist | 172.16.6.0/25 | 255.255.255.192 | .1 - .126 | 5 | 126 |
 
 **Floor 4 Total Allocated IPs:** about 214  
 **Floor 4 Total Devices:** about 120  
