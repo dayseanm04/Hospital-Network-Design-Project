@@ -17,7 +17,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 500     | Floor 1 Security Station      | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1       |
 | 500     | Hospital Security / Safety Office      | 172.16.6.0/25  |  255.255.255.128  |  172.16.6.1   |
 | 600     | Main Lobby Reception          | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1     |
-| 130     | ED Receptionist                  | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1     |
+| 600     | ED Receptionist                  | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1     |
 
 
 ---
