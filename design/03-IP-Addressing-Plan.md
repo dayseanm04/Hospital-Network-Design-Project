@@ -19,7 +19,7 @@ Each floor uses a separate **/24 network**
 | Loading Dock | 172.16.1.160/28 | 255.255.255.240 | .161 – .174 | 5 | 14 |
 | ED Nurse Station 2 / Supply | 172.16.1.176/28 | 255.255.255.240 | .177 – .190 | 6 | 14 |
 | Main Lobby Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 5 | 126|
-| Floor 1 Security Station  | 172.16.5.0/26  | 255.255.255.192   | .1 - .126  | 4 | 126 |
+| Floor 1 Security Station  | 172.16.5.0/26  | 255.255.255.192   | .1 - .126  | 4 | 62 |
 
 
 
@@ -39,6 +39,7 @@ Each floor uses a separate **/24 network**
 | Insurance | 172.16.2.128/28 | 255.255.255.240 | .129 – .142 | 3 | 14 |
 | IT Department | 172.16.2.144/28 | 255.255.255.240 | .145 – .158 | 7 | 14 |
 | Floor 2 Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 6 | 126 |
+
 
 
 **Floor 2 Total Allocated IPs:** about 130  
