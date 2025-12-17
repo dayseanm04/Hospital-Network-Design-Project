@@ -14,14 +14,14 @@ This task focuses:
 Use this same pattern for **every VLAN** listed below:
 
 #### 1️⃣ Enter global configuration mode  
-- `configure terminal`
+`configure terminal`
 
 #### 2️⃣ Create the VLAN  
-- `vlan [VLAN_ID]`
+`vlan [VLAN_ID]`
 
 #### 3️⃣ Name the VLAN  
-- `name [VLAN_NAME]`
+`name [VLAN_NAME]`
 
 #### 4️⃣ Exit VLAN configuration mode  
-- `exit`
+`exit`
 
