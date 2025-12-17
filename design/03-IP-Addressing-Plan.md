@@ -19,7 +19,7 @@ Each floor uses a separate **/24 network**
 | Loading Dock | 172.16.1.160/28 | 255.255.255.240 | .161 – .174 | 5 | 14 |
 | ED Nurse Station 2 / Supply | 172.16.1.176/28 | 255.255.255.240 | .177 – .190 | 6 | 14 |
 | Main Lobby Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 5 | 126|
-| Floor 2 Security Station  | 172.16.5.0/26  | 255.255.255.192   | .1 - .126  | 126 |
+| Floor 1 Security Station  | 172.16.5.0/26  | 255.255.255.192   | .1 - .126  | 126 |
 
 
 
