@@ -17,6 +17,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 140     | Pharmacy                      | 172.16.1.144/28    | 255.255.255.240    | 172.16.1.145       |
 | 160     | Loading Dock / Supply         | 172.16.1.160/28    | 255.255.255.240    | 172.16.1.161       |
 | 170     | ED Nurse Station 2            | 172.16.1.208/28    | 255.255.255.240    | 172.16.1.209       |
+| 500     | Floor 1 Security Station      | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1       |
 | 600     | Main Lobby Reception          | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
 
 ---
