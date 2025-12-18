@@ -29,14 +29,11 @@ This task focuses:
 #### 1️⃣ Enter interface configuration  
 `interface range [INTERFACE_RANGE]`
 
-#### 2️⃣ Assign VLAN  
+#### 2️⃣ Configure the ports as access ports 
+`switchport mode access`
+
+#### 3️⃣ Assign ports to the VLAN
 `switchport access vlan [VLAN_ID]`
-
-#### 3️⃣ Enable interface  
-`no shutdown`
-
-#### 4️⃣ Exit interface configuration  
-`exit`
 
 ---
 
