@@ -77,7 +77,7 @@ All Access Switches use the same trunk uplink range: **G1/0/21 – G1/0/24**
 
 ---
 
-## VLAN verificaiton Bellow:
+## Trunk verification Bellow:
 
 ### F1-ASW1
 
@@ -95,28 +95,10 @@ All Access Switches use the same trunk uplink range: **G1/0/21 – G1/0/24**
 
 <img width="690" height="137" alt="F2-ASW2-Trunk" src="https://github.com/user-attachments/assets/829e6d05-9921-404c-bbae-debc1dab59e8" />
 
+### F3-ASW1
 
+<img width="678" height="138" alt="F3-ASW1-Trunk" src="https://github.com/user-attachments/assets/fdee7924-f7a4-4f44-8fd3-f45ab27f69e8" />
 
+### F3-ASW2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="663" height="132" alt="F3-ASW2-Trunk" src="https://github.com/user-attachments/assets/96c740a6-32d2-4a58-ad8d-e0f09626a757" />
