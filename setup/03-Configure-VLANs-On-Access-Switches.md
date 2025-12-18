@@ -131,10 +131,14 @@ This task focuses:
 
 <img width="988" height="247" alt="F1-ASW2-VLAN" src="https://github.com/user-attachments/assets/c30d600b-cd6d-44df-8b5d-046523708fee" />
 
+### F2-ASW1
 
+<img width="949" height="245" alt="F2-ASW1-VLAN" src="https://github.com/user-attachments/assets/6e8f68b9-8b78-43be-9080-cbc0dc5ea6a4" />
 
+### F2-ASW2
 
+<img width="1001" height="225" alt="F2-ASW2-VLAN" src="https://github.com/user-attachments/assets/53fb783f-1fcd-42ea-b747-5cabc014a605" />
 
-
+### F3-ASW1
 
 
