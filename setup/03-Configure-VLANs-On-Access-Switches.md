@@ -63,7 +63,7 @@ This task focuses:
 
 ---
 
-# 🏥 Floor 2 — Access Switches
+# 🏥 Floor 2 Access Switches
 
 ## 🧩 Floor 2 – F2-ASW1
 
@@ -88,7 +88,7 @@ This task focuses:
 
 ---
 
-# 🏥 Floor 3 — Access Switches
+# 🏥 Floor 3 Access Switches
 
 ## 🧩 Floor 3 – F3-ASW1
 
