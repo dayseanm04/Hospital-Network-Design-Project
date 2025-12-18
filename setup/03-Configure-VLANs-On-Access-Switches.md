@@ -61,5 +61,31 @@ This task focuses:
 | 180 | Supply-Chain-Purchasing | Gi1/0/15 – Gi1/0/17 |
 | 500 | F1-Security-Office-Station | Gi1/0/18 – Gi1/0/20 |
 
+---
+
+# 🏥 Floor 2 — Access Switches
+
+## 🧩 Floor 2 – F2-ASW1
+
+| VLAN ID | VLAN Name | Access Ports |
+|--------:|-----------|--------------|
+| 200 | Medical-Records-Dept | Gi1/0/1 – Gi1/0/6 |
+| 210 | Billing-Finance-DPT | Gi1/0/7 – Gi1/0/12 |
+| 220 | Human-Resources | Gi1/0/13 – Gi1/0/17 |
+| 500 | F2-Security-Station | Gi1/0/18 – Gi1/0/20 |
+
+
+---
+
+## 🧩 Floor 2 – F2-ASW2
+
+| VLAN ID | VLAN Name | Access Ports |
+|--------:|-----------|--------------|
+| 200 | Medical-Records-Dept | Gi1/0/1 – Gi1/0/4 |
+| 210 | Billing-Finance-DPT | Gi1/0/5 – Gi1/0/8 |
+| 230 | Insurance-DPT | Gi1/0/9 – Gi1/0/12 |
+| 240 | IT-Department | Gi1/0/13 – Gi1/0/17 |
+| 600 | F2-Receptionists | Gi1/0/18 – Gi1/0/20 |
+
 
 
