@@ -74,7 +74,6 @@ This task focuses:
 | 220 | Human-Resources | Gi1/0/13 – Gi1/0/17 |
 | 500 | F2-Security-Station | Gi1/0/18 – Gi1/0/20 |
 
-
 ---
 
 ## 🧩 Floor 2 – F2-ASW2
@@ -87,5 +86,30 @@ This task focuses:
 | 240 | IT-Department | Gi1/0/13 – Gi1/0/17 |
 | 600 | F2-Receptionists | Gi1/0/18 – Gi1/0/20 |
 
+---
+
+# 🏥 Floor 3 — Access Switches
+
+## 🧩 Floor 3 – F3-ASW1
+
+| VLAN ID | VLAN Name | Access Ports |
+|--------:|-----------|--------------|
+| 300 | Nurse-Offices | Gi1/0/1 – Gi1/0/5 |
+| 310 | ICU-DPT | Gi1/0/6 – Gi1/0/10 |
+| 320 | Inpatient-DPT | Gi1/0/11 – Gi1/0/15 |
+| 330 | Radiology-DPT | Gi1/0/16 – Gi1/0/20 |
+
+
+---
+
+## 🧩 Floor 3 – F3-ASW2
+
+| VLAN ID | VLAN Name | Access Ports |
+|--------:|-----------|--------------|
+| 300 | Nurse-Offices | Gi1/0/1 – Gi1/0/5 |
+| 310 | ICU-DPT | Gi1/0/6 – Gi1/0/10 |
+| 330 | Radiology-DPT | Gi1/0/11 – Gi1/0/14 |
+| 500 | F3-Security-Station | Gi1/0/15 – Gi1/0/17 |
+| 600 | F3-Receptionists | Gi1/0/18 – Gi1/0/20 |
 
 
