@@ -36,3 +36,15 @@ All Access Switches use the same trunk uplink range: **G1/0/21 – G1/0/24**
 | `G1/0/23 - G1/0/24` | DSW1 |
 | `G1/0/21 - G1/0/22` | DSW2 |
 
+---
+
+## 🧱 Part B — Distribution Switch Trunks (DSW ←→ Access)
+
+### 🔌 Trunk Interfaces to Configure on DSWs
+| Device | Interface Range to Trunk | Purpose |
+|---|---|---|
+| DSW1 | `G1/0/1 - G1/0/12` | Trunks to Access Switch uplinks |
+| DSW2 | `G1/0/1 - G1/0/12` | Trunks to Access Switch uplinks |
+
+---
+
