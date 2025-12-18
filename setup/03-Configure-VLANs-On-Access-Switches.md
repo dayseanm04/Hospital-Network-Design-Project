@@ -112,4 +112,29 @@ This task focuses:
 | 500 | F3-Security-Station | Gi1/0/15 – Gi1/0/17 |
 | 600 | F3-Receptionists | Gi1/0/18 – Gi1/0/20 |
 
+## 🔍 Verification (Run on Each Access Switch)
+
+### ✔ Verify VLAN creation:
+- `show vlan brief`
+- `show interfaces status`
+
+### ✔ Save configuration:
+- `write memory`  
+
+## VLAN verificaiton Bellow:
+
+### F1-ASW1
+
+<img width="924" height="208" alt="F1-ASW1-VLAN" src="https://github.com/user-attachments/assets/0b1c1864-c08c-45f3-97c6-3fb4105fefc5" />
+
+### F1-ASW2
+
+<img width="988" height="247" alt="F1-ASW2-VLAN" src="https://github.com/user-attachments/assets/c30d600b-cd6d-44df-8b5d-046523708fee" />
+
+
+
+
+
+
+
 
