@@ -11,7 +11,7 @@
 | 110 | X-Ray-Imaging-DPT | Gi1/0/9 – Gi1/0/16 |
 | 600 | F1-Receptionists | Gi1/0/17 – Gi1/0/20 |
 
-### 🔌 End Devices (Connection)
+### 🔌 End Devices (Exact Ports)
 | Department | Device | Type | Interface |
 |-----------|--------|------|-----------|
 | Emergency Dept | ED-1 | PC | Gi1/0/1 |
@@ -48,3 +48,28 @@
 | Security | SEC-1 | PC | Gi1/0/18 |
 
 ---
+
+# 🏢 Floor 2
+
+## 🧩 F2-ASW1
+
+### ✅ VLAN Interface Ranges
+| VLAN ID | VLAN Name | Interface Range |
+|--------:|-----------|-----------------|
+| 200 | Medical-Records-Dept | Gi1/0/1 – Gi1/0/6 |
+| 210 | Billing-Finance-DPT | Gi1/0/7 – Gi1/0/12 |
+| 220 | Human-Resources | Gi1/0/13 – Gi1/0/17 |
+| 500 | F2-Security-Station | Gi1/0/18 – Gi1/0/20 |
+
+### 🔌 End Devices (Exact Ports)
+| Department | Device | Type | Interface |
+|-----------|--------|------|-----------|
+| Medical Records | MDR-1 | PC | Gi1/0/1 |
+| Medical Records | MDR-2 | PC | Gi1/0/2 |
+| Finance & Billing | FIN-1 | PC | Gi1/0/7 |
+| Finance & Billing | FIN-2 | PC | Gi1/0/8 |
+| Human Resources | HR-1 | PC | Gi1/0/13 |
+| Human Resources | HR-2 | PC | Gi1/0/14 |
+| Human Resources | HR-3 | PC | Gi1/0/15 |
+| Human Resources | HR-PRNT | Printer | Gi1/0/16 |
+| Security | SEC-2 | PC | Gi1/0/18 |
