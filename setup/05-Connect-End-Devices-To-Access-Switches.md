@@ -98,3 +98,27 @@
 
 ---
 
+# 🏨 Floor 3
+
+## 🧩 F3-ASW1
+
+### ✅ VLAN Interface Ranges
+| VLAN ID | VLAN Name | Interface Range |
+|--------:|-----------|-----------------|
+| 300 | Nurse-Offices | Gi1/0/1 – Gi1/0/5 |
+| 310 | ICU-DPT | Gi1/0/6 – Gi1/0/10 |
+| 320 | Inpatient-DPT | Gi1/0/11 – Gi1/0/15 |
+| 330 | Radiology-DPT | Gi1/0/16 – Gi1/0/20 |
+
+### 🔌 End Devices (Exact Ports)
+| Department | Device | Type | Interface |
+|-----------|--------|------|-----------|
+| Nurses | F3-NRS-1 | PC | Gi1/0/1 |
+| Nurses | F3-NRS-2 | PC | Gi1/0/2 |
+| ICU | ICU-1 | PC | Gi1/0/6 |
+| ICU | ICU-2 | PC | Gi1/0/7 |
+| Radiology | RAD-1 | PC | Gi1/0/16 |
+| Radiology | RAD-2 | PC | Gi1/0/17 |
+
+---
+
