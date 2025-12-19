@@ -1,7 +1,5 @@
 # 🔌 05 – Connect End Devices to Access Switches (ASW)
 
----
-
 # 🏥 Floor 1
 
 ## 🧩 F1-ASW1
