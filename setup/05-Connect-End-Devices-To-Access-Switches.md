@@ -145,3 +145,18 @@
 | Security | SEC-3 | PC | Gi1/0/15 |
 | Reception | RCPT-3 | PC | Gi1/0/18 |
 
+---
+
+## Network Diagram
+
+### Floor 1
+
+<img width="418" height="353" alt="F1-devices" src="https://github.com/user-attachments/assets/a9a605a2-c7ff-4990-b4b0-6868d50dfc9c" />
+
+### Floor 2
+
+<img width="413" height="350" alt="F2-devices" src="https://github.com/user-attachments/assets/91cbf454-9b9f-4e9d-b7aa-d91dc314b7ec" />
+
+### Floor 3
+
+<img width="397" height="291" alt="F3-devices" src="https://github.com/user-attachments/assets/68ed75ec-386a-4ede-8cf8-2b165e4ea9e6" />
