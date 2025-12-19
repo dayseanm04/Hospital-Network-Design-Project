@@ -24,3 +24,27 @@
 
 ---
 
+## 🧩 F1-ASW2
+
+### ✅ VLAN Interface Ranges
+| VLAN ID | VLAN Name | Interface Range |
+|--------:|-----------|-----------------|
+| 101 | Emergency-Dept | Gi1/0/1 – Gi1/0/6 |
+| 120 | Nurse-Stations | Gi1/0/7 – Gi1/0/11 |
+| 140 | Pharmacy | Gi1/0/12 – Gi1/0/14 |
+| 180 | Supply-Chain-Purchasing | Gi1/0/15 – Gi1/0/17 |
+| 500 | F1-Security-Office-Station | Gi1/0/18 – Gi1/0/20 |
+
+### 🔌 End Devices (Exact Ports)
+| Department | Device | Type | Interface |
+|-----------|--------|------|-----------|
+| Emergency Dept | ED-3 | PC | Gi1/0/1 |
+| Emergency Dept | ED-PRNT | Printer | Gi1/0/2 |
+| Nurse Stations | NRS-1 | PC | Gi1/0/7 |
+| Nurse Stations | NRS-2 | PC | Gi1/0/8 |
+| Nurse Stations | NRS-3 | PC | Gi1/0/9 |
+| Nurse Stations | NRS-PRNT | Printer | Gi1/0/11 |
+| Supply Chain Management | SCM-1 | PC | Gi1/0/15 |
+| Security | SEC-1 | PC | Gi1/0/18 |
+
+---
