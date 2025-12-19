@@ -73,3 +73,28 @@
 | Human Resources | HR-3 | PC | Gi1/0/15 |
 | Human Resources | HR-PRNT | Printer | Gi1/0/16 |
 | Security | SEC-2 | PC | Gi1/0/18 |
+
+---
+
+## 🧩 F2-ASW2
+
+### ✅ VLAN Interface Ranges
+| VLAN ID | VLAN Name | Interface Range |
+|--------:|-----------|-----------------|
+| 200 | Medical-Records-Dept | Gi1/0/1 – Gi1/0/4 |
+| 210 | Billing-Finance-DPT | Gi1/0/5 – Gi1/0/8 |
+| 230 | Insurance-DPT | Gi1/0/9 – Gi1/0/12 |
+| 240 | IT-Department | Gi1/0/13 – Gi1/0/17 |
+| 600 | F2-Receptionists | Gi1/0/18 – Gi1/0/20 |
+
+### 🔌 End Devices (Exact Ports)
+| Department | Device | Type | Interface |
+|-----------|--------|------|-----------|
+| Medical Records | MDR-3 | PC | Gi1/0/1 |
+| Medical Records | MDR-PRNT | Printer | Gi1/0/2 |
+| Finance & Billing | FIN-3 | PC | Gi1/0/5 |
+| Finance & Billing | FIN-PRNT | Printer | Gi1/0/6 |
+| Reception | RCPT-2 | PC | Gi1/0/18 |
+
+---
+
