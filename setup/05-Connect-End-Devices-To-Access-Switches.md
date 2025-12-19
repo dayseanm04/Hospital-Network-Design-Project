@@ -43,7 +43,7 @@
 | Nurse Stations | NRS-1 | PC | Gi1/0/7 |
 | Nurse Stations | NRS-2 | PC | Gi1/0/8 |
 | Nurse Stations | NRS-3 | PC | Gi1/0/9 |
-| Nurse Stations | NRS-PRNT | Printer | Gi1/0/11 |
+| Nurse Stations | NRS-PRNT | Printer | Gi1/0/10 |
 | Supply Chain Management | SCM-1 | PC | Gi1/0/15 |
 | Security | SEC-1 | PC | Gi1/0/18 |
 
