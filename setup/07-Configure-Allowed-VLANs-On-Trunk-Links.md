@@ -95,14 +95,12 @@ Note: I allowed the VLANs configured earlier on F1-ASW1 on these trunk links. On
 
 # 🏨 Floor 3 – Trunk VLAN Allow Lists
 
-## 🔗 F3-ASW2 ↔ Distribution Switches
+## 🔗 F3-ASW1 ↔ Distribution Switches
 
 | Trunk Link | ASW Interfaces | DSW Interfaces | Allowed VLANs |
 |-----------|----------------|----------------|---------------|
-| F3-ASW2 → DSW1 | Gi1/0/23–24 | Gi1/0/11–12 | 300, 310, 330, 500, 600 |
-| F3-ASW2 → DSW2 | Gi1/0/21–22 | Gi1/0/11–12 | 300, 310, 330, 500, 600 |
-
----
+| F3-ASW1 → DSW1 | Gi1/0/23–24 | Gi1/0/9–10 | 300, 310, 320, 330 |
+| F3-ASW1 → DSW2 | Gi1/0/21–22 | Gi1/0/9–10 | 300, 310, 320, 330 |
 
 ### F3-ASW1 show vlan brief
 
