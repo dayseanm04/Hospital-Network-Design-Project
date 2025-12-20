@@ -65,3 +65,18 @@ These VLANs are used across multiple floors and must exist on **both distributio
 | 500 | Security-Stations | Security offices and stations |
 | 600 | Receptionists | Front desk and receptionist areas |
 
+---
+
+## ✅ Summary
+
+- All VLANs used on **Access Switches** are also created on **DSW1 and DSW2**
+- This ensures VLAN traffic can traverse **trunk links** without issues
+- VLAN naming is consistent across access and distribution layers
+- No IP addressing or routing is configured in this task
+
+---
+
+📌 **Note:**  
+
+I could have configured VLANs on the Distribution Switches using **VLAN Trunking Protocol (VTP)**.  
+However, I **manually configured them** in this project to keep configuration **simple, predictable, and CCNA-level**, and to avoid unintended VLAN changes across the network.
