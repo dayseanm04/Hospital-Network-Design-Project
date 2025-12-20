@@ -13,3 +13,18 @@ This improves **security**, **performance**, and **troubleshooting clarity**.
 - Select the correct trunk interfaces
 - Configure the allowed VLAN list
 
+---
+
+# 🏥 Floor 1 – Trunk VLAN Allow Lists
+
+## 🔗 F1-ASW1 ↔ Distribution Switches
+
+| Trunk Link | ASW Interfaces | DSW Interfaces | Allowed VLANs |
+|-----------|----------------|----------------|---------------|
+| F1-ASW1 → DSW1 | Gi1/0/23–24 | Gi1/0/1–2 | 101, 110, 600 |
+| F1-ASW1 → DSW2 | Gi1/0/21–22 | Gi1/0/1–2 | 101, 110, 600 |
+
+### F1-ASW1 show vlan brief
+
+<img width="924" height="208" alt="F1-ASW1-VLAN" src="https://github.com/user-attachments/assets/0b1c1864-c08c-45f3-97c6-3fb4105fefc5" />
+
