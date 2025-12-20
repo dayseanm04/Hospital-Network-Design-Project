@@ -66,6 +66,16 @@ These VLANs are used across multiple floors and must exist on **both distributio
 | 600 | Receptionists | Front desk and receptionist areas |
 
 ---
+## 🔍 Verification (Run on DSW1 & DSW2)
+
+### show vlan brief on DSW1
+
+<img width="919" height="442" alt="DSW1-VLAN-verification" src="https://github.com/user-attachments/assets/72c8dee5-0b07-4102-97e1-42f2566fb67d" />
+
+### show vlan brief on DSW2
+
+<img width="920" height="438" alt="DSW2-VLAN-verification" src="https://github.com/user-attachments/assets/6b9018e8-98b5-4bbe-922e-9293d32feb85" />
+
 
 ## ✅ Summary
 
