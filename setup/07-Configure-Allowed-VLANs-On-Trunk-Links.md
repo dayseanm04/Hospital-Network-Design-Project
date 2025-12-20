@@ -28,4 +28,24 @@ This improves **security**, **performance**, and **troubleshooting clarity**.
 
 <img width="924" height="208" alt="F1-ASW1-VLAN" src="https://github.com/user-attachments/assets/0b1c1864-c08c-45f3-97c6-3fb4105fefc5" />
 
-Note: I allowed the VLANs configured earlier on F1-ASW1 on these trunk links
+### F1-ASW1 show interface trunk
+
+<img width="730" height="221" alt="F1-ASW1-trunk-int" src="https://github.com/user-attachments/assets/eea8fdfa-f597-432b-b220-168c7a2f49e6" />
+
+Note: I allowed the VLANs configured earlier on F1-ASW1 on these trunk links. Only VLANs on F1-ASW1 can traverse this link
+
+---
+
+## 🔗 F1-ASW2 ↔ Distribution Switches
+
+| Trunk Link | ASW Interfaces | DSW Interfaces | Allowed VLANs |
+|-----------|----------------|----------------|---------------|
+| F1-ASW2 → DSW1 | Gi1/0/23–24 | Gi1/0/3–4 | 101, 120, 140, 180, 500 |
+| F1-ASW2 → DSW2 | Gi1/0/21–22 | Gi1/0/3–4 | 101, 120, 140, 180, 500 |
+
+---
+
+### F1-ASW2 show vlan brief
+
+<img width="988" height="247" alt="F1-ASW2-VLAN" src="https://github.com/user-attachments/assets/c30d600b-cd6d-44df-8b5d-046523708fee" />
+
