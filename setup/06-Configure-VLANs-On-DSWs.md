@@ -12,3 +12,56 @@ the Distribution Switches must have **all required VLANs created** so they can b
 
 ---
 
+## 🏛️ Distribution Switches
+
+- **DSW1** – Cisco 3650-24PC  
+- **DSW2** – Cisco 3650-24PC  
+
+Both switches use the **same VLAN database**.
+
+---
+
+## 🏥 Floor 1 VLANs (Configured on DSW1 & DSW2)
+
+| VLAN ID | VLAN Name |
+|--------:|-----------|
+| 101 | Emergency-DPT |
+| 110 | X-Ray-Imaging-DPT |
+| 120 | Nurse-Stations |
+| 140 | Pharmacy |
+| 180 | Supply-Chain-Purchasing |
+
+---
+
+## 🏢 Floor 2 VLANs (Configured on DSW1 & DSW2)
+
+| VLAN ID | VLAN Name |
+|--------:|-----------|
+| 200 | Medical-Rec-DPT |
+| 210 | Billing-Finance-DPT |
+| 220 | HumanResources-DPT |
+| 230 | Insurance-DPT |
+| 240 | IT-DPT |
+
+---
+
+## 🏨 Floor 3 VLANs (Configured on DSW1 & DSW2)
+
+| VLAN ID | VLAN Name |
+|--------:|-----------|
+| 300 | Nurse-Offices |
+| 310 | ICU-DPT |
+| 320 | Inpatient-DPT |
+| 330 | Radiology-DPT |
+
+---
+
+## 🧍 Shared VLANs (All Floors)
+
+These VLANs are used across multiple floors and must exist on **both distribution switches**.
+
+| VLAN ID | VLAN Name | Purpose |
+|--------:|-----------|---------|
+| 500 | Security-Stations | Security offices and stations |
+| 600 | Receptionists | Front desk and receptionist areas |
+
