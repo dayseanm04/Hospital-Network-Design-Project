@@ -127,3 +127,4 @@ Note: I allowed the VLANs configured earlier on F1-ASW1 on these trunk links. On
 
 ### F3-ASW2 show interface trunk
 
+<img width="739" height="229" alt="F3-ASW2-trunk-int" src="https://github.com/user-attachments/assets/9942bddc-56b5-47dd-a36e-e235d616f607" />
