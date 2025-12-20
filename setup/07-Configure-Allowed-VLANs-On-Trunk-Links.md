@@ -28,4 +28,4 @@ This improves **security**, **performance**, and **troubleshooting clarity**.
 
 <img width="924" height="208" alt="F1-ASW1-VLAN" src="https://github.com/user-attachments/assets/0b1c1864-c08c-45f3-97c6-3fb4105fefc5" />
 
-Since I configured these VLAN on F1-ASW1 i allowed them on the trunk like
+Note: I allowed the VLANs configured earlier on F1-ASW1 on these trunk links
