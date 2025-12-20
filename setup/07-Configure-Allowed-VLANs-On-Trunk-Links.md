@@ -74,3 +74,19 @@ Note: I allowed the VLANs configured earlier on F1-ASW1 on these trunk links. On
 
 <img width="686" height="225" alt="F2-ASW1-trunk-int" src="https://github.com/user-attachments/assets/6ab892c2-3851-4a8d-a1c1-9d3276c9405e" />
 
+## 🔗 F2-ASW2 ↔ Distribution Switches
+
+| Trunk Link | ASW Interfaces | DSW Interfaces | Allowed VLANs |
+|-----------|----------------|----------------|---------------|
+| F2-ASW2 → DSW1 | Gi1/0/23–24 | Gi1/0/7–8 | 200, 210, 230, 240, 600 |
+| F2-ASW2 → DSW2 | Gi1/0/21–22 | Gi1/0/7–8 | 200, 210, 230, 240, 600 |
+
+---
+
+### F2-ASW2 show vlan brief
+
+<img width="1001" height="225" alt="F2-ASW2-VLAN" src="https://github.com/user-attachments/assets/53fb783f-1fcd-42ea-b747-5cabc014a605" />
+
+### F2-ASW2 show interface trunk
+
+
