@@ -61,3 +61,25 @@ EtherChannel is used to:
 
 ## F1-ASW2 show etherchannel summary
 
+<img width="668" height="371" alt="F1-ASW2-LACP" src="https://github.com/user-attachments/assets/26475e4b-39fe-4b86-a050-d295a042a0dd" />
+
+## 🏢 Floor 2 – EtherChannel Links
+
+### 🔗 F2-ASW1 ↔ DSW1
+
+| Device | Interfaces | Port-Channel | LACP Mode | Description |
+|------|------------|--------------|-----------|-------------|
+| F2-ASW1 | Gi1/0/23–24 | Po1 | active | To-DSW1 |
+| DSW1 | Gi1/0/5–6 | Po3 | active | To-F2-ASW1 |
+
+---
+
+### 🔗 F2-ASW1 ↔ DSW2
+
+| Device | Interfaces | Port-Channel | LACP Mode | Description |
+|------|------------|--------------|-----------|-------------|
+| F2-ASW1 | Gi1/0/21–22 | Po2 | active | To-DSW2 |
+| DSW2 | Gi1/0/5–6 | Po3 | active | To-F2-ASW1 |
+
+---
+
