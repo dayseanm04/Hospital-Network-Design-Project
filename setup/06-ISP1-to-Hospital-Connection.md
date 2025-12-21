@@ -31,6 +31,11 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 --- 
 
+## Reference Diagram
+
+<img width="534" height="346" alt="ISP1-connection" src="https://github.com/user-attachments/assets/16246015-5fa8-41d4-af06-3d28f922c77a" />
+
+
 ## ✅ Verification
 
 ### On ISP1-R1: show ip interface brief
