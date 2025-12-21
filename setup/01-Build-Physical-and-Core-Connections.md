@@ -43,7 +43,7 @@ Connect the firewall to the hospital core router.
 
 | Firewall Interface | Core Router Interface |
 |--------------------|-----------------------|
-| HS-Core-FW G1/2 | HS-CORE-R1 G0/0 |
+| HS-Core-FW G1/7 | HS-CORE-R1 G0/0 |
 
 ## 🏛️ 6. Distribution Switch Connections
 
