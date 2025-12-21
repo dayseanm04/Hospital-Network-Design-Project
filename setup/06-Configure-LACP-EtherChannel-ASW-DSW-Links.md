@@ -174,6 +174,6 @@ EtherChannel is used to:
 <img width="671" height="443" alt="DSW2-LACP" src="https://github.com/user-attachments/assets/2ffe95d5-c9fb-4541-ba82-5905ed0a53b1" />
 
 
+I confgiured LACP etherchannel for the access-distribution switches
 
-
-
+<img width="610" height="397" alt="Screenshot 2025-12-20 234024" src="https://github.com/user-attachments/assets/d4bcbba3-8321-4fcf-82cd-6de9a0dced40" />
