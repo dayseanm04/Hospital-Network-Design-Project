@@ -24,8 +24,6 @@ the **Hospital Core Router (HS-CORE-R1)**.
 
 ---
 
----
-
 ## 📌 Interface IP Assignments
 
 | Device | Interface | Description | IP Address / Mask |
@@ -35,3 +33,13 @@ the **Hospital Core Router (HS-CORE-R1)**.
 
 ---
 
+## ⚙️ Configuration Summary (High-Level)
+
+Use these steps on each device (do not repeat commands line-by-line):
+
+| Device | What to Do |
+|--------|------------|
+| HS-CORE-FW1 | Enter interface **Gi1/7**, add a description, assign the IP, and enable the interface |
+| HS-CORE-R1 | Enter interface **Gi0/0**, add a description, assign the IP, and enable the interface |
+
+---
