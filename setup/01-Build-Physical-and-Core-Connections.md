@@ -17,7 +17,7 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Device: Cisco ASA 5506
 - Hostname: HS-Core-FW
 - Interfaces:
-  - G1/1 – G1/9 → Gigabit Ethernet
+  - G1/1 – G1/8 → Gigabit Ethernet
 
 ---
 
