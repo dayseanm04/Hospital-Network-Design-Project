@@ -1,4 +1,4 @@
-# 🧩 06 – Configure VLANs on Distribution Switches (DSWs)
+# 🧩 05 – Configure VLANs on Distribution Switches (DSWs)
 
 In this task I will configure VLANs on the **Distribution Switches (DSW1 and DSW2)**.
 
