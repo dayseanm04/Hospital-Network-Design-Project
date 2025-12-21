@@ -76,8 +76,20 @@ Only VLANs that are actually used on each access switch are allowed on the corre
 
 <img width="729" height="159" alt="F2-ASW2-trunk" src="https://github.com/user-attachments/assets/562e539a-efab-4ec9-a800-715a29930e2d" />
 
+---
 
+## 🏨 Floor 3 – EtherChannel Allowed VLANs
 
+### 🔗 F3-ASW1 ↔ DSW1 / DSW2
+
+| Device | Port-Channel | Connected To | Allowed VLANs |
+|------|--------------|--------------|---------------|
+| F3-ASW1 | Po1 | DSW1 Po5 | 300, 310, 320, 330 |
+| F3-ASW1 | Po2 | DSW2 Po5 | 300, 310, 320, 330 |
+| DSW1 | Po5 | F3-ASW1 Po1 | 300, 310, 320, 330 |
+| DSW2 | Po5 | F3-ASW1 Po2 | 300, 310, 320, 330 |
+
+### Verify F3-ASW1 show interface trunk
 
 
 
