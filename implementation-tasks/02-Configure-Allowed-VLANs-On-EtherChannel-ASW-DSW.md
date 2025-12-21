@@ -106,6 +106,11 @@ Only VLANs that are actually used on each access switch are allowed on the corre
 
 <img width="684" height="163" alt="F3-ASW2-trunk" src="https://github.com/user-attachments/assets/40b43a67-90f4-4639-93a4-0d0139d75867" />
 
+### Verify DSW1 show interface trunk
+
+<img width="794" height="374" alt="DSW1-int-trunk" src="https://github.com/user-attachments/assets/3a2037ae-b8b7-4e8f-817b-2299128895c1" />
+
+### Verify DSW2 show interface trunk
 
 
 
