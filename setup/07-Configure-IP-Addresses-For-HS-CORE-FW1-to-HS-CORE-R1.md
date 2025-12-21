@@ -33,9 +33,9 @@ the **Hospital Core Router (HS-CORE-R1)**.
 
 ---
 
-## ⚙️ Configuration Summary (High-Level)
+## ⚙️ Configuration Summary
 
-Use these steps on each device (do not repeat commands line-by-line):
+Use these steps on each device:
 
 | Device | What to Do |
 |--------|------------|
@@ -43,3 +43,6 @@ Use these steps on each device (do not repeat commands line-by-line):
 | HS-CORE-R1 | Enter interface **Gi0/0**, add a description, assign the IP, and enable the interface |
 
 ---
+
+## ✅ Verification
+
