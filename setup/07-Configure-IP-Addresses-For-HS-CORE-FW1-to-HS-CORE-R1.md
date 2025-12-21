@@ -24,3 +24,14 @@ the **Hospital Core Router (HS-CORE-R1)**.
 
 ---
 
+---
+
+## 📌 Interface IP Assignments
+
+| Device | Interface | Description | IP Address / Mask |
+|--------|-----------|-------------|-------------------|
+| HS-CORE-FW1 | Gi1/7 | To-HS-CORE-R1 | 10.255.255.1 /30 |
+| HS-CORE-R1 | Gi0/0 | To-HS-CORE-FW1 | 10.255.255.2 /30 |
+
+---
+
