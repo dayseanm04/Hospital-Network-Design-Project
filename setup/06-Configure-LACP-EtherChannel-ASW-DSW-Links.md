@@ -1,7 +1,11 @@
 # 🔗 06 – Configure LACP EtherChannel on Access to Distribution Switches Links
 
-In this task I will implement **LACP EtherChannel** between the
+In this task I will configure **LACP EtherChannel** between the
 **Access Switches (ASWs)** and **Distribution Switches (DSWs)**.
+
+## Refernce Diagram:
+
+<img width="599" height="389" alt="implement-LACP" src="https://github.com/user-attachments/assets/314cc5bf-3f06-4b6c-bcfc-d408dab6711f" />
 
 EtherChannel is used to:
 - Increase bandwidth
