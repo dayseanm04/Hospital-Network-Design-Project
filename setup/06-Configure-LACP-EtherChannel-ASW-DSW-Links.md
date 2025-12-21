@@ -83,3 +83,8 @@ EtherChannel is used to:
 
 ---
 
+## F2-ASW1 show etherchannel summary
+
+<img width="660" height="372" alt="F2-ASW1-LACP" src="https://github.com/user-attachments/assets/7fc05956-0f04-48c7-8716-c87c9761a033" />
+
+
