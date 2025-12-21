@@ -12,6 +12,15 @@ the **Hospital Core Router (HS-CORE-R1)**.
 
 | Device | Interface | Connected To | Interface |
 |--------|-----------|--------------|-----------|
-| HS-CORE-FW1 | Gi1/7 | HS-CORE-R1 | Gi0/0 |
+| HS-CORE-FW1 | G1/7 | HS-CORE-R1 | G0/0 |
 
+---
+
+## 🧠 IP Addressing Plan (Point-to-Point)
+
+| Link Name | Network | Subnet Mask | Usable IPs |
+|----------|---------|-------------|------------|
+| HS-CORE-FW1 ↔ HS-CORE-R1 | 10.255.255.0/30 | 255.255.255.252 | 10.255.255.1 – 10.255.255.2 |
+
+---
 
