@@ -51,3 +51,5 @@ Use these steps on each device:
 <img width="833" height="224" alt="show-ip-address-hs-core-fw1" src="https://github.com/user-attachments/assets/9e381dc5-c2c7-4de0-aa53-259632c2959c" />
 
 ### On HS-CORE-R1: show ip address
+
+<img width="826" height="115" alt="show-ip-address-hs-core-r1" src="https://github.com/user-attachments/assets/6e16cb8c-19ae-4f64-b840-32ed10bcdd55" />
