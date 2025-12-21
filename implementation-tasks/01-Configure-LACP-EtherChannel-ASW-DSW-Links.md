@@ -167,11 +167,11 @@ EtherChannel is used to:
 
 ### DSW1 show etherchannel summary
 
-<img width="660" height="441" alt="DSW1-LACP" src="https://github.com/user-attachments/assets/3fd1d25a-8a7d-42e7-924e-3ef90c8bee61" />
+<img width="686" height="443" alt="DSW1-LACP" src="https://github.com/user-attachments/assets/d30c04d9-f91d-4063-9266-cd0006f4725f" />
 
 ### DSW2 show etherchannel summary
 
-<img width="671" height="443" alt="DSW2-LACP" src="https://github.com/user-attachments/assets/2ffe95d5-c9fb-4541-ba82-5905ed0a53b1" />
+<img width="678" height="441" alt="DSW2-LACP" src="https://github.com/user-attachments/assets/1c71d8bb-3f43-4120-98a0-acf34f23e9b3" />
 
 
 I confgiured LACP etherchannel for the access-distribution switches
