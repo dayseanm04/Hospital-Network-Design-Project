@@ -1,4 +1,4 @@
-# 🔗 06 – Configure LACP EtherChannel on Access to Distribution Switches Links
+# 🔗 01 – Configure LACP EtherChannel on Access to Distribution Switches Links
 
 In this task I will configure **LACP EtherChannel** between the
 **Access Switches (ASWs)** and **Distribution Switches (DSWs)**.
