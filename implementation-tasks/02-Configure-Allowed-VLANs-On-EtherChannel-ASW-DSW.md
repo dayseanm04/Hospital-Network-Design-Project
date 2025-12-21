@@ -14,3 +14,16 @@ Only VLANs that are actually used on each access switch are allowed on the corre
 - Select the correct **Port-Channel interface**
 - Configure the allowed VLAN list on the EtherChannel trunk
 
+---
+
+## 🏥 Floor 1 – EtherChannel Allowed VLANs
+
+### 🔗 F1-ASW1 ↔ DSW1 / DSW2
+
+| Device | Port-Channel | Connected To | Allowed VLANs |
+|------|--------------|--------------|---------------|
+| F1-ASW1 | Po1 | DSW1 Po1 | 101, 110, 600 |
+| F1-ASW1 | Po2 | DSW2 Po1 | 101, 110, 600 |
+| DSW1 | Po1 | F1-ASW1 Po1 | 1, 101, 110, 600 |
+| DSW2 | Po1 | F1-ASW1 Po2 | 1, 101, 110, 600 |
+
