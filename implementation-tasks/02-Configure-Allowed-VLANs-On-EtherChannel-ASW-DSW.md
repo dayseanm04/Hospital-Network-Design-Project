@@ -27,3 +27,7 @@ Only VLANs that are actually used on each access switch are allowed on the corre
 | DSW1 | Po1 | F1-ASW1 Po1 | 1, 101, 110, 600 |
 | DSW2 | Po1 | F1-ASW1 Po2 | 1, 101, 110, 600 |
 
+### Verify F1-ASW1 show interface trunk
+
+<img width="705" height="164" alt="F1-ASW1-trunk" src="https://github.com/user-attachments/assets/5f3eaa5e-212e-44c8-a53d-b9870d5f9190" />
+
