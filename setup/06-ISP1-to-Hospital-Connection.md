@@ -22,3 +22,12 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 ---
 
+## 🌍 WAN IP Addressing
+
+| Device | Interface | IP Address | Subnet Mask | Network |
+|------|-----------|------------|-------------|---------|
+| ISP1-R1 | Gi9/0 | 69.45.12.1 | 255.255.255.252 | 69.45.12.0/30 |
+| HS-CORE-FW1 | Gi1/8 | 69.45.12.2 | 255.255.255.252 | 69.45.12.0/30 |
+
+--- 
+
