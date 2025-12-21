@@ -112,6 +112,20 @@ Only VLANs that are actually used on each access switch are allowed on the corre
 
 ### Verify DSW2 show interface trunk
 
+<img width="741" height="369" alt="DSW2-int-trunk" src="https://github.com/user-attachments/assets/6f8f6415-660a-4089-a984-f81d6807e981" />
+
+
+## ✅ Summary
+
+- Allowed VLANs are configured on **Port-Channel interfaces**, not physical ports
+- VLAN lists match the VLANs used on each Access Switch
+- Both sides of each EtherChannel use the **same allowed VLAN list**
+- This design:
+  - Reduces unnecessary VLAN traffic
+  - Improves security
+  - Simplifies troubleshooting
+
+
 
 
 
