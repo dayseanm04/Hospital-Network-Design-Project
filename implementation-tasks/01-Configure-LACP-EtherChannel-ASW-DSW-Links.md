@@ -3,7 +3,7 @@
 In this task I will configure **LACP EtherChannel** between the
 **Access Switches (ASWs)** and **Distribution Switches (DSWs)**.
 
-## Refernce Diagram:
+## Reference Diagram:
 
 <img width="599" height="389" alt="implement-LACP" src="https://github.com/user-attachments/assets/314cc5bf-3f06-4b6c-bcfc-d408dab6711f" />
 
