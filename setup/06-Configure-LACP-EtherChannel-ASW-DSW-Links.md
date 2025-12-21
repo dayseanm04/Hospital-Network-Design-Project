@@ -161,3 +161,15 @@ EtherChannel is used to:
 
 <img width="632" height="375" alt="F3-ASW2-LACP" src="https://github.com/user-attachments/assets/d4d61c9f-eedb-4806-8708-4f282c8913f6" />
 
+### DSW1 show etherchannel summary
+
+<img width="660" height="441" alt="DSW1-LACP" src="https://github.com/user-attachments/assets/3fd1d25a-8a7d-42e7-924e-3ef90c8bee61" />
+
+### DSW2 show etherchannel summary
+
+<img width="671" height="443" alt="DSW2-LACP" src="https://github.com/user-attachments/assets/2ffe95d5-c9fb-4541-ba82-5905ed0a53b1" />
+
+
+
+
+
