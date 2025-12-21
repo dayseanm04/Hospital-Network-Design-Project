@@ -104,6 +104,7 @@ Only VLANs that are actually used on each access switch are allowed on the corre
 
 ### Verify F3-ASW2 show interface trunk
 
+<img width="684" height="163" alt="F3-ASW2-trunk" src="https://github.com/user-attachments/assets/40b43a67-90f4-4639-93a4-0d0139d75867" />
 
 
 
