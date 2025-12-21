@@ -14,3 +14,11 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 - Connection Type: **Ethernet**
 - Addressing: **Static IP addressing**
 
+---
+
+| Device | Interface | Connected To | Interface |
+|------|-----------|--------------|-----------|
+| ISP1-R1 | Gi9/0 | HS-CORE-FW1 | Gi1/8 |
+
+---
+
