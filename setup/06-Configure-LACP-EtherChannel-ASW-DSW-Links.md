@@ -155,5 +155,9 @@ EtherChannel is used to:
 | F3-ASW2 | Gi1/0/21–22 | Po2 | active | To-DSW2 |
 | DSW2 | Gi1/0/11–12 | Po6 | active | To-F3-ASW2 |
 
----
+
+
+## F3-ASW2 show etherchannel summary
+
+<img width="647" height="368" alt="F3-ASW2-LACP" src="https://github.com/user-attachments/assets/98bb653e-6d33-46b0-84e3-6bbdfa33496d" />
 
