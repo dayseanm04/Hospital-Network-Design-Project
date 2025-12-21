@@ -1,4 +1,4 @@
-# 🌐 Configure IP addresses for HS-CORE-FW1 ↔ HS-CORE-R1
+## 🌐 Configure IP addresses for HS-CORE-FW1 ↔ HS-CORE-R1
 
 This document covers the point-to-point Layer 3 connection between the **Hospital Core Firewall (HS-CORE-FW1)** and 
 the **Hospital Core Router (HS-CORE-R1)**.
