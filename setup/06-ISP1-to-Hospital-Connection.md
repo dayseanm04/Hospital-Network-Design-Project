@@ -31,3 +31,13 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 --- 
 
+## ✅ Verification
+
+### On ISP1-R1 show ip interface brief
+
+<img width="818" height="227" alt="ISP1-R1-verify-ip" src="https://github.com/user-attachments/assets/0c30afa9-1082-4d4d-8d66-d9914cad45ca" />
+
+
+
+
+
