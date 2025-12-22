@@ -41,8 +41,8 @@ This test is to verify that:
 
 | Test # | Source | Destination | Purpose |
 |-------:|--------|------------|---------|
-| 1 | DSW1 (Port-Channel IP) | DSW2 (Port-Channel IP) | Validate L3 EtherChannel connectivity |
-| 2 | DSW2 (Port-Channel IP) | DSW1 (Port-Channel IP) | Confirm reverse direction |
+| 1 | DSW1 (10.255.1.1) | DSW2 (10.255.1.2) | Validate L3 EtherChannel connectivity |
+| 2 | DSW2 (10.255.1.2) | DSW1 (10.255.1.1) | Confirm reverse direction |
 
 ### 📝 Ping Results 
 
