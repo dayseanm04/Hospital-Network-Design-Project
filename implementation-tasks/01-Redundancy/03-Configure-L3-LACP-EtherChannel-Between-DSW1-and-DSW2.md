@@ -112,4 +112,3 @@ Run these checks on **both DSW1 and DSW2**:
 ### show ip int brief | include Port-channel DSW2
 
 <img width="756" height="152" alt="DSW2-show-ip-int-brief" src="https://github.com/user-attachments/assets/4e1dd9e2-92e2-4009-805b-ed63682e23ac" />
-
