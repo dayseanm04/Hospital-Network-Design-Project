@@ -67,6 +67,9 @@ On the multilayer switches (DSW1&DSW2), use `no switchport` command so the inter
 
 <img width="808" height="120" alt="DSW2-show-ip" src="https://github.com/user-attachments/assets/36c1106a-e2f4-4c45-8f56-f4a2a12405a1" />
 
+---
+
+## 👉 Click here to view testing:  [02 – Test DSWs to HS-CORE-R1 Connectivity](testing/04-Connectivity-Tests/02-Test-DSWs-To-HS-CORE-R1-Connectivity.md)
 
 
 
