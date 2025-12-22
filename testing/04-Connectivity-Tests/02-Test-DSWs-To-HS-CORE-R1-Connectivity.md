@@ -18,4 +18,14 @@ This test is performed **before any dynamic routing protocols** are configured.
 
 ---
 
+## 🌐 IP Addressing Reference (From Configuration)
+
+### 🔗 Point-to-Point Links
+
+| Link | Device | Interface | IP Address | Subnet Mask |
+|-----|--------|-----------|------------|-------------|
+| Core ↔ DSW1 | HS-CORE-R1 | Gi2/0 | 10.255.0.1 | 255.255.255.252 |
+| Core ↔ DSW1 | DSW1 | Gi1/1/1 | 10.255.0.2 | 255.255.255.252 |
+| Core ↔ DSW2 | HS-CORE-R1 | Gi3/0 | 10.255.0.5 | 255.255.255.252 |
+| Core ↔ DSW2 | DSW2 | Gi1/1/1 | 10.255.0.6 | 255.255.255.252 |
 
