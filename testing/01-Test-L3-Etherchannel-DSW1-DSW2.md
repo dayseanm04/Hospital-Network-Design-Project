@@ -49,12 +49,14 @@ This test is to verify that:
 ### Ping Test 1 (DSW1 → DSW2):
 
 <img width="716" height="125" alt="DSW2-L3-port-channel-connectivity-test" src="https://github.com/user-attachments/assets/983b0765-7573-450d-9621-cbb52cfb4dd6" />
-#### Result: ✅ 
+
+Result: ✅ 
 
 ### Ping Test 1 (DSW2 → DSW1):
 
 <img width="699" height="120" alt="DSW1-L3-port-channel-connectivity-test" src="https://github.com/user-attachments/assets/de7c894f-1dde-4107-9393-937c37ddd10c" />
-#### Result: ✅ 
+
+Result: ✅ 
 
 I was able to successfully ping the port channel
 
