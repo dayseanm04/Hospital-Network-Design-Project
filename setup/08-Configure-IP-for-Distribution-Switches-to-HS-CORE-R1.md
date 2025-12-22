@@ -69,7 +69,4 @@ On the multilayer switches (DSW1&DSW2), use `no switchport` command so the inter
 
 ---
 
-# Testing
-
-
-## 👉 Click here to view testing:  [02 – Test DSWs to HS-CORE-R1 Connectivity](/testing/04-Connectivity-Tests/02-Test-DSWs-To-HS-CORE-R1-Connectivity.md)
+## 👉 Click here to view testing:  [Test DSWs to HS-CORE-R1 Connectivity](/testing/04-Connectivity-Tests/02-Test-DSWs-To-HS-CORE-R1-Connectivity.md)
