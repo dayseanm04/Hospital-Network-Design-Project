@@ -97,16 +97,17 @@ Assign a /30 network for the routed Port-Channel:
 
 Run these checks on **both DSW1 and DSW2**:
 
-### show etheychannel summary on DSW1
+### show etherchannel summary on DSW1
 
 <img width="855" height="444" alt="DSW1-L3-LACP" src="https://github.com/user-attachments/assets/50f435f5-fb3d-4a1b-9895-b59c5de5f670" />
 
-### show etheychannel summary on DSW2
+### show etherchannel summary on DSW2
 
 <img width="806" height="443" alt="DSW2-L3-LACP" src="https://github.com/user-attachments/assets/0e89197c-8077-41d4-aa57-910cda48293f" />
 
+### show interface brief DSW1
 
-
+<img width="759" height="156" alt="DSW1-show-ip-int-brief" src="https://github.com/user-attachments/assets/7df7e894-b683-4ea6-abef-be588ea007a5" />
 
 
 
