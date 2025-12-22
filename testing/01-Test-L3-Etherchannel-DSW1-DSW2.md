@@ -35,4 +35,20 @@ This test is to verify that:
 
 ---
 
+## 🧪 Connectivity Tests (Ping)
+
+### ✅ Ping Test Plan
+
+| Test # | Source | Destination | Purpose |
+|-------:|--------|------------|---------|
+| 1 | DSW1 (Port-Channel IP) | DSW2 (Port-Channel IP) | Validate L3 EtherChannel connectivity |
+| 2 | DSW2 (Port-Channel IP) | DSW1 (Port-Channel IP) | Confirm reverse direction |
+
+### 📝 Ping Results 
+
+### Ping Test 1 (DSW1 → DSW2):
+
+<img width="716" height="125" alt="DSW2-L3-port-channel-connectivity-test" src="https://github.com/user-attachments/assets/983b0765-7573-450d-9621-cbb52cfb4dd6" />
+
+
 
