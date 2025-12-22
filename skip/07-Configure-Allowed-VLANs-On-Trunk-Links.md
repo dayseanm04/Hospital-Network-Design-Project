@@ -1,5 +1,8 @@
 # 🔀 07 – Configure Allowed VLANs on Trunk Links
 
+## Skip this step and complete the following instead: [Configure Allowed VLANs on EtherChannel (ASW ↔ DSW)](/implementation-tasks/01-Redundancy/02-Configure-Allowed-VLANs-On-EtherChannel-ASW-DSW.md)
+
+
 This task documents which **VLANs are allowed on each trunk link**
 between **Access Switches (ASWs)** and **Distribution Switches (DSWs)**.
 
