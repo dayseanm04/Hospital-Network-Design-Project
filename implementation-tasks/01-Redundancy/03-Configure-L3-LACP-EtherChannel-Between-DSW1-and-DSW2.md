@@ -45,4 +45,12 @@ On **DSW1 and DSW2**:
 - Enter interface range configuration for the uplinks used for EtherChannel
 - Convert interfaces to Layer 3 with `no switchport`
 
+| Switch | Interface Range | Purpose |
+|--------|------------------|---------|
+| DSW1 | Gi1/1/2 – Gi1/1/3 | Links to DSW2 |
+| DSW2 | Gi1/1/2 – Gi1/1/3 | Links to DSW1 |
+
+---
+
+
 
