@@ -74,3 +74,33 @@ Because each Access Switch connects to **both** distribution switches:
 
 ---
 
+## 🧠 Core Layer Redundancy (DSW → HS-CORE-R1)
+
+Redundancy is also implemented at the **core layer**.
+
+Both **DSW1 and DSW2** are independently connected to the
+**Hospital Core Router (HS-CORE-R1)**.
+
+This ensures that the core router remains reachable even if one
+Distribution Switch becomes unavailable.
+
+### 🔗 Core Connectivity Design
+
+| Component | Design Detail |
+|---------|---------------|
+| Core device | HS-CORE-R1 |
+| Distribution switches | DSW1 and DSW2 |
+| Connectivity | Each DSW has a direct link to HS-CORE-R1 |
+| Single point of failure | Eliminated at distribution-to-core path |
+
+### 📉 Core Failure Scenarios
+
+| Scenario | Network Impact |
+|--------|----------------|
+| One DSW-to-core link fails | Traffic continues over remaining path |
+| DSW1 fails completely | Traffic routes through DSW2 to HS-CORE-R1 |
+| DSW2 fails completely | Traffic routes through DSW1 to HS-CORE-R1 |
+
+---
+
+
