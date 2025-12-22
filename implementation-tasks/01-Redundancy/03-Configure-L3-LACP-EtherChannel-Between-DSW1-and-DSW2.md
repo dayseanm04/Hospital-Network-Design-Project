@@ -93,8 +93,13 @@ Assign a /30 network for the routed Port-Channel:
 
 ---
 
+## 🔍 Verification
 
+Run these checks on **both DSW1 and DSW2**:
 
+### show etheychannel summary on DSW1
+
+<img width="855" height="444" alt="DSW1-L3-LACP" src="https://github.com/user-attachments/assets/50f435f5-fb3d-4a1b-9895-b59c5de5f670" />
 
 
 
