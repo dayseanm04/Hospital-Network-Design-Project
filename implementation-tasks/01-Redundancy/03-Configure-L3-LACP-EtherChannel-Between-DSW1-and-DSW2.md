@@ -38,4 +38,11 @@ On each distribution switch, enable Layer 3 routing:
 
 > 📌 Only required if routing is not already enabled.
 
+---
+
+### 2️⃣ Convert the Physical Links to Routed Ports
+On **DSW1 and DSW2**:
+- Enter interface range configuration for the uplinks used for EtherChannel
+- Convert interfaces to Layer 3 with `no switchport`
+
 
