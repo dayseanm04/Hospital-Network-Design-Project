@@ -60,12 +60,13 @@ Result: ✅
 
 I was able to successfully ping the port channel
 
+## 🛠️ Common Issues & Fixes
 
+| Symptom | Likely Cause | Fix |
+|--------|--------------|-----|
+| Port-channel is down | Cabling mismatch / wrong interfaces | Verify physical connections |
+| Ports show suspended | LACP mismatch or config mismatch | Ensure both sides use LACP `active` and same channel-group |
+| Po is up but no ping | IP/dubnet mask mismatch | Verify Po IPs match same /30 network |
+| One side L2, one side L3 | Missing `no switchport` on one side | Make Po and member ports L3 consistently |
 
-
-
-
-
-
-
-
+---
