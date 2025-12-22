@@ -19,7 +19,7 @@ I removed the switchport mode trunk command from the distribution switches
 I will configure the trunk on the port channel
 
 ## 🔗 Related Task / Design Doc
-- [04-Configure-Trunk-Links.md](skip/04-Configure-Trunk-Links.md)
+- [04-Configure-Trunk-Links.md](/skip/04-Configure-Trunk-Links.md)
 
 ## 📌 Result
  🔁 Reverted
