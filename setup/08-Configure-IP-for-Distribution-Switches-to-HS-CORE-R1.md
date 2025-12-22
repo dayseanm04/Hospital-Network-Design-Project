@@ -10,7 +10,7 @@ In this task I will configure **point-to-point IP addresses** between the **Dist
 
 ---
 
-## 🔗 Physical Connections
+## 🔗 Connections
 
 | Link | Device A | Interface A | Device B | Interface B |
 |------|----------|-------------|----------|-------------|
@@ -18,4 +18,17 @@ In this task I will configure **point-to-point IP addresses** between the **Dist
 | Link 2 | DSW2 | Gi1/1/1 | HS-CORE-R1 | Gi3/0 |
 
 ---
+
+## 🧠 IP Addressing Plan (Point-to-Point /30)
+
+| Link | Network (CIDR) | Subnet Mask | Usable IPs |
+|------|-----------------|-------------|------------|
+| HS-CORE-R1 ↔ DSW1 | 10.255.0.0/30 | 255.255.255.252 | 10.255.0.1 – 10.255.0.2 |
+| HS-CORE-R1 ↔ DSW2 | 10.255.0.4/30 | 255.255.255.252 | 10.255.0.5 – 10.255.0.6 |
+
+---
+
+## 📌 Interface IP Assignments
+
+### ✅ HS-CORE-R1 Interfaces
 
