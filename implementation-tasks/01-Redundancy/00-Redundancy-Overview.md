@@ -49,3 +49,23 @@ The links connected to the same Distribution Switch are bundled using
 
 ---
 
+## 🔁 Distribution Layer Redundancy (DSW1 ↔ DSW2)
+
+The network uses **two Distribution Switches (DSW1 and DSW2)**.
+
+Because each Access Switch connects to **both** distribution switches:
+
+- The Access layer never depends on a single Distribution Switch
+- Traffic can dynamically use either DSW
+
+### 📉 Distribution Failure Scenarios
+
+| Scenario | Result |
+|--------|--------|
+| One ASW uplink fails | Traffic continues on remaining links |
+| One EtherChannel member fails | EtherChannel remains operational |
+| Entire DSW1 fails | ASWs continue via DSW2 |
+| Entire DSW2 fails | ASWs continue via DSW1 |
+
+---
+
