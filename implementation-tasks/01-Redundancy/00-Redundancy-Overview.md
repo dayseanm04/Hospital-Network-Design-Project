@@ -92,6 +92,13 @@ support east–west traffic between VLANs and access switches.
 
 I will implement Layer 3 ethechannel for the interconnection between  DSW1 and DSW2 to avoid Layer 2 loops, reduce STP complexity, and improve stability
 
+### 📉 Distribution Failure Scenarios
+
+| Scenario | Result |
+|--------|--------|
+| DSW1 connected to HS-CORE-R1 fails | Traffic will be sent to DSW2 via the layer 3 etherchannel |
+| DSW2 connected to HS-CORE-R1 fails | Traffic will be sent to DSW1 via the layer 3 etherchannel |
+
 ### 🧠 Design reasons
 
 - Provides **distribution-layer resiliency**
