@@ -48,4 +48,10 @@ In this task I will configure **point-to-point IP addresses** between the **Dist
 | DSW1 | Gi1/1/1 | HS-CORE-R1 Gi2/0 | `no switchport` | 10.255.0.2 /30 | to HS-CORE-R1 |
 | DSW2 | Gi1/1/1 | HS-CORE-R1 Gi3/0 | `no switchport` | 10.255.0.6 /30 | to HS-CORE-R1 |
 
+### 📌 Important:  
+
+On the multilayer switches (DSW1&DSW2), use `no switchport` command so the interface becomes Layer 3.  
+
+
+
 
