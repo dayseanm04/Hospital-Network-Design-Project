@@ -11,3 +11,12 @@ This test is to verify that:
 
 ---
 
+## 🎯 Test Objective
+
+| Objective | What I am Confirming |
+|----------|-------------------------|
+| EtherChannel is up | LACP bundle formed and is not suspended |
+| L3 Port-Channel is routed | Port-Channel has an IP and acts as a routed interface |
+| Basic connectivity works | DSW1 and DSW2 can reach each other across Po (Layer 3) |
+
+---
