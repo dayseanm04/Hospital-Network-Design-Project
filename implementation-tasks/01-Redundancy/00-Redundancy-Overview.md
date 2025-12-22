@@ -74,6 +74,34 @@ Because each Access Switch connects to **both** distribution switches:
 
 ---
 
+## 🔁 Distribution-to-Distribution (DSW ↔ DSW) Redundancy
+
+Redundancy is also implemented **between the Distribution Switches themselves**.
+
+**DSW1 and DSW2 are interconnected using two physical links**.  
+These links provide an additional redundant path at the distribution layer and
+support east–west traffic between VLANs and access switches.
+
+### 📊 Inter-Distribution Link Design
+
+| Component | Design Detail |
+|---------|---------------|
+| Devices | DSW1 ↔ DSW2 |
+| Physical links | 2 |
+| Future configuration | Layer 3 EtherChannel |
+
+I will implement Layer 3 ethechannel for the interconnection between  DSW1 and DSW2 to avoid Layer 2 loops, reduce STP complexity, and improve stability
+
+### 🧠 Design reasons
+
+- Provides **distribution-layer resiliency**
+- Allows traffic to traverse the distribution layer even during failures
+- LACP bundles the two links into a single logical Port-Channel for:
+  - Increased bandwidth  
+  - Faster recovery if one link fails  
+
+---
+
 ## 🧠 Core Layer Redundancy (DSW → HS-CORE-R1)
 
 Redundancy is also implemented at the **core layer**.
