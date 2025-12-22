@@ -22,3 +22,15 @@ This layered approach ensures the network can tolerate **link failures** and
 
 ---
 
+## 🔗 Access Layer Redundancy (ASW → DSW)
+
+Each **Access Switch (ASW)** is connected to the Distribution layer using
+**four uplinks**:
+
+- **Two links to DSW1**
+- **Two links to DSW2**
+
+The links connected to the same Distribution Switch are bundled using
+**LACP EtherChannel**.
+
+
