@@ -58,4 +58,19 @@ On the multilayer switches (DSW1&DSW2), use `no switchport` command so the inter
 
 <img width="826" height="121" alt="HS-CORE-R1-show-ip" src="https://github.com/user-attachments/assets/5ccc4c8b-0011-4bc5-a1e1-c212d3686feb" />
 
-### On DSW11 show ip int brief | begin GigabitEthernet1/1/
+### On DSW1 show ip int brief | begin GigabitEthernet1/1/
+
+<img width="784" height="121" alt="DSW1-show-ip" src="https://github.com/user-attachments/assets/303d9581-5fd4-42bb-b207-0b9f2f36c18b" />
+
+
+### On DSW2 show ip int brief | begin GigabitEthernet1/1/
+
+<img width="808" height="120" alt="DSW2-show-ip" src="https://github.com/user-attachments/assets/36c1106a-e2f4-4c45-8f56-f4a2a12405a1" />
+
+
+
+
+
+
+
+
