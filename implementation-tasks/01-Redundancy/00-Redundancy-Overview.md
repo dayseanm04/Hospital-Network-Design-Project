@@ -103,4 +103,15 @@ Distribution Switch becomes unavailable.
 
 ---
 
+# ✅ End-to-End Redundancy Summary
 
+- Access Switches use **four redundant uplinks**
+- Uplinks are bundled with **LACP EtherChannel**
+- Two Distribution Switches provide path diversity
+- Both Distribution Switches connect to **HS-CORE-R1**
+- Failure of a link or a single distribution switch **does not interrupt connectivity**
+- Redundancy exists at:
+  - **Access → Distribution**
+  - **Distribution → Core**
+
+This design provides a **resilient and fault-tolerant network** suitable for a hospital environment.
