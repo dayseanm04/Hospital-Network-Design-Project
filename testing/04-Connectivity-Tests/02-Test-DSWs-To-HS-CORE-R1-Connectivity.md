@@ -67,3 +67,15 @@ This test is performed **before any dynamic routing protocols** are configured.
 
 <img width="733" height="129" alt="HS-CORE-R1-To-DSW2" src="https://github.com/user-attachments/assets/e909c16a-d792-4db5-81ec-afe8cb1029dc" />
 
+The Distribution switches were able to successfuly ping HS-CORE-R1 and vice versa ✅.
+
+---
+
+## 🛠️ Common Issues & Troubleshooting
+
+| Issue | Possible Cause | Action |
+|-----|----------------|--------|
+| Ping fails | IP/mask mismatch | Verify /30 addressing |
+| Interface down | Port shut or cable issue | Enable interface / check cable |
+| One-way ping | Wrong interface or IP | Verify source/destination |
+| No connectivity | Interface is L2 | use `no switchport` on the DSW |
