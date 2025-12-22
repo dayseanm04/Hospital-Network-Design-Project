@@ -22,6 +22,11 @@ This layered approach ensures the network can tolerate **link failures** and
 
 ---
 
+## Reference Diagram
+
+<img width="599" height="389" alt="implement-LACP" src="https://github.com/user-attachments/assets/25fe182f-1201-409c-b9c5-b48ee968a709" />
+
+
 ## 🔗 Access Layer Redundancy (ASW → DSW)
 
 Each **Access Switch (ASW)** is connected to the Distribution layer using
