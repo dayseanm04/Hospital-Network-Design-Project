@@ -44,6 +44,11 @@ Use these steps on each device:
 
 ---
 
+## Reference Diagram
+
+<img width="572" height="266" alt="HS1-CORE-FW1-HS-CORE-R1" src="https://github.com/user-attachments/assets/d06f39ac-f48d-4f12-a5d8-9212af1cd111" />
+
+
 ## ✅ Verification
 
 ### On HS-CORE-FW1: show ip address
