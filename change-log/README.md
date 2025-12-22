@@ -5,4 +5,3 @@ This folder contains **configuration logs** that document **what changes were ma
 
 This folder focuses on the **change history, reasoning, and validation** behind those configurations.
 
----
