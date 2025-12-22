@@ -27,3 +27,15 @@ between **DSW1** and **DSW2**.
 | DSW1 IP | 10.255.1.1/30 |
 | DSW2 IP | 10.255.1.2/30 |
 
+---
+
+## ✅ Step-by-Step 
+
+### 1️⃣ Enable Routing on the Distribution Switches
+On each distribution switch, enable Layer 3 routing:
+- Enter global configuration mode
+- Enable routing on the switch (`ip routing`)
+
+> 📌 Only required if routing is not already enabled.
+
+
