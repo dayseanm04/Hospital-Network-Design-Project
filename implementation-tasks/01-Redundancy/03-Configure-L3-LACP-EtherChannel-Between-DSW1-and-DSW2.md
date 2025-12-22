@@ -105,10 +105,11 @@ Run these checks on **both DSW1 and DSW2**:
 
 <img width="806" height="443" alt="DSW2-L3-LACP" src="https://github.com/user-attachments/assets/0e89197c-8077-41d4-aa57-910cda48293f" />
 
-### show interface brief DSW1
+### show ip int brief | include Port-channel DSW1
 
 <img width="759" height="156" alt="DSW1-show-ip-int-brief" src="https://github.com/user-attachments/assets/7df7e894-b683-4ea6-abef-be588ea007a5" />
 
+### show ip int brief | include Port-channel DSW2
 
-
+<img width="756" height="152" alt="DSW2-show-ip-int-brief" src="https://github.com/user-attachments/assets/4e1dd9e2-92e2-4009-805b-ed63682e23ac" />
 
