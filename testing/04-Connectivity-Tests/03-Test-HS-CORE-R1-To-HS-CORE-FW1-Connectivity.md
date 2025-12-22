@@ -10,3 +10,27 @@ The purpose of this test is to verify **Layer 3 connectivity** between the **HS-
 
 ---
 
+## 🌐 Network Information
+
+| Device | Interface Role | IP Address | Subnet |
+|------|---------------|-----------|--------|
+| HS-CORE-R1 | Core Router | 10.255.255.2 | /30 |
+| HS-CORE-FW1 | Firewall | 10.255.255.1 | /30 |
+| Network | P2P Link | 10.255.255.0 | /30 |
+
+---
+
+
+## 🧪 Connectivity Tests (Ping)
+
+### 📌 Ping Test Plan
+
+| Test # | Source | Destination |
+|------:|--------|-------------|
+| 1 | HS-CORE-R1 | 10.255.255.1 (HS-CORE-FW1) |
+| 2 | HS-CORE-FW1 | 10.255.255.2 (HS-CORE-R1) |
+
+
+## 📝 Ping Results 
+
+#### Test 1: HS-CORE-R1 to 10.255.255.1 
