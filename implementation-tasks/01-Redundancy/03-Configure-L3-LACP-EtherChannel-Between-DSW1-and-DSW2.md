@@ -70,4 +70,29 @@ channel-group 10 mode active
 
 ---
 
+### 4️⃣ Configure the Port-Channel as Layer 3 + Add Description
+On both switches:
+- Enter **interface Port-channel10**
+- Ensure it is Layer 3 (`no switchport`)
+- Add a clear description
+
+| Switch | Port-Channel | Description |
+|--------|--------------|-------------|
+| DSW1 | Po10 | To-DSW2 |
+| DSW2 | Po10 | To-DSW1 |
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 
