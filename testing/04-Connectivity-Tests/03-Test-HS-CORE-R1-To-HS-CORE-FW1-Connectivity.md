@@ -41,3 +41,4 @@ The purpose of this test is to verify **Layer 3 connectivity** between the **HS-
 
 <img width="749" height="126" alt="HS-CORE-FW1-To-HS-CORE-R1-failed" src="https://github.com/user-attachments/assets/b058801b-6f75-4e82-a5a9-7df067fede99" />
  
+The ping test Failed so I have to troubleshoot.
