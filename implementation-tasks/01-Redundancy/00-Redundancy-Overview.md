@@ -33,4 +33,19 @@ Each **Access Switch (ASW)** is connected to the Distribution layer using
 The links connected to the same Distribution Switch are bundled using
 **LACP EtherChannel**.
 
+### 📊 Access Uplink Design
+
+| Component | Design Detail |
+|---------|---------------|
+| Uplinks per ASW | 4 total |
+| Links to DSW1 | 2 |
+| Links to DSW2 | 2 |
+| Link bundling | LACP EtherChannel |
+| Purpose | Redundancy + increased bandwidth |
+
+**LACP EtherChannel** allows:
+- Multiple physical links to act as one logical link
+- Automatic failover if a physical link goes down
+
+---
 
