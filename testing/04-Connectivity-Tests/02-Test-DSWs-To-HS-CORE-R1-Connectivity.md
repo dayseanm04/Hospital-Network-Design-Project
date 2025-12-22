@@ -29,3 +29,11 @@ This test is performed **before any dynamic routing protocols** are configured.
 | Core ↔ DSW2 | HS-CORE-R1 | Gi3/0 | 10.255.0.5 | 255.255.255.252 |
 | Core ↔ DSW2 | DSW2 | Gi1/1/1 | 10.255.0.6 | 255.255.255.252 |
 
+## 🎯 Test Objectives
+
+| Objective | Description |
+|---------|-------------|
+| Verify IP reachability | DSWs can ping HS-CORE-R1 |
+| Verify bidirectional connectivity | HS-CORE-R1 can ping both DSWs |
+
+---
