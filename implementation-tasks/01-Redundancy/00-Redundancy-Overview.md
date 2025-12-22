@@ -96,8 +96,8 @@ I will implement Layer 3 ethechannel for the interconnection between  DSW1 and D
 
 | Scenario | Result |
 |--------|--------|
-| DSW1 connected to HS-CORE-R1 fails | Traffic will be sent to DSW2 via the layer 3 etherchannel |
-| DSW2 connected to HS-CORE-R1 fails | Traffic will be sent to DSW1 via the layer 3 etherchannel |
+| DSW1 interface connected to HS-CORE-R1 fails | Traffic will be sent to DSW2 via the layer 3 etherchannel |
+| DSW2 interface connected to HS-CORE-R1 fails | Traffic will be sent to DSW1 via the layer 3 etherchannel |
 
 ### 🧠 Design reasons
 
