@@ -49,13 +49,15 @@ This test is performed **before any dynamic routing protocols** are configured.
 | 3 | HS-CORE-R1 | 10.255.0.2 (DSW1) |
 | 4 | HS-CORE-R1 | 10.255.0.6 (DSW2) |
 
-### 📝 Ping Results 
+## 📝 Ping Results 
 
-#### DSW1 to 10.255.0.1 
+#### Test 1: DSW1 to 10.255.0.1 
 
 <img width="733" height="134" alt="DSW1-HS-CORE-R1-test" src="https://github.com/user-attachments/assets/ef27f6ff-c817-490c-90fc-824ce2f63376" />
 
+#### Test 2: DSW2 to 10.255.0.5 
 
+<img width="751" height="134" alt="DSW2-HS-CORE-R1-test" src="https://github.com/user-attachments/assets/ce51574d-1081-436b-a001-f9feb8578f2c" />
 
 
 
