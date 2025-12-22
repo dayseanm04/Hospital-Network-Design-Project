@@ -45,4 +45,4 @@ The ping test Failed so I have to troubleshoot.
 
 ---
 
-## 🛠 Troubleshooting: [HS-CORE-R1 → HS-CORE-FW1 Ping Failure](../troubleshooting/01-Connectivity-Issues/Issue-HS-CORE-R1-To-HS-CORE-FW1-Ping-Failure.md)
+## 🛠 Troubleshooting: [HS-CORE-R1 → HS-CORE-FW1 Ping Failure](/troubleshooting/01-Connectivity-Issues/Issue-HS-CORE-R1-To-HS-CORE-FW1-Ping-Failure.md)
