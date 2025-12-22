@@ -59,6 +59,8 @@ This test is performed **before any dynamic routing protocols** are configured.
 
 <img width="751" height="134" alt="DSW2-HS-CORE-R1-test" src="https://github.com/user-attachments/assets/ce51574d-1081-436b-a001-f9feb8578f2c" />
 
+#### Test 3: HS-CORE-R1 → 10.255.0.2*
 
+<img width="712" height="130" alt="HS-CORE-R1-To-DSW1" src="https://github.com/user-attachments/assets/6d21dc3d-aa52-461d-b2c6-dd2c2538da0a" />
 
 
