@@ -52,6 +52,10 @@ In this task I will configure **point-to-point IP addresses** between the **Dist
 
 On the multilayer switches (DSW1&DSW2), use `no switchport` command so the interface becomes Layer 3.  
 
+## ✅ Verification
 
+### On HS-CORE-R1 show ip int brief 
 
+<img width="826" height="121" alt="HS-CORE-R1-show-ip" src="https://github.com/user-attachments/assets/5ccc4c8b-0011-4bc5-a1e1-c212d3686feb" />
 
+### On DSW11 show ip int brief | begin GigabitEthernet1/1/
