@@ -32,3 +32,20 @@ In this task I will configure **point-to-point IP addresses** between the **Dist
 
 ### ✅ HS-CORE-R1 Interfaces
 
+### ✅ HS-CORE-R1 Interfaces
+
+| Device | Interface | Connected To | IP Address / Mask | Description |
+|--------|-----------|--------------|-------------------|-------------|
+| HS-CORE-R1 | Gi2/0 | DSW1 Gi1/1/1 | 10.255.0.1 /30 | to DSW1 |
+| HS-CORE-R1 | Gi3/0 | DSW2 Gi1/1/1 | 10.255.0.5 /30 | to DSW2 |
+
+---
+
+### ✅ Distribution Switch Interfaces
+
+| Device | Interface | Connected To | L3 Setting | IP Address / Mask | Description |
+|--------|-----------|--------------|-----------|-------------------|-------------|
+| DSW1 | Gi1/1/1 | HS-CORE-R1 Gi2/0 | `no switchport` | 10.255.0.2 /30 | to HS-CORE-R1 |
+| DSW2 | Gi1/1/1 | HS-CORE-R1 Gi3/0 | `no switchport` | 10.255.0.6 /30 | to HS-CORE-R1 |
+
+
