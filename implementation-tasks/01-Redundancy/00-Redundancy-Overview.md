@@ -1,4 +1,4 @@
-# 🔁 01 – Redundancy Overview
+# 🔁 Redundancy Overview
 
 This document explains how **redundancy** is implemented across the
 **access, distribution, and core layers** of the hospital network.
