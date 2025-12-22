@@ -1,8 +1,6 @@
 # 04 Configure Trunk Links.md
 
-## Skip this step and complete the following instead:  
-
-[Configure LACP EtherChannel (ASW ↔ DSW Links)](/implementation-tasks/01-Redundancy/01-Configure-LACP-EtherChannel-ASW-DSW-Links.md)
+## Skip this step and complete the following instead:  [Configure LACP EtherChannel (ASW ↔ DSW Links)](/implementation-tasks/01-Redundancy/01-Configure-LACP-EtherChannel-ASW-DSW-Links.md)
 
 
 ## 🎯 Goal
