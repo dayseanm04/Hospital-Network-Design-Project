@@ -8,3 +8,17 @@ continuous connectivity for critical hospital services.
 
 ---
 
+## 🏗️ Redundancy Design Summary
+
+The hospital network follows a **hierarchical campus design** with redundancy
+built into each layer:
+
+- Redundant uplinks at the **Access layer**
+- Dual Distribution Switches
+- Redundant paths from Distribution to the **Core Router (HS-CORE-R1)**
+
+This layered approach ensures the network can tolerate **link failures** and
+**device failures** without service interruption.
+
+---
+
