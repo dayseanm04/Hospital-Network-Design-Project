@@ -52,5 +52,22 @@ On **DSW1 and DSW2**:
 
 ---
 
+### 3️⃣ Configure the LACP EtherChannel (Channel-Group 10)
+On both switches:
+- Add the interface range to **channel-group 10**
+- Use **LACP mode active**
+
+**Command:**
+
+```bash
+channel-group 10 mode active
+```
+
+| Switch | Channel-Group | LACP Mode | Members |
+|--------|--------------:|----------:|---------|
+| DSW1 | 10 | active | Gi1/1/2–Gi1/1/3 |
+| DSW2 | 10 | active | Gi1/1/2–Gi1/1/3 |
+
+---
 
 
