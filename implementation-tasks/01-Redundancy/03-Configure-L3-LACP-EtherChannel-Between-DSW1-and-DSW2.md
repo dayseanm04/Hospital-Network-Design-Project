@@ -83,7 +83,15 @@ On both switches:
 
 ---
 
+### 5️⃣ Assign IP Addresses to the L3 Port-Channel
+Assign a /30 network for the routed Port-Channel:
 
+| Switch | Port-Channel | IP Address | Subnet Mask |
+|--------|--------------|------------|-------------|
+| DSW1 | Po10 | 10.255.1.1 | 255.255.255.252 |
+| DSW2 | Po10 | 10.255.1.2 | 255.255.255.252 |
+
+---
 
 
 
