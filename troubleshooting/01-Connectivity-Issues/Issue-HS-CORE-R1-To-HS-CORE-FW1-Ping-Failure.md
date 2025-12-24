@@ -81,10 +81,16 @@ After applying the ACL:
 
 <img width="728" height="124" alt="HS-CORE-FW1-ping-success" src="https://github.com/user-attachments/assets/83fc7495-6b32-44e5-82bb-4816dbe3a5d2" />
 
-### HS-CORE-FW1 pings HS-CORE-FW1 (10.255.255.w)
+### HS-CORE-FW1 pings HS-CORE-FW1 (10.255.255.2)
 
 <img width="942" height="133" alt="HS-CORE-FW1-view-ACL" src="https://github.com/user-attachments/assets/aa720b3a-882b-46f5-8ad4-bb56d0409ebf" />
 
 The ping were successful
 
+--- 
 
+### Check the ACL on HS-CORE-FW1
+
+<img width="923" height="87" alt="HS-CORE-FW-ACL-hit" src="https://github.com/user-attachments/assets/d412c978-0a40-4879-80d8-dc7271d564f6" />
+
+The ACL I configured permited pings from HS_CORE-R1. The hit count was 5 and it matches the ICMP echos sent by HS-CORE-R1
