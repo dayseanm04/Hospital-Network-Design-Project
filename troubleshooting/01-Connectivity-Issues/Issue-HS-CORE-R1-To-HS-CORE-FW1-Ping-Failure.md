@@ -99,3 +99,6 @@ The ACL I configured permited the pings from **HS-CORE-R1**. The hit count was 5
 ```bash
 write memory
 ```
+
+## 📝 Lessons Learned
+Always check ACLs and also view the running configuration.
