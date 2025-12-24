@@ -48,7 +48,7 @@ Since no security policies had been configured yet, the firewall’s **implicit 
 #### Actions performed on **HS-CORE-FW1**:
 - Assigned the interface a logical name (`inside`)
 
-see bellow:
+**See bellow:**
 
 <img width="576" height="64" alt="HS-CORE-FW1-inside" src="https://github.com/user-attachments/assets/3b6565f5-2fd4-4c9c-905a-341aac0af120" />
 
