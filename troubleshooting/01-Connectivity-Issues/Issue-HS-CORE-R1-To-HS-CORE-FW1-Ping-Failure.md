@@ -36,7 +36,12 @@ The ping test Failed.
 ## 🛠 Root Cause
 Since I was pining the firewall the first that came to mind was that the **firewall was blocking the ICMP echo requests** which is the root cause.
 
+
 ## ✅ Resolution
 
-### Configure Extended ACL to allow ICMP from HS-CORE-R1
+### 🔍 Identified Cause
+The ping failure between **HS-CORE-R1** and **HS-CORE-FW1** was caused by the firewall **blocking ICMP traffic by default**.  
+Since no security policies had been configured yet, the firewall’s **implicit deny rule** prevented ICMP echo requests from reaching HS-CORE-FW1.
+
+**Note:** HS-CORE-FW1 G1/7 interface is connected to HS-CORE-R1 G0/0 interface
 
