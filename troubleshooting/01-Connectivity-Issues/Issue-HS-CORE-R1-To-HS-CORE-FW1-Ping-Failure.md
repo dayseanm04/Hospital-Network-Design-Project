@@ -47,8 +47,8 @@ Since no security policies had been configured yet, the firewall’s **implicit 
 
 #### Actions performed on **HS-CORE-FW1**:
 - In interface config mode for G1/7
-- I Assigned the interface a logical name (`inside`)
- - with the command `nameif inside`
+- I Assigned the interface a logical name (**inside**)
+  - With the command `nameif inside`
  
 **See bellow:**
 
