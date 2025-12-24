@@ -24,3 +24,6 @@ The ping test Failed.
 - HS-CORE-R1
 - HS-CORE-FW1
 
+## 🔍 Troubleshooting Steps Taken
+- I pinged HS-CORE-FW1 and oberved in simulation mode
+
