@@ -38,4 +38,5 @@ Since I was pining the firewall the first that came to mind was that the **firew
 
 ## ✅ Resolution
 
-### Configure ACL to allow ICMP from HS-CORE-R1
+### Configure Extended ACL to allow ICMP from HS-CORE-R1
+
