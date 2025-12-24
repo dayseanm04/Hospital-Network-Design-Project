@@ -54,8 +54,11 @@ Since no security policies had been configured yet, the firewall’s **implicit 
 
 <img width="576" height="64" alt="HS-CORE-FW1-inside" src="https://github.com/user-attachments/assets/3b6565f5-2fd4-4c9c-905a-341aac0af120" />
 
+- The in Global config mode I configued an extended ACL permitting ICMP from HS-CORE-R1 to HS-CORE-FW1
 
-
+```bash
+access-list allow-icmp-from-HS-CORE-R1 permit icmp host 10.255.255.2 host 10.255.255.1 
+```
 
 
 
