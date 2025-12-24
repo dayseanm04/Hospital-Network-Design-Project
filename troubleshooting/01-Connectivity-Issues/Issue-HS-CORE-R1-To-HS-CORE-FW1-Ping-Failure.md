@@ -77,4 +77,14 @@ access-group allow-icmp-from-HS-CORE-R1 in interface inside
 
 After applying the ACL:
 
+### HS-CORE-R1 pings HS-CORE-FW1 (10.255.255.1)
+
+<img width="728" height="124" alt="HS-CORE-FW1-ping-success" src="https://github.com/user-attachments/assets/83fc7495-6b32-44e5-82bb-4816dbe3a5d2" />
+
+### HS-CORE-FW1 pings HS-CORE-FW1 (10.255.255.w)
+
+<img width="942" height="133" alt="HS-CORE-FW1-view-ACL" src="https://github.com/user-attachments/assets/aa720b3a-882b-46f5-8ad4-bb56d0409ebf" />
+
+The ping were successful
+
 
