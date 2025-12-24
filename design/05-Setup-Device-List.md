@@ -17,12 +17,12 @@ Note: I may be updated some of the devices as the project evolves (When its nece
 
 | Device Name | Model | Role | Notes |
 |-------------|--------|------|-------|
-| HS-CORE-RTR1 | Cisco PT-Router | Main hospital router | Connects to HS-CORE-FW 1 |
+| HS-CORE-R1 | Cisco PT-Router | Main hospital router | Connects to HS-CORE-FW 1 |
 
 ### Core Firewall
 | Device Name | Model | Role | Notes |
 |-------------|--------|------|-------|
-| HS-CORE-FW | Cisco ASA 5506 | Security/perimeter firewall | Sits between ISP router and the HS-CORE-RTR1 |
+| HS-CORE-FW1 | Cisco ASA 5506 | Security/perimeter firewall | Sits between ISP router and the HS-CORE-R1 |
 
 ---
 
@@ -33,8 +33,8 @@ These switches handle routing for VLANs, inter-VLAN connectivity and redundancy.
 ### Distribution Switches
 | Device Name | Model | Role | Notes |
 |-------------|--------|------|-------|
-| DIST-SW1 | Cisco 3650-24PC | Primary distribution switch | Routing enabled |
-| DIST-SW2 | Cisco 3650-24PC | Secondary distribution switch | Routing enabled |
+| DSW1 | Cisco 3650-24PC | Primary distribution switch | Routing enabled |
+| DSW2 | Cisco 3650-24PC | Secondary distribution switch | Routing enabled |
 
 ---
 
@@ -45,8 +45,9 @@ These switches connect end devices (PCs, phones and printers) on each floor of t
 ### Access Switches
 | Device Name | Model | Floor / Purpose | Notes |
 |-------------|--------|------------------|-------|
-| Floor1-ASW1 | Cisco 3560-24PC | Floor 1 | Routing disabled |
-| Floor2-AWS1 | Cisco 3560-24PC | Floor 2 | Routing disabled |
-| Floor3-AWS1 | Cisco 3560-24PC | Floor 3 | Routing disabled |
-| Floor4-AWS1 | Cisco 3560-24PC | Floor 4 | Routing disabled |
-
+| F1-ASW1 | Cisco 3560-24PC | Floor 1 | Routing disabled |
+| F1-ASW2 | Cisco 3560-24PC | Floor 1 | Routing disabled |
+| F2-ASW1 | Cisco 3560-24PC | Floor 2 | Routing disabled |
+| F2-ASW2 | Cisco 3560-24PC | Floor 2 | Routing disabled |
+| F3-AWS1 | Cisco 3560-24PC | Floor 3 | Routing disabled |
+| F3-AWS2 | Cisco 3560-24PC | Floor 3 | Routing disabled |
