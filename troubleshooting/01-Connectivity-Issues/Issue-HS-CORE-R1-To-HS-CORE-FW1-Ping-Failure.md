@@ -6,7 +6,7 @@
 
 ## 📌 Problem Description
 
-When I pinged HS-CORE-FW1 **10.255.255.1** from HS-CORE-R1 it failed, and vice versa.
+When I pinged HS-CORE-FW1 **10.255.255.1** from HS-CORE-R1 it failed, and also when I pinged the HS-CORE-R1 from the Fw it also failed.
 
 ## 📝 Ping Results 
 
@@ -25,5 +25,11 @@ The ping test Failed.
 - HS-CORE-FW1
 
 ## 🔍 Troubleshooting Steps Taken
+- I viewed the running config of the HS-CORE-FW1
+- I viewed the interface IP and status
 - I pinged HS-CORE-FW1 and oberved in simulation mode
+
+
+## 🛠 Root Cause
+Since I was pining the firewall the first that came to mind was that the firewall was blocking the ICMP echo requests.
 
