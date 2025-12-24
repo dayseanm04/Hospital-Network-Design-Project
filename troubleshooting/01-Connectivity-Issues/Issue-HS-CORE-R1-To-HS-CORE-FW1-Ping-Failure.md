@@ -27,7 +27,10 @@ The ping test Failed.
 ## 🔍 Troubleshooting Steps Taken
 - I viewed the running config of the HS-CORE-FW1
 - I viewed the interface IP and status
-- I pinged HS-CORE-FW1 and oberved in simulation mode
+
+### I pinged HS-CORE-FW1 and oberved in simulation mode
+
+<img width="586" height="280" alt="HS-CORE-R1-HS-CORE-FW1-ping-test-sim" src="https://github.com/user-attachments/assets/ff5d2942-5f3e-430e-a7d4-bfc21db54cda" />
 
 
 ## 🛠 Root Cause
