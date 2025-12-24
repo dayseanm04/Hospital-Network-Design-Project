@@ -33,3 +33,4 @@ The ping test Failed.
 ## 🛠 Root Cause
 Since I was pining the firewall the first that came to mind was that the firewall was blocking the ICMP echo requests.
 
+## ✅ Resolution
