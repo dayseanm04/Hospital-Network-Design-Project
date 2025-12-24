@@ -16,4 +16,7 @@ When i pinged HS-CORE-FW1 **10.255.255.1** from HS-CORE-R1 it failed, and vice v
  
 The ping test Failed.
 
+## 🌐 Affected Devices
+- HS-CORE-R1
+- HS-CORE-FW1
 
