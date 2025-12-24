@@ -45,11 +45,10 @@ Since no security policies had been configured yet, the firewall’s **implicit 
 
 **Note:** HS-CORE-FW1 G1/7 interface is connected to HS-CORE-R1 G0/0 interface
 
-### Actions performed on **HS-CORE-FW1**:
+## ♦️ Actions performed on **HS-CORE-FW1**:
 
-#### In interface config mode for G1/7
-
-#### I assigned the interface a logical name (**inside**)
+### 🔷 In interface config mode for G1/7
+#### 🔷 I assigned the interface a logical name (**inside**)
   - With the command `nameif inside`
  
 **See bellow:**
@@ -58,7 +57,7 @@ Since no security policies had been configured yet, the firewall’s **implicit 
 
 **Note:** the security is set to 100 the maximum meaning trusted.
 
-### The in Global config mode I configued an extended ACL permitting ICMP from HS-CORE-R1 to HS-CORE-FW1
+### 🔷 The in Global config mode I configued an extended ACL permitting ICMP from HS-CORE-R1 to HS-CORE-FW1
 
 **Command ⚒:**
 
@@ -66,7 +65,7 @@ Since no security policies had been configured yet, the firewall’s **implicit 
 access-list allow-icmp-from-HS-CORE-R1 permit icmp host 10.255.255.2 host 10.255.255.1 
 ```
 
-### Applied the ACL inbound on the firewall interface
+### 🔷 Applied the ACL inbound on the firewall interface
 
 ```bash
 access-group allow-icmp-from-HS-CORE-R1 in interface inside
