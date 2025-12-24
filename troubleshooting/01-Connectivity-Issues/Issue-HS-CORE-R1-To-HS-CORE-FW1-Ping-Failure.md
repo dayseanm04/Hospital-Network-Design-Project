@@ -57,7 +57,7 @@ Since no security policies had been configured yet, the firewall’s **implicit 
 
 **Note:** the security is set to 100 the maximum meaning trusted.
 
-## 🔷 The in Global config mode I configued an extended ACL permitting ICMP from HS-CORE-R1 to HS-CORE-FW1
+### 🔷 The in Global config mode I configued an extended ACL permitting ICMP from HS-CORE-R1 to HS-CORE-FW1
 
 **Command ⚒:**
 
@@ -70,3 +70,11 @@ access-list allow-icmp-from-HS-CORE-R1 permit icmp host 10.255.255.2 host 10.255
 ```bash
 access-group allow-icmp-from-HS-CORE-R1 in interface inside
 ```
+
+---
+
+## 🧪 Verification
+
+After applying the ACL:
+
+
