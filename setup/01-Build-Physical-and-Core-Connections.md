@@ -56,12 +56,12 @@ Connect the firewall to the hospital core router.
 ### DSW1 to Core Router
 | DSW1 Interface | Core Router Interface | Media |
 |---------------|----------------------|-------|
-| G1/1/1 | HS-CW-R1 G2/0 | Fiber |
+| G1/1/1 | HS-CORE-R1 G2/0 | Fiber |
 
 ### DSW2 to Core Router
 | DSW2 Interface | Core Router Interface | Media |
 |---------------|----------------------|-------|
-| G1/1/1 | HS-CW-R1 G3/0 | Fiber |
+| G1/1/1 | HS-CORE-R1 G3/0 | Fiber |
 
 ✔️ These connections will support redundancy and load balancing.
 
@@ -88,8 +88,8 @@ Connect the two distribution switches together.
 
 ---
 
-### Floor1-ASW1 Connections
-| Floor1-ASW1 Interface | Distribution Switch | Interface |
+### F1-ASW1 Connections
+| F1-ASW1 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/1 |
 | G1/0/23 | DSW1 | G1/0/2 |
@@ -98,8 +98,8 @@ Connect the two distribution switches together.
 
 ---
 
-### Floor1-ASW2 Connections
-| Floor1-ASW1 Interface | Distribution Switch | Interface |
+### F1-ASW2 Connections
+| F1-ASW1 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/3 |
 | G1/0/23 | DSW1 | G1/0/4 |
@@ -108,8 +108,8 @@ Connect the two distribution switches together.
 
 ---
 
-### Floor2-ASW1 Connections
-| Floor2-ASW1 Interface | Distribution Switch | Interface |
+### F2-ASW1 Connections
+| F2-ASW1 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/5 |
 | G1/0/23 | DSW1 | G1/0/6 |
@@ -118,8 +118,8 @@ Connect the two distribution switches together.
 
 ---
 
-### Floor2-ASW2 Connections
-| Floor2-ASW2 Interface | Distribution Switch | Interface |
+### F2-ASW2 Connections
+| F2-ASW2 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/7 |
 | G1/0/23 | DSW1 | G1/0/8 |
@@ -128,8 +128,8 @@ Connect the two distribution switches together.
 
 ---
 
-### Floor3-ASW1 Connections
-| Floor3-ASW1 Interface | Distribution Switch | Interface |
+### F3-ASW1 Connections
+| F3-ASW1 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/9 |
 | G1/0/23 | DSW1 | G1/0/10 |
@@ -138,8 +138,8 @@ Connect the two distribution switches together.
 
 ---
 
-### Floor3-ASW2 Connections
-| Floor3-ASW2 Interface | Distribution Switch | Interface |
+### F3-ASW2 Connections
+| F3-ASW2 Interface | Distribution Switch | Interface |
 |---------------|---------------------|-----------|
 | G1/0/24 | DSW1 | G1/0/11 |
 | G1/0/23 | DSW1 | G1/0/12 |
