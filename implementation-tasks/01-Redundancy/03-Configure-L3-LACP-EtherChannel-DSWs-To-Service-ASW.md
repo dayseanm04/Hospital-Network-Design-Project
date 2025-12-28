@@ -91,3 +91,14 @@ This allows Layer 3 forwarding between the service Access Switch and the distrib
 
 <img width="810" height="368" alt="Service-SW-pc" src="https://github.com/user-attachments/assets/2874dd17-78bd-4a68-b8b4-b0afeadf798d" />
 
+### show ip int brief | include Port-channel on Service-ASW
+
+<img width="781" height="99" alt="Service-SW-ip-int" src="https://github.com/user-attachments/assets/737c0688-3cfb-417d-8dce-4f592762c208" />
+
+
+### show ip int brief | include Port-channel on DSW1
+<img width="795" height="202" alt="DSW1-ip-int" src="https://github.com/user-attachments/assets/41786e4a-0cb3-4365-8af8-8ed4b6d3fdd7" />
+
+### show ip int brief | include Port-channel on DSW2
+
+<img width="805" height="207" alt="DSW2-ip-int" src="https://github.com/user-attachments/assets/66233ba5-449f-4ba7-822b-042beb7a80da" />
