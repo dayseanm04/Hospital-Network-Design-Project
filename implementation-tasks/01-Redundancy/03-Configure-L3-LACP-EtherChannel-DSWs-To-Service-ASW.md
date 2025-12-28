@@ -7,6 +7,11 @@ In this task I will configure **Layer 3 LACP EtherChannel** between the **distri
 Multiple physical links are bundled together into logical **routed port-channels** using **LACP**.  
 This provides **redundancy** and **higher bandwidth** for traffic going to and from network services hosted on the Service-ASW.
 
+
+## Reference Network Diagram
+
+<img width="895" height="443" alt="net-diagram" src="https://github.com/user-attachments/assets/d68987f7-4d57-4650-8a14-d304f67acaef" />
+
 ---
 
 ## 🧱 Devices Involved
