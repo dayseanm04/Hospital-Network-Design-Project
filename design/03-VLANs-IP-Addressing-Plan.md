@@ -90,6 +90,12 @@ Each floor uses a separate **/24 network**
 | Loading Dock / Supply / Supply Chain / Purchasing  | 172.16.7.0/27 | 255.255.255.224 | .1 - .30 | about 15 | 30 |
 
 
+## 🧩 Servers Addressing (10.10.10.0/27)
+
+| Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
+|-----------|--------|------|------------------|---------|----------|
+| Server | 10.10.10.0/27 | 255.255.255.224 | .1 – .30 | about 10 | 30|
+
 
 ---
 
