@@ -23,11 +23,5 @@ I will configure L3 Etherchannel instead to prevent unnecessary brodacast being 
 [**Configure-Allowed-VLANs-On-EtherChannel-ASW-DSW.md**](/skip/02-Configure-Allowed-VLANs-On-EtherChannel-ASW-DSW.md)
 
 
-
-## ✅ Verification
-- Ping tests
-- show commands
-- Screenshot reference
-
 ## 📌 Result
 ✅ Successful
