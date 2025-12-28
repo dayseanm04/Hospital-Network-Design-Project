@@ -119,7 +119,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 |----|--------|
 | Network | 10.20.0.12 /30 |
 | DSW2 Po4 IP | 10.20.0.13 |
-| F2-ASW2 Po2 IP | 10.20.0.14 |
+| F2-ASW2 Po1 IP | 10.20.0.14 |
 | EtherChannel | Po4 |
 
 ---
