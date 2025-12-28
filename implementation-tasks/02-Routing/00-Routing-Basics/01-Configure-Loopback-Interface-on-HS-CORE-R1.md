@@ -17,12 +17,6 @@
 
 ---
 
-## ✅ Devices Involved
-- **Core Router:** HS-CORE-R1
-
----
-
-
 ## 🛠️  Configure Loopbacks on **HS-CORE-R1**
 
 | HS-CORE-R1 | Loopback IP |
