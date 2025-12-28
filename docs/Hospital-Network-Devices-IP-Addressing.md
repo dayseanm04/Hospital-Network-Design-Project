@@ -72,12 +72,12 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ### 🏬 Floor 3
 
-| Connection | Port-Channel | IP Address | Network | Notes |
-|-----------|-------------|-----------|--------|------|
-| DSW1 → F3-ASW2 | DSW1 Po6 | 10.10.0.21 /30 | 10.10.0.20 /30 | |
-| DSW1 → F3-ASW2 | F3-ASW2 Po1 | 10.10.0.22 /30 | 10.10.0.20 /30 | |
-| DSW2 → F3-ASW2 | DSW2 Po6 | 10.20.0.21 /30 | 10.20.0.20 /30 | |
-| DSW2 → F3-ASW2 | F3-ASW2 Po2 | 10.20.0.22 /30 | 10.20.0.20 /30 | |
+| Connection | Port-Channel | IP Address | Network |
+|-----------|-------------|-----------|--------|
+| DSW1 → F3-ASW2 | DSW1 Po6 | 10.10.0.21 /30 | 10.10.0.20 /30 |
+| DSW1 → F3-ASW2 | F3-ASW2 Po1 | 10.10.0.22 /30 | 10.10.0.20 /30 |
+| DSW2 → F3-ASW2 | DSW2 Po6 | 10.20.0.21 /30 | 10.20.0.20 /30 |
+| DSW2 → F3-ASW2 | F3-ASW2 Po2 | 10.20.0.22 /30 | 10.20.0.20 /30 |
 
 
 
