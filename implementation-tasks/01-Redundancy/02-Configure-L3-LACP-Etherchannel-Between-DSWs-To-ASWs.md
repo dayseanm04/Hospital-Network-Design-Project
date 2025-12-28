@@ -168,9 +168,13 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 <img width="824" height="475" alt="DSW2-show-pc" src="https://github.com/user-attachments/assets/989f923a-52ee-4e17-8a7e-61f3be0cc12e" />
 
+### show etherchannel summary on F1-ASW1
 
+<img width="820" height="387" alt="F1-ASW1-sh-et-su" src="https://github.com/user-attachments/assets/c13a72bf-171f-4df1-a207-4278c77b2989" />
 
+### show etherchannel summary on F1-ASW2
 
+<img width="840" height="370" alt="F1-ASW2-sh-et-su" src="https://github.com/user-attachments/assets/278f21a5-f5b9-4050-bf53-2b9084604647" />
 
 
 
