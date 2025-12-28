@@ -1,4 +1,4 @@
-# 🔗 03 – Configure L3 LACP EtherChannel between DSW1 ↔ DSW2
+# 🔗 01 – Configure L3 LACP EtherChannel between DSW1 ↔ DSW2
 
 In this task I will configure a **Layer 3 (routed) LACP EtherChannel**
 between **DSW1** and **DSW2**.
