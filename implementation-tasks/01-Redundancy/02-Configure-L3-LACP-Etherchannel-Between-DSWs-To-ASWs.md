@@ -38,7 +38,7 @@ Remove trunk/L2 configurations and re-enable interfaces:
 ```bash
 no switchport
 no switchport mode trunk
-no switchport trunk allowed vlan #, #
+no switchport trunk allowed vlan #,#
 no shutdown
 ```
 
@@ -56,7 +56,7 @@ no interface po2
 #### 🔷 Then remove the trunk allowed VLANs and bring links up:  
 
 ```bash
-no switchport trunk allowed vlan #, #
+no switchport trunk allowed vlan #,#
 no shutdown
 ```
 
