@@ -60,7 +60,7 @@ no switchport trunk allowed vlan #, #
 no shutdown
 ```
 
-## 🔁 Part B — Configure L3 LACP EtherChannels (Routed Port-Channels)
+## 🔁 Part B - Configure L3 LACP EtherChannels (Routed Port-Channels)
 
 ### 3️⃣ L3 EtherChannel Command Template (Use This Everywhere)
 On **both sides** of the EtherChannel:
