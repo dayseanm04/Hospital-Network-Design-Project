@@ -21,8 +21,9 @@ This approach provides:
 
 ## 🧹 Part A — Remove OLD L2 EtherChannels (Trunks)
 
-### 1️⃣ Remove L2 Port-Channels on **DSW1 + DSW2 (Po1–Po6)**
-On **DSW1** and **DSW2**, remove Po1 through Po6 (repeat for each Po#):  
+### 1️⃣ Remove L2 Port-Channels on **DSW1 and DSW2 (Po1–Po6)**
+
+#### 🔷In global config moderemove Po1 through Po6 (repeat for each Po#):  
 
 ```bash
 no interface po1
