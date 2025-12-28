@@ -25,3 +25,14 @@ The information is grouped by **network layer** and **type of connection** so it
 | HS-CORE-FW1 → HS-CORE-R1 | HS-CORE-R1 G0/0 | 10.255.255.2 /30 | 10.255.255.0 /30 | |
 
 ---
+
+## 🧭 Core Layer ↔ Distribution Layer
+
+| Connection | Interface | IP Address | Network | Notes |
+|-----------|----------|-----------|--------|------|
+| HS-CORE-R1 → DSW1 | HS-CORE-R1 G2/0 | 10.255.0.1 /30 | 10.255.0.0 /30 | |
+| HS-CORE-R1 → DSW1 | DSW1 G1/1/1 | 10.255.0.2 /30 | 10.255.0.0 /30 | |
+| HS-CORE-R1 → DSW2 | HS-CORE-R1 G3/0 | 10.255.0.5 /30 | 10.255.0.4 /30 | |
+| HS-CORE-R1 → DSW2 | DSW2 G1/1/1 | 10.255.0.6 /30 | 10.255.0.4 /30 | |
+
+---
