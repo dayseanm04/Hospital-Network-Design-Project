@@ -1,5 +1,12 @@
 # 🔗 01 – Configure LACP EtherChannel on Access to Distribution Switches Links
 
+---
+
+## Skip this step and complete the following instead:  [Configure Layer 3 EtherChannel for DSWs to Service Switch (ASW ↔ DSW Links)](/implementation-tasks/01-Redundancy/02-Configure-L3-LACP-Etherchannel-Between-DSWs-To-ASWs.md)
+
+
+---
+
 In this task I will configure **LACP EtherChannel** between the
 **Access Switches (ASWs)** and **Distribution Switches (DSWs)**.
 
