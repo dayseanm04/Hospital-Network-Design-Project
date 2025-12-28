@@ -43,3 +43,7 @@ The switch interface connected to the DHCP server is configured as a **routed po
 
 <img width="811" height="261" alt="service-sw-show-ip-int-brief" src="https://github.com/user-attachments/assets/0ff107d1-a551-4114-92fd-b265a5268ac2" />
 
+### ipconfig on DHCP-SRV
+
+<img width="770" height="397" alt="DHCP-SRV-ipconfig" src="https://github.com/user-attachments/assets/a001ba12-bb2a-469d-b9de-7e3253ac5908" />
+
