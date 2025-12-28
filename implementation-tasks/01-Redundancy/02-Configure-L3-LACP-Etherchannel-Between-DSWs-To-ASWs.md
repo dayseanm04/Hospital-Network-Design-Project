@@ -197,16 +197,34 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 <img width="737" height="387" alt="F3-ASW2-sh-et-su" src="https://github.com/user-attachments/assets/af9ba88d-4c55-4226-8d64-bb5700826a44" />
 
 
+### show ip int brief | include Port-channel on F1-ASW1
+
+<img width="766" height="101" alt="F1-ASW1-show-ip-int-brief" src="https://github.com/user-attachments/assets/01b83a18-b4f5-4548-bab2-bb0f6060b8d4" />
 
 
+### show ip int brief | include Port-channel on F1-ASW2
+
+<img width="790" height="99" alt="F1-ASW2-show-ip-int-brief" src="https://github.com/user-attachments/assets/024e997f-9b87-4be3-ae40-4f2654ed9965" />
 
 
+### show ip int brief | include Port-channel on F2-ASW1
+
+<img width="779" height="96" alt="F2-ASW1-show-ip-int-brief" src="https://github.com/user-attachments/assets/35ff864d-83ef-409c-8a86-73e20d8b628d" />
 
 
+### show ip int brief | include Port-channel on F2-ASW2
+
+<img width="786" height="101" alt="F2-ASW2-show-ip-int-brief" src="https://github.com/user-attachments/assets/7cb723b7-3c08-4548-b0ad-16b40b73d801" />
 
 
+### show ip int brief | include Port-channel on F3-ASW1
+
+<img width="766" height="103" alt="F3-ASW1-show-ip-int-brief" src="https://github.com/user-attachments/assets/0a83d736-3431-4294-98d0-595b6474201a" />
 
 
+### show ip int brief | include Port-channel on F3-ASW2
+
+<img width="768" height="101" alt="F3-ASW2-show-ip-int-brief" src="https://github.com/user-attachments/assets/ed3d3b61-5d3c-40ce-a9e8-1f2008ee2774" />
 
 
 
