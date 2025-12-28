@@ -73,6 +73,5 @@ network 10.255.255.0 0.0.0.3 area 0
 
 <img width="861" height="102" alt="HS-CORE-R1-show-ospf-neighbor" src="https://github.com/user-attachments/assets/2755a8f6-f83d-4fba-8daf-12054ac7746f" />
 
-
-
+**HS-CORE-R1 is neighbors with HS-CORE-FW1**
 
