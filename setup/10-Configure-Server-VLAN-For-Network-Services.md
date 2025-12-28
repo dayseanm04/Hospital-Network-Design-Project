@@ -44,7 +44,7 @@ end
 ---
 
 ### 3️⃣ Create the SVI for VLAN 700 (Gateway)
-Back in **global config mode**:
+In **Global config mode**:
 
 ```bash
 interface vlan 700
