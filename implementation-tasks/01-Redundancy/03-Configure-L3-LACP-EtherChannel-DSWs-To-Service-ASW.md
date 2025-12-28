@@ -87,8 +87,7 @@ This allows Layer 3 forwarding between the service Access Switch and the distrib
 
 <img width="824" height="475" alt="DSW2-show-pc" src="https://github.com/user-attachments/assets/989f923a-52ee-4e17-8a7e-61f3be0cc12e" />
 
+### show etherchannel summary on Service-ASW
 
-
-
-
+<img width="810" height="368" alt="Service-SW-pc" src="https://github.com/user-attachments/assets/2874dd17-78bd-4a68-b8b4-b0afeadf798d" />
 
