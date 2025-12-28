@@ -77,6 +77,43 @@ ip address 10.255.2.2 255.255.255.252
 
 ---
 
+## 2️⃣ Configure L3 LACP EtherChannel: DSW2 ↔ Service-ASW
+
+### ✅ On DSW2 (Port-Channel 7)
+
+```bash
+interface G1/0/13-14
+no switchport
+channel-group 7 mode active
+```
+
+#### 🔷Configure Po7
+
+```bash
+description To-Service-ASW
+ip address 10.255.2.5 255.255.255.252
+```
+
+### ✅ On **Service-ASW** (Port-Channel 2)
+
+#### 🔷 Bundle uplinks to DSW1:
+
+```bash
+interface range G1/0/21-22
+no switchport
+channel-group 2 mode active
+```
+
+
+#### 🔷Configure Po2
+
+```bash
+description To-DSW2
+ip address 10.255.2.6 255.255.255.252
+```
+
+---
+
 ## 🔁 DSW1 ↔ Service-ASW EtherChannel
 
 ### 📍 Logical Link Details
