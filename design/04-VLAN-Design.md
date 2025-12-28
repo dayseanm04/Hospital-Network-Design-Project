@@ -90,6 +90,12 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 600     | Specialty Care Receptionist         | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
 | 600     | Primary Care Receptionist           | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
 
+## 🧩 Server VLAN
+
+| VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
+|--------|-------------------------------|--------------------|--------------------|--------------------|
+| 700     | Sserver          | 10.10.10.0/27    | 255.255.255.224    | 10.10.10.1       |
+
 
 ## ✅ Summary
 
