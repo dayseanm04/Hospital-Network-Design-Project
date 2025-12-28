@@ -16,6 +16,7 @@ This approach provides:
 
 <img width="539" height="341" alt="topology" src="https://github.com/user-attachments/assets/ec132bce-d3eb-40b6-b22b-b0d694a93232" />
 
+## [Click here to view the interface connections](/setup/01-Build-Physical-and-Core-Connections.md)
 
 ---
 
