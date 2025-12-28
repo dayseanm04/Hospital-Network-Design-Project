@@ -18,3 +18,13 @@ used for routing, testing, and router IDs for dynamic routing protocols such as 
 
 ---
 
+## ✅ Devices Involved
+- **Distribution Switches:** DSW1, DSW2  
+- **Access Switches:**  
+  - F1-ASW1, F1-ASW2  
+  - F2-ASW1, F2-ASW2  
+  - F3-ASW1, F3-ASW2  
+  - Service-ASW
+
+---
+
