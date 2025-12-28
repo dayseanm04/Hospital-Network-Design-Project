@@ -19,7 +19,7 @@ This approach provides:
 
 ---
 
-## 🧹 Part A — Remove OLD L2 EtherChannels (Trunks)
+## 🧹 Part A - Remove OLD L2 EtherChannels (Trunks)
 
 ### 1️⃣ Remove L2 Port-Channels on **DSW1 and DSW2 (Po1–Po6)**
 
@@ -37,6 +37,24 @@ no interface po1
 ```bash
 no switchport
 no switchport mode trunk
+no switchport trunk allowed vlan #, #
+no shutdown
+```
+
+**Note📌" The # is the vlan number**
+
+### 2️⃣ Remove L2 Port-Channels on **Access Switches (Po1–Po2)**
+
+#### 🔷 On **each ASW**, remove the existing L2 port-channels:  
+
+```bash
+no interface po1
+no interface po2
+```
+
+#### 🔷 Then remove the trunk allowed VLANs and bring links up:  
+
+```bash
 no switchport trunk allowed vlan #, #
 no shutdown
 ```
