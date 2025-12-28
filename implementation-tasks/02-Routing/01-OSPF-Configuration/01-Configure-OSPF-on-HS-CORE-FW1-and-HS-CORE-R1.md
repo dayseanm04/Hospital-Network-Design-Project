@@ -1,4 +1,5 @@
 # 🧭 01 Configure OSPF on HS CORE FW1 and HS CORE R1.md
+
 **Goal:** Enable **OSPF Area 0 (backbone)** between **HS-CORE-FW1** and **HS-CORE-R1** over the **10.255.255.0/30** link. 
 
 
@@ -46,4 +47,21 @@ network 10.255.255.0 255.255.255.252 area 0
 #### ✅ This enables OSPF only for the **10.255.255.0/30** internal link (NOT the ISP link).
 
 ---
+
+## 🧱 Part B - Configure OSPF on HS-CORE-R1
+
+### 4️⃣ Enter OSPF process 1
+
+#### 🔷 In global config mode
+
+```bash
+router ospf 1
+```
+
+
+### 5️⃣ Enable OSPF for the network 10.255.255.0/30 network (wildcard mask version)
+
+```bash
+network 10.255.255.0 0.0.0.3 area 0
+```
 
