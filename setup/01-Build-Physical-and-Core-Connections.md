@@ -84,7 +84,7 @@ Connect the two distribution switches together.
 
 ### Access Switch Information
 - Model: Cisco 3650-24PT
-- Devices: Floor1-ASW1, Floor1-ASW2 Floor2-ASW1, Floor2-ASW2, Floor3-ASW1, Floor3-ASW2
+- Devices: F1-ASW1, F1-ASW2 F2-ASW1, F2-ASW2, F3-ASW1, F3-ASW2 and Service-ASW
 
 ---
 
@@ -145,6 +145,18 @@ Connect the two distribution switches together.
 | G1/0/23 | DSW1 | G1/0/12 |
 | G1/0/22 | DSW2 | G1/0/11 |
 | G1/0/21 | DSW2 | G1/0/12 |
+
+---
+
+### Service-ASW Connections
+| Service-ASW Interface | Distribution Switch | Interface |
+|---------------|---------------------|-----------|
+| G1/0/24 | DSW1 | G1/0/13 |
+| G1/0/23 | DSW1 | G1/0/14 |
+| G1/0/22 | DSW2 | G1/0/13 |
+| G1/0/21 | DSW2 | G1/0/14 |
+
+
 
 ✔️ Each access switch has **dual uplinks** for redundancy.
 
