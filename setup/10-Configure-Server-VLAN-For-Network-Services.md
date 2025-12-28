@@ -64,6 +64,12 @@ end
 
 <img width="912" height="278" alt="Service-ASW-verify-vlan700" src="https://github.com/user-attachments/assets/96a52253-e9a3-4321-886f-2dd3fc19f200" />
 
+### 💠 Verify VLAN 700 SVI
+
+#### show ip int brief | include Vlan 
+
+<img width="776" height="94" alt="show-vlan-brief-Service-ASW" src="https://github.com/user-attachments/assets/7bc917b2-85c4-4c23-9704-d2be8875b3af" />
+
 
 ## 💾 Save the configuration
 
