@@ -87,9 +87,13 @@ exit
 
 ---
 
+## ✅ Verification
 
+### 💠 Verify Loopback Interfaces
 
+#### On DSW1 show ip interface brief | include Loopback
 
+<img width="766" height="85" alt="DSW1-lo0" src="https://github.com/user-attachments/assets/b8e5333c-b96f-4503-8df3-08dc701be6ef" />
 
 
 
