@@ -91,6 +91,38 @@ exit
 
 ### 💠 Verify Loopback Interfaces
 
+
+#### On F1-ASW1 show ip interface brief | include Loopback
+
+<img width="776" height="79" alt="F1-ASW1-lo0" src="https://github.com/user-attachments/assets/a3233f62-778b-4cd5-8758-8f4ee08cc4c1" />
+
+#### On F1-ASW2 show ip interface brief | include Loopback
+
+<img width="800" height="84" alt="F1-ASW2-lo0" src="https://github.com/user-attachments/assets/12b3b870-6148-4418-a68f-9bc5551b1ed1" />
+
+
+#### On F2-ASW1 show ip interface brief | include Loopback
+
+<img width="780" height="80" alt="F2-ASW1-lo0" src="https://github.com/user-attachments/assets/61e34dcd-4ec4-4130-b2c7-1f293204bf1d" />
+
+
+#### On F2-ASW2 show ip interface brief | include Loopback
+
+<img width="782" height="80" alt="F2-ASW2-lo0" src="https://github.com/user-attachments/assets/380f28c1-8deb-486a-836c-ffc517a06472" />
+
+#### On F3-ASW1 show ip interface brief | include Loopback
+
+<img width="788" height="83" alt="F3-ASW1-lo0" src="https://github.com/user-attachments/assets/f4094f29-44b8-43ff-a81c-2decfca63ce1" />
+
+#### On F3-ASW2 show ip interface brief | include Loopback
+
+<img width="762" height="82" alt="F3-ASW2-lo0" src="https://github.com/user-attachments/assets/73f313e6-612b-45e2-86a8-8d4aa9a2db29" />
+
+
+#### On Service-ASW show ip interface brief | include Loopback
+
+<img width="797" height="81" alt="Service-ASW-lo0" src="https://github.com/user-attachments/assets/2eed3041-0fd2-4af4-8020-a0a3b9853754" />
+
 #### On DSW1 show ip interface brief | include Loopback
 
 <img width="766" height="85" alt="DSW1-lo0" src="https://github.com/user-attachments/assets/b8e5333c-b96f-4503-8df3-08dc701be6ef" />
@@ -98,24 +130,4 @@ exit
 #### On DSW2 show ip interface brief | include Loopback
 
 <img width="759" height="83" alt="DSW2-lo0" src="https://github.com/user-attachments/assets/2e18a9ce-6ac0-4638-b552-a1f0fee9f918" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
