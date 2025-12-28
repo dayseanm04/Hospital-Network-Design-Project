@@ -17,6 +17,33 @@ This approach provides:
 <img width="539" height="341" alt="topology" src="https://github.com/user-attachments/assets/ec132bce-d3eb-40b6-b22b-b0d694a93232" />
 
 
+---
+
+## 🧹 Part A — Remove OLD L2 EtherChannels (Trunks)
+
+### 1️⃣ Remove L2 Port-Channels on **DSW1 + DSW2 (Po1–Po6)**
+On **DSW1** and **DSW2**, remove Po1 through Po6 (repeat for each Po#):  
+
+```bash
+no interface po1
+```
+
+**repeat for po2–po6**
+
+Then revert the member interfaces (**G1/0/1–12**):  
+
+Remove trunk/L2 settings and re-enable interfaces:  
+
+```bash
+no switchport
+no switchport mode trunk
+no switchport trunk allowed vlan
+no shutdown
+
+---
+
+
+
 ## 🔄 Design Change Summary
 
 | Before | After |
