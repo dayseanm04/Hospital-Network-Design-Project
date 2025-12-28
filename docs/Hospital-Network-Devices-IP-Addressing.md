@@ -74,6 +74,10 @@ The information is grouped by **network layer** and **type of connection** so it
 
 | Connection | Port-Channel | IP Address | Network |
 |-----------|-------------|-----------|--------|
+| DSW1 → F3-ASW1 | DSW1 Po5 | 10.10.0.17 /30 | 10.10.0.16 /30 |
+| DSW1 → F3-ASW1 | F3-ASW1 Po1 | 10.10.0.18 /30 | 10.10.0.16 /30 |
+| DSW2 → F3-ASW1 | DSW2 Po5 | 10.20.0.17 /30 | 10.20.0.16 /30 |
+| DSW2 → F3-ASW1 | F3-ASW1 Po2 | 10.20.0.18 /30 | 10.20.0.16 /30 |
 | DSW1 → F3-ASW2 | DSW1 Po6 | 10.10.0.21 /30 | 10.10.0.20 /30 |
 | DSW1 → F3-ASW2 | F3-ASW2 Po1 | 10.10.0.22 /30 | 10.10.0.20 /30 |
 | DSW2 → F3-ASW2 | DSW2 Po6 | 10.20.0.21 /30 | 10.20.0.20 /30 |
