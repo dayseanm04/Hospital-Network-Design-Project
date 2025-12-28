@@ -50,7 +50,8 @@ The information is grouped by **network layer** and **type of connection** so it
 | DSW2 → F1-ASW1 | F1-ASW1 Po2 | 10.20.0.2 /30 | 10.20.0.0 /30 |
 | DSW1 → F1-ASW2 | DSW1 Po2 | 10.10.0.5 /30 | 10.10.0.4 /30 |
 | DSW1 → F1-ASW2 | F1-ASW2 Po1 | 10.10.0.6 /30 | 10.10.0.4 /30 |
-
+| DSW2 → F1-ASW2 | DSW2 Po2 | 10.20.0.5 /30 | 10.20.0.4 /30 |
+| DSW2 → F1-ASW2 | F1-ASW2 Po2 | 10.20.0.6 /30 | 10.20.0.4 /30 |
 
 ---
 
