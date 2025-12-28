@@ -35,40 +35,44 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ### 🔹 DSW1 ↔ F1-ASW1
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.10.0.0 /30 |
-| DSW1 IP | 10.10.0.1 |
-| F1-ASW1 IP | 10.10.0.2 |
+| DSW1 Po1 IP | 10.10.0.1 |
+| F1-ASW1 Po1 IP | 10.10.0.2 |
 | EtherChannel | Po1 |
+
+---
 
 ### 🔹 DSW2 ↔ F1-ASW1
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.20.0.0 /30 |
-| DSW2 IP | 10.20.0.1 |
-| F1-ASW1 IP | 10.20.0.2 |
+| DSW2 Po1 IP | 10.20.0.1 |
+| F1-ASW1 Po2 IP | 10.20.0.2 |
 | EtherChannel | Po2 |
 
 ---
 
 ### 🔹 DSW1 ↔ F1-ASW2
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.10.0.4 /30 |
-| DSW1 IP | 10.10.0.5 |
-| F1-ASW2 IP | 10.10.0.6 |
+| DSW1 Po2 IP | 10.10.0.5 |
+| F1-ASW2 Po1 IP | 10.10.0.6 |
 | EtherChannel | Po2 |
+
+---
 
 ### 🔹 DSW2 ↔ F1-ASW2
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.20.0.4 /30 |
-| DSW2 IP | 10.20.0.5 |
-| F1-ASW2 IP | 10.20.0.6 |
+| DSW2 Po2 IP | 10.20.0.5 |
+| F1-ASW2 Po2 IP | 10.20.0.6 |
 | EtherChannel | Po2 |
 
 ---
@@ -77,29 +81,33 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ### 🔹 DSW1 ↔ F2-ASW1
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.10.0.8 /30 |
-| DSW1 IP | 10.10.0.9 |
-| F2-ASW1 IP | 10.10.0.10 |
+| DSW1 Po3 IP | 10.10.0.9 |
+| F2-ASW1 Po1 IP | 10.10.0.10 |
 | EtherChannel | Po3 |
+
+---
 
 ### 🔹 DSW1 ↔ F2-ASW2
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.10.0.12 /30 |
-| DSW1 IP | 10.10.0.13 |
-| F2-ASW2 IP | 10.10.0.14 |
+| DSW1 Po4 IP | 10.10.0.13 |
+| F2-ASW2 Po1 IP | 10.10.0.14 |
 | EtherChannel | Po4 |
+
+---
 
 ### 🔹 DSW2 ↔ F2-ASW2
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.20.0.12 /30 |
-| DSW2 IP | 10.20.0.13 |
-| F2-ASW2 IP | 10.20.0.14 |
+| DSW2 Po4 IP | 10.20.0.13 |
+| F2-ASW2 Po2 IP | 10.20.0.14 |
 | EtherChannel | Po4 |
 
 ---
@@ -108,44 +116,49 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ### 🔹 DSW1 ↔ F3-ASW1
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.10.0.16 /30 |
-| DSW1 IP | 10.10.0.17 |
-| F3-ASW1 IP | 10.10.0.18 |
+| DSW1 Po5 IP | 10.10.0.17 |
+| F3-ASW1 Po1 IP | 10.10.0.18 |
 | EtherChannel | Po5 |
+
+---
 
 ### 🔹 DSW2 ↔ F3-ASW1
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.20.0.16 /30 |
-| DSW2 IP | 10.20.0.17 |
-| F3-ASW1 IP | 10.20.0.18 |
+| DSW2 Po5 IP | 10.20.0.17 |
+| F3-ASW1 Po2 IP | 10.20.0.18 |
 | EtherChannel | Po5 |
 
 ---
 
 ### 🔹 DSW1 ↔ F3-ASW2
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.10.0.20 /30 |
-| DSW1 IP | 10.10.0.21 |
-| F3-ASW2 IP | 10.10.0.22 |
+| DSW1 Po6 IP | 10.10.0.21 |
+| F3-ASW2 Po1 IP | 10.10.0.22 |
 | EtherChannel | Po6 |
+
+---
 
 ### 🔹 DSW2 ↔ F3-ASW2
 
-| Parameter | Value |
-|--------|------|
+| Item | Details |
+|----|--------|
 | Network | 10.20.0.20 /30 |
-| DSW2 IP | 10.20.0.21 |
-| F3-ASW2 IP | 10.20.0.22 |
+| DSW2 Po6 IP | 10.20.0.21 |
+| F3-ASW2 Po2 IP | 10.20.0.22 |
 | EtherChannel | Po6 |
 
 ---
 
 ## ✅ Verification
 
+### 
 
