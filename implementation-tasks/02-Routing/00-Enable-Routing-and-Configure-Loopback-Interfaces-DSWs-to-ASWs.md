@@ -70,7 +70,22 @@ ip address <assigned-IP> 255.255.255.255
 exit
 ```
 
+### 3️⃣ Configure Loopbacks on **Distribution Switches**
 
+| Switch | Loopback IP |
+|---|---|
+| DSW1 | 10.0.0.10/32 |
+| DSW2 | 10.0.0.11/32 |
+
+###  💠 Steps (repeat on each DSW):
+
+```bash
+interface loopback0
+ip address <assigned-IP> 255.255.255.255
+exit
+```
+
+---
 
 
 
