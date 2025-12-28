@@ -83,6 +83,17 @@ The information is grouped by **network layer** and **type of connection** so it
 | DSW2 → F3-ASW2 | DSW2 Po6 | 10.20.0.21 /30 | 10.20.0.20 /30 |
 | DSW2 → F3-ASW2 | F3-ASW2 Po2 | 10.20.0.22 /30 | 10.20.0.20 /30 |
 
+---
 
+## 🧰 Distribution Layer ↔ Service Access Switch
+
+| Connection | Port-Channel | IP Address | Network |
+|-----------|-------------|-----------|--------|
+| DSW1 → Service-ASW | DSW1 Po7 | 10.255.2.1 /30 | 10.255.2.0 /30 |
+| DSW1 → Service-ASW | Service-ASW Po1 | 10.255.2.2 /30 | 10.255.2.0 /30 |
+| DSW2 → Service-ASW | DSW2 Po7 | 10.255.2.5 /30 | 10.255.2.4 /30 |
+| DSW2 → Service-ASW | Service-ASW Po2 | 10.255.2.6 /30 | 10.255.2.4 /30 |
+
+---
 
 
