@@ -32,7 +32,8 @@ no interface po1
 **repeat for po2–po6**
 
 ### 🔷 Then revert the member interfaces (**G1/0/1–12**):  
-- Remove trunk/L2 configurations and re-enable interfaces:  
+
+Remove trunk/L2 configurations and re-enable interfaces:  
 
 ```bash
 no switchport
@@ -59,6 +60,20 @@ no switchport trunk allowed vlan #, #
 no shutdown
 ```
 
+## 🔁 Part B — Configure L3 LACP EtherChannels (Routed Port-Channels)
+
+### 3️⃣ L3 EtherChannel Command Template (Use This Everywhere)
+On **both sides** of the EtherChannel:
+
+**Member interfaces**
+- `interface range g1/0/x-y`
+- `no switchport`
+- `channel-group <#> mode active`
+
+**Port-channel interface**
+- `interface po<#>`
+- `description <to-where>`
+- `ip address <IP> 255.255.255.252`
 
 ---
 
