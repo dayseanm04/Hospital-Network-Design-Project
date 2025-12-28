@@ -81,6 +81,9 @@ network 10.255.255.0 0.0.0.3 area 0
 
 <img width="732" height="333" alt="HS-CORE-R1-show-ip-protocols" src="https://github.com/user-attachments/assets/a08e6256-5295-4b1e-b2bd-2e8e35c95945" />
 
+### 8️⃣ show run | section router on HS-CORE-FW1
+
+<img width="599" height="132" alt="HS-CORE-FW1-ospf" src="https://github.com/user-attachments/assets/5b0499e1-d6ae-4da6-8328-61f3de1bf6e2" />
 
 
 
