@@ -94,6 +94,5 @@ The information is grouped by **network layer** and **type of connection** so it
 | DSW2 → Service-ASW | DSW2 Po7 | 10.255.2.5 /30 | 10.255.2.4 /30 |
 | DSW2 → Service-ASW | Service-ASW Po2 | 10.255.2.6 /30 | 10.255.2.4 /30 |
 
----
 
 
