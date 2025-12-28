@@ -41,6 +41,22 @@ switchport access vlan 700
 end
 ```
 
+---
+
+### 3️⃣ Create the SVI for VLAN 700 (Gateway)
+Back in **global config mode**:
+
+```bash
+interface vlan 700
+description SRV-VLAN-Gateway
+ip address 10.10.10.1 255.255.255.224
+no shutdown
+end
+```
+
+✅ This makes **10.10.10.1** the **default gateway** for servers in VLAN 700.
+
+---
 
 ## ✅ Verification
 
