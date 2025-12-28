@@ -94,7 +94,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 | VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
 |--------|-------------------------------|--------------------|--------------------|--------------------|
-| 700     | Sserver          | 10.10.10.0/27    | 255.255.255.224    | 10.10.10.1       |
+| 700     | Server          | 10.10.10.0/27    | 255.255.255.224    | 10.10.10.1       |
 
 
 ## ✅ Summary
