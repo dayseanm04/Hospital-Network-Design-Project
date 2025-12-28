@@ -11,3 +11,39 @@
 <img width="534" height="258" alt="reference-network-digram" src="https://github.com/user-attachments/assets/29724aeb-e70a-4251-8dcf-6a96203ba71d" />
 
 ---
+
+## 🌐 OSPF Link Information
+| Link | Network | Area |
+|---|---|---|
+| HS-CORE-FW1 ↔ HS-CORE-R1 | **10.255.255.0/30** | **0** |
+
+---
+
+# ⚙️ Step-by-Step Configuration
+
+## 🧱 Part A - Configure OSPF on HS-CORE-FW1
+
+### 1️⃣ Enter OSPF process 1
+
+In **global config mode**:
+
+```bash
+router ospf 1
+```
+
+### 2️⃣ Configure the router-id
+
+```bash
+router-id 10.0.0.20
+```
+
+### 3️⃣ Enable OSPF for the network 10.255.255.0/30 network:
+
+```bash
+network 10.255.255.0 255.255.255.252 area 0
+```
+
+#### ✅ This enables OSPF only for the **10.255.255.0/30** internal link (NOT the ISP link).
+
+---
+
