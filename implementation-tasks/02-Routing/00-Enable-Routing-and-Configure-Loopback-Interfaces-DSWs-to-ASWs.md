@@ -95,7 +95,9 @@ exit
 
 <img width="766" height="85" alt="DSW1-lo0" src="https://github.com/user-attachments/assets/b8e5333c-b96f-4503-8df3-08dc701be6ef" />
 
+#### On DSW2 show ip interface brief | include Loopback
 
+<img width="755" height="79" alt="DSW2-lo0" src="https://github.com/user-attachments/assets/a3b55682-45e0-43b0-ac14-7971ff85d77b" />
 
 
 
