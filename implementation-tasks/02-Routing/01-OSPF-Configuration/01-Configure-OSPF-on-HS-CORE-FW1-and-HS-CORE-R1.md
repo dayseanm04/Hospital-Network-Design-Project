@@ -65,3 +65,14 @@ router ospf 1
 network 10.255.255.0 0.0.0.3 area 0
 ```
 
+# ✅ Verification
+
+### 6️⃣ Verify OSPF Neighbor Relationship
+
+#### show ip ospf neighbor On HS-CORE-R1
+
+<img width="861" height="102" alt="HS-CORE-R1-show-ospf-neighbor" src="https://github.com/user-attachments/assets/2755a8f6-f83d-4fba-8daf-12054ac7746f" />
+
+
+
+
