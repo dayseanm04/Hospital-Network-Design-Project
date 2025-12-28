@@ -9,7 +9,7 @@ This setup step focuses on preparing the Service-ASW by:
 - Documenting physical connections to the distribution switches  
 - Adding clear interface descriptions for easier management and troubleshooting  
 
-I will configure **EtherChannel**, and **Routing**, and in the implementation tasks to keep the setup process organized and easy to follow.
+### I will configure **EtherChannel**, and **Routing**, and in the [implementation-tasks](/implementation-tasks/01-Redundancy) section of this project. to keep the setup process organized and easy to follow.
 
 ---
 
@@ -40,4 +40,16 @@ I configured Interface descriptions on **Service-ASW**, **DSW1**, and **DSW2** t
 
 ---
 
+## 🏷 Hostname Configuration
 
+| Device | Action |
+|------|-------|
+| Service-ASW | Assign hostname **Service-ASW** |
+
+
+---
+
+## 📝 Summary
+The Service-ASW has been successfully prepared with:
+- Documented physical connectivity
+- Clear interface descriptions across layers
