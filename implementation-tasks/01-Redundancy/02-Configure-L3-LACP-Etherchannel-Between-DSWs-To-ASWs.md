@@ -160,5 +160,48 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ## ✅ Verification
 
-### 
+### show etherchannel summary on DSW1
+
+<img width="837" height="466" alt="DSW1-show-pc" src="https://github.com/user-attachments/assets/edede0a4-e862-4377-9c6e-6d23459daeac" />
+
+### show etherchannel summary on DSW2
+
+<img width="824" height="475" alt="DSW2-show-pc" src="https://github.com/user-attachments/assets/989f923a-52ee-4e17-8a7e-61f3be0cc12e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
