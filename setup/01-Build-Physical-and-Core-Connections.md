@@ -176,5 +176,6 @@ Note that I may update the connections when nessasry
 
 ## Network Diagram:
 
-<img width="656" height="622" alt="Screenshot 2025-12-14 234628" src="https://github.com/user-attachments/assets/643a8f45-bca0-4e1d-ad88-6d2257024a50" />
+<img width="641" height="443" alt="03-diagram" src="https://github.com/user-attachments/assets/4fde28c9-d99e-4c8c-9422-248902706a6e" />
+
 
