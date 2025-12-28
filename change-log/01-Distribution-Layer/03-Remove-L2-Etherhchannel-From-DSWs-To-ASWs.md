@@ -20,7 +20,7 @@ I will configure L3 Etherchannel instead to prevent unnecessary brodacast being 
 ## 🔗 Related Task / Design Doc
 [**Configure-LACP-EtherChannel-ASW-DSW-Links.md**](/skip/01-Configure-LACP-EtherChannel-ASW-DSW-Links.md)
 
-[**02-Configure-Allowed-VLANs-On-EtherChannel-ASW-DSW.md**](skip/02-Configure-Allowed-VLANs-On-EtherChannel-ASW-DSW.md)
+[**Configure-Allowed-VLANs-On-EtherChannel-ASW-DSW.md**](/skip/02-Configure-Allowed-VLANs-On-EtherChannel-ASW-DSW.md)
 
 
 
