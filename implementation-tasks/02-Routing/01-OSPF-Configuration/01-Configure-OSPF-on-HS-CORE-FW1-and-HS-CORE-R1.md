@@ -75,7 +75,7 @@ network 10.255.255.0 0.0.0.3 area 0
 
 **HS-CORE-R1 is neighbors with HS-CORE-FW1**
 
-## 7️⃣ Verify OSPF is running and the network is included
+### 7️⃣ Verify OSPF is running and the network is included
 
 #### show ip protocols on HS-CORE-R1
 
