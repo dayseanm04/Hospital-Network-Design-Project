@@ -36,3 +36,18 @@ The information is grouped by **network layer** and **type of connection** so it
 | HS-CORE-R1 → DSW2 | DSW2 G1/1/1 | 10.255.0.6 /30 | 10.255.0.4 /30 | |
 
 ---
+
+## 🏢 Distribution Layer ↔ Access Layer  
+*(All links below are **Layer 3 LACP EtherChannels**)*
+
+### 🧑‍⚕️ Floor 1
+
+| Connection | Port-Channel | IP Address | Network | Notes |
+|-----------|-------------|-----------|--------|------|
+| DSW1 → F1-ASW1 | DSW1 Po1 | 10.10.0.1 /30 | 10.10.0.0 /30 | |
+| DSW1 → F1-ASW1 | F1-ASW1 Po1 | 10.10.0.2 /30 | 10.10.0.0 /30 | |
+| DSW2 → F1-ASW1 | DSW2 Po1 | 10.20.0.1 /30 | 10.20.0.0 /30 | |
+| DSW2 → F1-ASW1 | F1-ASW1 Po2 | 10.20.0.2 /30 | 10.20.0.0 /30 | |
+
+---
+
