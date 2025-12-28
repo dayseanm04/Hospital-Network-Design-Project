@@ -69,9 +69,20 @@ network 10.255.255.0 0.0.0.3 area 0
 
 ### 6️⃣ Verify OSPF Neighbor Relationship
 
-#### show ip ospf neighbor On HS-CORE-R1
+#### show ip ospf neighbor on HS-CORE-R1
 
 <img width="861" height="102" alt="HS-CORE-R1-show-ospf-neighbor" src="https://github.com/user-attachments/assets/2755a8f6-f83d-4fba-8daf-12054ac7746f" />
 
 **HS-CORE-R1 is neighbors with HS-CORE-FW1**
+
+## 7️⃣ Verify OSPF is running and the network is included
+
+#### show ip protocols on HS-CORE-R1
+
+<img width="732" height="333" alt="HS-CORE-R1-show-ip-protocols" src="https://github.com/user-attachments/assets/a08e6256-5295-4b1e-b2bd-2e8e35c95945" />
+
+
+
+
+
 
