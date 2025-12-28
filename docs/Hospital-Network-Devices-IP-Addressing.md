@@ -17,3 +17,11 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
+### 🔐 Core Firewall ↔ Core Router
+
+| Connection | Interface | IP Address | Network | Notes |
+|-----------|----------|-----------|--------|------|
+| HS-CORE-FW1 → HS-CORE-R1 | HS-CORE-FW1 G1/07 | 10.255.255.1 /30 | 10.255.255.0 /30 | |
+| HS-CORE-FW1 → HS-CORE-R1 | HS-CORE-R1 G0/0 | 10.255.255.2 /30 | 10.255.255.0 /30 | |
+
+---
