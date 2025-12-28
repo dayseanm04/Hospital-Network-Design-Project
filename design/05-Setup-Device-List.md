@@ -43,11 +43,13 @@ These switches handle routing for VLANs, inter-VLAN connectivity and redundancy.
 These switches connect end devices (PCs, phones and printers) on each floor of the hospital.
 
 ### Access Switches
+
 | Device Name | Model | Floor / Purpose | Notes |
 |-------------|--------|------------------|-------|
-| F1-ASW1 | Cisco 3560-24PC | Floor 1 | Routing disabled |
-| F1-ASW2 | Cisco 3560-24PC | Floor 1 | Routing disabled |
-| F2-ASW1 | Cisco 3560-24PC | Floor 2 | Routing disabled |
-| F2-ASW2 | Cisco 3560-24PC | Floor 2 | Routing disabled |
-| F3-AWS1 | Cisco 3560-24PC | Floor 3 | Routing disabled |
-| F3-AWS2 | Cisco 3560-24PC | Floor 3 | Routing disabled |
+| F1-ASW1 | Cisco 3560-24PC | Floor 1 | Routing enabled |
+| F1-ASW2 | Cisco 3560-24PC | Floor 1 | Routing enabled |
+| F2-ASW1 | Cisco 3560-24PC | Floor 2 | Routing enabled |
+| F2-ASW2 | Cisco 3560-24PC | Floor 2 | Routing enabled |
+| F3-AWS1 | Cisco 3560-24PC | Floor 3 | Routing enabled |
+| F3-AWS2 | Cisco 3560-24PC | Floor 3 | Routing enabled |
+| Service-ASW | Cisco 3560-24PC | Floor 2 | Routing enabled |
