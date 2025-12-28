@@ -42,3 +42,59 @@ ip routing
 **✅ This allows the switches to route traffic.**
 
 ---
+
+## 🔁 Part 2 - Configure Loopback Interfaces
+
+**Why Loopbacks?** Loopback interfaces are always up and are commonly used for  Router IDs (OSPF), a stable management IPs and for Routing verification and testing
+
+---
+
+### 2️⃣ Configure Loopbacks on **Access Switches**
+
+| Switch | Loopback IP |
+|---|---|
+| F1-ASW1 | 10.0.0.1/32 |
+| F1-ASW2 | 10.0.0.2/32 |
+| F2-ASW1 | 10.0.0.3/32 |
+| F2-ASW2 | 10.0.0.4/32 |
+| F3-ASW1 | 10.0.0.5/32 |
+| F3-ASW2 | 10.0.0.6/32 |
+| Service-ASW | 10.0.0.7/32 |
+
+
+### 💠 Steps (repeat on each ASW):
+
+```bash
+interface loopback0
+ip address <assigned-IP> 255.255.255.255
+exit
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
