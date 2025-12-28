@@ -1,4 +1,4 @@
-# 🧭 01-Configure-OSPF-on-HS-CORE-FW1-and-HS-CORE-R1.md
+# 🧭 01 Configure OSPF on HS CORE FW1 and HS CORE R1.md
 **Goal:** Enable **OSPF Area 0 (backbone)** between **HS-CORE-FW1** and **HS-CORE-R1** over the **10.255.255.0/30** link. 
 
 
