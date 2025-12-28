@@ -28,3 +28,17 @@ used for routing, testing, and router IDs for dynamic routing protocols such as 
 
 ---
 
+
+## 🛠️ Part 1 - Enable Layer 3 Routing
+
+### 1️⃣ Enable routing on ALL Access and Distribution switches
+
+#### 💠 On **each switch**, enter global configuration mode and enable routing:
+
+```bash
+ip routing
+```
+
+**✅ This allows the switches to route traffic.**
+
+---
