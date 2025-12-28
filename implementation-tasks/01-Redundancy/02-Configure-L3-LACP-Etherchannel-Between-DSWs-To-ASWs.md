@@ -31,7 +31,7 @@ no interface po1
 
 **repeat for po2–po6**
 
-#### 🔷 Then revert the member interfaces (**G1/0/1–12**):  
+### 🔷 Then revert the member interfaces (**G1/0/1–12**):  
 - Remove trunk/L2 configurations and re-enable interfaces:  
 
 ```bash
