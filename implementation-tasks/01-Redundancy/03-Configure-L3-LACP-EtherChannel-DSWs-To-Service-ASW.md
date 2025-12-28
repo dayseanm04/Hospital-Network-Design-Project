@@ -41,6 +41,42 @@ Each DSW–Service-ASW connection uses a **point-to-point /30 network**, with IP
 
 ---
 
+## 1️⃣ Configure L3 LACP EtherChannel: DSW1 ↔ Service-ASW
+
+### ✅ On DSW1 (Port-Channel 7)
+
+```bash
+interface G1/0/13-14
+no switchport
+channel-group 7 mode active
+```
+
+#### 🔷Configure Po7
+
+```bash
+description To-Service-ASW
+ip address 10.255.2.1 255.255.255.252
+```
+
+### ✅ On **Service-ASW** (Port-Channel 1)
+
+#### 🔷 Bundle uplinks to DSW1:
+
+```bash
+interface range G1/0/23-24
+no switchport
+channel-group 1 mode active
+```
+
+
+#### 🔷Configure Po1
+
+```bashdescription To-DSW1
+ip address 10.255.2.2 255.255.255.252
+```
+
+---
+
 ## 🔁 DSW1 ↔ Service-ASW EtherChannel
 
 ### 📍 Logical Link Details
