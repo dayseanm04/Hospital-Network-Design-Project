@@ -53,3 +53,9 @@ I configured Interface descriptions on **Service-ASW**, **DSW1**, and **DSW2** t
 The Service-ASW has been successfully prepared with:
 - Documented physical connectivity
 - Clear interface descriptions across layers
+
+
+
+## Referenct Network Diagram
+
+<img width="885" height="447" alt="net-fiagram" src="https://github.com/user-attachments/assets/7d3163fb-33ac-4b75-a747-a100cac0a140" />
