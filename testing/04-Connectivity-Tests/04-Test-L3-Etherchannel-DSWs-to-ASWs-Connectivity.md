@@ -67,3 +67,4 @@ This test is to verify that:
 
 <img width="700" height="154" alt="DSW2-pings-Service-ASW-po2" src="https://github.com/user-attachments/assets/4352531a-8897-4edd-aa34-397117526fc2" />
 
+## All of the ping tests were succesfull ✅✅
