@@ -23,19 +23,19 @@ This test is to verify that:
 
 <img width="706" height="277" alt="F1-ASW2-Port-Channels-Connectivity-Tests" src="https://github.com/user-attachments/assets/601af65d-f2e7-49c2-a5a3-d8396b9b0c72" />
 
-### F2-ASW1 pings DSW1 Po1 and DSW2 Po1
+### F2-ASW1 pings DSW1 Po3 and DSW2 Po3
 
 <img width="809" height="268" alt="F2-ASW1-Port-Channels-Connectivity-Tests" src="https://github.com/user-attachments/assets/bdea6196-5d3f-4f38-a2b5-3f9d95c85113" />
 
-### F2-ASW2 pings DSW1 Po1 and DSW2 Po1
+### F2-ASW2 pings DSW1 Po4 and DSW2 Po4
 
 <img width="738" height="270" alt="F2-ASW2-Port-Channels-Connectivity-Tests" src="https://github.com/user-attachments/assets/9aa52f21-c575-4278-b008-ebc88a7d555a" />
 
-### F3-ASW1 pings DSW1 Po1 and DSW2 Po1
+### F3-ASW1 pings DSW1 Po5 and DSW2 Po5
 
 <img width="773" height="294" alt="F3-ASW1-Port-Channels-Connectivity-Tests" src="https://github.com/user-attachments/assets/5c0e298c-a5ba-470b-b268-fdfe370f13db" />
 
-### F3-ASW2 pings DSW1 Po1 and DSW2 Po1
+### F3-ASW2 pings DSW1 Po6 and DSW2 Po6
 
 <img width="766" height="281" alt="F3-ASW2-Port-Channels-Connectivity-Tests" src="https://github.com/user-attachments/assets/451e8bb3-a928-49e3-81d7-4f6c515a0f17" />
 
