@@ -43,8 +43,9 @@ This test is to verify that:
 
 <img width="853" height="278" alt="SASW-Port-Channels-Connectivity-Tests" src="https://github.com/user-attachments/assets/94e0b5be-1d20-4b8b-9a3b-dd5d1da8acda" />
 
+### DSW1 pings F1-F3 Po1
 
-
+<img width="839" height="782" alt="DSW1-F1-F3-PC-pings" src="https://github.com/user-attachments/assets/34ce9e14-322f-44af-a2c1-ec3ec6f8f420" />
 
 
 
