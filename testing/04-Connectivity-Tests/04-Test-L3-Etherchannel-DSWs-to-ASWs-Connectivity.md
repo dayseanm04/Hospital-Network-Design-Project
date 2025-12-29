@@ -57,4 +57,8 @@ This test is to verify that:
 
 ### DSW2 pings F1-F3 ASWs Po2
 
+<img width="797" height="759" alt="DSW2-pings" src="https://github.com/user-attachments/assets/eacfef96-d937-40af-902d-fe255480afa4" />
+
+### DSW2 pings F3-ASW2 ASWs Po2
+
 
