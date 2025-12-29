@@ -39,7 +39,9 @@ This test is to verify that:
 
 <img width="766" height="281" alt="F3-ASW2-Port-Channels-Connectivity-Tests" src="https://github.com/user-attachments/assets/451e8bb3-a928-49e3-81d7-4f6c515a0f17" />
 
+### Service-ASW pings DSW1 Po7 and DSW2 Po7
 
+<img width="853" height="278" alt="SASW-Port-Channels-Connectivity-Tests" src="https://github.com/user-attachments/assets/94e0b5be-1d20-4b8b-9a3b-dd5d1da8acda" />
 
 
 
