@@ -61,4 +61,7 @@ This test is to verify that:
 
 ### DSW2 pings F3-ASW2 ASWs Po2
 
+<img width="716" height="154" alt="DSW2-pings-F3-ASW1-po2" src="https://github.com/user-attachments/assets/9a799364-ee87-412f-ada7-44f374168cb4" />
+
+### DSW2 pings Service-ASW Po1
 
