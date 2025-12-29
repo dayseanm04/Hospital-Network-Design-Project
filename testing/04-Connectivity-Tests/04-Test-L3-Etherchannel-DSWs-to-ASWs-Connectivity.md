@@ -65,3 +65,5 @@ This test is to verify that:
 
 ### DSW2 pings Service-ASW Po1
 
+<img width="700" height="154" alt="DSW2-pings-Service-ASW-po2" src="https://github.com/user-attachments/assets/4352531a-8897-4edd-aa34-397117526fc2" />
+
