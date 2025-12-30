@@ -37,3 +37,5 @@ It includes:
 | DSW1 Po1 to F1-ASW1 Po1 | DSW1 | Po1  | 10.10.0.1 | F1-ASW1 | Po1 | 10.10.0.2  | 10.10.0.0/30 |
 | DSW2 Po1 to F1-ASW1 Po2 | DSW2 | Po1  | 10.20.0.1 | F1-ASW1 | Po2 | 10.20.0.2  | 10.20.0.0/30 |
 | DSW1 Po2 to F1-ASW2 Po1 | DSW1 | Po2  | 10.10.0.5 | F1-ASW2 | Po1 | 10.10.0.6  | 10.10.0.4/30 |
+| DSW2 Po2 to F1-ASW2 Po2 | DSW1 | Po2  | 10.20.0.5 | F1-ASW2 | Po2 | 10.20.0.6  | 10.20.0.4/30 |
+
