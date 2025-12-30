@@ -126,6 +126,24 @@ network 10.255.2.4 0.0.0.3 area 1
 ---
 
 
+# 🟪 Part D - Configure OSPF on Service-ASW
+
+## 1️⃣1️⃣ Enable OSPF for Service-ASW loopback + uplinks
+
+#### ♦️ On Service-ASW:
+
+- `router ospf 1`
+- `network 10.0.0.7 0.0.0.0 area 1` *(loopback)* 
+- `network 10.255.2.0 0.0.0.3 area 1` *(to DSW1)*
+- `network 10.255.2.4 0.0.0.3 area 1` *(to DSW2)*
+
+## 1️⃣2️⃣ Enable OSPF on the Server VLAN subnet
+
+#### ♦️ Still under `router ospf 1`:
+
+- `network 10.10.10.0 0.0.0.31 area 1` 
+
+> ✅ Note: /27 mask (255.255.255.224) has the wildcard mask of: **0.0.0.31**. 
 
 
 
