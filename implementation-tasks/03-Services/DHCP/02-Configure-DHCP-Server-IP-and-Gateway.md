@@ -51,3 +51,8 @@ Run:
 - `ipconfig` 
 
 <img width="739" height="324" alt="DHCP-ipconfig" src="https://github.com/user-attachments/assets/f0895b17-3086-4dc8-a543-f1cd05ddc2b0" />
+
+
+
+## ✅ Click here to view connectivity test: [05-Test-DHCP-SRV-to-Server-VLAN-Gateway.md](/testing/04-Connectivity-Tests/05-Test-DHCP-SRV-to-Server-VLAN-Gateway.md)
+
