@@ -83,11 +83,19 @@ network 10.255.0.4 0.0.0.3 area 0`
 ---
 
 
+## 🔍 Verification (Run on HS-CORE-R1 + DSWs)
 
+### 9️⃣ Confirm neighbors formed (the most important check)
 
+#### show ip ospf neighbor on HS-CORE-R1
 
+<img width="863" height="152" alt="HS-CORE-R1-ospf-neighbor" src="https://github.com/user-attachments/assets/8d193c14-3597-4087-936a-4e770d6fa78e" />
 
+**Note 📢**: 
+- 10.0.0.20 is HS-CORE-FW1 OSPF Router-ID
+- 10.0.0.10 is DSW1 Loopback interface
+- 10.0.0.11 is DSW2 Loopback interface
 
-
+R1 successfully formed neighbors with DSW1 anbd DSW2
 
 
