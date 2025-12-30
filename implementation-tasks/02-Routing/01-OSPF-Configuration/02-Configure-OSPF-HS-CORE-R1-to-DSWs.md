@@ -38,3 +38,56 @@ network 10.255.0.0 0.0.0.255 area 0
 ✅ This enables OSPF on **all** HS-CORE-R1 interfaces that fall within **10.255.0.0/24**, including the /30 links to **DSW1** and **DSW2**.
 
 ---
+
+## 🟩 DSW1 (Enable OSPF on loopback + HS-CORE-R1 link)
+
+### 3️⃣ Enter OSPF process 1
+
+```bash
+router ospf 1
+```
+
+### 4️⃣ Enable OSPF on the DSW1 loopback interface
+
+```bash
+network 10.0.0.10 0.0.0.0 area 0
+```
+
+### 5️⃣ Enable OSPF on the HS-CORE-R1 ↔ DSW1 /30 link
+
+```bash
+network 10.255.0.0 0.0.0.3 area 0`
+```
+
+---
+
+## 🟨 DSW2 (Enable OSPF on loopback + HS-CORE link)
+
+### 6️⃣ Enter OSPF process 1
+
+```bashrouter ospf 1
+```
+
+### 7️⃣ Enable OSPF on the DSW2 loopback interface
+
+```bash
+network 10.0.0.11 0.0.0.0 area 0
+```
+
+### 8️⃣ Enable OSPF on the HS-CORE-R1 ↔ DSW2 /30 link
+
+```bash 
+network 10.255.0.4 0.0.0.3 area 0`
+```
+
+---
+
+
+
+
+
+
+
+
+
+
