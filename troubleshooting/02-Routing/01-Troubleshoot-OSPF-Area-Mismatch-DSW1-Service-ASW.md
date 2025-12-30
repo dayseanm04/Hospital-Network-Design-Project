@@ -13,9 +13,8 @@ OSPF adjacency failed to form between **DSW1** and **Service-ASW** over the **10
 
 ## ❌ Symptoms Observed
 - Service-ASW displayed OSPF error messages
-- This error was displayed on Service-ASW:  
+- This error was displayed on Service-ASW **See Below**
 
 <img width="946" height="127" alt="SASW-area-mismatch" src="https://github.com/user-attachments/assets/fb6431ac-4cb3-4ee0-a062-32fb357fad75" />
-
 
 ---
