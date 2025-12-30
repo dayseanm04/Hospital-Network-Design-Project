@@ -65,6 +65,12 @@ router ospf 1
 network 10.255.255.0 0.0.0.3 area 0
 ```
 
+### ♦️ Enable OSPF on the Loopback interface
+
+```bash
+net 10.0.0.15 0.0.0.0 area 0
+```
+
 # ✅ Verification
 
 ### 6️⃣ Verify OSPF Neighbor Relationship
