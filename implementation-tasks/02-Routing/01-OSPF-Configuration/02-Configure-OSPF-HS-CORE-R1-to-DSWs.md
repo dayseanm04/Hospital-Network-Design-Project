@@ -96,6 +96,20 @@ network 10.255.0.4 0.0.0.3 area 0`
 - 10.0.0.10 is DSW1 Loopback interface
 - 10.0.0.11 is DSW2 Loopback interface
 
-R1 successfully formed neighbors with DSW1 anbd DSW2
+HS-CORE-R1 successfully became with DSW1 anbd DSW2
+
+#### show ip ospf neighbor on DSW1
+
+<img width="881" height="256" alt="DSW1-ospf-neighbor" src="https://github.com/user-attachments/assets/bed84f66-f528-4b89-ace2-92ebfe1935a7" />
+
+DSW1 successfully became with HS-CORE-R1
+
+#### show ip ospf neighbor on DSW2
+
+<img width="870" height="242" alt="DSW2-ospf-neighbor" src="https://github.com/user-attachments/assets/352ea4af-2e0c-41a7-a91d-4a4d49bf243a" />
+
+DSW2 also successfully became with HS-CORE-R1
+
+
 
 
