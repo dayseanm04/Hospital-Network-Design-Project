@@ -8,9 +8,22 @@
 
 ---
 
-# 🛠️ Configure DSW1
+# 🛠️ Configure Distribution Switches
 
 ## 1️⃣ On **DSW1** - Enable OSPF on the interconnect (/30)
+
+#### ♦️ Go to global config, then config OSPF, and add the network statement:
+
+```bash
+router ospf 1
+network 10.255.1.0 0.0.0.3 area 0
+```
+
+**✅ This enables OSPF on the portchannel to DSW1.**
+
+---
+
+## 2️⃣ On **DSW2** - Enable OSPF on the interconnect (/30)
 
 #### ♦️ Go to global config, then config OSPF, and add the network statement:
 
