@@ -45,7 +45,7 @@
 - Click **Desktop**
 - Click **Command Prompt**
 
-### 5️⃣ View DHCP-SRV ipconfig
+### 5️⃣ View DHCP-SRV IP Configuration
 
 Run:
 - `ipconfig` 
