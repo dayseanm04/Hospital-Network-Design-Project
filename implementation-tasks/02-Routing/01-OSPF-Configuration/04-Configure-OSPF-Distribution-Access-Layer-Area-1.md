@@ -146,6 +146,23 @@ network 10.255.2.4 0.0.0.3 area 1
 > ✅ Note: /27 mask (255.255.255.224) has the wildcard mask of: **0.0.0.31**. 
 
 
+# ✅ Verification (Run on a few devices)
+
+## 1️⃣3️⃣ Check neighbors
+
+#### ♦️ show ip ospf neighbor on DSW1
+
+<img width="878" height="263" alt="DSW1-OSPF-Neighbors" src="https://github.com/user-attachments/assets/a8a40b86-04c4-4d9c-9cd8-71eb5cb16483" />
+
+#### ♦️ show ip ospf neighbor on DSW2
+
+<img width="889" height="259" alt="DSW2-OSPF-Neighbors" src="https://github.com/user-attachments/assets/3f97e16e-cf4b-4506-95db-3e88c2165ab2" />
+
+
+
+
+
+
 
 
 
