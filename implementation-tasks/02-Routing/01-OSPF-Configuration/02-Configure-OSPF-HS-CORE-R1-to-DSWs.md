@@ -110,6 +110,5 @@ DSW1 successfully became with HS-CORE-R1
 
 DSW2 also successfully became with HS-CORE-R1
 
-
-
-
+**Note 📢**: 
+- 10.0.0.15 is HS-CORE-R1 OSPF loopback interface
