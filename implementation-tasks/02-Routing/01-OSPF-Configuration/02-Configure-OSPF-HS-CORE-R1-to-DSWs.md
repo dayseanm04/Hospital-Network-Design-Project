@@ -112,3 +112,30 @@ DSW2 also successfully became with HS-CORE-R1
 
 **Note 📢**: 
 - 10.0.0.15 is HS-CORE-R1 OSPF loopback interface
+
+---
+
+
+### 🔟 Check OSPF is running + which networks are included
+
+#### show ip protocol on HS-CORE-R1
+
+<img width="635" height="226" alt="HS-CORE-R1-ospf-is-running" src="https://github.com/user-attachments/assets/594d259e-3e5d-4453-8749-1a85c41dffad" />
+
+#### show ip protocol on DSW1
+
+<img width="757" height="264" alt="DSW1-ospf-is-running" src="https://github.com/user-attachments/assets/9a5c4ee1-3af3-4f71-8ffc-e581d9e3b8c7" />
+
+#### show ip protocol on DSW2
+
+<img width="689" height="259" alt="DSW2-ospf-is-running" src="https://github.com/user-attachments/assets/958a7c36-1288-4487-b748-c391711fb3e7" />
+
+
+
+
+
+
+
+
+
+
