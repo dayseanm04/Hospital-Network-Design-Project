@@ -1,6 +1,6 @@
 # 🖥️ Configure DHCP SRV IP address.md
 
-**Goal:** Assign a **static IP address** to **DHCP-SRV** in the **Servers VLAN (VLAN 700)** and verify connectivity to the gateway.
+**Goal:** Assign a **static IP address** for **DHCP-SRV** in the **Servers VLAN (VLAN 700)** and verify connectivity to the gateway.
 
 ## Reference network Diagram
 
