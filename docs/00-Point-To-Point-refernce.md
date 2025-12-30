@@ -15,4 +15,14 @@ It includes:
 ### 🔹 HS-CORE-FW1 ↔ HS-CORE-R1 
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) | OSPF Area |
 |---|---|---|---|---|---|---|---|---|
-| HS-CORE-FW1 to HS-CORE-R1 Link | HS-CORE-FW1 | G1/7 | 10.255.255.1/30 | HS-CORE-R1 | G0/0 | 10.255.255.2/30 | 10.255.255.0/30 | Area 0 |
+| HS-CORE-FW1 HS-CORE-R1 | HS-CORE-FW1 | G1/7 | 10.255.255.1/30 | HS-CORE-R1 | G0/0 | 10.255.255.2/30 | 10.255.255.0/30 | Area 0 |
+
+---
+
+## 🧩 Section 2: Distribution Switch ↔ Core Router Links
+
+### 🔹 DSW ↔ HS-CORE-R1
+| Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
+|---|---|---|---|---|---|---|---|
+| DSW1 to HS-CORE-R1 | HS-CORE-R1 | G2/0  | 10.255.0.1 | DSW1 | G1/1/1 | 10.255.0.2 | 10.255.0.0/30 |
+|  DSW2 to HS-CORE-R1 | HS-CORE-R1 | G3/0 | 10.255.0.5 | DSW2 | G1/1/1 | 10.255.0.6 | 10.255.0.4/30 |
