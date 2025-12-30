@@ -48,3 +48,12 @@ network 10.255.1.0 0.0.0.3 area 0
 <img width="645" height="262" alt="DSW2-show-ip-protocols" src="https://github.com/user-attachments/assets/61696f1c-fde9-476d-bfb4-77fe154870dc" />
 
 **Note: Both Distrution switches is routing for the 10.255.1.0 0.0.0.3 network in area 0**
+
+
+#### ♦️ show ip ospf neighbor on DSW1
+
+<img width="911" height="247" alt="DSW1-ospf-neighbor" src="https://github.com/user-attachments/assets/4e7bfdda-74c8-44fc-b3d2-3de6b6f7c596" />
+
+#### ♦️ show ip ospf neighbor on DSW2
+
+<img width="897" height="262" alt="DSW2-ospf-neighbor" src="https://github.com/user-attachments/assets/4ad5196d-a79e-4cdc-a0bf-990acaa3fc47" />
