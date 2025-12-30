@@ -158,8 +158,11 @@ network 10.255.2.4 0.0.0.3 area 1
 
 <img width="889" height="259" alt="DSW2-OSPF-Neighbors" src="https://github.com/user-attachments/assets/3f97e16e-cf4b-4506-95db-3e88c2165ab2" />
 
+#### ♦️ show ip ospf neighbor on F1-ASW1
 
+<img width="887" height="134" alt="F1-ASW1-ospf-neighbors" src="https://github.com/user-attachments/assets/08ce89aa-7034-4210-8b76-c8db82843ff3" />
 
+#### ♦️ show ip ospf neighbor on F1-ASW2
 
 
 
