@@ -47,6 +47,15 @@ It includes:
 | DSW1 Po6 to F3-ASW2 Po1 | DSW1 | Po6  | 10.10.0.21 | F3-ASW2 | Po1 | 10.10.0.22  | 10.10.0.20/30 |
 | DSW2 Po6 to F3-ASW2 Po2 | DSW2 | Po6  | 10.20.0.21 | F3-ASW2 | Po2 | 10.20.0.22  | 10.20.0.20/30 |
 
+---
+
+## 🧩 Section 4: Service Switch Point-to-Point Links
+
+### 🔹 Service-ASW ↔ DSWs (L3 EtherChannels)
+| Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
+|---|---|---|---|---|---|---|---|
+| DSW1 to Service-ASW | DSW1 | Po7 | 10.255.2.1 | Service-ASW | Po1 | 10.255.2.1 | 10.255.2.0/30 |
+| DSW2 to Service-ASW | DSW2 | Po7 | 10.255.2.5 | Service-ASW | Po2 | 10.255.2.6 | 10.255.2.4/30 |
 
 
 
