@@ -33,4 +33,36 @@
 ---
 
 
+### 1️⃣ Configure the member interfaces (both switches in the pair)
+
+#### ♦️ Do this on **both** switches (example: F1-ASW1 and F1-ASW2):
+
+```bash
+interface range g1/1/1 - 2
+switchport mode trunk
+channel-group 3 mode active
+```
+
+✅ Repeat the same exact steps for:
+- F2-ASW1 + F2-ASW2
+- F3-ASW1 + F3-ASW2
+
+---
+
+### 2️⃣ Add descriptions on Port-Channel 3 (helps with troubleshooting)
+
+#### ♦️ Go to `interface po3` on each switch and set a description:
+
+| Switch | Port-Channel | Description |
+|---|---|---|
+| F1-ASW1 | Po3 | `To-F1-ASW2` |
+| F1-ASW2 | Po3 | `To-F1-ASW1` |
+| F2-ASW1 | Po3 | `To-F2-ASW2` |
+| F2-ASW2 | Po3 | `To-F2-ASW1` |
+| F3-ASW1 | Po3 | `To-F3-ASW2` |
+| F3-ASW2 | Po3 | `To-F3-ASW1` |
+
+---
+
+
 
