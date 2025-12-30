@@ -68,16 +68,17 @@ After correcting the area number, OSPF adjacency successfully formed.
 
 <img width="813" height="135" alt="Service-ASW-show-ospf-neighbors" src="https://github.com/user-attachments/assets/fcacf013-591c-412f-b473-788dd121d40e" />
 
-
+Service-ASW became neighbors with DSW1
 
 #### ♦️ show ip opsf neighbor on DSW1
 
 <img width="875" height="258" alt="DSW1-show-ospf-neighbors" src="https://github.com/user-attachments/assets/624c4c41-8d83-4d3e-aad0-b3c5160376ff" />
 
+DSW1 became neighbors with Service-ASW 
 
+---
 
-
-
-
-
-
+## 📝 Lessons Learned
+- Always verify that **OSPF area numbers match on both ends** of a point-to-point link  
+- OSPF area mismatches will prevent neighbor relationships even if IP addressing is correct  
+- Checking error messages (`mismatch area ID`) early can significantly speed up troubleshooting
