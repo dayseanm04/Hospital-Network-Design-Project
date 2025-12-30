@@ -58,11 +58,11 @@ network 10.255.2.4 0.0.0.3 area 1
 
 ---
 
-# 🟩 Part C — Configure OSPF on Access Switches (ASWs)
+# 🟩 Part C - Configure OSPF on Access Switches (ASWs)
 
 ## 5️⃣ F1-ASW1
 
-#### ♦️ On **F1-ASW1**:
+#### ♦️ On F1-ASW1:
 
 - `router ospf 1`
 - `network 10.0.0.1 0.0.0.0 area 1`  *(loopback)* 
@@ -70,3 +70,65 @@ network 10.255.2.4 0.0.0.3 area 1
 - `network 10.20.0.0 0.0.0.3 area 1` *(to DSW2)*
 
 ---
+
+## 6️⃣ F1-ASW2
+
+#### ♦️ On F1-ASW2:
+
+- `router ospf 1`
+- `network 10.0.0.2 0.0.0.0 area 1` *(loopback)*
+- `network 10.10.0.4 0.0.0.3 area 1` *(to DSW1)*
+- `network 10.20.0.4 0.0.0.3 area 1` *(to DSW2)* 
+
+---
+
+## 7️⃣ F2-ASW1
+#### ♦️ On F2-ASW1:
+
+- `router ospf 1`
+- `network 10.0.0.3 0.0.0.0 area 1` *(loopback)* 
+- `network 10.10.0.8 0.0.0.3 area 1` *(to DSW1)*
+- `network 10.20.0.8 0.0.0.3 area 1` *(to DSW2)* 
+
+---
+
+## 8️⃣ F2-ASW2
+
+#### ♦️ On F2-ASW2:
+
+- `router ospf 1`
+- `network 10.0.0.4 0.0.0.0 area 1` *(loopback)* 
+- `network 10.10.0.12 0.0.0.3 area 1` *(to DSW1)* 
+- `network 10.20.0.12 0.0.0.3 area 1` *(to DSW2)*
+
+---
+
+## 9️⃣ F3-ASW1
+
+#### ♦️ On F3-ASW1:
+
+- `router ospf 1`
+- `network 10.0.0.5 0.0.0.0 area 1` *(loopback)*
+- `network 10.10.0.16 0.0.0.3 area 1` *(to DSW1)* 
+- `network 10.20.0.16 0.0.0.3 area 1` *(to DSW2)* 
+
+---
+
+## 🔟 F3-ASW2
+
+#### ♦️ On F3-ASW2:
+
+- `router ospf 1`
+- `network 10.0.0.6 0.0.0.0 area 1` *(loopback)*
+- `network 10.10.0.20 0.0.0.3 area 1` *(to DSW1)*
+- `network 10.20.0.20 0.0.0.3 area 1` *(to DSW2)*
+
+---
+
+
+
+
+
+
+
+
