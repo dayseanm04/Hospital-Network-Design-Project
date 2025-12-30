@@ -85,7 +85,8 @@ net 10.0.0.15 0.0.0.0 area 0
 
 #### show ip protocols on HS-CORE-R1
 
-<img width="732" height="333" alt="HS-CORE-R1-show-ip-protocols" src="https://github.com/user-attachments/assets/a08e6256-5295-4b1e-b2bd-2e8e35c95945" />
+<img width="693" height="403" alt="HS-CORE-R1-show-ip-protocls" src="https://github.com/user-attachments/assets/db5a0d99-cc56-490c-b629-5fd4e200d3af" />
+
 
 ### 8️⃣ show run | section router on HS-CORE-FW1
 
