@@ -39,7 +39,7 @@ network 10.255.2.0 0.0.0.3 area 1
 
 ## 3️⃣ Enable OSPF on DSW2 (Area 1)
 
-### ♦️ DSW2 in global config mode:
+#### ♦️ DSW2 in global config mode:
 
 ```bash
 router ospf 1
@@ -50,7 +50,7 @@ network 10.20.0.0 0.0.0.255 area 1
 
 ## 4️⃣ Also enable OSPF on DSW2 → Service-ASW P2P link
 
-### ♦️ Still under `router ospf 1`:
+#### ♦️ Still under `router ospf 1`:
 
 ```bash
 network 10.255.2.4 0.0.0.3 area 1
@@ -58,4 +58,15 @@ network 10.255.2.4 0.0.0.3 area 1
 
 ---
 
+# 🟩 Part C — Configure OSPF on Access Switches (ASWs)
 
+## 5️⃣ F1-ASW1
+
+#### ♦️ On **F1-ASW1**:
+
+- `router ospf 1`
+- `network 10.0.0.1 0.0.0.0 area 1`  *(loopback)* 
+- `network 10.10.0.0 0.0.0.3 area 1` *(to DSW1)* 
+- `network 10.20.0.0 0.0.0.3 area 1` *(to DSW2)*
+
+---
