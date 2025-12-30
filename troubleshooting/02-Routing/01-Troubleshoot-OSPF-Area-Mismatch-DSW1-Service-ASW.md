@@ -20,9 +20,9 @@ OSPF adjacency failed to form between **DSW1** and **Service-ASW** over the **10
 ---
 
 ## 🔍 Troubleshooting Steps Taken
-1️⃣ Ran show ip protocols on DSW1 and Service-ASW to see the networks I enabled OSPF on
-2️⃣ Checked the Port-Channel interface status (up/up) 
-3️⃣ Compared OSPF **area numbers** for the 10.255.2.0/30 network on DSWS1 and DSW2 (See Below)
+- 1️⃣ Ran show ip protocols on DSW1 and Service-ASW to see the networks I enabled OSPF on
+- 2️⃣ Checked the Port-Channel interface status (up/up)
+- 3️⃣ Compared OSPF **area numbers** for the 10.255.2.0/30 network on DSWS1 and DSW2 (See Below)
 
 <img width="799" height="259" alt="DSW1-ip-protocols" src="https://github.com/user-attachments/assets/b9675652-40f3-4c2d-b35a-a16f7d6cf39b" />
 
@@ -56,6 +56,10 @@ network 10.255.2.0 0.0.0.3 area 1
 After correcting the area number, OSPF adjacency successfully formed.
 
 ## 🧪 Verification
+
+- OSPF neighbor state changed to **FULL**
+- Service-ASW transitioned from **LOADING** to **FULL**
+
 
 <img width="733" height="95" alt="DSW1-resaolved" src="https://github.com/user-attachments/assets/5c9484ea-f62f-49ca-b375-50a31f211323" />
 
