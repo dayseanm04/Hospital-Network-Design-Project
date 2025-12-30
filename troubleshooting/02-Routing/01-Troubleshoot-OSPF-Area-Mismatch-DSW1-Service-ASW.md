@@ -64,6 +64,20 @@ After correcting the area number, OSPF adjacency successfully formed.
 
 <img width="737" height="99" alt="DSW1-resaolved" src="https://github.com/user-attachments/assets/77b3a44b-c843-41e7-b27c-e6294a026b7d" />
 
+#### ♦️ show ip opsf neighbor on Service-ASW
+
+<img width="813" height="135" alt="Service-ASW-show-ospf-neighbors" src="https://github.com/user-attachments/assets/fcacf013-591c-412f-b473-788dd121d40e" />
+
+
+
+#### ♦️ show ip opsf neighbor on DSW1
+
+<img width="875" height="258" alt="DSW1-show-ospf-neighbors" src="https://github.com/user-attachments/assets/624c4c41-8d83-4d3e-aad0-b3c5160376ff" />
+
+
+
+
+
 
 
 
