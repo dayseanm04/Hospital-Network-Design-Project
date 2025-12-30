@@ -47,3 +47,4 @@ network 10.255.1.0 0.0.0.3 area 0
 #### ♦️ show ip protocols on DSW2
 <img width="645" height="262" alt="DSW2-show-ip-protocols" src="https://github.com/user-attachments/assets/61696f1c-fde9-476d-bfb4-77fe154870dc" />
 
+**Note: Both Distrution switches is routing for the 10.255.1.0 0.0.0.3 network in area 0**
