@@ -172,19 +172,16 @@ network 10.255.2.4 0.0.0.3 area 1
 
 #### ♦️ show ip ospf neighbor on F2-ASW2
 
+<img width="802" height="133" alt="F2-ASW2-ospf-neighbors" src="https://github.com/user-attachments/assets/bc1dc64d-07f1-4e09-a8a2-91e8e5542134" />
 
+#### ♦️ show ip ospf neighbor on F3-ASW1
 
+<img width="879" height="150" alt="F3-ASW1-ospf-neighbors" src="https://github.com/user-attachments/assets/53b55d61-59ed-4268-a97d-6feb557b5107" />
 
+#### ♦️ show ip ospf neighbor on F3-ASW2
 
+<img width="842" height="133" alt="F3-ASW2-ospf-neighbors" src="https://github.com/user-attachments/assets/803e25f1-3e46-4ee3-bc2e-0c14191923f9" />
 
+#### ♦️ show ip ospf neighbor on Service-ASW
 
-
-
-
-
-
-
-
-
-
-
+<img width="849" height="117" alt="Service-ASW-ospf-neighbors" src="https://github.com/user-attachments/assets/7d0e41dc-9d43-485a-bc56-3bd4cdcc37aa" />
