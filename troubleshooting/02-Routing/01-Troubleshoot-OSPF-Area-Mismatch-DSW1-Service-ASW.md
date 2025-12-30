@@ -60,9 +60,10 @@ After correcting the area number, OSPF adjacency successfully formed.
 - OSPF neighbor state changed to **FULL**
 - Service-ASW transitioned from **LOADING** to **FULL**
 
+<img width="923" height="91" alt="SASW-resolved" src="https://github.com/user-attachments/assets/d741b646-74f7-48f4-a66e-799e75e990e2" />
 
-<img width="733" height="95" alt="DSW1-resaolved" src="https://github.com/user-attachments/assets/5c9484ea-f62f-49ca-b375-50a31f211323" />
+<img width="737" height="99" alt="DSW1-resaolved" src="https://github.com/user-attachments/assets/77b3a44b-c843-41e7-b27c-e6294a026b7d" />
 
-<img width="919" height="87" alt="SASW-resolved" src="https://github.com/user-attachments/assets/8958b429-c6af-408a-9a98-9bb7192a00d6" />
+
 
 
