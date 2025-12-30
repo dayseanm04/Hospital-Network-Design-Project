@@ -35,3 +35,15 @@ network 10.255.1.0 0.0.0.3 area 0
 **✅ This enables OSPF on the portchannel to DSW1.**
 
 ---
+
+# ✅ Verification
+
+## 3️⃣ Confirm OSPF is advertising the interconnect on both switches
+
+#### ♦️ show ip protocols on DSW1
+
+<img width="658" height="266" alt="DSW1-show-ip-protocols" src="https://github.com/user-attachments/assets/81bfa6f8-a45b-4869-b6cf-2bbe743431d0" />
+
+#### ♦️ show ip protocols on DSW2
+<img width="645" height="262" alt="DSW2-show-ip-protocols" src="https://github.com/user-attachments/assets/61696f1c-fde9-476d-bfb4-77fe154870dc" />
+
