@@ -27,3 +27,38 @@ OSPF adjacency failed to form between **DSW1** and **Service-ASW** over the **10
 <img width="799" height="259" alt="DSW1-ip-protocols" src="https://github.com/user-attachments/assets/b9675652-40f3-4c2d-b35a-a16f7d6cf39b" />
 
 <img width="721" height="224" alt="Service-ASW-ip-protocols" src="https://github.com/user-attachments/assets/be4850a6-8601-4cb3-a4ce-1aafcf4bd953" />
+
+---
+
+## 🛠 Root Cause
+The **10.255.2.0/30** network was configured as:
+- **Area 0** on **DSW1**
+- **Area 1** on **Service-ASW**
+
+This caused an **OSPF area mismatch**, preventing the devices from forming an adjacency.
+
+---
+
+## ✅ Resolution
+
+#### 1️⃣ Removed the incorrect OSPF network statement on DSW1:
+
+```bash
+no network 10.255.2.0 0.0.0.3 area 0
+```
+
+#### 2️⃣ Reconfigured the network in the correct OSPF area:
+
+```bash
+network 10.255.2.0 0.0.0.3 area 1
+```
+
+After correcting the area number, OSPF adjacency successfully formed.
+
+## 🧪 Verification
+
+<img width="733" height="95" alt="DSW1-resaolved" src="https://github.com/user-attachments/assets/5c9484ea-f62f-49ca-b375-50a31f211323" />
+
+<img width="919" height="87" alt="SASW-resolved" src="https://github.com/user-attachments/assets/8958b429-c6af-408a-9a98-9bb7192a00d6" />
+
+
