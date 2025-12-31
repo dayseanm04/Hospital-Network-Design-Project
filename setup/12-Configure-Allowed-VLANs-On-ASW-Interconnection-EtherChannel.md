@@ -24,7 +24,7 @@
 
 ### 1️⃣ Configure Po3 allowed VLANs on Floor 1 switches (F1-ASW1 + F1-ASW2)
 
-#### ♦️ On **F1-ASW1** and **F1-ASW2**:
+#### ♦️ On F1-ASW1 and F1-ASW2:
 
 ```bash
 interface po3
@@ -46,6 +46,7 @@ switchport trunk allowed vlan 101
 
 ### 2️⃣ Configure Po3 allowed VLANs on Floor 2 switches (F2-ASW1 + F2-ASW2)
 
+#### ♦️ On **F2-ASW1** and **F2-ASW2**:
 
 ```bash
 interface po3
@@ -61,3 +62,24 @@ switchport trunk allowed vlan 200,210
 #### show interfaces trunk on F2-ASW2
 
 <img width="714" height="226" alt="F2-2-trunk" src="https://github.com/user-attachments/assets/0c898adf-bb83-4384-b77f-578b85ed016e" />
+
+---
+
+### 3️⃣ Configure Po3 allowed VLANs on Floor 3 switches (F3-ASW1 + F3-ASW2)
+
+#### ♦️ On F3-ASW1 and F3-ASW2:
+
+```bash
+interface po3
+switchport trunk allowed vlan 300,310,330
+```
+
+### 🟩 verify
+
+#### show interfaces trunk on F3-ASW1
+
+<img width="763" height="236" alt="F3-1-trunk" src="https://github.com/user-attachments/assets/b87116b1-e284-4861-8f95-42e6a63a72d2" />
+
+#### show interfaces trunk on F3-ASW2
+
+<img width="767" height="238" alt="F3-2-trunk" src="https://github.com/user-attachments/assets/c4c3df77-3440-4386-b047-fc4219047df2" />
