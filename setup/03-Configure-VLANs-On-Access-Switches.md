@@ -116,11 +116,11 @@ This task focuses:
 
 ### F1-ASW1
 
-<img width="924" height="208" alt="F1-ASW1-VLAN" src="https://github.com/user-attachments/assets/0b1c1864-c08c-45f3-97c6-3fb4105fefc5" />
+<img width="934" height="174" alt="F1-1" src="https://github.com/user-attachments/assets/3a974bae-978d-468e-a2ce-8b958641edf1" />
 
 ### F1-ASW2
 
-<img width="988" height="247" alt="F1-ASW2-VLAN" src="https://github.com/user-attachments/assets/c30d600b-cd6d-44df-8b5d-046523708fee" />
+<img width="896" height="209" alt="F1-2" src="https://github.com/user-attachments/assets/5ee08464-8d36-483d-aeb2-a2f9349064ef" />
 
 ### F2-ASW1
 
