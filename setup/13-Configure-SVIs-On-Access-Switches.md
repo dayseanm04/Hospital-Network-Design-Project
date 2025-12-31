@@ -99,3 +99,9 @@ end
 write memory
 ```
 
+## ✅ Verification
+### 4️⃣ Confirm SVIs are up
+
+
+
+
