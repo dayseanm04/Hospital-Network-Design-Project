@@ -133,8 +133,8 @@ This task focuses:
 
 ### F3-ASW1
 
-<img width="1006" height="263" alt="F3-ASW1-VLAN" src="https://github.com/user-attachments/assets/2268422c-240a-45e8-b3e0-a8cc6d430408" />
+<img width="943" height="250" alt="F3-1" src="https://github.com/user-attachments/assets/4f830f03-5f8d-40fa-8dca-1797853ba1ad" />
 
 ### F3-ASW2
 
-<img width="1038" height="245" alt="F3-ASW2-VLAN" src="https://github.com/user-attachments/assets/28bdc47d-4019-4fde-ba52-54a041db94c0" />
+<img width="942" height="194" alt="F3-2" src="https://github.com/user-attachments/assets/9e556381-2900-4a53-9420-df2a577ed3ef" />
