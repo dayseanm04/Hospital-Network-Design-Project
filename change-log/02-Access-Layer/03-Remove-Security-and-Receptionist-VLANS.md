@@ -20,14 +20,10 @@ I removed the Security and Receptionist VLANs from F1-F3 AWs
 
 ## 🎯 Reason
 
-I will put them on a different switch. Im actually not going to do it because the topology will be crowded
+I will put them on a different switch. Im actually not going to do it because the topology will be crowded. But just know they will be on a different switch!
 
 ## 🔗 Related Task / Design Doc
 - [03-Configure-VLANs-On-Access-Switches.md](/setup/03-Configure-VLANs-On-Access-Switches.md)
-
-## ✅ Verification
-
-Screenshot reference:
 
 ## 📌 Result
 
