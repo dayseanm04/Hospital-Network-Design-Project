@@ -20,3 +20,21 @@
 
 ---
 
+## 🛠️ Step-by-Step Configuration
+
+### 1️⃣ Configure Po3 allowed VLANs on Floor 1 switches (F1-ASW1 + F1-ASW2)
+
+#### ♦️ On **F1-ASW1** and **F1-ASW2**:
+
+```bash
+interface po3
+switchport trunk allowed vlan 101
+```
+
+
+### 🟩 verify
+
+#### show interfaces trunk on F1-ASW1
+
+<img width="708" height="231" alt="F1-1-trunk" src="https://github.com/user-attachments/assets/78951b9c-7475-4135-8fd7-858a64abe9bc" />
+
