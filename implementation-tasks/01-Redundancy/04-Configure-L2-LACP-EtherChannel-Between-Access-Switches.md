@@ -64,5 +64,19 @@ channel-group 3 mode active
 
 ---
 
+## ✅ Verification
+
+#### ♦️ show etherchannel summary on F1-ASW1
+
+
+
+
+
+
+
+
+
+
+
 
 
