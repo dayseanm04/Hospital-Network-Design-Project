@@ -84,11 +84,8 @@ channel-group 3 mode active
 
 #### ♦️ show etherchannel summary on F3-ASW1
 
+<img width="799" height="389" alt="F3-ASW1-et-su" src="https://github.com/user-attachments/assets/d9e0fa88-be3f-4ea3-b904-7b9944f2a274" />
 
 #### ♦️ show etherchannel summary on F3-ASW2
 
-
-
-
-
-
+<img width="813" height="386" alt="F3-ASW2-et-su" src="https://github.com/user-attachments/assets/93255837-801d-4a21-a03c-2e9589ea73d3" />
