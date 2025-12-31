@@ -47,5 +47,5 @@ These links provide **redundancy and Layer 2 connectivity** between access layer
 
 ---
 
-## ✅ Next: Click here to view: [Configure Layer 2 EtherChannel ASWs interconnections](/implementation-tasks/01-Redundancy/04-Configure-L2-LACP-EtherChannel-Between-Access-Switches.md)
+## ✅ Next: [Configure Layer 2 EtherChannel ASWs interconnections](/implementation-tasks/01-Redundancy/04-Configure-L2-LACP-EtherChannel-Between-Access-Switches.md)
 
