@@ -56,4 +56,8 @@ switchport trunk allowed vlan 200,210
 
 #### show interfaces trunk on F2-ASW1
 
+<img width="782" height="245" alt="F2-1-trunk" src="https://github.com/user-attachments/assets/9922ae6c-f6cd-4c62-9c59-748322dd61b3" />
 
+#### show interfaces trunk on F2-ASW2
+
+<img width="714" height="226" alt="F2-2-trunk" src="https://github.com/user-attachments/assets/0c898adf-bb83-4384-b77f-578b85ed016e" />
