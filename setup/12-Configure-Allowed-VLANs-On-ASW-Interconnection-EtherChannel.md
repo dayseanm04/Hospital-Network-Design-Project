@@ -38,3 +38,22 @@ switchport trunk allowed vlan 101
 
 <img width="708" height="231" alt="F1-1-trunk" src="https://github.com/user-attachments/assets/78951b9c-7475-4135-8fd7-858a64abe9bc" />
 
+#### show interfaces trunk on F1-ASW2
+
+<img width="741" height="244" alt="F1-2-trunk" src="https://github.com/user-attachments/assets/26eb6a76-f522-401b-92a3-44fa36148aae" />
+
+---
+
+### 2️⃣ Configure Po3 allowed VLANs on Floor 2 switches (F2-ASW1 + F2-ASW2)
+
+
+```bash
+interface po3
+switchport trunk allowed vlan 200,210
+```
+
+### 🟩 verify
+
+#### show interfaces trunk on F2-ASW1
+
+
