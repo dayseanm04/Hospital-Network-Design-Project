@@ -45,7 +45,6 @@ This task focuses:
 |--------:|-----------|--------------|
 | 101 | Emergency-Dept | Gi1/0/1 – Gi1/0/8 |
 | 110 | X-Ray-Imaging-DPT | Gi1/0/9 – Gi1/0/16 |
-| 600 | F1-Receptionists | Gi1/0/17 – Gi1/0/20 |
 
 
 ## 🧩 Floor 1 – F1-ASW2
@@ -56,7 +55,6 @@ This task focuses:
 | 120 | Nurse-Stations | Gi1/0/7 – Gi1/0/11 |
 | 140 | Pharmacy | Gi1/0/12 – Gi1/0/14 |
 | 180 | Supply-Chain-Purchasing | Gi1/0/15 – Gi1/0/17 |
-| 500 | F1-Security-Office-Station | Gi1/0/18 – Gi1/0/20 |
 
 ---
 
@@ -69,7 +67,6 @@ This task focuses:
 | 200 | Medical-Records-Dept | Gi1/0/1 – Gi1/0/6 |
 | 210 | Billing-Finance-DPT | Gi1/0/7 – Gi1/0/12 |
 | 220 | Human-Resources | Gi1/0/13 – Gi1/0/17 |
-| 500 | F2-Security-Station | Gi1/0/18 – Gi1/0/20 |
 
 ---
 
@@ -81,7 +78,6 @@ This task focuses:
 | 210 | Billing-Finance-DPT | Gi1/0/5 – Gi1/0/8 |
 | 230 | Insurance-DPT | Gi1/0/9 – Gi1/0/12 |
 | 240 | IT-Department | Gi1/0/13 – Gi1/0/17 |
-| 600 | F2-Receptionists | Gi1/0/18 – Gi1/0/20 |
 
 ---
 
@@ -106,8 +102,6 @@ This task focuses:
 | 300 | Nurse-Offices | Gi1/0/1 – Gi1/0/5 |
 | 310 | ICU-DPT | Gi1/0/6 – Gi1/0/10 |
 | 330 | Radiology-DPT | Gi1/0/11 – Gi1/0/14 |
-| 500 | F3-Security-Station | Gi1/0/15 – Gi1/0/17 |
-| 600 | F3-Receptionists | Gi1/0/18 – Gi1/0/20 |
 
 ## 🔍 Verification (Run on Each Access Switch)
 
