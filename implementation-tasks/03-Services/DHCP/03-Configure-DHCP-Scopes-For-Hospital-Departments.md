@@ -77,5 +77,5 @@ I have to configure an IP helper-address on the Access Switches, for them to be 
 
 ### DHCP Pool
 
-<img width="836" height="407" alt="DHCP-pool" src="https://github.com/user-attachments/assets/3426df09-aa6b-4098-9a8f-61a2a64f6a0c" />
+<img width="820" height="412" alt="DHCP-pool" src="https://github.com/user-attachments/assets/247bfdf6-2f1f-4d91-8b3f-74868d622965" />
 
