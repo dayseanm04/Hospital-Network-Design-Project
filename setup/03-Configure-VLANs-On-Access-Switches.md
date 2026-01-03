@@ -135,7 +135,7 @@ This task focuses:
 
 ### F2-ASW2
 
-<img width="924" height="193" alt="F2-2" src="https://github.com/user-attachments/assets/67bb5882-4a6e-4e5d-b42c-2840e743e7de" />
+<img width="937" height="191" alt="F2-ASW2-vlan-brief" src="https://github.com/user-attachments/assets/e51df023-05b2-46bd-a0d1-c2f1cecf0192" />
 
 
 ### F3-ASW1
