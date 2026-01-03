@@ -44,7 +44,17 @@ network 172.16.1.0 0.0.0.63 area 1
 
 ```bash
 end
-write memoery
+write memory
 ```
 
+## ✅ Verify
 
+#### On DSW1 show ip route | include 172
+
+<img width="758" height="222" alt="DSW1-ip-route" src="https://github.com/user-attachments/assets/afb2e462-486c-4d61-bb22-884cffec915f" />
+
+#### On DSW2 show ip route | include 172
+
+<img width="795" height="225" alt="DSW2-ip-route" src="https://github.com/user-attachments/assets/d56d4cf0-fe57-4269-92eb-ce1b7969b52f" />
+
+DSW1 & DSW2 succesfully learned the route to the subnets VIA OSPF!
