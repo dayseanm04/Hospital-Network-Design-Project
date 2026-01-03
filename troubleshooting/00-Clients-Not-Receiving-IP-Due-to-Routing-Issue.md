@@ -1,7 +1,7 @@
 # 🚨 Issue: Clients Not Receiving IP Due to Routing Issue (VLAN 101)
 
 ## 📌 Problem Description
-**ED1 (Emergency DPT PC)** connected to **F1-ASW1** could not obtain an IP address from the **DHCP-SRV**, even after configuring an **IP helper address** on **VLAN 101**. :contentReference[oaicite:0]{index=0}
+**ED1 (Emergency DPT PC)** connected to **F1-ASW1** could not obtain an IP address from the **DHCP-SRV**, even after configuring an **IP helper address** on **VLAN 101**.
 
 ---
 
@@ -14,3 +14,13 @@
 
 ---
 
+## ❌ Symptoms Observed
+- ED1 could not receive an IP address from DHCP (DHCP request fails **See Below**).
+
+<img width="600" height="204" alt="ED1-DHCP-Failed" src="https://github.com/user-attachments/assets/a0e89389-4189-4af8-a1d7-1de8c1bc05fb" />
+
+- VLAN 101 details confirmed:
+  - ED1 is in **VLAN 101**
+  - VLAN 101 SVI is **172.16.1.1 /26**
+
+---
