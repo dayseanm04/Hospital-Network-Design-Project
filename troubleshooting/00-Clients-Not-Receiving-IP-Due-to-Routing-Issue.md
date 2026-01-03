@@ -27,7 +27,8 @@
 
 
 ## 🔍 Troubleshooting Steps Taken
-1️⃣ **Verified DHCP-SRV IP settings**
+
+### 1️⃣ Verified DHCP-SRV IP settings
 - Checked DHCP-SRV IP, subnet, and default gateway 
 
 <img width="745" height="338" alt="DHCP-SRV-IP" src="https://github.com/user-attachments/assets/bc43b44e-15b1-4703-bf41-688c9707f51d" />
@@ -38,10 +39,28 @@ DHCP Server IP configuration is correct!
 
 VLAN 700 SVI is correct!
 
-2️⃣ **Checked VLAN 101 SVI status**
+### 2️⃣ Checked VLAN 101 SVI status
 - Confirmed the SVI is **up**
 
 <img width="772" height="93" alt="VLAN700-SVI-up" src="https://github.com/user-attachments/assets/8788547f-907f-4452-ab19-849d5f7abb50" />
+
+### 3️⃣ Tested reachability to the DHCP server network
+
+#### 🔶 DHCP SRV Pinged DHCP-SRV’s default gateway (VLAN 700 SVI) → **Success**
+ 
+<img width="737" height="370" alt="DHCP-SRV-ping-DG" src="https://github.com/user-attachments/assets/eeea1f17-d24f-472c-ba9e-7342413fae34" />
+
+#### 🔶 Pinged DHCP-SRV from Service-ASW → **Success**
+
+<img width="725" height="154" alt="Service-ASW-ping-DHCP" src="https://github.com/user-attachments/assets/ce04e065-ade5-4d80-ac6e-f87c26f72d00" />
+
+#### 🔶Pinged DHCP-SRV / gateway from F1-ASW1 → **Success**
+
+<img width="823" height="256" alt="F1-ASW1-ping-DHCP-DG" src="https://github.com/user-attachments/assets/de012b20-6c28-4376-85d4-09edad366ffb" />
+
+#### 🔶 Pinged DHCP-SRV / gateway from DSW1 → **Success**
+
+<img width="744" height="259" alt="DSW1-ping-DHCP-DG" src="https://github.com/user-attachments/assets/3d7ee2ef-3e16-4fff-9bed-759ff6ddec8c" />
 
 
 
