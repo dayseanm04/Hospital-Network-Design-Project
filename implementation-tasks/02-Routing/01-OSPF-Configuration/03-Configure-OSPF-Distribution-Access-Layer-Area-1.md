@@ -143,8 +143,8 @@ network 10.255.2.4 0.0.0.3 area 1
 - `network 10.10.10.0 0.0.0.31 area 1` 
 
 ### ✅ Note: /27 mask (255.255.255.224) has the wildcard mask of: **0.0.0.31**. 
-- ♦️ 128 + 64 + 32 = 224.
-- ♦️ Add the Rest together: 16 + 8 + 4 + 2 + 1 =  31
+- 🔷 128 + 64 + 32 = 224.
+- 🔷 Add the Rest together: 16 + 8 + 4 + 2 + 1 =  31
 
 # ✅ Verification (Run on a few devices)
 
