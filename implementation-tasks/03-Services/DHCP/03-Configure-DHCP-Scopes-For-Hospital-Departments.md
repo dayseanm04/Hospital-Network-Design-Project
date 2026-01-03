@@ -74,3 +74,8 @@ For **each pool**, fill in:
 ## ✅ Verification
 
 I have to configure an IP helper-address on the Access Switches, for them to be able to forward UDP broadcast traffic !
+
+### DHCP Pool
+
+<img width="836" height="407" alt="DHCP-pool" src="https://github.com/user-attachments/assets/3426df09-aa6b-4098-9a8f-61a2a64f6a0c" />
+
