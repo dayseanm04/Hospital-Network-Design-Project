@@ -78,6 +78,13 @@ This task focuses:
 | 210 | Billing-Finance-DPT | Gi1/0/5 – Gi1/0/8 |
 | 230 | Insurance-DPT | Gi1/0/9 – Gi1/0/12 |
 
+## 🧩 Service-ASW
+
+| VLAN ID | VLAN Name | Access Ports |
+|--------:|-----------|--------------|
+| 700 | Server Vlan | |
+| 240 | IT-Department | Gi1/0/13 – Gi1/0/17 |
+
 ---
 
 # 🏥 Floor 3 Access Switches
@@ -102,12 +109,6 @@ This task focuses:
 | 310 | ICU-DPT | Gi1/0/6 – Gi1/0/10 |
 | 330 | Radiology-DPT | Gi1/0/11 – Gi1/0/14 |
 
-
-## 🧩 Service-ASW
-
-| VLAN ID | VLAN Name | Access Ports |
-|--------:|-----------|--------------|
-| 240 | IT-Department | Gi1/0/13 – Gi1/0/17 |
 
 
 ## 🔍 Verification (Run on Each Access Switch)
