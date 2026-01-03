@@ -40,6 +40,7 @@ Each pool uses the **SVI (default gateway)** that was already configured on the 
 | 320 | General-Inpatient-Wing | 172.16.3.97 | 255.255.255.224 | 172.16.3.98 | 30 |
 | 330 | Radiology-DPT | 172.16.3.129 | 255.255.255.224 | 172.16.3.130 | 30 |
 
+
 ## 🛠️ Step-by-Step: Configure DHCP Pools on **DHCP-SRV**
 
 ### 1️⃣ Open the DHCP Service
