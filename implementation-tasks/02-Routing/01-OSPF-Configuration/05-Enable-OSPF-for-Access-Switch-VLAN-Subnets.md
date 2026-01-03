@@ -40,3 +40,12 @@ network <network Address> <Wildcard Mask> area 1
 router ospf 1
 network 172.16.1.0 0.0.0.63 area 1
 ```
+
+#### 🔷 Save Config
+
+```bash
+end
+write memoery
+```
+
+
