@@ -31,3 +31,13 @@ Each pool uses the **SVI (default gateway)** that was already configured on the 
 | 230 | Insurance-DPT | 172.16.2.129 | 255.255.255.224 | 172.16.2.130 | 30 |
 
 ---
+
+### 🏥 3rd Floor VLANs
+| VLAN | Department / Pool Name | Default Gateway | Subnet Mask | Start IP | Max Users |
+|---|---|---|---|---|---|
+| 300 | Nurses-Office-F3 | 172.16.3.1 | 255.255.255.192 | 172.16.3.2 | 62 |
+| 310 | ICU-DPT | 172.16.3.65 | 255.255.255.224 | 172.16.3.66 | 30 |
+| 320 | General-Inpatient-Wing | 172.16.3.97 | 255.255.255.224 | 172.16.3.98 | 30 |
+| 330 | Radiology-DPT | 172.16.3.129 | 255.255.255.224 | 172.16.3.130 | 30 |
+
+
