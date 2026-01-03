@@ -11,7 +11,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 |--------:|-------------------------------|--------------------|--------------------|--------------------|
 | 101     | Emergency Department          | 172.16.1.0/26      | 255.255.255.192    | 172.16.1.1         |
 | 110     | X-Ray / Imaging               | 172.16.1.64/27     | 255.255.255.224    | 172.16.1.65        |
-| 120     | ED Nurse Offices (and 2 stations)    | 172.16.1.96/27    | 255.255.255.224    | 172.16.1.97       |
+| 120     | ED Nurse Offices (and 2 stations)  | 172.16.1.96/27    | 255.255.255.224    | 172.16.1.97     |
 | 140     | Pharmacy                      | 172.16.1.128/28    | 255.255.255.240    | 172.16.1.129       |
 | 180     | Loading Dock / Supply         | 172.16.7.0/27    | 255.255.255.224    | 172.16.7.1       |
 
@@ -26,7 +26,6 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 210     | Billing & Finance             | 172.16.2.32/27     | 255.255.255.224    | 172.16.2.33        |
 | 220     | Human Resources (HR)          | 172.16.2.64/27     | 255.255.255.224    | 172.16.2.65        |
 | 230     | Insurance                     | 172.16.2.128/27   | 255.255.255.224    | 172.16.2.129       |
-| 240    | IT Department (user VLAN)     | 172.16.2.144/28    | 255.255.255.240    | 172.16.2.145       |
 | 180     | Supply Chain / Purchasing     | 172.16.7.0/27    | 255.255.255.224    | 172.16.7.1       |
 
 ---
@@ -66,6 +65,12 @@ The **default gateway is always the first usable IP address in each subnet**.
 | VLAN ID | Department      | Subnet         | Mask              | Default Gateway |
 |--------|------------------|----------------|-------------------|-----------------|
 | 700     | Server          | 10.10.10.0/27  | 255.255.255.224   | 10.10.10.1     |
+
+## 🧩IT Department
+
+| VLAN ID | Department      | Subnet         | Mask              | Default Gateway |
+|--------|------------------|----------------|-------------------|-----------------|
+| 240    | IT Department (user VLAN)  | 172.16.2.144/28    255.255.255.240   | 172.16.2.145   |
 
 
 ## ✅ Summary
