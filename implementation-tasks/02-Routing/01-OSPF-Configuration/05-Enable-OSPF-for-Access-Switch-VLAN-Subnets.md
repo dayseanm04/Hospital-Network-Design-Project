@@ -11,7 +11,6 @@
 | F2-ASW1 | 200 | Medical Records / HIM | 172.16.2.0/27 | 0.0.0.31 | 1 |
 | F2-ASW2 | 210 | Billing & Finance | 172.16.2.32/27 | 0.0.0.31 | 1 |
 | F2-ASW1 | 220 | Human Resources (HR) | 172.16.2.64/27 | 0.0.0.31 | 1 |
-| F2-ASW2 | 230 | Insurance | 172.16.2.128/27 | 0.0.0.31 | 1 |
 | F3-ASW1 | 300 | Nurse Offices / Nurse Station | 172.16.3.0/26 | 0.0.0.63 | 1 |
 | F3-ASW2 | 310 | ICU (Floor 3) | 172.16.3.64/27 | 0.0.0.31 | 1 |
 | F3-ASW2 | 330 | Radiology / Imaging (Floor 3) | 172.16.3.128/27 | 0.0.0.31 | 1 |
