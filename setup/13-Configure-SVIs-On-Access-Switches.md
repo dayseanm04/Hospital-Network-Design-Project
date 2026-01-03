@@ -12,55 +12,52 @@
 
 ### 🟦 F1-ASW1 SVIs
 
-| VLAN | SVI IP (Gateway) | Subnet Mask |
-|---:|---|---|
-| 101 | 172.16.1.1 | 255.255.255.192 |
-| 110 | 172.16.1.65 | 255.255.225.224 |
+| VLAN | Department| SVI IP (Gateway) | Subnet Mask |
+|---:|---|---|---|
+| 101 | Emergency Department (ED) | 172.16.1.1 | 255.255.255.192 |
+| 110 | X-Ray / Imaging | 172.16.1.65 | 255.255.225.224 |
 
 ---
 
 ### 🟩 F1-ASW2 SVIs
 
-| VLAN | SVI IP (Gateway) | Subnet Mask |
-|---:|---|---|
-| 120 | 172.16.1.97 | 255.255.225.224 |
+| VLAN | Department| SVI IP (Gateway) | Subnet Mask |
+|---:|---|---|---|
+| 120 | ED Nurse Offices| 172.16.1.97 | 255.255.225.224 |
 
 ---
 
 ### 🟨 F2-ASW1 SVIs
 
-| VLAN | SVI IP (Gateway) | Subnet Mask |
-|---:|---|---|
-| 200 | 172.16.2.1 | 255.255.225.224 |
-| 220 | 172.16.1.65 | 255.255.255.224 |
+| VLAN | Department| SVI IP (Gateway) | Subnet Mask |
+|---:|---|---|---|
+| 200 | Medical Records / HIM | 172.16.2.1 | 255.255.225.224 |
+| 220 | Human Resources (HR) |172.16.1.65 | 255.255.255.224 |
 
 ---
 
 ### 🟥 F2-ASW2 SVIs
 
-| VLAN | SVI IP (Gateway) | Subnet Mask |
-|---:|---|---|
-| 210 | 172.16.2.33 | 255.255.255.224 |
-| 230 | 172.16.1.129 | 255.255.255.224 |
+| VLAN | Department| SVI IP (Gateway) | Subnet Mask |
+|---:|---|---|---|
+| 210 | Billing & Finance | 172.16.2.33 | 255.255.255.224 |
+| 230 | Insurance | 172.16.1.129 | 255.255.255.224 |
 
 ---
 
 ### 🟪 F3-ASW1 SVIs
 
-| VLAN | SVI IP (Gateway) | Subnet Mask |
-|---:|---|---|
-| 300 | 172.16.3.1 | 255.255.225.192 |
-| 320 | 172.16.3.97 | 255.255.255.224 |
-| 330 | 172.16.3.129 | 255.255.255.224 |
+| VLAN | Department| SVI IP (Gateway) | Subnet Mask |
+|---:|---|---|---|
+| 300 | Nurse Offices | 172.16.3.1 | 255.255.225.192 |
+| 320 | General Inpatient Wing (F3) | 172.16.3.97 | 255.255.255.224 |
 
 ---
 
 ### 🟫 F3-ASW2 SVIs
-
-| VLAN | SVI IP (Gateway) | Subnet Mask |
-|---:|---|---|
-| 310 | 172.16.3.65 | 255.255.255.224 |
-| 330 | 172.16.3.129 | 255.255.255.224 |
+|---:|---|---|---|
+| 310 | ICU (Floor 3) |172.16.3.65 | 255.255.255.224 |
+| 330 | Radiology / Imaging |172.16.3.129 | 255.255.255.224 |
 
 ---
 
