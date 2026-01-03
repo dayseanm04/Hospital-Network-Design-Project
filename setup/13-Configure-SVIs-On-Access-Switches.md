@@ -55,6 +55,8 @@
 ---
 
 ### 🟫 F3-ASW2 SVIs
+
+| VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
 | 310 | ICU (Floor 3) |172.16.3.65 | 255.255.255.224 |
 | 330 | Radiology / Imaging |172.16.3.129 | 255.255.255.224 |
