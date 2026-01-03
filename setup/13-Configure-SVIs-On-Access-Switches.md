@@ -49,7 +49,6 @@
 | VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
 | 300 | Nurse Offices | 172.16.3.1 | 255.255.225.192 |
-| 320 | General Inpatient Wing (F3) | 172.16.3.97 | 255.255.255.224 |
 
 ---
 
