@@ -14,7 +14,7 @@ Each floor uses a separate **/24 network**
 | X-Ray / Imaging | 172.16.1.64/27 | 255.255.255.224 | .65 – .94 | 11 | 30 | 
 | ED Nurse Offices & Station | 172.16.1.96/27 | 255.255.255.224 | .97 – .126 | 18 | 30 |
 | Pharmacy | 172.16.1.128/28 | 255.255.255.240 | .129 – .142 | 6 | 14 |
-| Hospital Security/Safety Office | 172.16.5.0/26  | 255.255.255.192  | .1 - .126  | 8 | 14 |
+| Hospital Security/Safety Office | 172.16.5.0/26  | 255.255.255.192  | .1 - .126  | 8 | 62 |
 | Floor 1 Security Station  | 172.16.5.0/26  | 255.255.255.192  | .1 - .126  | 4 | 62 |
 | ED Receptionist | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 7 | 126 |
 | Main Lobby Reception | 172.16.6.0/25 | 255.255.255.128 | .1 - .126 | 5 | 126|
