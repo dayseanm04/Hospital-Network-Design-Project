@@ -73,4 +73,4 @@ For **each pool**, fill in:
 
 ## ✅ Verification
 
-I have to configure DHCP relay on the Access Switches, for them to be able to forward UDP broadcast traffic!
+I have to configure an IP helper-address on the Access Switches, for them to be able to forward UDP broadcast traffic !
