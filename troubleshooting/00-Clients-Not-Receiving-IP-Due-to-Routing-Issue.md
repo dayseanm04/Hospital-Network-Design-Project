@@ -97,7 +97,9 @@ On **F1-ASW1**, add the VLAN 101 subnet into OSPF (Area 1).
 ---
 
 ## 🧪 Verification
+
 1️⃣ On ED1, renew the DHCP lease:
+
 - Click **ED1**
 - Go to **Desktop**
 - Run: `ipconfig /renew` 
