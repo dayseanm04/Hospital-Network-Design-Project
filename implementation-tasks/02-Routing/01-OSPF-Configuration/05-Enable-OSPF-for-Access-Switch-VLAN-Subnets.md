@@ -34,7 +34,7 @@ network <network Address> <Wildcard Mask> area 1
 ```
 
 
-## 🏥 F1-ASW1 (VLAN 101, 110)
+### 🏥 Example F1-ASW1 (VLAN 101, 110)
 
 ```bash
 router ospf 1
