@@ -82,8 +82,9 @@ This task focuses:
 
 | VLAN ID | VLAN Name | Access Ports |
 |--------:|-----------|--------------|
+| 240 | IT-Department |  |
 | 700 | Server Vlan | |
-| 240 | IT-Department | Gi1/0/13 – Gi1/0/17 |
+
 
 ---
 
