@@ -40,4 +40,37 @@ Each pool uses the **SVI (default gateway)** that was already configured on the 
 | 320 | General-Inpatient-Wing | 172.16.3.97 | 255.255.255.224 | 172.16.3.98 | 30 |
 | 330 | Radiology-DPT | 172.16.3.129 | 255.255.255.224 | 172.16.3.130 | 30 |
 
+## 🛠️ Step-by-Step: Configure DHCP Pools on **DHCP-SRV**
 
+### 1️⃣ Open the DHCP Service
+- Click **DHCP-SRV**
+- Go to **Services**
+- Select **DHCP**
+- Make sure DHCP is **ON**
+
+---
+
+### 2️⃣ Create a DHCP Pool (Repeat for Each VLAN)
+For **each pool**, fill in:
+- **Pool Name**
+- **Default Gateway** (SVI IP)
+- **Subnet Mask**
+- **Starting IP Address**
+- **Maximum Number of Users**
+
+👉 Click **Add** after each pool.
+
+---
+
+### 3️⃣ Example: Emergency Department (VLAN 101)
+- Pool Name: `Emergency-DPT`
+- Default Gateway: `172.16.1.1`
+- Subnet Mask: `255.255.255.192`
+- Start IP: `172.16.1.2`
+- Max Users: `62`
+
+---
+
+## ✅ Verification
+
+I have to configure DHCP relay on the Access Switches, for them to be able to forward UDP broadcast traffic!
