@@ -41,7 +41,6 @@
 | VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
 | 210 | Billing & Finance | 172.16.2.33 | 255.255.255.224 |
-| 230 | Insurance | 172.16.1.129 | 255.255.255.224 |
 
 ---
 
