@@ -28,10 +28,13 @@
 
 ## 🔍 Troubleshooting Steps Taken
 1️⃣ **Verified DHCP-SRV IP settings**
-- Checked DHCP-SRV IP, subnet, and default gateway → **Correct**
+- Checked DHCP-SRV IP, subnet, and default gateway 
 
 <img width="745" height="338" alt="DHCP-SRV-IP" src="https://github.com/user-attachments/assets/bc43b44e-15b1-4703-bf41-688c9707f51d" />
 
+DHCP Server IP configuration is correct!
+
 <img width="515" height="116" alt="SVI-IP" src="https://github.com/user-attachments/assets/e375aed1-a1aa-492f-8b6f-3585fe1aebae" />
 
+VLAN 700 SVI is correct!
 
