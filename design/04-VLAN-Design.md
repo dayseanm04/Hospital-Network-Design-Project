@@ -15,15 +15,6 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 140     | Pharmacy                      | 172.16.1.128/28    | 255.255.255.240    | 172.16.1.129       |
 | 180     | Loading Dock / Supply         | 172.16.7.0/27    | 255.255.255.224    | 172.16.7.1       |
 
-## 🧩 Security Stations(172.16.5.0/26) & Receptionists (172.16.6.0/26)
-
-| VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
-|--------:|-------------------------------|--------------------|--------------------|--------------------|
-| 500     | Floor 1 Security Station      | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1       |
-| 500     | Hospital Security / Safety Office      | 172.16.6.0/25  |  255.255.255.128  |  172.16.5.1   |
-| 600     | Main Lobby Reception          | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1     |
-| 600     | ED Receptionist                  | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1     |
-
 
 ---
 
@@ -38,16 +29,6 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 240    | IT Department (user VLAN)     | 172.16.2.144/28    | 255.255.255.240    | 172.16.2.145       |
 | 180     | Supply Chain / Purchasing     | 172.16.7.0/27    | 255.255.255.224    | 172.16.7.1       |
 
-## 🧩 Security Stations(172.16.5.0/26) & Receptionists (172.16.6.0/26)
-
-| VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
-|--------:|-------------------------------|--------------------|--------------------|--------------------|
-| 500     | Floor 2 Security Station      | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1       |
-| 600     | Floor 2 Reception             | 172.16.6.0/25   | 255.255.255.128    | 172.16.6.1       |
-
-
-(**Note:** I will cnfigure Management VLANs for IT using a separate subnet and VLAN ID.)
-
 ---
 
 ## 🧱 Floor 3 – Inpatient Care & ICU (172.16.3.0/24)
@@ -59,14 +40,6 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 310     | ICU (Floor 3)                 | 172.16.3.64/27     | 255.255.255.224    | 172.16.3.65        |
 | 320     | General Inpatient Wing (F3)   | 172.16.3.96/27     | 255.255.255.224    | 172.16.3.97        |
 | 330     | Radiology / Imaging           | 172.16.3.128/27    | 255.255.255.224    | 172.16.3.129       |
-
-## 🧩 Security Stations(172.16.5.0/26) & Receptionists (172.16.6.0/26)
-
-| VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
-|--------|-------------------------------|--------------------|--------------------|--------------------|
-| 500     | Security Station (Floor 3)    | 172.16.5.0/26   | 255.255.255.192    | 172.16.5.1      |
-| 600     | ICU Receptionist (Floor 3)    | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
-| 600     | Floor 3 Receptionist          | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
 
 ---
 
@@ -85,16 +58,14 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 | VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
 |--------|-------------------------------|--------------------|--------------------|--------------------|
-| 500     | Security Station (Floor 4)          | 172.16.5.0/26    | 255.255.255.192    | 172.16.5.1       |
-| 600     | ICU Receptionist (Floor 4)          | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
-| 600     | Specialty Care Receptionist         | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
-| 600     | Primary Care Receptionist           | 172.16.6.0/25    | 255.255.255.128    | 172.16.6.1       |
+| 500     | Security Station   | 172.16.5.0/26   | 255.255.255.192  | 172.16.5.1  |
+| 600     | Receptionists      | 172.16.6.0/25   | 255.255.255.128  | 172.16.6.1  |
 
 ## 🧩 Server VLAN
 
-| VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
-|--------|-------------------------------|--------------------|--------------------|--------------------|
-| 700     | Server          | 10.10.10.0/27    | 255.255.255.224    | 10.10.10.1       |
+| VLAN ID | Department      | Subnet         | Mask              | Default Gateway |
+|--------|------------------|----------------|-------------------|-----------------|
+| 700     | Server          | 10.10.10.0/27  | 255.255.255.224   | 10.10.10.1     |
 
 
 ## ✅ Summary
