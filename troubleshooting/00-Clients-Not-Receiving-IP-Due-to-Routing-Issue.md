@@ -94,12 +94,16 @@ On **F1-ASW1**, add the VLAN 101 subnet into OSPF (Area 1).
   *(**0.0.0.63** is the wildcard for /26, and VLAN 101 is 172.16.1.1/26.)* 
   
 
+---
 
+## 🧪 Verification
+1️⃣ On ED1, renew the DHCP lease:
+- Click **ED1**
+- Go to **Desktop**
+- Run: `ipconfig /renew` 
 
+**✅ Expected result:**
 
+<img width="742" height="240" alt="ED1-DHCP-Success" src="https://github.com/user-attachments/assets/5ea65cc2-2a1e-46b6-a8e9-01f5b2c4592a" />
 
-
-
-
-
-
+- ED1 successfully receives an IP address from the DHCP server.
