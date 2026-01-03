@@ -80,6 +80,19 @@ Since I havent enable OSPF for the Deparment subnets those subnets were advertis
 
 ---
 
+## ✅ Resolution
+
+### 1️⃣ Enable OSPF for VLAN 101 on F1-ASW1
+
+On **F1-ASW1**, add the VLAN 101 subnet into OSPF (Area 1).
+
+- Enter OSPF config mode:
+  - `router ospf 1` 
+  
+- Advertise the VLAN 101 subnet (VLAN 101 SVI = 172.16.1.1 /26 → wildcard 0.0.0.63):
+  - `network 172.16.1.0 0.0.0.63 area 1`  
+  *(**0.0.0.63** is the wildcard for /26, and VLAN 101 is 172.16.1.1/26.)* 
+  
 
 
 
