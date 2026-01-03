@@ -42,7 +42,7 @@ Each pool uses the **SVI (default gateway)** that was already configured on the 
 
 ## 🛠️ Step-by-Step: Configure DHCP Pools on **DHCP-SRV**
 
-### 1️⃣ Open the DHCP Service
+### 1️⃣ Enable DHCP Service
 - Click **DHCP-SRV**
 - Go to **Services**
 - Select **DHCP**
