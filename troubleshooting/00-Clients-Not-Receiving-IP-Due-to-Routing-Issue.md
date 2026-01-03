@@ -1,7 +1,7 @@
 # 🚨 Issue: Clients Not Receiving IP Due to Routing Issue (VLAN 101)
 
 ## 📌 Problem Description
-**ED1 (Emergency DPT PC)** connected to **F1-ASW1** could not obtain an IP address from the **DHCP-SRV**, even after configuring an **IP helper address** on **VLAN 101**.
+**ED1 (Emergency DPT PC1)** connected to **F1-ASW1** could not obtain an IP address from the **DHCP-SRV**, even after configuring an **IP helper address** on **VLAN 101**.
 
 ---
 
@@ -37,4 +37,25 @@ DHCP Server IP configuration is correct!
 <img width="515" height="116" alt="SVI-IP" src="https://github.com/user-attachments/assets/e375aed1-a1aa-492f-8b6f-3585fe1aebae" />
 
 VLAN 700 SVI is correct!
+
+2️⃣ **Checked VLAN 101 SVI status**
+- Confirmed the SVI is **up**
+
+<img width="772" height="93" alt="VLAN700-SVI-up" src="https://github.com/user-attachments/assets/8788547f-907f-4452-ab19-849d5f7abb50" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
