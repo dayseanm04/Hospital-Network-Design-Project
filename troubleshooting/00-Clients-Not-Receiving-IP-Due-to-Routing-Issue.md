@@ -24,3 +24,9 @@
   - VLAN 101 SVI is **172.16.1.1 /26**
 
 ---
+
+
+## 🔍 Troubleshooting Steps Taken
+1️⃣ **Verified DHCP-SRV IP settings**
+- Checked DHCP-SRV IP, subnet, and default gateway → **Correct**
+
