@@ -62,11 +62,23 @@ VLAN 700 SVI is correct!
 
 <img width="744" height="259" alt="DSW1-ping-DHCP-DG" src="https://github.com/user-attachments/assets/3d7ee2ef-3e16-4fff-9bed-759ff6ddec8c" />
 
+### 4️⃣ **Checked uplinks / Port-Channels**
+- Port-Channels to distribution switches → **Up**
+- DSWs Port-Channels to Service-ASW → **Up** 
 
+### 5️⃣ Reviewed routing (OSPF) for VLAN 101
 
+- OSPF is running between Distribution and Access layer, but VLAN 101 was not being advertised because I havent enable OSPF for that subnet yet. 
 
+---
 
+## 🛠 Root Cause
 
+Since I havent enable OSPF for the Deparment subnets those subnets were advertised. I should have enable ospf for the subnets before I requested IP address. I did that to desmonstrate the imporant of enabliong OSPF on network and troubleshooting anf fixing the issue.
+
+**Result:** the DHCP discover/offer process could not complete successfully for ED1 even though the DHCP server itself was reachable.
+
+---
 
 
 
