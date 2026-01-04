@@ -97,3 +97,15 @@ write memory
 ### 4️⃣ Confirm SVIs are up
 
 #### show ip int brief | include Vlan on F1-ASW1
+
+<img width="787" height="101" alt="F1-ASW1" src="https://github.com/user-attachments/assets/3f57317a-b53b-4ae2-beb4-bac14dce698d" />
+
+
+
+
+
+
+
+
+
+
