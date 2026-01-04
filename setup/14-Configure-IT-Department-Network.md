@@ -29,3 +29,49 @@ Set up the **IT Department** on the **Service-ASW** by creating **VLAN 240**, as
 | IT-PC2 | Service-ASW | **G1/0/10** |
 
 ---
+
+# 🛠️ Step-by-Step Configuration (Service-ASW)
+
+## 1️⃣ Enter global configuration mode
+
+```bashenable
+configure terminal
+```
+
+---
+
+## 2️⃣ Create the IT Department VLAN
+
+```bash
+vlan 240
+name IT-DPT
+exit
+
+---
+
+## 3️⃣ Assign access ports to VLAN 240
+
+```bash
+interface range g1/0/9 - 16
+switchport access vlan 240
+```
+
+---
+
+## 4️⃣ Configure the SVI (Default Gateway) for VLAN 240
+
+```bash
+interface vlan 240
+ip address 10.50.50.1 255.255.255.192
+```
+
+---
+
+## 5️⃣ Save the configuration
+
+```bash
+end
+write memory
+```
+
+---
