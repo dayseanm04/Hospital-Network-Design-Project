@@ -93,4 +93,7 @@ write memory
 #### 🔷 Note 🔷 I did not configure an SVI for every single VLAN because it would be unnecessary and repetitive for the scope of this project, as the core concepts and functionality are already clearly shown. I configured SVIs for most VLANs.
 
 ## ✅ Verification
+
 ### 4️⃣ Confirm SVIs are up
+
+#### show ip int brief | include Vlan on F1-ASW1
