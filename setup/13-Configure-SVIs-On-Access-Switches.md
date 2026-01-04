@@ -100,8 +100,9 @@ write memory
 
 <img width="787" height="101" alt="F1-ASW1" src="https://github.com/user-attachments/assets/3f57317a-b53b-4ae2-beb4-bac14dce698d" />
 
+#### show ip int brief | include Vlan on F1-ASW2
 
-
+<img width="852" height="83" alt="F1-ASW2" src="https://github.com/user-attachments/assets/62c54601-379d-44a0-8932-2e0b2f83605c" />
 
 
 
