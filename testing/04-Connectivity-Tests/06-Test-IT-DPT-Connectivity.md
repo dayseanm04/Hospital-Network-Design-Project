@@ -23,6 +23,15 @@ Verify **basic connectivity** within the **IT Department (VLAN 240)** by testing
 
 #### ♦️ IT-PC1 pings IT-PC2 (10.50.50.3)
 
-<img width="746" height="606" alt="PC1-pings" src="https://github.com/user-attachments/assets/54dd9c5e-1059-49e2-ad4c-aeb3dfb5d828" />
+<img width="746" height="606" alt="IT-PC1-pings" src="https://github.com/user-attachments/assets/54dd9c5e-1059-49e2-ad4c-aeb3dfb5d828" />
+
+## 🧪 Test 2
+
+#### ♦️ IT-PC2 pings IT-DPT Gateway (10.50.50.1)
+
+#### ♦️ IT-PC2 pings IT-PC1 (10.50.50.2)
+
+<img width="742" height="612" alt="IT-PC2-pings" src="https://github.com/user-attachments/assets/c5991922-5829-4649-aff3-56904c280d73" />
+
 
 
