@@ -38,5 +38,11 @@ Verify **basic connectivity** within the **IT Department (VLAN 240)** by testing
 
 <img width="742" height="612" alt="IT-PC2-pings" src="https://github.com/user-attachments/assets/c5991922-5829-4649-aff3-56904c280d73" />
 
+## 🧪 Test 2
 
+#### ♦️ Service-ASW pings IT-PC1 (10.50.50.2)
+
+#### ♦️ Service-ASW pings IT-PC2 (10.50.50.3)
+
+<img width="723" height="262" alt="Service-ASW-pings" src="https://github.com/user-attachments/assets/793968a5-94ec-47b6-b564-67dc487aa04e" />
 
