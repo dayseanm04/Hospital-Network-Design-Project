@@ -41,8 +41,11 @@ The Distribution Switches to Access Switches connected are Layer 3 Etherchannel,
 ### 1️⃣ Enter global configuration mode
 
 On **each Access Switch**:
-- `enable`
-- `configure terminal`
+
+```bash
+enable
+configure terminal
+```
 
 ---
 
@@ -50,9 +53,19 @@ On **each Access Switch**:
 
 For **each VLAN listed above**, use this pattern:
 
-```text
+```bash
 interface vlan <VLAN-ID>
 ip helper-address 10.10.10.2
 ```
+
+###3️⃣ Exit and save
+
+```bash
+end
+write memory
+```
+
+
+### 🔷 Note 🔷 I did not configure the IP helper address for every single VLAN because the goal was to demonstrate how DHCP relay works, which has already been shown. Repeating the same ip helper-address configuration on every VLAN would be repetitive and would not add additional value to the project.
 
 
