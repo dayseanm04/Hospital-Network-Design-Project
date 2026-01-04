@@ -58,7 +58,7 @@ interface vlan <VLAN-ID>
 ip helper-address 10.10.10.2
 ```
 
-###3️⃣ Exit and save
+### 3️⃣ Exit and save
 
 ```bash
 end
