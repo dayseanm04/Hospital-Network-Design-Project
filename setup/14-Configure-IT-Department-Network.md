@@ -46,6 +46,7 @@ configure terminal
 vlan 240
 name IT-DPT
 exit
+```
 
 ---
 
