@@ -6,6 +6,11 @@ Verify **basic connectivity** within the **IT Department (VLAN 240)** by testing
 - PC-to-PC communication
 - PC-to-default-gateway communication
 
+## Reference Network Diagram
+
+<img width="446" height="178" alt="reference-network-diagram" src="https://github.com/user-attachments/assets/716ba13b-0a9e-4e43-bb3f-954d5cc47f48" />
+
+
 ---
 
 ## 🌐 IT Department Network Info
