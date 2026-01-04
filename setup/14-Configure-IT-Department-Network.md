@@ -76,3 +76,28 @@ write memory
 ```
 
 ---
+
+# 🖥️ Configure Static IPs on IT PCs
+
+## 6️⃣ IT-PC1 IP settings
+
+| Field | Value |
+|---|---|
+| IP Address | **10.50.50.2**  |
+| Subnet Mask | **255.255.255.192** (/26) |
+| Default Gateway | **10.50.50.1**  |
+
+## 7️⃣ IT-PC2 IP settings
+
+| Field | Value |
+|---|---|
+| IP Address | **10.50.50.3** |
+| Subnet Mask | **255.255.255.192** (/26)  |
+| Default Gateway | **10.50.50.1** |
+
+---
+
+
+
+
+
