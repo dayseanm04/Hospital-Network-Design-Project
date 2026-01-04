@@ -112,5 +112,10 @@ write memory
 
 <img width="816" height="81" alt="F2-ASW2" src="https://github.com/user-attachments/assets/6b990b14-1f43-48f4-914b-0c66080410c8" />
 
+#### show ip int brief | include Vlan on F3-ASW1
 
+<img width="817" height="101" alt="F3-ASW1" src="https://github.com/user-attachments/assets/52dcd7d5-f801-459b-b9c7-9c8687cf4f4a" />
 
+#### show ip int brief | include Vlan on F3-ASW2
+
+<img width="803" height="119" alt="F3-ASW2" src="https://github.com/user-attachments/assets/4cdfd61f-328a-48b5-be34-4690ffaab4e9" />
