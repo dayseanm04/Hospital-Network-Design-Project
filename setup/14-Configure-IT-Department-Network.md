@@ -97,7 +97,7 @@ write memory
 
 ---
 
-###  [Click here for the connectivity tests](/testing/04-Connectivity-Tests/06-Test-IT-DPT-Connectivity.md)
+### ✅ Click here for the connectivity tests [Click here for the connectivity tests](/testing/04-Connectivity-Tests/06-Test-IT-DPT-Connectivity.md)
 
 
 
