@@ -14,6 +14,15 @@ The goal is to protect the **management plane** by controlling how administrator
 
 ---
 
+## 📂 Contents
+
+| File | Description |
+|-----|------------|
+| `configure-local-user-and-enable-secret.md` | Creates local user accounts and secures privileged mode |
+| `secure-console-access-with-local-authentication.md` | Secures console access using local authentication and timeouts |
+
+---
+
 ## 🛡️ Notes
 
 - Credentials used in this project are **simplified for lab purposes**
