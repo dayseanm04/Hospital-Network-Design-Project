@@ -28,5 +28,3 @@ This ensures issues are **repeatable, understandable, and easy to troubleshoot**
 ## 📝 Notes
 Connectivity issues are a usually part of enterprise network deployments.  
 This folder reflects a **structure  troubleshooting approach** used throughout the project.
-
----
