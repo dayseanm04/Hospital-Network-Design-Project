@@ -19,3 +19,15 @@ The NTP server will provide **accurate and consistent time synchronization** for
 ## Reference Network Diagram
 
 <img width="474" height="210" alt="reference-topology" src="https://github.com/user-attachments/assets/643ad0bb-e50a-4beb-8099-44158d59e1e8" />
+
+---
+
+## 🏥 NTP Server Details
+
+| Setting | Value |
+|------|------|
+| Device Name | NTP-SRV |
+| VLAN | Servers VLAN |
+| IP Address | 10.10.10.3 |
+| Subnet Mask | 255.255.255.224 |
+| Default Gateway | 10.10.10.1 |
