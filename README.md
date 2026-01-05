@@ -29,7 +29,7 @@ The project is organized in **stages**, starting from design and planning, then 
 | 📁 **[`design/`](./design)** | Network planning, requirements, VLAN design, and IP addressing |
 | 📁 **[`docs/`](./docs)** | Reference documents used throughout the project |
 | 📁 **[`setup/`](./setup)** | Initial device and network setup tasks |
-| 📁 **[`implementation-tasks/`](./implementation-tasks)** | Step-by-step configuration tasks |
+| 📁 **[`implementation-tasks/`](./implementation-tasks)** | Core network implementation tasks |
 | 📁 **[`Network-Security/`](./Network-Security)** | Hospital Network security tasks |
 | 📁 **[`testing/`](./testing)** | Connectivity, security, and validation tests |
 | 📁 **[`troubleshooting/`](./troubleshooting)** | Issue identification and resolution documentation |
@@ -50,4 +50,14 @@ The project is organized in **stages**, starting from design and planning, then 
 
 ---
 
+## 🔐 Security Focus
+Security is applied **across the entire network**, including:
+- Device access protection
+- Traffic control using ACLs
+- Secure management access
+- Segmentation between departments
+
+I will add additional security features as the project evolves.
+
+---
 
