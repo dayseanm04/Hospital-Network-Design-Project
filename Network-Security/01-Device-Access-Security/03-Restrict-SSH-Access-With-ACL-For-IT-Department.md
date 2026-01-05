@@ -46,3 +46,13 @@ access-class 1 in
 - 🔐 Requires local authentication
 - 🚦 Limits VTY sessions to 2
 - 🧱 Applies ACL 1 to incoming SSH connections
+
+
+## ✅ Verification
+
+### On IT-PC1
+
+Open command prompt: ssh -l daysean 10.0.0.1
+
+<img width="679" height="253" alt="IT-DPT-SSH-access" src="https://github.com/user-attachments/assets/a589714a-ac4f-4854-b38d-7d3a551a375c" />
+
