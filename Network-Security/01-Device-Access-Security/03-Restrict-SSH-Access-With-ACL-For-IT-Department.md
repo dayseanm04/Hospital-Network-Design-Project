@@ -32,3 +32,17 @@ ip access-list 1 permit 10.50.50.3
 
 **Note: 💡 Any IP address not explicitly permitted will be denied by default.**
 
+## 🖥️ Step 2 - Configure VTY Lines
+
+```bash
+line vty 0 4
+session-limit 2
+login local
+access-class 1 in
+```
+
+### 🔍 What this does:
+
+- 🔐 Requires local authentication
+- 🚦 Limits VTY sessions to 2
+- 🧱 Applies ACL 1 to incoming SSH connections
