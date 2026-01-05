@@ -70,7 +70,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 | VLAN ID | Department      | Subnet         | Mask              | Default Gateway |
 |--------|------------------|----------------|-------------------|-----------------|
-| 240    | IT Department (user VLAN)  | 172.16.2.144/28  | 255.255.255.240  | 172.16.2.145  |
+| 240    | IT Department  | 10.50.50.0/26  | 255.255.255.192  | 10.50.50.1  |
 
 
 ## ✅ Summary
