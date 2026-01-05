@@ -38,3 +38,16 @@ The project is organized in **stages**, starting from design and planning, then 
 | 📁 **[`skip/`](./skip)** | Skipped steps |
 | 📄 **[`Project-Overview.md`](./Project-Overview.md)** | High-level explanation of the project |
 
+--
+
+## 🧠 Design 
+
+- Three-tier architecture (core, distribution, access)
+- Department-based VLAN segmentation
+- Structured and scalable IP addressing
+- Redundant links using EtherChannel
+- Network security enforcement
+
+---
+
+
