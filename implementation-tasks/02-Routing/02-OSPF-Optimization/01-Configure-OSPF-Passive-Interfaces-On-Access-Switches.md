@@ -29,6 +29,28 @@ The VLAN networks remain advertised in OSPF, but **end devices do not participat
 
 ## ⚙️ Configuration Steps
 
+### 1️⃣ Enter OSPF configuration mode
+```bash
+router ospf 1
+```
+
+### 2️⃣ Configure passive interfaces for the VLANs on that switch
+
+```bash
+passive-interface Vlan <VLAN-ID>
+end
+```
+
+### 💾 Save Configuration
+
+```bash
+write memory
+```
+
+
+
+
+
 
 
 
