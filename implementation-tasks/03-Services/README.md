@@ -13,3 +13,12 @@ Network services support **day-to-day operations** by providing IP addressing, c
 | Service | Description |
 |--------|-------------|
 | 📁 **[`DHCP/`](/implementation-tasks/03-Services/DHCP)** | Dynamic IP address assignment and DHCP relay for VLANs |
+
+---
+
+## 🧪 Service Implementation Approach
+
+Each service includes:
+- 📝 Configuration steps
+- 🔍 Explanation of purpose
+- ✅ Verification results
