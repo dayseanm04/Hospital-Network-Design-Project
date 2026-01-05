@@ -44,9 +44,15 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 | Emergency | ED-1 | VLAN 101 | 172.16.1.0/26 | ✅ IP assigned |
 | X-Ray | X-R-1 | VLAN 110 | 172.16.1.64/27 | ✅ IP assigned |
 
+---
 
+#### 🔶 MRD-1 ipconfig /renew
 
+<img width="656" height="282" alt="MRD1-DHCP-success" src="https://github.com/user-attachments/assets/434401a4-77a8-4313-84d6-3d9750573f45" />
 
+#### 🔶 Fin-1 ipconfig /renew
+
+<img width="743" height="297" alt="Fin1-DHCP-success" src="https://github.com/user-attachments/assets/7898a473-2fc7-4db5-9237-9911b0f9d7a7" />
 
 
 
