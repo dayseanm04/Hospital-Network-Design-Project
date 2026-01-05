@@ -57,3 +57,8 @@ Open command prompt: ssh -l daysean 10.0.0.1
 <img width="679" height="253" alt="IT-DPT-SSH-access" src="https://github.com/user-attachments/assets/a589714a-ac4f-4854-b38d-7d3a551a375c" />
 
 IT-PC1 sucessfully SSH into F1-ASW1
+
+### 🔶 Note 🔶: I will use the loopback IP address on each network device for management purposes. This provides a stable and consistent IP for remote access and monitoring, even if physical interfaces go down.
+
+### Reference loopback IPs ➡️ [Here](/docs/Loopback-Interfaces-Reference.md)
+
