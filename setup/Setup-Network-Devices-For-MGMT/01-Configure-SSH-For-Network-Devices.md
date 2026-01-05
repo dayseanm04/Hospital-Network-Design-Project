@@ -40,3 +40,6 @@ When prompted, enter:
 **2048**
 
 #### 🔶 Note 🔶: I will use the loopback IP address on each network device for management purposes. This provides a stable and consistent IP for remote access and monitoring, even if physical interfaces go down.
+
+### Click here to continue ➡️ [Network Device Security](/Device-Access-Security/)
+
