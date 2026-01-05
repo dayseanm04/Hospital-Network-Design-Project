@@ -20,3 +20,15 @@ In this task, I restrict **SSH (VTY) access** on **all network devices** so that
 | IT-DPT PC2 | 10.50.50.3 |
 
 ---
+
+## 🛠️ Step 1 - Create a Standard ACL
+
+Create an access control list that **permits only IT Department IP addresses**:
+
+```bash
+ip access-list 1 permit 10.50.50.2
+ip access-list 1 permit 10.50.50.3
+```
+
+**Note: 💡 Any IP address not explicitly permitted will be denied by default.**
+
