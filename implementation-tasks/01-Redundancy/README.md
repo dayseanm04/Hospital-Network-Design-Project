@@ -27,8 +27,3 @@ All configurations follow **enterprise networking best practices** and are desig
 - 🛑 Automatic failover if a link goes down
 - 🏥 Built to support hospital-critical systems (EMR, servers, etc)
 - 🧱 Fully integrated with the **core, distribution, and access layers**
-## 📝 Notes
-This redundancy implementation is **incremental**.  
-Additional resiliency mechanisms may be added in later stages (HSRP, routing optimizations, security HA).
-
----
