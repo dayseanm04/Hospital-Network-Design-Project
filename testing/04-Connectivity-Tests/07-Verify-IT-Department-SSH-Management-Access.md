@@ -45,3 +45,5 @@ ssh -l daysean 10.0.0.1
 
 
 <img width="745" height="321" alt="IT-DPT-SSH-access2" src="https://github.com/user-attachments/assets/677c61e2-8255-4530-be82-13d4def0e570" />
+
+IT-DPT PC1 and PC2 successfuly SSH into F1-ASW1
