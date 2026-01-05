@@ -37,4 +37,10 @@ enable secret ccna
 username bob secret ccna
 ```
 
+### Verify
+
+#### ♦️ Exit console and Enter
+
+<img width="293" height="129" alt="verify-local-auth" src="https://github.com/user-attachments/assets/0300f4c0-9d47-44f0-ab53-57a863f61f1e" />
+
 
