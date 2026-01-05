@@ -51,5 +51,5 @@ This file is a quick reference for the VLAN subnets used in the hospital network
 Note: I did not include every subnet in this hospital project because it would be unnecessary and repetitive. The subnets that are listed are enough to show how the network  is design. This level of detail is sufficient for this project.
 
 
-### ✅ Click here for full list [Click here for full list](/design/03-VLANs-IP-Addressing-Plan.md)
+### Click here for full list ➡️ [Click here for full list](/design/03-VLANs-IP-Addressing-Plan.md)
 
