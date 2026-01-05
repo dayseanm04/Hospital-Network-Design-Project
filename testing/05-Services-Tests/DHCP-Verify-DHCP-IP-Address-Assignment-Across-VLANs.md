@@ -28,7 +28,7 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 ## 🏥 DHCP Verification Results
 
-### 📍 Floor 1 Test 
+### 📍 Floor 1 Tests
 
 #### 🔶 ED-1 ipconfig /renew
 
@@ -47,7 +47,7 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 ---
 
-### 📍 Floor 2 Test
+### 📍 Floor 2 Tests
 
 #### 🔶 MRD-1 ipconfig /renew
 
@@ -71,7 +71,7 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 ---
 
-### 📍 Floor 3 Test
+### 📍 Floor 3 Tests
 
 #### 🔶 F3-Nrs-1 ipconfig /renew
 
@@ -85,15 +85,25 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 <img width="612" height="310" alt="Rad1-DHCP-success" src="https://github.com/user-attachments/assets/6eb230f7-ddde-4c22-94f5-c9a7ca754e78" />
 
+### 📍 Floor 3 Test summary
 
+| Department | Device | VLAN | Subnet | Result |
+|----------|-------|------|--------|--------|
+| Nurses | F3-NRS-1 | VLAN 300 | 172.16.3.0/26 | ✅ IP assigned |
+| ICU | ICU-1 | VLAN 310 | 172.16.3.64/27 | ✅ IP assigned |
+| Radiology | RAD-1 | VLAN 330 | 172.16.3.128/27 | ✅ IP assigned |
 
+---
 
+## 📝 Notes
+- Not every end device in the network is shown to avoid repetition.
+- The tested devices are **representative samples** from each VLAN.
+- Successful results confirm that **DHCP is operational across all VLANs**.
 
+---
 
+## ✅ Conclusion
 
+This test confirms that the **DHCP service is and accessible across the hospital network**, allowing clients in different departments and floors to automatically obtain correct IP addressing information.
 
-
-
-
-
-
+This is critical for ensuring scalability,  and reliable end-user connectivity.
