@@ -47,15 +47,24 @@ end
 write memory
 ```
 
+## ✅ Verification (Run on ALL Access Switches)
+
+#### 🔷 show ip protocols on F1-ASW1
 
 
+#### 🔷 show ip protocols on F1-ASW2
 
 
+#### 🔷 show ip protocols on F2-ASW1
 
 
+#### 🔷 show ip protocols on F2-ASW2
 
 
+#### 🔷 show ip protocols on F3-ASW1
 
+
+#### 🔷 show ip protocols on F3-ASW2
 
 
 
