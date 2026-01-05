@@ -1,6 +1,6 @@
 # 🔒 Restrict SSH Access With ACL for IT Department
 
-In this task, I restrict **SSH (VTY) access** on **all network devices** so that **only IT Department hosts** are allowed to remotely manage the network. This improves security by ensuring that remote access is limited to authorized systems only.
+In this task, I restricted **SSH (VTY) access** on **all network devices** so that **only IT Department hosts** are allowed to remotely manage the network. This improves security by ensuring that remote access is limited to authorized systems only.
 
 ---
 
