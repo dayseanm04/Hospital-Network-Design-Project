@@ -26,3 +26,21 @@ NTP authentication helps protect the network from **unauthorized or spoofed time
 
 ---
 
+## ⚙️ Configuration Steps
+
+### 1️⃣ Open the NTP Server
+
+- Click on **NTP-SRV**
+- Navigate to **Services**
+
+---
+
+### 2️⃣ Enable NTP Authentication
+
+- Select **NTP**
+- Enable **Authentication**
+- Configure the authentication settings:
+  - **Key ID:** `10`
+  - **Password:** `ccna`
+
+<img width="740" height="317" alt="NTP-SS" src="https://github.com/user-attachments/assets/01d02ae4-3167-4770-ab34-3042fc51a1ce" />
