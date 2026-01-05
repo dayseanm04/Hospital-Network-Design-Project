@@ -28,6 +28,8 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 ## 🏥 DHCP Verification Results
 
+### 📍 Floor 1 Test 
+
 #### 🔶 ED-1 ipconfig /renew
 
 <img width="597" height="310" alt="ED1-DHCP-success" src="https://github.com/user-attachments/assets/6e5518ad-f653-47dc-9f80-40d41c89ecc8" />
@@ -44,6 +46,8 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 | X-Ray | X-R-1 | VLAN 110 | 172.16.1.64/27 | ✅ IP assigned |
 
 ---
+
+### 📍 Floor 2 Test
 
 #### 🔶 MRD-1 ipconfig /renew
 
@@ -67,6 +71,19 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 ---
 
+### 📍 Floor 3 Test
+
+#### 🔶 F3-Nrs-1 ipconfig /renew
+
+<img width="699" height="317" alt="F3-Nrs1-DHCP-success" src="https://github.com/user-attachments/assets/512c1548-c65e-4534-86c9-d652949b6f51" />
+
+#### 🔶 ICU-1 ipconfig /renew
+
+<img width="743" height="316" alt="ICU1-DHCP-success" src="https://github.com/user-attachments/assets/02bb7bad-d824-41ad-923f-888dcd67de0e" />
+
+#### 🔶 Rad-1 ipconfig /renew
+
+<img width="612" height="310" alt="Rad1-DHCP-success" src="https://github.com/user-attachments/assets/6eb230f7-ddde-4c22-94f5-c9a7ca754e78" />
 
 
 
@@ -78,5 +95,5 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 
 
----
+
 
