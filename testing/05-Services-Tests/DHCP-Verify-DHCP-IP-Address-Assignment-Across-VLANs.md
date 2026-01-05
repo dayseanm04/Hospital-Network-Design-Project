@@ -28,21 +28,21 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 ## 🏥 DHCP Verification Results
 
+
+#### 🔶 ED-1 ipconfig /renew
+
+<img width="597" height="310" alt="ED1-DHCP-success" src="https://github.com/user-attachments/assets/6e5518ad-f653-47dc-9f80-40d41c89ecc8" />
+
+#### 🔶 X-R-1 ipconfig /renew
+
+<img width="621" height="315" alt="X-Ray1-DHCP-success" src="https://github.com/user-attachments/assets/98556f55-deb8-451d-9c1a-3105569dce33" />
+
 ### 📍 Floor 1
 
 | Department | Device | VLAN | Subnet | Result |
 |----------|-------|------|--------|--------|
 | Emergency | ED-1 | VLAN 101 | 172.16.1.0/26 | ✅ IP assigned |
 | X-Ray | X-R-1 | VLAN 110 | 172.16.1.64/27 | ✅ IP assigned |
-
-#### 🔶 ED-1 ipconfig /renew
-
-<img width="597" height="310" alt="ED1-DHCP-success" src="https://github.com/user-attachments/assets/6e5518ad-f653-47dc-9f80-40d41c89ecc8" />
-
-
-
-
-
 
 
 
