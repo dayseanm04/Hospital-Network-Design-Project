@@ -32,6 +32,8 @@ ip access-list 1 permit 10.50.50.2
 ip access-list 1 permit 10.50.50.3
 ```
 
+**Note: this done in global config mode**
+
 **Note: 💡 Any IP address not explicitly permitted will be denied by default.**
 
 ## 🖥️ Step 2 - Configure VTY Lines
