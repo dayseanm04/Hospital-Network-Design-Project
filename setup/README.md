@@ -19,3 +19,10 @@ This folder covers:
 **🔒 Note:** Advanced security configurations (ACLs, SSH hardening, management access) are documented in separate folders.
 
 ---
+
+## 📝 Notes
+- Tasks are ordered intentionally and should be followed **top-to-bottom**
+- Verification and testing steps are documented in the [testing folder](/testing/)
+- This setup forms the **baseline** for later routing, security, and services configurations
+
+---
