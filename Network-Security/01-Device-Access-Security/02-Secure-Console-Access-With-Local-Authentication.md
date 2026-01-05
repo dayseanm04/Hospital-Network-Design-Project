@@ -61,3 +61,5 @@ do write memory
 ```bash
 show run | section line con 0
 ```
+
+<img width="409" height="116" alt="verify-console-config" src="https://github.com/user-attachments/assets/836df1e3-fdeb-4e8e-89c6-a8882782eee0" />
