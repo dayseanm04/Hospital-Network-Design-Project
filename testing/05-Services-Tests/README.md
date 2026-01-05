@@ -25,8 +25,7 @@ Additional service tests (such as NTP, SNMP, or Syslog) will be added in future 
 
 | File | Description |
 |----|------------|
-| - **[DHCP-Verify-DHCP-IP-Address-Assignment-Across-VLANs.md](./DHCP-Verify-DHCP-IP-Address-Assignment-Across-VLANs.md)**
-](./DHCP-Verify-DHCP-IP-Address-Assignment-Across-VLANs.md) | Confirms DHCP clients across different floors and departments successfully obtain IP addresses |
+| **[DHCP-Verify-DHCP-IP-Address-Assignment-Across-VLANs.md](./DHCP-Verify-DHCP-IP-Address-Assignment-Across-VLANs.md)** | Confirms DHCP clients across different floors and departments successfully obtain IP addresses |
 
 ---
 
