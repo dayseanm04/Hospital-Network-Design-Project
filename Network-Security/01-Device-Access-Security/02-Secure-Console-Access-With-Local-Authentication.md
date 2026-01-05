@@ -17,8 +17,47 @@ In this task, I secured **console access** on the network devices by requiring *
 
 ---
 
-## 🛠️ Step 1 — Enter Global Configuration Mode
+## 🛠️ Step 1 - Enter Global Configuration Mode
 
-```plaintext
+```bash
 enable
 configure terminal
+```
+
+## 🖥️ Step 2 — Secure the Console Line
+
+### 1️⃣ Enter console line configuration
+
+```bash
+line console 0
+```
+
+### 2️⃣ Enable local login
+
+```bash
+login local
+```
+
+### 3️⃣ Set timeout to 4 minutes
+
+```bash
+exec-timeout 4
+```
+
+## 🔒 Step 3 - Limit Console Sessions
+
+```bash
+session-limit 1
+```
+
+### 💾 Step 4 - Save the Configuration
+
+```bash
+do write memory
+```
+
+### 🔍 Step 5 - Verify the Console Settings ✅
+
+```bash
+show run | section line con 0
+```
