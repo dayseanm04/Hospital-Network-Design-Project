@@ -61,3 +61,16 @@ I will add additional security features as the project evolves.
 
 ---
 
+## 🧪 Testing & Validation
+
+Testing is organized into dedicated categories to verify that the hospital network operates correctly, securely, and reliably.
+
+The testing phase validates **redundancy, failover behavior, security controls, and end-to-end connectivity** across the entire network. 
+
+---
+
+## 🔮 Project Status
+
+🚧 **This project is actively evolving.**
+
+New features, configurations, tests, and documentation will be added as needed to reflect real-world network growth and changes.
