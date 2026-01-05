@@ -20,7 +20,7 @@ The goal is to protect the **management plane** by controlling how administrator
 |-----|------------|
 | `01-configure-local-user-and-enable-secret.md` | Creates local user accounts and secures privileged mode |
 | `02-secure-console-access-with-local-authentication.md` | Secures console access using local authentication and timeouts |
-
+|`03-Restrict-SSH-Access-With-ACL-For-IT-Department.md`|Restricts SSH access to network devices so that only authorized IT Department hosts can perform remote management.|
 ---
 
 ## 🛡️ Notes
