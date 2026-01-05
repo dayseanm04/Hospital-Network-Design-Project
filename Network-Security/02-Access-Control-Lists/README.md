@@ -1,4 +1,12 @@
+# 🔐 Access Control Lists (ACLs)
 
+## 📌 Overview
+
+This folder contains **Access Control List (ACL) configurations and references** used in the Hospital Network Design Project.
+
+I ACLs implemented to **control and restrict network access**, particularly for **management and remote access**, following security best practices.
+
+The focus of this section is to ensure that **only authorized users and devices** can access critical network infrastructure.
 
 ## 📂 Contents
 
