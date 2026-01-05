@@ -26,3 +26,10 @@ This folder covers:
 - This setup forms the **baseline** for later routing, security, and services configurations
 
 ---
+
+## ✅ Outcome
+After completing all setup tasks, the hospital network will have:
+- A fully connected three-tier architecture
+- VLAN segmentation by department
+- Proper IP addressing across core and distribution layers
+- Ready infrastructure for security and management features
