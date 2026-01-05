@@ -34,7 +34,7 @@ enable secret ccna
 ### 👤 Step 3 - Create a Local Username
 
 ```bash
-username bob secret ccna
+username daysean secret ccna
 ```
 
 ### Verify
