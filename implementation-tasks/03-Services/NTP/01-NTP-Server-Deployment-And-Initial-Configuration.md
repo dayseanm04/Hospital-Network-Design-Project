@@ -16,3 +16,6 @@ The NTP server will provide **accurate and consistent time synchronization** for
 - Place the server in the **Servers VLAN**
 - Prepare the server for use by network devices
 
+## Reference Network Diagram
+
+<img width="474" height="210" alt="reference-topology" src="https://github.com/user-attachments/assets/643ad0bb-e50a-4beb-8099-44158d59e1e8" />
