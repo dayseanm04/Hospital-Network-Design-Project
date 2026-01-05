@@ -42,6 +42,7 @@ ip access-list 1 permit 10.50.50.3
 line vty 0 4
 session-limit 2
 login local
+transport input ssh
 access-class 1 in
 ```
 
@@ -49,6 +50,7 @@ access-class 1 in
 
 - 🔐 Requires local authentication
 - 🚦 Limits VTY sessions to 2
+- Allows SSH
 - 🧱 Applies ACL 1 to incoming SSH connections
 
 
