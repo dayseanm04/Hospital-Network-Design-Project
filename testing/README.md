@@ -9,9 +9,7 @@ These tests confirm that:
 - **Routing, redundancy, and security** configurations function as intended
 - Critical hospital departments and services have **reliable network access**
 
-**⚠️ Note:**  
-
-This is **not the final testing phase**. Additional connectivity tests will be added as the project continues to evolve.
+**⚠️ Note:** This is **not the final testing phase**. Additional connectivity tests will be added as the project continues to evolve.
 
 ---
 
