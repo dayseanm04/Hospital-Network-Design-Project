@@ -18,3 +18,13 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 
 ---
 
+## 🧪 Test Method
+
+### 🔷 For each selected end device:
+
+1. Open the **Command Prompt**
+2. Run: **ipconfig /renew**
+3. Verify that the device receives an IP address within the correct subnet for its VLAN
+
+---
+
