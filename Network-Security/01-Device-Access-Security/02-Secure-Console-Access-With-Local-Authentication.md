@@ -12,7 +12,7 @@ In this task, I secured **console access** on the network devices by requiring *
 
 **⚠️ Note:** This assumes you already created a local username (example: `username daysean secret ccna`). 
 
-### Click here to configure local authentication ➡️ [Here](/Network-Security/01-Device-Access-Security/01-Configure-Local-Authentication-For-Network-Devices.md)
+### Click here to configure local user authentication ➡️ [Here](/Network-Security/01-Device-Access-Security/01-Configure-Local-Authentication-For-Network-Devices.md)
 
 
 ---
