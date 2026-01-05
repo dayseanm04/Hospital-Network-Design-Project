@@ -21,6 +21,7 @@ Thise **security** folder documents the **network security configs** implemented
 | Folder | Description |
 |------|-------------|
 | **`01-Device-Access-Security/`** | Secures administrative access to network devices (console, SSH, management) |
+| 📁 **[`01-Device-Access-Security/`](/Network-Security/01-Device-Access-Security/)** | Secures administrative access to network devices (console, SSH, management) |
 | **`02-Access-Control-Lists/`** | Implements ACLs to control and restrict access |
 
 ---
