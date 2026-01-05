@@ -55,5 +55,4 @@ show ip route | include 10.50.50.0
 <img width="733" height="63" alt="verify-ospf-IT-dpt-subnet-DSW2" src="https://github.com/user-attachments/assets/f0b85cc6-6a6d-4ce7-8e38-df2d33535abc" />
 
 
-
-
+#### ✅ DSW1 and DSW2 successfully learned the route to the IT DPT subnet (10.50.50.0/26)
