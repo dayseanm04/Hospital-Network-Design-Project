@@ -25,3 +25,42 @@ This confirms that DHCP relay and routing are working correctly across the netwo
 1. Open the **Command Prompt**
 2. Run: **ipconfig /renew**
 3. Verify that the device receives an IP address within the correct subnet for its VLAN
+
+## 🏥 DHCP Verification Results
+
+### 📍 Floor 1
+
+| Department | Device | VLAN | Subnet | Result |
+|----------|-------|------|--------|--------|
+| Emergency | ED-1 | VLAN 101 | 172.16.1.0/26 | ✅ IP assigned |
+| X-Ray | X-R-1 | VLAN 110 | 172.16.1.64/27 | ✅ IP assigned |
+
+#### 🔶 ED-1 ipconfig /renew
+
+<img width="597" height="310" alt="ED1-DHCP-success" src="https://github.com/user-attachments/assets/6e5518ad-f653-47dc-9f80-40d41c89ecc8" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
