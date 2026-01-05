@@ -41,5 +41,5 @@ When prompted, enter:
 
 #### 🔶 Note 🔶: I will use the loopback IP address on each network device for management purposes. This provides a stable and consistent IP for remote access and monitoring, even if physical interfaces go down.
 
-### Click here to Network device remote Access ➡️ [Network Device Security](/Network-Security/01-Device-Access-Security/)
+### Click here to Network Devices remote Access ➡️ [HERE](/Network-Security/01-Device-Access-Security/)
 
