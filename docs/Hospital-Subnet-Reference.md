@@ -1,6 +1,6 @@
 # 🧮 Subnet-Reference (Hospital Network Design)
 
-This file is a **quick lookup** for every VLAN subnet in the hospital network:  
+This file is a quick reference for the VLAN subnets used in the hospital network design project.
 
 ✅ **Network** • ✅ **Mask** • ✅ **Gateway (first usable IP)** • ✅ **Usable range** • ✅ **Broadcast**
 
