@@ -23,6 +23,8 @@ In this task, I restricted **SSH (VTY) access** on **all network devices** so th
 
 ## 🛠️ Step 1 - Create a Standard ACL
 
+#### 🔷 do this on all of the network devices
+
 Create an access control list that **permits only IT Department IP addresses**:
 
 ```bash
