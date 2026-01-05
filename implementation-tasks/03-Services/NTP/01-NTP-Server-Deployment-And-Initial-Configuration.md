@@ -37,6 +37,7 @@ The NTP server will provide **accurate and consistent time synchronization** for
 ## ⚙️ Configuration Steps
 
 ### 1️⃣ Enable NTP Service
+
 - Open **NTP-SRV**
 - Navigate to **Services**
 - Disable all unnecessary services
@@ -53,3 +54,10 @@ The NTP server will provide **accurate and consistent time synchronization** for
 
 ---
 
+### 3️⃣ Configure Static IP Address
+
+- Open the server’s **IP Configuration**
+- Assign the following:
+  - IP Address: **`10.10.10.3`**
+  - Subnet Mask: **`255.255.255.224`**
+  - Default Gateway: **`10.10.10.1`**
