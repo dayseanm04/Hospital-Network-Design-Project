@@ -16,3 +16,20 @@ The focus of this section is to ensure that **only authorized users and devices*
 | **[Access-Control-List-Reference.md](./Access-Control-List-Reference.md)** | Reference document used to track, document, and manage configured ACLs |
 
 ---
+
+
+## 🛡️ Security Focus
+
+The ACLs in this folder are designed to:
+- Limit **remote management access** to authorized IT hosts
+- Reduce the attack surface on network devices
+- Enforce **least-privilege access** principles
+- Support secure device administration in a hospital environment
+
+---
+
+## 📝 Notes
+
+- ACLs are applied consistently across **all managed network devices**
+- Loopback interfaces are used for **management access**
+- Additional ACLs will be added as the network security design expands
