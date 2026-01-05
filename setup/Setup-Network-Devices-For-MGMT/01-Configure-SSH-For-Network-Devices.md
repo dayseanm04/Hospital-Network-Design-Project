@@ -16,10 +16,25 @@ In this task, I will configure **SSH** on all network devices to allow **secure 
 
 ---
 
-## 🛠️ Step 1 ` Enter Global Configuration Mode
+## 🛠️ Step 1 Enter Global Configuration Mode
 
 ```bash
 enable
 configure terminal
 ```
 
+## 🌍 Step 2 - Configure the Domain Name
+
+```bash
+ip domain-name hospital.daysean.com
+```
+
+## 🔑 Step 3 - Generate RSA Keys
+
+```bash
+crypto key generate rsa
+```
+
+When prompted, enter:
+
+**2048**
