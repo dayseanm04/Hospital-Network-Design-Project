@@ -21,3 +21,20 @@ The project is organized in **stages**, starting from design and planning, then 
 
 ---
 
+
+## 📂 Project Structure
+
+| Folder / File | Purpose |
+|--------------|---------|
+| 📁 **[`design/`](./design)** | Network planning, requirements, VLAN design, and IP addressing |
+| 📁 **[`docs/`](./docs)** | Reference documents used throughout the project |
+| 📁 **[`setup/`](./setup)** | Initial device and network setup tasks |
+| 📁 **[`implementation-tasks/`](./implementation-tasks)** | Step-by-step configuration tasks |
+| 📁 **[`Network-Security/`](./Network-Security)** | Hospital Network security tasks |
+| 📁 **[`testing/`](./testing)** | Connectivity, security, and validation tests |
+| 📁 **[`troubleshooting/`](./troubleshooting)** | Issue identification and resolution documentation |
+| 📁 **[`change-log/`](./change-log)** | Tracks configuration changes and updates |
+| 📁 **[`packet-tracer-files/`](./packet-tracer-files)** | Cisco Packet Tracer project files |
+| 📁 **[`skip/`](./skip)** | Skipped steps |
+| 📄 **[`Project-Overview.md`](./Project-Overview.md)** | High-level explanation of the project |
+
