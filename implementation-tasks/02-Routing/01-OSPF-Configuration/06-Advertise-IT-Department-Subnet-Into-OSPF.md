@@ -36,13 +36,24 @@ router ospf 1
 network 10.50.50.0 0.0.0.63 area 1
 ```
 
-## Verify on Service-ASW ✅
+## 🔍 Step 2 - Verify on Service-ASW ✅
 
 ```bash
 show ip protocols
 ```
 
 <img width="745" height="264" alt="verify-ospf-IT-dpt-subnet" src="https://github.com/user-attachments/assets/26c9fc4b-755e-4354-aea0-1755d34187ae" />
+
+## 🔍 Step 3 - Verify on DSW1 and DSW2 ✅
+
+```bash
+show ip route | include 10.50.50.0
+```
+
+<img width="782" height="84" alt="verify-ospf-IT-dpt-subnet-DSW1" src="https://github.com/user-attachments/assets/0a140edc-82e4-4e57-9fd7-47cb91aef8e5" />
+
+<img width="733" height="63" alt="verify-ospf-IT-dpt-subnet-DSW2" src="https://github.com/user-attachments/assets/f0b85cc6-6a6d-4ce7-8e38-df2d33535abc" />
+
 
 
 
