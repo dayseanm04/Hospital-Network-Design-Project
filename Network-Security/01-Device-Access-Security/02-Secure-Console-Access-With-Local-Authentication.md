@@ -24,7 +24,7 @@ enable
 configure terminal
 ```
 
-## 🖥️ Step 2 — Secure the Console Line
+## 🖥️ Step 2 - Secure the Console Line
 
 ### 1️⃣ Enter console line configuration
 
