@@ -1,6 +1,6 @@
 # 🔐 Configure Username and Enable Secret for Network Devices
 
-In this task, I configure a **local username** and an **enable secret** on all network devices. This allows secure access to **privileged EXEC mode** and supports **remote management**. :contentReference[oaicite:0]{index=0}
+In this task, I configure a **local username** and an **enable secret** on all network devices. This allows secure access to **privileged EXEC mode** and supports **remote management**.
 
 ---
 
@@ -23,6 +23,18 @@ In this task, I configure a **local username** and an **enable secret** on all n
 ```bash
 enable
 configure terminal
+```
+
+### 🔑 Step 2 - Configure the Enable Secret
+
+```bash
+enable secret ccna
+```
+
+### 👤 Step 3 - Create a Local Username
+
+```bash
+username bob secret ccna
 ```
 
 
