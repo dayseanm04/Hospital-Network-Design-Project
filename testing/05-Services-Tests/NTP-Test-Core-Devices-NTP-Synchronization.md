@@ -34,3 +34,8 @@ Perform the following steps on **ALL core devices**:
 ```bash
 enable
 ```
+
+### 🔶 HS-CORE-R1
+
+<img width="802" height="387" alt="HS-CORE-R1" src="https://github.com/user-attachments/assets/f1563865-9875-43b3-8d0f-8063ec29cc96" />
+
