@@ -19,7 +19,7 @@ The goal is to protect the **management plane** by controlling how administrator
 | File | Description |
 |-----|------------|
 | `01-configure-local-user-and-enable-secret.md` | Creates local user accounts and secures privileged mode |
-| **[01-configure-local-user-and-enable-secret.md](/Network-Security/01-Device-Access-Security/01-configure-local-user-and-enable-secret.md)** | Creates local user accounts and secures privileged mode |
+| **[01-configure-local-user-and-enable-secret.md]/(Network-Security/01-Device-Access-Security/01-Configure-Local-Authentication-For-Network-Devices.md)** | Creates local user accounts and secures privileged mode |
 | `02-secure-console-access-with-local-authentication.md` | Secures console access using local authentication and timeouts |
 
 ---
