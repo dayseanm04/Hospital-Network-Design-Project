@@ -61,6 +61,10 @@ exit
 do write
 ```
 
+## ✅ Verification
 
+Close the packet tracer file and open it again.
 
+<img width="759" height="102" alt="sync-log" src="https://github.com/user-attachments/assets/95f48e55-e75a-436c-8368-1b0cbe5435ff" />
 
+See Everytime a log is displayed the command I was typing is displayed on a new line!
