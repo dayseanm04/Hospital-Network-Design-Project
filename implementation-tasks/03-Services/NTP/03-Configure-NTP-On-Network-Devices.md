@@ -28,3 +28,22 @@ This task configures **NTP with authentication** on **network devices** so they 
 | Authentication Method | MD5 |
 | Password | ccna |
 
+**⚠️ Important: These values must match the configuration on the NTP server**.
+
+---
+
+### 1️⃣ Enter global configuration mode
+```bash
+configure terminal
+```
+
+### 2️⃣ Enable NTP authentication
+
+```bash
+ntp authenticate
+```
+
+
+
+
+
