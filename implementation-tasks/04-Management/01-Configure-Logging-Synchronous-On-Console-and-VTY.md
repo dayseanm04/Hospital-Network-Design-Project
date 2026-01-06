@@ -55,5 +55,12 @@ logging synchronous
 exit
 ```
 
+### 💾 Save Configuration
+
+```bash
+do write
+```
+
+
 
 
