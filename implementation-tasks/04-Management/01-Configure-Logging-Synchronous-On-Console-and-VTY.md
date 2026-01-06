@@ -39,4 +39,21 @@ enable
 configure terminal
 ```
 
+### 2️⃣ Configure logging synchronous on the console line
+
+```bash
+line console 0
+logging synchronous
+exit
+```
+
+### 3️⃣ Configure logging synchronous on VTY lines
+
+```bash
+line vty 0 15
+logging synchronous
+exit
+```
+
+
 
