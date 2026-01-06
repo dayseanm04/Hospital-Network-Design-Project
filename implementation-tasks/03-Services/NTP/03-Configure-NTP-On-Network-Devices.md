@@ -64,5 +64,16 @@ ntp server 10.10.10.3 key 10
 ntp update-calendar
 ```
 
+### 💾 Save Configuration
+
+```bash
+do write memory
+```
+
+### 📝 Notes
+- Time synchronization may take a short period after configuration
+- Press the fast foword button a couple of time
+
+
 
 
