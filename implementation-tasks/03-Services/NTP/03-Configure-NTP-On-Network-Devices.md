@@ -52,8 +52,17 @@ ntp authentication-key 10 md5 ccna
 ntp trusted-key 10
 ```
 
+### 4️⃣ Configure the NTP server
 
+```bash
+ntp server 10.10.10.3 key 10
+```
 
+### 5️⃣ update the calendar
+
+```bash
+ntp update-calendar
+```
 
 
 
