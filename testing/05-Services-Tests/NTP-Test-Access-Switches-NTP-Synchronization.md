@@ -35,3 +35,37 @@ Perform the following steps on **ALL access switches**:
 enable
 ```
 
+### ♦️ F1-ASW1
+
+<img width="802" height="386" alt="F1-ASW1" src="https://github.com/user-attachments/assets/299ce9d8-96cc-4ea1-bf82-7c06b341a851" />
+
+### ♦️ F1-ASW2
+
+<img width="797" height="387" alt="F1-ASW2" src="https://github.com/user-attachments/assets/da033dec-9325-442a-b420-d874a56d89e1" />
+
+### ♦️ F2-ASW1
+
+<img width="801" height="391" alt="F2-ASW1" src="https://github.com/user-attachments/assets/d2b358ae-dd96-4d86-8aed-88781e944553" />
+
+### ♦️ F2-ASW2
+
+<img width="800" height="387" alt="F2-ASW2" src="https://github.com/user-attachments/assets/c407ef4f-b48e-490a-b01d-6d434548373e" />
+
+### ♦️ F3-ASW1
+
+<img width="794" height="389" alt="F3-ASW1" src="https://github.com/user-attachments/assets/2cc2fd67-7cd0-4733-a276-c3fc41227b63" />
+
+### ♦️ F3-ASW2
+
+<img width="791" height="390" alt="F3-ASW2" src="https://github.com/user-attachments/assets/82aa1380-117f-4dc7-9f59-828827068668" />
+
+
+
+
+
+
+
+
+
+
+
