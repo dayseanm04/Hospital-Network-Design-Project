@@ -74,6 +74,7 @@ do write memory
 - Time synchronization may take a short period after configuration
 - Press the fast foword button a couple of time
 
+👉 **[Click here to view NTP Time Synchronization Tests](/testing/05-Services-Tests/NTP/)**
 
 
 
