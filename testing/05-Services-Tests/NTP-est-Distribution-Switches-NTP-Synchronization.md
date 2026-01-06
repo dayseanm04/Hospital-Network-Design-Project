@@ -34,3 +34,11 @@ Perform the following steps on **ALL distribution switches**:
 ```bash
 enable
 ```
+
+### 🔶 DSW1
+
+<img width="799" height="391" alt="DSW1" src="https://github.com/user-attachments/assets/c7aab103-15fb-4054-98c5-263bd01b8d41" />
+
+### 🔶 DSW2
+
+<img width="788" height="371" alt="DSW2" src="https://github.com/user-attachments/assets/b05418de-62ea-4323-939b-85ccacd461ba" />
