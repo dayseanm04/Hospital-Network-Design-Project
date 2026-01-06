@@ -33,7 +33,9 @@ This task configures **NTP with authentication** on **network devices** so they 
 ---
 
 ### 1️⃣ Enter global configuration mode
+
 ```bash
+enable
 configure terminal
 ```
 
@@ -42,6 +44,14 @@ configure terminal
 ```bash
 ntp authenticate
 ```
+
+### 3️⃣ Configure and trust the authentication key
+
+```bash
+ntp authentication-key 10 md5 ccna
+ntp trusted-key 10
+```
+
 
 
 
