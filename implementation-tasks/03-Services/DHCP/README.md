@@ -34,3 +34,5 @@ The DHCP service ensures:
 
 - DHCP testing and verification are documented separately in the **Services-Tests** folder
 - Additional DHCP enhancements may be added in later project stages
+
+👉 **[Click here to view DHCP Testsing Folder](/testing/05-Services-Tests/DHCP/)**
