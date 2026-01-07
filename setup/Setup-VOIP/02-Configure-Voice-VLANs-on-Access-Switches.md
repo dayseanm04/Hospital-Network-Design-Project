@@ -59,6 +59,16 @@ vlan 360
 name F3-Voice
 ```
 
+### 🏢 IT Deparment – Voice VLAN
+
+#### ♦️ On Service-ASW
+
+```bash
+vlan 60
+name IT-DPT-Voice
+```
+
+
 ## 🔹 Part B – Add Interfaces to the Voice VLAN
 
 I this I will assigns **access switch interfaces** to the **Voice VLAN** so IP phones can correctly tag and send voice traffic.
@@ -92,6 +102,17 @@ switchport voice vlan 360
 ```
 
 **Note:** G1/0/1-20 are all conneced to end devices on each floor!
+
+### 🏢 IT Deparment – Voice VLAN
+
+#### ♦️ On Service-ASW
+
+```bash
+g1/0/9 - 16
+```
+
+**Note:** G1/0/09-16 are all conneced to IT-DPT end devices on each Servcice-ASW!
+
 
 ## ✅ Verification
 
