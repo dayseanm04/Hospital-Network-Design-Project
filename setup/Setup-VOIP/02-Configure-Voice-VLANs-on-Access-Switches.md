@@ -82,10 +82,16 @@ interface range GigabitEthernet1/0/1 - 20
 switchport voice vlan 260
 ```
 
+### 🏢 Floor 3 – Voice VLAN
 
+#### ♦️ On F3-ASW1 and F3-ASW2
 
-**Note:** G1/0/1-20 are all conneced to end devices in Floor1!
+```bash
+interface range GigabitEthernet1/0/1 - 20
+switchport voice vlan 360
+```
 
+**Note:** G1/0/1-20 are all conneced to end devices on each floor!
 
 ## ✅ Verification
 
