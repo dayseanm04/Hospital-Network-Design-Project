@@ -2,11 +2,12 @@
 
 ## 📌 Overview
 
-This task I will configures **Voice VLANs on the Access Switches** so IP phones **voice traffic** can be from **data traffic**.
+This task I will configure **Voice VLANs on the Access Switches** so IP phones **voice traffic** can be from **data traffic**. I will also add interfaces to te Voice VLANs.
 
 ## 🎯 Objective
 - Create Voice VLANs on Access Switches
 - Assign clear, consistent VLAN names
+- Assign interfaces to the Voice VLANs
 - Prepare switch ports for IP phone connectivity
 
 ## Reference Network Diagram
@@ -57,6 +58,24 @@ name F2-Voice
 vlan 360
 name F3-Voice
 ```
+
+## 🔹 Part B – Add Interfaces to the Voice VLAN
+
+I this I will assigns **access switch interfaces** to the **Voice VLAN** so IP phones can correctly tag and send voice traffic.
+
+### ⚙️ Configuration Example
+
+### 🏢 Floor 1 – Voice VLAN
+
+#### ♦️ On F1-ASW1 and F1-ASW2
+
+```bash
+interface range GigabitEthernet1/0/1 - 20
+switchport voice vlan 160
+```
+
+**Note:** G1/0/1-20 are all conneced to end devices in Floor1!
+
 
 ## ✅ Verification
 
