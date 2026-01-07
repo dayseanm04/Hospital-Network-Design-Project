@@ -38,5 +38,14 @@ To keep devices easy to identify, I used a **consistent naming convention**.
 
 ### 📛 Naming Format 
 
-`<Department>-V<Number>`
+**`<Department>-V<Number>`**
+
+### 🧪 Example
+- `ED-1` → Emergency Department PC 1  
+- `ED-V1` → Emergency Department **VoIP Phone 1**
+
+This standard helps with:
+- Troubleshooting
+- Inventory tracking
+- Network documentation
 
