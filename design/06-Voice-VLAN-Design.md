@@ -14,3 +14,7 @@ Separating voice traffic from data traffic helps improve:
 ---
 
 ## Rerence Network Diagram
+
+<img width="514" height="438" alt="reference-topology" src="https://github.com/user-attachments/assets/8297dd8b-a6ba-438a-8e18-a491de4070a0" />
+
+
