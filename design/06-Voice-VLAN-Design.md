@@ -12,3 +12,5 @@ Separating voice traffic from data traffic helps improve:
 - 🛠️ Network management
 
 ---
+
+## Rerence Network Diagram
