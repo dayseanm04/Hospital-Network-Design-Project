@@ -108,8 +108,8 @@ switchport voice vlan 300,310,360
 #### ♦️ On Service-ASW
 
 ```bash
-switchport voice vlan 60
 g1/0/9 - 16
+switchport voice vlan 60
 ```
 
 **Note:** G1/0/09-16 are all conneced to IT-DPT end devices on each Servcice-ASW!
