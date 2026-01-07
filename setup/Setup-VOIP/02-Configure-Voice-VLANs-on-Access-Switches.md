@@ -117,5 +117,26 @@ g1/0/9 - 16
 
 ## ✅ Verification
 
-### On F1-ASW1 show vlan brief
+### ♦️ On F1-ASW1 show vlan brief
+
+<img width="932" height="268" alt="F1-ASW1" src="https://github.com/user-attachments/assets/97dc05f0-fc46-4cc1-9f0b-b709b5ec302b" />
+
+### ♦️ On F1-ASW2 show vlan brief
+
+<img width="983" height="283" alt="F1-ASW2" src="https://github.com/user-attachments/assets/4a54b7c8-8fb8-4ded-9fe3-a1075af4a33e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
