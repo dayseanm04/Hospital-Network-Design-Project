@@ -63,7 +63,6 @@ name F3-Voice
 
 I this I will assigns **access switch interfaces** to the **Voice VLAN** so IP phones can correctly tag and send voice traffic.
 
-### ⚙️ Configuration Example
 
 ### 🏢 Floor 1 – Voice VLAN
 
@@ -73,6 +72,17 @@ I this I will assigns **access switch interfaces** to the **Voice VLAN** so IP p
 interface range GigabitEthernet1/0/1 - 20
 switchport voice vlan 160
 ```
+
+### 🏢 Floor 2 – Voice VLAN
+
+#### ♦️ On F2-ASW1 and F2-ASW2
+
+```bash
+interface range GigabitEthernet1/0/1 - 20
+switchport voice vlan 260
+```
+
+
 
 **Note:** G1/0/1-20 are all conneced to end devices in Floor1!
 
