@@ -21,4 +21,22 @@ Each VoIP phone acts as a **pass-through device** between the PC and the switch.
 - PC → VoIP Phone (PC Port)
 - VoIP Phone (Switch Port) → Access Switch
 
-  
+### 🧠 How It Works
+
+- The **VoIP phone** connects directly to the **Access Switch**
+- The **PC** connects to the **PC port** on the VoIP phone
+- The phone tags voice traffic using the **Voice VLAN**
+- The PC continues to use the **Data VLAN**
+
+This setup allows **one switch port** to support **both voice and data traffic**.
+
+---
+
+## 🏷️ VoIP Device Naming Standard
+
+To keep devices easy to identify, I used a **consistent naming convention**.
+
+### 📛 Naming Format 
+
+`<Department>-V<Number>`
+
