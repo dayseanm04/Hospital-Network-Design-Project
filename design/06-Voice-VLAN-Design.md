@@ -40,3 +40,23 @@ Separating voice traffic from data traffic helps improve:
 
 ---
 
+## 🌐 IP Addressing Notes
+
+- The **first usable IP address** in each subnet is used as the **default gateway**
+
+---
+
+## 🔊 Why Separate Voice VLANs?
+
+Using dedicated Voice VLANs allows the network to:
+- Prioritize voice traffic (QoS)
+- Reduce broadcast traffic
+- Improve call reliability
+- Makes troubleshooting easier
+
+---
+
+## 📝 Summary
+- Each floor and department has a **dedicated Voice VLAN**
+- Voice VLANs use **private IP addressing**
+
