@@ -49,3 +49,5 @@ This standard helps with:
 - Inventory tracking
 - Network documentation
 
+### ✅ Click here for the VOIP VLAN Design [Click here for the VOIP VLAN Design](/design/06-Voice-VLAN-Design.md)
+
