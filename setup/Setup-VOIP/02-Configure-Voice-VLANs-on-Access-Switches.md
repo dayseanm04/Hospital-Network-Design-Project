@@ -33,7 +33,7 @@ This task I will configures **Voice VLANs on the Access Switches** so IP phones 
 
 ### 🏢 Floor 1 – Voice VLAN
 
-#### ♦️ F1-ASW1 and F1-ASW2
+#### ♦️ On F1-ASW1 and F1-ASW2
 
 ```bash
 vlan 160
@@ -42,7 +42,7 @@ name F1-Voice
 
 ### 🏢 Floor 2 – Voice VLAN
 
-#### ♦️ F2-ASW1 and F2-ASW2
+#### ♦️ On F2-ASW1 and F2-ASW2
 
 ```bash
 vlan 260
@@ -51,7 +51,7 @@ name F2-Voice
 
 ### 🏢 Floor 3 – Voice VLAN
 
-#### ♦️ F3-ASW1 and F3-ASW2
+#### ♦️ On F3-ASW1 and F3-ASW2
 
 ```bash
 vlan 360
@@ -60,5 +60,5 @@ name F3-Voice
 
 ## ✅ Verification
 
-
+### On F1-ASW1 show vlan brief
 
