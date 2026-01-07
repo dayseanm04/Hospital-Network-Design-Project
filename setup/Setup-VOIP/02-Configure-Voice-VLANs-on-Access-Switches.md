@@ -108,6 +108,7 @@ switchport voice vlan 360
 #### ♦️ On Service-ASW
 
 ```bash
+switchport voice vlan 60
 g1/0/9 - 16
 ```
 
