@@ -80,7 +80,7 @@ I this I will assigns **access switch interfaces** to the **Voice VLAN** so IP p
 
 ```bash
 interface range GigabitEthernet1/0/1 - 20
-switchport voice vlan 160
+switchport voice vlan 101,160
 ```
 
 ### 🏢 Floor 2 – Voice VLAN
@@ -89,7 +89,7 @@ switchport voice vlan 160
 
 ```bash
 interface range GigabitEthernet1/0/1 - 20
-switchport voice vlan 260
+switchport voice vlan 200,210,260
 ```
 
 ### 🏢 Floor 3 – Voice VLAN
@@ -98,7 +98,7 @@ switchport voice vlan 260
 
 ```bash
 interface range GigabitEthernet1/0/1 - 20
-switchport voice vlan 360
+switchport voice vlan 300,310,360
 ```
 
 **Note:** G1/0/1-20 are all conneced to end devices on each floor!
