@@ -53,6 +53,8 @@ no shutdown
 
 <img width="859" height="138" alt="VOIP-Router-ip-int" src="https://github.com/user-attachments/assets/b0ff39c1-06c6-4906-8933-27cb42dbb4af" />
 
+#### ♦️ On DSW11 show ip interface brief
 
+<img width="763" height="132" alt="DSW1-ip-int" src="https://github.com/user-attachments/assets/8bae7a6f-ffc4-4b9e-8110-cc62809a6f26" />
 
 
