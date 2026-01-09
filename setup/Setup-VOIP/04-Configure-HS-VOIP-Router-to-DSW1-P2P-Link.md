@@ -47,4 +47,10 @@ no shutdown
 
 **💡 no switchport converts the interface into a Layer 3 routed port.**
 
+## ✅ Verification
+
+
+
+
+
 
