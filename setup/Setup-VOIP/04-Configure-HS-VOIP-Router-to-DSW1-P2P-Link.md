@@ -1,4 +1,4 @@
-# 🔗 Configure-HS-VOIP-R1-to-DSW1-P2P-Link
+# 🔗 Configure HS VOIP Router to DSW1 P2P Link
 
 ## 📌 Overview
 
@@ -49,7 +49,9 @@ no shutdown
 
 ## ✅ Verification
 
+#### ♦️ On VOIP-R1 show ip interface brief
 
+<img width="859" height="138" alt="VOIP-Router-ip-int" src="https://github.com/user-attachments/assets/b0ff39c1-06c6-4906-8933-27cb42dbb4af" />
 
 
 
