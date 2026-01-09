@@ -45,3 +45,6 @@ ip address 10.200.0.2 255.255.255.252
 no shutdown
 ```
 
+**💡 no switchport converts the interface into a Layer 3 routed port.**
+
+
