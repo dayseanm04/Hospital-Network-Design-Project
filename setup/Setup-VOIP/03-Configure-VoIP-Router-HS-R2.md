@@ -48,7 +48,7 @@ configure terminal
 ### 2️⃣ Set the Hostname
 
 ```bash
-hostname HS-R2
+hostname VOIP-Router
 ```
 
 ### 3️⃣ Configure the Uplink Interface to DSW1
