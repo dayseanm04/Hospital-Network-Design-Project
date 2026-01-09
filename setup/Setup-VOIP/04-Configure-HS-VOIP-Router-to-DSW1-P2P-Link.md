@@ -26,3 +26,13 @@ This link provides **connectivity** between the voice gateway and the distributi
 ---
 
 
+## ⚙️ Configuration Steps
+
+### 1️⃣ Configure HS-VOIP-R1 G0/0/0 Interface
+
+```bash
+interface g0/0/0
+ip address 10.200.0.1 255.255.255.252
+no shutdown
+```
+
