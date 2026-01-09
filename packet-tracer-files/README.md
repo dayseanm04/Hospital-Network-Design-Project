@@ -9,12 +9,12 @@ This folder contains **Cisco Packet Tracer (.pkt) files** that represent differe
 
 ### 📁 `Hospital-Network-Stage1-Setup.pkt`
 
-This file represents the **initial network build** and includes:
+This file represents the **initial network setup** which includes:
 
 - **Layer 2 & Layer 3 EtherChannels** for link aggregation  
 - **Redundancy** between core, distribution, and access layers  
 - **Basic OSPF routing** for internal network connectivity  
 - **Basic device security**, such as secure access and management setup  
-- VLAN segmentation and IP addressing completed in earlier setup tasks  
+- **VLAN segmentation** and **IP addressing** completed in earlier setup tasks  
 
 This stage focuses on creating a **stable, redundant, and routable foundation** for the hospital network.
