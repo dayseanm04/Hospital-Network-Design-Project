@@ -35,3 +35,25 @@ Although the hospital network is designed for many VoIP phones, only a limited n
 | P2P Subnet | `10.200.0.0/30` |
 
 ---
+
+## ⚙️ Basic Router Configuration
+
+### 1️⃣ Enter Global Configuration Mode
+
+```bash
+enable
+configure terminal
+```
+
+### 2️⃣ Set the Hostname
+
+```bash
+hostname HS-R2
+```
+
+### 3️⃣ Configure the Uplink Interface to DSW1
+
+```bash
+interface g0/0/0
+description To-DSW1-G1/1/4
+```
