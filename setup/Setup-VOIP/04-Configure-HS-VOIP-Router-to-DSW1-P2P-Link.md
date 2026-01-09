@@ -36,3 +36,12 @@ ip address 10.200.0.1 255.255.255.252
 no shutdown
 ```
 
+### 2️⃣ Configure DSW1 Routed Interface
+
+```bash
+interface g1/1/4
+no switchport
+ip address 10.200.0.2 255.255.255.252
+no shutdown
+```
+
