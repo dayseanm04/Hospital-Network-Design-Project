@@ -15,3 +15,23 @@ Although the hospital network is designed for many VoIP phones, only a limited n
 
 ---
 
+## 🧠 Key Information
+- **Router Model:** Cisco 2811  
+- **Router Hostname:** HS-R2  
+- **Purpose:** Voice gateway for IP phones  
+- **Max IP Phones Supported:** 42 (Packet Tracer limit)  
+- **Connected To:** Distribution Switch (DSW1)
+
+---
+
+## 🔗 Network Connectivity
+| Item | Details |
+|----|--------|
+| Router Interface | `G0/0/0` |
+| Connected Switch | `DSW1` |
+| Switch Interface | `G1/1/4` |
+| Link Type | Fiber |
+| Network Type | Point-to-Point |
+| P2P Subnet | `10.200.0.0/30` |
+
+---
