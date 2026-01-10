@@ -1,4 +1,4 @@
-# 🔊 Configure-Voice-VLAN-SVIs-on-Access-Switches
+# 🔊 Configure Voice VLAN SVIs on Access-Switches
 
 ## 📌 Overview
 
@@ -74,7 +74,9 @@ no shutdown
 <img width="828" height="139" alt="F1-ASW1-voice-vlan-verify" src="https://github.com/user-attachments/assets/e5c08abc-7b2b-4d42-93ea-3e7d35ebefcc" />
 
 
+#### ♦️ On F2-ASW1 show ip interface brief | include Vlan
 
+<img width="810" height="138" alt="F2-ASW1-voice-vlan-verify" src="https://github.com/user-attachments/assets/e8f6a9f2-1941-4064-aec4-401ced867ddb" />
 
 
 
