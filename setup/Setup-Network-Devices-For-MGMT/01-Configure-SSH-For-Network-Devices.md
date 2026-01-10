@@ -41,5 +41,5 @@ When prompted, enter:
 
 #### 🔶 Note 🔶: I will use the loopback IP address on each network device for management purposes. This provides a stable and consistent IP for remote access and monitoring, even if physical interfaces go down.
 
-### Click ➡️ [HERE](/Network-Security/02-Access-Control-Lists/01-Restrict-SSH-Access-With-ACL-For-IT-Department.md) to continue!
+### Next Click ➡️ [HERE](/Network-Security/02-Access-Control-Lists/01-Restrict-SSH-Access-With-ACL-For-IT-Department.md) to Configure ACL to Restrict SSH accesss!
 
