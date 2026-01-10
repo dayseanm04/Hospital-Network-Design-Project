@@ -64,14 +64,12 @@ network 10.200.0.0 0.0.0.3 area 1
 
 ## ✅ Verification
 
+#### 🟢 On VOIP-Router show ip ospf neighbor
 
+<img width="882" height="125" alt="VOIP-Router-OSPF-neighbor" src="https://github.com/user-attachments/assets/346831ea-27a4-48ad-9df7-6861986a903f" />
 
+#### 🟢 On DSWS1 show ip ospf neighbor
 
+<img width="892" height="137" alt="DSW1-OSPF-neighbor" src="https://github.com/user-attachments/assets/baf5dc66-d5a8-48f4-b91f-b700f6a1e0bd" />
 
-
-
-
-
-
-
-
+VOIP-Router and DSW1 are now OSPF neighbors
