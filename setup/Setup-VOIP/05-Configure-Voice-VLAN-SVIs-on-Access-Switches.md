@@ -67,3 +67,24 @@ ip address 172.16.60.1 255.255.255.224
 no shutdown
 ```
 
+## ✅ Verification
+
+#### ♦️ On F1-ASW1 show ip interface brief | include Vlan
+
+<img width="828" height="139" alt="F1-ASW1-voice-vlan-verify" src="https://github.com/user-attachments/assets/e5c08abc-7b2b-4d42-93ea-3e7d35ebefcc" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
