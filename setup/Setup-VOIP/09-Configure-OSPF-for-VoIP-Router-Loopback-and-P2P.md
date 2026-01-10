@@ -52,7 +52,17 @@ router ospf 1
 network 10.200.0.0 0.0.0.3 area 1
 ```
 
+## 📋 OSPF Networks Summary
 
+| Device      | Interface / Network      | OSPF Area |
+| ----------- | ------------------------ | --------- |
+| VoIP Router | Loopback0 (10.0.0.13/32) | Area 1    |
+| VoIP Router | P2P Link (10.200.0.0/30) | Area 1    |
+| DSW1        | P2P Link (10.200.0.0/30) | Area 1    |
+
+---
+
+## ✅ Verification
 
 
 
