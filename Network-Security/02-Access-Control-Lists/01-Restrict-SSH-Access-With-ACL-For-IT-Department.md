@@ -39,7 +39,7 @@ ip access-list 1 permit 10.50.50.3
 ## 🖥️ Step 2 - Configure VTY Lines
 
 ```bash
-line vty 0 4
+line vty 0 15
 session-limit 2
 login local
 transport input ssh
