@@ -16,8 +16,25 @@ In all off the configurations I used **OSPF Process ID 1** and **Area 1**.
 
 ---
 
+## 🧠 OSPF Design Notes
 
+- **Loopback interface** is advertised with a /32 wildcard
+- **P2P link** uses a /30 network
+- OSPF allows:
+  - Reachability to the VoIP router
+  - End-to-end routing for Voice VLANs
+  - Integration with the rest of the hospital network
 
+---
+
+## 🔁 Enable OSPF on VoIP Router
+
+### 1️⃣ Advertise Loopback Interface
+
+```bash
+router ospf 1
+ network 10.0.0.13 0.0.0.0 area 1
+```
 
 
 
