@@ -36,11 +36,19 @@ router ospf 1
  network 10.0.0.13 0.0.0.0 area 1
 ```
 
+### 2️⃣ Advertise P2P Link to DSW1
 
+```bash
+router ospf 1
+network 10.200.0.0 0.0.0.3 area 1
+```
 
+### 🔁 Enable OSPF on DSW1 (P2P Link)
 
-
-
+```bash
+router ospf 1
+network 10.200.0.0 0.0.0.3 area 1
+```
 
 
 
