@@ -1,3 +1,20 @@
+# 📞 Configure-Cisco-Telephony-Service-on-VoIP-Router
+
+## 📌 Overview
+
+In this task I will configure **Cisco telephony-service** on the **VoIP router**. 
+Telephony-service allows the router to act as a **call control server**, enabling **IP phone registration, extension assignment, and call handling** in Packet Tracer.
+
+I used the **loopback interface** as a source IP for VoIP services.
+
+---
+
+## 🧠 Key Notes
+
+- **Router Role:** VoIP / Call Control Gateway  
+- **IP Phones Used:** Limited due to Packet Tracer constraints  
+- **Max Phones Configured:** 30  
+- **Source Address:** Loopback interface
 
 ## Reference Network Diagram
 
