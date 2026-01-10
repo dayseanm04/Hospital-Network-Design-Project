@@ -98,7 +98,7 @@ When prompted, enter:
 
 - 🌍 Defines a **domain name** (required for SSH key generation)
 - 🔐 Generates **RSA keys** for encrypted communication
-- ✅ Prepares devices for **SSH-based remote access**
+- ✅ Prepares devices for **SSH remote access**
 
 **⚠️ Note:** This step assumes local user accounts and line security are already configured.
 
