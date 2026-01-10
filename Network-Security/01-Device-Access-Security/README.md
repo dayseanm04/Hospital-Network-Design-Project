@@ -3,7 +3,6 @@
 This folder contains step by step configurations used to **secure access to network devices** in the hospital network project.  
 The goal is to protect the **management plane** by controlling how administrators access routers and switches.
 
----
 
 ## 🎯 Objectives
 
@@ -18,8 +17,8 @@ The goal is to protect the **management plane** by controlling how administrator
 
 | File | Description |
 |-----|------------|
-| [`01-configure-local-user-and-enable-secret.md`](/Network-Security/01-Device-Access-Security/01-Configure-Local-Authentication-For-Network-Devices.md) | Creates local user accounts and secures privileged mode |
-| [`02-secure-console-access-with-local-authentication.md`](/Network-Security/01-Device-Access-Security/02-Secure-Console-Access-With-Local-Authentication.md) | Secures console access using local authentication and timeouts |
+| [**`01-configure-local-user-and-enable-secret.md`**](/Network-Security/01-Device-Access-Security/01-Configure-Local-Authentication-For-Network-Devices.md) | Creates local user accounts and secures privileged mode |
+| [**`02-secure-console-access-with-local-authentication.md`**](/Network-Security/01-Device-Access-Security/02-Secure-Console-Access-With-Local-Authentication.md) | Secures console access using local authentication and timeouts |
 
 ---
 
