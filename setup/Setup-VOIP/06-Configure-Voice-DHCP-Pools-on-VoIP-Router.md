@@ -29,3 +29,35 @@ ip dhcp excluded-address 172.16.20.1
 ip dhcp excluded-address 172.16.30.1
 ip dhcp excluded-address 172.16.60.1
 ```
+
+## Configure 📦 Voice DHCP Pools
+
+### 🏢 F1 Voice VLAN
+
+```bash
+ip dhcp pool F1-Voice
+network 172.16.10.0 255.255.255.128
+default-router 172.16.10.1
+domain-name hospital.daysean.com
+option 150 ip 10.0.0.13
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
