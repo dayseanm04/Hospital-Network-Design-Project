@@ -31,9 +31,11 @@ In all off the configurations I used **OSPF Process ID 1** and **Area 1**.
 
 ### 1️⃣ Advertise Loopback Interface
 
+#### 🟢 In Global Config mode:
+
 ```bash
 router ospf 1
- network 10.0.0.13 0.0.0.0 area 1
+network 10.0.0.13 0.0.0.0 area 1
 ```
 
 ### 2️⃣ Advertise P2P Link to DSW1
