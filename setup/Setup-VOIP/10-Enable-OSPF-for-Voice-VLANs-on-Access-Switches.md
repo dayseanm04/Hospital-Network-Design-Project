@@ -39,9 +39,12 @@ router ospf 1
 network 172.16.30.0 0.0.0.127 area 1
 ```
 
+### 🏥 Service-ASW (Voice VLAN 60)
 
-
-
+```bash
+router ospf 1
+network 172.16.60.0 0.0.0.31 area 1
+```
 
 
 
