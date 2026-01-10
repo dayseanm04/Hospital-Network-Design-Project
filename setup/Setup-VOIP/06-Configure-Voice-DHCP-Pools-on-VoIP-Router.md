@@ -62,9 +62,15 @@ domain-name hospital.daysean.com
 option 150 ip 10.0.0.13
 ```
 
+### 🏥 IT-DPT Voice VLAN
 
-
-
+```bash
+ip dhcp pool IT-DPT-Voice
+network 172.16.60.0 255.255.255.224
+default-router 172.16.60.1
+domain-name hospital.daysean.com
+option 150 ip 10.0.0.13
+```
 
 
 
