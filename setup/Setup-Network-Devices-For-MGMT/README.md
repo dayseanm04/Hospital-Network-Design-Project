@@ -1,9 +1,5 @@
 # 🛠️ Setup Network Devices for Management  
 
-## Hospital Network Design
-
----
-
 ## 📌 Overview
 
 The **Setup Network Devices for Management** folder documents the **initial management-plane configuration** for all network devices in the Hospital Network Design project.
