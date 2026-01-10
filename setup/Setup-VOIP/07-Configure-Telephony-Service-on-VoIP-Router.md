@@ -45,6 +45,10 @@ auto assign 1 to 30
 create cnf-files
 ```
 
+<img width="771" height="80" alt="create-cnf-files" src="https://github.com/user-attachments/assets/1d49e75f-fe60-45b3-955e-1246aa5b5be0" />
+
+
+
 ### 🧾 Command Explanation
 
 | Command               | Purpose                                  |
