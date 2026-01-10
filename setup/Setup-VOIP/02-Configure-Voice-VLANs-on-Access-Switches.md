@@ -143,6 +143,7 @@ switchport voice vlan 60
 
 ### 🔶 On Service-ASW show vlan brief
 
+<img width="933" height="230" alt="-service-asw-show-vlan-brief" src="https://github.com/user-attachments/assets/46d0bd47-13ff-4596-a122-f491530485a2" />
 
 
 
