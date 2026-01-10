@@ -21,3 +21,15 @@ Each SVI provides the **default gateway** for IP phones in that Voice VLAN.
 
 ---
 
+## ⚙️ Configuration (SVI Template)
+
+Use this template on each F1-ASW1, F2-ASW1 and F3-ASW1, adjusting the **VLAN ID** and **IP address**:
+
+```bash
+interface vlan <VOICE-VLAN>
+ip address <GATEWAY-IP> 255.255.255.128
+no shutdown
+```
+
+---
+
