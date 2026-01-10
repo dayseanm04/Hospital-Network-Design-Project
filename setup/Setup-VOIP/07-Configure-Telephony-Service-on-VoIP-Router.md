@@ -30,3 +30,17 @@ The loopback interface provides a **reliable IP address** for the telephony serv
 interface loopback 0
 ip address 10.0.0.13 255.255.255.255
 ```
+
+## ☎️ Configure Cisco Telephony Service
+
+#### Enter global configuration mode on the VoIP router and apply the following:
+
+```bash
+telephony-service
+max-ephones 30
+max-dn 30
+ip source-address 10.0.0.13 port 2000
+auto-reg-ephone
+auto assign 1 to 30
+create cnf-files
+```
