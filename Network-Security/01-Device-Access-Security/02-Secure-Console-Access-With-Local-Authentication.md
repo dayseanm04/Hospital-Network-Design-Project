@@ -2,8 +2,6 @@
 
 In this task, I secured **console access** on the network devices by requiring **local username/password authentication**, setting an **idle timeout**, and limiting console sessions.
 
----
-
 ## ✅ What This Does
 
 - 👤 Requires a **local user account** to log in on the console (`login local`)
