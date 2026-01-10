@@ -17,3 +17,15 @@ The DHCP service assigns IP addresses to **IP phones** and provides **Option 150
 
 ---
 
+## 🚫 Exclude Gateway IP Addresses
+
+Exclude the SVI gateway addresses so they are **not assigned to phones**.
+
+### ♦️ In Global config mode on VOIP-Router:
+
+```bash
+ip dhcp excluded-address 172.16.10.1
+ip dhcp excluded-address 172.16.20.1
+ip dhcp excluded-address 172.16.30.1
+ip dhcp excluded-address 172.16.60.1
+```
