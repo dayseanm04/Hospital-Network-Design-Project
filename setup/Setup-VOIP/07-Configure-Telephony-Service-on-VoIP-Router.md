@@ -22,3 +22,11 @@ I used the **loopback interface** as a source IP for VoIP services.
 
 ---
 
+## 🔁 Configure Loopback Interface
+
+The loopback interface provides a **reliable IP address** for the telephony service.
+
+```bash
+interface loopback 0
+ip address 10.0.0.13 255.255.255.255
+```
