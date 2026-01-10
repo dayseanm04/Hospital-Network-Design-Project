@@ -78,8 +78,9 @@ no shutdown
 
 <img width="810" height="138" alt="F2-ASW1-voice-vlan-verify" src="https://github.com/user-attachments/assets/e8f6a9f2-1941-4064-aec4-401ced867ddb" />
 
+#### ♦️ On F3-ASW1 show ip interface brief | include Vlan
 
-
+<img width="835" height="135" alt="F3-ASW1-voice-vlan-verify" src="https://github.com/user-attachments/assets/15406cd2-186d-4a41-8959-feb24e5a2623" />
 
 
 
