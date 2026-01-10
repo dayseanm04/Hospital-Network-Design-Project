@@ -15,6 +15,11 @@ The DHCP service assigns IP addresses to **IP phones** and provides **Option 150
 - **Option 150:** Used by IP phones to locate the telephony-service
 - **Telephony-Service IP:** `10.0.0.13` (VOIP Router Loopback)
 
+
+## Reference Network Diagram
+
+<img width="796" height="371" alt="network-diagram" src="https://github.com/user-attachments/assets/dd71e4be-7333-47d1-8a96-ef3657dc1e92" />
+
 ---
 
 ## 🚫 Exclude Gateway IP Addresses
