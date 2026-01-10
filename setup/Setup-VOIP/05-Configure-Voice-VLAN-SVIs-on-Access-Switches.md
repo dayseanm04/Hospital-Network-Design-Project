@@ -35,3 +35,35 @@ no shutdown
 
 ---
 
+## 1️⃣ F1-ASW1 (VLAN 160)
+
+```bash
+interface vlan 160
+ip address 172.16.10.1 255.255.255.128
+no shutdown
+```
+
+## 2️⃣ F2-ASW1 (VLAN 260)
+
+```bash
+interface vlan 160
+ip address 172.16.20.1 255.255.255.128
+no shutdown
+```
+
+## 3️⃣ F3-ASW1 (VLAN 360)
+
+```bash
+interface vlan 360
+ip address 172.16.30.1 255.255.255.128
+no shutdown
+```
+
+## 4️⃣ Service-ASW (VLAN 60)
+
+```bash
+interface vlan 60
+ip address 172.16.60.1 255.255.255.224
+no shutdown
+```
+
