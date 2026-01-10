@@ -44,3 +44,14 @@ auto-reg-ephone
 auto assign 1 to 30
 create cnf-files
 ```
+
+### 🧾 Command Explanation
+
+| Command               | Purpose                                  |
+| --------------------- | ---------------------------------------- |
+| `max-ephones 30`      | Maximum number of IP phones              |
+| `max-dn 30`           | Maximum directory numbers (extensions)   |
+| `ip source-address`   | Source IP used by telephony-service      |
+| `auto-reg-ephone`     | Enables automatic IP phone registration  |
+| `auto assign 1 to 30` | Automatically assigns extensions         |
+| `create cnf-files`    | Generates configuration files for phones |
