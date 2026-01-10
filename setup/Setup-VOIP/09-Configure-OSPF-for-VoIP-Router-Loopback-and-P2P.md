@@ -1,4 +1,4 @@
-# 🧭 Enable-OSPF-on-VoIP-Router-Loopback-and-P2P-Link
+# 🧭 Enable OSPF on VoIP Router Loopback and P2P-Link
 
 ## 📌 Overview
 
