@@ -29,7 +29,7 @@ Use this template on each F1-ASW1, F2-ASW1 and F3-ASW1, adjusting the **VLAN ID*
 
 ```bash
 interface vlan <VOICE-VLAN>
-ip address <GATEWAY-IP> 255.255.255.128
+ip address <GATEWAY-IP> <SUBNET MASK>
 no shutdown
 ```
 
