@@ -64,7 +64,7 @@ show run | section line con 0
 
 <img width="409" height="116" alt="verify-console-config" src="https://github.com/user-attachments/assets/836df1e3-fdeb-4e8e-89c6-a8882782eee0" />
 
-### Next Click ➡️ [Here](/# 🌐 Set Up Network Devices for Remote Access (SSH)
+---
 
 In this task, I will configure **SSH** on all network devices to allow **secure remote management**. SSH encrypts management traffic and replaces insecure methods such as Telnet.
 
