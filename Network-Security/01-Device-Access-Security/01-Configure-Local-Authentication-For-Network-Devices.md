@@ -43,4 +43,5 @@ username daysean secret ccna
 
 <img width="293" height="129" alt="verify-local-auth" src="https://github.com/user-attachments/assets/0300f4c0-9d47-44f0-ab53-57a863f61f1e" />
 
+### Next Click ➡️ [Here](/Network-Security/01-Device-Access-Security/02-Secure-Console-Access-With-Local-Authentication.md) to continute to Secure Console Access!
 
