@@ -77,13 +77,12 @@ domain-name hospital.daysean.com
 option 150 ip 10.0.0.13
 ```
 
+## Verify
 
+### on VOIP-Router
 
+#### 🟢 show ip dhcp pool
 
+<img width="824" height="472" alt="VOIP-R-dhcp-pool" src="https://github.com/user-attachments/assets/3a2742d1-0c65-4167-a5d7-a59d1cc53893" />
 
-
-
-
-
-
-
+<img width="849" height="429" alt="VOIP-R-dhcp-pool-2" src="https://github.com/user-attachments/assets/c2790a89-b51c-46d4-a457-5fc105694ec8" />
