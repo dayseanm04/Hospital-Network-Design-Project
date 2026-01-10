@@ -82,12 +82,6 @@ no shutdown
 
 <img width="835" height="135" alt="F3-ASW1-voice-vlan-verify" src="https://github.com/user-attachments/assets/15406cd2-186d-4a41-8959-feb24e5a2623" />
 
+#### ♦️ On Service-ASW show ip interface brief | include Vlan
 
-
-
-
-
-
-
-
-
+<img width="797" height="120" alt="S-ASW-voice-vlan-verify" src="https://github.com/user-attachments/assets/6df60d77-8afe-4878-82e0-923061c20e8f" />
