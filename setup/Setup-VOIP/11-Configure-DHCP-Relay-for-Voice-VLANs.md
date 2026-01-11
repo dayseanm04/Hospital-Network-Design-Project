@@ -32,7 +32,7 @@ ip helper-address 10.0.0.13
 #### ♦️ In global config mode
 
 ```bash
-interface vlan 160
+interface vlan 260
 ip helper-address 10.0.0.13
 ```
 
