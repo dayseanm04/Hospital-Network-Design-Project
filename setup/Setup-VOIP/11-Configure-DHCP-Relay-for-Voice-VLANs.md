@@ -62,3 +62,9 @@ ip helper-address 10.0.0.13
 | F2-ASW1       |        260 | 10.0.0.13              |
 | F3-ASW1       |        360 | 10.0.0.13              |
 | Service-ASW   |         60 | 10.0.0.13              |
+
+
+### on VOIP Router show ip dhcp binding
+
+<img width="808" height="443" alt="VR-dhcp-binding" src="https://github.com/user-attachments/assets/96dab333-9fe7-4c1a-b1b3-ff488452bc80" />
+
