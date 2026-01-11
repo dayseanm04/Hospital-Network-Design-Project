@@ -54,3 +54,11 @@ interface vlan 60
 ip helper-address 10.0.0.13
 ```
 
+## 📋 DHCP Relay Summary
+
+| Access Switch | Voice VLAN | DHCP Relay Destination |
+| ------------- | ---------: | ---------------------- |
+| F1-ASW1       |        160 | 10.0.0.13              |
+| F2-ASW1       |        260 | 10.0.0.13              |
+| F3-ASW1       |        360 | 10.0.0.13              |
+| Service-ASW   |         60 | 10.0.0.13              |
