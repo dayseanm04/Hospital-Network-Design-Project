@@ -68,3 +68,5 @@ ip helper-address 10.0.0.13
 
 <img width="808" height="443" alt="VR-dhcp-binding" src="https://github.com/user-attachments/assets/96dab333-9fe7-4c1a-b1b3-ff488452bc80" />
 
+Packet Tracer Limitation: DHCP lease time confiuration isnt avaiable yet.
+
