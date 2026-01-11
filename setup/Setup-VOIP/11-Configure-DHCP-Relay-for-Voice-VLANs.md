@@ -16,3 +16,13 @@ Because the I configured **DHCP server for the IP phones**  on the **VoIP Router
 
 ---
 
+## 🔁 Configure DHCP Relay (ip helper-address)
+
+### 🏢 F1-ASW1 (Voice VLAN 160)
+
+#### ♦️ In global config mode
+
+```bash
+interface vlan 160
+ip helper-address 10.0.0.13
+```
