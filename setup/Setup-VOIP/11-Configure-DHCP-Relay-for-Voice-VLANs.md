@@ -26,3 +26,31 @@ Because the I configured **DHCP server for the IP phones**  on the **VoIP Router
 interface vlan 160
 ip helper-address 10.0.0.13
 ```
+
+### 🏢 F2-ASW1 (Voice VLAN 260)
+
+#### ♦️ In global config mode
+
+```bash
+interface vlan 160
+ip helper-address 10.0.0.13
+```
+
+### 🏢 F3-ASW1 (Voice VLAN 360)
+
+#### ♦️ In global config mode
+
+```bash
+interface vlan 360
+ip helper-address 10.0.0.13
+```
+
+### 🏢 Service-ASW (Voice VLAN 60)
+
+#### ♦️ In global config mode
+
+```bash
+interface vlan 60
+ip helper-address 10.0.0.13
+```
+
