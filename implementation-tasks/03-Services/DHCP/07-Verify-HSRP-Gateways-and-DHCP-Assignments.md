@@ -39,4 +39,26 @@ This is sufficient to confirm:
 
 Note: the first ipconfig /renew failed probabbly because packet tracer is slow, the second time it worked
 
+#### 🟢 On XR-PC1 ipconfig /renew
+
+<img width="628" height="281" alt="XR1-dhcp" src="https://github.com/user-attachments/assets/261265fd-544f-4885-aafa-25af4831b9fa" />
+
+#### 🟢 On Nrs-PC1 ipconfig /renew
+
+<img width="575" height="273" alt="NRs-PC1-dhcp" src="https://github.com/user-attachments/assets/1dbf35ac-80d5-464a-a11b-93222938012c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
