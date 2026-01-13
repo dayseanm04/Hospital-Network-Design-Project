@@ -71,7 +71,4 @@ Note: the first ipconfig /renew failed probabbly because packet tracer is slow, 
 
 <img width="655" height="278" alt="Rad-PC1" src="https://github.com/user-attachments/assets/8880d1d5-199c-4284-b9d0-f2e26fb218ac" />
 
-
-
-
-
+This validation confirms that: HSRP gateway redundancy is functioning correctly. DHCP scopes are properly aligned with HSRP VIPs.
