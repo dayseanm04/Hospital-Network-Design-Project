@@ -67,6 +67,14 @@ interface vlan <VLAN-ID>
  standby <VLAN-ID> preempt
 ```
 
+### ✅ On the switch that should be **STANDBY** for the VLAN
 
+```bash
+interface vlan <VLAN-ID>
+ standby version 2
+ standby <VLAN-ID> ip <HSRP-VIP>
+ standby <VLAN-ID> priority 70
+ standby <VLAN-ID> preempt
+```
 
 
