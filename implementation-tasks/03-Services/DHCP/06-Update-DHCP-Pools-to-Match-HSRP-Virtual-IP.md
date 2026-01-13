@@ -21,7 +21,7 @@ If DHCP is not updated, clients may:
 
 ---
 
-## 🏥 Floor 1 - DHCP Updates
+## 🏥 Floor 1 - DHCP Update
 
 | VLAN | Department | HSRP VIP (Default GW) | DHCP Start IP |
 |---:|---|---|---|
@@ -31,7 +31,7 @@ If DHCP is not updated, clients may:
 
 ---
 
-## 🏢 Floor 2 — DHCP Updates
+## 🏢 Floor 2 - DHCP Update
 
 | VLAN | Department | HSRP VIP (Default GW) | DHCP Start IP |
 |---:|---|---|---|
@@ -41,7 +41,7 @@ If DHCP is not updated, clients may:
 
 ---
 
-## 🏬 Floor 3 — DHCP Updates
+## 🏬 Floor 3 - DHCP Update
 
 | VLAN | Department | HSRP VIP (Default GW) | DHCP Start IP |
 |---:|---|---|---|
