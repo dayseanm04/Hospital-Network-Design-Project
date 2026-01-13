@@ -26,7 +26,7 @@ This approach keeps gateway addressing **clean, predictable, and easy to trouble
 ---
 
 
-## 🏥 Floor 1 — Emergency & Patient Services
+## 🏥 Floor 1 - Emergency & Patient Services
 
 | VLAN | Department | Subnet | F1-ASW1 SVI | F1-ASW2 SVI |
 |----:|------------|--------|-------------|-------------|
@@ -34,7 +34,15 @@ This approach keeps gateway addressing **clean, predictable, and easy to trouble
 | 110 | X-Ray / Imaging | 172.16.1.64/26 | 172.16.1.65 | 172.16.1.66 |
 | 120 | Nurse Station | 172.16.1.96/26 | 172.16.1.97 | 172.16.1.98 |
 
-
 ---
 
+## 🏢 Floor 2 — Administration & HR
+
+| VLAN | Department | Subnet | F2-ASW1 SVI | F2-ASW2 SVI |
+|----:|------------|--------|-------------|-------------|
+| 200 | Medical Records | 172.16.2.0/27 | 172.16.2.1 | 172.16.2.2 |
+| 210 | Finance | 172.16.2.32/27 | 172.16.2.33 | 172.16.2.34 |
+| 220 | Human Resources | 172.16.2.64/27 | 172.16.2.65 | 172.16.2.66 |
+
+---
 
