@@ -31,3 +31,12 @@ This is sufficient to confirm:
 
 ---
 
+## 🖥️ Test Method (Client Side)
+
+#### 🟢 On ED-PC1 ipconfig /renew
+
+<img width="610" height="320" alt="ED1-dhcp" src="https://github.com/user-attachments/assets/cb11fd94-7618-4374-9763-f152b2ba902e" />
+
+Note: the first ipconfig /renew failed probabbly because packet tracer is slow, the second time it worked
+
+
