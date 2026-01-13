@@ -37,4 +37,14 @@ Instead of making one access switch the Active Router for every VLAN, I will bal
 | 110 | 172.16.1.64/26 | 110 | 172.16.1.67 | 130 | 70 |
 | 120 | 172.16.1.96/26 | 120 | 172.16.1.99 | 130 | 70 |
 
+### 🏢 Floor 2 HSRP VIPs
+
+| VLAN | Subnet | HSRP Group | HSRP Virtual IP (VIP) |
+|---:|---|---:|---|
+| 200 | 172.16.2.0/27 | 200 | 172.16.2.3 |
+| 210 | 172.16.2.32/27 | 210 | 172.16.2.35 |
+| 220 | 172.16.2.64/27 | 220 | 172.16.2.67 |
+
+
+### 🏬 Floor 3 HSRP VIPs
 
