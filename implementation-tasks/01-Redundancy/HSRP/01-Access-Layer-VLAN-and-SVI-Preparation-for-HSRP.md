@@ -56,5 +56,27 @@ This approach keeps gateway addressing **clean, predictable, and easy to trouble
 
 ---
 
+## ⚙️ Configuration Template (Apply on Access Switches)
+
+Use the following template to configure **only the VLANs and SVIs that are missing** on each access switch.
+
+### 1️⃣ Create VLANs
+
+```bash
+conf t
+vlan <VLAN-ID>
+ name <VLAN-NAME>
+```
+
+### 2️⃣ Configure the SVI
+
+```bash
+interface vlan <VLAN-ID>
+ ip address <SVI-IP> <SUBNET-MASK>
+ no shutdown
+```
 
 
+
+
+ 
