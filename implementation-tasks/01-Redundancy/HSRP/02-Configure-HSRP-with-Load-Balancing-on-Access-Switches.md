@@ -31,11 +31,11 @@ Instead of making one access switch the Active Router for every VLAN, I will bal
 
 ### 🏥 Floor 1 HSRP VIPs
 
-| VLAN | Subnet | HSRP Group | HSRP Virtual IP (VIP) | Active Priority | Standby Priority |
-|---:|---|---:|---|---:|---:|
-| 101 | 172.16.1.0/26 | 101 | 172.16.1.3 | 130 | 70 |
-| 110 | 172.16.1.64/26 | 110 | 172.16.1.67 | 130 | 70 |
-| 120 | 172.16.1.96/26 | 120 | 172.16.1.99 | 130 | 70 |
+| VLAN | Subnet | HSRP Group | HSRP Virtual IP (VIP) |
+|---:|---|---:|---|
+| 101 | 172.16.1.0/26 | 101 | 172.16.1.3 |
+| 110 | 172.16.1.64/26 | 110 | 172.16.1.67 |
+| 120 | 172.16.1.96/26 | 120 | 172.16.1.99 |
 
 ### 🏢 Floor 2 HSRP VIPs
 
@@ -47,4 +47,15 @@ Instead of making one access switch the Active Router for every VLAN, I will bal
 
 
 ### 🏬 Floor 3 HSRP VIPs
+
+
+| VLAN | Subnet | HSRP Group | HSRP Virtual IP (VIP) |
+|---:|---|---:|---|
+| 300 | 172.16.3.0/27 | 300 | 172.16.3.3 |
+| 310 | 172.16.3.64/27 | 310 | 172.16.3.67 |
+| 330 | 172.16.3.128/27 | 330 | 172.16.3.131 |
+
+
+
+
 
