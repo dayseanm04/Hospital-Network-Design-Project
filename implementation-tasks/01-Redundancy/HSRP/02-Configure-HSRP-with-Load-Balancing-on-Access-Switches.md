@@ -23,3 +23,18 @@ Instead of making one access switch the Active Router for every VLAN, I will bal
 ## Reference Network Diagram
 
 <img width="824" height="486" alt="Reference" src="https://github.com/user-attachments/assets/26bfde52-214f-4332-9805-20dfa415f224" />
+
+## 🧠 HSRP IPs and Priorities Used
+
+**HSRP VIP = shared default gateway** for the VLAN  
+**Priority:** `130 = Active`, `70 = Standby` (with `preempt`)
+
+### 🏥 Floor 1 HSRP VIPs
+
+| VLAN | Subnet | HSRP Group | HSRP Virtual IP (VIP) | Active Priority | Standby Priority |
+|---:|---|---:|---|---:|---:|
+| 101 | 172.16.1.0/26 | 101 | 172.16.1.3 | 130 | 70 |
+| 110 | 172.16.1.64/26 | 110 | 172.16.1.67 | 130 | 70 |
+| 120 | 172.16.1.96/26 | 120 | 172.16.1.99 | 130 | 70 |
+
+
