@@ -1,0 +1,22 @@
+# 🌐 06 – Update DHCP Pools to Match HSRP Virtual IP
+
+After configuring **HSRP** on the access switches, I will update the **DHCP pools** so clients receive the **HSRP Virtual IP (VIP)** as their **default gateway**.  
+This ensures end devices continue to work correctly during gateway failover.
+
+
+## 🎯 Objective
+
+- ✅ Update DHCP **default gateway** to use the HSRP **VIP**
+- ✅ Adjust DHCP **starting IP address** to avoid conflicts
+
+---
+
+## 🧠 Why This Is Required
+
+With HSRP, hosts must use the **virtual IP**, not a SVI IP of the VLANs.
+
+If DHCP is not updated, clients may:
+- Point to the wrong gateway
+- Lose connectivity during failover
+
+---
