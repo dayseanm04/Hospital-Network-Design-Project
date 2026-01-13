@@ -106,6 +106,7 @@ interface vlan <VLAN-ID>
 <img width="808" height="156" alt="F3-ASW2-standby" src="https://github.com/user-attachments/assets/5b9e41c7-25da-4477-8c80-4920223bb5fb" />
 
 
+### ✅ Click ➡️ [here](/implementation-tasks/03-Services/DHCP/06-Update-DHCP-Pools-to-Match-HSRP-Virtual-IP.md) to update the DHCP pool 
 
 
 
