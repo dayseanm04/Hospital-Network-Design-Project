@@ -77,4 +77,6 @@ interface vlan <VLAN-ID>
  standby <VLAN-ID> preempt
 ```
 
+**Note 💡**: In this design, the HSRP group number = VLAN ID to keep things simple and consistent.
+
 
