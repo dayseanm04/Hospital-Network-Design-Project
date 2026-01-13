@@ -1,4 +1,4 @@
-# 🧪 07 – Validate HSRP Gateways and DHCP Assignments
+# 🧪 07 – Verify HSRP Gateways and DHCP Assignments
 
 This task verifies that **HSRP** and **DHCP** are working together correctly across the network.  
 
