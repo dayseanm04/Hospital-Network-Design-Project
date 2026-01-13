@@ -101,9 +101,8 @@ interface vlan <VLAN-ID>
 
 #### 🟢 On F3-ASW1 show ip interface brief | include Vlan
 
-<img width="839" height="120" alt="F3-ASW1" src="https://github.com/user-attachments/assets/e189c197-038e-4898-8444-d41abca9ecb7" />
-
+<img width="831" height="119" alt="F3-ASW1" src="https://github.com/user-attachments/assets/fd3ee955-0390-4a6e-b1f8-8443efd44608" />
 
 #### 🟢 On F3-ASW2 show ip interface brief | include Vlan
 
-<img width="834" height="115" alt="F3-ASW2" src="https://github.com/user-attachments/assets/78d4a8cb-59a8-4893-a4b9-b80bd9435aae" />
+<img width="788" height="119" alt="F3-ASW2" src="https://github.com/user-attachments/assets/e808135b-4eea-4dbe-9a39-6392d63b2cca" />
