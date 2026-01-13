@@ -59,10 +59,17 @@ Note: the first ipconfig /renew failed probabbly because packet tracer is slow, 
 
 <img width="655" height="273" alt="HR-PC1" src="https://github.com/user-attachments/assets/f3c45622-64eb-42b6-8be8-e3b552920607" />
 
+#### 🟢 On F3-Nrs-PC1 ipconfig /renew
 
+<img width="641" height="275" alt="F3-Nrs-PC1" src="https://github.com/user-attachments/assets/00d458d4-9609-4e6f-a120-efb907393619" />
 
+#### 🟢 On ICU-PC1 ipconfig /renew
 
+<img width="592" height="274" alt="ICU-PC1" src="https://github.com/user-attachments/assets/da1d9164-df39-4da7-845c-ef19cc822dbd" />
 
+#### 🟢 On Rad-PC1 ipconfig /renew
+
+<img width="655" height="278" alt="Rad-PC1" src="https://github.com/user-attachments/assets/8880d1d5-199c-4284-b9d0-f2e26fb218ac" />
 
 
 
