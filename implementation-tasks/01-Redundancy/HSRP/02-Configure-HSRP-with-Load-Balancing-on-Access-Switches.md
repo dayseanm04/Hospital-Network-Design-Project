@@ -93,12 +93,17 @@ interface vlan <VLAN-ID>
 
 <img width="784" height="152" alt="F2-ASW1-standby" src="https://github.com/user-attachments/assets/2b252cc6-a4ae-468b-8e52-4bd08ec6126e" />
 
+#### 🟢 On F2-ASW2 show standby brief
 
+<img width="799" height="177" alt="F2-ASW2-standby" src="https://github.com/user-attachments/assets/2fff56bd-300c-45fa-9646-a947585b7bf3" />
 
+#### 🟢 On F3-ASW1 show standby brief
 
+<img width="788" height="156" alt="F3-ASW1-standby" src="https://github.com/user-attachments/assets/2ca44ce6-1027-45bc-a754-1dd112b668ac" />
 
+#### 🟢 On F3-ASW2 show standby brief
 
-
+<img width="808" height="156" alt="F3-ASW2-standby" src="https://github.com/user-attachments/assets/5b9e41c7-25da-4477-8c80-4920223bb5fb" />
 
 
 
