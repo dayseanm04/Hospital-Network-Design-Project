@@ -19,3 +19,15 @@ Clients should receive:
 
 
 ---
+
+## 🧠 Testing Approach
+
+There are about  **20+ PCs** in the topology. Insted on testing on allf the the PC's, I will verify on 1 PC1 per vlan.
+
+This is sufficient to confirm:
+
+- DHCP scope   
+- HSRP Gateway assignment via DHCP  
+
+---
+
