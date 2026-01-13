@@ -47,11 +47,17 @@ Note: the first ipconfig /renew failed probabbly because packet tracer is slow, 
 
 <img width="575" height="273" alt="NRs-PC1-dhcp" src="https://github.com/user-attachments/assets/1dbf35ac-80d5-464a-a11b-93222938012c" />
 
+#### 🟢 On MRD-PC1 ipconfig /renew
 
+<img width="592" height="264" alt="MRD-PC1" src="https://github.com/user-attachments/assets/c927282f-930b-432f-8db3-c9fbf9a13a82" />
 
+#### 🟢 On Fin-PC1 ipconfig /renew
 
+<img width="634" height="274" alt="Fin-PC1" src="https://github.com/user-attachments/assets/5bc91661-1661-45ef-b3fe-ee5b05af3df0" />
 
+#### 🟢 On HR-PC1 ipconfig /renew
 
+<img width="655" height="273" alt="HR-PC1" src="https://github.com/user-attachments/assets/f3c45622-64eb-42b6-8be8-e3b552920607" />
 
 
 
