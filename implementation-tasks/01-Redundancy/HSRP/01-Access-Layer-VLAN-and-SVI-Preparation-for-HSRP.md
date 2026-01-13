@@ -79,6 +79,13 @@ interface vlan <VLAN-ID>
  no shutdown
 ```
 
+### 2️⃣ Configure DHCP Relay for the Required VLANs
+
+```bash
+interface vlan <VLAN-ID>
+ ip helper-address 10.10.10.2
+```
+
 ## 🔍 Verification
 
 #### 🟢 On F1-ASW1 show ip interface brief | include Vlan
