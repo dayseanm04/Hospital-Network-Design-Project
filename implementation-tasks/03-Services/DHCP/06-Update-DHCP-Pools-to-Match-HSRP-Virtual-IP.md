@@ -53,7 +53,6 @@ If DHCP is not updated, clients may:
 
 ## ✅ Verification
 
+#### DHCP-SRV pool:
 
-
-
-
+<img width="833" height="375" alt="DHCP-SRV-pool" src="https://github.com/user-attachments/assets/c230fa63-5aaa-4a3e-b100-de82139a86c7" />
