@@ -14,3 +14,13 @@ This step prepares the access layer for **HSRP** by standardizing VLAN and SVI I
 
 ---
 
+## 🧠 SVI IP Addressing Standard
+
+| Switch | SVI IP Assignment |
+|------|-------------------|
+| `F#-ASW1` | First usable IP address in the subnet |
+| `F#-ASW2` | Second usable IP address in the subnet |
+
+This approach keeps gateway addressing **clean, predictable, and easy to troubleshoot**.
+
+---
