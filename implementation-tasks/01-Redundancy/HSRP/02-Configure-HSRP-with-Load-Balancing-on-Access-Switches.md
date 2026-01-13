@@ -108,8 +108,5 @@ interface vlan <VLAN-ID>
 
 ### ✅ Click ➡️ [here](/implementation-tasks/03-Services/DHCP/06-Update-DHCP-Pools-to-Match-HSRP-Virtual-IP.md) to update the DHCP pool 
 
-
-
-
-
+### ✅ Click ➡️ [here](/implementation-tasks/03-Services/DHCP/07-Verify-HSRP-Gateways-and-DHCP-Assignments.md) to verify HSRP Default gateway and DHCP-SRV assignments 
 
