@@ -79,7 +79,31 @@ interface vlan <VLAN-ID>
  no shutdown
 ```
 
+## 🔍 Verification
+
+#### 🟢 On F1-ASW1 show ip interface brief | include Vlan
+
+<img width="853" height="117" alt="F1-ASW1" src="https://github.com/user-attachments/assets/a18662f3-2252-4707-bab5-5110736251af" />
+
+#### 🟢 On F1-ASW2 show ip interface brief | include Vlan
+
+<img width="812" height="116" alt="F1-ASW2" src="https://github.com/user-attachments/assets/5332bb7a-8199-4df5-9cdb-ce6e94dc9235" />
+
+#### 🟢 On F2-ASW1 show ip interface brief | include Vlan
+
+<img width="862" height="119" alt="F2-ASW1" src="https://github.com/user-attachments/assets/58ae3fa4-8ebb-4191-9937-b4b4d9b8c28a" />
 
 
+#### 🟢 On F2-ASW2 show ip interface brief | include Vlan
 
- 
+<img width="826" height="118" alt="F2-ASW2" src="https://github.com/user-attachments/assets/93367c34-b1ba-4ec5-9e22-7e8b003d8096" />
+
+
+#### 🟢 On F3-ASW1 show ip interface brief | include Vlan
+
+<img width="839" height="120" alt="F3-ASW1" src="https://github.com/user-attachments/assets/e189c197-038e-4898-8444-d41abca9ecb7" />
+
+
+#### 🟢 On F3-ASW2 show ip interface brief | include Vlan
+
+<img width="834" height="115" alt="F3-ASW2" src="https://github.com/user-attachments/assets/78d4a8cb-59a8-4893-a4b9-b80bd9435aae" />
