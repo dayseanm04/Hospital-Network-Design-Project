@@ -30,3 +30,30 @@ If DHCP is not updated, clients may:
 | 120 | Nurse Stations | 172.16.1.99 | 172.16.1.100 |
 
 ---
+
+## 🏢 Floor 2 — DHCP Updates
+
+| VLAN | Department | HSRP VIP (Default GW) | DHCP Start IP |
+|---:|---|---|---|
+| 200 | Medical Records | 172.16.2.3 | 172.16.2.4 |
+| 210 | Finance | 172.16.2.35 | 172.16.2.36 |
+| 220 | Human Resources | 172.16.2.67 | 172.16.2.68 |
+
+---
+
+## 🏬 Floor 3 — DHCP Updates
+
+| VLAN | Department | HSRP VIP (Default GW) | DHCP Start IP |
+|---:|---|---|---|
+| 300 | Nurse DPT (F3) | 172.16.3.3 | 172.16.3.4 |
+| 310 | ICU | 172.16.3.67 | 172.16.3.68 |
+| 330 | Radiology | 172.16.3.131 | 172.16.3.132 |
+
+---
+
+## ✅ Verification
+
+
+
+
+
