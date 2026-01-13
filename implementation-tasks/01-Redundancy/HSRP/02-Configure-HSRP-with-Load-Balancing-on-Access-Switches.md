@@ -79,4 +79,27 @@ interface vlan <VLAN-ID>
 
 **Note 💡**: In this design, the HSRP group number = VLAN ID to keep things simple and consistent.
 
+## ✅ Verification
+
+#### 🟢 On F1-ASW1 show standby brief
+
+<img width="782" height="157" alt="F1-ASW1-standby" src="https://github.com/user-attachments/assets/f13b973f-bd16-438c-b726-a5fe66d9fba1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
