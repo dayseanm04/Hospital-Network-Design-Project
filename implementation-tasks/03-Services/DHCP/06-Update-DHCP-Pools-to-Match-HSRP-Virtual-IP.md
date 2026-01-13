@@ -20,3 +20,13 @@ If DHCP is not updated, clients may:
 - Lose connectivity during failover
 
 ---
+
+## 🏥 Floor 1 - DHCP Updates
+
+| VLAN | Department | HSRP VIP (Default GW) | DHCP Start IP |
+|---:|---|---|---|
+| 101 | Emergency DPT | 172.16.1.3 | 172.16.1.4 |
+| 110 | X-Ray DPT | 172.16.1.67 | 172.16.1.68 |
+| 120 | Nurse Stations | 172.16.1.99 | 172.16.1.100 |
+
+---
