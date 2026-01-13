@@ -36,7 +36,7 @@ This approach keeps gateway addressing **clean, predictable, and easy to trouble
 
 ---
 
-## 🏢 Floor 2 — Administration & HR
+## 🏢 Floor 2 - Administration & HR
 
 | VLAN | Department | Subnet | F2-ASW1 SVI | F2-ASW2 SVI |
 |----:|------------|--------|-------------|-------------|
@@ -45,4 +45,16 @@ This approach keeps gateway addressing **clean, predictable, and easy to trouble
 | 220 | Human Resources | 172.16.2.64/27 | 172.16.2.65 | 172.16.2.66 |
 
 ---
+
+## 🏬 Floor 3 - Inpatient & ICU
+
+| VLAN | Department | Subnet | F3-ASW1 SVI | F3-ASW2 SVI |
+|----:|------------|--------|-------------|-------------|
+| 300 | Nurse Department | 172.16.3.0/27 | 172.16.3.1 | 172.16.3.2 |
+| 310 | ICU | 172.16.3.64/27 | 172.16.3.65 | 172.16.3.66 |
+| 330 | Radiology | 172.16.3.128/27 | 172.16.3.129 | 172.16.3.130 |
+
+---
+
+
 
