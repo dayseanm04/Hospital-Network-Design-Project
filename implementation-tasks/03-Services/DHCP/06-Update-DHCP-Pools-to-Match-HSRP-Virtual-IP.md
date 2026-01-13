@@ -56,3 +56,7 @@ If DHCP is not updated, clients may:
 #### DHCP-SRV pool:
 
 <img width="833" height="375" alt="DHCP-SRV-pool" src="https://github.com/user-attachments/assets/c230fa63-5aaa-4a3e-b100-de82139a86c7" />
+
+---
+
+### ✅ Click ➡️ [here](/implementation-tasks/03-Services/DHCP/07-Verify-HSRP-Gateways-and-DHCP-Assignments.md) to verify HSRP Default gateway and DHCP-SRV assignments 
