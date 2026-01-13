@@ -55,6 +55,17 @@ Instead of making one access switch the Active Router for every VLAN, I will bal
 | 310 | 172.16.3.64/27 | 310 | 172.16.3.67 |
 | 330 | 172.16.3.128/27 | 330 | 172.16.3.131 |
 
+## ⚙️ Configuration (Use This on Any Floor)
+
+### ✅ On the switch that should be **ACTIVE** for the VLAN
+
+```bash
+interface vlan <VLAN-ID>
+ standby version 2
+ standby <VLAN-ID> ip <HSRP-VIP>
+ standby <VLAN-ID> priority 130
+ standby <VLAN-ID> preempt
+```
 
 
 
