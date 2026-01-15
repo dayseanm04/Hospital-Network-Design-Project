@@ -47,6 +47,6 @@ logging host 10.10.10.4
 logging trap debugging
 ```
 
-Note: This sends every single log message it generates to the syslog server
+Note: This sends every single log message it generates to the syslog server. This also means the CPU usage goes up. As the project evoles may change this config but for now its good.
 
 ### ✅ Click ➡️ [here](/testing/05-Services-Tests/01-Test-Syslog-Log-Reception-on-SYSLOG-SRV.md) to view the `Verify Network Devices Sending Logs to SYSLOG SRV` test.
