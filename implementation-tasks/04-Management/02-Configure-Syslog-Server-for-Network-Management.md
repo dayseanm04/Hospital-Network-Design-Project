@@ -58,7 +58,8 @@ In this this task, I will deploy a **centralized Syslog server** to collect and 
 - Click on  IP Configuration
 - Assign the static IP information listed above
 
+<img width="681" height="318" alt="syslog-ip" src="https://github.com/user-attachments/assets/48a91599-224b-474e-b6aa-6c9b6ca616cb" />
 
-
+---
 
 ### ✅ Click ➡️ [here](/testing/04-Connectivity-Tests/08-Test-Syslog-Server-Connectivity.md) for the SYSLOG-SRV connectivity tests
