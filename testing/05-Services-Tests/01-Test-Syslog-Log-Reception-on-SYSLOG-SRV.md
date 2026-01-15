@@ -12,10 +12,9 @@ This task I will verify that **network devices are successfully sending syslog m
 
 ---
 
-
 ## Topology For Reference
 
-<img width="824" height="486" alt="05-Network-Diagram" src="https://github.com/user-attachments/assets/a321dd26-88a6-4020-a629-ee5cc78b7d1c" />
+<img width="806" height="440" alt="06-Network-Diagram" src="https://github.com/user-attachments/assets/cec60459-1339-4667-a280-baeb2295cb2d" />
 
 ---
 
