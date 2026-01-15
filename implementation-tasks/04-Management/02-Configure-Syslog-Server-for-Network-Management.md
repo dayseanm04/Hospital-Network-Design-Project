@@ -38,19 +38,26 @@ In this this task, I will deploy a **centralized Syslog server** to collect and 
 ## ⚙️ Configuration Steps
 
 ### 1️⃣ Add the Syslog Server
+
 - Place a server in the topology
 - Rename it to **`SYSLOG-SRV`**
 
 ### 2️⃣ Configure Services
+
 - Click on **Services**
 - **Disable all services**
 - **Enable only Syslog**
 
 ### 3️⃣ Configure Network Settings
+
 - Click on Desktop
 - Click on  IP Configuration
 - Assign the static IP information listed above
 
+### 4️⃣ Connect the Server
 
+- Connect `SYSLOG-SRV` to **Service-ASW G1/0/3**
+
+---
 
 ### ✅ Click ➡️ [here](/testing/04-Connectivity-Tests/08-Test-Syslog-Server-Connectivity.md) for the SYSLOG-SRV connectivity tests
