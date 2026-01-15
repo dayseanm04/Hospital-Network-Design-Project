@@ -56,10 +56,3 @@ write memory
 After I exited Global Config mode a log was generated with the timestamp see bellow:
 
 <img width="756" height="67" alt="log-timestamp" src="https://github.com/user-attachments/assets/94ce2400-3517-4dcc-a1d9-7fdb6e7c810d" />
-
-
-
-
-
-
-
