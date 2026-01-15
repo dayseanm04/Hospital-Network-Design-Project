@@ -41,8 +41,12 @@ configure terminal
 logging host 10.10.10.4
 ```
 
+### 3️⃣ Set Logging Severity Level
 
+```bash
+logging trap debugging
+```
 
-
+Note: This sends every single log message it generates to the syslog server
 
 ### ✅ Click ➡️ [here](/testing/05-Services-Tests/01-Test-Syslog-Log-Reception-on-SYSLOG-SRV.md) to view the `Verify Network Devices Sending Logs to SYSLOG SRV` test.
