@@ -40,3 +40,9 @@ This task I will verify that **network devices are successfully sending syslog m
 
 <img width="1192" height="473" alt="syslog-verification" src="https://github.com/user-attachments/assets/e501b9aa-d736-4deb-b072-5152d0eead60" />
 
+On the Syslog service page, confirm:
+- Device hostnames and IPs appear
+- Log messages include timestamps
+- Events such as me exiting global config mode are listed
+
+
