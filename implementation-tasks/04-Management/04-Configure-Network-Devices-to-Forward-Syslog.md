@@ -49,4 +49,16 @@ logging trap debugging
 
 Note: This sends every single log message it generates to the syslog server. This also means the CPU usage goes up. As the project evoles may change this config but for now its good.
 
+
+### 4️⃣ Enable User Information Logging
+
+```bash
+logging userinfo
+```
+
+Note: it generates a log message every time a user successfully uses the enable command to enter privileged EXEC mode or exit it.
+
+
+
+
 ### ✅ Click ➡️ [here](/testing/05-Services-Tests/01-Test-Syslog-Log-Reception-on-SYSLOG-SRV.md) to view the `Verify Network Devices Sending Logs to SYSLOG SRV` test.
