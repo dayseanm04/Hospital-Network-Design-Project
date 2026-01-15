@@ -34,7 +34,7 @@ Successful tests confirm the server is **reachable** and ready to receive syslog
 
 <img width="709" height="440" alt="syslog-ping" src="https://github.com/user-attachments/assets/3c2f6c1f-55ca-4ea1-ac00-5b57bb24427f" />
 
-✅ Success
+✅ The ping test was Successful!
 
 ## 🔁 Distribution Switch Connectivity Test
 
@@ -42,4 +42,4 @@ Successful tests confirm the server is **reachable** and ready to receive syslog
 
 <img width="708" height="129" alt="DSW1-ping-SYSLOG_SRV" src="https://github.com/user-attachments/assets/6166f49a-3130-4c41-82ef-fed7a7e95821" />
 
-
+✅ The ping test was Successful!
