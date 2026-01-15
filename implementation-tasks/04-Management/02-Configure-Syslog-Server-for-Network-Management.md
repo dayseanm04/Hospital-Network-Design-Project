@@ -27,4 +27,13 @@ In this this task, I will deploy a **centralized Syslog server** to collect and 
 
 ---
 
+## 🌐 IP Configuration (Static)
+
+| Setting | Value |
+|---|---|
+| IP Address | `10.10.10.4` |
+| Subnet Mask | `255.255.255.224` |
+| Default Gateway | `10.10.10.1` |
+
+
 ### ✅ Click ➡️ [here](/testing/04-Connectivity-Tests/08-Test-Syslog-Server-Connectivity.md) for the SYSLOG-SRV connectivity tests
