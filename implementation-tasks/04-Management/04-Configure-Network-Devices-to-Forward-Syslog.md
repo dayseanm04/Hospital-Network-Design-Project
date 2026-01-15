@@ -35,8 +35,11 @@ enable
 configure terminal
 ```
 
+### 2️⃣ Configure the Syslog SRV Destination
 
-
+```bash
+logging host 10.10.10.4
+```
 
 
 
