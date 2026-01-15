@@ -27,3 +27,16 @@ This task I will verify that **network devices are successfully sending syslog m
 
 ---
 
+
+## 🔍 Verification Steps (Server Side)
+
+1️⃣ Open **SYSLOG-SRV**  
+2️⃣ Cick on **Services → Syslog**  
+
+
+
+
+---
+
+## 📄 Log Verification
+
