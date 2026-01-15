@@ -1,3 +1,8 @@
+# ⏱️ 03 – Enable Syslog Timestamps on Network Devices
+
+In this task, I will enable **timestamps on syslog messages** across all network devices.  
+Including timestamps ensures logs clearly show **when events occur**, which is critical for **troubleshooting, monitoring, and auditing**.
+
 
 ## Reference Network
 
