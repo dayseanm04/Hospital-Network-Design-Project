@@ -4,4 +4,13 @@ In this this task, I will deploy a **centralized Syslog server** to collect and 
 
 ---
 
+## 🎯 Objectives
+
+- ✅ Deploy a dedicated **Syslog server**
+- ✅ Enable **only the Syslog service**
+- ✅ Assign a **static IP address**
+
+---
+
+
 ### ✅ Click ➡️ [here](/testing/04-Connectivity-Tests/08-Test-Syslog-Server-Connectivity.md) for the SYSLOG-SRV connectivity tests
