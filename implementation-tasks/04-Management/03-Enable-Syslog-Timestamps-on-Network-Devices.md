@@ -42,10 +42,14 @@ configure terminal
 
 ```bash
 service timestamps log datetime msec
+end
 ```
 
+### 💾 Save the Configuration
 
-
+```bash
+write memory
+```
 
 
 
