@@ -48,16 +48,17 @@ In this this task, I will deploy a **centralized Syslog server** to collect and 
 - **Disable all services**
 - **Enable only Syslog**
 
-### 3️⃣ Configure Network Settings
+### 3️⃣ Connect the Server
+
+- Connect `SYSLOG-SRV` to **Service-ASW G1/0/3**
+
+### 4️⃣ Configure Network Settings
 
 - Click on Desktop
 - Click on  IP Configuration
 - Assign the static IP information listed above
 
-### 4️⃣ Connect the Server
 
-- Connect `SYSLOG-SRV` to **Service-ASW G1/0/3**
 
----
 
 ### ✅ Click ➡️ [here](/testing/04-Connectivity-Tests/08-Test-Syslog-Server-Connectivity.md) for the SYSLOG-SRV connectivity tests
