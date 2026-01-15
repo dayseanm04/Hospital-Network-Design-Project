@@ -12,6 +12,18 @@ Including timestamps ensures logs clearly show **when events occur**, which is c
 
 ---
 
+## 🖥️ Devices
+
+This configuration is applied to **all network devices**, including:
+
+- Core Router (`HS-CORE-R1`)
+- Distribution Switches (`DSW1`, `DSW2`)
+- Access Switches (`F1-ASW1`, `F1-ASW2`)
+- Access Switches (`F2-ASW1`, `F2-ASW2`)
+- Access Switches (`F3-ASW1`, `F3-ASW2`)
+- Service Access Switch (`Service-ASW`)
+
+---
 
 ## Reference Network
 
