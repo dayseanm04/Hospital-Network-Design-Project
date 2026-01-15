@@ -35,5 +35,22 @@ In this this task, I will deploy a **centralized Syslog server** to collect and 
 | Subnet Mask | `255.255.255.224` |
 | Default Gateway | `10.10.10.1` |
 
+## ⚙️ Configuration Steps
+
+### 1️⃣ Add the Syslog Server
+- Place a server in the topology
+- Rename it to **`SYSLOG-SRV`**
+
+### 2️⃣ Configure Services
+- Click on **Services**
+- **Disable all services**
+- **Enable only Syslog**
+
+### 3️⃣ Configure Network Settings
+- Click on Desktop
+- Click on  IP Configuration
+- Assign the static IP information listed above
+
+
 
 ### ✅ Click ➡️ [here](/testing/04-Connectivity-Tests/08-Test-Syslog-Server-Connectivity.md) for the SYSLOG-SRV connectivity tests
