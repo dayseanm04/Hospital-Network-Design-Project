@@ -14,6 +14,11 @@ Centralized logging allows administrators to monitor events, troubleshoot issues
 
 ---
 
+## Topology For Reference
+
+<img width="824" height="486" alt="05-Network-Diagram" src="https://github.com/user-attachments/assets/a321dd26-88a6-4020-a629-ee5cc78b7d1c" />
+
+---
 
 ## 🖥️ Syslog Server Information
 
