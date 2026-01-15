@@ -25,5 +25,21 @@ Centralized logging allows administrators to monitor events, troubleshoot issues
 
 ---
 
+## ⚙️ Configuration Steps  
+*(Apply on **all network devices**)*
+
+### 1️⃣ Enter Global Configuration Mode
+
+```bash
+enable
+configure terminal
+```
+
+
+
+
+
+
+
 
 ### ✅ Click ➡️ [here](/testing/05-Services-Tests/01-Test-Syslog-Log-Reception-on-SYSLOG-SRV.md) to view the `Verify Network Devices Sending Logs to SYSLOG SRV` test.
