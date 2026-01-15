@@ -14,4 +14,16 @@ Centralized logging allows administrators to monitor events, troubleshoot issues
 
 ---
 
+
+## 🖥️ Syslog Server Information
+
+| Item | Value |
+|---|---|
+| Syslog Server Name | `SYSLOG-SRV` |
+| Syslog Server IP | `10.10.10.4` |
+| Syslog Port | `514` (default) |
+
+---
+
+
 ### ✅ Click ➡️ [here](/testing/05-Services-Tests/01-Test-Syslog-Log-Reception-on-SYSLOG-SRV.md) to view the `Verify Network Devices Sending Logs to SYSLOG SRV` test.
