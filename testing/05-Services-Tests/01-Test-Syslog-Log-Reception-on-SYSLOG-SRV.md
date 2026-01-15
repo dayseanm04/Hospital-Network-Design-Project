@@ -31,12 +31,12 @@ This task I will verify that **network devices are successfully sending syslog m
 ## 🔍 Verification Steps (Server Side)
 
 1️⃣ Open **SYSLOG-SRV**  
-2️⃣ Cick on **Services → Syslog**  
-
-
-
+2️⃣ Cick on **Services**
+3️⃣ Click on **Syslog** 
 
 ---
 
 ## 📄 Log Verification
+
+<img width="1192" height="473" alt="syslog-verification" src="https://github.com/user-attachments/assets/e501b9aa-d736-4deb-b072-5152d0eead60" />
 
