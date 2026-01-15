@@ -58,7 +58,15 @@ logging userinfo
 
 Note: it generates a log message every time a user successfully uses the enable command to enter privileged EXEC mode or exit it.
 
+### 5️⃣ Save the Configuration
 
+
+```bash
+end
+write memory
+```
+
+<img width="912" height="100" alt="log-after-syslog-srv-config" src="https://github.com/user-attachments/assets/2eea6a0a-1607-4652-a68e-773d304da95d" />
 
 
 ### ✅ Click ➡️ [here](/testing/05-Services-Tests/01-Test-Syslog-Log-Reception-on-SYSLOG-SRV.md) to view the `Verify Network Devices Sending Logs to SYSLOG SRV` test.
