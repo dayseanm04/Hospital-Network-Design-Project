@@ -38,5 +38,15 @@ enable
 configure terminal
 ```
 
+### 2️⃣ Enable Syslog Timestamps
+
+```bash
+service timestamps log datetime msec
+```
+
+
+
+
+
 
 
