@@ -1,7 +1,8 @@
 # 💤 Configure OSPF Passive Interfaces (OSPF Optimization)
 
 ## 📌 Overview
-This task configures **OSPF passive interfaces for VLANs on the access switches** so that **OSPF routing updates are not sent or received on user VLANs**.
+
+In this task, I will configure **OSPF passive interfaces for VLANs on the access switches** so that **OSPF routing updates are not sent or received on user VLANs**.
 
 The VLAN networks remain advertised in OSPF, but **end devices do not participate in OSPF neighbor formation**, which improves security and reduces unnecessary routing traffic.
 
