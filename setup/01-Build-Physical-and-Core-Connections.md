@@ -10,7 +10,7 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Interfaces:
   - G0/0 – G0/3 → Fiber
   - G0/4 – G0/5 → Serial
-  - G0/5 – G0/9 → Gigabit Ethernet
+  - G0/6 – G0/9 → Gigabit Ethernet
  
 ---
 
