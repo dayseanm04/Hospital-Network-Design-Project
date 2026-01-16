@@ -75,7 +75,8 @@ write memory
 
 #### 🔷 show ip protocols on F3-ASW2
 
-<img width="746" height="334" alt="F3-ASW2" src="https://github.com/user-attachments/assets/11965dfe-5afc-4751-a91d-a305bbe1b7ef" />
+<img width="805" height="431" alt="F3-ASW2" src="https://github.com/user-attachments/assets/6d735c4b-89b7-4ffd-b269-b2774a9075bd" />
+
 
 #### 🔷 show ip protocols on Service-ASW
 
