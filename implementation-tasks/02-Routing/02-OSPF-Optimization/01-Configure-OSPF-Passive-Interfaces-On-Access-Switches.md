@@ -55,7 +55,8 @@ write memory
 
 #### 🔷 show ip protocols on F1-ASW2
 
-<img width="680" height="299" alt="F1-ASW2" src="https://github.com/user-attachments/assets/b9e2f0b2-e658-4b7e-86d1-f85bace0edb4" />
+<img width="811" height="403" alt="F1-ASW2" src="https://github.com/user-attachments/assets/072186ed-4519-4714-86d5-ab8cf50bde9d" />
+
 
 #### 🔷 show ip protocols on F2-ASW1
 
