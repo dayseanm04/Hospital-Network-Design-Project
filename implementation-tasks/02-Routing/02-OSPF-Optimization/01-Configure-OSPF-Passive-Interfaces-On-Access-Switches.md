@@ -68,10 +68,10 @@ write memory
 <img width="800" height="380" alt="F2-ASW2" src="https://github.com/user-attachments/assets/36955ccf-f4f7-4f31-ab68-3a46ce93c0af" />
 
 
-
 #### 🔷 show ip protocols on F3-ASW1
 
-<img width="795" height="284" alt="F3-ASW1" src="https://github.com/user-attachments/assets/b5e62199-eeb6-4bb7-9aa0-1716ea3c0a0a" />
+<img width="802" height="383" alt="F3-ASW1" src="https://github.com/user-attachments/assets/7a8d1086-ed55-45e7-bda0-15d8df030ea2" />
+
 
 #### 🔷 show ip protocols on F3-ASW2
 
