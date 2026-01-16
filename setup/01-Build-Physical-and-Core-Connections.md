@@ -8,7 +8,8 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Device Type: Cisco PT-Router
 - Hostname: ISP1-R1
 - Interfaces:
-  - G0/0 – G0/4 → Fiber
+  - G0/0 – G0/3 → Fiber
+  - G0/4 – G0/5 → Serial
   - G0/5 – G0/9 → Gigabit Ethernet
  
 ---
