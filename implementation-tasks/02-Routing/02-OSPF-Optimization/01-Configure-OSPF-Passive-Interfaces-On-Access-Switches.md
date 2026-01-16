@@ -20,8 +20,7 @@ The VLAN networks remain advertised in OSPF, but **end devices do not participat
 | Access Switch | VLANs (Passive) |
 |-------------|------------------|
 | **F1-ASW1 and F1-ASW2** | 101, 110, 120 |
-| **F2-ASW1** | 200, 220 |
-| **F2-ASW2** | 210 |
+| **F2-ASW1 and F2-ASW2** | 200, 210, 220 |
 | **F3-ASW1** | 300 |
 | **F3-ASW2** | 310, 330 |
 | **Service-ASW1** | 240, 700 |
