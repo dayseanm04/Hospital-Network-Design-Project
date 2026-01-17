@@ -8,9 +8,9 @@ This simulated Internet will allows users in the Hospital Network to access **ex
 ## 🎯 Objectives
 
 - ✅ Configure the **ISP router** serial interface
-- ✅ Configure the **Internet Edge router** WAN interface
+- ✅ Configure the **INET Edge router** WAN interface
 - ✅ Establish a point-to-point **/30 WAN link**
-- ✅ Verify basic connectivity between ISP and Internet Edge
+- ✅ Verify basic connectivity between ISP and INET Edge
 
 ## Reference INET
 
