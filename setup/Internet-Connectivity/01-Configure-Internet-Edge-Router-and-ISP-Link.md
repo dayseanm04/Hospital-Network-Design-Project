@@ -4,3 +4,12 @@ In this task I will set up **Internet connectivity** for the Hospital Network by
 This simulated Internet will allows users in the Hospital Network to access **external services** such as DNS and HTTP/HTTPS.
 
 ---
+
+## 🎯 Objectives
+
+- ✅ Configure the **ISP router** serial interface
+- ✅ Configure the **Internet Edge router** WAN interface
+- ✅ Establish a point-to-point **/30 WAN link**
+- ✅ Verify basic connectivity between ISP and Internet Edge
+
+---
