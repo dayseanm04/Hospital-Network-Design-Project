@@ -39,3 +39,21 @@ This simulated Internet will allows users in the Hospital Network to access **ex
 
 ---
 
+## ⚙️ Configure ISP Router (ISP1-R1)
+
+### ♦️ Configure ISP1-R1 S4/0 interface:
+
+```bash
+enable
+configure terminal
+interface s4/0
+```
+
+
+
+
+
+
+
+
+
