@@ -91,7 +91,4 @@ no shutdown
 
 <img width="979" height="187" alt="INET-EDGE-ping" src="https://github.com/user-attachments/assets/911b753e-b1c6-4344-8391-eb8279930654" />
 
-
-
-
-
+The pings were successfull!
