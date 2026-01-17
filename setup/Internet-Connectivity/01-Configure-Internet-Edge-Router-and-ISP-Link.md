@@ -81,7 +81,15 @@ ip address 198.51.100.2 255.255.255.252
 no shutdown
 ```
 
+## ✅ Verification
 
+#### 🟢 Ping ISP1-R1
+
+<img width="884" height="186" alt="ISP1-ping" src="https://github.com/user-attachments/assets/279e49c4-987d-45f2-a96b-3992beb55208" />
+
+#### 🟢 Ping INET-Edge
+
+<img width="979" height="187" alt="INET-EDGE-ping" src="https://github.com/user-attachments/assets/911b753e-b1c6-4344-8391-eb8279930654" />
 
 
 
