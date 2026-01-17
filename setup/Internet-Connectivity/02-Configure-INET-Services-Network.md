@@ -14,3 +14,19 @@ This includes configuring the LAN-facing interface, assigning static IP addresse
 ## Reference INET
 
 <img width="1156" height="302" alt="INET" src="https://github.com/user-attachments/assets/24a28233-08b2-41f2-adc5-827166b06c5d" />
+
+---
+
+## 🧠 INET Services Network Overview
+
+| INET | Details |
+|---|---|
+| `INET-Edge-01` | INET edge router (connects services to ISP1) |
+| `INET-SW` | Switch for INET services network |
+| `DNS-SRV` | DNS server |
+| `HTTP-SRV` | Web server |
+| `NTP-SRV` | Time server |
+
+**INET Services Subnet:** `10.20.20.0/24`
+
+---
