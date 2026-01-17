@@ -65,7 +65,21 @@ no shutdown
 
 ## ⚙️ Configure INET Edge Router (INET-Edge-01)
 
+### ♦️ Configure INET-Edge S0/0/0 interface:
 
+```bash
+enable
+configure terminal
+interface s0/0/0
+```
+
+
+### ♦️ Configure IP:
+
+```bash
+ip address 198.51.100.2 255.255.255.252
+no shutdown
+```
 
 
 
