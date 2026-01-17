@@ -25,3 +25,17 @@ This simulated Internet will allows users in the Hospital Network to access **ex
 |---|---|
 | `ISP1-R1` | ISP router (connects hospital to INET network) |
 | `INET-Edge-01` | INET edge router (front-end of simulated Internet services) |
+
+---
+
+## 🌐 WAN Link Addressing
+
+**WAN Network:** `198.51.100.0/30`
+
+| Device | Interface | IP Address | Subnet Mask |
+|---|---|---|---|
+| `ISP1-R1` | `S4/0` | `198.51.100.1` | `255.255.255.252` |
+| `INET-Edge-01` | `S0/1/0` | `198.51.100.2` | `255.255.255.252` |
+
+---
+
