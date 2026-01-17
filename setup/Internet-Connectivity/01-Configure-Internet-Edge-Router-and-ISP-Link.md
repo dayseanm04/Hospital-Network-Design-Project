@@ -14,7 +14,7 @@ This simulated Internet will allows users in the Hospital Network to access **ex
 
 ## Reference INET
 
-<img width="1160" height="301" alt="INET" src="https://github.com/user-attachments/assets/f778a423-92c8-4533-b7a4-684a491f6c70" />
+
+<img width="1156" height="302" alt="INET" src="https://github.com/user-attachments/assets/24a28233-08b2-41f2-adc5-827166b06c5d" />
 
 ---
-
