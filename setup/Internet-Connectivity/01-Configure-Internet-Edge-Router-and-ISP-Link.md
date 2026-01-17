@@ -49,6 +49,12 @@ configure terminal
 interface s4/0
 ```
 
+### ♦️ Sets the clock rate:
+
+```bash
+clock rate 4000000
+
+```
 
 
 
