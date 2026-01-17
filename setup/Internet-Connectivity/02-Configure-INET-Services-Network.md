@@ -30,3 +30,12 @@ This includes configuring the LAN-facing interface, assigning static IP addresse
 **INET Services Subnet:** `10.20.20.0/24`
 
 ---
+
+## 🌐 INET Router LAN Interface Configuration
+
+#### ♦️ Configure INET-EDGE G0/0 interface connected to `INET-SW` (Server LAN).
+
+```bash
+interface g0/0
+```
+
