@@ -1,7 +1,7 @@
 # 🌐 01 – Configure Internet Edge Router and ISP Link
 
 In this task I will set up **Internet connectivity** for the Hospital Network by configuring an **Internet Edge Router** and establishing a **WAN link to the ISP router**.  
-This simulated Internet will allows users in the Hospital Network to access **external services** such as DNS and HTTP/HTTPS.
+This simulated Internet will allows users in the Hospital Network to access **external services** such as DNS and HTTP/HTTPS
 
 ---
 
@@ -18,3 +18,10 @@ This simulated Internet will allows users in the Hospital Network to access **ex
 <img width="1156" height="302" alt="INET" src="https://github.com/user-attachments/assets/24a28233-08b2-41f2-adc5-827166b06c5d" />
 
 ---
+
+## 🧠 Devices Involved
+
+| Device | Role |
+|---|---|
+| `ISP1-R1` | ISP router (connects hospital to INET network) |
+| `INET-Edge-01` | INET edge router (front-end of simulated Internet services) |
