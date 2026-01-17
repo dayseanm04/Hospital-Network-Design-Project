@@ -33,9 +33,25 @@ This includes configuring the LAN-facing interface, assigning static IP addresse
 
 ## 🌐 INET Router LAN Interface Configuration
 
-#### ♦️ Configure INET-EDGE G0/0 interface connected to `INET-SW` (Server LAN).
+#### ♦️ Configure INET-EDGE G0/0 interface connected to `INET-SW` (Server LAN):
 
 ```bash
 interface g0/0
 ```
+
+#### ♦️ Configure IP
+
+```bash
+ip address 10.20.20.1 255.255.255.0
+```
+
+
+
+
+
+
+
+
+
+
 
