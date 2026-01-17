@@ -13,7 +13,7 @@ This includes configuring the LAN-facing interface, assigning static IP addresse
 
 ## Reference INET
 
-<img width="1156" height="302" alt="INET" src="https://github.com/user-attachments/assets/24a28233-08b2-41f2-adc5-827166b06c5d" />
+<img width="1130" height="292" alt="INET" src="https://github.com/user-attachments/assets/f19c68e4-e376-4cf7-bbd9-e6a73d31e806" />
 
 ---
 
