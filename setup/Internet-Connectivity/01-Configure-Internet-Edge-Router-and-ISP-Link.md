@@ -63,6 +63,7 @@ ip address 198.51.100.1 255.255.255.252
 no shutdown
 ```
 
+## ⚙️ Configure INET Edge Router (INET-Edge-01)
 
 
 
