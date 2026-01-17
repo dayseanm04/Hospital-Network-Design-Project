@@ -12,4 +12,9 @@ This simulated Internet will allows users in the Hospital Network to access **ex
 - ✅ Establish a point-to-point **/30 WAN link**
 - ✅ Verify basic connectivity between ISP and Internet Edge
 
+## Reference INET
+
+<img width="1160" height="301" alt="INET" src="https://github.com/user-attachments/assets/f778a423-92c8-4533-b7a4-684a491f6c70" />
+
 ---
+
