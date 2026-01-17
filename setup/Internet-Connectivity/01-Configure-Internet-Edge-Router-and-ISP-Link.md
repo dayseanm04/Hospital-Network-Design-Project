@@ -65,12 +65,12 @@ no shutdown
 
 ## ⚙️ Configure INET Edge Router (INET-Edge-01)
 
-### ♦️ Configure INET-Edge S0/0/0 interface:
+### ♦️ Configure INET-Edge S0/1/0 interface:
 
 ```bash
 enable
 configure terminal
-interface s0/0/0
+interface s0/1/0
 ```
 
 
