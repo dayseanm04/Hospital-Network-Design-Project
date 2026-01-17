@@ -43,8 +43,16 @@ interface g0/0
 
 ```bash
 ip address 10.20.20.1 255.255.255.0
+no shutdown
 ```
 
+## 🖥️ INET Services Server IP Addressing (Static)
+
+| Server     | IP Address  | Subnet Mask   | Default Gateway |
+| ---------- | ----------- | ------------- | --------------- |
+| `DNS-SRV`  | 10.20.20.10 | 255.255.255.0 | 10.20.20.1      |
+| `HTTP-SRV` | 10.20.20.11 | 255.255.255.0 | 10.20.20.1      |
+| `NTP-SRV`  | 10.20.20.12 | 255.255.255.0 | 10.20.20.1      |
 
 
 
