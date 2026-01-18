@@ -5,7 +5,7 @@ In this task, I will advertise the **default route (0.0.0.0/0)** into the hospit
 
 The core firewall acts as the **OSPF Autonomous System Boundary Router (ASBR)** for the hospital network, and injects the default route into the hospital network/OSPF domain.
 
-### ✅ Click ➡️ [here](/implementation-tasks/02-Routing/Configure-Default-Routes-for-Internet-Access.md) for the configure Default route on the HS-CORE-FW1
+### ✅ Click ➡️ [here for the configure Default route on the HS-CORE-FW1 Task.](/implementation-tasks/02-Routing/Configure-Default-Routes-for-Internet-Access.md) 
 
 
 ## Reference Topology
