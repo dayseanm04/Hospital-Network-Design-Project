@@ -28,3 +28,13 @@ Previously, the hospital relied on **one ISP1 connection**, meaning a link failu
 | ISP1-R1 | G8/0 | 69.45.12.5 | /30 |
 | HS-CORE-FW1 | G1/6 | 69.45.12.6 | /30 |
 | **Network** | — | **69.45.12.4** | /30 |
+
+---
+
+### Core Firewall to Core Router
+| Device | Interface | IP Address | Subnet |
+|------|----------|-----------|--------|
+| HS-CORE-FW1 | G1/5 | 10.255.255.5 | /30 |
+| HS-CORE-R1 | G1/0 | 10.255.255.6 | /30 |
+| **Network** | — | **10.255.255.4** | /30 |
+
