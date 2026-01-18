@@ -42,3 +42,9 @@ route outside 0.0.0.0 0.0.0.0 69.45.12.1
 route outside2 0.0.0.0 0.0.0.0 69.45.12.5
 ```
 
+**Note:** These routes allow the firewall to forward internet-bound traffic through either ISP-facing interface.
+
+
+
+
+
