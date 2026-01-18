@@ -8,3 +8,12 @@ Because the hospital has **2 connections to ISP1**, I will configure **2 default
 ## Reference Topology
 
 <img width="968" height="310" alt="reference-topology" src="https://github.com/user-attachments/assets/87fc634c-6ce6-49ac-b1c1-fa64cdf7a90a" />
+
+---
+
+## 🎯 Objectives
+- Configure **primary and secondary default routes** on HS-CORE-FW1
+- Enable internet-bound traffic to exit via multiple ISP paths
+- Prepare the firewall for resilient internet egress
+
+---
