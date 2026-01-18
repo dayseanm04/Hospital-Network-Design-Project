@@ -9,3 +9,14 @@ Previously, the hospital relied on **one ISP1 connection**, meaning a link failu
 ## Reference Topology
 
 <img width="968" height="310" alt="reference-topology" src="https://github.com/user-attachments/assets/87fc634c-6ce6-49ac-b1c1-fa64cdf7a90a" />
+
+---
+
+## 🎯 Objectives
+
+- Add a new **ISP1-to-Core Firewall** point-to-point link  
+- Assign **static IP addresses** on all involved interfaces  
+- Configure firewall **interface roles and security levels**  
+
+---
+
