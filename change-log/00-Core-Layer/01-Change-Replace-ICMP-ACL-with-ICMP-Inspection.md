@@ -28,3 +28,8 @@ I configured a global policy was on **HS-CORE-FW1** to inspect ICMP traffic usin
 I configured the ICMP ACL to test connectivty from HS-CORE-R1 to HS-CORE-FW1.  
 
 Using **ICMP inspection** is a more scalable and secure solution, as it dynamically allows return ICMP traffic to return back to the firewall.
+
+## 🔗 Related Task / Design Doc
+
+- [Issue-HS-CORE-R1-To-HS-CORE-FW1-Ping-Failure.md](/troubleshooting/01-Connectivity-Issues/Issue-HS-CORE-R1-To-HS-CORE-FW1-Ping-Failure.md)
+  
