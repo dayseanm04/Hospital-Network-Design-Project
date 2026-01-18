@@ -31,3 +31,14 @@ Because the hospital has **2 connections to ISP1**, I will configure **2 default
 | outside2 (G1/6) | Secondary ISP path | 69.45.12.5 |
 
 ---
+
+
+## ⚙️ Default Route Configuration (HS-CORE-FW1)
+
+Enter global configuration mode on **HS-CORE-FW1**, then configure the following default routes:
+
+```bash
+route outside 0.0.0.0 0.0.0.0 69.45.12.1
+route outside2 0.0.0.0 0.0.0.0 69.45.12.5
+```
+
