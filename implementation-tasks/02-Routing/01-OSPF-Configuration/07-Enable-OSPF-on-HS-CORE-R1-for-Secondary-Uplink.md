@@ -24,4 +24,12 @@ This configuration applies **only to the internal firewall-to-core router link**
 
 ---
 
+## 🌐 Secondary Link Details
+
+| Link | Network | Purpose |
+|----|--------|--------|
+| HS-CORE-R1 ↔ HS-CORE-FW1 | 10.255.255.4/30 | HS-CORE-R1 to HS-CORE-FW1 connectivity |
+
+---
+
 
