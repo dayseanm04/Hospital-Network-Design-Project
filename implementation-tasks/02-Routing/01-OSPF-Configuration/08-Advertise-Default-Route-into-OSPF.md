@@ -43,3 +43,4 @@ default-information originate
 
 <img width="884" height="99" alt="verify-default-route" src="https://github.com/user-attachments/assets/4a5f2c27-bae4-495d-8485-8eb2fb2da4a8" />
 
+The default route was successfully advertised into the hospitals domain. Note that all of the access switches also learned the path to the internet!
