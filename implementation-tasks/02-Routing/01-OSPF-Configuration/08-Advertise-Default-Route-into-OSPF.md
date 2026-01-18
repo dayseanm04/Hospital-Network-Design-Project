@@ -16,3 +16,4 @@ The core firewall acts as the **OSPF Autonomous System Boundary Router (ASBR)** 
 
 ## 🎯 Objectives
 - Advertise the internet default route into **OSPF**
+- Allow internal devices to learn the route to foward internet traffic to
