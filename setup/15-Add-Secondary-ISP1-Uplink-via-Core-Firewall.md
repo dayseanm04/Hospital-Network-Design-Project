@@ -4,6 +4,7 @@
 
 In this task I will add a **secondary uplink to ISP1** through the **core firewall** to eliminate a single point of failure in the hospital’s network.
 
+Previously, the hospital relied on **one ISP1 connection**, meaning a link failure would result in an outage.  
 
 ## Reference Topology
 
