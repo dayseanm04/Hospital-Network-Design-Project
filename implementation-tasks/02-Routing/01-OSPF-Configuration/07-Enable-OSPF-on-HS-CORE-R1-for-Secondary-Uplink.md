@@ -49,3 +49,9 @@ Enter global configuration mode on **HS-CORE-R1**, then enable OSPF for the seco
 router ospf 1
 network 10.255.255.4 255.255.255.252 area 0
 ```
+
+## 🧪 Verification
+
+#### On Service-ASW show ip route | include 10.255.255
+
+
