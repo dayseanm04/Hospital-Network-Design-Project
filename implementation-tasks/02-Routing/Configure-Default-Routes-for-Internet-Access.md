@@ -17,3 +17,6 @@ Because the hospital has **2 connections to ISP1**, I will configure **2 default
 - Prepare the firewall for resilient internet egress
 
 ---
+
+## 🖥 Device Involved
+- **HS-CORE-FW1**
