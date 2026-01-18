@@ -21,3 +21,7 @@ The core firewall acts as the **OSPF Autonomous System Boundary Router (ASBR)** 
 ## 🖥 Device Involved
 - **HS-CORE-FW1**
 
+## 🧭 Note
+- **HS-CORE-FW1** functions as the **OSPF ASBR**
+- The default route is injected into **Area 0**
+- No OSPF adjacency is formed with ISP devices
