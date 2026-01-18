@@ -4,6 +4,7 @@
 
 I this task, I will enable **OSPF on HS-CORE-R1 and HS-CORE-FW1** for the **new secondary point-to-point link** connecting the **core router to the core firewall**.  
 
+The purpose of this step is to ensure the newly added internal link is **advertised within the hospital**.
 
 ## Reference Topology
 
