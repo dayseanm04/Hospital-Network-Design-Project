@@ -32,4 +32,14 @@ This configuration applies **only to the internal firewall-to-core router link**
 
 ---
 
+## ⚙️ OSPF Configuration (HS-CORE-R1)
+
+Enter global configuration mode on **HS-CORE-R1**, then enable OSPF for the secondary link network:
+
+```bash
+router ospf 1
+ network 10.255.255.4 0.0.0.3 area 0
+```
+
+
 
