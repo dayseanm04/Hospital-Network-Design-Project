@@ -48,3 +48,8 @@ On **HS-CORE-FW1**, configure the internal-facing interface connected to the cor
 - **Nameif:** `inside2`  
 - **Security Level:** `100`
 
+**Note:** This interface represents a trusted interface
+
+
+
+
