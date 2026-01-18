@@ -1,5 +1,8 @@
 # 🌐 Configure Default Routes for Internet Access
 
+## 📌 Overview
+In this task, I will configure **default routes on the core firewall (HS-CORE-FW1)** to enable **internet access** for the hospital network.
+
 
 ## Reference Topology
 
