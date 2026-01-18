@@ -25,3 +25,14 @@ The core firewall acts as the **OSPF Autonomous System Boundary Router (ASBR)** 
 - **HS-CORE-FW1** functions as the **OSPF ASBR**
 - The default route is injected into **Area 0**
 - No OSPF adjacency is formed with ISP devices
+
+## ⚙️ OSPF Default Route Advertisement (HS-CORE-FW1)
+
+Enter global configuration mode on **HS-CORE-FW1**, then advertise the default route:
+
+```bash
+router ospf 1
+default-information originate
+```
+
+
