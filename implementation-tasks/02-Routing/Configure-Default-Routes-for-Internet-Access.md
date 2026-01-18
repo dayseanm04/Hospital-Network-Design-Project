@@ -50,6 +50,7 @@ route outside2 0.0.0.0 0.0.0.0 69.45.12.5
 show route
 ```
 
+<img width="567" height="59" alt="show-rotue" src="https://github.com/user-attachments/assets/15c814db-9117-427d-bdf2-89a291e9079c" />
 
 
 
