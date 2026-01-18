@@ -11,3 +11,6 @@ Security (Core Firewall)
 - HS-CORE-FW1  
 - HS-CORE-R1 (verification only)
 
+## ⚙️ Configuration Type
+Firewall / ICMP Inspection
+
