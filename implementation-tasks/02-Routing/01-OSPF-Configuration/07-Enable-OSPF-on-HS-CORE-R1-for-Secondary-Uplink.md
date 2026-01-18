@@ -52,30 +52,6 @@ network 10.255.255.4 255.255.255.252 area 0
 
 ## 🧪 Verification
 
-#### On Service-ASW show ip route | include 10.255.255
+#### 🟢 On Service-ASW show ip route | include 10.255.255
 
 <img width="740" height="99" alt="Service-ASE-verify" src="https://github.com/user-attachments/assets/b47ebacb-3df9-4313-8d91-5475d799c5bf" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
