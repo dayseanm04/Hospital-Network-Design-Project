@@ -1,4 +1,7 @@
-# 📡 Advertise-Default-Route-into-OSPF
+# 📡 Advertise Default Route into OSPF
+
+## 📌 Overview
+In this task, I will advertise the **default route (0.0.0.0/0)** into the hospital’s **internal OSPF routing domain** so internal router and switches know how to reach the internet.
 
 ## Reference Topology
 
