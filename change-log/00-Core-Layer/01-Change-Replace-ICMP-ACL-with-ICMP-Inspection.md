@@ -32,4 +32,12 @@ Using **ICMP inspection** is a more scalable and secure solution, as it dynamica
 ## 🔗 Related Task 
 
 - [Issue-HS-CORE-R1-To-HS-CORE-FW1-Ping-Failure.md](/troubleshooting/01-Connectivity-Issues/Issue-HS-CORE-R1-To-HS-CORE-FW1-Ping-Failure.md)
-  
+
+## ✅ Verification
+
+<img width="910" height="278" alt="HS-R-to-HS-FW" src="https://github.com/user-attachments/assets/68e674c9-b3b6-4f17-aabf-4c50bdefd3de" />
+
+- I ping from **HS-CORE-R1** to **HS-CORE-FW1** (successful)
+- ICMP echo requests and replies verified after ACL removal
+
+
