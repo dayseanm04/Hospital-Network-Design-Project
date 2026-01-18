@@ -1,3 +1,9 @@
+# 🌐 15 Add Secondary ISP1 Uplink via Core Firewall
+
+## 📌 Overview
+
+In this task I will add a **secondary uplink to ISP1** through the **core firewall** to eliminate a single point of failure in the hospital’s network.
+
 
 ## Reference Topology
 
