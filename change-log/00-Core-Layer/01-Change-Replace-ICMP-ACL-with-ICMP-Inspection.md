@@ -41,3 +41,5 @@ Using **ICMP inspection** is a more scalable and secure solution, as it dynamica
 - ICMP echo requests and replies verified after ACL removal
 
 
+## 📌 Result
+✅ Successful
