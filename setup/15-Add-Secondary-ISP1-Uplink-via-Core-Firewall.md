@@ -20,3 +20,11 @@ Previously, the hospital relied on **one ISP1 connection**, meaning a link failu
 
 ---
 
+## 🔌 New Physical Connections
+
+### ISP1 to Core Firewall
+| Device | Interface | IP Address | Subnet |
+|------|----------|-----------|--------|
+| ISP1-R1 | G8/0 | 69.45.12.5 | /30 |
+| HS-CORE-FW1 | G1/6 | 69.45.12.6 | /30 |
+| **Network** | — | **69.45.12.4** | /30 |
