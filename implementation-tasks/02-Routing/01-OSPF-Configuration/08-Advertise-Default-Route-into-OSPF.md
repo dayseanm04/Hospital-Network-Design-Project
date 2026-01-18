@@ -37,5 +37,6 @@ default-information originate
 
 **Note:** This command injects 0.0.0.0/0 into OSPF, allowing internal routers and switches to forward internet-bound traffic toward the firewall.
 
+## 🧪 Verification
 
 
