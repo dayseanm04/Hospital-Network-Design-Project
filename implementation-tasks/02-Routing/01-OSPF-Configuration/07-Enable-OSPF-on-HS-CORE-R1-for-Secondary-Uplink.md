@@ -41,5 +41,11 @@ router ospf 1
  network 10.255.255.4 0.0.0.3 area 0
 ```
 
+## ⚙️ OSPF Configuration (HS-CORE-FW)
 
+Enter global configuration mode on **HS-CORE-R1**, then enable OSPF for the secondary link network:
 
+```bash
+router ospf 1
+network 10.255.255.4 255.255.255.252 area 0
+```
