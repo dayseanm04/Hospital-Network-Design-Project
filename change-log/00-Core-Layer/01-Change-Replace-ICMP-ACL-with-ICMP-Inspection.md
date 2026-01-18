@@ -22,3 +22,9 @@ Firewall / ICMP Inspection
 Removed the temporary **ACL that explicitly permitted ICMP traffic** from **HS-CORE-R1 to HS-CORE-FW1** and replaced it with a **stateful ICMP inspection policy** on the firewall.  
 
 I configured a global policy was on **HS-CORE-FW1** to inspect ICMP traffic using the default inspection class, allowing ICMP echo and reply traffic without relying on static ACL rules
+
+## 🎯 Reason
+
+I configured the ICMP ACL to test connectivty from HS-CORE-R1 to HS-CORE-FW1.  
+
+Using **ICMP inspection** is a more scalable and secure solution, as it dynamically allows return ICMP traffic to return back to the firewall.
