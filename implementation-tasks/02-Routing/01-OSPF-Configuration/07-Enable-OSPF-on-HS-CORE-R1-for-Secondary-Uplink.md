@@ -1,3 +1,10 @@
+# 🌐 07 Enable OSPF on HS CORE R1 for Secondary Uplink
+
+## 📌 Overview
+
+I this task, I will enable **OSPF on HS-CORE-R1 and HS-CORE-FW1** for the **new secondary point-to-point link** connecting the **core router to the core firewall**.  
+
+
 ## Reference Topology
 
 <img width="968" height="310" alt="reference-topology" src="https://github.com/user-attachments/assets/87fc634c-6ce6-49ac-b1c1-fa64cdf7a90a" />
