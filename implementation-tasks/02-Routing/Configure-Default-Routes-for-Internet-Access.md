@@ -20,3 +20,14 @@ Because the hospital has **2 connections to ISP1**, I will configure **2 default
 
 ## 🖥 Device Involved
 - **HS-CORE-FW1**
+
+---
+
+## 🌐 ISP-Facing Interfaces
+
+| Interface | Role | Next-Hop |
+|---------|-----|---------|
+| outside (G1/8)| Primary ISP path | 69.45.12.1 |
+| outside2 (G1/6) | Secondary ISP path | 69.45.12.5 |
+
+---
