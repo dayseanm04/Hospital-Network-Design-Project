@@ -72,6 +72,11 @@ ip nat outside
 ip nat inside source static 10.20.20.10 200.10.0.2
 ```
 
+#### ♦️ Map INET-HTTP-SRV to 200.10.0.4
+
+```bash
+ip nat inside source static 10.20.20.11 200.10.0.4
+```
 
 
 
