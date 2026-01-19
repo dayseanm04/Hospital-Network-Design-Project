@@ -99,8 +99,42 @@ ip nat inside source static 10.20.20.12 200.10.0.6
 ```bash
 ping 69.45.12.2
 ```
-
 <img width="700" height="371" alt="DNS-SRV-ping-internet" src="https://github.com/user-attachments/assets/923716b6-d417-429e-b307-c5e217e63677" />
+
+The ping was successful, 2 out of the 4 packers sent request times out, might be because of packet tracer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
