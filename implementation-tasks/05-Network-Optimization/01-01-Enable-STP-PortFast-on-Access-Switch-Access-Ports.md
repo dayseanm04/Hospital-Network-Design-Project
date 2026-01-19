@@ -52,6 +52,9 @@ interface range <start-interface> - <end-interface>
 spanning-tree portfast
 ```
 
+#### Expecteded Warning
+
+<img width="833" height="106" alt="Portfast-warning" src="https://github.com/user-attachments/assets/8375d295-b4b9-4058-9664-7fa8df140cbc" />
 
 
 
