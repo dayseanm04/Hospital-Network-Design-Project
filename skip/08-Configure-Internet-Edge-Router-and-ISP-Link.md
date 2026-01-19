@@ -5,6 +5,9 @@ This simulated Internet will allows users in the Hospital Network to access **ex
 
 ---
 
+## ❌Skip this step❌ and complete the following instead:  [Configure INET](/setup/Internet-Connectivity/01-Configure-INET-Services-Network-Behind-ISP1.md)
+
+
 ## 🎯 Objectives
 
 - ✅ Configure the **ISP router** serial interface
