@@ -46,11 +46,15 @@ On each access switch, enter **interface range configuration mode** for ports co
 interface range <start-interface> - <end-interface>
 ```
 
+➡️ Selects a group of access ports connected to PCs, printers, or other end devices.
+
 #### 🟢 Enable Portfast
 
 ```bash
 spanning-tree portfast
 ```
+
+➡️ Enables PortFast so the port immediately enters the forwarding state.
 
 #### Expecteded Warning
 
