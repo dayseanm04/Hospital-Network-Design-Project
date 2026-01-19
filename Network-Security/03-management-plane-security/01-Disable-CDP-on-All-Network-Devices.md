@@ -33,10 +33,12 @@ show cdp neighbors
 
 ## ⚙️ Disable CDP (Apply on All Network Devices)
 
+#### 🟢 Enter global configuration mode and disable CDP:
 
 ```bash
 no cdp run
 ```
+
 
 
 
