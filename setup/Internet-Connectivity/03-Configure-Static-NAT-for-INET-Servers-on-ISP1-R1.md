@@ -37,7 +37,7 @@ Static NAT provides fixed, predictable mappings so external clients can reliably
 
 ## ⚙️ Configuration Steps (ISP1-R1)
 
-### 1️⃣ Configure G6/0 interface as inside
+### 1️⃣ Configure NAT interfaces
 
 ### ♦️ In Global Config mode:
 
@@ -48,7 +48,7 @@ interface G6/0
 ip nat inside
 ```
 
-#### 🟢 Configure G8/0 and G9/0 as nat outisde side:
+#### 🟢 Configure G8/0 and G9/0 as nat outisde:
 
 ```bash
 interface G8/0
@@ -60,9 +60,9 @@ interface G9/0
 ip nat outside
 ```
 
+## 2️⃣ Configure Static NAT Mappings
 
-
-
+#### 🔷 Create one-to-one mappings between private server IPs and public IPs.
 
 
 
