@@ -4,6 +4,11 @@ In this task, I disabled **Cisco Discovery Protocol (CDP)** on all network devic
 
 By disabling CDP, devices no longer advertise information such as **hostnames, interface details, and platform types** to neighboring devices, which helps limit information exposure and slightly reduces CPU usage.
 
+## 🎯 Objective
+
+- ✅ Disable CDP globally on all network devices
+- ✅ Prevent devices from sharing neighbor information
+- ✅ Reduce periodic CDP message exchanges (every 60 seconds by default)
 
 ## Rerefencce Topology
 
