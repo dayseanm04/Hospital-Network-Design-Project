@@ -62,7 +62,7 @@ ip nat outside
 
 ## 2️⃣ Configure Static NAT Mappings
 
-#### 🔷 Create one-to-one mappings between private server IPs and public IPs.
+#### 🔷 Create one-to-one mappings for INET servers.
 
 ```bash
 ip nat inside source static 10.20.20.10 200.10.0.2
