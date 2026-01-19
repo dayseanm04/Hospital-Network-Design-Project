@@ -1,4 +1,4 @@
-# 🌐 02 – Configure INET Services Network
+# 🌐 Configure INET Services Network
 
 In this task, I will configure the INET services network behind the INET edge router so the hospital network can access Internet services through ISP1. 
 
