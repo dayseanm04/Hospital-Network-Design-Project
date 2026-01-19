@@ -43,9 +43,4 @@ ip route 0.0.0.0 0.0.0.0 69.45.12.6
 show ip route
 ```
 
-
-
-
-
-
-
+<img width="901" height="342" alt="ISP1-route" src="https://github.com/user-attachments/assets/35b1bbb6-9070-4a8c-8b93-ed28c1c09805" />
