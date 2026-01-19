@@ -82,7 +82,9 @@ ping 10.20.20.20
 ping 10.20.20.30
 ```
 
+**The Ping were successful✅**
 
+<img width="894" height="380" alt="Ping-Test" src="https://github.com/user-attachments/assets/239dc049-0429-4703-965b-dc0b5b40e13b" />
 
 
 
