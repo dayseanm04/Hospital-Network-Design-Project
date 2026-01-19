@@ -1,6 +1,6 @@
 # 🌐 Configure Default Routes on ISP1-R1
 
-In this task, I will configure a **static default route*s* on **ISP1-R1** so traffic destined for **unknown external networks** can be forwarded upstream.  
+In this task, I will configure a **static default routes** on **ISP1-R1** so traffic destined for **unknown external networks** can be forwarded upstream.  
 
 This allows the **INET services network** and the **hospital network (via ISP1)** to reach each other over the simulated Internet.
 
@@ -35,6 +35,17 @@ configure terminal
 ip route 0.0.0.0 0.0.0.0 69.45.12.2
 ip route 0.0.0.0 0.0.0.0 69.45.12.6
 ```
+
+## 🔍 Verification
+
+
+```bash
+show ip route
+```
+
+
+
+
 
 
 
