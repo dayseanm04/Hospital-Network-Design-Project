@@ -41,3 +41,9 @@ Configure the ISP1 router interface connected to `INET-SW` G1/1/1 interface.
 interface g6/0
 ```
 
+#### 🟢 Configure IP
+
+```bash
+ip address 10.20.20.1 255.255.255.0
+```
+
