@@ -46,5 +46,13 @@ On each access switch, enter **interface range configuration mode** for ports co
 interface range <start-interface> - <end-interface>
 ```
 
+#### 🟢 Enable Portfast
+
+```bash
+spanning-tree portfast
+```
+
+
+
 
 
