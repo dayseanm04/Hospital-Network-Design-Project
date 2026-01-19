@@ -1,4 +1,6 @@
+# 🌐 Configure Default Route on ISP1-R1
 
+In this task, I will configure a **static default route** on **ISP1-R1** so traffic destined for **unknown external networks** can be forwarded upstream.  
 
 ## Topology For Reference
 
