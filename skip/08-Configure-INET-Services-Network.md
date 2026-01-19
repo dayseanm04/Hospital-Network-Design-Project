@@ -2,6 +2,9 @@
 
 In this task, I will configure the INET services network behind the INET edge router so the hospital network can access Internet services through ISP1. 
 
+## ❌Skip this step❌ and complete the following instead:  [Configure INET)](/setup/Internet-Connectivity/01-Configure-INET-Services-Network-Behind-ISP1.md)
+
+
 This includes configuring the LAN-facing interface, assigning static IP addresses to the servers, and setting basic device identity such as hostnames and interface descriptions.
 
 ## 🎯 Objectives
