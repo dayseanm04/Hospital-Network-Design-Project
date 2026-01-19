@@ -102,7 +102,7 @@ ping 69.45.12.2
 
 <img width="700" height="371" alt="DNS-SRV-ping-internet" src="https://github.com/user-attachments/assets/923716b6-d417-429e-b307-c5e217e63677" />
 
-The ping was successful, 2 out of the 4 packers sent request times out, might be because of packet tracer.
+The ping was successful, 2 out of the 4 packers sent request times out, because I configured 2 default routes on ISP1-R1 traffic will be balanced.
 
 ### Verify NAT translations on ISP R1:
 
@@ -120,31 +120,3 @@ show ip nat statistics
 ```
 
 <img width="759" height="155" alt="ISP1-R1-NAT-stat" src="https://github.com/user-attachments/assets/77fb8567-ffd1-4cb1-8e6b-d323ced7e469" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
