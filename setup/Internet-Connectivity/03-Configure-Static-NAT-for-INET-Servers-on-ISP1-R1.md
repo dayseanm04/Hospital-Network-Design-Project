@@ -92,8 +92,15 @@ ip nat inside source static 10.20.20.12 200.10.0.6
 | HTTP-SRV    | 10.20.20.11 | 200.10.0.4 |
 | NTP-SRV     | 10.20.20.12 | 200.10.0.6 |
 
+## 🔍 Verification
 
+### Ping HS-CORE-FW1 interface connected to ISPR1 from INET-DNS-SRV
 
+```bash
+ping 69.45.12.2
+```
+
+<img width="700" height="371" alt="DNS-SRV-ping-internet" src="https://github.com/user-attachments/assets/923716b6-d417-429e-b307-c5e217e63677" />
 
 
 
