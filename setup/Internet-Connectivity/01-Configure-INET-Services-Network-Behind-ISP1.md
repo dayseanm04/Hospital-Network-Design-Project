@@ -11,8 +11,20 @@ This network represents external Internet services that the **hospital network a
 - ✅ Assign **static IP addresses** to Internet service servers
 - ✅ Configure hostnames and interface descriptions
 
----
 
 ## Topology For Reference
 
 <img width="746" height="328" alt="INET" src="https://github.com/user-attachments/assets/50ef5b6d-db82-477d-9ab8-f33c2bd1bd8c" />
+
+---
+
+## 🧠 Network Overview
+
+| Device | Role |
+|---|---|
+| `ISP1-R1` | ISP router providing access to INET services |
+| `INET-SW` | Switch for INET services network |
+| `DNS-SRV` | Internet DNS server |
+| `HTTP-SRV` | Internet Web server |
+| `NTP-SRV` | Internet NTP server |
+| `INET-PC1` | Test client |
