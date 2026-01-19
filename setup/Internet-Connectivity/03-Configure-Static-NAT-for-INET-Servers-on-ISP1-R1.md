@@ -23,3 +23,16 @@ Static NAT provides fixed, predictable mappings so external clients can reliably
 - **NAT type:** Static
 
 ---
+
+## 🔌 Interface Roles (ISP1-R1)
+
+| Interface | Role |
+|---|---|
+| G6/0 (Interface toward `INET-SW`) | `ip nat inside` |
+| G8/0 and G9/0 (Interface toward `HS-CORE-FW1`) | `ip nat outside` |
+
+> 💡 Marking interfaces correctly is required before creating NAT rules.
+
+---
+
+
