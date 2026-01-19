@@ -41,8 +41,15 @@ no cdp run
 
 **Note**  This command disables CDP globally on the device, stopping all CDP advertisements and neighbor discovery.
 
+### 🔎 Verification
 
+#### 🟢 After disabling CDP, verify that it is no longer running :
 
+On DSW1
+
+```bash
+show cdp
+```
 
 
 
