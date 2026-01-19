@@ -28,3 +28,7 @@ This network represents external Internet services that the **hospital network a
 | `HTTP-SRV` | Internet Web server |
 | `NTP-SRV` | Internet NTP server |
 | `INET-PC1` | Test client |
+
+**INET Services Subnet:** `10.20.20.0/24`
+
+---
