@@ -48,9 +48,17 @@ interface G6/0
 ip nat inside
 ```
 
+#### 🟢 Configure G8/0 and G9/0 as nat outisde side:
 
+```bash
+interface G8/0
+ip nat outside
+```
 
-
+```bash
+interface G9/0
+ip nat outside
+```
 
 
 
