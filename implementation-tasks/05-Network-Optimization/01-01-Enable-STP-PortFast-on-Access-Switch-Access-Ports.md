@@ -30,3 +30,12 @@ I enabled PortFast on the following **Access Layer switches**:
 - `F3-ASW1`
 - `F3-ASW2`
 
+
+## ⚠️ Important Note
+
+- **PortFast should only be enabled on ports connected to end devices.**
+- It must **not** be enabled on trunk ports or ports connected to otherswitches, because it could network loops.
+
+---
+
+
