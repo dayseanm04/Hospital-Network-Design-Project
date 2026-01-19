@@ -53,19 +53,4 @@ show cdp
 
 <img width="853" height="81" alt="DSW1-CDP-disabled" src="https://github.com/user-attachments/assets/a9c8f107-f434-4f3c-b8fa-36823cf812d0" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Note:** I disabled CDP on all network devices in this project, but I only show it on DSW1!
