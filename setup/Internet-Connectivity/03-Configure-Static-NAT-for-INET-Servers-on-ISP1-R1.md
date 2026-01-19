@@ -64,6 +64,8 @@ ip nat outside
 
 ### 🔷 Create one-to-one mappings for INET servers.
 
+<br/>
+
 #### ♦️ Map INET-DNS-SRV to 200.10.0.2
 
 ```bash
