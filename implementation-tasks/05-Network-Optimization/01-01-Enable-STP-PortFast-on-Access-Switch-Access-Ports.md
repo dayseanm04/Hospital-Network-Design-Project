@@ -38,4 +38,13 @@ I enabled PortFast on the following **Access Layer switches**:
 
 ---
 
+## ⚙️ Configuration Steps (Access Switches)
+
+On each access switch, enter **interface range configuration mode** for ports connected to end devices:
+
+```bash
+interface range <start-interface> - <end-interface>
+```
+
+
 
