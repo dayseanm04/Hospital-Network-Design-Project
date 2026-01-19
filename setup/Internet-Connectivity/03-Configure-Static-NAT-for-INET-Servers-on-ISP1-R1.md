@@ -119,6 +119,7 @@ show ip nat translations
 show ip nat statistics
 ```
 
+<img width="759" height="155" alt="ISP1-R1-NAT-stat" src="https://github.com/user-attachments/assets/77fb8567-ffd1-4cb1-8e6b-d323ced7e469" />
 
 
 
