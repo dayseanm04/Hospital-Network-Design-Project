@@ -39,6 +39,7 @@ show cdp neighbors
 no cdp run
 ```
 
+**Note**  This command disables CDP globally on the device, stopping all CDP advertisements and neighbor discovery.
 
 
 
