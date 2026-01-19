@@ -113,7 +113,11 @@ show ip nat translations
 <img width="810" height="183" alt="ISP1-R1-NAT-translation" src="https://github.com/user-attachments/assets/24793193-2ae3-4b94-af93-e68d39c18aa6" />
 
 
+### Verify NAT statistics on ISP R1:
 
+```bash
+show ip nat statistics
+```
 
 
 
