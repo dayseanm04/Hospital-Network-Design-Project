@@ -53,3 +53,12 @@ no shutdown
 | `DNS-SRV`  | 10.20.20.10 | 255.255.255.0 | 10.20.20.1      |
 | `HTTP-SRV` | 10.20.20.11 | 255.255.255.0 | 10.20.20.1      |
 | `NTP-SRV`  | 10.20.20.12 | 255.255.255.0 | 10.20.20.1      |
+
+## 🔌 INET Servers and End Devices – Switch Connections
+
+| Device | Role | Switch | Switch Interface |
+|---|---|---|---|
+| DNS-SRV | DNS Server | INET-SW | G1/0/1 |
+| HTTP-SRV | Web Server | INET-SW | G1/0/2 |
+| NTP-SRV | NTP Server | INET-SW | G1/0/3 |
+| INET-PC1 | Test Client | INET-SW | G1/0/5 |
