@@ -1,4 +1,6 @@
+# 🔒 Disable CDP on All Network Devices
 
+In this task, I disabled **Cisco Discovery Protocol (CDP)** on all network devices in the hospital network to improve **security** and reduce **unnecessary control-plane traffic**.
 
 ## Rerefencce Topology
 
