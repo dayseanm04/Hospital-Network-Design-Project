@@ -25,16 +25,18 @@ By disabling CDP, devices no longer advertise information such as **hostnames, i
 
 ## 🔍 Check CDP on DSW1
 
-
 ```bash
 show cdp neighbors
 ```
 
 <img width="803" height="171" alt="DSW1-show-cdp" src="https://github.com/user-attachments/assets/a75f8a6e-0131-419c-99b7-fa39200663e9" />
 
+## ⚙️ Disable CDP (Apply on All Network Devices)
 
 
-
+```bash
+no cdp run
+```
 
 
 
