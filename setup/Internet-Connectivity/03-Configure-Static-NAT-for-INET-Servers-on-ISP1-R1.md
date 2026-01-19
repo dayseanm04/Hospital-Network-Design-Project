@@ -64,6 +64,11 @@ ip nat outside
 
 #### 🔷 Create one-to-one mappings between private server IPs and public IPs.
 
+```bash
+ip nat inside source static 10.20.20.10 200.10.0.2
+```
+
+Maps INET-DNS-SRV to 200.10.0.2
 
 
 
