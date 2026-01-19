@@ -1,4 +1,8 @@
+# 🌐 Configure INET Services Network Behind ISP1
 
+In this task, I will configure the **INET services network** that sits **behind ISP1**.  
+
+This network represents external Internet services that the **hospital network accesses through ISP1**.
 
 ## Topology For Reference
 
