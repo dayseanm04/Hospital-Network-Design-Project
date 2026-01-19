@@ -35,4 +35,30 @@ Static NAT provides fixed, predictable mappings so external clients can reliably
 
 ---
 
+## ⚙️ Configuration Steps (ISP1-R1)
+
+### 1️⃣ Configure G6/0 interface as inside
+
+```bash
+interface G6/0
+ip nat inside
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
