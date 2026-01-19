@@ -36,7 +36,7 @@ This includes configuring the LAN-facing interface, assigning static IP addresse
 #### ♦️ Configure INET-EDGE G0/0 interface connected to `INET-SW` (Server LAN):
 
 ```bash
-interface g0/0
+interface g0/0/0
 ```
 
 #### ♦️ Configure IP
