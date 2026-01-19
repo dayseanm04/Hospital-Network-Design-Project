@@ -53,5 +53,16 @@ ip address 10.20.20.1 255.255.255.0
 no shutdown
 ```
 
+---
+
+| Device   | Role        | Switch  | Switch Interface |
+| -------- | ----------- | ------- | ---------------- |
+| DNS-SRV  | DNS Server  | INET-SW | G1/0/1           |
+| HTTP-SRV | Web Server  | INET-SW | G1/0/2           |
+| NTP-SRV  | NTP Server  | INET-SW | G1/0/3           |
+| INET-PC1 | Test Client | INET-SW | G1/0/5           |
+
+
+
 
 
