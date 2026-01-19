@@ -15,3 +15,10 @@ By disabling CDP, devices no longer advertise information such as **hostnames, i
 <img width="511" height="441" alt="topology" src="https://github.com/user-attachments/assets/55a9fd85-d39d-497b-b7d4-827d5f6fae9e" />
 
 ---
+
+## 🧠 Background
+
+- CDP is **enabled by default** on Cisco devices  
+- In this project, CDP was enabled on **all network devices except the firewall**
+
+---
