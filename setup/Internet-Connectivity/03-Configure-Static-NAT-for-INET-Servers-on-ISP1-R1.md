@@ -39,6 +39,8 @@ Static NAT provides fixed, predictable mappings so external clients can reliably
 
 ### 1️⃣ Configure G6/0 interface as inside
 
+#### 🟢 In Global Config mode:
+
 ```bash
 interface G6/0
 ip nat inside
