@@ -72,5 +72,20 @@ no shutdown
 | NTP-SRV  | 10.20.20.12 | 255.255.255.0 | 10.20.20.1      |
 | INET-PC1 | 10.20.20.200 | 255.255.255.0 | 10.20.20.1      |
 
+## 🔍 Verification
+
+#### From ISP1-R1, verify connectivity to INET server:
+
+```bash
+ping 10.20.20.10
+ping 10.20.20.20
+ping 10.20.20.30
+```
+
+
+
+
+
+
 
 
