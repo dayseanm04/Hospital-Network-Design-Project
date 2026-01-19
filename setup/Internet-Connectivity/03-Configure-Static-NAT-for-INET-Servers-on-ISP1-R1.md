@@ -16,3 +16,10 @@ Static NAT provides fixed, predictable mappings so external clients can reliably
 
 ---
 
+## 🧠 NAT Design Overview
+
+- **Inside (private) network:** INET services subnet `10.20.20.0/24`
+- **Outside (public) network:** ISP-facing links toward the hospital firewall
+- **NAT type:** Static
+
+---
