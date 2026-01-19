@@ -47,3 +47,11 @@ interface g6/0
 ip address 10.20.20.1 255.255.255.0
 ```
 
+#### 🟢 Enable the Interface
+
+```bash
+no shutdown
+```
+
+
+
