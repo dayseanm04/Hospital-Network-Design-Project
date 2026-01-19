@@ -63,6 +63,14 @@ no shutdown
 | INET-PC1 | Test Client | INET-SW | G1/0/5           |
 
 
+## 🖥️ Static IP Addressing for INET Servers
+
+| Device   | IP Address  | Subnet Mask   | Default Gateway |
+| -------- | ----------- | ------------- | --------------- |
+| DNS-SRV  | 10.20.20.10 | 255.255.255.0 | 10.20.20.1      |
+| HTTP-SRV | 10.20.20.11 | 255.255.255.0 | 10.20.20.1      |
+| NTP-SRV  | 10.20.20.12 | 255.255.255.0 | 10.20.20.1      |
+| INET-PC1 | 10.20.20.200 | 255.255.255.0 | 10.20.20.1      |
 
 
 
