@@ -72,7 +72,9 @@ interface port-channel15
  ip address 69.45.12.1 255.255.255.252
 ```
 
+##  HS-CORE-FW1 Configuration (Port-channel15)
 
+#### ✅ Add interfaces to the EtherChannel
 
 
 
