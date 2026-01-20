@@ -56,6 +56,8 @@ To support **Layer 3 EtherChannel**, I used a **Layer 3 switch**.
 
 ## ISP1 Configuration (Port-channel15)
 
+#### ✅ Configure member interfaces
+
 ```bash
 interface range g1/1/1-2
  no switchport
@@ -63,6 +65,7 @@ interface range g1/1/1-2
  channel-group 15 mode on
 ```
 
+#### 
 
 
 
