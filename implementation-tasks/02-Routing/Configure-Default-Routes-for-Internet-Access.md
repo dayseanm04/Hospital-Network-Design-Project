@@ -45,7 +45,21 @@ route outside 0.0.0.0 0.0.0.0 69.45.12.1 1
 show route
 ```
 
-<img width="567" height="59" alt="show-rotue" src="https://github.com/user-attachments/assets/15c814db-9117-427d-bdf2-89a291e9079c" />
+<img width="995" height="386" alt="default-route" src="https://github.com/user-attachments/assets/d4794b05-2032-4259-91a3-f521f392d9a4" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
