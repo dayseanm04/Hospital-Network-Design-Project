@@ -30,4 +30,8 @@ To support **Layer 3 EtherChannel**, I used a **Layer 3 switch**.
 
 ---
 
+## ⚙️ Enable Layer 3 Routing on ISP Device
 
+- Enable `ip routing`
+
+---
