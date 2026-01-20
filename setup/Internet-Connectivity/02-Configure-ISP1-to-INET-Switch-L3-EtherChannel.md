@@ -19,6 +19,15 @@ Create an **L3 Port-Channel** between:
 
 ---
 
+## 🔌 Physical Connections
+
+| Device | Interface | Connected To | Interface |
+|------|----------|-------------|-----------|
+| ISP1 | G1/1/3 | INET-SW | G1/1/1 |
+| ISP1 | G1/1/4 | INET-SW | G1/1/2 |
+
+---
+
 
 
 
