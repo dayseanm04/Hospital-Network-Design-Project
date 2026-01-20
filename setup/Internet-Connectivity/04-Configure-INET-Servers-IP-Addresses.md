@@ -1,4 +1,4 @@
-# 🌐 Configure INET Servers IP 
+# 🌐 Configure INET Servers IP Addresses
 
 In this task, I will configure the **INET Srvers** IP addresses 
 
