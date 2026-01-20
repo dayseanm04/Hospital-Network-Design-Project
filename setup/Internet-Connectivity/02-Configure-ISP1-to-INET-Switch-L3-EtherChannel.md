@@ -71,7 +71,12 @@ interface port-channel1
 
 #### ✅  Configure member interfaces (G1/1/1–G1/1/2)
 
-
+```bash
+interface range g1/1/1-2
+ no shutdown
+ no switchport
+ channel-group 1 mode active
+```
 
 
 
