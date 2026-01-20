@@ -49,9 +49,15 @@ interface range g1/0/2-24
  switchport access vlan 50
 ```
 
+## 🌐 Step 3 — Configure INET Server VLAN SVI
 
+#### 🔷 Configure the SVI for VLAN 50.
 
-
+```bash
+interface vlan 50
+ ip address 10.20.20.1 255.255.255.0
+ no shutdown
+```
 
 
 
