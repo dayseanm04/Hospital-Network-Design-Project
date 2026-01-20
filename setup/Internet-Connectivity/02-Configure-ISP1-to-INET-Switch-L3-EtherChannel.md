@@ -59,7 +59,7 @@ interface range g1/1/3-4
  channel-group 1 mode active
 ```
 
-#### Configure Port-channel1 IP address
+#### ✅ Configure Port-channel1 IP address
 
 ```bash
 interface port-channel1
@@ -69,7 +69,7 @@ interface port-channel1
 
 ## 🔗 Step 2 - Configure EtherChannel on INET-SW (LACP)
 
-#### ✅  Configure member interfaces (G1/1/1–G1/1/2)
+#### ✅ Configure member interfaces (G1/1/1–G1/1/2)
 
 ```bash
 interface range g1/1/1-2
@@ -78,7 +78,13 @@ interface range g1/1/1-2
  channel-group 1 mode active
 ```
 
+#### ✅ Configure Port-channel1 IP address
 
+```bash
+interface port-channel1
+ ip address 10.30.30.2 255.255.255.252
+ no shutdown
+```
 
 
 
