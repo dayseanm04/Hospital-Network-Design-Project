@@ -19,4 +19,4 @@ Device change
 
 ## 📝 Description
 
-I replaced ISP1-R1 with a layer 3 Switch.  
+When I started this hospital network design project the Hospital had 1 connection to ISP1. To improve link redundancy and bandwidth, I addeded another link. However, due to Cisco Packet Tracer limitations, I couldnt configure EtherChannel on the router.
