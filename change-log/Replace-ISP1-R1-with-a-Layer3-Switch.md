@@ -8,3 +8,7 @@ ISP1 side
 
 ## 🖥 Devices Affected
 - ISP1-R1
+
+## ⚙️ Change Type
+
+Device change
