@@ -36,8 +36,25 @@ To support **Layer 3 EtherChannel**, I used a **Layer 3 switch**.
 
 ---
 
-## ⚙️ Enable Layer 3 Routing on ISP Device
+## ⚙️ Enable Layer 3 Routing on ISP1-R1
 
 - Enable `ip routing`
 
 ---
+
+## 🔗 Configure L3 EtherChannel (ISP1 ↔ Hospital Core Firewall)
+
+### 📡 EtherChannel Details
+
+| Parameter | Value |
+|---------|------|
+| Port-Channel | 15 |
+| Subnet | 69.45.12.0 /30 |
+| ISP1 Po15 IP | 69.45.12.1 |
+| HS-CORE-FW1 Po15 IP | 69.45.12.2 |
+| Mode | Static (on) |
+
+
+
+
+
