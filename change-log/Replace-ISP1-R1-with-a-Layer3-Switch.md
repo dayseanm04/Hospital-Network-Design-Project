@@ -29,6 +29,8 @@ The ISP Router did not support EtherChannel (Cisco Packet Tracer) limitation.
 
 ## 🔗 Related Task / Design Doc
 - [**Configure-INET-Services-Network-Behind-ISP1**](/skip/09-Configure-INET-Services-Network-Behind-ISP1.md)
+- [**Build-Physical-and-Core-Connections**](/setup/01-Build-Physical-and-Core-Connections.md)
+
 
 ## ✅ Verification
 
