@@ -34,7 +34,7 @@ In this task, I will configure a **default routes on the core firewall (HS-CORE-
 Enter global configuration mode on **HS-CORE-FW1**, then configure the following default routes:
 
 ```bash
-route outside 0.0.0.0 0.0.0.0 69.45.12.1 1
+route outside 0.0.0.0 0.0.0.0 69.45.12.1
 ```
 
 **Note:** This route will allow the firewall to forward internet-bound traffic to ISP1
