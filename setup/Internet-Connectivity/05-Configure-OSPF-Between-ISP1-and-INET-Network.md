@@ -45,7 +45,7 @@ I will also:
 
 ### 🧩 Create Loopback0
 
-#### In gGlobal config mode:
+#### 🔷 In gGlobal config mode:
 
 ```bash
 interface loopback 0
@@ -79,13 +79,23 @@ ip route 0.0.0.0 0.0.0.0 69.45.12.2
 
 ## ✅ Step 3 — Configure OSPF on ISP1-R1
 
-#### In Global config mode:
+#### 🔷 In Global config mode:
 
+### 🧩 Create Loopback0
 
+```bash
+interface loopback 0
+ ip address 10.10.10.10 255.255.255.255
+ exit
+```
 
+### 🧩  Enable OSPF Process 10 (Area 0)
 
-
-
+```bash
+router ospf 10
+ network 10.30.30.0 0.0.0.255 area 0
+ network 10.10.10.10 0.0.0.0 area 0
+```
 
 
 
