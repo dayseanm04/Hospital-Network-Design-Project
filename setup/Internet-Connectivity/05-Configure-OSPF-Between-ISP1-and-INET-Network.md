@@ -38,4 +38,51 @@ I will also:
 
 ---
 
+# 🛠 Step-by-Step Configuration
+
+
+## ✅ Step 1 = Configure OSPF on INET-SW
+
+### 🧩 Create Loopback0
+
+```bash
+interface loopback 0
+ ip address 10.10.10.1 255.255.255.255
+ exit
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
