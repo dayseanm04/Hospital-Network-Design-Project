@@ -23,7 +23,7 @@ This network represents external Internet services that the **hospital network a
 
 | Device | Role |
 |---|---|
-| `ISP1-R1` | ISP router providing access to INET services |
+| `ISP1-R1` | ISP L3 Switch providing access to INET services |
 | `INET-SW` | Switch for INET services network |
 | `DNS-SRV` | Internet DNS server |
 | `HTTP-SRV` | Internet Web server |
