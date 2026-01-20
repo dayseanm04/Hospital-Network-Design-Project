@@ -29,6 +29,17 @@ Create an **L3 Port-Channel** between:
 ---
 
 
+## 🧠 IP Addressing Plan (Port-Channel 1)
+
+| Device | Interface | IP Address | Subnet Mask | Network |
+|-------|----------|------------|------------|---------|
+| ISP1 | Port-channel1 | 10.30.30.1 | 255.255.255.252 | 10.30.30.0/30 |
+| INET-SW | Port-channel1 | 10.30.30.2 | 255.255.255.252 | 10.30.30.0/30 |
+
+---
+
+
+
 
 
 
