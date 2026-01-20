@@ -1,9 +1,7 @@
 # 🌐 Configure Default Routes for Internet Access
 
 ## 📌 Overview
-In this task, I will configure **default routes on the core firewall (HS-CORE-FW1)** to enable **internet access** for the hospital network.
-
-Because the hospital has **2 connections to ISP1**, I will configure **2 default route**s on the the firewall This allows outbound traffic to exit through **either ISP-facing interface**, avoiding a single point of failure.
+In this task, I will configure a **default routes on the core firewall (HS-CORE-FW1)** to enable **internet access** for the hospital network.
 
 ## Reference Topology
 
@@ -12,9 +10,8 @@ Because the hospital has **2 connections to ISP1**, I will configure **2 default
 ---
 
 ## 🎯 Objectives
-- Configure **primary and secondary default routes** on HS-CORE-FW1
-- Enable internet-bound traffic to exit via multiple ISP paths
-- Prepare the firewall for resilient internet egress
+- Configure **primary default route** on HS-CORE-FW1
+- Enable internet-bound traffic to exit via L3 EtherChannel
 
 ---
 
@@ -27,8 +24,7 @@ Because the hospital has **2 connections to ISP1**, I will configure **2 default
 
 | Interface | Role | Next-Hop |
 |---------|-----|---------|
-| outside (G1/8)| Primary ISP path | 69.45.12.1 |
-| outside2 (G1/6) | Secondary ISP path | 69.45.12.5 |
+| Port-Channel1 (outside) | Path to ISP1 | 69.45.12.1 |
 
 ---
 
