@@ -65,7 +65,14 @@ interface range g1/1/1-2
  channel-group 15 mode on
 ```
 
-#### 
+#### ✅ Configure the Port-Channel interface IP
+
+```bash
+interface port-channel15
+ ip address 69.45.12.1 255.255.255.252
+```
+
+
 
 
 
