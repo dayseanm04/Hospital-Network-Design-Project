@@ -24,7 +24,7 @@ In this task, I will configure a **default routes on the core firewall (HS-CORE-
 
 | Interface | Role | Next-Hop |
 |---------|-----|---------|
-| Port-Channel1 (outside) | Path to ISP1 | 69.45.12.1 |
+| Port-Channel15 (outside) | Path to ISP1 | 69.45.12.1 |
 
 ---
 
@@ -34,8 +34,7 @@ In this task, I will configure a **default routes on the core firewall (HS-CORE-
 Enter global configuration mode on **HS-CORE-FW1**, then configure the following default routes:
 
 ```bash
-route outside 0.0.0.0 0.0.0.0 69.45.12.1
-route outside2 0.0.0.0 0.0.0.0 69.45.12.5
+route outside 0.0.0.0 0.0.0.0 69.45.12.1 1
 ```
 
 **Note:** These routes allow the firewall to forward internet-bound traffic through either ISP-facing interface.
