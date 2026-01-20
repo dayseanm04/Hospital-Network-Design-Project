@@ -7,7 +7,6 @@ In this task, I will configure the **primary Internet connection between ISP1 an
 Due to **Cisco Packet Tracer limitations**, EtherChannel cannot be configured on router platforms.  
 To support **Layer 3 EtherChannel**, I used a **Layer 3 switch**.
 
----
 
 ## 🎯 Objectives
 
@@ -16,8 +15,6 @@ To support **Layer 3 EtherChannel**, I used a **Layer 3 switch**.
 - Configure **Layer 3 EtherChannel** for:
   - ISP1 ↔ Hospital core firewall
 - Assign IP addresses
-
----
 
 ## Reference Topology
 
@@ -105,6 +102,22 @@ interface port-channel15
 interface port-channel15
  nameif outside
 ```
+
+## ✅ Verification
+
+#### On ISP1-R1 show etherchannel summary
+
+<img width="838" height="368" alt="ISP1-R1-ethchannel-sum" src="https://github.com/user-attachments/assets/b18bdeb4-694a-4295-8ffc-a393e874a530" />
+
+
+
+
+
+
+
+
+
+
 
 
 
