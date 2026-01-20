@@ -50,7 +50,7 @@ ip routing
 
 ## 🔗 Step 1 - Configure EtherChannel on ISP1 (LACP)
 
-#### ✅  Configure member interfaces (G1/1/3–G1/1/4)
+#### ✅ Configure member interfaces (G1/1/3–G1/1/4)
 
 ```bash
 interface range g1/1/3-4
@@ -67,7 +67,9 @@ interface port-channel1
  no shutdown
 ```
 
+## 🔗 Step 2 - Configure EtherChannel on INET-SW (LACP)
 
+#### ✅  Configure member interfaces (G1/1/1–G1/1/2)
 
 
 
