@@ -38,8 +38,15 @@ Create an **L3 Port-Channel** between:
 
 ---
 
+## ⚙️ First enable Routing
 
+Since this is a **Layer 3 EtherChannel**, routing must be enabled on both devices.
 
+### ✅ On INET-SW
+
+```bash
+ip routing
+```
 
 
 
