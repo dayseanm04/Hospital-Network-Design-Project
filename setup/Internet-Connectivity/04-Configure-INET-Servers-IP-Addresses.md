@@ -31,28 +31,6 @@ This network represents external Internet services that the **hospital network a
 
 **INET Services Subnet:** `10.20.20.0/24`
 
----
-
-## 🌐 ISP1 – INET LAN Interface Configuration
-
-Configure the ISP1 router interface connected to `INET-SW` G1/1/1 interface.
-
-```bash
-interface g6/0
-```
-
-#### 🟢 Configure IP
-
-```bash
-ip address 10.20.20.1 255.255.255.0
-```
-
-#### 🟢 Enable the Interface
-
-```bash
-no shutdown
-```
-
 
 ## 🖥️ INET Servers interfaces on INET-SW
 
