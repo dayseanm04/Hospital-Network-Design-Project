@@ -82,6 +82,16 @@ interface g1/8
  channel-group 15 mode on
 ```
 
+#### ✅ Add interfaces to the EtherChannel
+
+```bash
+interface g1/6
+ no shutdown
+ channel-group 15 mode on
+```
+
+
+
 
 
 
