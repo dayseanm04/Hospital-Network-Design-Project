@@ -60,7 +60,11 @@ router ospf 10
  network 10.10.10.1 0.0.0.0 area 0
 ```
 
+#### 🔷 This advertises:
 
+- The ISP1 ↔ INET network
+- The INET Servers subnet
+- The INET-SW loopback (/32)
 
 
 
