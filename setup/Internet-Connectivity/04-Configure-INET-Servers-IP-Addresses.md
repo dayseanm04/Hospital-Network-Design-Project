@@ -57,8 +57,8 @@ This network represents external Internet services that the **hospital network a
 
 ```bash
 ping 10.20.20.10
-ping 10.20.20.20
-ping 10.20.20.30
+ping 10.20.20.11
+ping 10.20.20.12
 ```
 
 **The Ping were successful✅**
