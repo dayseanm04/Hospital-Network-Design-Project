@@ -59,7 +59,12 @@ interface vlan 50
  no shutdown
 ```
 
+## ✅ Step 4 - Verification
 
+```bash
+show vlan brief
+```
+<img width="946" height="209" alt="INET-SRVs-VLANs" src="https://github.com/user-attachments/assets/02aac87a-4e72-4550-9beb-3e4dd082ff51" />
 
 
 
