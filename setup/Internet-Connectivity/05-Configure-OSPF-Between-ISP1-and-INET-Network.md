@@ -11,3 +11,11 @@ I will also:
 - Advertise the default route into OSPF using **default-information originate**
 
 ---
+
+## 🎯 Goals
+- ✅ Enable OSPF between ISP1-R1 and INET-SW
+- ✅ Advertise INET server subnet into OSPF
+- ✅ Advertise default route
+- ✅ Configure loopbacks
+
+---
