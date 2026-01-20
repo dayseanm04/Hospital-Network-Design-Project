@@ -105,6 +105,11 @@ router ospf 10
 
 ## ✅ Verification
 
+#### 🔷 On ISP1-R1 show ip protocols
+
+<img width="744" height="371" alt="ISP1-ospf" src="https://github.com/user-attachments/assets/0a47b447-33d8-41f8-a7ee-38cd8af7acc8" />
+
+
 
 
 
