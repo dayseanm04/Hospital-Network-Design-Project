@@ -8,6 +8,11 @@ This bundles **two physical uplinks** into one logical routed interface to impro
 - ✅ **Bandwidth** (links combined)
 - ✅ **Stability** (single logical L3 interface)
 
+## 🎯 Goal
+Create an **L3 Port-Channel** between:
+- **ISP1 ↔ INET-SW**
+- Routed subnet: **10.30.30.0/30**
+
 ## Topology For Reference
 
 <img width="745" height="301" alt="reference-topology" src="https://github.com/user-attachments/assets/73b21ac5-75e3-407e-8ebe-3b05a0f6bf89" />
