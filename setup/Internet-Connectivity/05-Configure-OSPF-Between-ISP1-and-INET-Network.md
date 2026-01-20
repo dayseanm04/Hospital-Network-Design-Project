@@ -69,7 +69,7 @@ router ospf 10
 - The INET-SW loopback (/32)
 
 
-## ✅ Step 2 — Configure Default Route on ISP1
+## ✅ Step 2 - Configure Default Route on ISP1
 
 #### 🔷 On ISP1, configure a default route pointing toward the hospital firewall:
 
@@ -77,7 +77,7 @@ router ospf 10
 ip route 0.0.0.0 0.0.0.0 69.45.12.2
 ```
 
-## ✅ Step 3 — Configure OSPF on ISP1-R1
+## ✅ Step 3 - Configure OSPF on ISP1-R1
 
 #### 🔷 In Global config mode:
 
@@ -97,9 +97,11 @@ router ospf 10
  network 10.10.10.10 0.0.0.0 area 0
 ```
 
+## ✅ Step 4 - Advertise Default Route into OSPF
 
-
-
+```bash
+ default-information originate
+```
 
 
 
