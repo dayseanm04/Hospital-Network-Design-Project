@@ -54,6 +54,17 @@ To support **Layer 3 EtherChannel**, I used a **Layer 3 switch**.
 | HS-CORE-FW1 Po15 IP | 69.45.12.2 |
 | Mode | Static (on) |
 
+## ISP1 Configuration (Port-channel15)
+
+```bash
+interface range g1/1/1-2
+ no switchport
+ no shutdown
+ channel-group 15 mode on
+```
+
+
+
 
 
 
