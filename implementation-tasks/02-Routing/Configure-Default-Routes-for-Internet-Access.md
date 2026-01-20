@@ -37,7 +37,7 @@ Enter global configuration mode on **HS-CORE-FW1**, then configure the following
 route outside 0.0.0.0 0.0.0.0 69.45.12.1 1
 ```
 
-**Note:** These routes allow the firewall to forward internet-bound traffic through either ISP-facing interface.
+**Note:** This route will allow the firewall to forward internet-bound traffic to ISP1
 
 ## 🧪 Verification
 
@@ -46,22 +46,3 @@ show route
 ```
 
 <img width="995" height="386" alt="default-route" src="https://github.com/user-attachments/assets/d4794b05-2032-4259-91a3-f521f392d9a4" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
