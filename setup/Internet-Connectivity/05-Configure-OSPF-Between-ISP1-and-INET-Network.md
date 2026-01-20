@@ -41,7 +41,7 @@ I will also:
 # 🛠 Step-by-Step Configuration
 
 
-## ✅ Step 1 = Configure OSPF on INET-SW
+## ✅ Step 1 - Configure OSPF on INET-SW
 
 ### 🧩 Create Loopback0
 
@@ -51,7 +51,14 @@ interface loopback 0
  exit
 ```
 
+## 🧩 1.2 Enable OSPF Process 10 (Area 0)
 
+```bash
+router ospf 10
+ network 10.30.30.0 0.0.0.255 area 0
+ network 10.20.20.0 0.0.0.255 area 0
+ network 10.10.10.1 0.0.0.0 area 0
+```
 
 
 
