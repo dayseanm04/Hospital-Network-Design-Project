@@ -39,8 +39,15 @@ vlan 50
  name INET-SRVs
 ```
 
+## 🔌 Step 2 — Assign Server Ports to VLAN 50
 
+#### 🔷 Assign server interfaces to the INET server VLAN.
 
+```bash
+interface range g1/0/2-24
+ switchport mode access
+ switchport access vlan 50
+```
 
 
 
