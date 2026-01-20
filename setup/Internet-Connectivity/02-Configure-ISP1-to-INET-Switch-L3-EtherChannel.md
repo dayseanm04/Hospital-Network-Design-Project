@@ -48,9 +48,16 @@ Since this is a **Layer 3 EtherChannel**, routing must be enabled on both device
 ip routing
 ```
 
+## 🔗 Step 1 - Configure EtherChannel on ISP1 (LACP)
 
+#### ✅  Configure member interfaces (G1/1/3–G1/1/4)
 
-
+```bash
+interface range g1/1/3-4
+ no switchport
+ no shutdown
+ channel-group 1 mode active
+```
 
 
 
