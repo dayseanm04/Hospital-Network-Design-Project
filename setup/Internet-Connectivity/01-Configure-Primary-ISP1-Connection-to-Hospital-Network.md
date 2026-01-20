@@ -8,3 +8,11 @@ Due to **Cisco Packet Tracer limitations**, EtherChannel cannot be configured on
 To support **Layer 3 EtherChannel**, I used a **Layer 3 switch**.
 
 ---
+
+## 🎯 Objectives
+
+- Establish new physical links between ISP1 and the hospital
+- Enable Layer 3 routing on the ISP edge device
+- Configure **Layer 3 EtherChannel** for:
+  - ISP1 ↔ Hospital core firewall
+- Assign IP addresses
