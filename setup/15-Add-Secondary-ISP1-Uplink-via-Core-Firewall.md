@@ -39,17 +39,3 @@ Previously, the hospital relied on **one ISP1 connection**, meaning a link failu
 | **Network** | — | **10.255.255.4** | /30 |
 
 ---
-
-## 🔐 Firewall Interface Configuration
-
-On **HS-CORE-FW1**, configure the internal-facing interface connected to the core router:
-
-- **Interface:** G1/5  
-- **Nameif:** `inside2`  
-- **Security Level:** `100`
-
-**Note:** This interface represents a trusted interface
-
-
-
-
