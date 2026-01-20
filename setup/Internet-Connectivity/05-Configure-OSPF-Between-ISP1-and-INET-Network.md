@@ -45,6 +45,8 @@ I will also:
 
 ### 🧩 Create Loopback0
 
+#### In gGlobal config mode:
+
 ```bash
 interface loopback 0
  ip address 10.10.10.1 255.255.255.255
@@ -75,8 +77,9 @@ router ospf 10
 ip route 0.0.0.0 0.0.0.0 69.45.12.2
 ```
 
+## ✅ Step 3 — Configure OSPF on ISP1-R1
 
-
+#### In Global config mode:
 
 
 
