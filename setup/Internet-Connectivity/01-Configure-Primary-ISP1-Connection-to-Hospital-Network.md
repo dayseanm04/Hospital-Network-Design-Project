@@ -99,6 +99,14 @@ interface port-channel15
 
 ## Configure Firewall Outside Interface
 
-#### On HS-CORE-FW1, assign the Port-Channel as the outside interface:
+#### 🟢 On HS-CORE-FW1, assign the Port-Channel as the outside interface:
+
+```bash
+interface port-channel15
+ nameif outside
+```
+
+
+
 
 
