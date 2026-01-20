@@ -5,12 +5,10 @@ I havent configured IP addressing or routing in this task.
 The goal is to ensure all devices are **properly connected and ready for configuration**.
 
 ## 🛜 1. ISP1 Router Information
-- Device Type: Cisco PT-Router
+- Device Type: Cisco 3650-24PS
 - Hostname: ISP1-R1
 - Interfaces:
-  - G0/0 – G0/3 → Fiber
-  - G0/4 – G0/5 → Serial
-  - G0/6 – G0/9 → Gigabit Ethernet
+  - G1/1/1 – G1/1/4 → Gigabit Ethernet
  
 ---
 
@@ -34,7 +32,8 @@ Connect the ISP router to the hospital firewall for security and redundancy.
 
 | ISP Router Interface | Firewall Interface |
 |----------------------|--------------------|
-| ISP1-R1 G9/0 | HS-Core-FW G1/8 |
+| ISP1-R1 G1/1/1 | HS-Core-FW G1/8 |
+| ISP1-R1 G1/1/2 | HS-Core-FW G1/6 |
 
 ---
 
