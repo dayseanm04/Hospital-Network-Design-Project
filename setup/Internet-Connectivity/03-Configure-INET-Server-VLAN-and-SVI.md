@@ -64,18 +64,11 @@ interface vlan 50
 ```bash
 show vlan brief
 ```
+
 <img width="946" height="209" alt="INET-SRVs-VLANs" src="https://github.com/user-attachments/assets/02aac87a-4e72-4550-9beb-3e4dd082ff51" />
 
+```bash
+show ip int brief | include Vlan
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="827" height="83" alt="INET-SRV-VLAN-SVI" src="https://github.com/user-attachments/assets/32a17f03-f267-431e-92ad-2d39ca7c1a71" />
