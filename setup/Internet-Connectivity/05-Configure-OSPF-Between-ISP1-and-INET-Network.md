@@ -103,6 +103,7 @@ router ospf 10
  default-information originate
 ```
 
+## ✅ Verification
 
 
 
