@@ -12,3 +12,7 @@ ISP1 side
 ## ⚙️ Change Type
 
 Device change
+
+## 📝 Description
+
+I replaced ISP1-R1 with a layer 3 Switch.  
