@@ -27,3 +27,37 @@ This includes creating the VLAN and configuring an **SVI (Switched Virtual Inter
 | Server Subnet | 10.20.20.0/24 |
 | Default Gateway | 10.20.20.1 |
 | Device | INET-SW |
+
+---
+
+## 🛠️ Step 1 — Create INET Server VLAN
+
+#### 🔷 On INET-SW, enter global configuration mode and create the VLAN:
+
+```bash
+vlan 50
+ name INET-SRVs
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
