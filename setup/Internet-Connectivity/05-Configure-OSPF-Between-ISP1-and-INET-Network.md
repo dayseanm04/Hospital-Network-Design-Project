@@ -26,3 +26,16 @@ I will also:
 
 ---
 
+## 🧠 Addressing / Networks Used
+
+| Network  | Purpose |
+|---|---|
+| 10.30.30.0/30 | ISP1 ↔ INET-SW routed EtherChannel uplink |
+| 10.20.20.0/24 | INET Servers subnet (VLAN 50 SVI on INET-SW) |
+| 10.10.10.1/32 | INET-SW Loopback0 |
+| 10.10.10.10/32 | ISP1 Loopback0 |
+| 0.0.0.0/0 | Advertised default route into OSPF |
+
+---
+
+
