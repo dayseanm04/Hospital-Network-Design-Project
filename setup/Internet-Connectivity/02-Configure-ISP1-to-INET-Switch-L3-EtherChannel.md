@@ -95,13 +95,4 @@ interface port-channel1
 
 #### 🟢 On ISP1-R1 show etherchannel summary
 
-<img width="820" height="369" alt="ISP1-R1-ethchannel-sum" src="https://github.com/user-attachments/assets/14697b1e-9256-4b23-a242-9cecb31e97cf" />
-
-
-
-
-
-
-
-
-
+<img width="859" height="368" alt="ISP1-R1-ethchannel-sum" src="https://github.com/user-attachments/assets/8b489327-781c-4a5c-aad4-29d15139a328" />
