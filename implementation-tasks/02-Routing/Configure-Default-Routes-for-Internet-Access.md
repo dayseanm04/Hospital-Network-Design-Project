@@ -7,7 +7,7 @@ Because the hospital has **2 connections to ISP1**, I will configure **2 default
 
 ## Reference Topology
 
-<img width="968" height="310" alt="reference-topology" src="https://github.com/user-attachments/assets/87fc634c-6ce6-49ac-b1c1-fa64cdf7a90a" />
+<img width="576" height="204" alt="topology" src="https://github.com/user-attachments/assets/d7a754f8-0fff-4bb7-8631-27d07ad9e92a" />
 
 ---
 
