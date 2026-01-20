@@ -27,3 +27,7 @@ To resolve this limitation, I replaced ISP1-R1 (router) with a Layer 3 switch (C
 
 The ISP Router did not support EtherChannel (Cisco Packet Tracer) limitation.
 
+## 🔗 Related Task / Design Doc
+
+
+
