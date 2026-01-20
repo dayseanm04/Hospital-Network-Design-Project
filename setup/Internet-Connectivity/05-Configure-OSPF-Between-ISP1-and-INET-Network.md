@@ -71,7 +71,9 @@ router ospf 10
 
 #### 🔷 On ISP1, configure a default route pointing toward the hospital firewall:
 
-
+```bash
+ip route 0.0.0.0 0.0.0.0 69.45.12.2
+```
 
 
 
