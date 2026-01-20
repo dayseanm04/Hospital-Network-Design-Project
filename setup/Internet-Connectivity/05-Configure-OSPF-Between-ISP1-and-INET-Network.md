@@ -110,14 +110,6 @@ router ospf 10
 <img width="744" height="371" alt="ISP1-ospf" src="https://github.com/user-attachments/assets/0a47b447-33d8-41f8-a7ee-38cd8af7acc8" />
 
 
+#### 🔷 On INET-SW show ip protocols
 
-
-
-
-
-
-
-
-
-
-
+<img width="825" height="346" alt="INET1-ospf" src="https://github.com/user-attachments/assets/eb866c33-624a-453f-9bba-e625d16a2738" />
