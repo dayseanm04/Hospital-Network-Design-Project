@@ -67,8 +67,9 @@ router ospf 10
 - The INET-SW loopback (/32)
 
 
+## ✅ Step 2 — Configure Default Route on ISP1
 
-
+#### 🔷 On ISP1, configure a default route pointing toward the hospital firewall:
 
 
 
