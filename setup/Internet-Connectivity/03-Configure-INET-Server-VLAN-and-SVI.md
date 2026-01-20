@@ -17,3 +17,13 @@ This includes creating the VLAN and configuring an **SVI (Switched Virtual Inter
 <img width="745" height="301" alt="reference-topology" src="https://github.com/user-attachments/assets/73b21ac5-75e3-407e-8ebe-3b05a0f6bf89" />
 
 ---
+
+## 🧠 INET Server Network Details
+
+| Item | Value |
+|-----|------|
+| VLAN ID | 50 |
+| VLAN Name | INET-SRVs |
+| Server Subnet | 10.20.20.0/24 |
+| Default Gateway | 10.20.20.1 |
+| Device | INET-SW |
