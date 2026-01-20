@@ -30,7 +30,7 @@ This includes creating the VLAN and configuring an **SVI (Switched Virtual Inter
 
 ---
 
-## 🛠️ Step 1 — Create INET Server VLAN
+## 🛠️ Step 1 - Create INET Server VLAN
 
 #### 🔷 On INET-SW, enter global configuration mode and create the VLAN:
 
@@ -39,7 +39,7 @@ vlan 50
  name INET-SRVs
 ```
 
-## 🔌 Step 2 — Assign Server Ports to VLAN 50
+## 🔌 Step 2 - Assign Server Ports to VLAN 50
 
 #### 🔷 Assign server interfaces to the INET server VLAN.
 
@@ -49,7 +49,7 @@ interface range g1/0/2-24
  switchport access vlan 50
 ```
 
-## 🌐 Step 3 — Configure INET Server VLAN SVI
+## 🌐 Step 3 - Configure INET Server VLAN SVI
 
 #### 🔷 Configure the SVI for VLAN 50.
 
