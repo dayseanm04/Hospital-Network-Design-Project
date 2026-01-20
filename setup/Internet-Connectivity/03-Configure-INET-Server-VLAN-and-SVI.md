@@ -44,7 +44,7 @@ vlan 50
 #### 🔷 Assign server interfaces to the INET server VLAN.
 
 ```bash
-interface range g1/0/2-24
+interface range g1/0/1-24
  switchport mode access
  switchport access vlan 50
 ```
