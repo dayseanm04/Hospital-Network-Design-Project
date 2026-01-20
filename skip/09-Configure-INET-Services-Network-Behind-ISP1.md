@@ -1,12 +1,11 @@
-# 🌐 Configure INET Services Network Behind ISP1
+# 🌐 Configure INET Servers IP 
 
-In this task, I will configure the **INET services network** that sits **behind ISP1**.  
+In this task, I will configure the **INET Srvers** IP addresses 
 
 This network represents external Internet services that the **hospital network accesses through ISP1**.
 
 ## 🎯 Objectives
 
-- ✅ Configure the ISP1 interface connected to the INET network
 - ✅ Build the INET services LAN
 - ✅ Assign **static IP addresses** to Internet service servers
 - ✅ Configure hostnames and interface descriptions
@@ -54,7 +53,8 @@ ip address 10.20.20.1 255.255.255.0
 no shutdown
 ```
 
----
+
+## 🖥️ INET Servers interfaces on INET-SW
 
 | Device   | Role        | Switch  | Switch Interface |
 | -------- | ----------- | ------- | ---------------- |
@@ -86,9 +86,3 @@ ping 10.20.20.30
 **The Ping were successful✅**
 
 <img width="894" height="380" alt="Ping-Test" src="https://github.com/user-attachments/assets/239dc049-0429-4703-965b-dc0b5b40e13b" />
-
-
-
-
-
-
