@@ -97,6 +97,8 @@ interface port-channel15
  ip address 69.45.12.2 255.255.255.252
 ```
 
+## Configure Firewall Outside Interface
 
+#### On HS-CORE-FW1, assign the Port-Channel as the outside interface:
 
 
