@@ -14,7 +14,8 @@ This includes creating the VLAN and configuring an **SVI (Switched Virtual Inter
 
 ## Topology For Reference
 
-<img width="745" height="301" alt="reference-topology" src="https://github.com/user-attachments/assets/73b21ac5-75e3-407e-8ebe-3b05a0f6bf89" />
+<img width="576" height="204" alt="topology" src="https://github.com/user-attachments/assets/d8727e23-3da6-49e8-b572-f60a8c3e2116" />
+
 
 ---
 
