@@ -31,7 +31,7 @@ In this task, I will configure a **default routes on the core firewall (HS-CORE-
 
 ## ⚙️ Default Route Configuration (HS-CORE-FW1)
 
-Enter global configuration mode on **HS-CORE-FW1**, then configure the following default routes:
+Enter global configuration mode on **HS-CORE-FW1**, then configure the default route:
 
 ```bash
 route outside 0.0.0.0 0.0.0.0 69.45.12.1
