@@ -37,7 +37,7 @@ Enter global configuration mode on **HS-CORE-FW1**, then configure the default r
 route outside 0.0.0.0 0.0.0.0 69.45.12.1
 ```
 
-**Note:** This route will allow the firewall to forward internet-bound traffic to ISP1
+**Note:** This route will allow the firewall to forward internet-bound traffic to ISP1 (Port Channel15)
 
 ## 🧪 Verification
 
