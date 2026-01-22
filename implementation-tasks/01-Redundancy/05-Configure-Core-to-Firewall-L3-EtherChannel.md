@@ -101,8 +101,13 @@ interface port-channel 1
  no shutdown
 ```
 
+## ✅ Verification
 
+#### On HS-CORE-R1:
 
+```bash
+show etherchannel summary
+```
 
 
 
