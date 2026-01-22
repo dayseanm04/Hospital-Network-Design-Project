@@ -77,7 +77,7 @@ network 10.0.0.11 0.0.0.0 area 0
 ### 8️⃣ Enable OSPF on the HS-CORE-R1 ↔ DSW2 /30 link
 
 ```bash 
-network 10.255.0.4 0.0.0.3 area 0`
+network 10.255.0.4 0.0.0.3 area 0
 ```
 
 ---
