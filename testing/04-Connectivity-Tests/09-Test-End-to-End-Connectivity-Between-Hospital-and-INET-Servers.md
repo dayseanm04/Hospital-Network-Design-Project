@@ -39,3 +39,8 @@ It confirms:
 ---
 
 
+### 🔍 Action
+Ping each INET server public IP From **HS-CORE-FW1** :
+
+
+
