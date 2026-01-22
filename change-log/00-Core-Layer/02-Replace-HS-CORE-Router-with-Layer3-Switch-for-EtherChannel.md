@@ -29,3 +29,16 @@ Core / Security
 When I started this hospital network design project the Hospital I used a **single routed link** between **HS-CORE-R1** and **HS-CORE-FW1**.  
 If that link failed, the **entire hospital LAN would lose connectivity**, creating a single point of failure.
 
+To improve availability, I added an additional connection to the firewall.  
+However, due to **Cisco Packet Tracer limitations**, I couldnt configured **Layer 3 EtherChannel** on the router (Cisco PAcket Tracer Limitation).
+
+
+
+
+
+
+
+
+
+
+
