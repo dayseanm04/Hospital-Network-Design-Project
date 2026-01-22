@@ -30,8 +30,10 @@ When I started this hospital network design project the Hospital I used a **sing
 If that link failed, the **entire hospital LAN would lose connectivity**, creating a single point of failure.
 
 To improve availability, I added an additional connection to the firewall.  
-However, due to **Cisco Packet Tracer limitations**, I couldnt configured **Layer 3 EtherChannel** on the router (Cisco PAcket Tracer Limitation).
+However, due to **Cisco Packet Tracer limitations**, I couldnt configured **Layer 3 EtherChannel** on the router (Cisco Packet Tracer Limitation).
 
+To support a **redundant Layer 3 Port-Channel**, **HS-CORE-R1 was replaced with a Layer 3 switch**.  
+I configured **static L3 EtherChannel (Port-channel 1)** between **HS-CORE-R1 and HS-CORE-FW1**, providing redundancy and higher bandwidth at the hospital core.
 
 
 
