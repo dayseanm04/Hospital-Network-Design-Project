@@ -26,3 +26,14 @@ This design removes the **single point of failure** created by a single uplink b
 - Verify EtherChannel
 
 ---
+
+## 🔌 Physical Connections
+
+| Device | Interface | Connected To | Interface |
+|------|----------|-------------|-----------|
+| HS-CORE-R1 | G1/1/1 | HS-CORE-FW1 | G1/1 |
+| HS-CORE-R1 | G1/1/2 | HS-CORE-FW1 | G1/2 |
+| HS-CORE-R1 | G1/1/3 | DSW1 | G1/1/1 |
+| HS-CORE-R1 | G1/1/4 | DSW2 | G1/1/1 |
+
+
