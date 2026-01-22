@@ -67,6 +67,15 @@ interface g1/2
  channel-group 1 mode on
 ```
 
+### 🧩  Configure Port-channel1 IP address
+
+```bash
+interface port-channel 1
+ ip address 10.255.255.1 255.255.255.252
+ no shutdown
+ nameif inside
+```
+
 ## ✅ Step 2 - Enable Routing on HS-CORE-R1
 
 #### 🔹 On HS-CORE-R1, enable Layer 3 routing:
@@ -75,8 +84,9 @@ interface g1/2
 ip routing
 ```
 
+## ✅ Step 3 - Configure EtherChannel on HS-CORE-R1 (Static “on”)
 
-
+### 🧩 Add firewall interfaces to Port-Channel 1
 
 
 
