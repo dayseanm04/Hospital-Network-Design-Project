@@ -41,8 +41,7 @@ I configured **static L3 EtherChannel (Port-channel 1)** between **HS-CORE-R1 an
 - Improve **core network resilience and uptime**
 - Align the hospital design with **enterprise high-availability best practices**
 
-
-
+## 🔗 Related Task / Design Doc
 
 
 
