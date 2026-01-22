@@ -59,8 +59,6 @@ Connect the firewall to the hospital core router.
 |---------------|----------------------|-------|
 | G1/1/1 | HS-CORE-R1 G1/1/4 | Fiber |
 
-✔️ These connections will support redundancy and load balancing.
-
 ---
 
 ## 🔄 7. Distribution Switch Interconnection
