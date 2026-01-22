@@ -47,7 +47,7 @@ Ping each INET server public IP From **HS-CORE-FW1** :
 
 ✅ The pings test were successful
 
-
+## ✅ Test 2 — INET Servers to Hospital Reachability
 
 
 
