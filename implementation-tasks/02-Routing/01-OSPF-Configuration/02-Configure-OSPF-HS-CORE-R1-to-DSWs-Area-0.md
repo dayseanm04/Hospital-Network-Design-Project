@@ -64,7 +64,8 @@ network 10.255.0.0 0.0.0.3 area 0
 
 ### 6️⃣ Enter OSPF process 1
 
-```bashrouter ospf 1
+```bash
+router ospf 1
 ```
 
 ### 7️⃣ Enable OSPF on the DSW2 loopback interface
