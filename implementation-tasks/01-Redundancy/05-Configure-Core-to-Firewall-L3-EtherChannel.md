@@ -47,3 +47,20 @@ This design removes the **single point of failure** created by a single uplink b
 
 ---
 
+# 🛠 Step-by-Step Configuration
+
+---
+
+## ✅ Step 1 - Configure EtherChannel on HS-CORE-FW1 (Static)
+
+### 🧩 Add firewall interfaces to Port-Channel 1
+
+```bash
+interface g1/1
+ no shutdown
+ channel-group 1 mode on
+```
+
+
+
+
