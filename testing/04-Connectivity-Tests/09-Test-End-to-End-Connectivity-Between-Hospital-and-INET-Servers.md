@@ -65,7 +65,7 @@ Ping each INET server public IP From **HS-CORE-FW1** :
 
 ## Verify NAT Translations on ISP1-R1
 
-
+#### 🟢 On ISP1-R1 show ip nat translations
 
 
 
