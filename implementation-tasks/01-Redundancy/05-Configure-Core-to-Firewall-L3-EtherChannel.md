@@ -15,3 +15,14 @@ This design removes the **single point of failure** created by a single uplink b
 
 <img width="483" height="313" alt="topology" src="https://github.com/user-attachments/assets/959b455c-c96c-459f-8a54-6ca557f24bb3" />
 
+---
+
+## 🎯 Goals
+
+- Connect the Distribution Switches and HS-CORE-FW1 to the new HS-CORE-R1
+- Bundle them into **Port-channel 1**
+- Assign in IP address for the Port-Channel
+- Set the firewall Port-Channel as the **inside** interface
+- Verify EtherChannel
+
+---
