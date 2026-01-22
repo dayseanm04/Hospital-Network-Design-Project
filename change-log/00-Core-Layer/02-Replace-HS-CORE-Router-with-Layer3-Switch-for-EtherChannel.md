@@ -18,3 +18,8 @@ Core / Security
 - DSW1
 - DSW2
 
+## ⚙️ Change Type
+- Device Replacement
+- Layer 3 EtherChannel
+- Core Uplink Redundancy
+
