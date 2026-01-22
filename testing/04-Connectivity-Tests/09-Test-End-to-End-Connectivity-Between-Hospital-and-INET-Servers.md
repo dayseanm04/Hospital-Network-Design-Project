@@ -61,6 +61,8 @@ Ping each INET server public IP From **HS-CORE-FW1** :
 
 <img width="951" height="379" alt="INET-NTP-SRV-ping-HS-CORE-FW1" src="https://github.com/user-attachments/assets/ba8db1a6-96eb-413f-af5e-b968e1815de4" />
 
+✅ The pings test were successful
+
 
 
 
