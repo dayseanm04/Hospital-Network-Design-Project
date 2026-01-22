@@ -16,3 +16,11 @@ It confirms:
 - Successful **NAT translations** on the ISP1 R1
 
 ---
+
+## 🎯 Test Objectives
+
+- Verify hospital → INET server reachability
+- Verify INET server → hospital reachability
+- Confirm NAT translations
+
+---
