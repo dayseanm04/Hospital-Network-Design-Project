@@ -21,9 +21,6 @@ The goal is to ensure all devices are **properly connected and ready for configu
 ## 🧠 3. Hospital Core Router Information
 - Device: Cisco 3650-24PS
 - Hostname: HS-Core-R1
-- Interfaces:
-  - G0/0 – G0/1 → Gigabit Ethernet
-  - G0/2 – G0/9 → Fiber
 
 ## 🔗 4. ISP to Hospital Core Firewall Connections
 Connect the ISP router to the hospital firewall for security and redundancy.
