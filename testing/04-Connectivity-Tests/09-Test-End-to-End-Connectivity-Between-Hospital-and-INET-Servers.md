@@ -49,6 +49,9 @@ Ping each INET server public IP From **HS-CORE-FW1** :
 
 ## ✅ Test 2 — INET Servers to Hospital Reachability
 
+#### 🟢 From INET-DNS-SRV ping HS-CORE-FW1:
+
+<img width="915" height="368" alt="INET-DNS-SRV-ping-HS-CORE-FW1" src="https://github.com/user-attachments/assets/8cbd0a0e-8a5c-4557-bed9-56134ea7e0db" />
 
 
 
