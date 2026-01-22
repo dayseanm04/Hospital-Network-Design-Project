@@ -63,7 +63,7 @@ Ping each INET server public IP From **HS-CORE-FW1** :
 
 ✅ The pings test were successful
 
-
+## Verify NAT Translations on ISP1-R1
 
 
 
