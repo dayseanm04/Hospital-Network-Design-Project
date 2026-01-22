@@ -15,7 +15,7 @@ It includes:
 ### 🔹 HS-CORE-FW1 ↔ HS-CORE-R1 
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) | OSPF Area |
 |---|---|---|---|---|---|---|---|---|
-| HS-CORE-FW1 HS-CORE-R1 | HS-CORE-FW1 | G1/7 | 10.255.255.1 | HS-CORE-R1 | G0/0 | 10.255.255.2 | 10.255.255.0/30 | Area 0 |
+| HS-CORE-FW1 HS-CORE-R1 | HS-CORE-FW1 | Po1 | 10.255.255.1 | HS-CORE-R1 | Po1 | 10.255.255.2 | 10.255.255.0/30 | Area 0 |
 
 ---
 
