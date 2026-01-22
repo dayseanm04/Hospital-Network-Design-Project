@@ -9,3 +9,4 @@ This design removes the **single point of failure** created by a single uplink b
 - ✅ Redundancy (link failover)
 - ✅ Higher bandwidth
 
+**📝 Note:** To implement L3 EtherChannel in Cisco Packet Tracer, **I changed the Router to a Layer 3 switch**.
