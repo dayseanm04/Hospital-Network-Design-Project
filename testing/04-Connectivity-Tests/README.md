@@ -4,6 +4,12 @@
 
 <img width="955" height="271" alt="topology" src="https://github.com/user-attachments/assets/33782981-f1d4-47ca-a0f0-369fcc8c2dad" />
 
+## 🧠 Topology 
+
+### Hospital ↔ ISP
+- **HS-CORE-FW1 Port-Channel15 IP:** `69.45.12.2`
+- **ISP1 Port-Channel15 IP:** `69.45.12.1
+
 ---
 
 ## 📌 Overview
@@ -24,3 +30,4 @@ It confirms:
 - Confirm NAT translations
 
 ---
+
