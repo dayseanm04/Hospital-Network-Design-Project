@@ -7,8 +7,6 @@ The goal is to ensure all devices are **properly connected and ready for configu
 ## 🛜 1. ISP1 Router Information
 - Device Type: Cisco 3650-24PS
 - Hostname: ISP1-R1
-- Interfaces:
-  - G1/1/1 – G1/1/4 → Gigabit Ethernet
  
 ---
 
@@ -21,7 +19,7 @@ The goal is to ensure all devices are **properly connected and ready for configu
 ---
 
 ## 🧠 3. Hospital Core Router Information
-- Device: Cisco PT-Router
+- Device: Cisco 3650-24PS
 - Hostname: HS-Core-R1
 - Interfaces:
   - G0/0 – G0/1 → Gigabit Ethernet
