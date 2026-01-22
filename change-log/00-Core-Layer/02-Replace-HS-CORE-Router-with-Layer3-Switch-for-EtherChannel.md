@@ -10,3 +10,11 @@ January 22 2026
 
 ## 📍 Layer
 Core / Security
+
+## 🖥 Devices Affected
+
+- HS-CORE-R1 (Router → Layer 3 Switch)
+- HS-CORE-FW1
+- DSW1
+- DSW2
+
