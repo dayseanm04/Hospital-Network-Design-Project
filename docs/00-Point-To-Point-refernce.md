@@ -24,8 +24,8 @@ It includes:
 ### 🔹 DSW ↔ HS-CORE-R1
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
-| DSW1 to HS-CORE-R1 | HS-CORE-R1 | G2/0  | 10.255.0.1 | DSW1 | G1/1/1 | 10.255.0.2 | 10.255.0.0/30 |
-|  DSW2 to HS-CORE-R1 | HS-CORE-R1 | G3/0 | 10.255.0.5 | DSW2 | G1/1/1 | 10.255.0.6 | 10.255.0.4/30 |
+| DSW1 to HS-CORE-R1 | HS-CORE-R1 | G1/1/3  | 10.255.0.1 | DSW1 | G1/1/1 | 10.255.0.2 | 10.255.0.0/30 |
+|  DSW2 to HS-CORE-R1 | HS-CORE-R1 | G1/1/4 | 10.255.0.5 | DSW2 | G1/1/1 | 10.255.0.6 | 10.255.0.4/30 |
 
 ---
 
