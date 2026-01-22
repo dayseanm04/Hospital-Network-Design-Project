@@ -40,3 +40,7 @@ It confirms:
 | INET-WEB-SRV | Web | 200.10.0.4 |
 | INET-NTP-SRV | NTP | 200.10.0.6 |
 
+### 🔍 Action
+Ping each INET server public IP from HS-CORE-FW1:
+
+
