@@ -36,4 +36,14 @@ This design removes the **single point of failure** created by a single uplink b
 | HS-CORE-R1 | G1/1/3 | DSW1 | G1/1/1 |
 | HS-CORE-R1 | G1/1/4 | DSW2 | G1/1/1 |
 
+---
+
+## 🧠 Port-Channel 1 IP Addressing
+
+| Device | Logical Interface | IP Address | Subnet Mask | Network |
+|------|-------------------|-----------|------------|---------|
+| HS-CORE-FW1 | Port-channel1 | 10.255.255.1 | 255.255.255.252 | 10.255.255.0/30 |
+| HS-CORE-R1 | Port-channel1 | 10.255.255.2 | 255.255.255.252 | 10.255.255.0/30 |
+
+---
 
