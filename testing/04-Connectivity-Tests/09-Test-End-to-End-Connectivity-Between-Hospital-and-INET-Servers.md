@@ -67,6 +67,7 @@ Ping each INET server public IP From **HS-CORE-FW1** :
 
 #### 🟢 On ISP1-R1 show ip nat translations
 
+<img width="1026" height="384" alt="ISP1-R1-nat-translations" src="https://github.com/user-attachments/assets/937173ee-f2b1-4b37-aaa9-9ec92a68701e" />
 
 
 
