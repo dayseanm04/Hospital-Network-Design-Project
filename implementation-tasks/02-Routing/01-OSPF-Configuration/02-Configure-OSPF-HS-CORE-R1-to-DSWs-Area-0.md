@@ -25,8 +25,7 @@
 #### ♦️ In global config mode:
 
 ```bash
-enable
-configure terminal
+router ospf 1
 ```
 
 ### 2️⃣ Enable OSPF for all DSW-connected interfaces (10.255.0.0/24)
