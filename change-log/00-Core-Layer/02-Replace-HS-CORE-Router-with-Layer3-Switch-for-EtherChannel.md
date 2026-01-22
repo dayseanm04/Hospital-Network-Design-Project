@@ -35,7 +35,11 @@ However, due to **Cisco Packet Tracer limitations**, I couldnt configured **Laye
 To support a **redundant Layer 3 Port-Channel**, **HS-CORE-R1 was replaced with a Layer 3 switch**.  
 I configured **static L3 EtherChannel (Port-channel 1)** between **HS-CORE-R1 and HS-CORE-FW1**, providing redundancy and higher bandwidth at the hospital core.
 
-
+## 🎯 Reason
+- Eliminate the **single point of failure** between the core router and firewall
+- Enable **Layer 3 EtherChannel**, which is not supported on routers in Packet Tracer
+- Improve **core network resilience and uptime**
+- Align the hospital design with **enterprise high-availability best practices**
 
 
 
