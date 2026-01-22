@@ -9,6 +9,12 @@ It confirms:
 - **EtherChannel** from ISP1-R1 to the Hospital is working properly
 - Successful **NAT translations**
 
+## 🧠 Topology Context (Key Interfaces)
+
+### Hospital ↔ ISP
+- **HS-CORE-FW1 Port-Channel15 IP:** `69.45.12.2`
+- **ISP1 Port-Channel15 IP:** `69.45.12.1`
+
 ## Reference Test Area
 
 <img width="955" height="271" alt="topology" src="https://github.com/user-attachments/assets/551dcbda-fffc-477a-b147-ab2f41966938" />
@@ -21,3 +27,4 @@ It confirms:
 - Confirm INET NAT translations
 
 ---
+
