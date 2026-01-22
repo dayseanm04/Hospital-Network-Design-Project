@@ -19,7 +19,13 @@ Core / Security
 - DSW2
 
 ## ⚙️ Change Type
+
 - Device Replacement
 - Layer 3 EtherChannel
 - Core Uplink Redundancy
+
+## 📝 Description
+
+When I started this hospital network design project the Hospital I used a **single routed link** between **HS-CORE-R1** and **HS-CORE-FW1**.  
+If that link failed, the **entire hospital LAN would lose connectivity**, creating a single point of failure.
 
