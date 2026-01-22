@@ -111,9 +111,13 @@ show etherchannel summary
 
 <img width="686" height="367" alt="HS-CORE-R1-etherchannel" src="https://github.com/user-attachments/assets/2cf6c74b-25e6-445b-ab6a-0b7070d80134" />
 
+#### On HS-CORE-R1:
 
+```bash
+show ip interface brief | include Port-channel
+```
 
-
+<img width="797" height="85" alt="HS-CORE-R1-ip" src="https://github.com/user-attachments/assets/824b428b-86ce-41ae-8471-27ed0527233a" />
 
 
 
