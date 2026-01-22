@@ -88,6 +88,13 @@ ip routing
 
 ### 🧩 Add firewall interfaces to Port-Channel 1
 
+```bash
+interface range g1/1/1-2
+ channel-group 1 mode on
+```
+
+
+
 
 
 
