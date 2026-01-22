@@ -44,6 +44,8 @@ Ping each INET server public IP From **HS-CORE-FW1** :
 
 <img width="848" height="406" alt="HS-CORE-FW1-Ping" src="https://github.com/user-attachments/assets/e003621c-316b-472a-a7d2-66809795dc48" />
 
+✅ The pings test were successful
+
 
 
 
