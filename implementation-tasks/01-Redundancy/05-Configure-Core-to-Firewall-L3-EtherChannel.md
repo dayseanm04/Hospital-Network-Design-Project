@@ -109,6 +109,7 @@ interface port-channel 1
 show etherchannel summary
 ```
 
+<img width="686" height="367" alt="HS-CORE-R1-etherchannel" src="https://github.com/user-attachments/assets/2cf6c74b-25e6-445b-ab6a-0b7070d80134" />
 
 
 
