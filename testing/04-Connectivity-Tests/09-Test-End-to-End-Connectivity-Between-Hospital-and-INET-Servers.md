@@ -57,7 +57,9 @@ Ping each INET server public IP From **HS-CORE-FW1** :
 
 <img width="805" height="385" alt="INET-HTTP-SRV-ping-HS-CORE-FW1" src="https://github.com/user-attachments/assets/2cefe1e2-225e-4321-b602-fd90e3782f45" />
 
+#### 🟢 From INET-NTP-SRV ping HS-CORE-FW1:
 
+<img width="951" height="379" alt="INET-NTP-SRV-ping-HS-CORE-FW1" src="https://github.com/user-attachments/assets/ba8db1a6-96eb-413f-af5e-b968e1815de4" />
 
 
 
