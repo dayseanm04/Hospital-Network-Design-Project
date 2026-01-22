@@ -38,6 +38,7 @@ It confirms:
 
 ---
 
+## ✅ Test 1 — Hospital to INET Server Reachability
 
 ### 🔍 Action
 Ping each INET server public IP From **HS-CORE-FW1** :
