@@ -28,3 +28,14 @@ It confirms:
 
 ---
 
+## 🌐 INET Servers (Public IPs)
+
+| Server | Function | Public IP |
+|------|---------|-----------|
+| INET-DNS-SRV | DNS | 200.10.0.2 |
+| INET-WEB-SRV | Web | 200.10.0.4 |
+| INET-NTP-SRV | NTP | 200.10.0.6 |
+
+---
+
+
