@@ -78,6 +78,14 @@ On **HS-CORE-R1**, enable Layer 3 routing:
 ip routing
 ```
 
+## ✅ Step 3 — Configure EtherChannel on HS-CORE-R1 (Static)
+
+### 🧩 Add core interfaces to Port-Channel 1
+
+```bash
+interface range g1/1/1-2
+ channel-group 1 mode on
+```
 
 
 
