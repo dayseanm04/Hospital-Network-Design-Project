@@ -87,8 +87,13 @@ interface range g1/1/1-2
  channel-group 1 mode on
 ```
 
+### 🧩 Configure Port-channel1 IP address
 
-
+```bash
+interface port-channel 1
+ ip address 10.255.255.2 255.255.255.252
+ no shutdown
+```
 
 
 
