@@ -34,7 +34,7 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 ## Reference Diagram
 
-<img width="534" height="346" alt="ISP1-connection" src="https://github.com/user-attachments/assets/16246015-5fa8-41d4-af06-3d28f922c77a" />
+<img width="807" height="314" alt="topology" src="https://github.com/user-attachments/assets/c862c60c-5e92-4b01-ac71-5320c72c7576" />
 
 
 ## ✅ Verification
