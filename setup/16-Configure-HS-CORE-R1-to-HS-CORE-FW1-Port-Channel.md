@@ -107,12 +107,13 @@ show etherchannel summary
 
 ### Ping Test 
 
-From **HS-CORE-R1** ping HS-CORE-FW1 Port-Channel1:
+#### 🟢 From HS-CORE-R1 ping HS-CORE-FW1 Port-Channel1:
 
 ```bash
 ping 10.255.255.1
 ```
 
+<img width="856" height="151" alt="HS-CORE-FW1-ping" src="https://github.com/user-attachments/assets/540351c8-090e-4b94-9998-50e06170b5ef" />
 
 
 
