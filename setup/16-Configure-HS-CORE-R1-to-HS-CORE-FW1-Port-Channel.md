@@ -18,3 +18,15 @@ This design removes the **single point of failure** created by a single uplink b
 
 <img width="483" height="313" alt="topology" src="https://github.com/user-attachments/assets/642f493d-b5b0-436e-b8d2-c4658b34ed3b" />
 
+---
+
+
+## 🔌 Physical Connections
+
+| Device | Interface | Connected To | Interface |
+|------|----------|-------------|-----------|
+| HS-CORE-R1 | G1/1/1 | HS-CORE-FW1 | G1/1 |
+| HS-CORE-R1 | G1/1/2 | HS-CORE-FW1 | G1/2 |
+| HS-CORE-R1 | G1/1/3 | DSW1 | G1/1/1 |
+| HS-CORE-R1 | G1/1/4 | DSW2 | G1/1/1 |
+
