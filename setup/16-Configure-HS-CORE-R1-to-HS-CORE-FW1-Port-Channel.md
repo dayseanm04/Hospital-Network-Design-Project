@@ -63,6 +63,11 @@ interface g1/2
 
 ### 🧩 Configure Port-channel1 IP address
 
-
+```bash
+interface port-channel 1
+ ip address 10.255.255.1 255.255.255.252
+ no shutdown
+ nameif inside
+```
 
 
