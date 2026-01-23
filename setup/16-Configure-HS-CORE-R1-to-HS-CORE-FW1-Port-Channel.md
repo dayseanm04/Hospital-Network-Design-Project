@@ -95,6 +95,9 @@ interface port-channel 1
  no shutdown
 ```
 
+## ✅ Verification
+
+### Verify EtherChannel Status (HS-CORE-R1)
 
 
 
