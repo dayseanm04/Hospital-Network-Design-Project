@@ -1,6 +1,6 @@
 # 🔗 Configure Core to Firewall L3 EtherChannel
 
-### Note this is the same as the one in the setup folder [HERE](/setup/15-Configure-HS-CORE-R1-to-HS-CORE-FW1-Port-Channel.md)
+## 📢 Note this is the same as the one in the setup folder [HERE](/setup/15-Configure-HS-CORE-R1-to-HS-CORE-FW1-Port-Channel.md)
 
 
 ## 📌 Overview
