@@ -1,5 +1,4 @@
-
-
+# 🔗 Configure HS-CORE-R1 to HS-CORE-FW1 Port-Channel
 
 ## Reference Topology
 
