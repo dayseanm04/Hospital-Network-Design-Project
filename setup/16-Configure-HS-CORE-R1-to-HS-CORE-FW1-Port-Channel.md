@@ -6,6 +6,13 @@ In this task, I configure a **Layer 3 EtherChannel (static Port-Channel)** betwe
 
 This design removes the **single point of failure** created by a single uplink between the core and firewall.  
 
+## 🎯 Goals
+- Configure Port-Channel for the connection to HS-CORE-FW1
+- Bundle them into **Port-channel 1**
+- Assign routed /30 IP addressing for the Port-Channel
+- Set the firewall Port-Channel as the **inside** interface
+- Verify EtherChannel
+
 
 ## Reference Topology
 
