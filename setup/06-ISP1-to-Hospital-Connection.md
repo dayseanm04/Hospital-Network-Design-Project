@@ -18,7 +18,8 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 | Device | Interface | Connected To | Interface |
 |------|-----------|--------------|-----------|
-| ISP1-R1 | Gi9/0 | HS-CORE-FW1 | Gi1/8 |
+| ISP1-R1 | G1/1/1 | HS-CORE-FW1 | Gi1/8 |
+| ISP1-R1 | G1/1/2 | HS-CORE-FW1 | Gi1/6 |
 
 ---
 
@@ -26,8 +27,8 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 | Device | Interface | IP Address | Subnet Mask | Network |
 |------|-----------|------------|-------------|---------|
-| ISP1-R1 | Gi9/0 | 69.45.12.1 | 255.255.255.252 | 69.45.12.0/30 |
-| HS-CORE-FW1 | Gi1/8 | 69.45.12.2 | 255.255.255.252 | 69.45.12.0/30 |
+| ISP1-R1 | Po15 | 69.45.12.1 | 255.255.255.252 | 69.45.12.0/30 |
+| HS-CORE-FW1 | Po15 | 69.45.12.2 | 255.255.255.252 | 69.45.12.0/30 |
 
 --- 
 
