@@ -70,4 +70,22 @@ interface port-channel 1
  nameif inside
 ```
 
+## ✅ Step 2 - Enable Routing on HS-CORE-R1
+
+On **HS-CORE-R1**, enable Layer 3 routing:
+
+```bash
+ip routing
+```
+
+
+
+
+
+
+
+
+
+
+
 
