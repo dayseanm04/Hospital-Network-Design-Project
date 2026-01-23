@@ -104,3 +104,22 @@ show etherchannel summary
 ```
 
 <img width="686" height="367" alt="HS-CORE-R1-etherchannel" src="https://github.com/user-attachments/assets/3927ebc1-a718-4c8a-af66-5c2dadc4a36a" />
+
+### Ping Test 
+
+From **HS-CORE-R1** ping HS-CORE-FW1 Port-Channel1:
+
+```bash
+ping 10.255.255.1
+```
+
+
+
+
+
+
+
+
+
+
+
