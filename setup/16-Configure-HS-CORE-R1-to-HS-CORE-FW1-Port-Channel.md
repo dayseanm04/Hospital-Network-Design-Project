@@ -115,12 +115,10 @@ ping 10.255.255.1
 
 <img width="856" height="151" alt="HS-CORE-FW1-ping" src="https://github.com/user-attachments/assets/540351c8-090e-4b94-9998-50e06170b5ef" />
 
+#### 🟢 From HS-CORE-FW1 ping HS-CORE-FW1 Port-Channel1:
 
+```bash
+ping 10.255.255.2
+```
 
-
-
-
-
-
-
-
+<img width="961" height="150" alt="HS-CORE-R1-ping" src="https://github.com/user-attachments/assets/be12dbaa-2331-42a6-ba04-d4602e135b1c" />
