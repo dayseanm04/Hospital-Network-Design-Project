@@ -122,3 +122,5 @@ ping 10.255.255.2
 ```
 
 <img width="961" height="150" alt="HS-CORE-R1-ping" src="https://github.com/user-attachments/assets/be12dbaa-2331-42a6-ba04-d4602e135b1c" />
+
+✅ A redundant Layer 3 EtherChannel (Port-channel1) is now established between the Hospital Core and the Core Firewall, eliminating a single point of failure and improving overall core network resilience.
