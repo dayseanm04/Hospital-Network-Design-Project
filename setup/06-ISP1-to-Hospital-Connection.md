@@ -41,11 +41,8 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 ### On ISP1-R1: show ip interface brief
 
-<img width="818" height="227" alt="ISP1-R1-verify-ip" src="https://github.com/user-attachments/assets/0c30afa9-1082-4d4d-8d66-d9914cad45ca" />
+<img width="860" height="97" alt="ISP1-PC" src="https://github.com/user-attachments/assets/abe0d5e8-e1d5-4c57-b55c-a8f36607cc59" />
 
 ### On HS-CORE-FW1: show ip address
 
-<img width="831" height="229" alt="HS-CORE-FW-verify-ip" src="https://github.com/user-attachments/assets/4d9c47f4-3311-4298-9860-663f4e6ba231" />
-
-
-
+<img width="871" height="119" alt="HS-CORE-FW-PC" src="https://github.com/user-attachments/assets/6fde1ee7-45b7-4453-a657-3e7c56e4a9ca" />
