@@ -99,6 +99,9 @@ interface port-channel 1
 
 ### Verify EtherChannel Status (HS-CORE-R1)
 
+```bash
+show etherchannel summary
+```
 
 
 
