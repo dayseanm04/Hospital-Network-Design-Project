@@ -43,7 +43,8 @@ I configured **static L3 EtherChannel (Port-channel 1)** between **HS-CORE-R1 an
 
 ## 🔗 Related Task / Design Doc
 
-- [**`Configure-HS-CORE-R1-to-HS-CORE-FW1-Port-Channel.md`**](/setup/15-Configure-HS-CORE-R1-to-HS-CORE-FW1-Port-Channel.md)
+- [**`Configure-HS-CORE-R1-to-HS-CORE-FW1-Port-Channel`**](/setup/15-Configure-HS-CORE-R1-to-HS-CORE-FW1-Port-Channel.md)
+- [**`ISP1-to-Hospital-Connection`**](/setup/06-ISP1-to-Hospital-Connection.md)
 
 
 
