@@ -55,4 +55,13 @@ interface g1/1
  channel-group 1 mode on
 ```
 
+```bash
+interface g1/2
+ no shutdown
+ channel-group 1 mode on
+```
+
+
+
+
 
