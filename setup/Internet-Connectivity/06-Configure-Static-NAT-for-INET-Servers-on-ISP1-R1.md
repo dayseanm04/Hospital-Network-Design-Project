@@ -56,7 +56,33 @@ Create one-to-one mappings between private server IPs and public IPs.
 ip nat inside source static 10.20.20.10 200.10.0.2
 ```
 
-➡️ Maps INET DNS-SRV to a public IP.
+➡️ Maps INET DNS-SRV to the public IP.
+
+```bash
+ip nat inside source static 10.20.20.11 200.10.0.4
+```
+
+➡️ Maps INET WEB-SRV to the public IP.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
