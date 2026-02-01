@@ -14,3 +14,13 @@ In this task, I configure static NAT on ISP1-R1 so that the INET servers (DNS, H
 <img width="745" height="301" alt="reference-topology" src="https://github.com/user-attachments/assets/efe4388b-2f59-4b9e-851a-c135db1689ad" />
 
 ---
+
+## 🧠 NAT Design Overview
+
+- **Inside (private) network:** towards the INET network  `10.20.20.0/24`
+- **Outside (public) network:** towards the hospital firewall
+- **NAT type:** Static
+
+---
+
+
