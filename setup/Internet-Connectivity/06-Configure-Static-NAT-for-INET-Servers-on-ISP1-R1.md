@@ -45,14 +45,16 @@ interface Port-channel1
 
 ```bash
 interface Port-channel15
- ip nat inside 
+ ip nat outside 
 ```
 
 ### 2️⃣ Configure Static NAT Mappings
 
+Create one-to-one mappings between private server IPs and public IPs.
 
-
-
+```bash
+ip nat inside source static 10.20.20.10 200.10.0.2
+```
 
 
 
