@@ -94,6 +94,7 @@ INET-DNS-SRV sucessfully ping HS-CORE-FW1 public IP
 
 ### ♦️ show ip nat translations on ISP1-R1 after ping
 
+<img width="819" height="196" alt="ISP1-NAT-TRANSLATIONS-2" src="https://github.com/user-attachments/assets/f107927a-4b03-438f-a99a-40bd83dfbfcc" />
 
 
 
