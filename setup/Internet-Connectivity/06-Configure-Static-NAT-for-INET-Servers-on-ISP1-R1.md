@@ -84,7 +84,7 @@ ip nat inside source static 10.20.20.12 200.10.0.6
 
 <img width="807" height="135" alt="ISP1-NAT-TRANSLATIONS" src="https://github.com/user-attachments/assets/695c30dc-ab58-41c5-bf7b-e3e4160a5205" />
 
-<br/><br/>
+<br/>
 
 Ping the Public IP of HS-CORE-FW1 from INET-DNS-SRV
 
