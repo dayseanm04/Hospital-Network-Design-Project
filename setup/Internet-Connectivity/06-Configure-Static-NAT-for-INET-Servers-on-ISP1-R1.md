@@ -80,7 +80,7 @@ ip nat inside source static 10.20.20.12 200.10.0.6
 
 ## 🔍 Verification
 
-### show ip nat translations on ISP1-R1
+### ♦️ show ip nat translations on ISP1-R1
 
 <img width="807" height="135" alt="ISP1-NAT-TRANSLATIONS" src="https://github.com/user-attachments/assets/695c30dc-ab58-41c5-bf7b-e3e4160a5205" />
 
@@ -91,6 +91,8 @@ Ping the Public IP of HS-CORE-FW1 from INET-DNS-SRV
 <img width="708" height="376" alt="INET-DNS-SRV-ping-public-IP" src="https://github.com/user-attachments/assets/360ea5a9-56cb-4fc9-8ab9-0b2aa702d6a2" />
 
 INET-DNS-SRV sucessfully ping HS-CORE-FW1 public IP
+
+### ♦️ show ip nat translations on ISP1-R1 after ping
 
 
 
