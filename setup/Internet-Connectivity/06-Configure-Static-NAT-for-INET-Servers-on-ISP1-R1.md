@@ -34,9 +34,9 @@ In this task, I configure static NAT on ISP1-R1 so that the INET servers (DNS, H
 
 ## ⚙️ Configue ISP1-R1
 
-### 🔶 In GlobaLl config mode
+🔶 In Global config mode
 
-#### 1️⃣ Configue NAT Interfaces
+### 1️⃣ Configue NAT Interfaces
 
 ```bash
 interface Port-channel1
@@ -47,5 +47,19 @@ interface Port-channel1
 interface Port-channel15
  ip nat inside 
 ```
+
+### 2️⃣ Configure Static NAT Mappings
+
+
+
+
+
+
+
+
+
+
+
+
 
 
