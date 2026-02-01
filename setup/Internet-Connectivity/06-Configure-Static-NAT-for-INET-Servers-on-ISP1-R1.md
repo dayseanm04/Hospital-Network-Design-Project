@@ -90,7 +90,7 @@ Ping the Public IP of HS-CORE-FW1 from INET-DNS-SRV
 
 <img width="708" height="376" alt="INET-DNS-SRV-ping-public-IP" src="https://github.com/user-attachments/assets/360ea5a9-56cb-4fc9-8ab9-0b2aa702d6a2" />
 
-
+INET-DNS-SRV sucessfully ping HS-CORE-FW1 public IP
 
 
 
