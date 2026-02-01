@@ -34,10 +34,14 @@ In this task, I configure static NAT on ISP1-R1 so that the INET servers (DNS, H
 
 ## ⚙️ Configue ISP1-R1
 
-### 🔹 In GlobaLl config mode
+### 🔶 In GlobaLl config mode
 
 #### 1️⃣ Configue NAT Interfaces
 
+```bash
+interface Port-channel1
+ ip nat inside 
+```
 
 
 
