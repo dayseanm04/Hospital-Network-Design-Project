@@ -43,6 +43,9 @@ interface Port-channel1
  ip nat inside 
 ```
 
-
+```bash
+interface Port-channel15
+ ip nat inside 
+```
 
 
