@@ -17,4 +17,10 @@ Redesign topology
 I changed the position of the core router and firewall in the network topology.
 The core router (HS-CORE-R1) is now positioned in front of the firewall (HS-CORE-FW1), with the firewall placed behind the router.
 
+## 🎯 Reason
+The Core router will handle routing and NAT
+
+
+
+
 
