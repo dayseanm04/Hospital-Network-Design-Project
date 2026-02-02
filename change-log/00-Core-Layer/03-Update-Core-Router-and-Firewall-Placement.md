@@ -6,6 +6,8 @@
 ## 📍 Layer
 Core / Security
 
-
+## 🖥 Devices Affected
+- HS-CORE-FW1
+- HS-CORE-R1
 
 
