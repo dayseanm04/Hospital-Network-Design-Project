@@ -10,4 +10,6 @@ Core / Security
 - HS-CORE-FW1
 - HS-CORE-R1
 
+## ⚙️ Change Type
+Redesign topology
 
