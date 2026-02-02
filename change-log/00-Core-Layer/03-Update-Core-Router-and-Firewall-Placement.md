@@ -13,3 +13,8 @@ Core / Security
 ## ⚙️ Change Type
 Redesign topology
 
+## 📝 Description
+I changed the position of the core router and firewall in the network topology.
+The core router (HS-CORE-R1) is now positioned in front of the firewall (HS-CORE-FW1), with the firewall placed behind the router.
+
+
