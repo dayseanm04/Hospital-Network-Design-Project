@@ -15,3 +15,12 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 ---
 
+## 🧠 Design Change Overview
+
+**Before**
+- Single ISP
+- Single edge path (HS-CORE-R1 i renamed it HS-EDGE-R1)
+
+
+
+
