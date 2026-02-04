@@ -25,6 +25,10 @@ In this task, I will expand the **hospital network design**. I will add a second
 - Dual ISP connectivity
 - Redundant edge routers and firewall paths
 
+## 🌍 ISP Overview
+| ISP | Purpose |
+|---|---|
+| ISP1 | Primary Internet provider |
 
 
 
