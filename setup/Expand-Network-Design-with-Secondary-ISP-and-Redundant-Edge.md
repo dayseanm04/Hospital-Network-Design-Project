@@ -6,6 +6,7 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 ## 🎯 Objectives
 - ✅ Add a **secondary ISP** for redundancy
+- ✅ Add an **edge router**
 
 
 ## Reference Topology
