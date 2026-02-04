@@ -48,5 +48,6 @@ In this task, I will expand the **hospital network design**. I will add a second
 |---|---|---|
 
 | Po15 | HS-EDGE-R1 ↔ ISP1-R1 | Primary ISP routed uplink |
+| Po15 | HS-EDGE-R2 ↔ ISP2-R1 | Secondary ISP routed uplink |
 
 
