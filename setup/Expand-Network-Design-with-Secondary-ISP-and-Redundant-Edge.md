@@ -42,5 +42,9 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 ## 🔀 Layer 3 Port Channel Summary
 
+### 🔹 ISP ↔ Core / Firewall Links
+
+
+
 
 
