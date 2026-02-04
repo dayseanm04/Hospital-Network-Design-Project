@@ -37,5 +37,6 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 | Device | Role |
 |---|---|
-
+| ISP2-R1 | Secondary ISP router |
+| HS-EDGE-R2 | Secondary Hospital Edge Router |
 
