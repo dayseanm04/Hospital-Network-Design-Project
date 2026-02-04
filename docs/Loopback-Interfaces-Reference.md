@@ -24,6 +24,13 @@ All loopbacks use a **/32 mask** (single-host address).
 
 ---
 
+## 📋 Internet side / ISP side Loopback IP Address Table
+
+| Device | Loopback Interface | IP Address (/32) | Notes |
+|---|---|---|---|
+| **ISP1-R1** | Loopback0 | 10.10.10.10/32 | ISP1-R1 |
+
+
 ## 🛠️ How Loopbacks Are Configured (Generic)
 On each device (in **global config mode**):
 - Create the loopback interface: `interface loopback0`
