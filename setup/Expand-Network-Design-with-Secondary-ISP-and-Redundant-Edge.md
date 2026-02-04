@@ -33,12 +33,14 @@ In this task, I will expand the **hospital network design**. I will add a second
 | ISP2 | Secondary Internet provider (redundancy / failover) |
 
 
-## 🔗 New Edge and ISP Devices
+## 🔗 New Devices
 
 | Device | Role |
 |---|---|
 | ISP2-R1 | Secondary ISP router |
 | HS-EDGE-R2 | Secondary Hospital Edge Router |
+| HS-CORE-R2 | Secondary Core Firewall |
+
 
 ## 🔀 Layer 3 Port Channel Summary
 
