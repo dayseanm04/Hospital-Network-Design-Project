@@ -67,22 +67,8 @@ In this task, I will expand the **hospital network design**. I will add a second
 |---|---|---|
 | Po10 | HS-CORE-FW1 ↔ HS-CORE-FW2 | 10.150.0.0/30 |
 
-### ISP1-R1 to ISP2-R1
+### ♦️ ISP1-R1 to ISP2-R1
 
 | Port Channel | Connected Devices | Network |
 |---|---|---|
 | Po10 | ISP1-R1 ↔ ISP2-R1 | 10.50.50.0/30 |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
