@@ -46,10 +46,10 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 ### ♦️ ISP to Hospital Edge Routers
 
-| Port Channel | Connected Devices | Purpose |
-|---|---|---|
-| Po15 | HS-EDGE-R1 ↔ ISP1-R1 | Primary ISP routed uplink |
-| Po15 | HS-EDGE-R2 ↔ ISP2-R1 | Secondary ISP routed uplink |
+| Port Channel | Connected Devices | Purpose | Network |
+|---|---|---|---|
+| Po15 | HS-EDGE-R1 ↔ ISP1-R1 | Primary ISP routed uplink | 69.45.12.0/30 |
+| Po15 | HS-EDGE-R2 ↔ ISP2-R1 | Secondary ISP routed uplink | 100.45.12.0/30 |
 
 ---
 
