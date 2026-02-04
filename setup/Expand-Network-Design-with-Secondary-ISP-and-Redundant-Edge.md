@@ -26,12 +26,12 @@ In this task, I will expand the **hospital network design**. I will add a second
 - Redundant edge routers and firewall paths
 
 ## 🌍 ISP Overview
+
 | ISP | Purpose |
 |---|---|
 | ISP1 | Primary Internet provider |
 | ISP2 | Secondary Internet provider (redundancy / failover) |
 
----
 
 ## 🔗 New Edge and ISP Devices
 
@@ -56,6 +56,7 @@ In this task, I will expand the **hospital network design**. I will add a second
 | Port Channel | Connected Devices | Network |
 |---|---|---|
 | Po1 | HS-EDGE-R1 ↔ HS-CORE-FW1 | 10.200.0.0/30 |
+| Po1 | HS-EDGE-R2 ↔ HS-CORE-FW2 | 10.200.0.4/30 |
 
 
 
