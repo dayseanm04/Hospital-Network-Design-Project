@@ -30,6 +30,7 @@ All loopbacks use a **/32 mask** (single-host address).
 |---|---|---|---|
 | **ISP1-R1** | Loopback0 | 10.10.10.10/32 | ISP1-R1 |
 | **ISP2-R1** | Loopback0 | 10.10.10.20/32 | ISP2-R1 |
+| **INET-SW** | Loopback0 | 10.10.10.1/32 | INET-SW |
 
 
 ## 🛠️ How Loopbacks Are Configured (Generic)
