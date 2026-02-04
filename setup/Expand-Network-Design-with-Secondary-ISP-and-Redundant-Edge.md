@@ -29,8 +29,9 @@ In this task, I will expand the **hospital network design**. I will add a second
 | ISP | Purpose |
 |---|---|
 | ISP1 | Primary Internet provider |
+| ISP2 | Secondary Internet provider (redundancy / failover) |
 
-
+---
 
 
 
