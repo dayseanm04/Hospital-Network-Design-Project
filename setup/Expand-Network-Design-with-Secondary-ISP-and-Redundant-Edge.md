@@ -42,7 +42,7 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 ## 🔀 Layer 3 Port Channel Summary
 
-### 🔹 ISP ↔ Hospitals Edge Router
+### 🔹 ISP to Hospital Edge Routers
 
 | Port Channel | Connected Devices | Purpose |
 |---|---|---|
@@ -51,7 +51,11 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 ---
 
+### 🔹 Hospital Edge Router to Hospital Core Firewalls
 
+| Port Channel | Connected Devices | Network |
+|---|---|---|
+| Po1 | HS-EDGE-R1 ↔ HS-CORE-FW1 | 10.200.0.0/30 |
 
 
 
