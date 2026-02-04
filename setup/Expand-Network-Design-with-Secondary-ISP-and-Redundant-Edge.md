@@ -1,6 +1,6 @@
 # 🌐 Expand Network Design with Secondary ISP and Redundant Edge Part 1
 
-In this task, I will expand the **hospital network design**. I will add a secondary Router and Firewall.
+In this task, I will expand the **hospital network design**. I will add a secondary Router and Firewall. This improves availability and removes single points of failure at the network edge.
 
 
 ## Reference Topology
