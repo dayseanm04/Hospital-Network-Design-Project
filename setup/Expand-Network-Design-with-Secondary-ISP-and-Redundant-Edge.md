@@ -44,7 +44,9 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 ### 🔹 ISP ↔ Core / Firewall Links
 
+| Port Channel | Connected Devices | Purpose |
+|---|---|---|
 
-
+| Po15 | HS-EDGE-R1 ↔ ISP1-R1 | Primary ISP routed uplink |
 
 
