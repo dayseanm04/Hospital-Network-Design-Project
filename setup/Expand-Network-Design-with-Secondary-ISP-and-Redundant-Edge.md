@@ -72,6 +72,10 @@ In this task, I will expand the **hospital network design**. I will add a second
 |---|---|---|
 | Po10 | HS-CORE-FW1 ↔ HS-CORE-FW2 | 10.150.0.0/30 |
 
+### ♦️ Hospital Core Firewall to Distribution Switches
 
-
+| Port Channel | Connected Devices | Network |
+|---|---|---|
+| Po20 | HS-CORE-FW1 ↔ DSW1 | 10.255.0.0/30 |
+| Po20 | HS-CORE-FW2 ↔ DSW2 | 10.255.0.4/30 |
 
