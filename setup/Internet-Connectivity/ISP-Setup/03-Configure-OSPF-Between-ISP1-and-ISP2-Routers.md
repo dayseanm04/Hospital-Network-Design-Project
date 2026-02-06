@@ -58,8 +58,9 @@ router ospf 10
 
 ## 🔍 Verification
 
-### show ip protocols on ISP1-R1
+### show ip ospf neighbor on ISP1-R1
 
+<img width="847" height="122" alt="ISP1" src="https://github.com/user-attachments/assets/63f2be92-a203-4cae-ba99-74b47d9f2e14" />
 
 
 
