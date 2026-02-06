@@ -25,7 +25,8 @@ It includes:
 
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
-| Edge1 To Core1| HS-EDGE-R1 | Po1 | 10.200.0.1 | DSW1 | Po1 | 10.200.0.2 | 10.200.0.0/30 |
+| Edge1 To Core1 | HS-EDGE-R1 | Po1 | 10.200.0.1 | DSW1 | Po1 | 10.200.0.2 | 10.200.0.0/30 |
+| Edge2 To Core2 | HS-EDGE-R2 | Po1 | 10.200.0.5 | DSW1 | Po1 | 10.200.0.6 | 10.200.0.4/30 |
 
 ---
 
