@@ -30,3 +30,19 @@ ping 69.45.12.2
 
 ✅ ISP1-R1 successfully reached HS-EDGE-R1
 
+### ▶️ Test 1: ISP2 to Hospital Edge Router
+
+From **ISP2-R1**, ping the hospital edge router:
+
+```bash
+ping 100.45.12.2
+```
+
+
+
+
+
+
+
+
+
