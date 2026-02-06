@@ -27,12 +27,12 @@ The goal is to ensure all devices are **properly connected and ready for configu
 ## 🔗 4. ISP to Hospital Edge Roputers Connections
 Connect the ISP router to the hospital edge routers.
 
-| ISP Router Interface | Edge Router Interface |
-|----------------------|--------------------|
-| ISP1-R1 G1/1/1 | HS-EDGE-R1 G1/1/1 |
-| ISP1-R1 G1/1/2 | HS-EDGE-R1 G1/1/2 |
-| ISP2-R1 G1/1/1 | HS-EDGE-R2 G1/1/1 |
-| ISP2-R2 G1/1/2 | HS-EDGE-R2 G1/1/2 |
+| ISP Router Interface | Edge Router Interface | Port Channel |
+|----------------------|--------------------|-------|
+| ISP1-R1 G1/1/1 | HS-EDGE-R1 G1/1/1 | 15 |
+| ISP1-R1 G1/1/2 | HS-EDGE-R1 G1/1/2 | 15 |
+| ISP2-R1 G1/1/1 | HS-EDGE-R2 G1/1/1 | 15 |
+| ISP2-R2 G1/1/2 | HS-EDGE-R2 G1/1/2 | 15 |
 
 ---
 
