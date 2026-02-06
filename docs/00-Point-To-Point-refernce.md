@@ -17,6 +17,11 @@ It includes:
 |---|---|---|---|---|---|---|---|
 | Edge to Edge | HS-EDGE-R1 | Po10 | 10.150.0.1 | HS-EDGE-R2 | Po10 | 10.150.255.2 | 10.150.0.0/30 |
 
+## Reference Topology
+
+<img width="431" height="155" alt="toplogy" src="https://github.com/user-attachments/assets/7bfab378-a78b-49a3-ba45-e9152faa611a" />
+
+
 ---
 
 ## 🧩 Section 2: Edge Routers ↔ Core Firewalls
