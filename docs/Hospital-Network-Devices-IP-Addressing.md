@@ -138,5 +138,6 @@ The information is grouped by **network layer** and **type of connection** so it
 | DSW2 → Service-ASW | DSW2 Po7 | 10.255.2.5 /30 | 10.255.2.4 /30 |
 | DSW2 → Service-ASW | Service-ASW Po2 | 10.255.2.6 /30 | 10.255.2.4 /30 |
 
+## Reference Topology
 
-
+<img width="1107" height="358" alt="toplogy" src="https://github.com/user-attachments/assets/a611a419-9f27-4b99-827e-42010bc44519" />
