@@ -37,3 +37,10 @@ From **ISP2-R1**:
 ping 10.50.50.2
 ```
 
+<img width="717" height="151" alt="ISP2-ping" src="https://github.com/user-attachments/assets/a2ef4806-2f8c-41a0-878d-75683b170f6e" />
+
+✅ successful
+
+
+
+
