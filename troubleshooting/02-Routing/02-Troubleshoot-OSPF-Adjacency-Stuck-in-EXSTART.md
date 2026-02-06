@@ -57,11 +57,9 @@ Configured **nameif** and security levels on all firewall Port-Channels connecte
 - Edge Routers
 - Distribution Switches
 
-### ♦️ Config summary:
+## ♦️ Config summary:
 
-In Global Config mode:
-
-On HS-CORE-FW1:
+In Global Config mode On HS-CORE-FW1:
 
 - interface Port-channel1
 - nameif OUTSIDE-ISP1
@@ -70,7 +68,14 @@ On HS-CORE-FW1:
 - nameif INSIDE-A
 - security-level 100
 
+In Global Config mode On HS-CORE-FW2:
 
+- interface Port-channel1
+- nameif OUTSIDE-ISP2
+- security-level 0
+- interface Port-channel20
+- nameif INSIDE-B
+- security-level 100
 
 
 
