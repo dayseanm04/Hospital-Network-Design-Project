@@ -51,7 +51,12 @@ In this task, I will expand the **hospital network design**. I will add a second
 | Po15 | HS-EDGE-R1 ↔ ISP1-R1 | Primary ISP routed uplink | 69.45.12.0/30 |
 | Po15 | HS-EDGE-R2 ↔ ISP2-R1 | Secondary ISP routed uplink | 100.45.12.0/30 |
 
----
+### ♦️ ISP1-R1 to ISP2-R1
+
+| Port Channel | Connected Devices | Network |
+|---|---|---|
+| Po10 | ISP1-R1 ↔ ISP2-R1 | 10.50.50.0/30 |
+
 
 ### ♦️ Hospital Edge Router to Hospital Core Firewalls
 
@@ -67,8 +72,6 @@ In this task, I will expand the **hospital network design**. I will add a second
 |---|---|---|
 | Po10 | HS-CORE-FW1 ↔ HS-CORE-FW2 | 10.150.0.0/30 |
 
-### ♦️ ISP1-R1 to ISP2-R1
 
-| Port Channel | Connected Devices | Network |
-|---|---|---|
-| Po10 | ISP1-R1 ↔ ISP2-R1 | 10.50.50.0/30 |
+
+
