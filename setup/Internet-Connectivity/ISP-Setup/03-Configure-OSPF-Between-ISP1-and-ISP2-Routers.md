@@ -2,6 +2,8 @@
 
 In this task, I will configure **OSPF** between **ISP1-R1** and **ISP2-R1** so both ISP routers can dynamically exchange routing information.  
 
+**Note:** I used a private IP for ISP1 to ISP2 to make it simple. Im building this project based on I learn from my CCNA studies. No BGP routing!
+
 ## 🎯 Objectives
 
 - ✅ Configure a loopback interface on ISP2-R1
