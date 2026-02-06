@@ -166,9 +166,9 @@ Connect the two distribution switches together.
 
 ## ✅ 9. Task Completion Checklist
 
-- ✅ ISP router connected to hospital firewall  
-- ✅ Firewall connected to the hospital core router  
-- ✅ Core router is connected to the distribution switches  
+- ✅ ISP router connected to hospital Edge Routers  
+- ✅ Edge Routers connected to the hospital core firewalls  
+- ✅ Hospital core firewalls  is connected to the distribution switches  
 - ✅ Distribution switches are interconnected  
 - ✅ Access switches has dual connections to the distribution layers
 
