@@ -32,7 +32,7 @@ OSPF neighbors between Edge Routers and Distribution Switches formed successfull
 <img width="849" height="261" alt="DSW2" src="https://github.com/user-attachments/assets/1b647b04-5f4e-494f-80d9-04bf61902caf" />
 
 
-- Core firewalls not reaching **FULL** state
+- The Core firewalls did not reach **FULL** state
 
 ## 🔍 Troubleshooting Steps Taken
 - 1️⃣ Verified physical interfaces and Port-Channels were up/up
