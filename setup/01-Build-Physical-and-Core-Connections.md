@@ -44,6 +44,8 @@ Connect the firewall to the hospital core router.
 |--------------------|-----------------------|
 | HS-CORE-FW1 G1/1 | HS-EDGE-R1 G1/1/3 |
 | HS-CORE-FW1 G1/2 | HS-EDGE-R1 G1/1/4 |
+| HS-CORE-FW2 G1/1 | HS-EDGE-R2 G1/1/3 |
+| HS-CORE-FW2 G1/2 | HS-EDGE-R2 G1/1/4 |
 
 ## 🏛️ 6. Distribution Switch Connections
 
