@@ -8,12 +8,12 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ## 🧱 Core Layer
 
-### 🌍 ISP ↔ Core Firewall
+### 🌍 ISP ↔ Edge Rotuer
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
-| ISP1-R1 → HS-CORE-FW1 | ISP1-R1 G9/0 | 69.45.12.1 /30 | 69.45.12.0 /30 |
-| ISP1-R1 → HS-CORE-FW1 | HS-CORE-FW1 G1/08 | 69.45.12.2 /30 | 69.45.12.0 /30 |
+| ISP1-R1 → HS-EDGE-R1 | Port Channel 15 | 69.45.12.1 /30 | 69.45.12.0 /30 |
+| ISP1-R1 → HS-EDGE-R1 | Port Channel 15| 69.45.12.2 /30 | 69.45.12.0 /30 |
 
 ---
 
