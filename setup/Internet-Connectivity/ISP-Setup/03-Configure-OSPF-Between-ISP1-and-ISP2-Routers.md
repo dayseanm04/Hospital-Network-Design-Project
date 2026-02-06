@@ -56,7 +56,9 @@ router ospf 10
  network 10.50.50.0 0.0.0.3 area 0
 ```
 
+## 🔍 Verification
 
+### show ip protocols on ISP1-R1
 
 
 
