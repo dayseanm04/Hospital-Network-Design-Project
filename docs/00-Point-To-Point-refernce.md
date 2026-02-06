@@ -43,7 +43,7 @@ It includes:
 
 ## 🧩 Section 4: L3 EtherChannels (DSWs ↔ ASWs)
 
-### 🔹 DSW ↔ Access Switch L3 EtherChannels
+### 🟢 DSW ↔ Access Switch L3 EtherChannels
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
 | DSW1 Po1 to F1-ASW1 Po1 | DSW1 | Po1  | 10.10.0.1 | F1-ASW1 | Po1 | 10.10.0.2  | 10.10.0.0/30 |
@@ -63,14 +63,15 @@ It includes:
 
 ## 🧩 Section 5: Service Switch Point-to-Point Links
 
-### 🔹 Service-ASW ↔ DSWs (L3 EtherChannels)
+### 🟢 Service-ASW ↔ DSWs (L3 EtherChannels)
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
 | DSW1 to Service-ASW | DSW1 | Po7 | 10.255.2.1 | Service-ASW | Po1 | 10.255.2.1 | 10.255.2.0/30 |
 | DSW2 to Service-ASW | DSW2 | Po7 | 10.255.2.5 | Service-ASW | Po2 | 10.255.2.6 | 10.255.2.4/30 |
 
+---
 
-
+## 🧩 Section 5: Edge Routers to ISP Point-to-Point Links
 
 
 
