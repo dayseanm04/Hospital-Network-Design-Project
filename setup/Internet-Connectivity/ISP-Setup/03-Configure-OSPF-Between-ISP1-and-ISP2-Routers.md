@@ -41,6 +41,12 @@ interface loopback0
  ip address 10.10.10.20 255.255.255.255
 ```
 
+### 🟢 Configure default route on ISP2-R1
+
+```bash
+ip route 0.0.0.0 0.0.0.0 100.45.12.2
+```
+
 ### 🟢 Advertised the networks
 
 ```bash
