@@ -17,6 +17,14 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
+### 🌍 ISP2 ↔ Edge Rotuer 2
+
+| Connection | Interface | IP Address | Network |
+|-----------|----------|-----------|--------|
+| ISP2-R1 → HS-EDGE-R2 | Port Channel 15 | 100.45.12.1 /30 | 100.45.12.0 /30 |
+| ISP2-R1 → HS-EDGE-R2 | Port Channel 15| 100.45.12.2 /30 | 100.45.12.0 /30 |
+  
+
 ### 🔐 Core Firewall ↔ Core Router
 
 | Connection | Interface | IP Address | Network |
