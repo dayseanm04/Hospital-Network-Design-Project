@@ -30,6 +30,9 @@ The information is grouped by **network layer** and **type of connection** so it
 | HS-EDGE-R1 → HS-EDGE-R2 | HS-EDGE-R1 Port Channel 10 | 10.150.0.1 /30 | 10.150.0.0 /30 |
 | HS-EDGE-R1 → HS-EDGE-R2 | HS-EDGE-R2 Port Channel 10| 10.150.0.2 /30 | 10.150.0.0 /30 |
 
+## Reference Topology
+
+<img width="431" height="155" alt="toplogy" src="https://github.com/user-attachments/assets/7bfab378-a78b-49a3-ba45-e9152faa611a" />
 
 ---
 
