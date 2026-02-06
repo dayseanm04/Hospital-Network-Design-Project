@@ -40,11 +40,22 @@ OSPF neighbors between Edge Routers and Distribution Switches formed successfull
 
 - I am missing nameif  and security level configuration on firewall Port-Channels
 
+---
+
 ## 🛠 Root Cause
 
 The Port-Channel interfaces on the core firewalls did not have nameif configured.
 
 On Cisco firewalls, interfaces without a nameif are not fully operational for routing protocols, which prevented OSPF from completing adjacency formation.
+
+---
+
+## ✅ Resolution
+
+Configured **nameif** and security levels on all firewall Port-Channels connected to:
+
+- Edge Routers
+- Distribution Switches
 
 
 
