@@ -13,9 +13,9 @@ It includes:
 ## 🧩 Section 1: Edge1 Router ↔ Edge2 Router Link
 
 ### 🔹 HS-EDGE-R1
-| Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) | OSPF Area |
-|---|---|---|---|---|---|---|---|---|
-| HS-CORE-FW1 HS-CORE-R1 | HS-CORE-FW1 | Po1 | 10.255.255.1 | HS-CORE-R1 | Po1 | 10.255.255.2 | 10.255.255.0/30 | Area 0 |
+| Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
+|---|---|---|---|---|---|---|---|
+| Edge to Edge | HS-EDGE-R1 | Po10 | 10.150.0.1 | HS-EDGE-R2 | Po10 | 10.150.255.2 | 10.150.0.0/30 |
 
 ---
 
