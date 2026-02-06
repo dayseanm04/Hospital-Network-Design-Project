@@ -23,6 +23,11 @@ The information is grouped by **network layer** and **type of connection** so it
 | ISP2-R1 → HS-EDGE-R2 | Port Channel 15 | 100.45.12.1 /30 | 100.45.12.0 /30 |
 | ISP2-R1 → HS-EDGE-R2 | Port Channel 15| 100.45.12.2 /30 | 100.45.12.0 /30 |
 
+## Reference Topology
+
+<img width="638" height="290" alt="toplogy" src="https://github.com/user-attachments/assets/33757fd0-8292-4410-bf97-095fd0d36a47" />
+
+
 ### 🌍 Edge Rotuer 1 ↔ Edge Rotuer 2
 
 | Connection | Interface | IP Address | Network |
