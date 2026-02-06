@@ -20,3 +20,7 @@ This file represents the **initial network setup** which includes:
 This stage focuses on creating a **stable, redundant, and routable foundation** for the hospital network.
 
 ## 🧱 Stage 2 – Services & ISP Integration
+
+### 📁 `Hospital-Network-Stage2-changes.pkt`
+
+This stage builds on the foundational network setup from Stage 1 by introducing **core network services**, **ISP connectivity**, and **internet reachability**.
