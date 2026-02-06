@@ -24,4 +24,7 @@ From **ISP1-R1**:
 ping 10.50.50.1
 ```
 
+<img width="745" height="133" alt="ISP1-ping" src="https://github.com/user-attachments/assets/71f3b0e5-1e1c-49ae-8a54-86fd4b34e04b" />
+
+✅ successfull
 
