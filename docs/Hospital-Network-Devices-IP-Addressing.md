@@ -15,7 +15,6 @@ The information is grouped by **network layer** and **type of connection** so it
 | ISP1-R1 → HS-EDGE-R1 | ISP1-R1 Port Channel 15 | 69.45.12.1 /30 | 69.45.12.0 /30 |
 | ISP1-R1 → HS-EDGE-R1 | HS-EDGE-R1 Port Channel 15| 69.45.12.2 /30 | 69.45.12.0 /30 |
 
----
 
 ### 🌍 ISP2 ↔ Edge Rotuer 2
 
@@ -23,7 +22,16 @@ The information is grouped by **network layer** and **type of connection** so it
 |-----------|----------|-----------|--------|
 | ISP2-R1 → HS-EDGE-R2 | Port Channel 15 | 100.45.12.1 /30 | 100.45.12.0 /30 |
 | ISP2-R1 → HS-EDGE-R2 | Port Channel 15| 100.45.12.2 /30 | 100.45.12.0 /30 |
-  
+
+### 🌍 Edge Rotuer 1 ↔ Edge Rotuer 2
+
+| Connection | Interface | IP Address | Network |
+|-----------|----------|-----------|--------|
+| HS-EDGE-R1 → HS-EDGE-R2 | HS-EDGE-R1 Port Channel 10 | 10.150.0.1 /30 | 10.150.0.0 /30 |
+| HS-EDGE-R1 → HS-EDGE-R2 | HS-EDGE-R2 Port Channel 10| 10.150.0.2 /30 | 10.150.0.0 /30 |
+
+
+---
 
 ### 🔐 Edge Rotuer 1 ↔ Core Firewall 1
 
