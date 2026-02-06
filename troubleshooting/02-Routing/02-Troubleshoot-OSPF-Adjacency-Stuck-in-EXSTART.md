@@ -21,5 +21,11 @@ OSPF neighbors between Edge Routers and Distribution Switches formed successfull
 ## ❌ Symptoms Observed
 
 - OSPF neighbors stuck in **EXSTART**
+
+<img width="825" height="138" alt="EDGE-1" src="https://github.com/user-attachments/assets/cc88abe4-0b02-47de-a0df-fc5293f09d36" />
+
+<img width="832" height="137" alt="Edge1-sucess" src="https://github.com/user-attachments/assets/28ed0a79-63c0-4f0e-8e07-759e0d97afea" />
+
+
 - Core firewalls not reaching **FULL** state
 - I used **show ip ospf neighbor** on the Edge Routers and Distribution Switches
