@@ -33,6 +33,10 @@ It includes:
 | Edge1 To Core1 | HS-EDGE-R1 | Po1 | 10.200.0.1 | DSW1 | Po1 | 10.200.0.2 | 10.200.0.0/30 |
 | Edge2 To Core2 | HS-EDGE-R2 | Po1 | 10.200.0.5 | DSW1 | Po1 | 10.200.0.6 | 10.200.0.4/30 |
 
+## Reference Topology
+
+<img width="547" height="245" alt="toplogy" src="https://github.com/user-attachments/assets/59067c7d-58de-4f9d-a959-04331b553016" />
+
 ---
 
 ## 🧩 Section 3: Core Firewalls ↔ Distribution Switches
