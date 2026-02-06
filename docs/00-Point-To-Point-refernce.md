@@ -73,7 +73,7 @@ It includes:
 
 ## 🧩 Section 5: Edge Routers to ISP Point-to-Point Links
 
-
+### 🔵 HS-EDGE-R1 to ISP1-R1 and HS-EDGE-R2 to ISP2-R1 
 
 
 
