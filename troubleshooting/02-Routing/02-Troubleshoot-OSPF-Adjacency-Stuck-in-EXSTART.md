@@ -27,6 +27,11 @@ OSPF neighbors between Edge Routers and Distribution Switches formed successfull
 
 <img width="835" height="136" alt="EDGE-2" src="https://github.com/user-attachments/assets/ba528ad6-f707-421d-9c1f-729e7aafa00a" />
 
+<img width="837" height="243" alt="DSW1" src="https://github.com/user-attachments/assets/0386d9e8-5b9f-423d-9cba-998ce12c8b2f" />
+
+<img width="849" height="261" alt="DSW2" src="https://github.com/user-attachments/assets/1b647b04-5f4e-494f-80d9-04bf61902caf" />
+
+
 - Core firewalls not reaching **FULL** state
 
 ## 🔍 Troubleshooting Steps Taken
