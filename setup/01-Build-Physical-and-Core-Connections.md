@@ -10,7 +10,7 @@ The goal is to ensure all devices are **properly connected and ready for configu
  
 ---
 
-## 🔐 2. Hospital Core Firewall Information
+## 🔐 2. Hospital Core Firewalls Information
 - Device: Cisco ASA 5506
 - Hostname: HS-Core-FW1
 - Hostname: HS-Core-FW2
@@ -25,7 +25,7 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Hostname: HS-EDGE-R2
 
 ## 🔗 4. ISP to Hospital Core Firewall Connections
-Connect the ISP router to the hospital firewall for security and redundancy.
+Connect the ISP router to the hospital edge routers.
 
 | ISP Router Interface | Edge Router Interface |
 |----------------------|--------------------|
