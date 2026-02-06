@@ -8,7 +8,7 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ## 🧱 Core Layer
 
-### 🌍 ISP ↔ Edge Rotuer
+### 🌍 ISP1 ↔ Edge Rotuer 1
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
