@@ -109,4 +109,11 @@ router ospf 10
 
 <img width="835" height="136" alt="EDGE-2" src="https://github.com/user-attachments/assets/92640222-d69f-45db-b189-591ba334a530" />
 
+### show ip ospf neighbor on DSW1
+
+<img width="837" height="243" alt="DSW1" src="https://github.com/user-attachments/assets/64ea95bd-ac4a-4052-81aa-329a29695dcf" />
+
+### show ip ospf neighbor on DSW2
+
+<img width="849" height="261" alt="DSW2" src="https://github.com/user-attachments/assets/fc7d4cda-191e-4295-8199-ebf362ae4a2f" />
 
