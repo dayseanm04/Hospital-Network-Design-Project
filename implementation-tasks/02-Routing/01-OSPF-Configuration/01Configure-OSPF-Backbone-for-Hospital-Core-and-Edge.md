@@ -68,7 +68,12 @@ router ospf 10
  network 10.255.0.4 255.255.255.252 area 0
 ```
 
-
+| Network       | Purpose             |
+| ------------- | ------------------- |
+| 10.200.0.0/30 | HS-CORE-FW1 ↔ HS-EDGE-R1|
+| 10.255.0.0/30 | HS-CORE-FW1 ↔ DSW1 |
+| 10.200.0.4/30 | HS-CORE-FW2 ↔ HS-EDGE-R2  |
+| 10.255.0.4/30 | HS-CORE-FW2 ↔ DSW2 |
 
 
 
