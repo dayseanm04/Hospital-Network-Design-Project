@@ -52,6 +52,6 @@ ping 10.20.20.11
 ping 10.20.20.12
 ```
 
+<img width="795" height="376" alt="INET-ping-from-ISP2" src="https://github.com/user-attachments/assets/ae37fa0c-dece-44df-aa81-9bd78a55daf4" />
 
-
-
+✅ ISP2-R1 successfully pinged the INET Servers
