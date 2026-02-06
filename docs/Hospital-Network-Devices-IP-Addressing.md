@@ -25,12 +25,12 @@ The information is grouped by **network layer** and **type of connection** so it
 | ISP2-R1 → HS-EDGE-R2 | Port Channel 15| 100.45.12.2 /30 | 100.45.12.0 /30 |
   
 
-### 🔐 Core Firewall ↔ Core Router
+### 🔐 Edge Rotuer 1 ↔ Core Firewall 1
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
-| HS-CORE-FW1 → HS-CORE-R1 | HS-CORE-FW1 G1/07 | 10.255.255.1 /30 | 10.255.255.0 /30 |
-| HS-CORE-FW1 → HS-CORE-R1 | HS-CORE-R1 G0/0 | 10.255.255.2 /30 | 10.255.255.0 /30 |
+| HS-EDGE-R1 → HS-CORE-FW1 | HS-EDGE-R1 Port Channel 1 | 10.200.0.1 /30 | 10.200.0.0 /30 |
+| HS-EDGE-R1 → HS-CORE-FW1 | HS-CORE-FW1 Port Channel 1 | 10.200.0.2 /30 | 10.200.0.0 /30 |
 
 ---
 
