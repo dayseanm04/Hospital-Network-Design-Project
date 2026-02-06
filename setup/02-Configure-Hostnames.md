@@ -11,16 +11,19 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 
 | Device Role | Hostname |
 |------------|--------------------|
-| ISP Router | `ISP1-R1` |
+| ISP1 Router | `ISP1-R1` |
+| ISP2 Router | `ISP2-R1` |
+
 
 ---
 
-## 🔥 Core Layer Devices
+## 🔥 Edge  Devices
 
 | Device Role | Hostname |
 |------------|--------------------|
-| Core Firewall (ASA) | `HS-CORE-FW1` |
-| Core Router | `HS-CORE-R1` |
+| Edge Router | `HS-EDGE-R1` |
+| Edge Router | `HS-EDGE-R2` |
+
 
 ---
 
