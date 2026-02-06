@@ -27,10 +27,10 @@ The goal is to ensure all devices are **properly connected and ready for configu
 ## 🔗 4. ISP to Hospital Core Firewall Connections
 Connect the ISP router to the hospital firewall for security and redundancy.
 
-| ISP Router Interface | Firewall Interface |
+| ISP Router Interface | Edge Router Interface |
 |----------------------|--------------------|
-| ISP1-R1 G1/1/1 | HS-Core-FW G1/8 |
-| ISP1-R1 G1/1/2 | HS-Core-FW G1/6 |
+| ISP1-R1 G1/1/1 | HS-EDGE-R1 G1/1/1 |
+| ISP1-R1 G1/1/2 | HS-EDGE-R1 G1/1/2 |
 
 ---
 
