@@ -19,8 +19,8 @@ All loopbacks use a **/32 mask** (single-host address).
 | **Service-ASW** | Loopback0 | 10.0.0.7/32 | Service access switch |
 | **DSW1** | Loopback0 | 10.0.0.10/32 | Distribution switch |
 | **DSW2** | Loopback0 | 10.0.0.11/32 | Distribution switch |
-| **HS-EDGE-R1** | Loopback0 | 10.10.0.15/32 | Core router loopback |
-| **HS-EDGE-R2** | Loopback0 | 10.10.0.14/32 | Core router loopback |
+| **HS-EDGE-R1** | Loopback0 | 10.10.0.15/32 | Edge router 1 loopback |
+| **HS-EDGE-R2** | Loopback0 | 10.10.0.14/32 | Edge router 2 loopback |
 | **HS-CORE-FW1** | Router ID | 10.0.0.20/32 | Used as OSPF Router ID |
 | **HS-CORE-FW2** | Router ID | 10.0.0.21/32 | Used as OSPF Router ID |
 
