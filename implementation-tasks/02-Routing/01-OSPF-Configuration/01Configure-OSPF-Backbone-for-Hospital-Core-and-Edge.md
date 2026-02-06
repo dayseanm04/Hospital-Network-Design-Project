@@ -21,7 +21,9 @@ This task., I will configure **OSPF Area 0 (Backbone)** across the **Hospital Ed
 > The same OSPF process is used across all backbone devices.  
 > I enabled OSPF using the **network** command, not interface-level commands.
 
-### 🟦 Edge Routers (HS-EDGE-R1 / HS-EDGE-R2)
+### 🟦 On HS-EDGE-R1
+
+In Global condif mode
 
 ```bash
 router ospf 10
@@ -30,9 +32,24 @@ router ospf 10
  network 10.150.0.0 0.0.0.3 area 0
 ```
 
+
+### 🟦 On HS-EDGE-R2
+
+```bash
+router ospf 10
+ network 10.0.0.14 0.0.0.0 area 0
+ network 10.200.0.4 0.0.0.3 area 0
+ network 10.150.0.0 255.255.255.252 area 0
+```
+
 | Network       | Purpose                  |
 | ------------- | ------------------------ |
-| 10.0.0.15/32  | Loopback interface       |
+| 10.0.0.15/32  | HS-EDGE-R1 Loopback interface   |
+| 10.0.0.15/32  | HS-EDGE-R2 Loopback interface  |
 | 10.200.0.0/30 | HS-EDGE-R1 ↔ HS-CORE-FW1 |
+| 10.200.0.4/30 | HS-EDGE-R2 ↔ HS-CORE-FW2 |
 | 10.150.0.0/30 | HS-EDGE-R1 ↔ HS-EDGE-R2  |
+
+
+
 
