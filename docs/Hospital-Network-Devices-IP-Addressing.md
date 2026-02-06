@@ -34,6 +34,11 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ### 🔐 Edge Rotuer 2 ↔ Core Firewall 2
 
+| Connection | Interface | IP Address | Network |
+|-----------|----------|-----------|--------|
+| HS-EDGE-R2 → HS-CORE-FW2 | HS-EDGE-R2 Port Channel 1 | 10.200.0.5 /30 | 10.200.0.4 /30 |
+| HS-EDGE-R2 → HS-CORE-FW2 | HS-CORE-FW2 Port Channel 1 | 10.200.0.6 /30 | 10.200.0.4 /30 |
+
 ---
 
 ## 🧭 Core Layer ↔ Distribution Layer
