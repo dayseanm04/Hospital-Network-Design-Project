@@ -38,6 +38,7 @@ From **ISP2-R1**, ping the hospital edge router:
 ping 100.45.12.2
 ```
 
+<img width="756" height="129" alt="ISP2-Ping" src="https://github.com/user-attachments/assets/a68d9bc1-58a8-4c7f-aa50-654da64d4c79" />
 
 
 
