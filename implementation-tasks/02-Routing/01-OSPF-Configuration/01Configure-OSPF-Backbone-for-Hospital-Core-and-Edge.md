@@ -117,3 +117,6 @@ router ospf 10
 
 <img width="849" height="261" alt="DSW2" src="https://github.com/user-attachments/assets/fc7d4cda-191e-4295-8199-ebf362ae4a2f" />
 
+Note: the adjacencies toward Core Firewalls are stuck in EXSTART state.
+
+
