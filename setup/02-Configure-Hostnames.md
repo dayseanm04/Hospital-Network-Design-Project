@@ -24,6 +24,12 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 | Edge Router | `HS-EDGE-R1` |
 | Edge Router | `HS-EDGE-R2` |
 
+## 🔥 Core  Devices
+
+| Device Role | Hostname |
+|------------|--------------------|
+| Core Firewall | `HS-CORE-FW1` |
+| Core Firewall | `HS-CORE-FW2` |
 
 ---
 
