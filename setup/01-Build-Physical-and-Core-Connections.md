@@ -55,10 +55,13 @@ Connect the core firewalls to the hospital edge routers.
 
 ---
 
-### DSW1 to Core Router
-| DSW1 Interface | Core Router Interface | Media |
+### DSW1 to Core Firewall
+
+| DSW1 Interface | Core Router Interface | Port Channel |
 |---------------|----------------------|-------|
-| G1/1/1 | HS-CORE-R1 G1/1/3 | Fiber |
+| G1/1/1 | HS-CORE-FW1 G1/3 | 20 |
+| G1/1/4 | HS-CORE-FW1 G1/4 | 20 |
+
 
 ### DSW2 to Core Router
 | DSW2 Interface | Core Router Interface | Media |
