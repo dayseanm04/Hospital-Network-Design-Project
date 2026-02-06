@@ -14,3 +14,14 @@ The goal is to confirm that the ISP interconnection is operational and that rout
 
 ---
 
+## 🔗 Inter-ISP Link Verification
+
+### Test 1: ISP1 → ISP2 (Point-to-Point Link)
+
+From **ISP1-R1**:
+
+```bash
+ping 10.50.50.1
+```
+
+
