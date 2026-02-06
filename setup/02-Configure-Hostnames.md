@@ -14,6 +14,11 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 | ISP1 Router | `ISP1-R1` |
 | ISP2 Router | `ISP2-R1` |
 
+## 🌐 INET Devices
+
+| Device Role | Hostname |
+|------------|--------------------|
+| Internet switch | `INET-SW` |
 
 ---
 
