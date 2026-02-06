@@ -45,11 +45,6 @@ This document is the **reference for the Core firewalls Port-Channel interface n
 - Firewall interfaces **must have a `nameif` configured** to fully participate in:
   - Routing protocols (OSPF)
   - ACLs and security policies
-- Missing `nameif` configuration can cause **OSPF adjacencies to stall** (e.g., EXSTART state). [I ran into this problem earlier] See bellow!
+- Missing `nameif` configuration can cause **OSPF adjacencies to stall** (e.g., EXSTART state). [I ran into this problem earlier] See bellow:
 
 ### [✅ Click here for Tropbleshoot OSPF Adjacency Stuck in EXSTART State](/troubleshooting/02-Routing/02-Troubleshoot-OSPF-Adjacency-Stuck-in-EXSTART.md)
-
-- Port-Channels follow the **same security and naming requirements** as physical interfaces.
-
----
-
