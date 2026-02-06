@@ -28,3 +28,4 @@ This stage builds on the foundational network setup from Stage 1 by introducing 
 ### 🔧 Key Additions
 - Configured **DHCP, DNS, and NTP** for the hospital LAN  
 - Setup **ISP1 and ISP2** and configured Layer 3 **Port-Channels** and IP addressing  
+- Deployed an additional **core firewall** for improved redundancy  
