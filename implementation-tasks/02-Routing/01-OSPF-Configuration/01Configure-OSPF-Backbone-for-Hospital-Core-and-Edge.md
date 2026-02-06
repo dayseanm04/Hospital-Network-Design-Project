@@ -57,10 +57,16 @@ router ospf 10
  router-id 10.0.0.20
  network 10.200.0.0 255.255.255.252 area 0
  network 10.255.0.0 255.255.255.252 area 0
-
 ```
 
+### 🟧 HS-CORE-FW2
 
+```bash
+router ospf 10
+ router-id 10.0.0.21
+ network 10.200.0.4 255.255.255.252 area 0
+ network 10.255.0.4 255.255.255.252 area 0
+```
 
 
 
