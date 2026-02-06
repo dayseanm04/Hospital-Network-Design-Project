@@ -29,3 +29,12 @@ In this task, I will configure **OSPF** between **ISP1-R1** and **ISP2-R1** so b
 
 ---
 
+## ISP2-R1
+
+### 🟢Configure ISP2-R1 loopback interface
+In global config mode:
+
+```bash
+interface loopback0
+ ip address 10.10.10.20 255.255.255.255
+```
