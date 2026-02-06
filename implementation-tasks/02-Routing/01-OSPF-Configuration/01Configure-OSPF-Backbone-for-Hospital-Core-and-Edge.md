@@ -121,4 +121,4 @@ Note: the adjacencies toward Core Firewalls are stuck in EXSTART state.
 
 ---
 
-### ✅ Click here for Tropbleshoot OSPF Adjacency Stuck in EXSTART State [Click here for the connectivity tests](/troubleshooting/02-Routing/02-Troubleshoot-OSPF-Adjacency-Stuck-in-EXSTART.md)
+### [✅ Click here for Tropbleshoot OSPF Adjacency Stuck in EXSTART State](/troubleshooting/02-Routing/02-Troubleshoot-OSPF-Adjacency-Stuck-in-EXSTART.md)
