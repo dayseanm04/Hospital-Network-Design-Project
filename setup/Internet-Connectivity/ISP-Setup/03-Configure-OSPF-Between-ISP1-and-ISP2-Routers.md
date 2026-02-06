@@ -62,6 +62,8 @@ router ospf 10
 
 <img width="847" height="122" alt="ISP1" src="https://github.com/user-attachments/assets/63f2be92-a203-4cae-ba99-74b47d9f2e14" />
 
+### show ip ospf neighbor on ISP2-R1
 
+<img width="855" height="117" alt="ISP2" src="https://github.com/user-attachments/assets/17b8592d-ee8b-44d5-a8c5-e111103af807" />
 
-
+ISP1-R1 and ISP2-R1 are neighbors
