@@ -30,3 +30,13 @@ This document is the **reference for the Core firewalls Port-Channel interface n
 | Port-channel20 | INSIDE-B | To-DSW2 | 100 | Distribution Switch 2 |
 
 ---
+
+## 🧭 Security Level Reference
+
+| Security Level | Zone Type | Typical Usage |
+|---------------|----------|---------------|
+| 0 | Outside | ISP / Untrusted Networks |
+| 100 | Inside | Internal / Trusted Networks |
+
+---
+
