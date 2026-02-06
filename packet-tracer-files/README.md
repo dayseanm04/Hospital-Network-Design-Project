@@ -26,3 +26,4 @@ This stage focuses on creating a **stable, redundant, and routable foundation** 
 This stage builds on the foundational network setup from Stage 1 by introducing **core network services** and **ISP connectivity**.
 
 ### 🔧 Key Additions
+- Configured **DHCP, DNS, and NTP** for the hospital LAN  
