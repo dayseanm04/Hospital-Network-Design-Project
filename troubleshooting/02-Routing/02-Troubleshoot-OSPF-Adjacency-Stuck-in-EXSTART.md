@@ -32,4 +32,20 @@ OSPF neighbors between Edge Routers and Distribution Switches formed successfull
 ## 🔍 Troubleshooting Steps Taken
 - 1️⃣ Verified physical interfaces and Port-Channels were up/up
 - 2️⃣ Confirmed correct IP addressing on all OSPF links
-- 3️⃣ I Ran **`show running-config | section Port`** on the Core firewalls
+- 3️⃣ I Ran **`show running-config | section Port`** on on HS-CORE-FW1 and HS-CORE-FW2. (See Below)
+
+<img width="720" height="223" alt="CORE-FW1" src="https://github.com/user-attachments/assets/4794b5a2-d95a-425b-bf2d-e109006b029b" />
+
+<img width="810" height="211" alt="CORE-FW2" src="https://github.com/user-attachments/assets/4f7db3cb-abc1-4120-9d48-f5e31c80f8a4" />
+
+
+
+
+
+
+
+
+
+
+
+
