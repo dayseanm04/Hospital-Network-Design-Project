@@ -15,10 +15,7 @@ Ensure that:
 
 <img width="724" height="358" alt="topology" src="https://github.com/user-attachments/assets/8b78884b-49b1-4567-99d1-3a749232606e" />
 
----
-
-
-### ▶️ Test 1: ISP1 to Hospital Edge Router
+### ▶️ Test 1: ISP1 to Hospital Edge Router 1
 
 From **ISP1-R1**, ping the hospital edge router:
 
@@ -30,7 +27,7 @@ ping 69.45.12.2
 
 ✅ ISP1-R1 successfully reached HS-EDGE-R1
 
-### ▶️ Test 1: ISP2 to Hospital Edge Router
+### ▶️ Test 1: ISP2 to Hospital Edge Router 2
 
 From **ISP2-R1**, ping the hospital edge router:
 
@@ -40,10 +37,4 @@ ping 100.45.12.2
 
 <img width="756" height="129" alt="ISP2-Ping" src="https://github.com/user-attachments/assets/a68d9bc1-58a8-4c7f-aa50-654da64d4c79" />
 
-
-
-
-
-
-
-
+✅ ISP2-R1 successfully reached HS-EDGE-R2
