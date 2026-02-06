@@ -48,6 +48,10 @@ It includes:
 | Core1 to DSW1 | HS-CORE-FW1 | Po20 | 10.255.0.1 | DSW1 | Po20 | 10.255.0.2 | 10.255.0.0/30 |
 | Core2 To Core2 | HS-CORE-FW2 | Po20 | 10.255.0.5 | DSW1 | Po20| 10.255.0.6 | 10.255.0.4/30 |
 
+## Reference Topology
+
+<img width="545" height="221" alt="toplogy" src="https://github.com/user-attachments/assets/538b5146-9785-423d-ad3c-9fc3b3942294" />
+
 ---
 
 ## 🧩 Section 4: L3 EtherChannels (DSWs ↔ ASWs)
