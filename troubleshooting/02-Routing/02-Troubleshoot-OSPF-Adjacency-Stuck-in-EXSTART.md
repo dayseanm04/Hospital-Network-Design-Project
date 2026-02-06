@@ -77,6 +77,27 @@ In Global Config mode On HS-CORE-FW2:
 - nameif INSIDE-B
 - security-level 100
 
+## 🧪 Verification
+
+### show ip ospf neighbor on HS-EDGE-R1
+
+<img width="832" height="137" alt="Edge1-sucess" src="https://github.com/user-attachments/assets/e6f0369e-8484-4fde-a45c-dab378e81fec" />
+
+### show ip ospf neighbor on HS-EDGE-R2
+
+<img width="840" height="135" alt="Edge2-sucess" src="https://github.com/user-attachments/assets/b768e125-41a3-4b91-83c8-2fb183cd27cc" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
