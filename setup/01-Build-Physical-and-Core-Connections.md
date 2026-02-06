@@ -38,7 +38,7 @@ Connect the ISP router to the hospital edge routers.
 
 ## 🔗 5. Firewall to Hospital Edge Router Connections
 
-Connect the firewall to the hospital edge router.
+Connect the core firewalls to the hospital edge routers.
 
 | Firewall Interface | Edge Router Interface |
 |--------------------|-----------------------|
