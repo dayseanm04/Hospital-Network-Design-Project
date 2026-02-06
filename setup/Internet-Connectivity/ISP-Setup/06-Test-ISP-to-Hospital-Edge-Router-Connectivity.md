@@ -14,3 +14,17 @@ Ensure that:
 ## Topology For Reference
 
 <img width="724" height="358" alt="topology" src="https://github.com/user-attachments/assets/8b78884b-49b1-4567-99d1-3a749232606e" />
+
+---
+
+
+### ▶️ Test 1: ISP1 to Hospital Edge Router
+
+From **ISP1-R1**, ping the hospital edge router:
+
+```bash
+ping 69.45.12.2
+```
+
+
+
