@@ -10,7 +10,13 @@ This task., I will configure **OSPF Area 0 (Backbone)** across the **Hospital Ed
 - Enable OSPF on **core, edge, and distribution backbone links**
 - Verify OSPF neighbor relationships
 
----
 ## Topology For Reference
 
 <img width="555" height="408" alt="topology1" src="https://github.com/user-attachments/assets/31a18433-4db7-45a7-ae0f-7fa3e2ac450f" />
+
+---
+
+## 🔧 Configuration Summary (What Is Enabled)
+
+> The same OSPF process is used across all backbone devices.  
+> I enabled OSPF using the **network** command, not interface-level commands.
