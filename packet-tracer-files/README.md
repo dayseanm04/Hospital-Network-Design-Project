@@ -24,3 +24,5 @@ This stage focuses on creating a **stable, redundant, and routable foundation** 
 ### 📁 `Hospital-Network-Stage2-changes.pkt`
 
 This stage builds on the foundational network setup from Stage 1 by introducing **core network services** and **ISP connectivity**.
+
+### 🔧 Key Additions
