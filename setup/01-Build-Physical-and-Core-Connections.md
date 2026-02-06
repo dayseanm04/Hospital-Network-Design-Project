@@ -81,10 +81,10 @@ Connect the core firewalls to the hospital edge routers.
 
 Connect the two distribution switches together.
 
-| DSW1 Interface | DSW2 Interface | Media |
+| DSW1 Interface | DSW2 Interface | Port Channel |
 |---------------|---------------|-------|
-| G1/1/2 | G1/1/2 | Fiber |
-| G1/1/3 | G1/1/3 | Fiber |
+| G1/1/2 | G1/1/2 | 10 |
+| G1/1/3 | G1/1/3 | 10 |
 
 ✔️ These links will later be bundled using EtherChannel.
 
@@ -174,10 +174,10 @@ Connect the two distribution switches together.
 
 - ✅ ISP router connected to hospital Edge Routers  
 - ✅ Edge Routers connected to the hospital core firewalls  
-- ✅ Hospital core firewalls  is connected to the distribution switches  
+- ✅ Hospital core firewalls  is connected to the distribution switches
+- ✅ Hospital core firewalls are interconnected  
 - ✅ Distribution switches are interconnected  
 - ✅ Access switches has dual connections to the distribution layers
-
 
 ## 📌 Note:
 Note that I may update the connections when nessasry
