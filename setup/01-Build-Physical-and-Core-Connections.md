@@ -49,10 +49,10 @@ Connect the core firewalls to the hospital edge routers.
 
 ## 🔗 6. Firewall to Hospital Edge Router Connections
 
-| HS-CORE-FW1 interface | HS-CORE-FW12 interface |
-|--------------------|-----------------------|
-| HS-CORE-FW1 G1/5 | HS-CORE-FW2 G1/5 |
-| HS-CORE-FW1 G1/6 | HS-CORE-FW2 G1/6 |
+| HS-CORE-FW1 interface | HS-CORE-FW12 interface | Port Channel |
+|--------------------|-----------------------|-------|
+| HS-CORE-FW1 G1/5 | HS-CORE-FW2 G1/5 | 10 |
+| HS-CORE-FW1 G1/6 | HS-CORE-FW2 G1/6 | 10 |
 
 
 ## 🏛️ 7. Distribution Switch Connections
