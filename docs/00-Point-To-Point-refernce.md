@@ -72,6 +72,10 @@ It includes:
 | DSW1 Po6 to F3-ASW2 Po1 | DSW1 | Po6  | 10.10.0.21 | F3-ASW2 | Po1 | 10.10.0.22  | 10.10.0.20/30 |
 | DSW2 Po6 to F3-ASW2 Po2 | DSW2 | Po6  | 10.20.0.21 | F3-ASW2 | Po2 | 10.20.0.22  | 10.20.0.20/30 |
 
+## Reference Topology
+
+<img width="1107" height="358" alt="toplogy" src="https://github.com/user-attachments/assets/a611a419-9f27-4b99-827e-42010bc44519" />
+
 ---
 
 ## 🧩 Section 5: Service Switch Point-to-Point Links
