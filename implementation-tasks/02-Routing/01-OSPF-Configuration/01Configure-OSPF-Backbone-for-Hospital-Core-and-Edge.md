@@ -83,3 +83,14 @@ router ospf 10
  network 10.255.0.0 0.0.0.3 area 0
  network 10.255.1.0 0.0.0.3 area 0
 ```
+
+### 🟩 On DSW2
+
+```bash
+router ospf 10
+ network 10.0.0.11 0.0.0.0 area 0
+ network 10.255.0.4 0.0.0.3 area 0
+ network 10.255.1.0 0.0.0.3 area 0
+```
+
+
