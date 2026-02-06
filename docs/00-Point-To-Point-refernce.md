@@ -81,4 +81,11 @@ It includes:
 | Edge2 to ISP2 | HS-EDGE-R2 | Po15 | 100.45.12.1 | ISP2-R1 | Po15 | 100.45.12.2 | 100.45.12.0/30 |
 
 
+## 🧩 Section 7: ISP side Point-to-Point Links
+
+| Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
+|---|---|---|---|---|---|---|---|
+| ISP2 to ISP1 | ISP2-R1 | Po15 | 10.50.50.1 | ISP1-R1 | Po15 | 10.50.50.2 | 10.50.50.0/30 |
+
+
 
