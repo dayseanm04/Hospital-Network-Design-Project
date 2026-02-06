@@ -39,7 +39,7 @@ interface loopback0
  ip address 10.10.10.20 255.255.255.255
 ```
 
-### 🟢 Advertised the netwoorks
+### 🟢 Advertised the networks
 
 ```bash
 router ospf 10
@@ -47,9 +47,14 @@ router ospf 10
  network 10.50.50.0 0.0.0.3 area 0
 ```
 
+## ISP1-R1
 
+### 🟢 Enable OSPF for the P2P link to ISP2-R1
 
-
+```bash
+router ospf 10
+ network 10.50.50.0 0.0.0.3 area 0
+```
 
 
 
