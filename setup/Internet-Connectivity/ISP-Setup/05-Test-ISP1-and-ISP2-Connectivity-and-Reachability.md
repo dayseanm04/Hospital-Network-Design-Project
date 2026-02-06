@@ -42,5 +42,16 @@ ping 10.50.50.2
 ✅ successful
 
 
+### Test 2: ISP2 → INET Servers 
+
+From **ISP2-R1**:
+
+```bash
+ping 10.20.20.10
+ping 10.20.20.11
+ping 10.20.20.12
+```
+
+
 
 
