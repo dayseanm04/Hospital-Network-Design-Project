@@ -38,7 +38,7 @@ OSPF neighbors between Edge Routers and Distribution Switches formed successfull
 
 <img width="810" height="211" alt="CORE-FW2" src="https://github.com/user-attachments/assets/4f7db3cb-abc1-4120-9d48-f5e31c80f8a4" />
 
-
+- I am missing nameif  and security level configuration on firewall Port-Channels
 
 
 
