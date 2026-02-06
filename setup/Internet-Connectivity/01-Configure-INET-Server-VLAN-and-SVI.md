@@ -1,4 +1,4 @@
-# 🗄️ 03 – Configure INET Server VLAN and SVI
+# 🗄️ 01 – Configure INET Server VLAN and SVI
 
 ## 📌 Overview
 
