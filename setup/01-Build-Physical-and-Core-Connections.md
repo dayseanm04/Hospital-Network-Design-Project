@@ -40,12 +40,12 @@ Connect the ISP router to the hospital edge routers.
 
 Connect the core firewalls to the hospital edge routers.
 
-| Firewall Interface | Edge Router Interface |
-|--------------------|-----------------------|
-| HS-CORE-FW1 G1/1 | HS-EDGE-R1 G1/1/3 |
-| HS-CORE-FW1 G1/2 | HS-EDGE-R1 G1/1/4 |
-| HS-CORE-FW2 G1/1 | HS-EDGE-R2 G1/1/3 |
-| HS-CORE-FW2 G1/2 | HS-EDGE-R2 G1/1/4 |
+| Firewall Interface | Edge Router Interface | Port Channel |
+|--------------------|-----------------------|-------|
+| HS-CORE-FW1 G1/1 | HS-EDGE-R1 G1/1/3 | 1 |
+| HS-CORE-FW1 G1/2 | HS-EDGE-R1 G1/1/4 | 1 |
+| HS-CORE-FW2 G1/1 | HS-EDGE-R2 G1/1/3 | 1 |
+| HS-CORE-FW2 G1/2 | HS-EDGE-R2 G1/1/4 | 1 |
 
 ## 🔗 6. Firewall to Hospital Edge Router Connections
 
