@@ -2,6 +2,13 @@
 
 In this task, I will configure **OSPF** between **ISP1-R1** and **ISP2-R1** so both ISP routers can dynamically exchange routing information.  
 
+## 🎯 Objectives
+
+- ✅ Configure a loopback interface on ISP2-R1
+- ✅ Enable OSPF process **10** on both ISP routers
+- ✅ Advertise the **point-to-point link** between ISP1 and ISP2
+- ✅ Verify OSPF neighbor adjacency
+
 ## Reference Topology
 
 <img width="416" height="332" alt="topology " src="https://github.com/user-attachments/assets/de2bfd6c-08cc-43be-ab4b-e4fa5ed49180" />
