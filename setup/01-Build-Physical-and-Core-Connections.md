@@ -40,10 +40,10 @@ Connect the ISP router to the hospital firewall for security and redundancy.
 
 Connect the firewall to the hospital core router.
 
-| Firewall Interface | Core Router Interface |
+| Firewall Interface | Edge Router Interface |
 |--------------------|-----------------------|
-| HS-Core-FW G1/1 | HS-CORE-R1 G1/1/1 |
-| HS-Core-FW G1/2 | HS-CORE-R1 G1/1/2 |
+| HS-CORE-FW1 G1/1 | HS-EDGE-R1 G1/1/3 |
+| HS-CORE-FW1 G1/2 | HS-EDGE-R1 G1/1/4 |
 
 ## 🏛️ 6. Distribution Switch Connections
 
