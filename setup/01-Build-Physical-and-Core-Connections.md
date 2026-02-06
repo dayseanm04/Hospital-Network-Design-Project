@@ -184,6 +184,4 @@ Note that I may update the connections when nessasry
 
 ## Network Diagram:
 
-<img width="641" height="443" alt="03-diagram" src="https://github.com/user-attachments/assets/4fde28c9-d99e-4c8c-9422-248902706a6e" />
-
-
+<img width="825" height="575" alt="topology" src="https://github.com/user-attachments/assets/78e4ecc2-fb41-4553-951e-78ab66c0146b" />
