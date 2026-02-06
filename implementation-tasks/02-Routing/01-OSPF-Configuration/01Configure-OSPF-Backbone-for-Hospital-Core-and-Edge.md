@@ -50,6 +50,19 @@ router ospf 10
 | 10.200.0.4/30 | HS-EDGE-R2 ↔ HS-CORE-FW2 |
 | 10.150.0.0/30 | HS-EDGE-R1 ↔ HS-EDGE-R2  |
 
+### 🟧 HS-CORE-FW1
+
+```bash
+router ospf 10
+ router-id 10.0.0.20
+ network 10.200.0.0 255.255.255.252 area 0
+ network 10.255.0.0 255.255.255.252 area 0
+
+```
+
+
+
+
 
 
 
