@@ -41,7 +41,7 @@ It includes:
 
 ## 🧩 Section 3: Core Firewalls ↔ Distribution Switches
 
-### 🟢  HS-CORE-FW1 to DSW1
+### 🟢  HS-CORE-FW1 to DSW1 and HS-CORE-FW2 to DSW2
 
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
