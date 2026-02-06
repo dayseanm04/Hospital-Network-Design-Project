@@ -30,7 +30,7 @@ It includes:
 
 ---
 
-## 🧩 Section 3 : Core Firewalls ↔ Distribution Switches
+## 🧩 Section 3: Core Firewalls ↔ Distribution Switches
 
 ### 🟢  HS-CORE-FW1 to DSW1
 
@@ -41,7 +41,7 @@ It includes:
 
 ---
 
-## 🧩 Section 3: L3 EtherChannels (DSWs ↔ ASWs)
+## 🧩 Section 4: L3 EtherChannels (DSWs ↔ ASWs)
 
 ### 🔹 DSW ↔ Access Switch L3 EtherChannels
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
@@ -61,7 +61,7 @@ It includes:
 
 ---
 
-## 🧩 Section 4: Service Switch Point-to-Point Links
+## 🧩 Section 5: Service Switch Point-to-Point Links
 
 ### 🔹 Service-ASW ↔ DSWs (L3 EtherChannels)
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
