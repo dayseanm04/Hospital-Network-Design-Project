@@ -12,3 +12,12 @@ This document is the **reference for the Core firewalls Port-Channel interface n
 | HS-CORE-FW2 | Secondary Core Firewall |
 
 ---
+
+## 🔌 HS-CORE-FW1 – Port-Channel Interfaces
+
+| Interface | nameif | Description | Security Level | Connected To |
+|---------|--------|-------------|----------------|--------------|
+| Port-channel1 | OUTSIDE-ISP1 | To-HS-EDGE-R1 | 0 | ISP / Edge Router |
+| Port-channel20 | INSIDE-A | To-DSW1 | 100 | Distribution Switch 1 |
+
+---
