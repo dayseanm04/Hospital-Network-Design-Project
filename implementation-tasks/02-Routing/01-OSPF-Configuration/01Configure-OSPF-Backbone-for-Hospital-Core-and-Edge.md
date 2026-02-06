@@ -39,7 +39,7 @@ router ospf 10
 router ospf 10
  network 10.0.0.14 0.0.0.0 area 0
  network 10.200.0.4 0.0.0.3 area 0
- network 10.150.0.0 255.255.255.252 area 0
+ network 10.150.0.0 0.0.0.3 area 0
 ```
 
 | Network       | Purpose                  |
