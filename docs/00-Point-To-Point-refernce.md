@@ -88,5 +88,10 @@ It includes:
 | ISP2 to ISP1 | ISP2-R1 | Po15 | 10.50.50.1 | ISP1-R1 | Po15 | 10.50.50.2 | 10.50.50.0/30 |
 | ISP1 to INET | ISP1-R1 | Po1 | 10.30.30.1 | INET-SW | Po1 | 10.30.30.2 | 10.30.30.0/30 |
 
+## Reference Topology
+
+<img width="587" height="524" alt="toplogy" src="https://github.com/user-attachments/assets/155a435e-076d-4644-a7dc-61f86a415f06" />
+
+
 
 
