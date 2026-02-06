@@ -11,6 +11,11 @@ After configuring **OSPF Area 0** across the hospital backbone, OSPF neighbor ad
 
 OSPF neighbors between Edge Routers and Distribution Switches formed successfully, but adjacencies to the Core Firewalls did not.
 
+Find it here: 
+
+### [✅ Click here for Tropbleshoot OSPF Adjacency Stuck in EXSTART State](/implementation-tasks/02-Routing/01-OSPF-Configuration/01Configure-OSPF-Backbone-for-Hospital-Core-and-Edge.md)
+
+
 ---
 
 ## 🌐 Affected Devices
