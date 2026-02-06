@@ -26,5 +26,7 @@ From **ISP1-R1**, ping the hospital edge router:
 ping 69.45.12.2
 ```
 
+<img width="710" height="137" alt="ISP1-Ping" src="https://github.com/user-attachments/assets/ebda1490-273f-4a4d-87b3-e96a568c0b47" />
 
+✅ ISP1-R1 successfully reached HS-EDGE-R1
 
