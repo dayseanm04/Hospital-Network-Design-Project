@@ -50,7 +50,7 @@ router ospf 10
 | 10.200.0.4/30 | HS-EDGE-R2 ↔ HS-CORE-FW2 |
 | 10.150.0.0/30 | HS-EDGE-R1 ↔ HS-EDGE-R2  |
 
-### 🟧 HS-CORE-FW1
+### 🟧 On HS-CORE-FW1
 
 ```bash
 router ospf 10
@@ -59,7 +59,7 @@ router ospf 10
  network 10.255.0.0 255.255.255.252 area 0
 ```
 
-### 🟧 HS-CORE-FW2
+### 🟧 On HS-CORE-FW2
 
 ```bash
 router ospf 10
@@ -75,5 +75,11 @@ router ospf 10
 | 10.200.0.4/30 | HS-CORE-FW2 ↔ HS-EDGE-R2  |
 | 10.255.0.4/30 | HS-CORE-FW2 ↔ DSW2 |
 
+### 🟩 On DSW1
 
-
+```bash
+router ospf 10
+ network 10.0.0.10 0.0.0.0 area 0
+ network 10.255.0.0 0.0.0.3 area 0
+ network 10.255.1.0 0.0.0.3 area 0
+```
