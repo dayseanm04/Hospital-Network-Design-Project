@@ -1,5 +1,10 @@
 # 🚨 Issue: OSPF Adjacency Stuck in EXSTART State
 
+## Referene Topology
+
+<img width="555" height="408" alt="topology1" src="https://github.com/user-attachments/assets/e2906137-59fe-4948-b491-a99921c7d45e" />
+
+
 ## 📌 Problem Description
 
 After configuring **OSPF Area 0** across the hospital backbone, OSPF neighbor adjacencies involving the **core firewalls** failed to progress past the **EXSTART** state.
@@ -92,18 +97,10 @@ In Global Config mode On HS-CORE-FW2:
 
 <img width="840" height="135" alt="Edge2-sucess" src="https://github.com/user-attachments/assets/b768e125-41a3-4b91-83c8-2fb183cd27cc" />
 
+### show ip ospf neighbor on DSW1
 
+<img width="853" height="243" alt="DSW1-sucess" src="https://github.com/user-attachments/assets/835f3c61-be81-4d99-a4e8-af78131f7267" />
 
+### show ip ospf neighbor on DSW2
 
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="844" height="262" alt="DSW2-sucess" src="https://github.com/user-attachments/assets/4ae83091-61bf-4a69-9064-c8caf327cdac" />
