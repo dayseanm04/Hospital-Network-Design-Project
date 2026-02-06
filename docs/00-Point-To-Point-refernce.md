@@ -12,20 +12,20 @@ It includes:
 
 ## 🧩 Section 1: Edge1 Router ↔ Edge2 Router Link
 
-### 🔹 HS-EDGE-R1
+### 🟢 HS-EDGE-R1 to HS-EDGE-R2
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
 | Edge to Edge | HS-EDGE-R1 | Po10 | 10.150.0.1 | HS-EDGE-R2 | Po10 | 10.150.255.2 | 10.150.0.0/30 |
 
 ---
 
-## 🧩 Section 2: Distribution Switch ↔ Core Router Links
+## 🧩 Section 2: Edge Routers ↔ Core Firewalls
 
-### 🔹 DSW ↔ HS-CORE-R1
+### 🟢 HS-EDGE-R1 to HS-CORE-FW1
+
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
-| DSW1 to HS-CORE-R1 | HS-CORE-R1 | G1/1/3  | 10.255.0.1 | DSW1 | G1/1/1 | 10.255.0.2 | 10.255.0.0/30 |
-|  DSW2 to HS-CORE-R1 | HS-CORE-R1 | G1/1/4 | 10.255.0.5 | DSW2 | G1/1/1 | 10.255.0.6 | 10.255.0.4/30 |
+| Edge1 To Core1| HS-EDGE-R1 | Po1 | 10.200.0.1 | DSW1 | Po1 | 10.200.0.2 | 10.200.0.0/30 |
 
 ---
 
