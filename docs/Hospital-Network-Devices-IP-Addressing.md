@@ -55,6 +55,10 @@ The information is grouped by **network layer** and **type of connection** so it
 | HS-EDGE-R2 → HS-CORE-FW2 | HS-EDGE-R2 Port Channel 1 | 10.200.0.5 /30 | 10.200.0.4 /30 |
 | HS-EDGE-R2 → HS-CORE-FW2 | HS-CORE-FW2 Port Channel 1 | 10.200.0.6 /30 | 10.200.0.4 /30 |
 
+## Reference Topology
+
+<img width="547" height="245" alt="toplogy" src="https://github.com/user-attachments/assets/59067c7d-58de-4f9d-a959-04331b553016" />
+
 ---
 
 ## 🧭 Core Firewall 1 ↔ Distribution Switch 1
@@ -70,6 +74,10 @@ The information is grouped by **network layer** and **type of connection** so it
 |-----------|----------|-----------|--------|
 | HS-CORE-FW2 → DSW1 | HS-CORE-FW2 Port Channel 20 | 10.255.0.5 /30 | 10.255.0.4 /30 |
 | HS-CORE-FW2 → DSW1 | DSW2 Port Channel 20 | 10.255.0.6 /30 | 10.255.0.4 /30 |
+
+## Reference Topology
+
+<img width="545" height="221" alt="toplogy" src="https://github.com/user-attachments/assets/538b5146-9785-423d-ad3c-9fc3b3942294" />
 
 ---
 
