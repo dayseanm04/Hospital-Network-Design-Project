@@ -28,3 +28,8 @@ OSPF neighbors between Edge Routers and Distribution Switches formed successfull
 <img width="835" height="136" alt="EDGE-2" src="https://github.com/user-attachments/assets/ba528ad6-f707-421d-9c1f-729e7aafa00a" />
 
 - Core firewalls not reaching **FULL** state
+
+## 🔍 Troubleshooting Steps Taken
+- 1️⃣ Verified physical interfaces and Port-Channels were up/up
+- 2️⃣ Confirmed correct IP addressing on all OSPF links
+- 3️⃣ I Ran **`show running-config | section Port`** on the Core firewalls
