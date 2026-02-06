@@ -101,4 +101,12 @@ router ospf 10
 
 ## 🔍 Verification
 
+### show ip ospf neighbor on HS-EDGE-R1
+
+<img width="825" height="138" alt="EDGE-1" src="https://github.com/user-attachments/assets/b451e2a8-b3c1-46ba-ba27-4bdb227745b1" />
+
+### show ip ospf neighbor on HS-EDGE-R2
+
+<img width="835" height="136" alt="EDGE-2" src="https://github.com/user-attachments/assets/92640222-d69f-45db-b189-591ba334a530" />
+
 
