@@ -18,7 +18,7 @@
 ### ♦️ On DSW1 in global config mode:
 
 ```bash
-router ospf 1
+router ospf 10
 network 10.10.0.0 0.0.0.255 area 1
 ```
 
@@ -41,7 +41,7 @@ network 10.255.2.0 0.0.0.3 area 1
 #### ♦️ DSW2 in global config mode:
 
 ```bash
-router ospf 1
+router ospf 10
 network 10.20.0.0 0.0.0.255 area 1
 ```
 
@@ -63,7 +63,7 @@ network 10.255.2.4 0.0.0.3 area 1
 
 #### ♦️ On F1-ASW1:
 
-- `router ospf 1`
+- `router ospf 10`
 - `network 10.0.0.1 0.0.0.0 area 1`  *(loopback)* 
 - `network 10.10.0.0 0.0.0.3 area 1` *(to DSW1)* 
 - `network 10.20.0.0 0.0.0.3 area 1` *(to DSW2)*
@@ -74,7 +74,7 @@ network 10.255.2.4 0.0.0.3 area 1
 
 #### ♦️ On F1-ASW2:
 
-- `router ospf 1`
+- `router ospf 10`
 - `network 10.0.0.2 0.0.0.0 area 1` *(loopback)*
 - `network 10.10.0.4 0.0.0.3 area 1` *(to DSW1)*
 - `network 10.20.0.4 0.0.0.3 area 1` *(to DSW2)* 
@@ -84,7 +84,7 @@ network 10.255.2.4 0.0.0.3 area 1
 ## 7️⃣ F2-ASW1
 #### ♦️ On F2-ASW1:
 
-- `router ospf 1`
+- `router ospf 10`
 - `network 10.0.0.3 0.0.0.0 area 1` *(loopback)* 
 - `network 10.10.0.8 0.0.0.3 area 1` *(to DSW1)*
 - `network 10.20.0.8 0.0.0.3 area 1` *(to DSW2)* 
@@ -95,7 +95,7 @@ network 10.255.2.4 0.0.0.3 area 1
 
 #### ♦️ On F2-ASW2:
 
-- `router ospf 1`
+- `router ospf 10`
 - `network 10.0.0.4 0.0.0.0 area 1` *(loopback)* 
 - `network 10.10.0.12 0.0.0.3 area 1` *(to DSW1)* 
 - `network 10.20.0.12 0.0.0.3 area 1` *(to DSW2)*
@@ -106,7 +106,7 @@ network 10.255.2.4 0.0.0.3 area 1
 
 #### ♦️ On F3-ASW1:
 
-- `router ospf 1`
+- `router ospf 10`
 - `network 10.0.0.5 0.0.0.0 area 1` *(loopback)*
 - `network 10.10.0.16 0.0.0.3 area 1` *(to DSW1)* 
 - `network 10.20.0.16 0.0.0.3 area 1` *(to DSW2)* 
@@ -117,7 +117,7 @@ network 10.255.2.4 0.0.0.3 area 1
 
 #### ♦️ On F3-ASW2:
 
-- `router ospf 1`
+- `router ospf 10`
 - `network 10.0.0.6 0.0.0.0 area 1` *(loopback)*
 - `network 10.10.0.20 0.0.0.3 area 1` *(to DSW1)*
 - `network 10.20.0.20 0.0.0.3 area 1` *(to DSW2)*
@@ -131,7 +131,7 @@ network 10.255.2.4 0.0.0.3 area 1
 
 #### ♦️ On Service-ASW:
 
-- `router ospf 1`
+- `router ospf 10`
 - `network 10.0.0.7 0.0.0.0 area 1` *(loopback)* 
 - `network 10.255.2.0 0.0.0.3 area 1` *(to DSW1)*
 - `network 10.255.2.4 0.0.0.3 area 1` *(to DSW2)*
@@ -185,3 +185,5 @@ network 10.255.2.4 0.0.0.3 area 1
 #### ♦️ show ip ospf neighbor on Service-ASW
 
 <img width="849" height="117" alt="Service-ASW-ospf-neighbors" src="https://github.com/user-attachments/assets/7d0e41dc-9d43-485a-bc56-3bd4cdcc37aa" />
+
+Note: I changed the process ID  to 10
