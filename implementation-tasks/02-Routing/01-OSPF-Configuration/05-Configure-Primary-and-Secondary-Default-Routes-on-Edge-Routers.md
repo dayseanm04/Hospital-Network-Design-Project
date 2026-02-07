@@ -65,6 +65,14 @@ router ospf 1
 
 <img width="913" height="472" alt="HS-EDGE-R2" src="https://github.com/user-attachments/assets/c904fb2f-c4af-4b88-a325-7b280269fc08" />
 
+#### show ip route | include 0.0.0.0 on HS-CORE-FW1
+
+<img width="1027" height="479" alt="Core-1" src="https://github.com/user-attachments/assets/6ad833a8-0b81-4684-9fc2-4fa220d43748" />
+
+#### show ip route | include 0.0.0.0 on HS-CORE-FW2
+
+<img width="1031" height="474" alt="Core-2" src="https://github.com/user-attachments/assets/16df8310-9e3c-417a-8419-ba92068c5458" />
+
 #### show ip route | include 0.0.0.0 on DSW1
 
 <img width="847" height="99" alt="DSW1" src="https://github.com/user-attachments/assets/86037350-a45a-4304-9f92-a689ca076cc9" />
