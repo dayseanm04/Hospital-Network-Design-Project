@@ -83,6 +83,6 @@ router ospf 1
 
 #### show ip route | include 0.0.0.0 on the Access switches
 
-<img width="773" height="98" alt="F1-ASW2" src="https://github.com/user-attachments/assets/c354f9d9-61ea-4750-b7df-c3d84a8e6ce3" />
-
 <img width="712" height="101" alt="F1-ASW1" src="https://github.com/user-attachments/assets/9b449c47-bc57-4779-bb40-953351a7db3c" />
+
+<img width="773" height="98" alt="F1-ASW2" src="https://github.com/user-attachments/assets/c354f9d9-61ea-4750-b7df-c3d84a8e6ce3" />
