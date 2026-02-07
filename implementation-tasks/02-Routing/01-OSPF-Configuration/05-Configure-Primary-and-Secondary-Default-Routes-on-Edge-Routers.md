@@ -6,3 +6,7 @@ In this task, I will configure **primary and secondary default routes** on the H
 I will configure **ISP1** as the **primary path** and **ISP2** as a **backup path** using administrative distance. I will then  **advertised the default routes into the OSPF domain** so internal devices can reach external networks.
 
 ---
+
+## Reference Topology
+
+<img width="1250" height="622" alt="toplogy" src="https://github.com/user-attachments/assets/4782bc94-0409-4950-85dd-3edb90d04536" />
