@@ -5,8 +5,6 @@ In this task, I will configure **primary and secondary default routes** on the H
 
 I will configure **ISP1** as the **primary path** and **ISP2** as a **backup path** using administrative distance. I will then  **advertised the default routes into the OSPF domain** so internal devices can reach external networks.
 
----
-
 ## Reference Topology
 
 <img width="1250" height="622" alt="toplogy" src="https://github.com/user-attachments/assets/4782bc94-0409-4950-85dd-3edb90d04536" />
@@ -67,8 +65,12 @@ router ospf 1
 
 <img width="913" height="472" alt="HS-EDGE-R2" src="https://github.com/user-attachments/assets/c904fb2f-c4af-4b88-a325-7b280269fc08" />
 
+#### show ip route | include 0.0.0.0 on DSW1
 
+<img width="847" height="99" alt="DSW1" src="https://github.com/user-attachments/assets/86037350-a45a-4304-9f92-a689ca076cc9" />
 
+#### show ip route | include 0.0.0.0 on DSW2
 
+<img width="788" height="97" alt="DSW2" src="https://github.com/user-attachments/assets/815799b5-9791-44c5-81a2-22334984f266" />
 
 
