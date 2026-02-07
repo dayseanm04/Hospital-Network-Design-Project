@@ -59,3 +59,16 @@ router ospf 1
 
 ## 🔍 Verification
 
+#### show ip route on HS-EDGE-R1
+
+<img width="970" height="511" alt="HS-EDGE-R1" src="https://github.com/user-attachments/assets/bc1d588c-c492-451c-a037-de81789aec1f" />
+
+#### show ip route on HS-EDGE-R2
+
+<img width="913" height="472" alt="HS-EDGE-R2" src="https://github.com/user-attachments/assets/c904fb2f-c4af-4b88-a325-7b280269fc08" />
+
+
+
+
+
+
