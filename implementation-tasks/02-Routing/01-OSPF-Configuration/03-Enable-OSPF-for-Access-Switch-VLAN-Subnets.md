@@ -28,7 +28,7 @@ configure terminal
 #### 🔷 Enter OSPF config mode
 
 ```bash
-router ospf 1
+router ospf 10
 network <network Address> <Wildcard Mask> area 1
 ```
 
@@ -36,7 +36,7 @@ network <network Address> <Wildcard Mask> area 1
 ### 🏥 Example F1-ASW1 (VLAN 101, 110)
 
 ```bash
-router ospf 1
+router ospf 10
 network 172.16.1.0 0.0.0.63 area 1
 ```
 
@@ -58,3 +58,4 @@ write memory
 <img width="795" height="225" alt="DSW2-ip-route" src="https://github.com/user-attachments/assets/d56d4cf0-fe57-4269-92eb-ce1b7969b52f" />
 
 DSW1 & DSW2 succesfully learned the route to the subnets VIA OSPF!
+Note: I changed the process ID  to 10
