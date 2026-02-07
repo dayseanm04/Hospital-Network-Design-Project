@@ -30,7 +30,7 @@ The VLAN networks remain advertised in OSPF, but **end devices do not participat
 
 ### 1️⃣ Enter OSPF configuration mode
 ```bash
-router ospf 1
+router ospf 10
 ```
 
 ### 2️⃣ Configure passive interfaces for the VLANs on that switch
