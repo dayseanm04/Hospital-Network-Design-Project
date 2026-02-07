@@ -52,3 +52,10 @@ router ospf 10
 
 On DSW1 and DSW2:
 
+```bash
+router ospf 1
+ default-information originate
+```
+
+
+
