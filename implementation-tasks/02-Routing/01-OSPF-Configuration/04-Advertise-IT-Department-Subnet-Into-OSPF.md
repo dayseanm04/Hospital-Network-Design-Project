@@ -7,7 +7,7 @@ I this task I will advertise the **IT Department subnet (10.50.50.0/26)** into *
 
 | VLAN/Dept | Subnet | Wildcard | OSPF Area |
 |---|---|---|---|
-| IT Department | 10.50.50.0/26 | 0.0.0.63 | Area 10 |
+| IT Department | 10.50.50.0/26 | 0.0.0.63 | Area 1 |
 
 ## Reference Network Diagram
 
