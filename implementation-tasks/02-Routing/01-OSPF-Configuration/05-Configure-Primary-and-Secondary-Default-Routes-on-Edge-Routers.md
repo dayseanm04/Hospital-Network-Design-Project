@@ -13,7 +13,6 @@ I will configure **ISP1** as the **primary path** and **ISP2** as a **backup pat
 
 ---
 
-
 ## 🎯 Objective
 - Configure a **primary default route** via ISP1
 - Configure a **secondary default route** via ISP2 using a higher metric
@@ -21,3 +20,11 @@ I will configure **ISP1** as the **primary path** and **ISP2** as a **backup pat
 - Verify default route propagation to access switches
 
 ---
+
+## 🖧 Edge Router Default Route Configuration
+
+### 🔵 HS-EDGE-R1 (Primary ISP)
+
+```bash
+ip route 0.0.0.0 0.0.0.0 69.45.12.1 1
+```
