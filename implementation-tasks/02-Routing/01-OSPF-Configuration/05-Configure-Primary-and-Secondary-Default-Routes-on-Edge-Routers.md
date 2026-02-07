@@ -81,7 +81,7 @@ router ospf 1
 
 <img width="788" height="97" alt="DSW2" src="https://github.com/user-attachments/assets/815799b5-9791-44c5-81a2-22334984f266" />
 
-#### show ip route | include 0.0.0.0 on Access switches
+#### show ip route | include 0.0.0.0 on the Access switches
 
 <img width="773" height="98" alt="F1-ASW2" src="https://github.com/user-attachments/assets/c354f9d9-61ea-4750-b7df-c3d84a8e6ce3" />
 
