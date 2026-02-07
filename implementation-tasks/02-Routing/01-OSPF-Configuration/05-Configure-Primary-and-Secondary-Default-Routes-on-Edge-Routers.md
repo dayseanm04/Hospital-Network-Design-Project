@@ -57,5 +57,5 @@ router ospf 1
  default-information originate
 ```
 
-
+## 🔍 Verification
 
