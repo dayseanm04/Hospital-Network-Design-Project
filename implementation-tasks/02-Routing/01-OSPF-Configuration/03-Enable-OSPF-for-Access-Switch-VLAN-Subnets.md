@@ -58,4 +58,3 @@ write memory
 <img width="795" height="225" alt="DSW2-ip-route" src="https://github.com/user-attachments/assets/d56d4cf0-fe57-4269-92eb-ce1b7969b52f" />
 
 DSW1 & DSW2 succesfully learned the route to the subnets VIA OSPF!
-Note: I changed the process ID  to 10
