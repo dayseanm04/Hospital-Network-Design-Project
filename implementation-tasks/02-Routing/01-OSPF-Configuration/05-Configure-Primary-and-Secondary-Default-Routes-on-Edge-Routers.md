@@ -48,6 +48,7 @@ router ospf 10
  default-information originate
 ```
 
+### ♦️ Distribution Switches (Area 1)
 
-
+On DSW1 and DSW2:
 
