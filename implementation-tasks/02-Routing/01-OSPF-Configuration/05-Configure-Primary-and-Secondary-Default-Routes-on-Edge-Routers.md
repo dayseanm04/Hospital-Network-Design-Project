@@ -37,6 +37,17 @@ ip route 0.0.0.0 0.0.0.0 100.45.12.1 50
 
 Note: A higher administrative distance ensures ISP2 is only used if the primary route becomes unavailable.
 
+## 🔁 Advertise Default Route into OSPF
+
+### ♦️ On the Edge Routers (Area 0 – Backbone)
+
+On HS-EDGE-R1 and HS-EDGE-R2:
+
+```bash
+router ospf 10
+ default-information originate
+```
+
 
 
 
