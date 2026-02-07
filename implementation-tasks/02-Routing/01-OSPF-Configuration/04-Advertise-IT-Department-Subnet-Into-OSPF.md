@@ -7,7 +7,7 @@ I this task I will advertise the **IT Department subnet (10.50.50.0/26)** into *
 
 | VLAN/Dept | Subnet | Wildcard | OSPF Area |
 |---|---|---|---|
-| IT Department | 10.50.50.0/26 | 0.0.0.63 | Area 1 |
+| IT Department | 10.50.50.0/26 | 0.0.0.63 | Area 10 |
 
 ## Reference Network Diagram
 
@@ -27,7 +27,7 @@ configure terminal
 ### 2️⃣ Enter OSPF process 1:
 
 ```bash
-router ospf 1
+router ospf 10
 ```
 
 ### 3️⃣ Advertise the IT subnet into Area 1:
@@ -56,3 +56,5 @@ show ip route | include 10.50.50.0
 
 
 #### ✅ DSW1 and DSW2 successfully learned the route to the IT DPT subnet (10.50.50.0/26)
+
+Note: I changed the process ID  to 10
