@@ -28,3 +28,15 @@ I will configure **ISP1** as the **primary path** and **ISP2** as a **backup pat
 ```bash
 ip route 0.0.0.0 0.0.0.0 69.45.12.1 1
 ```
+
+### 🔵 HS-EDGE-R2 (Secondary ISP)
+
+```bash
+ip route 0.0.0.0 0.0.0.0 100.45.12.1 50
+```
+
+Note: A higher administrative distance ensures ISP2 is only used if the primary route becomes unavailable.
+
+
+
+
