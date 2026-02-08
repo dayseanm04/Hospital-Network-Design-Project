@@ -20,3 +20,6 @@ When I ping **HS-EDGE-R2** from internal hosts (PCs connected to the Access Swit
 - HS-CORE-FW2
 - HS-EDGE-R2
 
+---
+
+## ❌ Symptoms Observed
