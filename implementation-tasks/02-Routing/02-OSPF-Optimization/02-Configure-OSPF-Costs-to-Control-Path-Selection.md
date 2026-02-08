@@ -30,3 +30,10 @@ Example (Floor 1):
 - Default OSPF cost for all interfaces is **1**
 - I will adjusted the OSPF cost is manually **control which path is preferred**
 
+
+## 🔍 Default State (Before Change)
+
+```bash
+show ip ospf interface brief
+```
+
