@@ -36,4 +36,27 @@ Example (Floor 1):
 ```bash
 show ip ospf interface brief
 ```
+<img width="927" height="154" alt="HS-EDGE-1" src="https://github.com/user-attachments/assets/1a5d7a99-cf03-4834-b4ad-7eb11a6f637e" />
+
+<img width="963" height="240" alt="DSW1" src="https://github.com/user-attachments/assets/7a94a09c-799d-4a80-bdb2-37ece1722f17" />
+
+<img width="929" height="169" alt="F1-ASW1" src="https://github.com/user-attachments/assets/c22e6ee5-b3c1-420b-9410-17110b2cf6bf" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
