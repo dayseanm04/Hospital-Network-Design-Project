@@ -42,7 +42,7 @@ show ip ospf interface brief
 
 <img width="929" height="169" alt="F1-ASW1" src="https://github.com/user-attachments/assets/c22e6ee5-b3c1-420b-9410-17110b2cf6bf" />
 
-
+Note: The Default OSPF cost: 1. OSPF may select different forward and return paths
 
 
 
