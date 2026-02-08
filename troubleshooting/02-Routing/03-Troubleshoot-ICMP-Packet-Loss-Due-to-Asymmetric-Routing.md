@@ -48,3 +48,9 @@ Emergency DPT PC1 ping HS-EDGE-R2
 ## 🛠 Root Cause
 The packet loss was caused by **asymmetric routing** in the OSPF domain.
 
+OSPF selected different paths for the forward and return traffic, causing ICMP replies to return through a different access and distribution switch.  
+
+This resulted in intermittent packet loss during the ping test.
+
+---
+
