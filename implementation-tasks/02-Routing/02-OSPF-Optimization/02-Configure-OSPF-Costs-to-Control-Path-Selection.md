@@ -46,7 +46,7 @@ Note: The Default OSPF cost: 1. OSPF may select different forward and return pat
 
 ## 🔧 OSPF Cost Configuration
 
-♦️ On all of the Access Switches. In Global config mode:
+### ♦️ On all of the Access Switches. In Global config mode:
 
 ```bash
 interface Port-Channel1
@@ -56,10 +56,18 @@ interface Port-Channel2
  ip ospf cost 10
 ```
 
+### ♦️ On the Distribution Switches (DSW1 / DSW2)
 
+```bash
+interface Port-Channel1 - 7
+ ip ospf cost 10
 
+interface Port-Channel20
+ ip ospf cost 10
 
-
+interface Port-Channel1 - 10
+ ip ospf cost 100
+```
 
 
 
