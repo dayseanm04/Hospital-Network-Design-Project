@@ -23,3 +23,7 @@ When I ping **HS-EDGE-R2** from internal hosts (PCs connected to the Access Swit
 ---
 
 ## ❌ Symptoms Observed
+
+Emergency DPT PC1 ping HS-EDGE-R2 
+
+<img width="877" height="433" alt="ED1-ping" src="https://github.com/user-attachments/assets/bfee098b-c924-47f6-af14-3505e887730c" />
