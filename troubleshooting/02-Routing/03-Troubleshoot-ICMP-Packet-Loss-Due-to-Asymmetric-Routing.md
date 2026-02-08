@@ -90,8 +90,6 @@ MRD-1 (Floor 2)
 
 <img width="870" height="466" alt="F2-MRD-1-ping" src="https://github.com/user-attachments/assets/7a47f097-53ba-44bd-8e60-95d18bcda535" />
 
+ICU-1 (Floor 2)
 
-
-
-
-
+<img width="876" height="466" alt="F3-PC-ping" src="https://github.com/user-attachments/assets/8b30ea08-b822-46b5-a075-38063b5608af" />
