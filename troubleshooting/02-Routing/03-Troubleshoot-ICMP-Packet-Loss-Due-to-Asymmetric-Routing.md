@@ -43,4 +43,8 @@ Emergency DPT PC1 ping HS-EDGE-R2
   - Return  path used: HS-EDGE-R2 > HS-CORE-FW2 > DSW2 > F3-ASW2 > DSW1 > F1-ASW1 > ED-1
 - 5️⃣ Determined that OSPF was selecting **different-cost return paths**
 
+---
+
+## 🛠 Root Cause
+The packet loss was caused by **asymmetric routing** in the OSPF domain.
 
