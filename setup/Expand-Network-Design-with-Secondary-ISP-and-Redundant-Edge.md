@@ -11,7 +11,7 @@ In this task, I will expand the **hospital network design**. I will add a second
 
 ## Reference Topology
 
-<img width="1281" height="535" alt="Screenshot 2026-02-04 160733" src="https://github.com/user-attachments/assets/b293ed65-e9e3-475e-abb3-16119b7765ab" />
+<img width="1250" height="622" alt="toplogy" src="https://github.com/user-attachments/assets/2b6a1e38-86be-44e5-8050-11ccbbe28749" />
 
 ---
 
