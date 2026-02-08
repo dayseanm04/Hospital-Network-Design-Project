@@ -67,4 +67,6 @@ Adjusted OSPF design to enforce more predictable routing behavior:
   - Distribution switch interconnections
   - Edge router interconnection
 
+This ensured that OSPF preferred **consistent upstream paths**, eliminating asymmetric routing.
 
+---
