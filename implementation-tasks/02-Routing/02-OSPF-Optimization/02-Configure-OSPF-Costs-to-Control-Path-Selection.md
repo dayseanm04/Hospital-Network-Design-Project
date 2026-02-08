@@ -79,10 +79,17 @@ interface Port-Channel10
 ip ospf cost 10
 ```
 
+## 🔍 Verification
 
+Verify OSPF interface costs:
 
+show ip ospf interface brief
 
+<img width="945" height="109" alt="HS-EDGE-1" src="https://github.com/user-attachments/assets/2eb2c80b-0937-4296-855b-a51b6e37adeb" />
 
+<img width="928" height="223" alt="DSW1" src="https://github.com/user-attachments/assets/e1d60095-520d-406c-9177-35fa172009dc" />
+
+<img width="986" height="136" alt="F1-ASW1" src="https://github.com/user-attachments/assets/392fa824-a90c-49f8-a323-bb288aee8cc9" />
 
 
 
