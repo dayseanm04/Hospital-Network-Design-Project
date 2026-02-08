@@ -70,3 +70,18 @@ Adjusted OSPF design to enforce more predictable routing behavior:
 This ensured that OSPF preferred **consistent upstream paths**, eliminating asymmetric routing.
 
 ---
+
+## 🧪 Verification
+Re-ran ICMP tests after changes:
+
+- ED1 (Floor 1) → HS-EDGE-R2 ✅
+- MRD-1 (Floor 2) → HS-EDGE-R2 ✅
+- ICU-1 (Floor 2) → HS-EDGE-R2 ✅
+
+```bash
+ping 10.200.0.5
+```
+
+
+
+
