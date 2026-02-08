@@ -56,7 +56,7 @@ interface Port-Channel2
  ip ospf cost 10
 ```
 
-### ♦️ On the Distribution Switches (DSW1 / DSW2)
+### ♦️ On the Distribution Switches (DSW1 / DSW2) In Global config mode:
 
 ```bash
 interface Port-Channel1 - 7
@@ -69,6 +69,15 @@ interface Port-Channel1 - 10
  ip ospf cost 100
 ```
 
+### ♦️ On the Edge Routers (HS-EDGE-R1 / HS-EDGE-R12) In Global config mode:
+
+```bash
+interface Port-Channel1
+ip ospf cost 10
+
+interface Port-Channel10
+ip ospf cost 10
+```
 
 
 
