@@ -94,3 +94,8 @@ MRD-1 (Floor 2)
 ICU-1 (Floor 2)
 
 <img width="876" height="466" alt="F3-PC-ping" src="https://github.com/user-attachments/assets/8b30ea08-b822-46b5-a075-38063b5608af" />
+
+🔗 **Fix Applied:**  
+[Click here to view the OSPF cost configuration](/implementation-tasks/02-Routing/02-OSPF-Optimization/02-Configure-OSPF-Costs-to-Control-Path-Selection.md)
+
+
