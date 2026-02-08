@@ -37,6 +37,9 @@ Emergency DPT PC1 ping HS-EDGE-R2
 ## 🔍 Troubleshooting Steps Taken
 - 1️⃣ Verified that all interfaces and links were **up/up**
 - 2️⃣ Confirmed correct **IP addressing** across access, distribution, core, and edge layers
-- 3️⃣ Used **simulation mode** to trace packet flow 
+- 3️⃣ Used **simulation mode** to trace packet flow
+- 4️⃣ Identified **asymmetric routing**:
+  - Forward path used: ED-1 > ASW1 > DSw2 > HS-CORE-FW2 > HS-EDGE-R2
+  - Return  path used: HS-EDGE-R2 > HS-CORE-FW2 > DSW2 > F3-ASW2 > DSW1 > F1-ASW1 > ED-1
 
 
