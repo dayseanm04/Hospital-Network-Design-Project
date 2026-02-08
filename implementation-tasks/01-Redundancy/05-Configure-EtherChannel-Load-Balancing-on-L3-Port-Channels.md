@@ -5,6 +5,10 @@ This task, I will configure **EtherChannel load balancing** for all **Layer 3 Po
 
 The **source–destination IP** load balancing method is used to ensure that packets belonging to the same traffic flow always use the same physical link within the Port-Channel.
 
+## 🎯 Objective
+- Configure a consistent load-balancing method across all devices
+- Improve bandwidth utilization while maintaining packet order
+
 ---
 
 ## Reference Topology
