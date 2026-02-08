@@ -54,3 +54,7 @@ This resulted in intermittent packet loss during the ping test.
 
 ---
 
+## ✅ Resolution
+Adjusted OSPF design to enforce more predictable routing behavior:
+
+
