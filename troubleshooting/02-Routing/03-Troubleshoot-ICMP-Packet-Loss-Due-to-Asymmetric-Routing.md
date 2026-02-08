@@ -62,9 +62,11 @@ Adjusted OSPF design to enforce more predictable routing behavior:
   - Distribution Switches → Core Firewalls
   - Core Firewalls → Edge Routers
 
-- Configured **OSPF cost 100** on interconnection links:
+- I Configured **OSPF cost 100** on interconnection links:
   - Distribution switch interconnections
   - Edge router interconnection
+
+- I configure src-dst-ip as the load balance method for the Port-Channel
 
 This ensured that OSPF preferred **consistent upstream paths**, eliminating asymmetric routing.
 
