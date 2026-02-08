@@ -24,4 +24,6 @@ In Global config mode:
 port-channel load-balance src-dst-ip
 ```
 
-I ran this command on all of the network device in the hospital LAN except the firewalls because it didnt allow me to! (Cisco PAcket Tracer Limitation)
+**Note:** This setting applies globally to all Port-Channels on the device
+
+I ran this command on all of the network device in the hospital LAN except the firewalls because it didnt allow me to! (Cisco Packet Tracer Limitation)
