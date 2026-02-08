@@ -8,6 +8,6 @@
 
 ## 📌 Problem Description
 
-When I ping **HS-EDGE-R2** from internal hosts to I got **50% packet loss**.  
+When I ping **HS-EDGE-R2** from internal hosts (PCs connected to the Access Switches) to I got **50% packet loss**.  
 
 ---
