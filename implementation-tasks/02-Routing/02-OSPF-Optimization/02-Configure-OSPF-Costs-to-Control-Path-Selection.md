@@ -44,10 +44,17 @@ show ip ospf interface brief
 
 Note: The Default OSPF cost: 1. OSPF may select different forward and return paths
 
-##🔧 OSPF Cost Configuration
+## 🔧 OSPF Cost Configuration
 
-♦️ On all of the Access Switches
+♦️ On all of the Access Switches. In Global config mode:
 
+```bash
+interface Port-Channel1
+ ip ospf cost 10
+
+interface Port-Channel2
+ ip ospf cost 10
+```
 
 
 
