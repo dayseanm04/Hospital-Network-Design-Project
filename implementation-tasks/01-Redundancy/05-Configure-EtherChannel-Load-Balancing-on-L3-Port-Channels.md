@@ -23,3 +23,5 @@ In Global config mode:
 ```bash
 port-channel load-balance src-dst-ip
 ```
+
+I ran this command on all of the network device in the hospital LAN except the firewalls because it didnt allow me to! (Cisco PAcket Tracer Limitation)
