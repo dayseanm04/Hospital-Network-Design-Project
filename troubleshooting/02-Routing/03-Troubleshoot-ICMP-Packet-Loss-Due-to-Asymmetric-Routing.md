@@ -82,6 +82,7 @@ Re-ran ICMP tests after changes:
 ping 10.200.0.5
 ```
 
+ED1 Ping
 
-
+<img width="879" height="422" alt="F1-ED1-ping-sucess" src="https://github.com/user-attachments/assets/2360c348-1e54-4081-bcf3-809f9aa09e07" />
 
