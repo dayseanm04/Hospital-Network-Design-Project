@@ -82,7 +82,16 @@ Re-ran ICMP tests after changes:
 ping 10.200.0.5
 ```
 
-ED1 Ping
+ED1 Ping (Floor 1)
 
 <img width="879" height="422" alt="F1-ED1-ping-sucess" src="https://github.com/user-attachments/assets/2360c348-1e54-4081-bcf3-809f9aa09e07" />
+
+MRD-1 (Floor 2)
+
+<img width="870" height="466" alt="F2-MRD-1-ping" src="https://github.com/user-attachments/assets/7a47f097-53ba-44bd-8e60-95d18bcda535" />
+
+
+
+
+
 
