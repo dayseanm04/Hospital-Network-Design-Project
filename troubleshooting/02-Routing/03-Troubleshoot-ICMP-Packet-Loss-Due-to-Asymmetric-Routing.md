@@ -11,3 +11,12 @@
 When I ping **HS-EDGE-R2** from internal hosts (PCs connected to the Access Switches) to I got **50% packet loss**.  
 
 ---
+
+## 🌐 Affected Devices
+- ED1 (Floor 1 PC)
+- Access Switches (Floor 1, Floor 2, Floor 3)
+- DSW1
+- DSW2
+- HS-CORE-FW2
+- HS-EDGE-R2
+
