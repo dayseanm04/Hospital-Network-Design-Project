@@ -6,3 +6,8 @@
 
 ---
 
+## 📌 Problem Description
+
+When I ping **HS-EDGE-R2** from internal hosts to I got **50% packet loss**.  
+
+---
