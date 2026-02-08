@@ -31,3 +31,9 @@ Emergency DPT PC1 ping HS-EDGE-R2
 - ICMP ping showed **50% packet loss**
 - Requests succeeded, but some replies timed out
 - Observed different **forward and return paths** in simulation mode
+
+---
+
+## 🔍 Troubleshooting Steps Taken
+- 1️⃣ Verified that all interfaces and links were **up/up**  
+
