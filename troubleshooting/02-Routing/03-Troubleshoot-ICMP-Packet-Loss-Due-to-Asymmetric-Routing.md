@@ -73,6 +73,9 @@ This ensured that OSPF preferred **consistent upstream paths**, eliminating asym
 🔗 **Fix Applied:**  
 [**`Click here to view the OSPF cost configuration`**](/implementation-tasks/02-Routing/02-OSPF-Optimization/02-Configure-OSPF-Costs-to-Control-Path-Selection.md)
 
+[**`Click here to view the Port-Channel load-balance configuration`**](/implementation-tasks/01-Redundancy/05-Configure-EtherChannel-Load-Balancing-on-L3-Port-Channels.md)
+
+
 ---
 
 ## 🧪 Verification
