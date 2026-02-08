@@ -44,6 +44,10 @@ show ip ospf interface brief
 
 Note: The Default OSPF cost: 1. OSPF may select different forward and return paths
 
+##🔧 OSPF Cost Configuration
+
+♦️ On all of the Access Switches
+
 
 
 
