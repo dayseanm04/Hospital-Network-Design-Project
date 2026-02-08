@@ -18,3 +18,9 @@ The goal is to ensure **predictable and symmetric routing** by influencing which
 <img width="753" height="464" alt="toplogy" src="https://github.com/user-attachments/assets/5e1d3339-2887-4283-8ee9-0771c4229a47" />
 
 ---
+
+## 🧠 Design Logic
+
+Each access switch is to both distribution 1 and 2 via **Port-Channels**.
+
+
