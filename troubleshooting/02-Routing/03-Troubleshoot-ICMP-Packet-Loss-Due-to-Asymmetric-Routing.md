@@ -35,5 +35,7 @@ Emergency DPT PC1 ping HS-EDGE-R2
 ---
 
 ## 🔍 Troubleshooting Steps Taken
-- 1️⃣ Verified that all interfaces and links were **up/up**  
+- 1️⃣ Verified that all interfaces and links were **up/up**
+- 2️⃣ Confirmed correct **IP addressing** across access, distribution, core, and edge layers  
+
 
