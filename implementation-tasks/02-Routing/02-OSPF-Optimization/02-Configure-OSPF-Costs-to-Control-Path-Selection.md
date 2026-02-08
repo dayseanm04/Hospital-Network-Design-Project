@@ -23,4 +23,10 @@ The goal is to ensure **predictable and symmetric routing** by influencing which
 
 Each access switch is to both distribution 1 and 2 via **Port-Channels**.
 
+Example (Floor 1):
+- F1-ASW1 connects to:
+  - **DSW1** via Port-Channel1
+  - **DSW2** via Port-Channel2
+- Default OSPF cost for all interfaces is **1**
+- I will adjusted the OSPF cost is manually **control which path is preferred**
 
