@@ -9,8 +9,17 @@ The **source–destination IP** load balancing method is used to ensure that pac
 - Configure a consistent load-balancing method across all devices
 - Improve bandwidth utilization while maintaining packet order
 
----
 
 ## Reference Topology
 
 <img width="841" height="636" alt="toplogy2" src="https://github.com/user-attachments/assets/7c8bfb7a-0ada-4f28-b135-b2ca46f41a6a" />
+
+---
+
+## 🔧 Configuration
+
+In Global config mode:
+
+```bash
+port-channel load-balance src-dst-ip
+```
