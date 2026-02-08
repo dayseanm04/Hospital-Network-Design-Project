@@ -63,7 +63,6 @@ Adjusted OSPF design to enforce more predictable routing behavior:
   - Core Firewalls → Edge Routers
 
 - Configured **OSPF cost 100** on interconnection links:
-  - Access switch interconnections
   - Distribution switch interconnections
   - Edge router interconnection
 
