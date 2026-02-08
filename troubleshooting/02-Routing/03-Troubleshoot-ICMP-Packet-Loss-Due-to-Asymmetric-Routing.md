@@ -57,4 +57,11 @@ This resulted in intermittent packet loss during the ping test.
 ## ✅ Resolution
 Adjusted OSPF design to enforce more predictable routing behavior:
 
+- I configured **OSPF cost 10** on uplinks:
+  - Access Switches → Distribution Switches
+  - Distribution Switches → Core Firewalls
+  - Core Firewalls → Edge Routers
+
+  
+
 
