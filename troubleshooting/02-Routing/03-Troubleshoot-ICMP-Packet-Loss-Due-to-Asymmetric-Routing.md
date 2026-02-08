@@ -2,7 +2,7 @@
 
 ## Reference Topology
 
-<img width="841" height="636" alt="toplogy2" src="https://github.com/user-attachments/assets/7c8bfb7a-0ada-4f28-b135-b2ca46f41a6a" />
+<img width="708" height="618" alt="toplogy4" src="https://github.com/user-attachments/assets/5f671e8c-3e85-4ff5-871d-a27c0099da2c" />
 
 ---
 
