@@ -39,7 +39,7 @@ login local
 ### 3️⃣ Set timeout to 4 minutes
 
 ```bash
-exec-timeout 4
+exec-timeout 10
 ```
 
 ## 🔒 Step 3 - Limit Console Sessions
