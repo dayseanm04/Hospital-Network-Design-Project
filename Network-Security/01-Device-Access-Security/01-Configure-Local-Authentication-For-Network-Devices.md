@@ -12,7 +12,7 @@ In this task, I configure a **local username** and an **enable secret** on all n
 | User Secret | `ccna` |
 | Enable Secret | `ccna` |
 
- **⚠️ Note:** These credentials are used for **lab purposes only**. They are simple so logging in during testing is quick and easy.
+ **⚠️ Note:** These credentials are used for this **project only**. They are simple so logging in during testing is quick and easy.
 
 ---
 
