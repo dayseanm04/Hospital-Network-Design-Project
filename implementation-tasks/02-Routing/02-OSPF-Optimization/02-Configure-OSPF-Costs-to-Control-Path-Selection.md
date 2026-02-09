@@ -91,7 +91,11 @@ show ip ospf interface brief
 
 <img width="986" height="136" alt="F1-ASW1" src="https://github.com/user-attachments/assets/392fa824-a90c-49f8-a323-bb288aee8cc9" />
 
+Note: Since I configured OSPF cost 10 for the port channels from the:
+- access switches to the distribution switches,
+- distribution switches to firewall,
+- Edge routers to Firewalls, 
 
+Traffic from the access layer can use both the path VIA DSW1 or DSW2.
 
-
-
+I will adjust the cost to make DSW1 the prefered path
