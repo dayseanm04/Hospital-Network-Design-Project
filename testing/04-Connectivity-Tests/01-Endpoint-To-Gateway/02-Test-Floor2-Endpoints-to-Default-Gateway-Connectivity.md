@@ -57,7 +57,9 @@ ping 172.16.2.35
 
 <img width="876" height="429" alt="FIN-1" src="https://github.com/user-attachments/assets/142ae73d-a9d5-41c4-8730-52780cf1d733" />
 
+### Fin-3 ping was successful ✅
 
+<img width="875" height="481" alt="FIN-3" src="https://github.com/user-attachments/assets/22510a1c-ab52-4034-9b99-9e14c809cd08" />
 
 
 
