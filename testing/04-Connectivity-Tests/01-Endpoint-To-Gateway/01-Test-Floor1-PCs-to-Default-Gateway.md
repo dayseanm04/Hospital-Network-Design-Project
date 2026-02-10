@@ -37,3 +37,20 @@ ping 172.16.1.3
 
 <img width="875" height="421" alt="ED3" src="https://github.com/user-attachments/assets/ab3ff59a-de5a-47a1-bbf1-0c0d6f6dd2da" />
 
+---
+
+## 🧪 Test 2 – XRay Department PC (VLAN 110)
+
+**Device Tested**
+- **X-R-1** (connected to F1-ASW1)
+
+**Test Command**
+
+```bash
+ping 172.16.1.67
+```
+
+### X-R-1 ping was successful ✅
+
+<img width="879" height="467" alt="XR-1" src="https://github.com/user-attachments/assets/f83e01ef-82be-441f-aa2d-f07acecd86f0" />
+
