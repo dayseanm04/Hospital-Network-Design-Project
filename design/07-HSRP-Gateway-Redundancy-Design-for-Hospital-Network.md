@@ -28,5 +28,13 @@ HSRP is implemented to provide:
 - The VIP is the **3rd usable IP address** in the subnet
 - This provides consistency and avoids conflicts with SVI IP addresses
 
+---
+
+## 🧱 Floor 1 – HSRP Role Design
+
+### VLANs
+- **VLAN 101** – Emergency Department  
+- **VLAN 110** – X-Ray / Imaging  
+- **VLAN 120** – ED Nurse Offices  
 
 
