@@ -86,4 +86,5 @@ HSRP is implemented to provide:
 - Active/standby roles are **intentionally alternated per VLAN** to:
   - Balance traffic load
   - Avoid a single access switch becoming a bottleneck
-  
+  - If the active switch fails, the standby switch **automatically takes over** as the default gateway
+
