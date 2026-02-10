@@ -6,3 +6,17 @@ This test verifies that **Floor 2 endpoints** can successfully reach their **def
 > 💡 Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
 
 ---
+
+## 🏢 Floor 2 VLAN Overview
+
+| PC Name | Department | VLAN ID | Subnet | Default Gateway | Connected Switch |
+|------|-----------|--------|--------|----------------|------------------|
+| MRD-1 | Medical Records | VLAN 200 | 172.16.2.0/27 | 172.16.2.3 | F2-ASW1 |
+| MRD-3 | Medical Records | VLAN 200 | 172.16.2.0/27 | 172.16.2.3 | F2-ASW2 |
+| Fin-1 | Billing & Finance | VLAN 210 | 172.16.2.32/27 | 172.16.2.35 | F2-ASW1 |
+| Fin-3 | Billing & Finance | VLAN 210 | 172.16.2.32/27 | 172.16.2.35 | F2-ASW2 |
+| HR-1 | Human Resources | VLAN 220 | 172.16.2.64/27 | 172.16.2.67 | F2-ASW1 |
+
+---
+
+
