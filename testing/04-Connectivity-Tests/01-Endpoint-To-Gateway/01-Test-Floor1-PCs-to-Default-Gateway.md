@@ -30,5 +30,10 @@ This test verifies that **Floor 1 end devices** can successfully reach their **d
 ping 172.16.1.3
 ```
 
+### ED-1 ping was successful ✅
+<img width="875" height="437" alt="ED1" src="https://github.com/user-attachments/assets/f03439f9-ce20-449e-a424-4bbb564886dd" />
 
+### ED-3 ping was successful ✅
+
+<img width="875" height="421" alt="ED3" src="https://github.com/user-attachments/assets/ab3ff59a-de5a-47a1-bbf1-0c0d6f6dd2da" />
 
