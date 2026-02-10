@@ -64,7 +64,6 @@ HSRP is implemented to provide:
 
 ---
 
-
 ## 🧱 Floor 3 – HSRP Role Design
 
 ### VLANs
@@ -84,3 +83,7 @@ HSRP is implemented to provide:
 
 ## 📝 Design Notes
 - Only **access-layer switches** participate in HSRP
+- Active/standby roles are **intentionally alternated per VLAN** to:
+  - Balance traffic load
+  - Avoid a single access switch becoming a bottleneck
+  
