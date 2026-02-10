@@ -91,10 +91,15 @@ Each floor uses a separate **/24 network**
 
 ## 🧩 Servers Addressing (10.10.10.0/27)
 
-| Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
-|-----------|--------|------|------------------|---------|----------|
-| Server | 10.10.10.0/27 | 255.255.255.224 | .1 – .30 | about 10 | 30|
+| Department | Subnet | Mask | Usable IP Range | Devices | Usable IP | Devices | Usable IP |
+|-----------|--------|------|------------------|---------|----------|---------|----------|
+| Server | 10.10.10.0/27 | 255.255.255.224 | .1 – .30 | about 10 | 30| about 10 | 30 |
 
+## 🧩IT Department (10.50.50.0/26)
+
+| Department | Subnet  | Mask   | Default Gateway | Devices | Usable IP |
+|--------|--------------|----------------|-----------------|---------|-------|
+| IT Department | 10.50.50.0/26  | 255.255.255.192  | 10.50.50.1  | 15 | 62 |
 
 ---
 
