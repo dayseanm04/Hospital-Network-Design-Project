@@ -31,6 +31,9 @@ This test verifies that **Floor 2 endpoints** can successfully reach their **def
 ping 172.16.2.3
 ```
 
+### MRD-1 ping was successful ✅
 
+<img width="876" height="424" alt="MRD-1" src="https://github.com/user-attachments/assets/e0149eea-5d26-4462-8d3d-11ad0cc3e81b" />
 
+<img width="880" height="480" alt="MRD-3" src="https://github.com/user-attachments/assets/630bd482-a41a-40be-82ea-eaf0e00eae93" />
 
