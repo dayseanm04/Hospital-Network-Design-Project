@@ -103,7 +103,7 @@ Each floor uses a separate **/24 network**
 | Floor | Total IPs Allocated | Total Devices | Notes |
 |-------|----------------------|---------------|--------|
 | Floor 1 | 190 | about 100 | ED, Pharmacy, Imaging |
-| Floor 2 | 130 | about 86 | Administrative + IT departments |
+| Floor 2 | 130 | about 86 | Administrative, Finance departments |
 | Floor 3 | 216 | about 122 | ICU, Radiology, Nurse Stations |
 | Floor 4 | 214 | about 120 | Clinics, Pediatrics, ICU |
 
