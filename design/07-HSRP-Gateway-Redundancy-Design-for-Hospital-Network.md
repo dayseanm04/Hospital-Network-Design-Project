@@ -19,3 +19,7 @@ HSRP is implemented to provide:
 | Load Sharing | Yes (different VLANs active on different switches) |
 | HSRP VIP Addressing | **3rd usable IP address** of each subnet |
 | Scope | Access Layer (Each Floor) |
+
+---
+
+## 🌐 HSRP Virtual IP Strategy
