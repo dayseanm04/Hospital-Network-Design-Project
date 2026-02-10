@@ -82,3 +82,5 @@ HSRP is implemented to provide:
 
 ---
 
+## 📝 Design Notes
+- Only **access-layer switches** participate in HSRP
