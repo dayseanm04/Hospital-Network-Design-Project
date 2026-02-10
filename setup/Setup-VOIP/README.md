@@ -1,3 +1,3 @@
-# ☎️ SKIP the VOIP Setup
+# ☎️ SKIP the VOIP Setup section
 
-**Packet tracer was giving me problems**
+## ❌ Skip this Cisco Packet tracer was giving me problems (too much limitations)❌
