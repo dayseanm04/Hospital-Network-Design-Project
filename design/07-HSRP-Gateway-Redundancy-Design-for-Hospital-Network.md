@@ -72,5 +72,13 @@ HSRP is implemented to provide:
 - **VLAN 310** – ICU  
 - **VLAN 330** – Radiology  
 
+### Active / Standby Assignment
 
+| VLAN | Subnet | HSRP Virtual IP | Active Switch | Standby Switch |
+|-----:|--------|----------------|---------------|----------------|
+| 300 | 172.16.3.0/26 | 172.16.3.3 | F3-ASW1 | F3-ASW2 |
+| 310 | 172.16.3.64/27 | 172.16.3.67 | F3-ASW2 | F3-ASW1 |
+| 330 | 172.16.3.128/27 | 172.16.3.131 | F3-ASW2 | F3-ASW1 |
+
+---
 
