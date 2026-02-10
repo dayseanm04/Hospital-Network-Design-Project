@@ -62,4 +62,25 @@ ping 172.16.3.67
 
 <img width="872" height="475" alt="ICU-3" src="https://github.com/user-attachments/assets/1d593e91-2f7f-4585-a4d9-f8224ca8d7d2" />
 
+---
+
+## 🧪 Test 2 – F3 Nurse Department (VLAN 310)
+
+**Devices Tested**
+- **Rad-1** (connected to F3-ASW1)
+- **Rad-3** (connected to F3-ASW2)
+
+**Test Command**
+
+```bash
+ping 172.16.3.131
+```
+
+### Rad-1 ping was successful ✅
+
+<img width="871" height="422" alt="Rad-1" src="https://github.com/user-attachments/assets/ea0e4e06-cddb-4d94-bf2a-05fed7f581c4" />
+
+### Rad-3 ping was successful ✅
+
+<img width="862" height="439" alt="Rad-3" src="https://github.com/user-attachments/assets/88b521d6-0120-4203-96be-5fd1298087ed" />
 
