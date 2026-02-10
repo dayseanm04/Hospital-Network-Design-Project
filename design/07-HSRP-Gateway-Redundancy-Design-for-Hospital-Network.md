@@ -79,6 +79,9 @@ HSRP is implemented to provide:
 | 310 | 172.16.3.64/27 | 172.16.3.67 | F3-ASW2 | F3-ASW1 |
 | 330 | 172.16.3.128/27 | 172.16.3.131 | F3-ASW2 | F3-ASW1 |
 
+🔗 **HSRP Configuration:**  
+[**`Click here to view the HSRP Configuration`**](/implementation-tasks/01-Redundancy/HSRP/02-Configure-HSRP-for-Load-Balancing-on-Access-Switches.md)
+
 ---
 
 ## 📝 Design Notes
