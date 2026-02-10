@@ -30,7 +30,9 @@ ping 10.50.50.1
 
 <img width="871" height="471" alt="IT-PC1" src="https://github.com/user-attachments/assets/6b565c19-c143-4b69-8ee3-b6737ebc22f6" />
 
+### IT-PC2 ping was successful ✅
 
+<img width="870" height="471" alt="IT-PC2" src="https://github.com/user-attachments/assets/897454d6-43bb-4f3b-ad02-b87c4a14dca0" />
 
 
 
