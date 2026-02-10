@@ -53,3 +53,14 @@ HSRP is implemented to provide:
 - **VLAN 200** – Medical Records  
 - **VLAN 210** – Billing & Finance  
 - **VLAN 220** – Human Resources  
+
+### Active / Standby Assignment
+
+| VLAN | Subnet | HSRP Virtual IP | Active Switch | Standby Switch |
+|-----:|--------|----------------|---------------|----------------|
+| 200 | 172.16.2.0/27 | 172.16.2.3 | F2-ASW1 | F2-ASW2 |
+| 210 | 172.16.2.32/27 | 172.16.2.35 | F2-ASW2 | F2-ASW1 |
+| 220 | 172.16.2.64/27 | 172.16.2.67 | F2-ASW2 | F2-ASW1 |
+
+---
+
