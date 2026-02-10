@@ -41,7 +41,7 @@ ping 172.16.2.3
 
 ---
 
-## 🧪 Test 2 – Medical Records Department (VLAN 200)
+## 🧪 Test 2 – Billing & Finance Department (VLAN 210)
 
 **Devices Tested**
 - **Fin-1** (connected to F2-ASW1)
@@ -61,6 +61,15 @@ ping 172.16.2.35
 
 <img width="875" height="481" alt="FIN-3" src="https://github.com/user-attachments/assets/22510a1c-ab52-4034-9b99-9e14c809cd08" />
 
+## 🧪 Test 3 – Human Resources Department (VLAN 220)
 
+**Devices Tested**
+- **HR-1** (connected to F2-ASW1)
+
+**Test Command**
+
+```bash
+ping 172.16.2.67
+```
 
 
