@@ -18,7 +18,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 ---
 
-## 🧱 Floor 2 – Administration, HR & IT (172.16.2.0/24)
+## 🧱 Floor 2 – Administration & HR  (172.16.2.0/24)
 
 | VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
 |--------:|-------------------------------|--------------------|--------------------|--------------------|
