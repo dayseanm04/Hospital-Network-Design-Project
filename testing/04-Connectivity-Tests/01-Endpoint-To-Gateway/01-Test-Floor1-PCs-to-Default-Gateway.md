@@ -59,7 +59,7 @@ ping 172.16.1.67
 ## 🧪 Test 3 – Nurse Offices PC (VLAN 120)
 
 **Device Tested**
-- **Nrs** (connected to F1-ASW2)
+- **Nrs-1** (connected to F1-ASW2)
 
 **Test Command**
 
@@ -67,5 +67,6 @@ ping 172.16.1.67
 ping 172.16.1.99
 ```
 
+### Nrs-1 ping was successful ✅
 
-
+<img width="871" height="471" alt="Nrs-1" src="https://github.com/user-attachments/assets/3ac10f6a-d150-466a-9ba8-a7d1998409b3" />
