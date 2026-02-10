@@ -44,3 +44,12 @@ HSRP is implemented to provide:
 | 101 | 172.16.1.0/26 | 172.16.1.3 | F1-ASW1 | F1-ASW2 |
 | 110 | 172.16.1.64/27 | 172.16.1.67 | F1-ASW2 | F1-ASW1 |
 | 120 | 172.16.1.96/27 | 172.16.1.99 | F1-ASW2 | F1-ASW1 |
+
+---
+
+## 🧱 Floor 2 – HSRP Role Design
+
+### VLANs
+- **VLAN 200** – Medical Records  
+- **VLAN 210** – Billing & Finance  
+- **VLAN 220** – Human Resources  
