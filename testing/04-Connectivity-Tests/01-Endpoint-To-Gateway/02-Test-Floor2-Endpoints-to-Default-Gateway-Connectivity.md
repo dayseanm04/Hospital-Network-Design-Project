@@ -19,4 +19,18 @@ This test verifies that **Floor 2 endpoints** can successfully reach their **def
 
 ---
 
+## 🧪 Test 1 – Medical Records Department (VLAN 200)
+
+**Devices Tested**
+- **MRD-1** (connected to F2-ASW1)
+- **MRD-3** (connected to F2-ASW2)
+
+**Test Command**
+
+```bash
+ping 172.16.2.3
+```
+
+
+
 
