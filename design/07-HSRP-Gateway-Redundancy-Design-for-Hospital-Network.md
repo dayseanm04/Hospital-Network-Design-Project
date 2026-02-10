@@ -37,4 +37,10 @@ HSRP is implemented to provide:
 - **VLAN 110** – X-Ray / Imaging  
 - **VLAN 120** – ED Nurse Offices  
 
+### Active / Standby Assignment
 
+| VLAN | Subnet | HSRP Virtual IP | Active Switch | Standby Switch |
+|-----:|--------|----------------|---------------|----------------|
+| 101 | 172.16.1.0/26 | 172.16.1.3 | F1-ASW1 | F1-ASW2 |
+| 110 | 172.16.1.64/27 | 172.16.1.67 | F1-ASW2 | F1-ASW1 |
+| 120 | 172.16.1.96/27 | 172.16.1.99 | F1-ASW2 | F1-ASW1 |
