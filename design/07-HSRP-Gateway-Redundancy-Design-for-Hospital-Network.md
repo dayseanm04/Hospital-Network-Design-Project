@@ -26,5 +26,7 @@ HSRP is implemented to provide:
 
 - Each VLAN uses an **HSRP Virtual IP (VIP)** as the default gateway
 - The VIP is the **3rd usable IP address** in the subnet
+- This provides consistency and avoids conflicts with SVI IP addresses
+
 
 
