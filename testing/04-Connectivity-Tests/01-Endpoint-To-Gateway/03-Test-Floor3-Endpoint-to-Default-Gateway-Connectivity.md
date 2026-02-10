@@ -20,7 +20,7 @@ This test verifies that **Floor 3 endpoints** can successfully reach their **def
 
 ---
 
-## 🧪 Test 1 – Nurse Department (VLAN 301)
+## 🧪 Test 1 – F3 Nurse Department (VLAN 300)
 
 **Devices Tested**
 - **F3-Nrs-1** (connected to F3-ASW1)
@@ -31,5 +31,14 @@ This test verifies that **Floor 3 endpoints** can successfully reach their **def
 ```bash
 ping 172.16.3.3
 ```
+
+### *F3-Nrs-1 ping was successful ✅
+
+<img width="872" height="446" alt="F3-Nrs-1" src="https://github.com/user-attachments/assets/93fdfe78-af5f-45ef-8f09-ea7d67434ba0" />
+
+### *F3-Nrs-3 ping was successful ✅
+
+<img width="871" height="435" alt="F3-Nrs-3" src="https://github.com/user-attachments/assets/e3e2b8ef-7a04-4988-b2e0-b13f47e5bb17" />
+
 
 
