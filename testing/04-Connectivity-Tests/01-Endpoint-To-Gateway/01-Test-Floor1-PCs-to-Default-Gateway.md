@@ -54,3 +54,18 @@ ping 172.16.1.67
 
 <img width="879" height="467" alt="XR-1" src="https://github.com/user-attachments/assets/f83e01ef-82be-441f-aa2d-f07acecd86f0" />
 
+---
+
+## 🧪 Test 3 – Nurse Offices PC (VLAN 120)
+
+**Device Tested**
+- **Nrs** (connected to F1-ASW2)
+
+**Test Command**
+
+```bash
+ping 172.16.1.99
+```
+
+
+
