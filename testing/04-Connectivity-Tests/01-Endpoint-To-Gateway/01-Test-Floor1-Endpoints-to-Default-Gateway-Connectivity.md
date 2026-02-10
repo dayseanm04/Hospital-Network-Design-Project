@@ -15,7 +15,7 @@ This test verifies that **Floor 1 end devices** can successfully reach their **d
 | ED-1 | Emergency DPT | VLAN 101 | 172.16.1.0/26 | 172.16.1.3 | F1-ASW1 |
 | ED-3 | Emergency DPT | VLAN 101 | 172.16.1.0/26 | 172.16.1.3 | F1-ASW2 |
 | X-R-1 | XRay DPT | VLAN 110 | 172.16.1.64/27 | 172.16.1.67 | F1-ASW1 |
-| Nrs-1 | ED Nurse Offices | VLAN 121 | 172.16.1.96/27 | 172.16.1.99 | F1-ASW2 |
+| Nrs-1 | ED Nurse Offices | VLAN 120 | 172.16.1.96/27 | 172.16.1.99 | F1-ASW2 |
 
 ---
 
