@@ -64,3 +64,13 @@ HSRP is implemented to provide:
 
 ---
 
+
+## 🧱 Floor 3 – HSRP Role Design
+
+### VLANs
+- **VLAN 300** – Nurse Offices  
+- **VLAN 310** – ICU  
+- **VLAN 330** – Radiology  
+
+
+
