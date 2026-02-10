@@ -72,4 +72,6 @@ ping 172.16.2.35
 ping 172.16.2.67
 ```
 
+### HR-1 ping was successful ✅
 
+<img width="876" height="430" alt="HR-1" src="https://github.com/user-attachments/assets/db5aedc2-fbc8-49f8-8b1d-397f74272bf6" />
