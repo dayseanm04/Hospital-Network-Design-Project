@@ -17,3 +17,4 @@ HSRP is implemented to provide:
 | HSRP Mode | Active / Standby per VLAN |
 | Gateway Redundancy | Yes (HSRP Virtual IP) |
 | Load Sharing | Yes (different VLANs active on different switches) |
+| HSRP VIP Addressing | **3rd usable IP address** of each subnet |
