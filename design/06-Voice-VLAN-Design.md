@@ -1,5 +1,9 @@
 # 📞 06-Voice-VLAN-Design.md
 
+
+## ❌ Skip this Cisco Packet tracer was giving me problems (too much limitations)❌
+
+
 ## 📌 Overview
 
 This document describes the **Voice VLAN design** I will use in the network.  
