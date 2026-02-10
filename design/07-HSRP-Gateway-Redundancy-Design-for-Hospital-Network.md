@@ -88,3 +88,7 @@ HSRP is implemented to provide:
   - Avoid a single access switch becoming a bottleneck
   - If the active switch fails, the standby switch **automatically takes over** as the default gateway
 
+## ✅ Benefits of This Design
+- No single point of failure at the access layer
+- Efficient use of the access switches
+- Simplifies troubleshooting 
