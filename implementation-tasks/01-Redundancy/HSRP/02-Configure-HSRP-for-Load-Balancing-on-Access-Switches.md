@@ -1,4 +1,4 @@
-# 🧩 03 – Configure HSRP with Load Balancing on Access Switches
+# 🧩 03 – Configure HSRP for Load Balancing on Access Switches
 
 In this task I will configures **HSRP (standby version 2)** on the **Access Layer switch pairs** to provide **default-gateway redundancy** while also **load-balancing** traffic by splitting which switch is **Active Router** per VLAN. 
 
