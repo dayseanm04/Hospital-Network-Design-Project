@@ -9,3 +9,9 @@ HSRP is implemented to provide:
 - **High availability** in the event of access switch failure
 
 ---
+
+## 🧠 HSRP Design Principles
+
+| Design Element | Description |
+|---------------|------------|
+| HSRP Mode | Active / Standby per VLAN |
