@@ -23,3 +23,5 @@ HSRP is implemented to provide:
 ---
 
 ## 🌐 HSRP Virtual IP Strategy
+
+- Each VLAN uses an **HSRP Virtual IP (VIP)** as the default gateway
