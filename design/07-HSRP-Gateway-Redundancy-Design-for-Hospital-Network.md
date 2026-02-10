@@ -15,3 +15,4 @@ HSRP is implemented to provide:
 | Design Element | Description |
 |---------------|------------|
 | HSRP Mode | Active / Standby per VLAN |
+| Gateway Redundancy | Yes (HSRP Virtual IP) |
