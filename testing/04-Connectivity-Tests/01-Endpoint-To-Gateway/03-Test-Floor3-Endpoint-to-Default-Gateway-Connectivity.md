@@ -20,3 +20,16 @@ This test verifies that **Floor 3 endpoints** can successfully reach their **def
 
 ---
 
+## 🧪 Test 1 – Nurse Department (VLAN 301)
+
+**Devices Tested**
+- **F3-Nrs-1** (connected to F3-ASW1)
+- **F3-Nrs-3** (connected to F3-ASW2)
+
+**Test Command**
+
+```bash
+ping 172.16.3.3
+```
+
+
