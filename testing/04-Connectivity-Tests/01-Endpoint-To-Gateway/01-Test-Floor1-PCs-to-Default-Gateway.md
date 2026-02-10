@@ -17,3 +17,18 @@ This test verifies that **Floor 1 end devices** can successfully reach their **d
 | Nrs-1 | ED Nurse Offices | VLAN 121 | 172.16.1.96/27 | 172.16.1.99 | F1-ASW2 |
 
 ---
+
+## 🧪 Test 1 – Emergency Department PCs (VLAN 101)
+
+**Devices Tested**
+- **ED-1** (connected to F1-ASW1)
+- **ED-3** (connected to F1-ASW2)
+
+**Test Command**
+
+```bash
+ping 172.16.1.3
+```
+
+
+
