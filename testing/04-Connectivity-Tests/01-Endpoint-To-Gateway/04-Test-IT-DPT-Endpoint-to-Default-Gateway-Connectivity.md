@@ -14,3 +14,14 @@ This test verifies that **IT Department endpoints** can successfully reach their
 
 ---
 
+## 🧪 Test – IT Department (VLAN 240)
+
+**Devices Tested**
+- **IT-PC1**
+- **IT-PC2**
+
+**Test Command**
+
+```bash
+ping 10.50.50.1
+```
