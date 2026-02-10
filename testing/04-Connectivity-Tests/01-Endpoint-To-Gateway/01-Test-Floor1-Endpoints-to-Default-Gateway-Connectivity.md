@@ -1,4 +1,5 @@
-# 🧪 Test – Floor 1 PCs to Default Gateway
+# 🧪 Test – Floor 1 Endpoints to Default Gateway Connectivity
+
 
 ## 📌 Purpose
 This test verifies that **Floor 1 end devices** can successfully reach their **default gateway** within their respective VLANs.
