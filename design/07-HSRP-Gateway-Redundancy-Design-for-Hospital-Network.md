@@ -3,3 +3,9 @@
 ## 📌 Overview
 This document describes the **HSRP (Hot Standby Router Protocol) design** used at the **access layer** of the hospital network.
 
+HSRP is implemented to provide:
+- **Default gateway redundancy** for the Hospital Department VLANs
+- **Load sharing** across access switches using a per-VLAN active/standby model
+- **High availability** in the event of access switch failure
+
+---
