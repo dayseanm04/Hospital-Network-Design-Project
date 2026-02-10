@@ -1,4 +1,4 @@
-## 📋 Access Control List (ACL) Tracking Table
+## 📋 Access Control List (ACL) Reference Table
 
 This table is used to **track all ACLs configured** in the hospital network, including their purpose, permitted sources, and where they are applied.
 
