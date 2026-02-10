@@ -25,3 +25,14 @@ This test verifies that **IT Department endpoints** can successfully reach their
 ```bash
 ping 10.50.50.1
 ```
+
+### IT-PC1 ping was successful ✅
+
+<img width="871" height="471" alt="IT-PC1" src="https://github.com/user-attachments/assets/6b565c19-c143-4b69-8ee3-b6737ebc22f6" />
+
+
+
+
+
+
+
