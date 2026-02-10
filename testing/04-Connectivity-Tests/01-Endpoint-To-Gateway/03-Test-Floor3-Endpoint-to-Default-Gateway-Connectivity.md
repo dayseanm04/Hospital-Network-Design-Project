@@ -40,5 +40,18 @@ ping 172.16.3.3
 
 <img width="871" height="435" alt="F3-Nrs-3" src="https://github.com/user-attachments/assets/e3e2b8ef-7a04-4988-b2e0-b13f47e5bb17" />
 
+---
+
+## 🧪 Test 2 – F3 Nurse Department (VLAN 310)
+
+**Devices Tested**
+- **ICU-1** (connected to F3-ASW1)
+- **ICU-3** (connected to F3-ASW2)
+
+**Test Command**
+
+```bash
+ping 172.16.3.67
+```
 
 
