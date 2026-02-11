@@ -30,9 +30,8 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** from the **IT Departmen
 ## 🧪 Test 1 – IT to Emergency Department and F1-ED-Nrs DPT (Floor 1)
 
 ### 🔎 Destination
-- **ED-1**
+- ED-1 IP: **172.16.1.4 (DHCP)**
 - VLAN: **101 – Emergency DPT**
-- IP: **172.16.1.4 (DHCP)**
 
 ### 🔎 Destination 2
 - **F1-ED-Nrs-1**
@@ -40,10 +39,11 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** from the **IT Departmen
 - IP: **172.16.1.100 (DHCP)**
 
 
-### 🔧 Test Command
+### 🔧 Test Commands
 
 ```bash
-ping 172.16.1.4 & ping 172.16.1.100
+ping 172.16.1.4
+ping 172.16.1.100
 ```
 
 ## IT-PC1 to ED-1 and F1-ED-Nrs-1 ping was successful ✅
@@ -63,7 +63,8 @@ ping 172.16.1.4 & ping 172.16.1.100
 ### 🔧 Test Command
 
 ```bash
-ping 172.16.2.4 & ping 172.16.2.6
+ping 172.16.2.4
+ping 172.16.2.6
 ```
 
 ## IT-PC1 to MRD-1 and MRD-3 ping was successful ✅
@@ -71,4 +72,28 @@ ping 172.16.2.4 & ping 172.16.2.6
 <img width="881" height="737" alt="IT1-MRD-1-3" src="https://github.com/user-attachments/assets/d42ec8d2-c7ad-4cb9-a749-e47b4ab08916" />
 
 
+---
+
+## 🧪 Test 3 – IT to ICU (Floor 3
+
+### 🔎 Destination
+- **ICU-3** : 172.16.2.4 (DHCP)
+- VLAN: **310 – ICU DPT**
+
+### 🔎 Destination
+
+- **Rad-1 IP**: 172.16.3.134 (DHCP)
+- VLAN: **330 – Radiology DPT**
+
+### 🔧 Test Commands
+
+```bash
+ping 172.16.2.76 
+ping 172.16.2.134
+```
+
+## IT-PC1 to ICU-3 and Rad-1 ping was successful ✅
+
+
+<img width="881" height="736" alt="IT1-ICU-1-Rad-1" src="https://github.com/user-attachments/assets/874cc523-535b-4883-8fbb-0c82be9983f9" />
 
