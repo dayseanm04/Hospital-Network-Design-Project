@@ -1,10 +1,13 @@
 # 🧪 Test – Floor 1 Endpoints to Default Gateway Connectivity
 
-
 ## 📌 Purpose
 This test verifies that **Floor 1 end devices** can successfully reach their **default gateway** within their respective VLANs.
 
 > 💡 Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
+
+## Reference Topology
+
+<img width="1005" height="463" alt="Topology" src="https://github.com/user-attachments/assets/e5489238-85b4-4948-902c-18c321f365fb" />
 
 ---
 
