@@ -27,7 +27,7 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** from the **IT Departmen
 
 # 🏥 Inter-VLAN Connectivity Tests
 
-## 🧪 Test 1 – IT to Emergency Department (Floor 1)
+## 🧪 Test 1 – IT to Emergency Department and F1-ED-Nrs DPT (Floor 1)
 
 ### 🔎 Destination
 - **ED-1**
@@ -50,13 +50,25 @@ ping 172.16.1.4 & ping 172.16.1.100
 
 <img width="882" height="750" alt="IT1-ED1-ED-Nrs-1" src="https://github.com/user-attachments/assets/003b3cbc-2ab9-4332-9b32-4a9c4a838c0b" />
 
+---
+
+## 🧪 Test 2 – IT to Medical Records (Floor 2)
+
+### 🔎 Destination
+- **MRD-1** : 172.16.2.4 (DHCP)
+- **MRD-3** : 172.16.2.6 (DHCP)
+- VLAN: **200 – Medical Records DPT**
 
 
+### 🔧 Test Command
 
+```bash
+ping 172.16.2.4 & ping 172.16.2.6
+```
 
+## IT-PC1 to MRD-1 and MRD-3 ping was successful ✅
 
-
-
+<img width="881" height="737" alt="IT1-MRD-1-3" src="https://github.com/user-attachments/assets/d42ec8d2-c7ad-4cb9-a749-e47b4ab08916" />
 
 
 
