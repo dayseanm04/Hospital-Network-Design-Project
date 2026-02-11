@@ -88,7 +88,22 @@ ping 172.16.3.70
 
 <img width="701" height="370" alt="Fin1-ICU1" src="https://github.com/user-attachments/assets/0c157352-2d4e-4c03-a689-3f7fded4dcb9" />
 
+---
 
+## 🧪 Test 5 – Floor 3 to Floor 1
 
+### 🔎 Devices
+- **F3-Nrs-1** – VLAN 300 (172.16.3.0/26) – Floor 3
+- **ED-1** – VLAN 101 (172.16.1.0/27) –Floor 1
+
+### 🔧 Test Command
+
+```bash
+ping 172.16.3.4
+```
+
+## F3-Nrs-1 to ED-1 ping was successful ✅
+
+<img width="701" height="365" alt="F3-Nrs1-ED1" src="https://github.com/user-attachments/assets/076c7bb8-9a59-44f2-9998-0f78c2f5033c" />
 
 
