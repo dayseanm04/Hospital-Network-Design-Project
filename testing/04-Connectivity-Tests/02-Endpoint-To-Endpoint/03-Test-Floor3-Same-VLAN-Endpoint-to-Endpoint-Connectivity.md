@@ -11,3 +11,12 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 ---
 
 # 🏢 Floor 3 – Intra-VLAN Connectivity Tests
+
+## 🧪 Test 1 – Floor 3 Nurses Department (VLAN 300)
+
+### 🖥️ IP Addressing
+
+| Device | IP Address | Address Type | Subnet Mask | Default Gateway |
+|---------|------------|--------------|-------------|-----------------|
+| F3-Nrs-1 | 172.16.3.4 | DHCP | 255.255.255.192 | 172.16.3.3 |
+| F3-Nrs-PRNT | 172.16.3.30 | Static | 255.255.255.192 | 172.16.3.3 |
