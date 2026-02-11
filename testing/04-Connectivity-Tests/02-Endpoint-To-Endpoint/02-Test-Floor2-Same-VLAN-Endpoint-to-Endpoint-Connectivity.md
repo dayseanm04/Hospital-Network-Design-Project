@@ -77,7 +77,14 @@ ping 172.16.2.60
 | HR-1    | 172.16.2.68 | DHCP         | 255.255.255.224 | 172.16.2.67     |
 | HR-PRNT | 172.16.2.80 | Static       | 255.255.255.224 | 172.16.2.67     |
 
+### 🔎 Devices Tested
+- **HR-1** (PC – DHCP)
+- **HR-PRNT** (Printer – Static)
 
+### 📍 VLAN Information
+- VLAN: **220 – Human Resources DPT**
+- Subnet: **172.16.2.64/27**
+- Default Gateway: **172.16.2.67**
 
 
 
