@@ -83,5 +83,19 @@ ping 172.16.1.31
 | Nrs-1    | 172.16.1.101 | DHCP         | 255.255.255.224 | 172.16.1.99     |
 | Nrs-PRNT | 172.16.1.120 | Static       | 255.255.255.224 | 172.16.1.99     |
 
+---
 
+### 🔎 Devices Tested
+
+- **Nrs-1** (PC – DHCP)
+- **Nrs-PRNT** (Printer – Static)
+
+### 📍 VLAN Information
+
+- VLAN: 120 – Floor 1 Emergency DPT Nurses
+- Subnet: 172.16.1.96/27
+- Default Gateway: 172.16.1.99
+- Both devices connected to F1-ASW2
+
+### Nrs-1 ping was successful ✅
 
