@@ -29,3 +29,8 @@ This test verifies that **Hospital internal servers** can successfully reach the
 ```bash
 ping 10.10.10.1
 ```
+
+### DHCP-SRV ping was successful ✅
+
+<img width="876" height="486" alt="DHCP-SRV" src="https://github.com/user-attachments/assets/e95c2367-5c25-4c43-a930-04d890118cb8" />
+
