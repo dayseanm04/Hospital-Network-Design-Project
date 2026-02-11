@@ -20,3 +20,16 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 |---------|------------|--------------|-------------|-----------------|
 | F3-Nrs-1 | 172.16.3.4 | DHCP | 255.255.255.192 | 172.16.3.3 |
 | F3-Nrs-PRNT | 172.16.3.30 | Static | 255.255.255.192 | 172.16.3.3 |
+
+### 🔎 Devices Tested
+- **F3-Nrs-1** (PC – DHCP)
+- **F3-Nrs-PRNT** (Printer – Static)
+
+### 📍 VLAN Information
+- VLAN: **300 – Floor 3 Nurses DPT**
+- Subnet: **172.16.3.0/26**
+- Default Gateway: **172.16.3.3**
+- F3-Nrs-1 connected to **F3-ASW1**
+- F3-Nrs-PRNT connected to **F3-ASW2**
+
+- 
