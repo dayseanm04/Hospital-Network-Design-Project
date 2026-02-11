@@ -94,6 +94,9 @@ ping 172.16.2.134
 
 ## IT-PC1 to ICU-3 and Rad-1 ping was successful ✅
 
-
 <img width="881" height="736" alt="IT1-ICU-1-Rad-1" src="https://github.com/user-attachments/assets/874cc523-535b-4883-8fbb-0c82be9983f9" />
 
+---
+
+## 🎯 Overall Test Summary
+IT DPT VLAN successfully reached all department VLANs
