@@ -34,6 +34,8 @@ ping 172.16.2.4
 
 <img width="700" height="371" alt="ED1-MRD-1" src="https://github.com/user-attachments/assets/32dbb301-b27a-4c53-8225-4becd422aeee" />
 
+---
+
 ## 🧪 Test 2 – Floor 1 to Floor 3
 
 ### 🔎 Devices
@@ -50,8 +52,23 @@ ping 172.16.3.133
 
 <img width="697" height="373" alt="ED1-Rad-1" src="https://github.com/user-attachments/assets/eae8cc52-7284-4d52-a680-d1753f28a5e6" />
 
+---
 
+## 🧪 Test 3 – Floor 2 to Floor 1
 
+### 🔎 Devices
+- **Fin-1** – VLAN 210 (172.16.2.32/27) – Floor 2 
+- **F1-ED-Nrs-1** – VLAN 120 (172.16.1.96/26) – Floor 1
+
+### 🔧 Test Command
+
+```bash
+ping 172.16.1.101
+```
+
+## Fin-1 to F1-ED-Nrs-1 ping was successful ✅
+
+<img width="701" height="365" alt="F3-Nrs1-ED1" src="https://github.com/user-attachments/assets/1bc66610-b86c-4ef6-9b84-91efa536c53a" />
 
 
 
