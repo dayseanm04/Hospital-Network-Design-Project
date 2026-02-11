@@ -15,3 +15,8 @@ If an endpoint cannot reach its default gateway:
 ## 🎯 Test Objective
 
 For each floor and department:
+
+- Verify correct default gateway configuration  
+- Confirm successful ping to their default gateway (HSRP virtual IP Address)
+
+---
