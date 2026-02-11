@@ -96,3 +96,15 @@ ping 172.16.3.73
 - ICU-1 connected to **F3-ASW1**
 - ICU-4-PRNT connected to **F3-ASW2**
 
+### 🔧 Test Command
+
+```bash
+ping 172.16.3.73
+```
+
+## Rad-1 ping was successful ✅
+
+<img width="696" height="397" alt="Rad-1" src="https://github.com/user-attachments/assets/2ee478a4-80a5-452b-83b9-3248418f8aab" />
+
+---
+
