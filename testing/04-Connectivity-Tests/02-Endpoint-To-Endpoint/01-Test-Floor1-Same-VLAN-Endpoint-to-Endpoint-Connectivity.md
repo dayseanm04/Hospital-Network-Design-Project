@@ -22,3 +22,24 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 | ED-1 | 172.16.1.4 | DHCP | 255.255.255.192 | 172.16.1.3 |
 | ED-PRNT | 172.16.1.31 | Static | 255.255.255.192 | 172.16.1.3 |
 
+---
+
+## 🧪 Test 1 – Emergency Department (VLAN 101)
+
+### 🔎 Devices Tested
+- **ED-1** (PC – DHCP)
+- **ED-PRNT** (Printer – Static)
+
+### 📍 VLAN Information
+- VLAN: **101 – Emergency DPT**
+- Subnet: **172.16.1.0/26**
+- Default Gateway: **172.16.1.3**
+- ED-1 connected to **F1-ASW1**
+- ED-PRNT connected to **F1-ASW2**
+
+
+
+
+
+
+
