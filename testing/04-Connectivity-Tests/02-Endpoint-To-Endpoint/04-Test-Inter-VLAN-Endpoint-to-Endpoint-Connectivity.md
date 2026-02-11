@@ -124,4 +124,7 @@ ping 172.16.2.68
 
 <img width="697" height="366" alt="F3-Nrs1-HR-1" src="https://github.com/user-attachments/assets/cd1665dd-2d75-4d4b-b7e9-751756b7bd86" />
 
+---
 
+## 🎯 Overall Test Summary
+Endpoints in different VLANs can communicate successfully
