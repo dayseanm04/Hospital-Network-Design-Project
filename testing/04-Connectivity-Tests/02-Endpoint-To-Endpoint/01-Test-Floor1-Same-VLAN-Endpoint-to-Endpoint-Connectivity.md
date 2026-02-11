@@ -14,7 +14,6 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 
 # 🏢 Floor 1 – Intra-VLAN Connectivity Tests
 
-
 ### 🖥️ IP Addressing
 
 | Device | IP Address | Address Type | Subnet Mask | Default Gateway |
@@ -46,6 +45,31 @@ ping 172.16.1.31
 ### ED1 ping was successful ✅
 
 <img width="701" height="397" alt="ED1" src="https://github.com/user-attachments/assets/ae225111-5c7d-4a15-91c6-a4f1741a8692" />
+
+---
+
+# 🧪 Test 2 – X-Ray Department (VLAN 110)
+
+| Device   | IP Address  | Address Type | Subnet Mask     | Default Gateway |
+| -------- | ----------- | ------------ | --------------- | --------------- |
+| X-R-1    | 172.16.1.68 | DHCP         | 255.255.255.224 | 172.16.1.67     |
+| X-R-PRNT | 172.16.1.80 | Static       | 255.255.255.224 | 172.16.1.67     |
+
+---
+
+### 🔎 Devices Tested
+
+- **X-R-1** (PC – DHCP)
+- **X-R-PRNT** (Printer – Static)
+
+### 📍 VLAN Information
+
+- VLAN: 110 – X-Ray DPT
+- Subnet: 172.16.1.64/27
+- Default Gateway: 172.16.1.67
+- X-R-1 connected to F1-ASW1
+- X-R-PRNT connected to F1-ASW2
+
 
 
 
