@@ -22,3 +22,13 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 |---------|------------|--------------|-------------|-----------------|
 | MRD-1 | 172.16.2.2 | DHCP | 255.255.255.224 | 172.16.2.3 |
 | MRD-PRNT | 172.16.2.20 | Static | 255.255.255.224 | 172.16.2.3 |
+
+### 🔎 Devices Tested
+- **MRD-1** (PC – DHCP)
+- **MRD-PRNT** (Printer – Static)
+
+### 📍 VLAN Information
+- VLAN: **200 – Medical Records DPT**
+- Subnet: **172.16.2.0/27**
+- Default Gateway: **172.16.2.3**
+
