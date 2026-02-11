@@ -42,6 +42,14 @@ ping 172.16.2.20
 
 <img width="700" height="399" alt="MRD-1" src="https://github.com/user-attachments/assets/0d0cb7f2-928d-45b6-8b7e-66b74b11ced8" />
 
+---
+
+🧪 Test 2 – Billing & Finance Department (VLAN 210)
+
+| Device   | IP Address  | Address Type | Subnet Mask     | Default Gateway |
+| -------- | ----------- | ------------ | --------------- | --------------- |
+| Fin-1    | 172.16.2.37 | DHCP         | 255.255.255.224 | 172.16.2.35     |
+| Fin-PRNT | 172.16.2.60 | Static       | 255.255.255.224 | 172.16.2.35     |
 
 
 
