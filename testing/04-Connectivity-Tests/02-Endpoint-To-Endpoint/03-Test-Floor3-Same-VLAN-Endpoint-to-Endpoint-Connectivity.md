@@ -32,4 +32,10 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 - F3-Nrs-1 connected to **F3-ASW1**
 - F3-Nrs-PRNT connected to **F3-ASW2**
 
-- 
+### 🔧 Test Command
+
+```bash
+ping 172.16.3.30
+```
+
+
