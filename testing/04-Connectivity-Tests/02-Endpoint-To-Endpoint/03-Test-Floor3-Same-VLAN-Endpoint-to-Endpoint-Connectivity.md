@@ -110,4 +110,4 @@ ping 172.16.3.73
 
 ### 🎯 Overall Test Summary
 
-All Floor 2 endpoints successfully communicated within their respective VLANs
+All Floor 1 endpoints successfully communicated within their respective VLANs
