@@ -12,3 +12,13 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 
 ---
 
+# 🏢 Floor 2 – Intra-VLAN Connectivity Tests
+
+## 🧪 Test 1 – Medical Records Department (VLAN 200)
+
+### 🖥️ IP Addressing
+
+| Device | IP Address | Address Type | Subnet Mask | Default Gateway |
+|---------|------------|--------------|-------------|-----------------|
+| MRD-1 | 172.16.2.2 | DHCP | 255.255.255.224 | 172.16.2.3 |
+| MRD-PRNT | 172.16.2.20 | Static | 255.255.255.224 | 172.16.2.3 |
