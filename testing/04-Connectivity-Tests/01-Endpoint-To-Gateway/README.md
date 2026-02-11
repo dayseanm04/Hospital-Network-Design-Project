@@ -4,4 +4,9 @@
 
 This folder contains connectivity tests that verify end devices (PCs and and internal servers) can successfully reach their configured default gateway.
 
+If an endpoint cannot reach its default gateway:
+
+- Inter-VLAN routing will fail  
+- Access to internal servers will fail  
+- Internet connectivity will fail
 
