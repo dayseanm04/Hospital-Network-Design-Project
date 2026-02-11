@@ -86,7 +86,13 @@ ping 172.16.2.60
 - Subnet: **172.16.2.64/27**
 - Default Gateway: **172.16.2.67**
 
+```bash
+ping 172.16.2.80
+```
 
+## HR-1 ping was successful ✅
+
+<img width="708" height="394" alt="HR-1" src="https://github.com/user-attachments/assets/28c52168-fea8-40e1-b309-6509e62a4f2a" />
 
 
 
