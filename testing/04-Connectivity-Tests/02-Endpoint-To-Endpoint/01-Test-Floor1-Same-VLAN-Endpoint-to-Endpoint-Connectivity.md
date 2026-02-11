@@ -12,3 +12,9 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 
 ---
 
+### 🖥️ IP Addressing
+
+| Device | IP Address | Address Type | Subnet Mask | Default Gateway |
+|---------|------------|--------------|-------------|-----------------|
+| ED-1 | 172.16.1.4 | DHCP | 255.255.255.192 | 172.16.1.3 |
+| ED-PRNT | 172.16.1.31 | Static | 255.255.255.192 | 172.16.1.3 |
