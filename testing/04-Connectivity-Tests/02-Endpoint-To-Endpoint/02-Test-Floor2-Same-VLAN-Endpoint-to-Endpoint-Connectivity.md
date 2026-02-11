@@ -37,3 +37,19 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 ```bash
 ping 172.16.2.20
 ```
+
+## MRD-1 ping was successful ✅
+
+<img width="700" height="399" alt="MRD-1" src="https://github.com/user-attachments/assets/0d0cb7f2-928d-45b6-8b7e-66b74b11ced8" />
+
+
+
+
+
+
+
+
+
+
+
+
