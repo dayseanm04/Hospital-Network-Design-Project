@@ -11,3 +11,10 @@ These tests validate:
 - Department-to-department communication
 
 ---
+
+## 🏢 Floors & Departments Covered
+
+| Test File | Description |
+|-----------|------------|
+| [**`01-Test-Floor1-Same-VLAN-Endpoint-to-Endpoint-Connectivity.md`**](/testing/04-Connectivity-Tests/02-Endpoint-To-Endpoint/01-Test-Floor1-Same-VLAN-Endpoint-to-Endpoint-Connectivity.md) | Verifies same-VLAN communication between Floor 1 endpoints |
+
