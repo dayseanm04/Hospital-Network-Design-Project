@@ -20,3 +20,15 @@ For each floor and department:
 - Confirm successful ping to their default gateway (HSRP virtual IP Address)
 
 ---
+
+## 🏢 Floors & Departments Covered
+
+| Test File | Description |
+|-----------|------------|
+| [01-Test-Floor1-Endpoints-to-Default-Gateway.md](./01-Test-Floor1-Endpoints-to-Default-Gateway.md) | Verifies Floor 1 user devices can reach their VLAN gateway |
+| [02-Test-Floor2-Endpoints-to-Default-Gateway.md](./02-Test-Floor2-Endpoints-to-Default-Gateway.md) | Verifies Floor 2 user devices can reach their VLAN gateway |
+| [03-Test-Floor3-Endpoints-to-Default-Gateway.md](./03-Test-Floor3-Endpoints-to-Default-Gateway.md) | Verifies Floor 3 user devices can reach their VLAN gateway |
+| [04-Test-IT-DPT-Endpoint-to-Default-Gateway.md](./04-Test-IT-DPT-Endpoint-to-Default-Gateway.md) | Verifies IT department devices can reach their gateway |
+| [05-Test-Internal-Server-Endpoints-to-Default-Gateway.md](./05-Test-Internal-Server-Endpoints-to-Default-Gateway.md) | Verifies internal servers can reach their gateway |
+
+---
