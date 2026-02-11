@@ -32,3 +32,17 @@ For each floor and department:
 | [**`05-Test-Internal-Server-Endpoints-to-Default-Gateway.md`**](/testing/04-Connectivity-Tests/01-Endpoint-To-Gateway/05-Test-Internal-Server-Endpoints-to-Default-Gateway-Connectivity.md) | Verifies internal servers can reach their gateway |
 
 ---
+
+## 🧪 Test Method
+
+Each test file follows this structure:
+
+1. Test Objective  
+2. Source Device Information  
+3. VLAN / Subnet Table  
+4. Ping Command Used  
+5. Ping Result  
+6. Screenshot of the Results  
+
+---
+
