@@ -5,6 +5,10 @@ This test verifies that **Floor 3 endpoints** can successfully reach their **def
 
 > 💡 Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
 
+## Reference Topology
+
+<img width="1005" height="463" alt="Topology" src="https://github.com/user-attachments/assets/e5489238-85b4-4948-902c-18c321f365fb" />
+
 ---
 
 ## 🏢 Floor 3 VLAN Overview
