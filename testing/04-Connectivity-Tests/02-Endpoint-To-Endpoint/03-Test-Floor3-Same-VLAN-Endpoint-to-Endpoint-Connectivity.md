@@ -42,3 +42,14 @@ ping 172.16.3.30
 
 <img width="695" height="402" alt="F3-Nrs-1" src="https://github.com/user-attachments/assets/d3937c9b-f0d7-4bf4-935c-846b537eb034" />
 
+---
+
+## 🧪 Test 2 – ICU Department (VLAN 310)
+
+### 🖥️ IP Addressing
+
+| Device | IP Address  | Address Type | Subnet Mask     | Default Gateway |
+| ------ | ----------- | ------------ | --------------- | --------------- |
+| ICU-1  | 172.16.3.70 | DHCP         | 255.255.255.224 | 172.16.3.67     |
+| ICU-4  | 172.16.3.73 | DHCP         | 255.255.255.224 | 172.16.3.67     |
+
