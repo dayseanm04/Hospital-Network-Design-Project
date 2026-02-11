@@ -60,6 +60,13 @@ ping 172.16.2.20
 - Subnet: **172.16.2.32/27**
 - Default Gateway: **172.16.2.35**
 
+```bash
+ping 172.16.2.60
+```
+
+## Fin-1 ping was successful ✅
+
+<img width="702" height="367" alt="Fin-1" src="https://github.com/user-attachments/assets/418ef628-b1a8-420d-84af-4d1ca558e538" />
 
 
 
