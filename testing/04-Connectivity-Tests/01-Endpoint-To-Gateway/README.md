@@ -46,3 +46,13 @@ Each test file follows this structure:
 
 ---
 
+## 🔎 What This Validates
+
+These tests confirm:
+
+- VLAN configuration is correct  
+- Access ports are properly assigned  
+- Default Gateway are operational  
+- Routing is functioning at the access layer  
+- No local ACL is blocking traffic  
+
