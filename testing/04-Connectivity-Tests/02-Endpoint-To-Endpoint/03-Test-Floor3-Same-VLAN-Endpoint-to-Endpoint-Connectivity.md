@@ -53,3 +53,21 @@ ping 172.16.3.30
 | ICU-1  | 172.16.3.70 | DHCP         | 255.255.255.224 | 172.16.3.67     |
 | ICU-4  | 172.16.3.73 | DHCP         | 255.255.255.224 | 172.16.3.67     |
 
+### 🔎 Devices Tested
+- **ICU-1** (PC – DHCP)
+- **ICU-4** (Printer – DHCP)
+
+### 📍 VLAN Information
+- VLAN: **310 – ICU DPT**
+- Subnet: **172.16.3.0/26**
+- Default Gateway: **172.16.3.64**
+- ICU-1 connected to **F3-ASW1**
+- ICU-4-PRNT connected to **F3-ASW2**
+
+### 🔧 Test Command
+
+```bash
+ping 172.16.3.73
+```
+
+
