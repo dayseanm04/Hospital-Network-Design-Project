@@ -22,4 +22,22 @@ These tests validate:
 | [**`04-Test-Inter-VLAN-Endpoint-to-Endpoint-Connectivity.md`**](/testing/04-Connectivity-Tests/02-Endpoint-To-Endpoint/04-Test-Inter-VLAN-Endpoint-to-Endpoint-Connectivity.md) | Verifies inter-VLAN routing between different user VLANs |
 | [**`05-Test-IT-DPT-VLAN-to-Hospital-Endpoint-Connectivity.md`**](/testing/04-Connectivity-Tests/02-Endpoint-To-Endpoint/05-Test-IT-DPT-VLAN-to-Hospital-Endpoint-Connectivity.md) | Verifies IT department connectivity to other hospital endpoints |
 
+---
 
+## 🧪 Test Methodology
+
+Each test file follows this validation structure:
+
+1. Test Objective  
+2.and Source Endpoint Information  
+3. VLAN / Subnet Table  
+4. Ping Command Used  
+5. Ping Result
+6. Screenshot of the Results
+
+## 🔎 What These Tests Validate
+
+These endpoint-to-endpoint tests confirm:
+
+- Inter-VLAN routing is correctly configured
+- OSPF is advertising VLAN subnets correctly
