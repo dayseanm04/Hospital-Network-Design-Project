@@ -31,7 +31,7 @@ Each floor uses a separate **/24 network**
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
-| Medical Records / HIM | 172.16.2.0/27 | 255.255.255.224 | .1 – .30 | 18 | 30 |
+| Medical Records | 172.16.2.0/27 | 255.255.255.224 | .1 – .30 | 18 | 30 |
 | Billing & Finance | 172.16.2.32/27 | 255.255.255.224 | .33 – .62 | 18 | 30 |
 | Human Resources | 172.16.2.64/27 | 255.255.255.224 | .65 – .94 | 13 | 30 |
 | Insurance | 172.16.2.128/27 | 255.255.255.224 | .97 – .126 | 12 | 30 |
