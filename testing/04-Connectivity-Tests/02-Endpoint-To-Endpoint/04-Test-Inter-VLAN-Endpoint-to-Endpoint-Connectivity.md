@@ -25,6 +25,7 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** between endpoints locat
 - **MRD-1** – VLAN 200 (172.16.2.0/27) – Floor 2  
 
 ### 🔧 Test Command
+
 ```bash
 ping 172.16.2.4
 ```
@@ -33,10 +34,21 @@ ping 172.16.2.4
 
 <img width="700" height="371" alt="ED1-MRD-1" src="https://github.com/user-attachments/assets/32dbb301-b27a-4c53-8225-4becd422aeee" />
 
+## 🧪 Test 2 – Floor 1 to Floor 3
 
+### 🔎 Devices
+- **ED-1** – VLAN 101 (172.16.1.0/26) – Floor 1  
+- **Rad-1** – VLAN 330 (172.16.3.128/26) – Floor 3
 
+### 🔧 Test Command
 
+```bash
+ping 172.16.3.133
+```
 
+## ED-1 to Rad-1 ping was successful ✅
+
+<img width="697" height="373" alt="ED1-Rad-1" src="https://github.com/user-attachments/assets/eae8cc52-7284-4d52-a680-d1753f28a5e6" />
 
 
 
