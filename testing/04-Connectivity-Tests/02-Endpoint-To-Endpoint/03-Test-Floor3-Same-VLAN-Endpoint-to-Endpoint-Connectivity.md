@@ -74,3 +74,15 @@ ping 172.16.3.73
 
 <img width="707" height="406" alt="ICU-1" src="https://github.com/user-attachments/assets/245a0ed7-0960-4261-9fa4-ed56d309f06e" />
 
+---
+
+## 🧪 Test 3 – Radiology Department (VLAN 330)
+
+### 🖥️ IP Addressing
+
+| Device   | IP Address   | Address Type | Subnet Mask     | Default Gateway |
+| -------- | ------------ | ------------ | --------------- | --------------- |
+| Rad-1    | 172.16.3.133 | DHCP         | 255.255.255.224 | 172.16.3.131    |
+| Rad-PRNT | 172.16.3.140 | Static       | 255.255.255.224 | 172.16.3.131    |
+
+
