@@ -43,7 +43,9 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 ping 172.16.1.31
 ```
 
+### ED1 ping was successful ✅
 
+<img width="701" height="397" alt="ED1" src="https://github.com/user-attachments/assets/ae225111-5c7d-4a15-91c6-a4f1741a8692" />
 
 
 
