@@ -55,11 +55,11 @@ ping 172.16.3.30
 
 ### 🔎 Devices Tested
 - **ICU-1** (PC – DHCP)
-- **ICU-4** (Printer – DHCP)
+- **ICU-4** (PC – DHCP)
 
 ### 📍 VLAN Information
 - VLAN: **310 – ICU DPT**
-- Subnet: **172.16.3.0/26**
+- Subnet: **172.16.3.64/26**
 - Default Gateway: **172.16.3.64**
 - ICU-1 connected to **F3-ASW1**
 - ICU-4-PRNT connected to **F3-ASW2**
@@ -85,4 +85,14 @@ ping 172.16.3.73
 | Rad-1    | 172.16.3.133 | DHCP         | 255.255.255.224 | 172.16.3.131    |
 | Rad-PRNT | 172.16.3.140 | Static       | 255.255.255.224 | 172.16.3.131    |
 
+### 🔎 Devices Tested
+- **Rad-1** (PC – DHCP)
+- **Rad-PRNT** (Printer – DHCP)
+
+### 📍 VLAN Information
+- VLAN: **310 – ICU DPT**
+- Subnet: **172.16.3.128/26**
+- Default Gateway: **172.16.3.131**
+- ICU-1 connected to **F3-ASW1**
+- ICU-4-PRNT connected to **F3-ASW2**
 
