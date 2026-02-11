@@ -99,3 +99,4 @@ ping 172.16.1.31
 
 ### Nrs-1 ping was successful ✅
 
+<img width="700" height="400" alt="Nrs-1" src="https://github.com/user-attachments/assets/923c9257-52e9-4933-88a8-20f87e7b1989" />
