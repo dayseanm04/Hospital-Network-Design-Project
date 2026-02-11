@@ -51,6 +51,14 @@ ping 172.16.2.20
 | Fin-1    | 172.16.2.37 | DHCP         | 255.255.255.224 | 172.16.2.35     |
 | Fin-PRNT | 172.16.2.60 | Static       | 255.255.255.224 | 172.16.2.35     |
 
+### 🔎 Devices Tested
+- **Fin-1** (PC – DHCP)
+- **Fin-PRNT** (Printer – Static)
+
+### 📍 VLAN Information
+- VLAN: **210 – Billing & Finance DPT**
+- Subnet: **172.16.2.32/27**
+- Default Gateway: **172.16.2.35**
 
 
 
