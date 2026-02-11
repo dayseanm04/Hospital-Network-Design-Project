@@ -68,6 +68,15 @@ ping 172.16.2.60
 
 <img width="702" height="367" alt="Fin-1" src="https://github.com/user-attachments/assets/418ef628-b1a8-420d-84af-4d1ca558e538" />
 
+---
+
+## 🧪 Test 3 – Human Resources Department (VLAN 220)
+
+| Device  | IP Address  | Address Type | Subnet Mask     | Default Gateway |
+| ------- | ----------- | ------------ | --------------- | --------------- |
+| HR-1    | 172.16.2.68 | DHCP         | 255.255.255.224 | 172.16.2.67     |
+| HR-PRNT | 172.16.2.80 | Static       | 255.255.255.224 | 172.16.2.67     |
+
 
 
 
