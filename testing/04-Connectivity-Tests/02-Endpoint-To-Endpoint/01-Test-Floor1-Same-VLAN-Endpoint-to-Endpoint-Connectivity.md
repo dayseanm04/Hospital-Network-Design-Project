@@ -70,6 +70,8 @@ ping 172.16.1.31
 - X-R-1 connected to F1-ASW1
 - X-R-PRNT connected to F1-ASW2
 
+### XR-1 ping was successful ✅
 
+<img width="706" height="405" alt="X-R-1" src="https://github.com/user-attachments/assets/d09fc445-5e55-48b5-a77d-9f85594b042a" />
 
 
