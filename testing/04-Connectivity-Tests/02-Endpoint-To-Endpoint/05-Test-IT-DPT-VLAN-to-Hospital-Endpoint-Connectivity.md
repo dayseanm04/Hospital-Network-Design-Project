@@ -34,7 +34,7 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** from the **IT Departmen
 - VLAN: **101 – Emergency DPT**
 - IP: **172.16.1.4 (DHCP)**
 
-### 🔎 Destination
+### 🔎 Destination 2
 - **F1-ED-Nrs-1**
 - VLAN: **120 – Floor 1 Nurses DPT**
 - IP: **172.16.1.100 (DHCP)**
@@ -45,6 +45,16 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** from the **IT Departmen
 ```bash
 ping 172.16.1.4 & ping 172.16.1.100
 ```
+
+## IT-PC1 to ED-1 and F1-ED-Nrs-1 ping was successful ✅
+
+<img width="882" height="750" alt="IT1-ED1-ED-Nrs-1" src="https://github.com/user-attachments/assets/003b3cbc-2ab9-4332-9b32-4a9c4a838c0b" />
+
+
+
+
+
+
 
 
 
