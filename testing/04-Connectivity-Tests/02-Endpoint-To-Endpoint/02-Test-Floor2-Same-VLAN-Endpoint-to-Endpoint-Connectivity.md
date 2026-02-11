@@ -44,7 +44,7 @@ ping 172.16.2.20
 
 ---
 
-🧪 Test 2 – Billing & Finance Department (VLAN 210)
+## 🧪 Test 2 – Billing & Finance Department (VLAN 210)
 
 | Device   | IP Address  | Address Type | Subnet Mask     | Default Gateway |
 | -------- | ----------- | ------------ | --------------- | --------------- |
