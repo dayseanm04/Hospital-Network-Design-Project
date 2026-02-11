@@ -32,3 +32,8 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 - Subnet: **172.16.2.0/27**
 - Default Gateway: **172.16.2.3**
 
+### 🔧 Test Command
+
+```bash
+ping 172.16.2.20
+```
