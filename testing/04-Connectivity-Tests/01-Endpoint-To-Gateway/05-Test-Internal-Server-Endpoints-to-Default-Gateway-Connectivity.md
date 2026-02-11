@@ -34,3 +34,8 @@ ping 10.10.10.1
 
 <img width="876" height="486" alt="DHCP-SRV" src="https://github.com/user-attachments/assets/e95c2367-5c25-4c43-a930-04d890118cb8" />
 
+### NTP-SRV ping was successful ✅
+
+<img width="877" height="461" alt="NTP-SRV" src="https://github.com/user-attachments/assets/821ac205-cb2c-4747-a7e0-947e89b31db2" />
+
+
