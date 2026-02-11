@@ -5,6 +5,10 @@ This test verifies that **Hospital internal servers** can successfully reach the
 
 > 💡 These servers provide critical network services.
 
+## Reference Topology
+
+<img width="1005" height="463" alt="Topology" src="https://github.com/user-attachments/assets/e5489238-85b4-4948-902c-18c321f365fb" />
+
 ---
 
 ## 🖥️ Internal Servers VLAN Overview
