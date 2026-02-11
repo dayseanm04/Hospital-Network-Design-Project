@@ -70,4 +70,7 @@ ping 172.16.3.30
 ping 172.16.3.73
 ```
 
+## ICU-1 ping was successful ✅
+
+<img width="707" height="406" alt="ICU-1" src="https://github.com/user-attachments/assets/245a0ed7-0960-4261-9fa4-ed56d309f06e" />
 
