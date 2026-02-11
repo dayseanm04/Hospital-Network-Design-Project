@@ -38,4 +38,6 @@ ping 10.10.10.1
 
 <img width="877" height="461" alt="NTP-SRV" src="https://github.com/user-attachments/assets/821ac205-cb2c-4747-a7e0-947e89b31db2" />
 
+### SYSLOG-SRV ping was successful ✅
 
+<img width="875" height="479" alt="SYSLOG-SRV" src="https://github.com/user-attachments/assets/5ca86988-de9a-466a-893a-84c3a10dd935" />
