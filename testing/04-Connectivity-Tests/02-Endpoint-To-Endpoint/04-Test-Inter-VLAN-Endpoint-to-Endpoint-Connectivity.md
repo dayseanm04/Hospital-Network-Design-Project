@@ -106,4 +106,22 @@ ping 172.16.3.4
 
 <img width="701" height="365" alt="F3-Nrs1-ED1" src="https://github.com/user-attachments/assets/076c7bb8-9a59-44f2-9998-0f78c2f5033c" />
 
+---
+
+## 🧪 Test 6 – Floor 3 to Floor 2
+
+### 🔎 Devices
+- **F3-Nrs-1** – VLAN 300 (172.16.3.0/26) – Floor 3
+- **HR-1** – VLAN 220 (172.16.2.0/27) –Floor 2
+
+### 🔧 Test Command
+
+```bash
+ping 172.16.2.68
+```
+
+## F3-Nrs-1 to HR-1 ping was successful ✅
+
+<img width="697" height="366" alt="F3-Nrs1-HR-1" src="https://github.com/user-attachments/assets/cd1665dd-2d75-4d4b-b7e9-751756b7bd86" />
+
 
