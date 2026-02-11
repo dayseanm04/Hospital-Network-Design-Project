@@ -14,6 +14,9 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 
 # 🏢 Floor 1 – Intra-VLAN Connectivity Tests
 
+
+## 🧪 Test 1 – Emergency Department (VLAN 101)
+
 ### 🖥️ IP Addressing
 
 | Device | IP Address | Address Type | Subnet Mask | Default Gateway |
@@ -21,9 +24,6 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 | ED-1 | 172.16.1.4 | DHCP | 255.255.255.192 | 172.16.1.3 |
 | ED-PRNT | 172.16.1.31 | Static | 255.255.255.192 | 172.16.1.3 |
 
----
-
-## 🧪 Test 1 – Emergency Department (VLAN 101)
 
 ### 🔎 Devices Tested
 - **ED-1** (PC – DHCP)
@@ -73,5 +73,15 @@ ping 172.16.1.31
 ### XR-1 ping was successful ✅
 
 <img width="706" height="405" alt="X-R-1" src="https://github.com/user-attachments/assets/d09fc445-5e55-48b5-a77d-9f85594b042a" />
+
+---
+
+# 🧪 Test 3 – F1 ED Nurses Department (VLAN 120)
+
+| Device   | IP Address   | Address Type | Subnet Mask     | Default Gateway |
+| -------- | ------------ | ------------ | --------------- | --------------- |
+| Nrs-1    | 172.16.1.101 | DHCP         | 255.255.255.224 | 172.16.1.99     |
+| Nrs-PRNT | 172.16.1.120 | Static       | 255.255.255.224 | 172.16.1.99     |
+
 
 
