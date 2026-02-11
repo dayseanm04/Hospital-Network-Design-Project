@@ -17,4 +17,8 @@ These tests validate:
 | Test File | Description |
 |-----------|------------|
 | [**`01-Test-Floor1-Same-VLAN-Endpoint-to-Endpoint-Connectivity.md`**](/testing/04-Connectivity-Tests/02-Endpoint-To-Endpoint/01-Test-Floor1-Same-VLAN-Endpoint-to-Endpoint-Connectivity.md) | Verifies same-VLAN communication between Floor 1 endpoints |
+| [**`02-Test-Floor2-Same-VLAN-Endpoint-to-Endpoint-Connectivity.md`**](/testing/04-Connectivity-Tests/02-Endpoint-To-Endpoint/02-Test-Floor2-Same-VLAN-Endpoint-to-Endpoint-Connectivity.md) | Verifies same-VLAN communication between Floor 2 endpoints |
+| [**`03-Test-Floor3-Same-VLAN-Endpoint-to-Endpoint-Connectivity.md`**](/testing/04-Connectivity-Tests/02-Endpoint-To-Endpoint/03-Test-Floor3-Same-VLAN-Endpoint-to-Endpoint-Connectivity.md) | Verifies same-VLAN communication between Floor 3 endpoints |
+| [**`04-Test-Inter-VLAN-Endpoint-to-Endpoint-Connectivity.md`**](/testing/04-Connectivity-Tests/02-Endpoint-To-Endpoint/04-Test-Inter-VLAN-Endpoint-to-Endpoint-Connectivity.md) | Verifies inter-VLAN routing between different user VLANs |
+
 
