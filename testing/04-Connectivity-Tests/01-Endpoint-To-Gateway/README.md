@@ -10,3 +10,8 @@ If an endpoint cannot reach its default gateway:
 - Access to internal servers will fail  
 - Internet connectivity will fail
 
+---
+
+## 🎯 Test Objective
+
+For each floor and department:
