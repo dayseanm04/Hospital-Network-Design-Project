@@ -37,7 +37,11 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 - ED-1 connected to **F1-ASW1**
 - ED-PRNT connected to **F1-ASW2**
 
+### 🔧 Test Command
 
+```bash
+ping 172.16.1.31
+```
 
 
 
