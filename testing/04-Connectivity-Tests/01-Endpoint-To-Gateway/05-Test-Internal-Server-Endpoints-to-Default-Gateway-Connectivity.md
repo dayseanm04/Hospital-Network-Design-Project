@@ -16,3 +16,16 @@ This test verifies that **Hospital internal servers** can successfully reach the
 | SYSLOG-SRV | Syslog Server | VLAN 700 | 10.10.10.0/27 | 10.10.10.1 | Service-ASW |
 
 ---
+
+## 🧪 Test – Internal Services VLAN (VLAN 700)
+
+**Devices Tested**
+- **DHCP-SRV**
+- **NTP-SRV**
+- **SYSLOG-SRV**
+
+**Test Command**
+
+```bash
+ping 10.10.10.1
+```
