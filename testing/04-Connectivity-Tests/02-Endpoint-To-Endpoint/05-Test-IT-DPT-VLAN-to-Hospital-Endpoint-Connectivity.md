@@ -1,4 +1,4 @@
-# 🧪 Test – IT VLAN to Hospital Endpoint Connectivity
+# 🧪 Test – IT DPT VLAN to Hospital Endpoint Connectivity
 
 ## 📌 Purpose
 This test verifies **Layer 3 (Inter-VLAN) connectivity** from the **IT Department VLAN (VLAN 240)** to endpoints across all hospital department VLANs.
@@ -14,4 +14,13 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** from the **IT Departmen
 
 ---
 
+# 🌐 Source VLAN Information
 
+### 🔎 Source Device
+- **IT-PC1**
+- VLAN: **240 – IT Department**
+- Subnet: **10.50.50.0/26**
+- IP Address: **10.50.50.2 (Static)**
+- Connected to: **Service-ASW**
+
+---
