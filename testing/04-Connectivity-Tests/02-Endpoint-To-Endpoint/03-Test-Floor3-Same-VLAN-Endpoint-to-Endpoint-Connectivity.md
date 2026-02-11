@@ -38,4 +38,7 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 ping 172.16.3.30
 ```
 
+## F3-Nrs-1 ping was successful ✅
+
+<img width="695" height="402" alt="F3-Nrs-1" src="https://github.com/user-attachments/assets/d3937c9b-f0d7-4bf4-935c-846b537eb034" />
 
