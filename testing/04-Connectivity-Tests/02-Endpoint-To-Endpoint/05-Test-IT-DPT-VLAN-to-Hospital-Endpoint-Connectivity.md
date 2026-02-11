@@ -24,3 +24,29 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** from the **IT Departmen
 - Connected to: **Service-ASW**
 
 ---
+
+# 🏥 Inter-VLAN Connectivity Tests
+
+## 🧪 Test 1 – IT to Emergency Department (Floor 1)
+
+### 🔎 Destination
+- **ED-1**
+- VLAN: **101 – Emergency DPT**
+- IP: **172.16.1.4 (DHCP)**
+
+### 🔎 Destination
+- **F1-ED-Nrs-1**
+- VLAN: **120 – Floor 1 Nurses DPT**
+- IP: **172.16.1.100 (DHCP)**
+
+
+### 🔧 Test Command
+
+```bash
+ping 172.16.1.4 & ping 172.16.1.100
+```
+
+
+
+
+
