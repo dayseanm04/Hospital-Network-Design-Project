@@ -31,4 +31,20 @@ ping 10.200.0.1     # HS-EDGE-R1 Port-Channel10
 
 <img width="735" height="635" alt="MRD1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/b019c815-f545-4894-83c6-7450a012b7ad" />
 
+---
 
+## 🧪 Test 2 – Fin-3 → HS-EDGE-R2
+
+```bash
+ping 10.0.0.14      # HS-EDGE-R2 Loopback
+ping 10.200.0.5     # HS-EDGE-R2 Port-Channel10
+```
+
+### Fin-3to HS-EDGE-R2 ping was successful ✅
+
+<img width="694" height="632" alt="Fin3-HS-EDGE-R2" src="https://github.com/user-attachments/assets/35fa0def-7a47-4ca2-aacc-455d8d9777b7" />
+
+---
+
+## 🎯 Result
+-  Floor 1 endpoints successfully reached Edge layer
