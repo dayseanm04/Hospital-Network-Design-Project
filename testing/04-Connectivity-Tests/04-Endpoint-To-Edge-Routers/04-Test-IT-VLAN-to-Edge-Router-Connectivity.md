@@ -46,9 +46,23 @@ ping 10.200.0.1     # HS-EDGE-R1 Port-Channel10
 
 <img width="701" height="527" alt="IT-PC1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/686bc86f-136f-46a9-aa97-602efece7463" />
 
+---
 
+## 🧪 Test 2 – IT-PC1 → HS-EDGE-R2
 
+### 🔧 Commands
+```bash
+ping 10.0.0.14      # HS-EDGE-R2 Loopback
+ping 10.200.0.5     # HS-EDGE-R2 Port-Channel10
+```
 
+### IT-PC1 to HS-EDGE-R2 ping was successful ✅
 
+<img width="692" height="621" alt="IT-PC1-HS-EDGE-R2" src="https://github.com/user-attachments/assets/b1650ce8-3712-48fb-905b-0e1ca271f3cd" />
 
+---
 
+## 🎯 Overall Test Summary
+
+- IT DPT VLAN successfully reached both Edge routers
+- Loopback interfaces reachable (routing validation)
