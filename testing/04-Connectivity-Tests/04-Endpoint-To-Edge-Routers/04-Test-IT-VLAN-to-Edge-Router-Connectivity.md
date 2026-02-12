@@ -42,7 +42,9 @@ ping 10.0.0.15      # HS-EDGE-R1 Loopback
 ping 10.200.0.1     # HS-EDGE-R1 Port-Channel10
 ```
 
+### IT-PC1 to HS-EDGE-R1 ping was successful ✅
 
+<img width="701" height="527" alt="IT-PC1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/686bc86f-136f-46a9-aa97-602efece7463" />
 
 
 
