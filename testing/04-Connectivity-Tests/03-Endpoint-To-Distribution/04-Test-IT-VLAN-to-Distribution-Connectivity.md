@@ -31,4 +31,12 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 | DSW2 | Loopback | 10.0.0.11 |
 | DSW2 | Port-Channel | 10.255.2.6 |
 
+---
 
+## 🧪 Test 1 – IT-PC1 → DSW1
+
+### 🔧 Commands
+```bash
+ping 10.0.0.10      # DSW1 Loopback
+ping 10.255.2.1     # DSW1 Port-Channel
+```
