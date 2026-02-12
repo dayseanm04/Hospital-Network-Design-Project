@@ -45,3 +45,25 @@ ping 10.255.2.1     # DSW1 Port-Channel
 
 <img width="1047" height="751" alt="IT1-DSW1" src="https://github.com/user-attachments/assets/7aa7b50f-bb17-49eb-8f2a-0a40a99726b1" />
 
+---
+
+## 🧪 Test 2 – IT-PC1 → DSW2
+
+### 🔧 Commands
+```bash
+ping 10.0.0.11      # DSW2 Loopback
+ping 10.255.2.6     # DSW2 Port-Channel
+```
+
+### IT-PC1 to DSW2 ping was successful ✅
+
+<img width="1051" height="741" alt="IT1-DSW2" src="https://github.com/user-attachments/assets/dabf33fa-f9e6-4303-aa16-03376b8c7a57" />
+
+---
+
+## 🎯 Overall Test Summary
+
+- IT VLAN successfully reached both Distribution switches
+- Loopback interfaces are reachable
+- Port-channel interfaces are reachable
+
