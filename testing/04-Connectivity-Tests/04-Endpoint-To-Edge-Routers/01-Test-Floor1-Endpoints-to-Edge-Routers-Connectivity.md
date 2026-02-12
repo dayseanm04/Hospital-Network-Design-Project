@@ -42,7 +42,7 @@ ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
 ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 ```
 
-### ED-1 to HS-EDGE-R1 ping was successful ✅
+### ED-1 to HS-EDGE-R1 ping and HS-EDGE-R2 Po10 was successful ✅
 
 <img width="700" height="607" alt="ED1-Edge-Interconnection" src="https://github.com/user-attachments/assets/8ea24cd1-65fc-4316-8459-4160ad9efcd8" />
 
