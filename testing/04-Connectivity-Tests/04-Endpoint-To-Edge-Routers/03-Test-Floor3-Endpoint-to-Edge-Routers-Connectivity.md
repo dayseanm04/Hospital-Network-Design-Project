@@ -48,4 +48,4 @@ ping 10.200.0.5     # HS-EDGE-R2 Port-Channel10
 ---
 
 ## 🎯 Result
--  Floor 3 endpoints successfully reached Edge layer
+-  Floor 3 endpoints successfully reached the Edge routers
