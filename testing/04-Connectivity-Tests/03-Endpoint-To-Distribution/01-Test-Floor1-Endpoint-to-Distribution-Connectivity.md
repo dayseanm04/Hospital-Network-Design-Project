@@ -36,9 +36,17 @@ ping 10.10.0.1      # DSW1 Port-Channel1
 
 ---
 
+## 🧪 Test 2 – F1-ED-Nrs-1 → DSW2
 
+```bash
+ping 10.0.0.11      # DSW2 Loopback
+ping 10.20.0.5      # DSW2 Port-Channel2
 
+```
 
+## F1-ED-Nrs-1 to DSW2 ping was successful ✅
+
+<img width="991" height="751" alt="F1-ED-Nrs-DSW2" src="https://github.com/user-attachments/assets/d800bfb7-6db9-4db8-b449-6c7ab7a10110" />
 
 
 
