@@ -23,3 +23,14 @@ These tests confirm:
 | [**`04-Test-IT-DPT-Endpoints-to-Internal-Servers.`md**](/testing/04-Connectivity-Tests/05-Endpoint-To-Internal-Servers/04-Test-IT-DPT-Endpoints-to-Internal-Servers.md) | Verifies IT VLAN endpoints can reach internal servers |
 
 ---
+
+## 🧪 What Is Being Tested?
+
+Each test file validates:
+
+- Connectivity to the Internal Servers VLAN
+- DHCP Server reachability
+
+---
+
+These tests confirm that endpoints across all hospital floors can successfully access critical internal services.
