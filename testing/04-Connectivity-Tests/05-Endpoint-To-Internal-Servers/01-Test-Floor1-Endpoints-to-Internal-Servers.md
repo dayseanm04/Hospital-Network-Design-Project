@@ -33,3 +33,18 @@ This confirms:
 | DHCP-SRV | VLAN 240 | 10.10.10.0/27 | 10.10.10.2 (Static) |
 
 ---
+
+## 🧪 Test Command
+
+From ED-1 ping DHCP-SRV:
+
+```bash
+ping 10.10.10.2
+```
+
+### ED-1 to DHCP-SRV ping was successful ✅
+
+<img width="702" height="359" alt="ED1" src="https://github.com/user-attachments/assets/c3cbab56-8ccc-4255-b6f2-81bd896bcf80" />
+
+
+
