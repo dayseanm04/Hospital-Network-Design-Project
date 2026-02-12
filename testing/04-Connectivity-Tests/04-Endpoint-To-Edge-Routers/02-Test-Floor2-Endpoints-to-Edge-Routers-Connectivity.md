@@ -40,7 +40,7 @@ ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
 ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 ```
 
-### MRD-1 to HS-EDGE-R1 ping was successful ✅
+### MRD-1 to HS-EDGE-R1 and HS-EDGE-R2 Po10 ping was successful ✅
 
 <img width="695" height="593" alt="MRD1-Edge-Interconnection" src="https://github.com/user-attachments/assets/7540d4f6-37b6-4c98-9fa4-095f1258059f" />
 
