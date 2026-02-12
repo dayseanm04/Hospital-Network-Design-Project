@@ -50,6 +50,20 @@ ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 
 ---
 
+## 🧪 Test 1.5 – IT-PC1 → HS-EDGE-R1 and HS-EDGE-R2 Po10
+
+```bash
+
+ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
+ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
+```
+
+### IT-PC1 to HS-EDGE-R1 and HS-EDGE-R2 Po10 ping was successful ✅
+
+<img width="701" height="619" alt="IT-PC1-Edge-Interconnection" src="https://github.com/user-attachments/assets/f9507f0f-6801-408d-86a9-8063a8f9f96b" />
+
+---
+
 ## 🧪 Test 2 – IT-PC1 → HS-EDGE-R2
 
 ### 🔧 Commands
