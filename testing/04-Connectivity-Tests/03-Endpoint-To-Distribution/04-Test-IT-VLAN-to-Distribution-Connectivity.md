@@ -14,3 +14,21 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 
 ---
 
+# 🏢 Source Endpoint – IT Department
+
+| Device | VLAN | Subnet | IP Address | Address Type | Connected Switch |
+|--------|------|--------|------------|--------------|------------------|
+| IT-PC1 | 240 – IT DPT | 10.50.50.0/26 | 10.50.50.2 | Static | Service-ASW |
+
+---
+
+# 🌐 Distribution Infrastructure Targets
+
+| Target Device | Interface Type | IP Address |
+|---------------|---------------|------------|
+| DSW1 | Loopback | 10.0.0.10 |
+| DSW1 | Port-Channel | 10.255.2.1 |
+| DSW2 | Loopback | 10.0.0.11 |
+| DSW2 | Port-Channel | 10.255.2.6 |
+
+
