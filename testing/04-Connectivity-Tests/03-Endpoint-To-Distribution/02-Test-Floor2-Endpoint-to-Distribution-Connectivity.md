@@ -54,4 +54,4 @@ ping 10.20.0.13     # DSW2 Port-Channel4
 
 ## 🎯 Result
 
-Floor 1 endpoints can reach both Distribution switches
+Floor 2 endpoints can reach both Distribution switches
