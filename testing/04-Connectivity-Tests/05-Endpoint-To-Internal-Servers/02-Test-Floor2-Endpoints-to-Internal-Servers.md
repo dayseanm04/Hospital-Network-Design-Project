@@ -60,6 +60,6 @@ ping 10.10.10.2
 
 ## 🔎 Validation Summary
 
-- Floor 1 VLANs can reach Server VLAN
+- Floor 2 VLANs can reach Server VLAN
 - Inter-VLAN routing is functioning
 - Internal services are reachable
