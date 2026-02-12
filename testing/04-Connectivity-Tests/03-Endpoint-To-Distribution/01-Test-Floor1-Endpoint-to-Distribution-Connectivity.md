@@ -20,3 +20,13 @@ This test verifies that Floor 1 endpoints can reach Distribution Switch infrastr
 | F1-ED-Nrs-1 | 120 – Nurses | 172.16.1.64/27 | 172.16.1.100 (DHCP) | F1-ASW2 |
 
 Note: there are multple PCs in on Floor 1 and I some of them for demonstration. 
+
+---
+
+## 🧪 Test 1 – ED-1 → DSW1
+
+```bash
+ping 10.0.0.10      # DSW1 Loopback
+ping 10.10.0.1      # DSW1 Port-Channel1
+```
+
