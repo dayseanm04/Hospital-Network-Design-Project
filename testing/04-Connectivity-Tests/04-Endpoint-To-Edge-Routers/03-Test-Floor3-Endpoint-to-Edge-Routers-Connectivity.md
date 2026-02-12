@@ -41,7 +41,7 @@ ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
 ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 ```
 
-### ICU-1 to HS-EDGE-R1 ping was successful ✅
+### ICU-1 to HS-EDGE-R1 and HS-EDGE-R2 Po10 ping was successful ✅
 
 <img width="698" height="609" alt="ICU1-Edge-Interconnection" src="https://github.com/user-attachments/assets/4d9ca23b-1fc0-4f50-8e0a-a7695e1e7904" />
 
