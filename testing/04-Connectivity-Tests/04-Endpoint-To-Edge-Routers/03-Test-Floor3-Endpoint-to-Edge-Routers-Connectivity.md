@@ -26,13 +26,24 @@ This test verifies that Floor 3 endpoints can successfully reach the Edge Router
 ```bash
 ping 10.0.0.15      # HS-EDGE-R1 Loopback
 ping 10.200.0.1     # HS-EDGE-R1 Port-Channel1
+```
+
+### ICU-1 to HS-EDGE-R1 ping was successful ✅
+
+<img width="702" height="624" alt="ICU1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/b4e302fb-2921-4089-baca-64e30c2b2e0f" />
+
+---
+
+## 🧪 Test 1.5 – ICU-1 → HS-EDGE-R1 and HS-EDGE-R2 Po10
+
+```bash
 ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
 ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 ```
 
 ### ICU-1 to HS-EDGE-R1 ping was successful ✅
 
-<img width="702" height="624" alt="ICU1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/b4e302fb-2921-4089-baca-64e30c2b2e0f" />
+<img width="698" height="609" alt="ICU1-Edge-Interconnection" src="https://github.com/user-attachments/assets/4d9ca23b-1fc0-4f50-8e0a-a7695e1e7904" />
 
 ---
 
