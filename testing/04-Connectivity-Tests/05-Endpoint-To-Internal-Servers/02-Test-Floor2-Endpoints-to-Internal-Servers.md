@@ -1,4 +1,4 @@
-# 🧪 01 – Test Floor 2 Endpoints to Internal Servers
+# 🧪 02 – Test Floor 2 Endpoints to Internal Servers
 
 ## 📌 Test Objective
 
