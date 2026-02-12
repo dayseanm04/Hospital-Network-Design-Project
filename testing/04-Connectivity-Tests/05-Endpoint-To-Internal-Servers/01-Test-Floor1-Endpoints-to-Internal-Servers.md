@@ -36,8 +36,6 @@ This confirms:
 
 ## 🧪 Test Command
 
-From ED-1 ping DHCP-SRV:
-
 ```bash
 ping 10.10.10.2
 ```
@@ -49,8 +47,6 @@ ping 10.10.10.2
 ---
 
 ## 🧪 Test Command
-
-From F1-Nrs-1 ping DHCP-SRV:
 
 ```bash
 ping 10.10.10.2
