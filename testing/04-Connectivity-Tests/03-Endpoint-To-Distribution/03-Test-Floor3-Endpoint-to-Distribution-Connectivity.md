@@ -39,3 +39,21 @@ ping 10.10.0.13     # DSW1 Port-Channel4
 
 ---
 
+## 🧪 Test 2 – ICU-3 → DSW2
+
+```bash
+ping 10.0.0.11      # DSW2 Loopback
+ping 10.20.0.22     # DSW2 Port-Channel
+
+```
+
+## ICU-3 to DSW2 ping was successful ✅
+
+<img width="871" height="658" alt="ICU-3-DSW2" src="https://github.com/user-attachments/assets/39c6cdc4-47fb-49c6-a3dc-c55793f12bb0" />
+
+
+---
+
+## 🎯 Result
+
+Floor 3 endpoints can reach both Distribution switches
