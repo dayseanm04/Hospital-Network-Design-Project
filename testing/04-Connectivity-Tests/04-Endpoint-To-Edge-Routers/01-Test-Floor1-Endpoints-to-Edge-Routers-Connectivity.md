@@ -32,18 +32,21 @@ ping 10.200.0.1     # HS-EDGE-R1 Port-Channel10
 
 <img width="701" height="628" alt="ED1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/8fd231a6-3f13-4fd0-a21f-886235c2789a" />
 
+---
 
 
+## 🧪 Test 2 – Nrs-1 → HS-EDGE-R2
 
+```bash
+ping 10.0.0.14      # HS-EDGE-R2 Loopback
+ping 10.200.0.5     # HS-EDGE-R2 Port-Channel10
+```
 
+### F1-Nrs-1 to HS-EDGE-R2 ping was successful ✅
 
+<img width="688" height="619" alt="F1-Nrs-1-HS-EDGE-R2" src="https://github.com/user-attachments/assets/f6477193-0c01-4e70-9bf8-6287594b4dad" />
 
+---
 
-
-
-
-
-
-
-
-
+## 🎯 Result
+-  Floor 1 endpoints successfully reached Edge layer
