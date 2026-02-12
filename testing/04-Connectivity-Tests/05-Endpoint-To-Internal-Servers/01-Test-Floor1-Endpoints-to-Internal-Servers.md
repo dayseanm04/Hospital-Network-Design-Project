@@ -60,3 +60,10 @@ ping 10.10.10.2
 
 <img width="700" height="367" alt="F1-Nrs-1" src="https://github.com/user-attachments/assets/00db142e-7275-47d3-9705-7c9e40daae52" />
 
+---
+
+## 🔎 Validation Summary
+
+- Floor 1 VLANs can reach Server VLAN
+- Inter-VLAN routing is functioning
+- Internal services are reachable
