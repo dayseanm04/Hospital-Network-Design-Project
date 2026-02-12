@@ -48,10 +48,8 @@ ping 10.20.0.5      # DSW2 Port-Channel2
 
 <img width="991" height="751" alt="F1-ED-Nrs-DSW2" src="https://github.com/user-attachments/assets/d800bfb7-6db9-4db8-b449-6c7ab7a10110" />
 
+---
 
+## 🎯 Result
 
-
-
-
-
-
+Floor 1 endpoints can reach both Distribution switches
