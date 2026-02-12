@@ -68,11 +68,19 @@ Route to ISP2 public IP:
 ip route 69.45.12.1 255.255.255.255 70.1.1.1
 ```
 
+---
 
+## 🔍 Verification
 
+### Ping ISP2-R1 From ISP1-R1: ping 70.1.1.1
 
+<img width="703" height="291" alt="ISP1" src="https://github.com/user-attachments/assets/6d1701a0-4a49-44cb-a4a4-a977d1f3df85" />
 
+---
 
+### Ping ISP1-R1 From ISP2-R1: ping 70.1.1.2
+
+<img width="691" height="295" alt="ISP2" src="https://github.com/user-attachments/assets/85671181-f348-4de9-bef7-c8b9c6606ad3" />
 
 
 
