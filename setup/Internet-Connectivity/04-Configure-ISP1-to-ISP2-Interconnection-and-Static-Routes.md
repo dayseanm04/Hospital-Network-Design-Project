@@ -31,3 +31,48 @@ I configured Static routes are configured on both ISP routers to allow reachabil
 | ISP2-R1 IP | 70.1.1.2/30 |
 
 ---
+
+## 🔧 Interface Configuration
+
+### ISP1-R1
+
+```bash
+interface G1/0/1
+ ip address 70.1.1.1 255.255.255.252
+ no shutdown
+```
+
+### ISP2-R1
+
+```bash
+interface G1/1/4
+ ip address 70.1.1.2 255.255.255.252
+ no shutdown
+```
+
+## 🛣 Static Route Configuration
+
+### On ISP1-R1
+
+Route to ISP2 public IP:
+
+```bash
+ip route 100.45.12.1 255.255.255.255 70.1.1.2
+```
+
+### On ISP2-R1
+
+Route to ISP2 public IP:
+
+```bash
+ip route 69.45.12.1 255.255.255.255 70.1.1.1
+```
+
+
+
+
+
+
+
+
+
