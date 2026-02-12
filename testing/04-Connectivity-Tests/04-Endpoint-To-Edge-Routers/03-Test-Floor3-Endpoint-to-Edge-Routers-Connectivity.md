@@ -28,3 +28,8 @@ ping 10.0.0.15      # HS-EDGE-R1 Loopback
 ping 10.200.0.1     # HS-EDGE-R1 Port-Channel10
 ```
 
+### ICU-1 to HS-EDGE-R1 ping was successful ✅
+
+<img width="702" height="624" alt="ICU1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/b4e302fb-2921-4089-baca-64e30c2b2e0f" />
+
+---
