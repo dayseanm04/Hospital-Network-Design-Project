@@ -26,3 +26,11 @@ These tests confirm:
 | [**`04-Test-IT-VLAN-to-Edge-Router-Connectivity.md`**](/testing/04-Connectivity-Tests/04-Endpoint-To-Edge-Routers/04-Test-IT-VLAN-to-Edge-Router-Connectivity.md) | Verifies IT VLAN reachability to Edge router infrastructure |
 
 ---
+
+## 🧪 What Is Being Tested?
+
+Each file validates:
+
+- Edge Router Loopback Interfaces
+- Port-Channel Interfaces
+- Redundant routing paths
