@@ -5,6 +5,11 @@ This task establishes a **point-to-point interconnection** between **ISP1-R1** a
 
 I configured Static routes are configured on both ISP routers to allow reachability.
 
+## Topology For Reference
+
+<img width="380" height="376" alt="topology" src="https://github.com/user-attachments/assets/14e638b2-942a-4a57-a73e-fbf651d60806" />
+
+
 ---
 
 ## 🎯 Objective
