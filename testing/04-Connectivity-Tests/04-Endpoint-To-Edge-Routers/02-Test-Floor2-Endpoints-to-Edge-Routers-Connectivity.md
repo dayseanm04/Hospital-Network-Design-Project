@@ -25,8 +25,6 @@ This test verifies that Floor 2 endpoints can successfully reach the Edge Router
 ```bash
 ping 10.0.0.15      # HS-EDGE-R1 Loopback
 ping 10.200.0.1     # HS-EDGE-R1 Port-Channel1
-ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
-ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 ```
 
 ### MRD-1 to HS-EDGE-R1 ping was successful ✅
@@ -34,6 +32,20 @@ ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 <img width="735" height="635" alt="MRD1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/b019c815-f545-4894-83c6-7450a012b7ad" />
 
 ---
+
+## 🧪 Test 1.5 – ED-1 → HS-EDGE-R1 and HS-EDGE-R2 Po10
+
+```bash
+ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
+ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
+```
+
+### MRD-1 to HS-EDGE-R1 ping was successful ✅
+
+<img width="695" height="593" alt="MRD1-Edge-Interconnection" src="https://github.com/user-attachments/assets/7540d4f6-37b6-4c98-9fa4-095f1258059f" />
+
+---
+
 
 ## 🧪 Test 2 – Fin-3 → HS-EDGE-R2
 
