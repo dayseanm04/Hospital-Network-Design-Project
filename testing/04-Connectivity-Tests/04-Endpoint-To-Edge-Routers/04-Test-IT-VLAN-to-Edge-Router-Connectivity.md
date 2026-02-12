@@ -22,3 +22,16 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 | IT-PC1 | 240 – IT DPT | 10.50.50.0/26 | 10.50.50.2 | Static | Service-ASW |
 
 ---
+
+# 🌐 Edge Router
+
+| Target Device | Interface Type | IP Address |
+|---------------|---------------|------------|
+| HS-EDGE-R1 | Loopback | 10.0.0.15 |
+| HS-EDGE-R1 | Port-Channel10 | 10.200.0.1 |
+| HS-EDGE-R2 | Loopback | 10.0.0.14 |
+| HS-EDGE-R2 | Port-Channel10 | 10.200.0.5 |
+
+---
+
+
