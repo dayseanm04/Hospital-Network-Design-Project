@@ -11,3 +11,9 @@ These tests confirm:
 - Port-Channels connectivity
 - Redundant Edge router paths
 
+> 💡 These tests validate that hospital VLANs can successfully reach the Edge layer before external/WAN testing.
+
+---
+
+## 🏢 Floors & Departments Covered
+
