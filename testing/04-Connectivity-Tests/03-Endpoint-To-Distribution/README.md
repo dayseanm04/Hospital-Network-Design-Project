@@ -25,3 +25,13 @@ These tests confirm:
 | [**`04-Test-IT-VLAN-to-Distribution-Connectivity.md`**](/testing/04-Connectivity-Tests/03-Endpoint-To-Distribution/04-Test-IT-VLAN-to-Distribution-Connectivity.md) | Verifies IT VLAN reachability to Distribution infrastructure |
 
 ---
+
+## 🧪 What Is Being Tested?
+
+Each test file validates:
+
+- Distribution Switch Loopback Interfaces
+- Port-Channel Interfaces (L3 EtherChannel)
+- Redundant uplink paths
+- OSPF route propagation
+- Layer 3 reachability from access layer
