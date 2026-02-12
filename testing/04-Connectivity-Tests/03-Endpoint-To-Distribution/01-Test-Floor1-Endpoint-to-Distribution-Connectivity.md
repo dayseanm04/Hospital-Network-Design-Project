@@ -12,3 +12,11 @@ This test verifies that Floor 1 endpoints can reach Distribution Switch infrastr
 
 ---
 
+## 🏢 Floor 1 Endpoints
+
+| Device | VLAN | Subnet | IP Address | Connected Switch |
+|--------|------|--------|------------|------------------|
+| ED-1 | 101 – Emergency | 172.16.1.0/26 | 172.16.1.4 (DHCP) | F1-ASW1 |
+| F1-ED-Nrs-1 | 120 – Nurses | 172.16.1.64/27 | 172.16.1.100 (DHCP) | F1-ASW2 |
+
+Note: there are multple PCs in on Floor 1 and I some of them for demonstration. 
