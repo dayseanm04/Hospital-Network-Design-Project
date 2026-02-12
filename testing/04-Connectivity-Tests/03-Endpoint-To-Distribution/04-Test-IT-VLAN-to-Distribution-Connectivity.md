@@ -8,4 +8,9 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 - Redundant paths to DSW1 and DSW2
 -  Proper core/distribution reachability
 
+## Reference Topology
+
+<img width="1005" height="463" alt="Topology" src="https://github.com/user-attachments/assets/e5489238-85b4-4948-902c-18c321f365fb" />
+
 ---
+
