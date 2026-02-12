@@ -23,3 +23,20 @@ This test verifies that Floor 2 endpoints can reach Distribution Switch infrastr
 
 Note: there are multple PCs in on Floor 2 and I some of them for demonstration. 
 
+---
+
+## 🧪 Test 1 – MRD-1 → DSW1
+
+
+```bash
+ping 10.0.0.10      # DSW1 Loopback
+ping 10.10.0.9      # DSW1 Port-Channel3
+```
+
+## MDR-1 to DSW1 ping was successful ✅
+
+<img width="1064" height="750" alt="MRD1-DSW1" src="https://github.com/user-attachments/assets/07674933-0829-4fc3-a442-076602c70974" />
+
+---
+
+
