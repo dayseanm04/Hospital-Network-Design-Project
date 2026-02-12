@@ -13,3 +13,13 @@ These tests confirm:
 
 ---
 
+## 🏢 Floors & Departments Covered
+
+| Test File | Description |
+|------------|------------|
+| [**`01-Test-Floor1-Endpoints-to-Internal-Servers.md`**](/testing/04-Connectivity-Tests/05-Endpoint-To-Internal-Servers/01-Test-Floor1-Endpoints-to-Internal-Servers.md) | Verifies Floor 1 endpoints can reach internal servers |
+| [**`02-Test-Floor2-Endpoints-to-Internal-Servers.md`**](/testing/04-Connectivity-Tests/05-Endpoint-To-Internal-Servers/02-Test-Floor2-Endpoints-to-Internal-Servers.md) | Verifies Floor 2 endpoints can reach internal servers |
+| [**`03-Test-Floor3-Endpoints-to-Internal-Servers.md`**](/testing/04-Connectivity-Tests/05-Endpoint-To-Internal-Servers/03-Test-Floor3-Endpoints-to-Internal-Servers.md) | Verifies Floor 3 endpoints can reach internal servers |
+| [**`04-Test-IT-DPT-Endpoints-to-Internal-Servers.`md**](/testing/04-Connectivity-Tests/05-Endpoint-To-Internal-Servers/04-Test-IT-DPT-Endpoints-to-Internal-Servers.md) | Verifies IT VLAN endpoints can reach internal servers |
+
+---
