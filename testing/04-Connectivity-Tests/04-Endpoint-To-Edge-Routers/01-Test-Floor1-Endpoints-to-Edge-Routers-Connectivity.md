@@ -25,7 +25,10 @@ This test verifies that Floor 1 endpoints can successfully reach the Edge Router
 
 ```bash
 ping 10.0.0.15      # HS-EDGE-R1 Loopback
-ping 10.200.0.1     # HS-EDGE-R1 Port-Channel10
+ping 10.200.0.1     # HS-EDGE-R1 Port-Channel1
+ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
+ping 10.150.0.1     # HS-EDGE-R2 Port-Channel10
+
 ```
 
 ### ED-1 to HS-EDGE-R1 ping was successful ✅
