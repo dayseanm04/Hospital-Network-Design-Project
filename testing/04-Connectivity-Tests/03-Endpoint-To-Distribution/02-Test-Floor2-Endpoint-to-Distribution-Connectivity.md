@@ -39,4 +39,19 @@ ping 10.10.0.9      # DSW1 Port-Channel3
 
 ---
 
+## 🧪 Test 2 – MRD-3 → DSW2
 
+```bash
+ping 10.0.0.11      # DSW2 Loopback
+ping 10.20.0.13     # DSW2 Port-Channel4
+```
+
+## MRD-3 to DSW2 ping was successful ✅
+
+<img width="1112" height="781" alt="MRD-3-DSW2" src="https://github.com/user-attachments/assets/df404fb5-317f-4481-953b-a916082d5c12" />
+
+---
+
+## 🎯 Result
+
+Floor 1 endpoints can reach both Distribution switches
