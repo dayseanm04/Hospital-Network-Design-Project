@@ -34,4 +34,19 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 
 ---
 
+## 🧪 Test 1 – IT-PC1 → HS-EDGE-R1
+
+### 🔧 Commands
+```bash
+ping 10.0.0.15      # HS-EDGE-R1 Loopback
+ping 10.200.0.1     # HS-EDGE-R1 Port-Channel10
+```
+
+
+
+
+
+
+
+
 
