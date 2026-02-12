@@ -11,4 +11,24 @@ This test verifies that Floor 2 endpoints can successfully reach the Edge Router
 
 ---
 
+## 🏢 Floor 2 Endpoints
+
+| Device | VLAN | Subnet | IP Address | Connected Switch |
+|--------|------|--------|------------|------------------|
+| MRD-1 | 200 – Medical Records | 172.16.2.0/27 | 172.16.2.6 (DHCP) | F2-ASW1 |
+| Fin-3 | 210 – Billing & Finance | 172.16.2.32/27 | 172.16.2.39 (DHCP) | F3-ASW3 |
+
+---
+
+## 🧪 Test 1 – MRD-1 → HS-EDGE-R1
+
+```bash
+ping 10.0.0.15      # HS-EDGE-R1 Loopback
+ping 10.200.0.1     # HS-EDGE-R1 Port-Channel10
+```
+
+### MRD-1 to HS-EDGE-R1 ping was successful ✅
+
+<img width="735" height="635" alt="MRD1-HS-EDGE-R1" src="https://github.com/user-attachments/assets/b019c815-f545-4894-83c6-7450a012b7ad" />
+
 
