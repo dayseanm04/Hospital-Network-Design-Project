@@ -82,5 +82,4 @@ ip route 69.45.12.1 255.255.255.255 70.1.1.1
 
 <img width="691" height="295" alt="ISP2" src="https://github.com/user-attachments/assets/85671181-f348-4de9-bef7-c8b9c6606ad3" />
 
-
-
+✅ The pings were succesful
