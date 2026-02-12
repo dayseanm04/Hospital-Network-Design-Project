@@ -30,3 +30,20 @@ ping 10.0.0.10      # DSW1 Loopback
 ping 10.10.0.1      # DSW1 Port-Channel1
 ```
 
+## ED-1 to DSW1 ping was successful ✅
+
+<img width="1051" height="765" alt="ED1-DSW1" src="https://github.com/user-attachments/assets/87cced50-82bc-4f68-88a6-52825fb5130d" />
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
