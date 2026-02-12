@@ -40,3 +40,8 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 ping 10.0.0.10      # DSW1 Loopback
 ping 10.255.2.1     # DSW1 Port-Channel
 ```
+
+### IT-PC1 to DSW1 ping was successful ✅
+
+<img width="1047" height="751" alt="IT1-DSW1" src="https://github.com/user-attachments/assets/7aa7b50f-bb17-49eb-8f2a-0a40a99726b1" />
+
