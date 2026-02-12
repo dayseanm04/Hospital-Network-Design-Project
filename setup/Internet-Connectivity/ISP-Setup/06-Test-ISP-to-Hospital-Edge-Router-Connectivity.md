@@ -13,7 +13,8 @@ Ensure that:
 
 ## Topology For Reference
 
-<img width="724" height="358" alt="topology" src="https://github.com/user-attachments/assets/8b78884b-49b1-4567-99d1-3a749232606e" />
+<img width="782" height="406" alt="topology" src="https://github.com/user-attachments/assets/f52f12ed-6697-4a1e-bc2e-15e693bb3312" />
+
 
 ### ▶️ Test 1: ISP1 to Hospital Edge Router 1
 
