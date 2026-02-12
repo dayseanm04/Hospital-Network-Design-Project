@@ -8,4 +8,17 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 - Redundant Edge router paths are operational
 - Core-to-Edge connectivity is functioning correctly
 
+## Reference Topology
+
+<img width="784" height="639" alt="topology" src="https://github.com/user-attachments/assets/5e8733fb-7ee1-4ac0-b0b5-9877d5e5b8fc" />
+
+---
+
+
+# 🏢 Source Endpoint – IT Department
+
+| Device | VLAN | Subnet | IP Address | Address Type | Connected Switch |
+|--------|------|--------|------------|--------------|------------------|
+| IT-PC1 | 240 – IT DPT | 10.50.50.0/26 | 10.50.50.2 | Static | Service-ASW |
+
 ---
