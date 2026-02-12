@@ -23,9 +23,8 @@ I configured Static routes are configured on both ISP routers to allow reachabil
 ## 🧱 Interconnection Design
 
 
-| Item | Value |
-|------|-------|
 | Subnet | 70.1.1.0/30 |
+|------|-------|
 | ISP1-R1 Interface | G1/0/1 |
 | ISP1-R1 IP | 70.1.1.1/30 |
 | ISP2-R1 Interface | G1/1/4 |
