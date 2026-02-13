@@ -46,3 +46,9 @@ interface Port-channel1
 
 Note: Port-Channel 15 is the connection to ISP1 and Port-Channel 1 is the connection to HS-CORE-FW1
 
+## 🌍 Step 3 – Configure NAT Pool (ISP1)
+
+In Global Config mode:
+
+
+
