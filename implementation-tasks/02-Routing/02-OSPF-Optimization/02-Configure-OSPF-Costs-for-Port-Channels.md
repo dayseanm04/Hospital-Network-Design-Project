@@ -1,17 +1,12 @@
 # 🌐 Configure OSPF Costs for Port Channels.md
 
 ## 📌 Overview
-This this task, I will configure **OSPF interface costs** on **Port-Channels** to control **path selection**.
+This this task, I will configure **OSPF costs** the **Port-Channels** the default is coost 1. The goal is to to change the default OSPF cost.
 
-The goal is to ensure **predictable and symmetric routing** by influencing which distribution switch is preferred when multiple equal paths exist.
-
----
 
 ## 🎯 Objective
-- Override the default OSPF cost on Port-Channels
-- Prevent asymmetric routing and packet loss
+- Change the default OSPF cost on Port-Channels
 
----
 
 ## Reference Topology
 
