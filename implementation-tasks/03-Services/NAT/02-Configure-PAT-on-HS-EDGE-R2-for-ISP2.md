@@ -17,3 +17,18 @@ PAT allows multiple internal hosts to share a limited number of public IP addres
 - Configure NAT inside/outside interfaces
 - Configure NAT pool for ISP2
 
+---
+
+## 🧾 Step 1 – Create ACL for NAT Translation
+
+```bash
+ip access-list standard Translate-NAT
+ 1 permit 172.16.1.0 0.0.0.255
+ 2 permit 172.16.2.0 0.0.0.255
+ 3 permit 172.16.3.0 0.0.0.255
+ 4 permit 10.50.50.0 0.0.0.63
+ 5 deny any
+```
+
+Note: This translates Floor1 - 3 and the IT Department. It dosent translate the IP for the internal servers in the Server VLAN (10.10.10.0/27)
+
