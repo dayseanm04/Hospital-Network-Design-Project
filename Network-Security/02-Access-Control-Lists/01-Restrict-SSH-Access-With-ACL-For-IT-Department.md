@@ -42,18 +42,21 @@ ip access-list standard Allow-SSH
 
 ```bash
 line vty 0 15
+exec-timeout 10
 session-limit 2
 login local
 transport input ssh
-access-class 1 in
+logging synchronous
+access-class Allow-SSH in
 ```
 
 ### 🔍 What this does:
 
-- 🔐 Requires local authentication
-- 🚦 Limits VTY sessions to 2
+- Requires local authentication
+- Limits VTY sessions to 2
 - Allows SSH access
-- 🧱 Applies ACL 1 to incoming SSH connections
+- Sets session limit to 2 
+- Applies Allow-SSH ACL to incoming SSH connections
 
 
 ## ✅ Verification
