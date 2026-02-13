@@ -32,3 +32,19 @@ ip access-list standard Translate-NAT
 
 Note: This translates Floor1 - 3 and the IT Department. It dosent translate the IP for the internal servers in the Server VLAN (10.10.10.0/27)
 
+## 🔧 Step 2 – Configure NAT Interfaces
+
+In Global Config mode:
+
+```bash
+interface Port-channel15
+ ip nat outside
+
+interface Port-channel1
+ ip nat inside
+```
+
+Note: Port-Channel 15 is the connection to ISP2 and Port-Channel 1 is the connection to HS-CORE-FW2
+
+
+
