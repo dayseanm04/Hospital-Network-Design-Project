@@ -44,3 +44,5 @@ interface Port-channel1
  ip nat inside
 ```
 
+Note: Port-Channel 15 is the connection to ISP1 and Port-Channel 1 is the connection to HS-CORE-FW1
+
