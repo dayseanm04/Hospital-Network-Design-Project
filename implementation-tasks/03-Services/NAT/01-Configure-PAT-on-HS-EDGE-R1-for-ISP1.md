@@ -50,5 +50,9 @@ Note: Port-Channel 15 is the connection to ISP1 and Port-Channel 1 is the connec
 
 In Global Config mode:
 
+```bash
+ip nat pool ISP1-Pool 100.100.100.1 100.100.100.2 netmask 255.255.255.252
+```
+
 
 
