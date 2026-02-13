@@ -60,4 +60,11 @@ Note:
 
 ## 🔁 Step 4 – Enable PAT (Overload)
 
+In Global Config mode:
+
+```bash
+ip nat inside source list Translate-NAT pool ISP1-Pool overload
+```
+
+
 
