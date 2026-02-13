@@ -46,5 +46,13 @@ interface Port-channel1
 
 Note: Port-Channel 15 is the connection to ISP2 and Port-Channel 1 is the connection to HS-CORE-FW2
 
+## 🌍 Step 3 – Configure NAT Pool (ISP1)
+
+In Global Config mode:
+
+```bash
+ip nat pool ISP2-Pool 200.200.200.1 200.200.200.2 netmask 255.255.255.252
+```
+
 
 
