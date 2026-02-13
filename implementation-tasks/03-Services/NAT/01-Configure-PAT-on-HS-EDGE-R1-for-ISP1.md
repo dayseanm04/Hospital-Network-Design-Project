@@ -29,3 +29,5 @@ ip access-list standard Translate-NAT
  4 permit 10.50.50.0 0.0.0.63
  5 deny any
 ```
+
+Note: This translates Floor1 - 3 and the IT Department
