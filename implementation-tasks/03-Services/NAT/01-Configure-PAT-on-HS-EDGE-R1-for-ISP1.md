@@ -58,3 +58,6 @@ Note:
 - The public IP range is 100.100.100.1 – 100.100.100.2
 - The total usable IPs is 2
 
+## 🔁 Step 4 – Enable PAT (Overload)
+
+
