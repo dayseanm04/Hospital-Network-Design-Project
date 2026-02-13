@@ -28,10 +28,10 @@ In this task, I restricted **SSH (VTY) access** on **all network devices** so th
 Create an access control list that **permits only IT Department IP addresses**:
 
 ```bash
-ip access-list standard 1
-1 permit 10.50.50.2
-2 permit 10.50.50.3
-3 deny any
+ip access-list standard Allow-SSH
+1 permit host 10.50.50.2
+3 permit host 10.50.50.3
+5 deny any
 ```
 
 **Note: this done in global config mode**
