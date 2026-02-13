@@ -57,6 +57,21 @@ Note:
 - The public IP range is 200.100.100.1 – 200.100.100.2
 - The total usable IPs is 2
 
+## 🔁 Step 4 – Enable PAT (Overload)
+
+In Global Config mode:
+
+```bash
+ip nat inside source list Translate-NAT pool ISP2-Pool overload
+```
+
+## 🔍 Verification
+
+```bash
+show ip nat statistics
+```
+
+
 
 
 
