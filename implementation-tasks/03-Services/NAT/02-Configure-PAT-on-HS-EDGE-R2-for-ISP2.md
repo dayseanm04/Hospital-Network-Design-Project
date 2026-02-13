@@ -12,3 +12,8 @@ PAT allows multiple internal hosts to share a limited number of public IP addres
 
 ---
 
+## 🎯 Objective
+- Create ACL for internal networks to be translated
+- Configure NAT inside/outside interfaces
+- Configure NAT pool for ISP2
+
