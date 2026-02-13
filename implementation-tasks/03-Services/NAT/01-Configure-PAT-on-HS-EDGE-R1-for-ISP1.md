@@ -66,5 +66,9 @@ In Global Config mode:
 ip nat inside source list Translate-NAT pool ISP1-Pool overload
 ```
 
+## 🔍 Verification
 
+```bash
+show ip nat statistics
+```
 
