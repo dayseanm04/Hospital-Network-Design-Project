@@ -1,4 +1,4 @@
-# 🌐 Configure OSPF Costs to Control Path Selection
+# 🌐 Configure OSPF Costs for Port Channels.md
 
 ## 📌 Overview
 This this task, I will configure **OSPF interface costs** on **Port-Channels** to control **path selection**.
