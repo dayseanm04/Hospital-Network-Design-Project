@@ -72,3 +72,4 @@ ip nat inside source list Translate-NAT pool ISP1-Pool overload
 show ip nat statistics
 ```
 
+<img width="763" height="242" alt="HS-EDGE-R1" src="https://github.com/user-attachments/assets/4c75a7d7-b57c-4d1e-8f21-3828ab5d0697" />
