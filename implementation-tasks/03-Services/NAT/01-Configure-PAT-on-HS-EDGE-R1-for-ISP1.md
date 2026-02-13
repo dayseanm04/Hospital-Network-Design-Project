@@ -30,4 +30,4 @@ ip access-list standard Translate-NAT
  5 deny any
 ```
 
-Note: This translates Floor1 - 3 and the IT Department
+Note: This translates Floor1 - 3 and the IT Department. It dosent translate the IP for the internal servers in the Server VLAN (10.10.10.0/27)
