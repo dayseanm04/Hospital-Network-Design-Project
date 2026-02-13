@@ -10,9 +10,8 @@ PAT allows multiple internal hosts to share a limited number of public IP addres
 
 <img width="784" height="639" alt="topology" src="https://github.com/user-attachments/assets/5e8733fb-7ee1-4ac0-b0b5-9877d5e5b8fc" />
 
----
 
-## 🎯 Objective
+## 🎯 Objectives
 - Create ACL for internal networks to be translated
 - Configure NAT inside/outside interfaces
 - Configure NAT pool for ISP2
@@ -53,6 +52,11 @@ In Global Config mode:
 ```bash
 ip nat pool ISP2-Pool 200.200.200.1 200.200.200.2 netmask 255.255.255.252
 ```
+
+Note:
+- The public IP range is 200.100.100.1 – 200.100.100.2
+- The total usable IPs is 2
+
 
 
 
