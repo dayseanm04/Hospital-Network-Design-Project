@@ -69,6 +69,9 @@ interface Port-Channel1 - 10
 ```bash
 interface Port-Channel1
  ospf cost 10
+
+interface Port-Channel20
+ ospf cost 10
 ```
 
 ### ♦️ On the Edge Routers (HS-EDGE-R1 / HS-EDGE-R12) In Global config mode:
