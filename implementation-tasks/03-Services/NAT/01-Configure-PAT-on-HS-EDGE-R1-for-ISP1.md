@@ -54,5 +54,7 @@ In Global Config mode:
 ip nat pool ISP1-Pool 100.100.100.1 100.100.100.2 netmask 255.255.255.252
 ```
 
-
+Note:
+- The public IP range is 100.100.100.1 – 100.100.100.2
+- The total usable IPs is 2
 
