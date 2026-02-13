@@ -34,3 +34,13 @@ Note: This translates Floor1 - 3 and the IT Department. It dosent translate the 
 
 ## 🔧 Step 2 – Configure NAT Interfaces
 
+In Global Config mode:
+
+```bash
+interface Port-channel15
+ ip nat outside
+
+interface Port-channel1
+ ip nat inside
+```
+
