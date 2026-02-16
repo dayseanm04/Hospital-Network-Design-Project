@@ -1,4 +1,4 @@
-## 🌐 Configure IP addresses for HS-CORE-FW1 ↔ HS-CORE-R1
+# 🔗 Set Up Edge Routers to Core Firewall Connections
 
 This document covers the point-to-point Layer 3 connection between the **Hospital Core Firewall (HS-CORE-FW1)** and 
 the **Hospital Core Router (HS-CORE-R1)**.
