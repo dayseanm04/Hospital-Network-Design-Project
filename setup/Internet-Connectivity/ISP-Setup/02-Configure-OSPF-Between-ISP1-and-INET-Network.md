@@ -107,7 +107,7 @@ router ospf 10
 
 #### 🔷 On ISP1-R1 show ip protocols
 
-<img width="744" height="371" alt="ISP1-ospf" src="https://github.com/user-attachments/assets/0a47b447-33d8-41f8-a7ee-38cd8af7acc8" />
+<img width="676" height="365" alt="ISP1-R1" src="https://github.com/user-attachments/assets/a05dd731-0218-44a8-8680-2e4f1ef1c944" />
 
 
 #### 🔷 On INET-SW show ip protocols
