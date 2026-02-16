@@ -12,3 +12,15 @@ Each connection uses a **static Layer 3 Port-Channel (Po20)** with /30 addressin
 
 <img width="775" height="399" alt="topology" src="https://github.com/user-attachments/assets/5e6a837f-9f18-4623-8039-2d2279c558ca" />
 
+---
+
+# 🧱 HS-CORE-FW1 ↔ DSW1 Connection
+
+## 🔌 Physical Interfaces
+
+| Device | Interface | Connected To | Interface |
+|--------|-----------|--------------|-----------|
+| HS-CORE-FW1 | G1/3 | DSW1 | G1/1/1 |
+| HS-CORE-FW1 | G1/4 | DSW1 | G1/1/4 |
+
+---
