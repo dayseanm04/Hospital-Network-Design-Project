@@ -80,7 +80,7 @@ ip route 0.0.0.0 0.0.0.0 69.45.12.2
 
 #### 🔷 In Global config mode:
 
-### 🧩 Create Loopback0
+### 🧩 Configure Loopback0
 
 ```bash
 interface loopback 0
