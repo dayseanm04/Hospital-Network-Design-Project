@@ -19,7 +19,9 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 | Device | Interface | Connected To | Interface |
 |------|-----------|--------------|-----------|
 | ISP1-R1 | G1/1/1 | HS-EDGE-R1 | G1/1/1 |
-| ISP1-R1 | G1/1/2 | HS-EDGE-R1 | G1/1/1 |
+| ISP1-R1 | G1/1/2 | HS-EDGE-R1 | G1/1/2 |
+| ISP1-R1 | G1/1/3 | HS-EDGE-R2 | G1/1/1 |
+| ISP1-R1 | G1/1/4 | HS-EDGE-R2 | G1/1/2 |
 
 ---
 
