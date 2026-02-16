@@ -44,7 +44,4 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 ### On ISP1-R1: show ip interface brief
 
-<img width="860" height="97" alt="ISP1-PC" src="https://github.com/user-attachments/assets/abe0d5e8-e1d5-4c57-b55c-a8f36607cc59" />
-
-
-
+<img width="766" height="99" alt="ISP1-R1" src="https://github.com/user-attachments/assets/5bf94113-6b8b-4b2e-9d0a-d65f1a80773a" />
