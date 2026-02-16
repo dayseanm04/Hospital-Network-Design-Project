@@ -90,8 +90,7 @@ interface port-channel1
 
 #### 🟢 On INET-SW show etherchannel summary
 
-<img width="813" height="351" alt="INET-R1-ethchannel-sum" src="https://github.com/user-attachments/assets/ece4758a-3722-41ab-9453-6b7f0710cb43" />
-
+<img width="859" height="347" alt="INET" src="https://github.com/user-attachments/assets/bbee8238-d867-431c-ab6f-3559045ef03a" />
 
 #### 🟢 On ISP1-R1 show etherchannel summary
 
