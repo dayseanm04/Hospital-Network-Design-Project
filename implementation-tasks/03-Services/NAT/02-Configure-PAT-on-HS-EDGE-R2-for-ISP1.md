@@ -1,4 +1,4 @@
-# 🌐 Configure PAT on HS-EDGE-R2 for ISP2
+# 🌐 Configure PAT on HS-EDGE-R2 for ISP1
 
 ## 📌 Overview
 
@@ -50,7 +50,7 @@ Note: Port-Channel 15 is the connection to ISP2 and Port-Channel 1 is the connec
 In Global Config mode:
 
 ```bash
-ip nat pool ISP2-Pool 200.200.200.1 200.200.200.2 netmask 255.255.255.252
+ip nat pool ISP1-Pool2 200.200.200.1 200.200.200.2 netmask 255.255.255.252
 ```
 
 Note:
@@ -62,7 +62,7 @@ Note:
 In Global Config mode:
 
 ```bash
-ip nat inside source list Translate-NAT pool ISP2-Pool overload
+ip nat inside source list Translate-NAT pool ISP1-Pool2 overload
 ```
 
 ## 🔍 Verification
