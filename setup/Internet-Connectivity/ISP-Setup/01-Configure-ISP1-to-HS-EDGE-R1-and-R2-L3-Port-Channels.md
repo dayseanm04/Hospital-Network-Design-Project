@@ -57,12 +57,24 @@ interface port-channel15
  ip address 69.45.12.2 255.255.255.252
 ```
 
-## 🧱 ISP1 ↔ HS-EDGE-R2 Interconnection
+# 🧱 ISP1 ↔ HS-EDGE-R2 Interconnection
 
 | Device     | Interface | Connected To | Interface |
 | ---------- | --------- | ------------ | --------- |
 | HS-EDGE-R2 | G1/1/1    | ISP1-R1      | G1/1/3    |
 | HS-EDGE-R2 | G1/1/2    | ISP1-R1      | G1/1/4    |
 
+## 🔧 ISP1-R1 Configuration (Po10)
 
+In Global config mode:
+
+```bash
+interface range g1/1/3-4
+ no switchport
+ no shutdown
+ channel-group 10 mode on
+
+interface port-channel10
+ ip address 100.45.12.1 255.255.255.252
+```
 
