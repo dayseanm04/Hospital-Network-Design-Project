@@ -69,7 +69,6 @@ interface g1/2
  channel-group 1 mode on
 ```
 
-
 ## 🔍 Verification
 
 ### show etherchannel summary on HS-EDGE-R1 ✅
@@ -152,5 +151,12 @@ interface range g1/0/23-24
  channel-group 10 mode on
 ```
 
+## 🔍 Verification
 
+### show etherchannel summary on HS-EDGE-R1 ✅
 
+<img width="814" height="387" alt="E1" src="https://github.com/user-attachments/assets/7b081811-52e6-417c-8bf7-892caa042591" />
+
+### show etherchannel summary on HS-EDGE-R2 ✅
+
+<img width="827" height="390" alt="E2" src="https://github.com/user-attachments/assets/361841e4-8ffb-4c89-9808-1deb1cbcc0af" />
