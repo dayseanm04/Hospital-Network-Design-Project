@@ -24,3 +24,13 @@ Each connection uses a **static Layer 3 Port-Channel (Po20)** with /30 addressin
 | HS-CORE-FW1 | G1/4 | DSW1 | G1/1/4 |
 
 ---
+
+# 🧱 HS-CORE-FW2 ↔ DSW2 Connection
+
+## 🔌 Physical Interfaces
+
+| Device | Interface | Connected To | Interface |
+|--------|-----------|--------------|-----------|
+| HS-CORE-FW2 | G1/3 | DSW2 | G1/1/1 |
+| HS-CORE-FW2 | G1/4 | DSW2 | G1/1/4 |
+
