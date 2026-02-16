@@ -5,7 +5,8 @@ between **DSW1** and **DSW2**.
 
 ## Rererence Diagram
 
-<img width="620" height="233" alt="implement-l3-LACP" src="https://github.com/user-attachments/assets/05665561-547b-40e2-982b-bc594b839fb5" />
+<img width="504" height="275" alt="topology" src="https://github.com/user-attachments/assets/cbb3c6e7-dfce-4e76-bc63-76188936ada1" />
+
 
 ### ✅ Why L3 EtherChannel here?
 - Keeps the inter-distribution link **routed** (no VLANs carried)
