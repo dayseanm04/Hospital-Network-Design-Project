@@ -40,3 +40,14 @@ interface range g1/1/3-4
  no switchport
  channel-group 1 mode on
 ```
+
+#### On HS-CORE-FW1 in global config mode:
+
+```bash
+interface g1/1
+ channel-group 1 mode on
+interface g1/2
+ channel-group 1 mode on
+```
+
+## 🔷 HS-EDGE-R2 ↔ HS-CORE-FW2
