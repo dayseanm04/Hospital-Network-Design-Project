@@ -47,8 +47,8 @@ On **DSW1 and DSW2**:
 
 | Switch | Interface Range | Purpose |
 |--------|------------------|---------|
-| DSW1 | Gi1/1/2 – Gi1/1/3 | Links to DSW2 |
-| DSW2 | Gi1/1/2 – Gi1/1/3 | Links to DSW1 |
+| DSW1 | G1/1/2 – G1/1/3 | Links to DSW2 |
+| DSW2 | G1/1/2 – G1/1/3 | Links to DSW1 |
 
 ---
 
@@ -65,8 +65,8 @@ channel-group 10 mode active
 
 | Switch | Channel-Group | LACP Mode | Members |
 |--------|--------------:|----------:|---------|
-| DSW1 | 10 | active | Gi1/1/2–Gi1/1/3 |
-| DSW2 | 10 | active | Gi1/1/2–Gi1/1/3 |
+| DSW1 | 10 | active | G1/1/2–G1/1/3 |
+| DSW2 | 10 | active | G1/1/2–G1/1/3 |
 
 ---
 
