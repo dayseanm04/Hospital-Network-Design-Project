@@ -1,4 +1,4 @@
-# 🔀 Configure EtherChannel Load Balancing on L3 Port-Channels
+# 🔀 Configure EtherChannel Load Balancing for the L3 Port-Channels
 
 ## 📌 Overview
 This task, I will configure **EtherChannel load balancing** for all **Layer 3 Port-Channels** in the network.
