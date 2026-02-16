@@ -15,7 +15,7 @@ Create an **L3 Port-Channel** between:
 
 ## Topology For Reference
 
-<img width="745" height="301" alt="reference-topology" src="https://github.com/user-attachments/assets/73b21ac5-75e3-407e-8ebe-3b05a0f6bf89" />
+<img width="874" height="322" alt="toplogy" src="https://github.com/user-attachments/assets/b1052712-a30e-4946-bf03-e7f2867859aa" />
 
 ---
 
@@ -27,7 +27,6 @@ Create an **L3 Port-Channel** between:
 | ISP1 | G1/1/4 | INET-SW | G1/1/2 |
 
 ---
-
 
 ## 🧠 IP Addressing Plan (Port-Channel 1)
 
