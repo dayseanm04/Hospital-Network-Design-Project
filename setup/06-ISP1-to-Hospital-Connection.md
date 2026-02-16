@@ -18,8 +18,8 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 | Device | Interface | Connected To | Interface |
 |------|-----------|--------------|-----------|
-| ISP1-R1 | G1/1/1 | HS-CORE-FW1 | Gi1/8 |
-| ISP1-R1 | G1/1/2 | HS-CORE-FW1 | Gi1/6 |
+| ISP1-R1 | G1/1/1 | HS-EDGE-R1 | G1/1/1 |
+| ISP1-R1 | G1/1/2 | HS-EDGE-R1 | G1/1/1 |
 
 ---
 
