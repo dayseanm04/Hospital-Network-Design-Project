@@ -88,3 +88,21 @@ interface g1/4
 interface range g1/1/1, g1/1/4
  channel-group 20 mode on
 ```
+
+## 🔷 HS-CORE-FW2 ↔ DSW2
+
+#### On HS-CORE-FW1 in global config mode:
+
+```bash
+interface g1/3
+ channel-group 20 mode on
+interface g1/4
+ channel-group 20 mode on
+```
+
+#### On DSW1 in global config mode:
+
+```bash
+interface range g1/1/1, g1/1/4
+ channel-group 20 mode on
+```
