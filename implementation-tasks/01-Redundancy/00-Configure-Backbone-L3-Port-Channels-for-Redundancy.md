@@ -93,7 +93,7 @@ interface range g1/1/1, g1/1/4
 
 ## 🔷 HS-CORE-FW2 ↔ DSW2
 
-#### On HS-CORE-FW1 in global config mode:
+#### On HS-CORE-FW2 in global config mode:
 
 ```bash
 interface g1/3
@@ -110,5 +110,18 @@ interface range g1/1/1, g1/1/4
 ```
 
 ---
+
+## 🧱 3️⃣ Edge ↔ Edge Redundant Interconnection
+
+## 🔷 HS-EDGE-R1 to HS-EDGE-R2
+
+#### On HS-EDGE-R1 in global config mode:
+
+```bash
+interface range g1/0/23-24
+ no switchport
+ channel-group 10 mode on
+```
+
 
 
