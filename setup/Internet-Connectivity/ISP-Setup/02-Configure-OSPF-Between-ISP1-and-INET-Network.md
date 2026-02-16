@@ -18,11 +18,10 @@ I will also:
 - ✅ Advertise default route
 - ✅ Configure loopbacks
 
----
 
 ## Topology For Reference
 
-<img width="745" height="301" alt="reference-topology" src="https://github.com/user-attachments/assets/efe4388b-2f59-4b9e-851a-c135db1689ad" />
+<img width="878" height="342" alt="topology" src="https://github.com/user-attachments/assets/a853c95c-6652-4a73-8038-789339e1b966" />
 
 ---
 
