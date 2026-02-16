@@ -52,8 +52,6 @@ interface g1/2
 
 ## 🔷 HS-EDGE-R2 ↔ HS-CORE-FW2
 
-## 🔷 HS-EDGE-R2 ↔ HS-CORE-FW2
-
 #### On HS-EDGE-R2 in global config mode:
 
 ```bash
@@ -84,5 +82,6 @@ interface g1/4
  channel-group 20 mode on
 ```
 
+#### On DSW1 in global config mode:
 
 
