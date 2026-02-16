@@ -31,6 +31,8 @@ Each edge router has a redundant uplink to ISP1 using an L3 EtherChannel.
 
 ## 🔧 ISP1-R1 Configuration (Po15)
 
+In Global Config mode:
+
 ```bash
 interface range g1/1/1-2
  no switchport
@@ -41,9 +43,19 @@ interface port-channel15
  ip address 69.45.12.1 255.255.255.252
 ```
 
+## 🔧 HS-EDGE-R1 Configuration (Po15)
 
+In Global Config mode:
 
+```bash
+interface range g1/1/1-2
+ no switchport
+ no shutdown
+ channel-group 15 mode on
 
+interface port-channel15
+ ip address 69.45.12.2 255.255.255.252
+```
 
 
 
