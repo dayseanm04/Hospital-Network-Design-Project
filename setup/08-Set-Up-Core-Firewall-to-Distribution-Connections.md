@@ -40,4 +40,10 @@ Each connection uses a **static Layer 3 Port-Channel (Po20)** with /30 addressin
 | HS-CORE-FW2 | G1/3 | DSW2 | G1/1/1 |
 | HS-CORE-FW2 | G1/4 | DSW2 | G1/1/4 |
 
+## 🌐 Subnet 
+
+| Link               | Subnet        |  HS-CORE-FW2 IP  |  DSW2 IP   |
+| ------------------ | ------------- | ---------------- | ----------------- |
+| HS-CORE-FW2 ↔ DSW2 | 10.255.0.4/30 |    10.255.0.5    |     10.255.0.6    |
+
 ## Click [`here`](/implementation-tasks/01-Redundancy/) to view the PortChannel configurations
