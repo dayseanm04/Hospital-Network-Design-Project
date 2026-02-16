@@ -1,5 +1,10 @@
 # 🌐 Configure Default Route on INET-SW for Internet Connectivity
 
+
+## Topology For Reference
+
+<img width="878" height="342" alt="topology" src="https://github.com/user-attachments/assets/a853c95c-6652-4a73-8038-789339e1b966" />
+
 ## 📌 Overview
 In this task, I will configure a **default route** on **INET-SW** to enable internet reachability.
 
