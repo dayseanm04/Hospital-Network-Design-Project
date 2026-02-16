@@ -30,3 +30,6 @@ ip route 0.0.0.0 0.0.0.0 10.30.30.1
 
 ## 🔍 Verification
 
+#### show ip route on INET-SW
+
+<img width="922" height="346" alt="route" src="https://github.com/user-attachments/assets/9f4f1c1c-eccc-44b3-8e32-b208e594afd9" />
