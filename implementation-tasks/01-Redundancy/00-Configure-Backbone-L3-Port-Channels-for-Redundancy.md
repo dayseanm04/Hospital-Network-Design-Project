@@ -27,3 +27,16 @@ The following Layer 3 Port-Channels form the redundant backbone:
 | HS-EDGE-R1 ↔ HS-EDGE-R2 | Po10 | 10.150.0.0/30 |
 
 ---
+
+
+# 🧱 1️⃣ Edge ↔ Core Redundant Links
+
+## 🔷 HS-EDGE-R1 ↔ HS-CORE-FW1
+
+#### On HS-EDGE-R1 in global config mode:
+
+```bash
+interface range g1/1/3-4
+ no switchport
+ channel-group 1 mode on
+```
