@@ -90,12 +90,12 @@ It includes:
 
 ## 🧩 Section 6: Edge Routers to ISP Point-to-Point Links
 
-### 🔵 HS-EDGE-R1 to ISP1-R1 and HS-EDGE-R2 to ISP2-R1 
+### 🔵 HS-EDGE-R1 and HS-EDGE-R2 to ISP1-R1 
 
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
 | Edge1 to ISP1 | HS-EDGE-R1 | Po15 | 69.45.12.1 | ISP1-R1 | Po15 | 69.45.12.2 | 69.45.12.0/30 |
-| Edge2 to ISP2 | HS-EDGE-R2 | Po15 | 100.45.12.1 | ISP2-R1 | Po15 | 100.45.12.2 | 100.45.12.0/30 |
+| Edge2 to ISP2 | HS-EDGE-R2 | Po15 | 100.45.12.1 | ISP2-R1 | Po10 | 100.45.12.2 | 100.45.12.0/30 |
 
 
 ## 🧩 Section 7: ISP side Point-to-Point Links
