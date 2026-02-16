@@ -26,9 +26,9 @@ Each connection uses a **static Layer 3 Port-Channel** with /30 addressing to pr
 
 ## 🌐 Subnet 
 
-| Link               | Subnet        | HS-Edge-R1 IP  | HS-Core-FW1 IP  |
-| ------------------ | ------------- | ---------- | ---------- |
-| EDGE-R1 ↔ CORE-FW1 | 10.200.0.0/30 | 10.200.0.1 | 10.200.0.2 |
+| Link                     | Subnet        |   HS-Edge-R1 IP  |  HS-Core-FW1 IP    |
+| ------------------------ | ------------- | ---------------- | ------------------ |
+| HS-EDGE-R1 ↔ HS-CORE-FW1 | 10.200.0.0/30 |    10.200.0.1    |     10.200.0.2     |
 
 ---
 
@@ -46,6 +46,6 @@ Each connection uses a **static Layer 3 Port-Channel** with /30 addressing to pr
 
 | Link               | Subnet        | HS-Edge-R1 IP  | HS-Core-FW1 IP  |
 | ------------------ | ------------- | ---------- | ---------- |
-| EDGE-R2 ↔ CORE-FW2 | 10.200.0.4/30 | 10.200.0.5 | 10.200.0.6 |
+| HS-EDGE-R2 ↔ HS-CORE-FW2 | 10.200.0.4/30 | 10.200.0.5 | 10.200.0.6 |
 
 ## Click [`here`](/implementation-tasks/01-Redundancy/) to view the PortChannel configurations.
