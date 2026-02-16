@@ -45,3 +45,11 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 ### On ISP1-R1: show ip interface brief | include Port
 
 <img width="766" height="99" alt="ISP1-R1" src="https://github.com/user-attachments/assets/5bf94113-6b8b-4b2e-9d0a-d65f1a80773a" />
+
+### On HS-EDGE-R1: show ip interface brief | include Port
+
+<img width="821" height="119" alt="E1" src="https://github.com/user-attachments/assets/ffe4fe2e-fbfe-4126-9556-46db09b1d577" />
+
+### On HS-EDGE-R2: show ip interface brief | include Port
+
+<img width="793" height="117" alt="E2" src="https://github.com/user-attachments/assets/f9221abe-ebb5-44ad-bbbf-e81d486937b9" />
