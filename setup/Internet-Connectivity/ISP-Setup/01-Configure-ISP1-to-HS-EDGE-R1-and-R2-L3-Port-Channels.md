@@ -2,10 +2,9 @@
 
 ## 📌 Overview
 
-In this task, I will configure the **primary Internet connection between ISP1 and the hospital network**.  
+In this task, I will configure **Layer 3 static Port-Channels** between **ISP1-R1** and the hospital **edge routers (HS-EDGE-R1 and HS-EDGE-R2)**.
 
-Due to **Cisco Packet Tracer limitations**, EtherChannel cannot be configured on router platforms.  
-To support **Layer 3 EtherChannel**, I used a **Layer 3 switch**.
+Each edge router has a redundant uplink to ISP1 using an L3 EtherChannel.
 
 
 ## 🎯 Objectives
