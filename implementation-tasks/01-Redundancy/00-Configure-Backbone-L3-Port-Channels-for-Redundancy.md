@@ -120,6 +120,13 @@ interface range g1/1/1, g1/1/4
  channel-group 20 mode on
 ```
 
+## 🔍 Verification
+
+### show etherchannel summary on DSW1 ✅
+
+<img width="1005" height="491" alt="DSW1" src="https://github.com/user-attachments/assets/41e7ec85-3f0b-4e3d-9952-fb207c29dc0d" />
+
+
 ---
 
 ## 🧱 3️⃣ Edge ↔ Edge Redundant Interconnection
