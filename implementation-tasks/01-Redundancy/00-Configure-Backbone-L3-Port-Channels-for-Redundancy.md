@@ -84,4 +84,7 @@ interface g1/4
 
 #### On DSW1 in global config mode:
 
-
+```bash
+int r g1/1/1, g1/1/4
+ channel-group 20 mode on
+```
