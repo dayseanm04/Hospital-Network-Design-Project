@@ -69,6 +69,13 @@ interface g1/2
  channel-group 1 mode on
 ```
 
+
+## 🔍 Verification
+
+### show etherchannel summary on HS-EDGE-R1 ✅
+
+<img width="814" height="387" alt="E1" src="https://github.com/user-attachments/assets/7b081811-52e6-417c-8bf7-892caa042591" />
+
 ---
 
 ## 🧱 2️⃣ Core ↔ Distribution Redundant Links
