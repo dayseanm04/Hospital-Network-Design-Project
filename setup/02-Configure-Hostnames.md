@@ -12,7 +12,6 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 | Device Role | Hostname |
 |------------|--------------------|
 | ISP1 Router | `ISP1-R1` |
-| ISP2 Router | `ISP2-R1` |
 
 ## 🌐 INET Devices
 
@@ -72,7 +71,3 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 |------------|--------------------|
 | Floor 3 Access Switch 1 | `F3-ASW1` |
 | Floor 3 Access Switch 2 | `F3-ASW2` |
-
-
-
-
