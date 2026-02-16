@@ -57,5 +57,12 @@ interface port-channel15
  ip address 69.45.12.2 255.255.255.252
 ```
 
+## 🧱 ISP1 ↔ HS-EDGE-R2 Interconnection
+
+| Device     | Interface | Connected To | Interface |
+| ---------- | --------- | ------------ | --------- |
+| HS-EDGE-R2 | G1/1/1    | ISP1-R1      | G1/1/3    |
+| HS-EDGE-R2 | G1/1/2    | ISP1-R1      | G1/1/4    |
+
 
 
