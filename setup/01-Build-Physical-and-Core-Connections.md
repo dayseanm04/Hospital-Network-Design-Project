@@ -36,7 +36,16 @@ Connect the ISP router to the hospital edge routers.
 
 ---
 
-## 🔗 5. Firewall to Hospital Edge Router Connections
+## 🔗 5. Edge Routers interonnections
+
+| HS-EDGE-R1 interface | HS-EDGE-R2 interface | Port Channel |
+|--------------------|-----------------------|-------|
+| HS-EDGE-R1 G1/0/23 | HS-EDGE-R2 G1/0/23 | 10 |
+| HS-EDGE-R1 G1/0/24 | HS-EDGE-R2 G1/0/24 | 10 |
+
+---
+
+## 🔗 6. Firewall to Hospital Edge Router Connections
 
 Connect the core firewalls to the hospital edge routers.
 
@@ -47,15 +56,10 @@ Connect the core firewalls to the hospital edge routers.
 | HS-CORE-FW2 G1/1 | HS-EDGE-R2 G1/1/3 | 1 |
 | HS-CORE-FW2 G1/2 | HS-EDGE-R2 G1/1/4 | 1 |
 
-## 🔗 6. Firewall to Hospital Edge Router Connections
-
-| HS-CORE-FW1 interface | HS-CORE-FW12 interface | Port Channel |
-|--------------------|-----------------------|-------|
-| HS-CORE-FW1 G1/5 | HS-CORE-FW2 G1/5 | 10 |
-| HS-CORE-FW1 G1/6 | HS-CORE-FW2 G1/6 | 10 |
 
 
-## 🏛️ 7. Distribution Switch Connections
+
+## 🏛️ 8. Distribution Switch Connections
 
 ### Distribution Switch Information
 - Model: Cisco 3650-24PT
