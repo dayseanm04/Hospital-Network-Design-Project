@@ -78,3 +78,14 @@ interface port-channel10
  ip address 100.45.12.1 255.255.255.252
 ```
 
+## 🔧 HS-EDGE-R2 Configuration (Po15)
+
+```bash
+interface range g1/1/1-2
+ no switchport
+ no shutdown
+ channel-group 15 mode on
+
+interface port-channel15
+ ip address 100.45.12.2 255.255.255.252
+```
