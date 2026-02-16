@@ -35,3 +35,6 @@ Each connection uses a **static Layer 3 Port-Channel** with /30 addressing to pr
 | ---------- | --------- | ------------ | --------- |
 | HS-EDGE-R2 | G1/1/3    | HS-CORE-FW2  | G1/1      |
 | HS-EDGE-R2 | G1/1/4    | HS-CORE-FW2  | G1/2      |
+
+
+[**`Click here to view the PortChannel configuration`**](/implementation-tasks/01-Redundancy/)
