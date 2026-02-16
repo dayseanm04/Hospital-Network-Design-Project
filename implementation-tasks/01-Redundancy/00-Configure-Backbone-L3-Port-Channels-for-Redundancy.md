@@ -71,4 +71,18 @@ interface g1/2
  channel-group 1 mode on
 ```
 
+## 🧱 2️⃣ Core ↔ Distribution Redundant Links
+
+## 🔷 HS-CORE-FW1 ↔ DSW1
+
+#### On HS-CORE-FW1 in global config mode:
+
+```bash
+interface g1/3
+ channel-group 20 mode on
+interface g1/4
+ channel-group 20 mode on
+```
+
+
 
