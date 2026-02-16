@@ -44,7 +44,7 @@ Each connection uses a **static Layer 3 Port-Channel** with /30 addressing to pr
 
 ## 🌐 Subnet 
 
-| Link               | Subnet        | HS-Edge-R1 IP  | HS-Core-FW1 IP  |
+| Link               | Subnet        | HS-Edge-R2 IP  | HS-Core-FW2 IP  |
 | ------------------ | ------------- | ---------- | ---------- |
 | HS-EDGE-R2 ↔ HS-CORE-FW2 | 10.200.0.4/30 | 10.200.0.5 | 10.200.0.6 |
 
