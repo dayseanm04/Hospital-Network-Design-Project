@@ -70,10 +70,11 @@ router ospf 10
 
 ## ✅ Step 2 - Configure Default Route on ISP1
 
-#### 🔷 On ISP1, configure a default route pointing toward the hospital firewall:
+#### 🔷 On ISP1, configure a default route (floadint static route) pointing toward the hospital Edge Routers:
 
 ```bash
 ip route 0.0.0.0 0.0.0.0 69.45.12.2
+ip route 0.0.0.0 0.0.0.0 100.45.12.2 50
 ```
 
 ## ✅ Step 3 - Configure OSPF on ISP1-R1
