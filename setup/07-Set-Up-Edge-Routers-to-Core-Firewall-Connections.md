@@ -8,6 +8,10 @@ This task establishes the **Layer 3 backbone connections** between:
 
 Each connection uses a **static Layer 3 Port-Channel** with /30 addressing to provide redundancy.
 
+### Reference Topology
+
+<img width="567" height="244" alt="topology" src="https://github.com/user-attachments/assets/6bd8a4c8-f1fa-490d-8d3d-59955db3156e" />
+
 ---
 
 
