@@ -14,3 +14,16 @@ The backbone includes:
 
 ---
 
+## 🧱 Backbone Interconnections
+
+The following Layer 3 Port-Channels form the redundant backbone:
+
+| Connection | Port-Channel | Subnet |
+|------------|-------------|--------|
+| HS-EDGE-R1 ↔ HS-CORE-FW1 | Po1 | 10.200.0.0/30 |
+| HS-EDGE-R2 ↔ HS-CORE-FW2 | Po1 | 10.200.0.4/30 |
+| HS-CORE-FW1 ↔ DSW1 | Po20 | 10.255.0.0/30 |
+| HS-CORE-FW2 ↔ DSW2 | Po20 | 10.255.0.4/30 |
+| HS-EDGE-R1 ↔ HS-EDGE-R2 | Po10 | 10.150.0.0/30 |
+
+---
