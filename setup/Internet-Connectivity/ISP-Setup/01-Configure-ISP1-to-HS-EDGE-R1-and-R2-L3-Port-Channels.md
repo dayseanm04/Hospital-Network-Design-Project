@@ -16,7 +16,18 @@ Each edge router has a redundant uplink to ISP1 using an L3 EtherChannel.
 
 <img width="391" height="299" alt="topology" src="https://github.com/user-attachments/assets/62090ef2-aa08-4f17-b0bf-7b54a2e56c3c" />
 
+---
 
+# 🧱 ISP1 ↔ HS-EDGE-R1 Interconnection
+
+## 🔌 Physical Connections
+
+| Device | Interface | Connected To | Interface |
+|--------|-----------|--------------|-----------|
+| HS-EDGE-R1 | G1/1/1 | ISP1-R1 | G1/1/1 |
+| HS-EDGE-R1 | G1/1/2 | ISP1-R1 | G1/1/2 |
+
+---
 
 
 
