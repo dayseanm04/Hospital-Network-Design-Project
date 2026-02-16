@@ -18,7 +18,7 @@ In this task, I configure static NAT on ISP1-R1 so that the INET servers (DNS, H
 ## 🧠 NAT Design Overview
 
 - **Inside (private) network:** towards the INET network  `10.20.20.0/24`
-- **Outside (public) network:** towards the hospital firewall
+- **Outside (public) network:** towards the hospital Edge Routers
 - **NAT type:** Static
 
 ---
@@ -45,6 +45,9 @@ interface Port-channel1
 
 ```bash
 interface Port-channel15
+ ip nat outside
+
+interface Port-channel10
  ip nat outside 
 ```
 
