@@ -176,13 +176,13 @@ Connect the two distribution switches together.
 - ✅ ISP router connected to hospital Edge Routers  
 - ✅ Edge Routers connected to the hospital core firewalls  
 - ✅ Hospital core firewalls  is connected to the distribution switches
-- ✅ Hospital core firewalls are interconnected  
+- ✅ Hospital Edge Routers are interconnected  
 - ✅ Distribution switches are interconnected  
-- ✅ Access switches has dual connections to the distribution layers
+- ✅ Access switches has dual connections to the distribution switches
 
 ## 📌 Note:
 Note that I may update the connections when nessasry
 
 ## Network Diagram:
 
-<img width="825" height="575" alt="topology" src="https://github.com/user-attachments/assets/78e4ecc2-fb41-4553-951e-78ab66c0146b" />
+<img width="703" height="519" alt="topology" src="https://github.com/user-attachments/assets/1ecc7cd6-13c3-4faf-95a8-56ae3692cfc8" />
