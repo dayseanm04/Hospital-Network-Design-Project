@@ -1,4 +1,4 @@
-# 🌐 01 – Configure Primary ISP1 Connection to Hospital Network
+# 🌐 Configure ISP1 to HS-EDGE-R1 and R2 L3 Port-Channels
 
 ## 📌 Overview
 
