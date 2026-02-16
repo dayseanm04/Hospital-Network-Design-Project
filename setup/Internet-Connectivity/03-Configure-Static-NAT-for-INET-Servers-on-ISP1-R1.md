@@ -28,7 +28,9 @@ In this task, I configure static NAT on ISP1-R1 so that the INET servers (DNS, H
 | Interface | Role |
 |---|---|
 | Interface toward `INET-SW` | `ip nat inside` |
-| Interfaces toward `HS-CORE-FW1` | `ip nat outside` |
+| Interfaces toward `HS-EDGE-R1` | `ip nat outside` |
+| Interfaces toward `HS-EDGE-R2` | `ip nat outside` |
+
 
 ---
 
