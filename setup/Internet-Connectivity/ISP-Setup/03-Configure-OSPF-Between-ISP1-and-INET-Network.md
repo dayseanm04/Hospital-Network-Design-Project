@@ -1,5 +1,10 @@
 # 🧭 Configure OSPF Between ISP1 and INET Network
 
+
+## Topology For Reference
+
+<img width="878" height="342" alt="topology" src="https://github.com/user-attachments/assets/a853c95c-6652-4a73-8038-789339e1b966" />
+
 ## 📌 Overview
 
 In this task, I will configure **OSPF process 10 (Area 0)** between the **ISP1-R1** and the **INET network** so routing information can be exchanged dynamically.
@@ -10,7 +15,6 @@ I will also:
 - Configure a **default route on ISP1**
 - Advertise the default route into OSPF using **default-information originate**
 
----
 
 ## 🎯 Goals
 - ✅ Enable OSPF between ISP1-R1 and INET-SW
@@ -18,12 +22,6 @@ I will also:
 - ✅ Advertise default route
 - ✅ Configure loopbacks
 
-
-## Topology For Reference
-
-<img width="878" height="342" alt="topology" src="https://github.com/user-attachments/assets/a853c95c-6652-4a73-8038-789339e1b966" />
-
----
 
 ## 🧠 Addressing / Networks Used
 
@@ -38,7 +36,6 @@ I will also:
 ---
 
 # 🛠 Step-by-Step Configuration
-
 
 ## ✅ Step 1 - Configure OSPF on INET-SW
 
