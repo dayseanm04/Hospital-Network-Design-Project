@@ -89,3 +89,14 @@ interface range g1/1/1-2
 interface port-channel15
  ip address 100.45.12.2 255.255.255.252
 ```
+
+## 🔍 Verification
+
+### show etherchannel summary on ISP1-R1
+
+<img width="822" height="387" alt="ISP1" src="https://github.com/user-attachments/assets/ec035f8d-6acb-4c77-b606-98729511e8ea" />
+
+
+
+
+
