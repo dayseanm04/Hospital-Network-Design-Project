@@ -123,5 +123,13 @@ interface range g1/0/23-24
  channel-group 10 mode on
 ```
 
+#### On HS-EDGE-R2 in global config mode:
+
+```bash
+interface range g1/0/23-24
+ no switchport
+ channel-group 10 mode on
+```
+
 
 
