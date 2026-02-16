@@ -1,8 +1,8 @@
 # 🔗 Set Up Edge Routers to Core Firewall Connections
 
 ## 📌 Overview
-
 This task establishes the **Layer 3 backbone connections** between:
+
 - **HS-EDGE-R1 ↔ HS-CORE-FW1**
 - **HS-EDGE-R2 ↔ HS-CORE-FW2**
 
