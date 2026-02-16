@@ -1,4 +1,4 @@
-# 🌐08 Configure IP for Distribution Switches to HS-CORE-R1.md
+# 🔗 Set Up Core Firewall to Distribution Connections
 
 In this task I will configure **point-to-point IP addresses** between the **Distribution Switches (DSW1/DSW2)** and the **Hospital Core Router (HS-CORE-R1)**.
 
