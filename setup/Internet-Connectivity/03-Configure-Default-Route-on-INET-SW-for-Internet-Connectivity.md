@@ -6,3 +6,9 @@ In this task, I will configure a **default route** on **INET-SW** to enable inte
 The default route forwards all unknown traffic to the upstream ISP router (ISP1-R1).
 
 ---
+
+## 🎯 Objective
+- Configure a gateway of last resort on INET-SW
+- Sends internet-bound traffic toward ISP1
+
+
