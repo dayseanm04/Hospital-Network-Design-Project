@@ -31,8 +31,8 @@ Connect the ISP router to the hospital edge routers.
 |----------------------|--------------------|-------|
 | ISP1-R1 G1/1/1 | HS-EDGE-R1 G1/1/1 | 15 |
 | ISP1-R1 G1/1/2 | HS-EDGE-R1 G1/1/2 | 15 |
-| ISP2-R1 G1/1/1 | HS-EDGE-R2 G1/1/1 | 15 |
-| ISP2-R2 G1/1/2 | HS-EDGE-R2 G1/1/2 | 15 |
+| ISP2-R1 G1/1/3 | HS-EDGE-R2 G1/1/1 | 10 |
+| ISP2-R2 G1/1/4 | HS-EDGE-R2 G1/1/2 | 10 |
 
 ---
 
