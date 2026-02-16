@@ -30,7 +30,7 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 | Device | Interface | IP Address | Subnet Mask | Network |
 |------|-----------|------------|-------------|---------|
 | ISP1-R1 | Po15 | 69.45.12.1 | 255.255.255.252 | 69.45.12.0/30 |
-| HS-CORE-FW1 | Po15 | 69.45.12.2 | 255.255.255.252 | 69.45.12.0/30 |
+| HS-EDGE-R1 | Po15 | 69.45.12.2 | 255.255.255.252 | 69.45.12.0/30 |
 
 --- 
 
