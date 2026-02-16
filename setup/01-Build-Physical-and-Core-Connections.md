@@ -24,7 +24,7 @@ The goal is to ensure all devices are **properly connected and ready for configu
 - Hostname: HS-EDGE-R1
 - Hostname: HS-EDGE-R2
 
-## 🔗 4. ISP to Hospital Edge Routers Connections
+## 🔗 4. ISP1 to Hospital Edge Routers Connections
 Connect the ISP router to the hospital edge routers.
 
 | ISP Router Interface | Edge Router Interface | Port Channel |
@@ -55,9 +55,6 @@ Connect the core firewalls to the hospital edge routers.
 | HS-CORE-FW1 G1/2 | HS-EDGE-R1 G1/1/4 | 1 |
 | HS-CORE-FW2 G1/1 | HS-EDGE-R2 G1/1/3 | 1 |
 | HS-CORE-FW2 G1/2 | HS-EDGE-R2 G1/1/4 | 1 |
-
-
-
 
 ## 🏛️ 8. Distribution Switch Connections
 
