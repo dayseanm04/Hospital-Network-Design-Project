@@ -14,3 +14,5 @@ In this task, I will configure ISP1-R1 to use the INET DNS Server for domain nam
 - Verify DNS configuration
 
 ---
+
+# 🔧 Configuration on ISP1-R1
