@@ -46,6 +46,9 @@ For each INET server:
 
 ## 🔍 Verification
 
+#### On INET-SW show hosts
+
+
 #### On INET-WEB-SRV ipconfig /all
 
 <img width="927" height="452" alt="WEB" src="https://github.com/user-attachments/assets/ac09e13f-b23d-47e9-bff1-adde2b2225cc" />
