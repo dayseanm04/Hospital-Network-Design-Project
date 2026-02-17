@@ -15,6 +15,7 @@ This ensures proper name resolution across INET.
 ## 🎯 Objective
 - Configure INET-SW to use the INET-DNS-SRV
 - Configure all INET servers to use INET-DNS-SRV
+- Configure domain name for INET-SW and ISP1-R1
 - Verify DNS configuration
 
 ---
@@ -22,6 +23,12 @@ This ensures proper name resolution across INET.
 ## 🔧 Configure DNS on INET-SW
 
 On INET-SW:
+
+Configure domain name:
+
+```bash
+ip domain-name inet.com
+```
 
 ```bash
 ip name-server 10.20.20.10
