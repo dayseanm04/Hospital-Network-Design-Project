@@ -15,3 +15,4 @@ This ensures proper name resolution across INET.
 
 ## 🎯 Objective
 - Configure INET-SW to use the INET-DNS-SRV
+- Configure all INET servers to use INET-DNS-SRV
