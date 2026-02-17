@@ -8,10 +8,15 @@ This task, I will configure static routes on **ISP1-R1** so it can reach the Hos
 
 <img width="391" height="299" alt="topology" src="https://github.com/user-attachments/assets/62090ef2-aa08-4f17-b0bf-7b54a2e56c3c" />
 
----
-
 ## 🎯 Objective
 - Configure static routes toward hospital NAT pools
 - Ensure return traffic from ISP1 reaches the correct edge router
 
 ---
+
+## 🔧 Configuration on ISP1-R1
+
+```bash
+ip route 100.100.100.0 255.255.255.252 69.45.12.2
+ip route 200.200.200.0 255.255.255.252 100.45.12.2
+```
