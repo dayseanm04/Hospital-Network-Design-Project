@@ -35,3 +35,6 @@ Note:
 
 ### ✔️ Verification
 
+#### show ip route on ISP1-R1
+
+<img width="833" height="433" alt="ISP1-R1" src="https://github.com/user-attachments/assets/7e0c8d25-cc4a-43a8-87cc-886c0b108d19" />
