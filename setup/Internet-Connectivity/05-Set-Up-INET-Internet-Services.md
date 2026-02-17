@@ -21,3 +21,5 @@ These services are will be used to test internet connectivity from the hospital 
 - Enable DNS service on INET server
 - Enable NTP service for time synchronization
 - Enable HTTP and HTTPS for web access
+- Prepare internet simulation environment
+
