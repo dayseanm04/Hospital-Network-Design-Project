@@ -34,3 +34,9 @@ On the INET Server:
 
 ### 📝 Purpose
 Allows hospital devices to synchronize time from an external source.
+
+---
+
+##  2️⃣ Enable DNS Service
+
+
