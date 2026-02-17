@@ -32,6 +32,8 @@ On the INET Server:
 - Turn **NTP Service ON**
 - Turn off every other service
 
+
+
 ### 📝 Purpose
 Allows hospital devices to synchronize time from an external source.
 
@@ -43,3 +45,4 @@ On the INET Server:
 - Navigate to **Services**
 - Select **DNS**
 - Turn **DNS Service ON**
+- Turn off every other service
