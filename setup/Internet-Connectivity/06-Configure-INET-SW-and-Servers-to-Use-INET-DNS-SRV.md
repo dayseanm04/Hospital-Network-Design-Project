@@ -47,3 +47,6 @@ For each INET server:
 
 <img width="910" height="471" alt="NTP" src="https://github.com/user-attachments/assets/abd122ed-1600-4877-a8fa-3f7cd4f77ee5" />
 
+#### On INET-DNS-SRV ipconfig /all
+
+<img width="896" height="434" alt="DNS" src="https://github.com/user-attachments/assets/98aae550-ef41-4370-a6cf-47fada4718cd" />
