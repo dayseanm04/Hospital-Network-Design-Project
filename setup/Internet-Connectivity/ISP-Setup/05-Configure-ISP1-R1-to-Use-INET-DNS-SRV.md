@@ -10,5 +10,7 @@ In this task, I will configure ISP1-R1 to use the INET DNS Server for domain nam
 
 ## 🎯 Objective
 - Configure ISP1-R1 to use the INET-DNS-SRV
+- Configure domain name for ISP1-R1
+- Verify DNS configuration
 
 ---
