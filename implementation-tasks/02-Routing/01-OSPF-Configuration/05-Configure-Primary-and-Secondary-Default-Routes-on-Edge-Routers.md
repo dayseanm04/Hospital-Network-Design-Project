@@ -1,4 +1,4 @@
-# 🌐 Configure Primary and Secondary Default Routes on Edge Routers
+# 🌐 Configure Default Routes on Hospital Edge Routers
 
 ## 📌 Overview
 In this task, I will configure **primary and secondary default routes** on the Hospital **Edge Routers** to  **ISP1**. 
