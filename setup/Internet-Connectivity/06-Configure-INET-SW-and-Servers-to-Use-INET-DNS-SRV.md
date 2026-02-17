@@ -12,3 +12,6 @@ DNS Server IP: 10.20.20.10
 This ensures proper name resolution across INET.
 
 ---
+
+## 🎯 Objective
+- Configure INET-SW to use the INET-DNS-SRV
