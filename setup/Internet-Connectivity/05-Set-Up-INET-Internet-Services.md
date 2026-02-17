@@ -32,7 +32,7 @@ On the INET Server:
 - Turn **NTP Service ON**
 - Turn off every other service
 
-
+<img width="812" height="487" alt="NTP" src="https://github.com/user-attachments/assets/91472d1e-9577-404f-be0f-72b6c623dd14" />
 
 ### 📝 Purpose
 Allows hospital devices to synchronize time from an external source.
