@@ -15,7 +15,7 @@ This ensures proper name resolution across INET.
 ## 🎯 Objective
 - Configure INET-SW to use the INET-DNS-SRV
 - Configure all INET servers to use INET-DNS-SRV
-- Configure domain name for INET-SW and ISP1-R1
+- Configure domain name for INET-SW
 - Verify DNS configuration
 
 ---
