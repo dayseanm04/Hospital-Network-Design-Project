@@ -26,3 +26,5 @@ On INET-SW:
 ```bash
 ip name-server 10.20.20.10
 ```
+
+📝 Purpose: Allows INET-SW to resolve domain names using the INET DNS Server.
