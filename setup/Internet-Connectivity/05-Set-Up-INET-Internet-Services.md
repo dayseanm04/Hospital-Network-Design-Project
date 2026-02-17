@@ -19,3 +19,4 @@ These services are will be used to test internet connectivity from the hospital 
 
 ## 🎯 Objectives
 - Enable DNS service on INET server
+- Enable NTP service for time synchronization
