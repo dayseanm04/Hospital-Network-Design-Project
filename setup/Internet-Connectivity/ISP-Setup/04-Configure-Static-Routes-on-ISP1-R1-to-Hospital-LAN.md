@@ -20,3 +20,10 @@ This task, I will configure static routes on **ISP1-R1** so it can reach the Hos
 ip route 100.100.100.0 255.255.255.252 69.45.12.2
 ip route 200.200.200.0 255.255.255.252 100.45.12.2
 ```
+
+#### Route Explanation
+
+| Destination Network | Purpose                     | Next Hop    |
+| ------------------- | --------------------------- | ----------- |
+| 100.100.100.0/30    | NAT Pool used by HS-EDGE-R1 | 69.45.12.2  |
+| 200.200.200.0/30    | NAT Pool used by HS-EDGE-R2 | 100.45.12.2 |
