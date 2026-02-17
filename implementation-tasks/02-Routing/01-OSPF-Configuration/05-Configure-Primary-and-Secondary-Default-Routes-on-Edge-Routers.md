@@ -3,7 +3,6 @@
 ## 📌 Overview
 In this task, I will configure **primary and secondary default routes** on the Hospital **Edge Routers** to  **ISP1**. 
 
-I will configure **ISP1** as the **primary path** and **ISP2** as a **backup path** using administrative distance. I will then  **advertised the default routes into the OSPF domain** so internal devices can reach external networks.
 
 ## Reference Topology
 
@@ -12,8 +11,7 @@ I will configure **ISP1** as the **primary path** and **ISP2** as a **backup pat
 ---
 
 ## 🎯 Objective
-- Configure a **primary default route** via ISP1
-- Configure a **secondary default route** via ISP2 using a higher metric
+- Configure a **default route** via ISP1
 - Advertise the default routes into the OSPF domain
 - Verify default route propagation to access switches
 
