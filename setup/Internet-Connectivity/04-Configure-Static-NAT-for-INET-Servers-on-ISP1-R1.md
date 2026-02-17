@@ -73,6 +73,12 @@ ip nat inside source static 10.20.20.11 200.10.0.4
 ip nat inside source static 10.20.20.12 200.10.0.6
 ```
 
+➡️ Maps INET WEB-SRV to the public IP.
+
+```bash
+ip nat inside source static 10.20.20.200 200.10.0.8
+```
+
 ➡️ Maps INET NTP-SRV to the public IP.
 
 ## 🗂️ Static NAT Mapping Summary
