@@ -64,9 +64,3 @@ On the INET Server:
 
 ### 📝 Purpose
 Simulates public web servers for browser testing.
-
----
-
-# 🔍 Verification from INET-PC1
-
-
