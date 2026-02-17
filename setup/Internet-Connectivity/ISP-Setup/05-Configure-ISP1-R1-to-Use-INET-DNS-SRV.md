@@ -27,3 +27,11 @@ Configure DNS name:
 ```bash
 ip name-server 10.20.20.10
 ```
+
+## 🔍 Verification
+
+#### On ISP1-R1 show hosts
+
+<img width="741" height="226" alt="ISP1" src="https://github.com/user-attachments/assets/469bf88d-50a5-493e-b566-3ecad9ac4039" />
+
+
