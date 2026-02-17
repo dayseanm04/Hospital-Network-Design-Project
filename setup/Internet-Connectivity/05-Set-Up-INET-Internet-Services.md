@@ -54,5 +54,8 @@ Resolves domain names to IP addresses for internet simulation.
 ## 3️⃣ Enable Web Services
 
 On the INET Server:
-
+- Navigate to **Services**
+- Select **HTTP**
+- Turn **HTTP ON**
+- Turn **HTTPS ON**
 
