@@ -1,7 +1,8 @@
 # 🌐 Configure Static Routes on ISP1-R1 to Hospital LAN
 
 ## 📌 Overview
-This task, I will configure static routes on **ISP1-R1** so it can reach the Hospital LAN
+This task, I will configure static routes on **ISP1-R1** so it can reach the Hospital LAN. These routes allow ISP1 to properly return traffic to the hospital after NAT translation.
+
 
 ## Reference Topology
 
