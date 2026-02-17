@@ -7,6 +7,8 @@ The will enable the following services:
 
 - DNS
 - NTP
+- HTTP and HTTPS
+
 
 ## Reference Topology
 
