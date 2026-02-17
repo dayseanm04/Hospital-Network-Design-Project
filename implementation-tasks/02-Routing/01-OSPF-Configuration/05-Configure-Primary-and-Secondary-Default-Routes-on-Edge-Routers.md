@@ -6,7 +6,7 @@ In this task, I will configure **primary and secondary default routes** on the H
 
 ## Reference Topology
 
-<img width="1250" height="622" alt="toplogy" src="https://github.com/user-attachments/assets/4782bc94-0409-4950-85dd-3edb90d04536" />
+<img width="933" height="460" alt="topology" src="https://github.com/user-attachments/assets/a3a2c318-6865-4c91-ac04-a58b81550f9a" />
 
 ---
 
