@@ -16,3 +16,15 @@ In this task, I will configure ISP1-R1 to use the INET DNS Server for domain nam
 ---
 
 # 🔧 Configuration on ISP1-R1
+
+On ISP1-R1, Configure domain name:
+
+```bash
+ip domain-name ISP1.com
+```
+
+Configure DNS name:
+
+```bash
+ip name-server 10.20.20.10
+```
