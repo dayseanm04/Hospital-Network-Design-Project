@@ -23,3 +23,12 @@ These services are will be used to test internet connectivity from the hospital 
 - Enable HTTP and HTTPS for web access
 - Prepare internet simulation environment
 
+---
+
+# 🧱 INET Server Services Setup
+
+## 🔷 1️⃣ Enable NTP Service
+
+
+
+
