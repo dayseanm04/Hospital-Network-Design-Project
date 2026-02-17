@@ -9,6 +9,7 @@ The will enable the following services:
 - NTP
 - HTTP and HTTPS
 
+These services are will be used to test internet connectivity from the hospital LAN.
 
 ## Reference Topology
 
