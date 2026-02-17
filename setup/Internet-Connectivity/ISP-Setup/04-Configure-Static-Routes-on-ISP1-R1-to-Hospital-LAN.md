@@ -33,4 +33,5 @@ Note:
 - I used static route to demonstrate the Hospital LAN can reach the internet. (CCNA level)
 - MPLS or BGP is not implemented in this project
 
+### ✔️ Verification
 
