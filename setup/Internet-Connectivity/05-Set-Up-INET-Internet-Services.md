@@ -51,6 +51,8 @@ On the INET Server:
 ### 📝 Purpose
 Resolves domain names to IP addresses for internet simulation.
 
+## 3️⃣ Enable Web Services
 
+On the INET Server:
 
 
