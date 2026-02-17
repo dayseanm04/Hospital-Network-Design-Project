@@ -46,3 +46,11 @@ On the INET Server:
 - Select **DNS**
 - Turn **DNS Service ON**
 - Turn off every other service
+
+<img width="786" height="446" alt="DNS-SRV" src="https://github.com/user-attachments/assets/a2e4a867-0d6c-48d6-990f-b5e5e6f80213" />
+
+
+
+
+
+
