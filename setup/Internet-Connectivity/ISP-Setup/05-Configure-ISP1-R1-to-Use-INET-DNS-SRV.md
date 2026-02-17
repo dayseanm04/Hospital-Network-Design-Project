@@ -1,5 +1,8 @@
-# 📄 Configure-ISP1-R1-to-Use-INET-DNS-SRV.md
+# 🌍 Configure ISP1-R1 to Use INET-DNS-SRV
 
+## 📌 Overview
+
+In this task, I will configure ISP1-R1 to use the INET DNS Server for domain name resolution. DNS Server IP: 10.20.20.10
 
 ## Reference Topology
 
