@@ -62,6 +62,7 @@ On the INET Server:
 
 <img width="907" height="445" alt="WEB-SRV" src="https://github.com/user-attachments/assets/20355537-aca4-4aa6-b84b-86808d1f13f0" />
 
-
+### 📝 Purpose
+Simulates public web servers for browser testing.
 
 
