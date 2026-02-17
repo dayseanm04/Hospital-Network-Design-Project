@@ -37,7 +37,6 @@ On the INET Server:
 ### 📝 Purpose
 Allows hospital devices to synchronize time from an external source.
 
----
 
 ##  2️⃣ Enable DNS Service
 
@@ -49,7 +48,8 @@ On the INET Server:
 
 <img width="786" height="446" alt="DNS-SRV" src="https://github.com/user-attachments/assets/a2e4a867-0d6c-48d6-990f-b5e5e6f80213" />
 
-
+### 📝 Purpose
+Resolves domain names to IP addresses for internet simulation.
 
 
 
