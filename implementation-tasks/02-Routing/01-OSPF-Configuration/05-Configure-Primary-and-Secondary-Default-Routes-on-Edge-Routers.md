@@ -19,16 +19,16 @@ In this task, I will configure **default routes** on the Hospital **Edge Routers
 
 ## 🖧 Edge Router Default Route Configuration
 
-### 🔵 HS-EDGE-R1 (ISP1 PortChannel 15)
+### 🔵 HS-EDGE-R1 (To ISP1 PortChannel 15)
 
 ```bash
-ip route 0.0.0.0 0.0.0.0 69.45.12.1 1
+ip route 0.0.0.0 0.0.0.0 69.45.12.1
 ```
 
-### 🔵 HS-EDGE-R2 (ISP1 PortChannel 10)
+### 🔵 HS-EDGE-R2 (To ISP1 PortChannel 10)
 
 ```bash
-ip route 0.0.0.0 0.0.0.0 100.45.12.1 50
+ip route 0.0.0.0 0.0.0.0 100.45.12.1
 ```
 
 ## 🔁 Advertise Default Route into OSPF
