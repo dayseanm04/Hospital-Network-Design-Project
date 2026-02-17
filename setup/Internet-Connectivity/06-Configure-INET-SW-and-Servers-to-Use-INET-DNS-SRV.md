@@ -36,3 +36,7 @@ For each INET server:
 - Click on the server
 - Go to Config
 - Enter the following under DNS Server: **`10.20.20.10`**
+
+## 🔍 Verification
+
+
