@@ -25,13 +25,11 @@ In this task, I will configure **primary and secondary default routes** on the H
 ip route 0.0.0.0 0.0.0.0 69.45.12.1 1
 ```
 
-### 🔵 HS-EDGE-R2 (Secondary ISP)
+### 🔵 HS-EDGE-R2 (ISP1 PortChannel 10)
 
 ```bash
 ip route 0.0.0.0 0.0.0.0 100.45.12.1 50
 ```
-
-Note: A higher administrative distance ensures ISP2 is only used if the primary route becomes unavailable.
 
 ## 🔁 Advertise Default Route into OSPF
 
