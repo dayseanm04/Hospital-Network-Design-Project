@@ -20,3 +20,9 @@ This ensures proper name resolution across INET.
 ---
 
 # 🔧 Configure DNS on INET-SW
+
+On INET-SW:
+
+```bash
+ip name-server 10.20.20.10
+```
