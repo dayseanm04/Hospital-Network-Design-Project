@@ -11,7 +11,7 @@ In this task, I will configure **default routes** on the Hospital **Edge Routers
 ---
 
 ## 🎯 Objective
-- Configure a **default route** via ISP1
+- Configure a **default route** pointing towards ISP1-R1
 - Advertise the default routes into the OSPF domain
 - Verify default route propagation to access switches
 
