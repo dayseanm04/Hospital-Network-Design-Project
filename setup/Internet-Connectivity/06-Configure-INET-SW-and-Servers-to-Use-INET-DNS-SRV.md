@@ -19,7 +19,7 @@ This ensures proper name resolution across INET.
 
 ---
 
-# 🔧 Configure DNS on INET-SW
+## 🔧 Configure DNS on INET-SW
 
 On INET-SW:
 
@@ -28,3 +28,6 @@ ip name-server 10.20.20.10
 ```
 
 📝 Purpose: Allows INET-SW to resolve domain names using the INET DNS Server.
+
+## 🖥 Configure DNS on INET Servers
+
