@@ -39,4 +39,8 @@ For each INET server:
 
 ## 🔍 Verification
 
+#### On INET-WEB-SRV ipconfig /all
+
+
+
 
