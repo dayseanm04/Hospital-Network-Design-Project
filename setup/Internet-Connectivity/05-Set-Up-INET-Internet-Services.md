@@ -6,6 +6,7 @@ This task, I will setup the **INET servers** to simulate public internet service
 The will enable the following services:
 
 - DNS
+- NTP
 
 ## Reference Topology
 
