@@ -39,4 +39,7 @@ Allows hospital devices to synchronize time from an external source.
 
 ##  2️⃣ Enable DNS Service
 
-
+On the INET Server:
+- Navigate to **Services**
+- Select **DNS**
+- Turn **DNS Service ON**
