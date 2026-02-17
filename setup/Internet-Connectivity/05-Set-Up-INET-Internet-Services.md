@@ -58,4 +58,5 @@ On the INET Server:
 - Select **HTTP**
 - Turn **HTTP ON**
 - Turn **HTTPS ON**
+- Turn off every other service
 
