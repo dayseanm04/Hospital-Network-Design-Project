@@ -14,3 +14,8 @@ The will enable the following services:
 - HTTP and HTTPS
 
 These services are will be used to test internet connectivity from the hospital LAN.
+
+---
+
+## 🎯 Objectives
+- Enable DNS service on INET server
