@@ -28,4 +28,9 @@ ip route 200.200.200.0 255.255.255.252 100.45.12.2
 | 100.100.100.0/30    | NAT Pool used by HS-EDGE-R1 | 69.45.12.2  |
 | 200.200.200.0/30    | NAT Pool used by HS-EDGE-R2 | 100.45.12.2 |
 
-Note: 100.100.100.0/30 and 200.200.200.0/30 are public IP ranges used for NAT translations
+Note: 
+- 100.100.100.0/30 and 200.200.200.0/30 are public IP ranges used for NAT translations
+- I used static route to demonstrate the Hospital LAN can reach the internet. (CCNA level)
+- MPLS or BGP is not implemented in this project
+
+
