@@ -19,7 +19,7 @@ In this task, I will configure **primary and secondary default routes** on the H
 
 ## 🖧 Edge Router Default Route Configuration
 
-### 🔵 HS-EDGE-R1 (Primary ISP)
+### 🔵 HS-EDGE-R1 (ISP1 PortChannel 15)
 
 ```bash
 ip route 0.0.0.0 0.0.0.0 69.45.12.1 1
