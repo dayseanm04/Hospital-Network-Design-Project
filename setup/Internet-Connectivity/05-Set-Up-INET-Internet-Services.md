@@ -24,7 +24,7 @@ These services are will be used to test internet connectivity from the hospital 
 
 # 🧱 INET Server Services Setup
 
-## 🔷 1️⃣ Enable NTP Service
+## 1️⃣ Enable NTP Service
 
 On the INET Server:
 - Navigate to **Services**
