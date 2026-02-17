@@ -15,7 +15,6 @@ The will enable the following services:
 
 These services are will be used to test internet connectivity from the hospital LAN.
 
----
 
 ## 🎯 Objectives
 - Enable DNS service on INET server
@@ -23,12 +22,14 @@ These services are will be used to test internet connectivity from the hospital 
 - Enable HTTP and HTTPS for web access
 - Prepare internet simulation environment
 
----
-
 # 🧱 INET Server Services Setup
 
 ## 🔷 1️⃣ Enable NTP Service
 
-
+On the INET Server:
+- Navigate to **Services**
+- Select **NTP**
+- Turn **NTP Service ON**
+- Turn off every other service
 
 
