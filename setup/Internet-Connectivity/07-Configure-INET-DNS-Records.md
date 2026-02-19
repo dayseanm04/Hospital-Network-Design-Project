@@ -14,3 +14,15 @@ This allows internal users (through ISP1) to access Internet services using **do
 - ✅ Create DNS A records
 - ✅ Map domain names to public IP addresses
 
+---
+
+## 🖥️ DNS Server Information
+
+| Item | Value |
+|---|---|
+| Server Name | DNS-SRV |
+| IP Address | 10.20.20.10 |
+| Default Gateway | 10.20.20.1 |
+| Service Enabled | DNS |
+
+---
