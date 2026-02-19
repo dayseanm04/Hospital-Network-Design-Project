@@ -40,4 +40,5 @@ This allows internal users (through ISP1) to access Internet services using **do
 | Domain Name | Record Type | Public IP |
 |---|---|---|
 | google.com | A |70.70.70.10 |
+| youtube.com | A |70.70.70.20 |
 
