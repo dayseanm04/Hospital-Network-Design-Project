@@ -26,3 +26,14 @@ This allows internal users (through ISP1) to access Internet services using **do
 | Service Enabled | DNS |
 
 ---
+
+## ⚙️ Configuration Steps (On DNS-SRV)
+
+### 1️⃣ Configure DNS A Record
+
+1. Open **DNS-SRV**
+2. Navigate to **Services → DNS**
+3. Configure a new DNS records:
+
+
+
