@@ -35,5 +35,9 @@ This allows internal users (through ISP1) to access Internet services using **do
 2. Navigate to **Services → DNS**
 3. Configure a new DNS records:
 
+## 📋 DNS Record Summary
 
+| Domain Name | Record Type | Public IP |
+|---|---|---|
+| google.com | A |70.70.70.10 |
 
