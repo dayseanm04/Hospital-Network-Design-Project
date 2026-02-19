@@ -49,3 +49,6 @@ This allows internal users (through ISP1) to access Internet services using **do
 
 <img width="812" height="420" alt="1" src="https://github.com/user-attachments/assets/e9ceaadb-5dc0-4080-a513-c45667ffd4ce" />
 
+#### nslookup google.com  and youtbe from INET-PC1
+
+<img width="800" height="504" alt="1" src="https://github.com/user-attachments/assets/617d52d1-f10e-4ba6-97b2-948aa8432226" />
