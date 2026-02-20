@@ -52,3 +52,20 @@ ip access-list standard Translate-NAT
 7 deny host 172.16.3.30
 8 deny host 172.16.3.140
 ```
+
+### 🔍 Verification
+
+On HS-EDGE-R1 show ip access-list Translate-NAT
+
+
+
+
+
+
+
+
+
+
+
+
+
