@@ -41,16 +41,6 @@ On each endpoint:
 
 <img width="731" height="438" alt="2" src="https://github.com/user-attachments/assets/248619af-1f5c-4014-879c-a0f21861e296" />
 
+### On Rad-1 nslookup google.com and nslookup youtube.com
 
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="734" height="440" alt="3" src="https://github.com/user-attachments/assets/2e71b593-ed5b-4795-b6e8-0767d2c8e301" />
