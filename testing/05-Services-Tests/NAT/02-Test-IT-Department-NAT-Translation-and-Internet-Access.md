@@ -52,4 +52,4 @@ show ip nat translations
 
 <img width="781" height="136" alt="1" src="https://github.com/user-attachments/assets/5b708228-c65c-4c23-bbe9-00d458cc6867" />
 
-
+NAT is working for the IT-DPT
