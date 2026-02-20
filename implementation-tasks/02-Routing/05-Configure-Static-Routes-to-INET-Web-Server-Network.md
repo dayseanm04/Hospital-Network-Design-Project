@@ -43,3 +43,4 @@ ping INET WS1 and  2 from HS-EDGE-R1:
 
 <img width="916" height="314" alt="1 (2)" src="https://github.com/user-attachments/assets/f6594624-31de-4b9a-a0cb-8ef59e09f86f" />
 
+The hospital LAN can now successfully reach the INET Web Server network (70.70.70.0/24) using static routing through both edge routers, supporting redundancy and Internet access simulation.
