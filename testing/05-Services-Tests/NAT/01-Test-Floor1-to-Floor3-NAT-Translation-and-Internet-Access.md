@@ -58,7 +58,4 @@ show ip nat translations
 
 <img width="804" height="222" alt="1" src="https://github.com/user-attachments/assets/a7a92b79-03d2-41da-af13-ef701040a467" />
 
-
-
-
-
+NAT is working for Floor 1 - 3
