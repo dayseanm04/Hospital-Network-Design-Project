@@ -67,8 +67,11 @@ I configured the deny entries before the permit entries because if traffic leavi
 
 On HS-EDGE-R1 show ip access-list Translate-NAT
 
+<img width="665" height="286" alt="1" src="https://github.com/user-attachments/assets/bd4616e9-cf45-48ad-9785-69537004d02b" />
 
+On HS-EDGE-R2 show ip access-list Translate-NAT
 
+<img width="666" height="306" alt="2" src="https://github.com/user-attachments/assets/a4bc0ff4-8c60-4452-b643-85274199aa86" />
 
 
 
