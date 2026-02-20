@@ -6,4 +6,5 @@ This test verifies that IT Department endpoints can successfully access external
 
 The objective is to validate:
 
--  DNS resolution
+- Hosptial LAN can reach the internet
+- DNS resolution
