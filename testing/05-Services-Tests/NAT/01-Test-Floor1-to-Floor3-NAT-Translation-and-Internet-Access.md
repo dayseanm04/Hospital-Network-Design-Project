@@ -37,6 +37,18 @@ From each endpoint (ED-1, MRD-1, Rad-1):
 ### On ED-1 ping 69.45.12.1 and ping 100.45.12.1
 
 <img width="857" height="615" alt="2" src="https://github.com/user-attachments/assets/ec889185-fe03-4c80-a20f-5dd06272fe95" />
-<img width="857" height="615" alt="2" src="https://github.com/user-attachments/assets/ec889185-fe03-4c80-a20f-5dd06272fe95" />
+
+### On MRD-1 ping 69.45.12.1 and ping 100.45.12.1
+
+<img width="733" height="612" alt="3" src="https://github.com/user-attachments/assets/a995a6b1-1487-4dac-9c85-654172c22524" />
+
+
+
+
+
+
+
+
+
 
 
