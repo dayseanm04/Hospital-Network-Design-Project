@@ -35,9 +35,20 @@ PAT allows multiple internal hosts to share a limited number of public IP addres
 
 ---
 
-### Configuration Steps for HS-EDGE-R1  HS-EDGE-R2  
+### Configuration Steps for HS-EDGE-R1 and HS-EDGE-R2  
+
+In Global Config mode:
+
+### Configure Host-Level Deny Entries
 
 ```bash
-conf t
 ip access-list standard Translate-NAT
+1 deny host 172.16.1.31
+2 deny host 172.16.1.80
+3 deny host 172.16.1.120
+4 deny host 172.16.2.20
+5 deny host 172.16.2.50
+6 deny host 172.16.2.80
+7 deny host 172.16.3.30
+8 deny host 172.16.3.140
 ```
