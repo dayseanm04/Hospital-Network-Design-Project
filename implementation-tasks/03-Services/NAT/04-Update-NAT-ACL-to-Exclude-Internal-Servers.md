@@ -41,3 +41,8 @@ On HS-EDGE-R1 show ip access-list Translate-NAT
 
 <img width="659" height="350" alt="1" src="https://github.com/user-attachments/assets/3bece482-7690-41e6-8f89-f4e2882671c4" />
 
+On HS-EDGE-R2 show ip access-list Translate-NAT
+
+<img width="661" height="359" alt="2" src="https://github.com/user-attachments/assets/8b23d4e8-6d5a-4b46-aa19-8fbd5b3cb8ae" />
+
+
