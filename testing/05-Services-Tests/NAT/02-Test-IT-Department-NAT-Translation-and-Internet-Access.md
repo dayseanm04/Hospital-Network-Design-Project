@@ -42,7 +42,11 @@ From IT-PC1 and IT-PC2, run:
 
 <img width="797" height="606" alt="2" src="https://github.com/user-attachments/assets/cdd54914-87ad-4cca-ab2c-beb2d26e7189" />
 
+###  Step 2 - Verify NAT Translations
 
+On the edge router (HS-EDGE-R2), run:
 
-
+```bash
+show ip nat translations
+```
 
