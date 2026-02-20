@@ -95,10 +95,9 @@ write memory
 | Subnet Mask | **255.255.255.192** (/26)  |
 | Default Gateway | **10.50.50.1** |
 
+DNS Server: 200.10.0.2
+
 ---
 
 ### ✅ Click here for the connectivity tests [Click here for the connectivity tests](/testing/04-Connectivity-Tests/06-Test-IT-DPT-Connectivity.md)
-
-
-
 
