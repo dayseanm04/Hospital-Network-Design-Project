@@ -31,5 +31,9 @@ I am using **static routing** to demonstrate external network reachability.
 ip route 70.70.70.0 255.255.255.0 69.45.12.1
 ```
 
+###  On HS-EDGE-R1
 
+```bash
+ip route 70.70.70.0 255.255.255.0 100.45.12.1
+```
 
