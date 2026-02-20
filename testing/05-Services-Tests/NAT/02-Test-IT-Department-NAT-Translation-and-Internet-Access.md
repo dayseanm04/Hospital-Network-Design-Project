@@ -25,3 +25,13 @@ The objective is to confirm:
 |---------|------------|------|------------|------------------|
 | IT-PC1 | IT | IT DPT | 10.50.50.2 | Static |
 | IT-PC2 | IT | IT DPT | 10.50.50.3 | Static |
+
+---
+
+## 🧪 Test Procedure
+
+###  Step 1 - Verify External Networks Reachability
+
+From IT-PC1 and IT-PC2, run:
+
+
