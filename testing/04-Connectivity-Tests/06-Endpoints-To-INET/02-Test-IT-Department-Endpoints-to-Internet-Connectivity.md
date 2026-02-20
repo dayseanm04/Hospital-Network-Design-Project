@@ -1,6 +1,6 @@
 # 🌐 02 – Test IT Department Endpoints to Internet Connectivity
 
-## 📌 Overview
+## Overview
 
 This test verifies that IT Department endpoints can successfully access external internet resources.
 
@@ -18,7 +18,7 @@ The IT-DPT endpoints use **static IP addressing**, unlike other departments that
 
 ---
 
-## 🖥️ Endpoints Tested
+## Endpoints Tested
 
 | Device | Department | VLAN | IP Address | Addressing Method |
 |--------|------------|------|------------|------------------|
@@ -27,7 +27,7 @@ The IT-DPT endpoints use **static IP addressing**, unlike other departments that
 
 ---
 
-## 🧪 Test Procedure
+## Test Procedure
 
 On each IT PC:
 
