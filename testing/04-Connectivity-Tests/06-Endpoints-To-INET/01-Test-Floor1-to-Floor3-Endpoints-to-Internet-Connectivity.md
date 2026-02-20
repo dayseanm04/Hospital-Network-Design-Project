@@ -36,14 +36,16 @@ On each endpoint:
 1. Open **Command Prompt**
 2. Run the following commands:
 
-On ED1 ping google.com and ping youtube.com
+#### On ED-1 ping google.com and ping youtube.com
 
 <img width="877" height="425" alt="1" src="https://github.com/user-attachments/assets/cf739d50-5454-4c33-babf-abe93de075a7" />
 
 <img width="873" height="424" alt="2" src="https://github.com/user-attachments/assets/7ba1fb95-dfad-491f-b0a3-415bd073c3e6" />
 
 
+#### On MRD-1 ping google.com and ping youtube.com
 
+<img width="731" height="364" alt="3" src="https://github.com/user-attachments/assets/cf260ba6-15f7-4faa-ae09-3b0377df0ceb" />
 
 
 
