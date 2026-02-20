@@ -22,15 +22,16 @@ PAT allows multiple internal hosts to share a limited number of public IP addres
 
 ```bash
 ip access-list standard Translate-NAT
- 1 permit 172.16.1.0 0.0.0.255
- 2 permit 172.16.2.0 0.0.0.255
- 3 permit 172.16.3.0 0.0.0.255
- 4 permit 10.50.50.0 0.0.0.63
- 5 deny any
+ 10 permit 172.16.1.0 0.0.0.255
+ 20 permit 172.16.2.0 0.0.0.255
+ 30 permit 172.16.3.0 0.0.0.255
+ 40 permit 10.50.50.0 0.0.0.63
+ 50 deny any
 ```
 
-Note: This translates Floor1 - 3 and the IT Department. It dosent translate the IP for the internal servers in the Server VLAN (10.10.10.0/27)
+Note: This translates Floor1 - 3 and the IT Department. It dosent translate the IP for the internal servers in the Server VLAN (10.10.10.0/27).
 
+Also note that I made the sequence number increase by 10 so that I can insert new ACL entries when necessary.
 ## 🔧 Step 2 – Configure NAT Interfaces
 
 In Global Config mode:
