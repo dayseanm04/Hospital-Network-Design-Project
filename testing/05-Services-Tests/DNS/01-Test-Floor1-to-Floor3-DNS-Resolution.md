@@ -33,4 +33,22 @@ On each endpoint:
 1. Open **Command Prompt**
 2. Run the following commands:
 
+### On ED-1 nslookup google.com and nslookup youtube.com
+
+<img width="730" height="438" alt="1" src="https://github.com/user-attachments/assets/c093038c-b19b-4243-ae67-fcb4eea6bcdc" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
