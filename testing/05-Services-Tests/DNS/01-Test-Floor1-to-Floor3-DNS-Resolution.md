@@ -1,6 +1,6 @@
 # 🌐 01 – Test Floor1 to Floor3 DNS Resolution
 
-## 📌 Overview
+##  Overview
 
 This test validates DNS service functionality for user endpoints on Floor 1, Floor 2, and Floor 3.
 
@@ -15,3 +15,12 @@ The objective is to confirm:
 
 ---
 
+## Endpoints Tested
+
+| Floor | Department | VLAN | Subnet | Test PC | IP Address | Addressing Method |
+|-------|------------|------|--------|---------|------------|------------------|
+| 1 | Emergency | 101 | 172.16.1.0/26 | ED-1 | 172.16.1.4 | DHCP |
+| 2 | Medical Records | 200 | 172.16.2.0/27 | MRD-1 | 172.16.2.4 | DHCP |
+| 3 | Radiology | 330 | 172.16.3.128/26 | Rad-1 | 172.16.3.133 | DHCP |
+
+---
