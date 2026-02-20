@@ -53,7 +53,12 @@ interface range g1/0/23-24
  switchport access vlan 222
 ```
 
+###  Configure SVI for VLAN 222
 
+```bash
+interface vlan 222
+ ip address 70.70.70.1 255.255.255.0
+```
 
 
 
