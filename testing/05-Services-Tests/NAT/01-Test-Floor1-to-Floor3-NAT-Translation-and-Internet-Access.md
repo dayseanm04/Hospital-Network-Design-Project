@@ -50,6 +50,11 @@ These IPs is ISP1-R1 interface.
 
 ###  Step 2 - Verify NAT Translations
 
+On the edge router (HS-EDGE-R1):
+
+```bash
+show ip nat translations
+```
 
 
 
