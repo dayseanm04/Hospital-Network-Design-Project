@@ -42,7 +42,9 @@ From each endpoint (ED-1, MRD-1, Rad-1):
 
 <img width="733" height="612" alt="3" src="https://github.com/user-attachments/assets/a995a6b1-1487-4dac-9c85-654172c22524" />
 
+### On Rad-1 ping 69.45.12.1 and ping 100.45.12.1
 
+<img width="728" height="611" alt="4" src="https://github.com/user-attachments/assets/af80466d-b7ad-4d05-b321-b9a0066540f8" />
 
 
 
