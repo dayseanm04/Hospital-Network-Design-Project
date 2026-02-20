@@ -17,3 +17,14 @@ In this task I will exclude the internal server VLAN hosts from NAT translation.
 | DHCP-SRV | 10.10.10.2 | DHCP Services |
 | NTP-SRV | 10.10.10.3 | Time Synchronization |
 | SYSLOG-SRV | 10.10.10.4 | Log Collection |
+
+These infrastructure servers must NOT be translated by NAT.
+
+---
+
+### Configuration Steps for HS-EDGE-R1 and HS-EDGE-R2  
+
+Enter global configuration mode:
+
+
+
