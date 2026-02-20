@@ -25,14 +25,16 @@ DNS Server: 200.10.0.2
 2. Navigate to:
    Services → DHCP
 
----
 
-### 🔹 Step 2 – Update Each DHCP Pool
+###  Step 2 – Update Each DHCP Pool
 
 For **each existing DHCP pool**, configure:
 DNS Server: 200.10.0.2
 Then click **Save**.
 Repeat this for all department pools.
 
----
+### Verify
+
+<img width="740" height="379" alt="11" src="https://github.com/user-attachments/assets/67f759a4-9aae-4013-8950-fc9bb1820f6e" />
+
 
