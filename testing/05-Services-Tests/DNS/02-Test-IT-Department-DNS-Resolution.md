@@ -12,3 +12,13 @@ This test ensures that DNS resolution functions correctly for statically configu
 <img width="784" height="639" alt="topology" src="https://github.com/user-attachments/assets/5e8733fb-7ee1-4ac0-b0b5-9877d5e5b8fc" />
 
 ---
+
+The objective is to confirm:
+
+- Proper DNS server configuration on static endpoints
+- Successful domain name resolution
+- DNS server reachability
+
+
+
+ 
