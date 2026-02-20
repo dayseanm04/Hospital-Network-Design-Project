@@ -38,7 +38,9 @@ From IT-PC1 and IT-PC2, run:
 
 <img width="817" height="655" alt="1" src="https://github.com/user-attachments/assets/3d840e5d-e304-4600-83d4-af08c88edca3" />
 
+### On IT-PC2 ping 69.45.12.1 and ping 100.45.12.1
 
+<img width="797" height="606" alt="2" src="https://github.com/user-attachments/assets/cdd54914-87ad-4cca-ab2c-beb2d26e7189" />
 
 
 
