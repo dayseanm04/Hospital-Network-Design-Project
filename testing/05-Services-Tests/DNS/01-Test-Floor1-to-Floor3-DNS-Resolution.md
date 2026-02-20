@@ -37,7 +37,9 @@ On each endpoint:
 
 <img width="730" height="438" alt="1" src="https://github.com/user-attachments/assets/c093038c-b19b-4243-ae67-fcb4eea6bcdc" />
 
+### On MRD-1 nslookup google.com and nslookup youtube.com
 
+<img width="731" height="438" alt="2" src="https://github.com/user-attachments/assets/248619af-1f5c-4014-879c-a0f21861e296" />
 
 
 
