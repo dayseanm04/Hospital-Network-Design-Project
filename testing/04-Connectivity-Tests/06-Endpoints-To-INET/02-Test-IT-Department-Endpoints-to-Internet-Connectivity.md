@@ -25,4 +25,12 @@ The IT-DPT endpoints use **static IP addressing**, unlike other departments that
 | IT-PC1 | IT | IT VLAN | 10.50.50.2 | Static |
 | IT-PC2 | IT | IT VLAN | 10.50.50.3 | Static |
 
+---
+
+## 🧪 Test Procedure
+
+On each IT PC:
+
+1. Open **Command Prompt**
+2. Run the following commands:
 
