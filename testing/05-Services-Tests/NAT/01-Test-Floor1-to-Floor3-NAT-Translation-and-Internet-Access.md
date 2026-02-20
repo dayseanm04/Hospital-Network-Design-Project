@@ -46,7 +46,9 @@ From each endpoint (ED-1, MRD-1, Rad-1):
 
 <img width="728" height="611" alt="4" src="https://github.com/user-attachments/assets/af80466d-b7ad-4d05-b321-b9a0066540f8" />
 
+These IPs is ISP1-R1 interface.
 
+###  Step 2 - Verify NAT Translations
 
 
 
