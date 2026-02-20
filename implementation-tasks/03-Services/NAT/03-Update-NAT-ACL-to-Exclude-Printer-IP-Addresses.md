@@ -53,6 +53,9 @@ ip access-list standard Translate-NAT
 8 deny host 172.16.3.140
 ```
 
+Note: when I first configured the ACL for NAT I used a secquence number that increases by 10. This allows me to later on insert more ACL entries when necessary.
+
+
 ### 🔍 Verification
 
 On HS-EDGE-R1 show ip access-list Translate-NAT
