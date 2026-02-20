@@ -35,5 +35,6 @@ On each IT PCs:
 1. Open **Command Prompt**
 2. Run the following commands:
 
+### On IT-PC2 nslookup google.com and nslookup youtube.com
 
 
