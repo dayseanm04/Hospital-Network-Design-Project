@@ -16,3 +16,13 @@ All department DHCP pools must be updated to use:
 DNS Server: 200.10.0.2
 
 ---
+
+## 🖥️ Configuration Steps (Packet Tracer – GUI)
+
+### Step 1 – Access the DHCP Server
+
+1. Click on **DHCP-SRV**
+2. Navigate to:
+   Services → DHCP
+
+---
