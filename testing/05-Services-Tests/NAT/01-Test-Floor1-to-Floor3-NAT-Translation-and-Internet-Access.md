@@ -56,6 +56,7 @@ On the edge router (HS-EDGE-R1):
 show ip nat translations
 ```
 
+<img width="804" height="222" alt="1" src="https://github.com/user-attachments/assets/a7a92b79-03d2-41da-af13-ef701040a467" />
 
 
 
