@@ -34,3 +34,13 @@ On each IT PC:
 1. Open **Command Prompt**
 2. Run the following commands:
 
+### On IT-PC1 ping google.com and ping youtube.com
+
+<img width="913" height="661" alt="1" src="https://github.com/user-attachments/assets/a9413385-787b-40cb-b03b-bed420c290ca" />
+
+
+
+
+
+
+
