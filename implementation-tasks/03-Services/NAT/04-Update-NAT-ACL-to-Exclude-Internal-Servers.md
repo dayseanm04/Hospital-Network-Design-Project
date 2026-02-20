@@ -26,5 +26,13 @@ These infrastructure servers must NOT be translated by NAT.
 
 Enter global configuration mode:
 
+### Add Server Deny Entries
+
+```bash
+ip access-list standard Translate-NAT
+41 deny host 10.10.10.2
+42 deny host 10.10.10.3
+43 deny host 10.10.10.4
+```
 
 
