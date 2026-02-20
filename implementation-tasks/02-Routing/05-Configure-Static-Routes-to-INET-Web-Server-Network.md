@@ -20,3 +20,16 @@ I am using **static routing** to demonstrate external network reachability.
 | Subnet | Purpose |
 |--------|----------|
 | 70.70.70.0/24 | INET Web Server Network (VLAN 222) |
+
+---
+
+## ⚙️ Static Route Configuration
+
+###  On HS-EDGE-R1
+
+```bash
+ip route 70.70.70.0 255.255.255.0 69.45.12.1
+```
+
+
+
