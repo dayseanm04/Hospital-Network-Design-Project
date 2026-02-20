@@ -53,7 +53,9 @@ ip access-list standard Translate-NAT
 8 deny host 172.16.3.140
 ```
 
-Note: when I first configured the ACL for NAT I used a secquence number that increases by 10. This allows me to later on insert more ACL entries when necessary.
+Note: Nhen I first configured the ACL for NAT I used a secquence number that increases by 10. This allows me to later on insert more ACL entries when necessary. 
+
+I configured the deny entries before the permit entries because if traffic leaving the printers to the internet reaches the Edge routers it will drop them.
 
 
 ### 🔍 Verification
