@@ -35,4 +35,25 @@ In this task, I deploy two new **INET web servers (INET-WS1 and INET-WS2)** and 
 | INET-WS1 | NIC | ISP1-R1 G1/0/24 |
 | INET-WS2 | NIC | ISP1-R1 G1/0/23 |
 
+---
+
+## 🏷️ VLAN 222 Configuration (On ISP1-R1)
+
+### Create VLAN
+
+```bash
+vlan 222
+ name INET-Web-SRVs
+```
+
+### Assign Interfaces to VLAN 222
+
+```bash
+interface range g1/0/23-24
+ switchport access vlan 222
+```
+
+
+
+
 
