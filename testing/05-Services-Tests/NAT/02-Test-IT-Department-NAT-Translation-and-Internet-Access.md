@@ -11,5 +11,11 @@ This test ensures that devices with static IP Addresses are correctly being tran
 
 <img width="784" height="639" alt="topology" src="https://github.com/user-attachments/assets/5e8733fb-7ee1-4ac0-b0b5-9877d5e5b8fc" />
 
+The objective is to confirm:
 
+- Static internal IP addresses are translated to public IP addresses
+- IT endpoints can reach external ISP addresses
+- Dynamic NAT translations are created on the edge router
+
+---
 
