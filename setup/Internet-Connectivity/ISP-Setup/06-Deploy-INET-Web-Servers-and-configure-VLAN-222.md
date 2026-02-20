@@ -16,3 +16,14 @@ In this task, I deploy two new **INET web servers (INET-WS1 and INET-WS2)** and 
 - Enable HTTP service
 - Configure static routes for reachability
 
+---
+
+## 🖥️ New Web Servers
+
+| Server | IP Address | Subnet | Default Gateway | DNS |
+|--------|------------|--------|----------------|-----|
+| INET-WS1 | 70.70.70.10 | 255.255.255.0 | 70.70.70.1 | 200.10.0.2 |
+| INET-WS2 | 70.70.70.20 | 255.255.255.0 | 70.70.70.1 | 200.10.0.2 |
+
+---
+
