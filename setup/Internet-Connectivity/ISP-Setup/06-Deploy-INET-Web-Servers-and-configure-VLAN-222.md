@@ -69,5 +69,14 @@ On each server:
 3. Turn HTTP ON
 4. Turn off the other services
 
+### 🛣️ Static Route Configuration
+
+On INET-SW:
+
+```bash
+ip route 70.70.70.0 255.255.255.0 10.30.30.1
+```
+
+
 
 
