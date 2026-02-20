@@ -50,13 +50,8 @@ On each endpoint:
 <img width="730" height="367" alt="4" src="https://github.com/user-attachments/assets/349c2e68-98d4-46be-93fe-316714754f9b" />
 
 
+#### On Rad-1 ping google.com and ping youtube.com
 
+<img width="728" height="352" alt="5" src="https://github.com/user-attachments/assets/56861152-2460-402a-9466-91445cac62bf" />
 
-
-
-
-
-
-
-
-
+<img width="737" height="360" alt="6" src="https://github.com/user-attachments/assets/3a4231d1-db24-436d-bcb6-5a77cf9da5d8" />
