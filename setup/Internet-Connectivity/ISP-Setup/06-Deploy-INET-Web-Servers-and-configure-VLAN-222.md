@@ -27,3 +27,12 @@ In this task, I deploy two new **INET web servers (INET-WS1 and INET-WS2)** and 
 
 ---
 
+
+## 🔌 Physical Connections
+
+| Device | Interface | Connected To |
+|--------|-----------|--------------|
+| INET-WS1 | NIC | ISP1-R1 G1/0/24 |
+| INET-WS2 | NIC | ISP1-R1 G1/0/23 |
+
+
