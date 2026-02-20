@@ -14,3 +14,7 @@ The objective is to confirm:
 - Endpoints can reach ISP external addresses
 - NAT translations are created dynamically
 
+I used 1 endpoint per floor to validate NAT functionality on each floor.
+
+
+
