@@ -34,4 +34,12 @@ The objective is to confirm:
 
 From IT-PC1 and IT-PC2, run:
 
+### On IT-PC1 ping 69.45.12.1 and nslookup 100.45.12.1
+
+
+
+
+
+
+
 
