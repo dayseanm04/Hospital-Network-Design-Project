@@ -30,7 +30,7 @@ I used 1 endpoint per floor to validate NAT functionality on each floor.
 
 ## 🧪 Test Procedure
 
-###  Step 1 - Verify Public Reachability
+###  Step 1 - Verify External Networks Reachability
 
 From each endpoint (ED-1, MRD-1, Rad-1):
 
