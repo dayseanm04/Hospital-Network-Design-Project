@@ -60,5 +60,14 @@ interface vlan 222
  ip address 70.70.70.1 255.255.255.0
 ```
 
+###  Enable HTTP on Web Servers
+
+On each server:
+
+1. Open the server
+2. Navigate to Services then click on HTTP
+3. Turn HTTP ON
+4. Turn off the other services
+
 
 
