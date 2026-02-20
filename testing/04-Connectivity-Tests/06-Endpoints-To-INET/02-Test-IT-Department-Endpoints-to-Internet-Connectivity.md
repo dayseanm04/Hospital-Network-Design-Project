@@ -38,9 +38,6 @@ On each IT PC:
 
 <img width="913" height="661" alt="1" src="https://github.com/user-attachments/assets/a9413385-787b-40cb-b03b-bed420c290ca" />
 
+### On IT-PC2 ping google.com and ping youtube.com
 
-
-
-
-
-
+<img width="920" height="645" alt="2" src="https://github.com/user-attachments/assets/e709e8b6-26e9-494b-a6ff-4bf68544a22d" />
