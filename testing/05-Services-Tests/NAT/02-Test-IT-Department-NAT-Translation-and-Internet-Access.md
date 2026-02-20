@@ -19,3 +19,9 @@ The objective is to confirm:
 
 ---
 
+## Endpoints Tested
+
+| Device | Department | VLAN | IP Address | Addressing Method |
+|---------|------------|------|------------|------------------|
+| IT-PC1 | IT | IT DPT | 10.50.50.2 | Static |
+| IT-PC2 | IT | IT DPT | 10.50.50.3 | Static |
