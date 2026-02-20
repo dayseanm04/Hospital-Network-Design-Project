@@ -56,6 +56,8 @@ On the edge router (HS-EDGE-R1):
 show ip nat translations
 ```
 
+Note there are 2 edge routers for the hospital so traffic can leave through either one. The traffic left through HS-EDGE-R1 in this case.
+
 <img width="804" height="222" alt="1" src="https://github.com/user-attachments/assets/a7a92b79-03d2-41da-af13-ef701040a467" />
 
 NAT is working for Floor 1 - 3
