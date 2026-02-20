@@ -35,4 +35,8 @@ ip access-list standard Translate-NAT
 43 deny host 10.10.10.4
 ```
 
+##  Verification
+
+On HS-EDGE-R1 show ip access-list Translate-NAT
+
 
