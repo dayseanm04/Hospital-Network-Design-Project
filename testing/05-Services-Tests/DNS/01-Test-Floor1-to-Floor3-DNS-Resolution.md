@@ -24,3 +24,13 @@ The objective is to confirm:
 | 3 | Radiology | 330 | 172.16.3.128/26 | Rad-1 | 172.16.3.133 | DHCP |
 
 ---
+
+
+## Test Procedure
+
+On each endpoint:
+
+1. Open **Command Prompt**
+2. Run the following commands:
+
+
