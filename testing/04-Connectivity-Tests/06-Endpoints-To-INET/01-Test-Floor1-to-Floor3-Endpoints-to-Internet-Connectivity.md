@@ -29,3 +29,30 @@ I only used one endpoint per floor is used for validation, I confirmed that ever
 
 ---
 
+## 🧪 Test Procedure
+
+On each endpoint:
+
+1. Open **Command Prompt**
+2. Run the following commands:
+
+On ED1 ping google.com and ping youtube.com
+
+<img width="877" height="425" alt="1" src="https://github.com/user-attachments/assets/cf739d50-5454-4c33-babf-abe93de075a7" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
