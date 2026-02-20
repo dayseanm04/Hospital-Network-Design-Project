@@ -34,3 +34,10 @@ PAT allows multiple internal hosts to share a limited number of public IP addres
 - Rad-PRNT → 172.16.3.140
 
 ---
+
+### Configuration Steps for HS-EDGE-R1  HS-EDGE-R2  
+
+```bash
+conf t
+ip access-list standard Translate-NAT
+```
