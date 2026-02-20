@@ -1,6 +1,6 @@
 # 🌐 01 – Test Floor1 to Floor3 Endpoints to Internet Connectivity
 
-## 📌 Overview
+## Overview
 
 This test verifies that endpoints from Floor 1, Floor 2, and Floor 3 can successfully access external internet resources.
 
@@ -18,8 +18,7 @@ I only used one endpoint per floor is used for validation, I confirmed that ever
 
 ---
 
-
-## 🏢 Endpoints Tested
+## Endpoints Tested
 
 | Floor | Department | VLAN | Subnet | Test PC | IP Address | Addressing Method |
 |-------|------------|------|--------|---------|------------|------------------|
@@ -29,7 +28,7 @@ I only used one endpoint per floor is used for validation, I confirmed that ever
 
 ---
 
-## 🧪 Test Procedure
+## Test Procedure
 
 On each endpoint:
 
@@ -42,13 +41,11 @@ On each endpoint:
 
 <img width="873" height="424" alt="2" src="https://github.com/user-attachments/assets/7ba1fb95-dfad-491f-b0a3-415bd073c3e6" />
 
-
 ### On MRD-1 ping google.com and ping youtube.com
 
 <img width="731" height="364" alt="3" src="https://github.com/user-attachments/assets/cf260ba6-15f7-4faa-ae09-3b0377df0ceb" />
 
 <img width="730" height="367" alt="4" src="https://github.com/user-attachments/assets/349c2e68-98d4-46be-93fe-316714754f9b" />
-
 
 ### On Rad-1 ping google.com and ping youtube.com
 
