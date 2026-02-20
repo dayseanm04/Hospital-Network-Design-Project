@@ -47,6 +47,7 @@ On each endpoint:
 
 <img width="731" height="364" alt="3" src="https://github.com/user-attachments/assets/cf260ba6-15f7-4faa-ae09-3b0377df0ceb" />
 
+<img width="730" height="367" alt="4" src="https://github.com/user-attachments/assets/349c2e68-98d4-46be-93fe-316714754f9b" />
 
 
 
