@@ -15,3 +15,8 @@ I am using **static routing** to demonstrate external network reachability.
 
 ---
 
+## 🧠 Network Overview
+
+| Subnet | Purpose |
+|--------|----------|
+| 70.70.70.0/24 | INET Web Server Network (VLAN 222) |
