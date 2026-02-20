@@ -39,3 +39,6 @@ On each IT PCs:
 
 <img width="733" height="436" alt="1" src="https://github.com/user-attachments/assets/20315ae2-c7d4-481d-86b3-66b152e1e94b" />
 
+### On IT-PC2 nslookup google.com and nslookup youtube.com
+
+<img width="734" height="418" alt="2" src="https://github.com/user-attachments/assets/c9aca6f8-b693-4c34-a4d1-3891e7a97caf" />
