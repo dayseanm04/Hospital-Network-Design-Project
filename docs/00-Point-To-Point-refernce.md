@@ -1,4 +1,4 @@
-# 🔗 Point-to-Point Network Links (L3)
+# Point-to-Point Network Links (L3)
 
 **Purpose:**  
 This document tracks **all point-to-point (/30) Layer 3 links** in the hospital network design project.  
@@ -10,9 +10,9 @@ It includes:
 
 ---
 
-## 🧩 Section 1: Edge1 Router ↔ Edge2 Router Link
+## Section 1: Edge1 Router ↔ Edge2 Router Link
 
-### 🟢 HS-EDGE-R1 to HS-EDGE-R2
+### HS-EDGE-R1 to HS-EDGE-R2
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
 | Edge to Edge | HS-EDGE-R1 | Po10 | 10.150.0.1 | HS-EDGE-R2 | Po10 | 10.150.255.2 | 10.150.0.0/30 |
@@ -24,9 +24,9 @@ It includes:
 
 ---
 
-## 🧩 Section 2: Edge Routers ↔ Core Firewalls
+## Section 2: Edge Routers ↔ Core Firewalls
 
-### 🟢 HS-EDGE-R1 to HS-CORE-FW1 and HS-EDGE-R2 to HS-CORE-FW2
+### HS-EDGE-R1 to HS-CORE-FW1 and HS-EDGE-R2 to HS-CORE-FW2
 
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
@@ -39,9 +39,9 @@ It includes:
 
 ---
 
-## 🧩 Section 3: Core Firewalls ↔ Distribution Switches
+## Section 3: Core Firewalls ↔ Distribution Switches
 
-### 🟢  HS-CORE-FW1 to DSW1 and HS-CORE-FW2 to DSW2
+###  HS-CORE-FW1 to DSW1 and HS-CORE-FW2 to DSW2
 
 | Link Name | Device A | Interface | IP Address | Device B | Interface | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
@@ -54,9 +54,9 @@ It includes:
 
 ---
 
-## 🧩 Section 4: L3 EtherChannels (DSWs ↔ ASWs)
+## Section 4: L3 EtherChannels (DSWs ↔ ASWs)
 
-### 🟢 DSW ↔ Access Switch L3 EtherChannels
+### DSW ↔ Access Switch L3 EtherChannels
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
 | DSW1 Po1 to F1-ASW1 Po1 | DSW1 | Po1  | 10.10.0.1 | F1-ASW1 | Po1 | 10.10.0.2  | 10.10.0.0/30 |
@@ -78,9 +78,9 @@ It includes:
 
 ---
 
-## 🧩 Section 5: Service Switch Point-to-Point Links
+## Section 5: Service Switch Point-to-Point Links
 
-### 🟢 Service-ASW ↔ DSWs (L3 EtherChannels)
+### Service-ASW ↔ DSWs (L3 EtherChannels)
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
 | DSW1 to Service-ASW | DSW1 | Po7 | 10.255.2.1 | Service-ASW | Po1 | 10.255.2.1 | 10.255.2.0/30 |
@@ -88,9 +88,9 @@ It includes:
 
 ---
 
-## 🧩 Section 6: Edge Routers to ISP Point-to-Point Links
+## Section 6: Edge Routers to ISP Point-to-Point Links
 
-### 🔵 HS-EDGE-R1 and HS-EDGE-R2 to ISP1-R1 
+### HS-EDGE-R1 and HS-EDGE-R2 to ISP1-R1 
 
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
@@ -98,7 +98,7 @@ It includes:
 | Edge2 to ISP2 | HS-EDGE-R2 | Po15 | 100.45.12.1 | ISP2-R1 | Po10 | 100.45.12.2 | 100.45.12.0/30 |
 
 
-## 🧩 Section 7: ISP side Point-to-Point Links
+## Section 7: ISP side Point-to-Point Links
 
 | Link Name | Device A | Port-Channel | IP Address | Device B | Port-Channel | IP Address | Subnet (/30) |
 |---|---|---|---|---|---|---|---|
