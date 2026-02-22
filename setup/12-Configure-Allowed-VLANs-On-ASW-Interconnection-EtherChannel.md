@@ -1,4 +1,4 @@
-# 🔐 Configure Allowed VLANs on L2 LACP EtherChannel (ASW Interconnections)
+# Configure Allowed VLANs on L2 LACP EtherChannel (ASW Interconnections)
 
 **Goal:** Configure allowed VLAN on access-switches interconnections
 
@@ -16,15 +16,15 @@
 | **F2-ASW1 ↔ F2-ASW2** | L2 Trunk EtherChannel | **Po3** | **200, 210** |
 | **F3-ASW1 ↔ F3-ASW2** | L2 Trunk EtherChannel | **Po3** | **300, 310, 330**  |
 
-✅ Do the same config on **both switches in the pair** (example: F1-ASW1 *and* F1-ASW2).
+Do the same config on **both switches in the pair** (example: F1-ASW1 *and* F1-ASW2).
 
 ---
 
-## 🛠️ Step-by-Step Configuration
+## Step-by-Step Configuration
 
-### 1️⃣ Configure Po3 allowed VLANs on Floor 1 switches (F1-ASW1 + F1-ASW2)
+### Configure Po3 allowed VLANs on Floor 1 switches (F1-ASW1 + F1-ASW2)
 
-#### ♦️ On F1-ASW1 and F1-ASW2:
+#### On F1-ASW1 and F1-ASW2:
 
 ```bash
 interface po3
@@ -32,7 +32,7 @@ switchport trunk allowed vlan 101
 ```
 
 
-### 🟩 verify
+### verify
 
 #### show interfaces trunk on F1-ASW1
 
@@ -44,16 +44,16 @@ switchport trunk allowed vlan 101
 
 ---
 
-### 2️⃣ Configure Po3 allowed VLANs on Floor 2 switches (F2-ASW1 + F2-ASW2)
+### Configure Po3 allowed VLANs on Floor 2 switches (F2-ASW1 + F2-ASW2)
 
-#### ♦️ On **F2-ASW1** and **F2-ASW2**:
+#### On **F2-ASW1** and **F2-ASW2**:
 
 ```bash
 interface po3
 switchport trunk allowed vlan 200,210
 ```
 
-### 🟩 verify
+### verify
 
 #### show interfaces trunk on F2-ASW1
 
@@ -65,16 +65,16 @@ switchport trunk allowed vlan 200,210
 
 ---
 
-### 3️⃣ Configure Po3 allowed VLANs on Floor 3 switches (F3-ASW1 + F3-ASW2)
+### Configure Po3 allowed VLANs on Floor 3 switches (F3-ASW1 + F3-ASW2)
 
-#### ♦️ On F3-ASW1 and F3-ASW2:
+#### On F3-ASW1 and F3-ASW2:
 
 ```bash
 interface po3
 switchport trunk allowed vlan 300,310,330
 ```
 
-### 🟩 verify
+### verify
 
 #### show interfaces trunk on F3-ASW1
 
