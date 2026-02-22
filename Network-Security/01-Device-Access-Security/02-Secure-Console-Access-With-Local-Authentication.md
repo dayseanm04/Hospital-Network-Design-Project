@@ -1,28 +1,28 @@
-# 🔐 Secure Network Devices Console Access (Username + Password)
+# Secure Network Devices Console Access (Username + Password)
 
 In this task, I secured **console access** on the network devices by requiring **local username/password authentication**, setting an **idle timeout**, and limiting console sessions.
 
-## ✅ What This Does
+## What This Does
 
-- 👤 Requires a **local user account** to log in on the console (`login local`)
-- ⏳ Automatically logs out idle sessions (`exec-timeout`)
-- 🚫 Limits the number of console sessions (`session-limit 1`)
+- Requires a **local user account** to log in on the console (`login local`)
+- Automatically logs out idle sessions (`exec-timeout`)
+- Limits the number of console sessions (`session-limit 1`)
 
-**⚠️ Note:** This assumes you already created a local username (example: `username daysean secret ccna`). 
+**Note:** This assumes you already created a local username (example: `username daysean secret ccna`). 
 
 ### 🔷 Click here to configure local user authentication ➡️ [Here](/Network-Security/01-Device-Access-Security/01-Configure-Local-Authentication-For-Network-Devices.md)
 
 
 ---
 
-## 🛠️ Step 1 - Enter Global Configuration Mode
+##  Step 1 - Enter Global Configuration Mode
 
 ```bash
 enable
 configure terminal
 ```
 
-## 🖥️ Step 2 - Secure the Console Line
+## Step 2 - Secure the Console Line
 
 ### 1️⃣ Enter console line configuration
 
@@ -42,19 +42,19 @@ login local
 exec-timeout 10
 ```
 
-## 🔒 Step 3 - Limit Console Sessions
+## Step 3 - Limit Console Sessions
 
 ```bash
 session-limit 1
 ```
 
-### 💾 Step 4 - Save the Configuration
+### Step 4 - Save the Configuration
 
 ```bash
 do write memory
 ```
 
-### 🔍 Step 5 - Verify the Console Settings ✅
+### Step 5 - Verify the Console Settings ✅
 
 ```bash
 show run | section line con 0
@@ -74,13 +74,13 @@ enable
 configure terminal
 ```
 
-## 🌍 Step 2 - Configure the Domain Name
+## Step 2 - Configure the Domain Name
 
 ```bash
 ip domain-name hospital.daysean.com
 ```
 
-## 🔑 Step 3 - Generate RSA Keys
+## Step 3 - Generate RSA Keys
 
 ```bash
 crypto key generate rsa
@@ -94,11 +94,11 @@ When prompted, enter:
 
 ---
 
-## 🎯 What This Configuration Does
+## What This Configuration Does
 
-- 🌍 Defines a **domain name** (required for SSH key generation)
-- 🔐 Generates **RSA keys** for encrypted communication
-- ✅ Prepares devices for **SSH remote access**
+- Defines a **domain name** (required for SSH key generation)
+- Generates **RSA keys** for encrypted communication
+- Prepares devices for **SSH remote access**
 
 **⚠️ Note:** This step assumes local user accounts and line security are already configured.
 
