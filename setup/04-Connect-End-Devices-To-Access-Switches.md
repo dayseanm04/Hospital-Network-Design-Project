@@ -1,17 +1,17 @@
 # 🔌 04 – Connect End Devices to Access Switches (ASW)
 
-### 🏥 Floor 1
+### Floor 1
 
-## 🧩 F1-ASW1
+## F1-ASW1
 
-### ✅ VLAN Interface Ranges
+### VLAN Interface Ranges
 | VLAN ID | VLAN Name | Interface Range |
 |--------:|-----------|-----------------|
 | 101 | Emergency-Dept | Gi1/0/1 – Gi1/0/8 |
 | 110 | X-Ray-Imaging-DPT | Gi1/0/9 – Gi1/0/16 |
 | 600 | F1-Receptionists | Gi1/0/17 – Gi1/0/20 |
 
-### 🔌 End Devices (Exact Ports)
+### End Devices (Exact Ports)
 | Department | Device | Type | Interface |
 |-----------|--------|------|-----------|
 | Emergency Dept | ED-1 | PC | Gi1/0/1 |
@@ -24,9 +24,9 @@
 
 ---
 
-## 🧩 F1-ASW2
+## F1-ASW2
 
-### ✅ VLAN Interface Ranges
+### VLAN Interface Ranges
 | VLAN ID | VLAN Name | Interface Range |
 |--------:|-----------|-----------------|
 | 101 | Emergency-Dept | Gi1/0/1 – Gi1/0/6 |
@@ -35,7 +35,7 @@
 | 180 | Supply-Chain-Purchasing | Gi1/0/15 – Gi1/0/17 |
 | 500 | F1-Security-Office-Station | Gi1/0/18 – Gi1/0/20 |
 
-### 🔌 End Devices (Exact Ports)
+### End Devices (Exact Ports)
 | Department | Device | Type | Interface |
 |-----------|--------|------|-----------|
 | Emergency Dept | ED-3 | PC | Gi1/0/1 |
@@ -49,11 +49,11 @@
 
 ---
 
-# 🏢 Floor 2
+# Floor 2
 
-## 🧩 F2-ASW1
+## F2-ASW1
 
-### ✅ VLAN Interface Ranges
+### VLAN Interface Ranges
 | VLAN ID | VLAN Name | Interface Range |
 |--------:|-----------|-----------------|
 | 200 | Medical-Records-Dept | Gi1/0/1 – Gi1/0/6 |
@@ -61,7 +61,7 @@
 | 220 | Human-Resources | Gi1/0/13 – Gi1/0/17 |
 | 500 | F2-Security-Station | Gi1/0/18 – Gi1/0/20 |
 
-### 🔌 End Devices (Exact Ports)
+### End Devices (Exact Ports)
 | Department | Device | Type | Interface |
 |-----------|--------|------|-----------|
 | Medical Records | MDR-1 | PC | Gi1/0/1 |
@@ -76,9 +76,9 @@
 
 ---
 
-## 🧩 F2-ASW2
+## F2-ASW2
 
-### ✅ VLAN Interface Ranges
+### VLAN Interface Ranges
 | VLAN ID | VLAN Name | Interface Range |
 |--------:|-----------|-----------------|
 | 200 | Medical-Records-Dept | Gi1/0/1 – Gi1/0/4 |
@@ -87,7 +87,7 @@
 | 240 | IT-Department | Gi1/0/13 – Gi1/0/17 |
 | 600 | F2-Receptionists | Gi1/0/18 – Gi1/0/20 |
 
-### 🔌 End Devices (Exact Ports)
+### End Devices (Exact Ports)
 | Department | Device | Type | Interface |
 |-----------|--------|------|-----------|
 | Medical Records | MDR-3 | PC | Gi1/0/1 |
@@ -98,11 +98,11 @@
 
 ---
 
-# 🏨 Floor 3
+# Floor 3
 
-## 🧩 F3-ASW1
+## F3-ASW1
 
-### ✅ VLAN Interface Ranges
+### VLAN Interface Ranges
 | VLAN ID | VLAN Name | Interface Range |
 |--------:|-----------|-----------------|
 | 300 | Nurse-Offices | Gi1/0/1 – Gi1/0/5 |
@@ -122,9 +122,9 @@
 
 ---
 
-## 🧩 F3-ASW2
+## F3-ASW2
 
-### ✅ VLAN Interface Ranges
+### VLAN Interface Ranges
 | VLAN ID | VLAN Name | Interface Range |
 |--------:|-----------|-----------------|
 | 300 | Nurse-Offices | Gi1/0/1 – Gi1/0/5 |
@@ -133,7 +133,7 @@
 | 500 | F3-Security-Station | Gi1/0/15 – Gi1/0/17 |
 | 600 | F3-Receptionists | Gi1/0/18 – Gi1/0/20 |
 
-### 🔌 End Devices (Exact Ports)
+###  End Devices (Exact Ports)
 | Department | Device | Type | Interface |
 |-----------|--------|------|-----------|
 | Nurses | F3-NRS-3 | PC | Gi1/0/1 |
