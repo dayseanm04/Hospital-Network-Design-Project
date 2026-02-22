@@ -59,7 +59,14 @@ Note there are multuple users per floor, I used 2 Access switches per floor for 
 
 ---
 
+### Edge Layer
 
+- Two edge routers (`HS-EDGE-R1`, `HS-EDGE-R2`)
+- Layer 3 EtherChannel between edge routers
+- PAT (NAT Overload) configured using standard Named ACLs
+- Simulated Internet connectivity
+
+---
 
 ## 📂 Project Structure
 
