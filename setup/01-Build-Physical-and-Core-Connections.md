@@ -1,16 +1,16 @@
-# 🔌 Task 1 – Build Physical and Core Connections
+🔌 Task 1 – Build Physical and Core Connections
 I will be building the **physical and logical connections** between the ISP, hospital core devices, distribution switches, and access switches.
 
 I havent configured IP addressing or routing in this task.  
 The goal is to ensure all devices are **properly connected and ready for configuration**.
 
-## 🛜 1. ISP1 Router Information
+## 1. ISP1 Router Information
 - Device Type: Cisco 3650-24PS
 - Hostname: ISP1-R1
  
 ---
 
-## 🔐 2. Hospital Core Firewalls Information
+## 2. Hospital Core Firewalls Information
 - Device: Cisco ASA 5506
 - Hostname: HS-Core-FW1
 - Hostname: HS-Core-FW2
@@ -19,12 +19,12 @@ The goal is to ensure all devices are **properly connected and ready for configu
 
 ---
 
-## 🧠 3. Hospital Edge Router Information
+## 3. Hospital Edge Router Information
 - Device: Cisco 3650-24PS
 - Hostname: HS-EDGE-R1
 - Hostname: HS-EDGE-R2
 
-## 🔗 4. ISP1 to Hospital Edge Routers Connections
+## 4. ISP1 to Hospital Edge Routers Connections
 Connect the ISP router to the hospital edge routers.
 
 | ISP Router Interface | Edge Router Interface | Port Channel |
@@ -36,7 +36,7 @@ Connect the ISP router to the hospital edge routers.
 
 ---
 
-## 🔗 5. Edge Routers interonnections
+## 5. Edge Routers interonnections
 
 | HS-EDGE-R1 interface | HS-EDGE-R2 interface | Port Channel |
 |--------------------|-----------------------|-------|
@@ -45,7 +45,7 @@ Connect the ISP router to the hospital edge routers.
 
 ---
 
-## 🔗 6. Firewall to Hospital Edge Router Connections
+## 6. Firewall to Hospital Edge Router Connections
 
 Connect the core firewalls to the hospital edge routers.
 
@@ -56,7 +56,7 @@ Connect the core firewalls to the hospital edge routers.
 | HS-CORE-FW2 G1/1 | HS-EDGE-R2 G1/1/3 | 1 |
 | HS-CORE-FW2 G1/2 | HS-EDGE-R2 G1/1/4 | 1 |
 
-## 🏛️ 8. Distribution Switch Connections
+## 8. Distribution Switch Connections
 
 ### Distribution Switch Information
 - Model: Cisco 3650-24PT
@@ -78,7 +78,7 @@ Connect the core firewalls to the hospital edge routers.
 
 ---
 
-## 🔄 8. Distribution Switch Interconnection
+## 8. Distribution Switch Interconnection
 
 Connect the two distribution switches together.
 
@@ -87,11 +87,11 @@ Connect the two distribution switches together.
 | G1/1/2 | G1/1/2 | 10 |
 | G1/1/3 | G1/1/3 | 10 |
 
-✔️ These links will later be bundled using EtherChannel.
+ These links will later be bundled using EtherChannel.
 
 ---
 
-## 🏢 9. Access Switch Connections
+## 9. Access Switch Connections
 
 ### Access Switch Information
 - Model: Cisco 3650-24PT
@@ -167,20 +167,20 @@ Connect the two distribution switches together.
 | G1/0/22 | DSW2 | G1/0/13 |
 | G1/0/21 | DSW2 | G1/0/14 |
 
-✔️ Each access switch has **dual uplinks** for redundancy.
+Each access switch has **dual uplinks** for redundancy.
 
 ---
 
-## ✅ Task Completion Checklist
+## Task Completion Checklist
 
-- ✅ ISP router connected to hospital Edge Routers  
-- ✅ Edge Routers connected to the hospital core firewalls  
-- ✅ Hospital core firewalls  is connected to the distribution switches
-- ✅ Hospital Edge Routers are interconnected  
-- ✅ Distribution switches are interconnected  
-- ✅ Access switches has dual connections to the distribution switches
+- ISP router connected to hospital Edge Routers  
+- Edge Routers connected to the hospital core firewalls  
+- Hospital core firewalls  is connected to the distribution switches
+- Hospital Edge Routers are interconnected  
+- Distribution switches are interconnected  
+- Access switches has dual connections to the distribution switches
 
-## 📌 Note:
+## Note:
 Note that I may update the connections when nessasry
 
 ## Network Diagram:
