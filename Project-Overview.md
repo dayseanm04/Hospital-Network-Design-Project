@@ -37,7 +37,7 @@ This floor includes:
 - Human Resources
 - Billing & Finance
 - IT Department
-- Medical Records (HIM)
+- Medical Records
 - Insurance Office
 - Security Station
 
