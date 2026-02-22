@@ -1,6 +1,6 @@
-# 🏥Hospital-Network-Design-Project
+# 🏥Hospital Network Design Project
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a **complete hospital network design and implementation** built in **Cisco Packet Tracer**.
 
@@ -10,7 +10,7 @@ The project is organized in **stages**, starting from design and planning, then 
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - Design a scalable hospital network architecture  
 - Segment departments using VLANs and structured IP addressing  
@@ -66,11 +66,3 @@ I will add additional security features as the project evolves.
 Testing is organized into dedicated categories to verify that the hospital network operates correctly, securely, and reliably.
 
 The testing phase validates **redundancy, failover behavior, security controls, and end-to-end connectivity** across the entire network. 
-
----
-
-## 🔮 Project Status
-
-🚧 **This project is actively evolving.**
-
-New features, configurations, tests, and documentation will be added as needed to reflect real-world network growth and changes.
