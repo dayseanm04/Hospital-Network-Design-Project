@@ -1,6 +1,6 @@
-# 🔗 Set Up Core Firewall to Distribution Connections
+# Set Up Core Firewall to Distribution Connections
 
-## 📌 Overview
+## Overview
 This task establishes the **Layer 3 backbone connections** between:
 
 - **HS-CORE-FW1 ↔ DSW1**
@@ -14,16 +14,16 @@ Each connection uses a **static Layer 3 Port-Channel (Po20)** with /30 addressin
 
 ---
 
-# 🧱 HS-CORE-FW1 ↔ DSW1 Connection
+# HS-CORE-FW1 ↔ DSW1 Connection
 
-## 🔌 Physical Interfaces
+## Physical Interfaces
 
 | Device | Interface | Connected To | Interface |
 |--------|-----------|--------------|-----------|
 | HS-CORE-FW1 | G1/3 | DSW1 | G1/1/1 |
 | HS-CORE-FW1 | G1/4 | DSW1 | G1/1/4 |
 
-## 🌐 Subnet 
+## Subnet 
 
 | Link               | Subnet        |  HS-CORE-FW1 IP  |  DSW1 IP   |
 | ------------------ | ------------- | ---------------- | ----------------- |
@@ -31,16 +31,16 @@ Each connection uses a **static Layer 3 Port-Channel (Po20)** with /30 addressin
 
 ---
 
-# 🧱 HS-CORE-FW2 ↔ DSW2 Connection
+# HS-CORE-FW2 ↔ DSW2 Connection
 
-## 🔌 Physical Interfaces
+## Physical Interfaces
 
 | Device | Interface | Connected To | Interface |
 |--------|-----------|--------------|-----------|
 | HS-CORE-FW2 | G1/3 | DSW2 | G1/1/1 |
 | HS-CORE-FW2 | G1/4 | DSW2 | G1/1/4 |
 
-## 🌐 Subnet 
+## Subnet 
 
 | Link               | Subnet        |  HS-CORE-FW2 IP  |  DSW2 IP   |
 | ------------------ | ------------- | ---------------- | ----------------- |
