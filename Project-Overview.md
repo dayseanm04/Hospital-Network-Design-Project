@@ -1,10 +1,10 @@
-# 🏥 Project Overview
+# Project Overview
 
 In this project I will be designing and building a complete network infrastructure for hospital using **Cisco Packet Tracer**.  
 The goal is to create a secure, reliable, and scalable network that supports hospital operations, clinical services, and administrative work.
 
 
-## 📌 1. Hospital Summary
+## 1. Hospital Summary
 
 The hospital has **4 floors**, each with different departments and technology needs.  
 Across all floors, the hospital contains arround:
@@ -14,7 +14,7 @@ Across all floors, the hospital contains arround:
 - **100+ IP Phones**
 - **181 Employees**
 
-## 📌 2. Floors & Department Breakdown
+## 2. Floors & Department Breakdown
 
 ### **Floor 1 – Emergency & Patient Access**
 This floor includes:
@@ -82,14 +82,14 @@ This floor includes:
 - 49 Employees  
 
 
-## 📌 3. Project Goals
+## 3. Project Goals
 
 This project aims to:
 - Design a structured and scalable network across **four hospital floors**  
 - Configure routing and switching
 - Configure VLANs for different departments  
 
-## 📌 4. What This Documentation Covers
+## 4. What This Documentation Covers
 
 - Network design planning and diagrams  
 - VLAN and IP addressing plan  
