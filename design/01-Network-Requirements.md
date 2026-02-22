@@ -1,10 +1,10 @@
-# 🖧 01 – Network Requirements
+# 01 – Network Requirements
 
 Because hospitals rely on access to medical systems, patient records, and communication tools, the network must be **fast, secure, redundant, and highly available** at all times.
 
 ---
 
-## 📌 1. High Availability
+##  1. High Availability
 
 The hospital network must remain available 24/7.  
 Requirements include:
@@ -16,7 +16,7 @@ High availability ensures that patient care systems and hospital applications st
 
 ---
 
-## 📌 2. Redundancy
+##  2. Redundancy
 
 Redundancy protects the network against hardware or link failures.  
 The design must include:
@@ -28,7 +28,7 @@ If one device or link goes down, traffic should automatically reroute.
 
 ---
 
-## 📌 3. Network Segmentation (VLANs)
+## 3. Network Segmentation (VLANs)
 
 To improve performance and security, the network must separate traffic by department or function:
 
@@ -42,7 +42,7 @@ Segmentation helps reduce congestion and limits security risks.
 
 ---
 
-## 📌 4. Security Requirements
+## 📌  Security Requirements
 
 Security is critical to protect patient information and hospital systems.  
 Requirements include:
@@ -53,7 +53,7 @@ Requirements include:
 
 --- 
 
-## 📌 5. Scalability
+## 5. Scalability
 
 The network must support future expansion, including:
 
