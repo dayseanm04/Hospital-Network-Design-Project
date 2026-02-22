@@ -67,7 +67,7 @@ show run | section line con 0
 ### Next, I will configure **SSH** on all network devices to allow **secure remote management**. SSH encrypts management traffic and replaces insecure methods such as Telnet.
 
 
-## 🛠️ Step 1 Enter Global Configuration Mode
+## Step 1 Enter Global Configuration Mode
 
 ```bash
 enable
