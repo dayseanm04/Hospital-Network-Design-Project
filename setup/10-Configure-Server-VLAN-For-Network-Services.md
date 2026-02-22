@@ -1,10 +1,10 @@
-# 🔟 Configure Server VLAN on Service-ASW (VLAN 700)
+# Configure Server VLAN on Service-ASW (VLAN 700)
 
 I this task, I will configure VLAN for the servers that will serve **network services** such as (DHCP, DNS, NTP, etc.) for the hospital.
 
 ---
 
-## 🌐 VLAN / Subnet Details
+## VLAN / Subnet Details
 | Item | Value |
 |---|---|
 | VLAN ID | **700** |
@@ -18,9 +18,9 @@ I this task, I will configure VLAN for the servers that will serve **network ser
 
 ---
 
-## 🛠️ Step-by-Step (Service-ASW)
+## Step-by-Step (Service-ASW)
 
-### 1️⃣ Configure VLAN 700 and name it
+### Configure VLAN 700 and name it
 In **global config mode**:
 
 ```bash 
@@ -31,7 +31,7 @@ exit
 
 ---
 
-### 2️⃣ Assign ports to VLAN 700 (Access Ports)
+### Assign ports to VLAN 700 (Access Ports)
 
 ```bash
 interface range g1/0/1 - 8
@@ -43,7 +43,7 @@ end
 
 ---
 
-### 3️⃣ Create the SVI for VLAN 700 (Gateway)
+### Create the SVI for VLAN 700 (Gateway)
 In **Global config mode**:
 
 ```bash
@@ -54,24 +54,24 @@ no shutdown
 end
 ```
 
-✅ This makes **10.10.10.1** the **default gateway** for servers in VLAN 700.
+This makes **10.10.10.1** the **default gateway** for servers in VLAN 700.
 
 ---
 
-## ✅ Verification
+## Verification
 
 ### show vlan brief
 
 <img width="912" height="278" alt="Service-ASW-verify-vlan700" src="https://github.com/user-attachments/assets/96a52253-e9a3-4321-886f-2dd3fc19f200" />
 
-### 💠 Verify VLAN 700 SVI
+### Verify VLAN 700 SVI
 
 #### show ip int brief | include Vlan 
 
 <img width="776" height="94" alt="show-vlan-brief-Service-ASW" src="https://github.com/user-attachments/assets/7bc917b2-85c4-4c23-9704-d2be8875b3af" />
 
 
-## 💾 Save the configuration
+## Save the configuration
 
 ```bash
 write memory
