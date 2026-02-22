@@ -68,6 +68,16 @@ Note there are multuple users per floor, I used 2 Access switches per floor for 
 
 ---
 
+## Internal Services Deployed
+
+A dedicated internal services segment hosts:
+
+- DHCP Server
+- NTP Server
+- DNS Server
+- Syslog Server
+
+
 ## 📂 Project Structure
 
 | Folder / File | Purpose |
