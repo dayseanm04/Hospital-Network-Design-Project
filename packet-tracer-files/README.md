@@ -1,11 +1,11 @@
-# 📦 Packet Tracer Files – Hospital Network Design
+# Packet Tracer Files – Hospital Network Design
 
-## 📌 Overview
+## Overview
 This folder contains **Cisco Packet Tracer (.pkt) files** that represent different **stages of the Hospital Network Design project**.
 
 ---
 
-## 🧱 Stage 1 – Network Setup
+## Stage 1 – Network Setup
 
 ### 📁 `Hospital-Network-Stage1-Setup.pkt`
 
@@ -19,7 +19,7 @@ This file represents the **initial network setup** which includes:
 
 This stage focuses on creating a **stable, redundant, and routable foundation** for the hospital network.
 
-## 🧱 Stage 2 – Services & ISP Integration
+## Stage 2 – Services & ISP Integration
 
 ### 📁 `Hospital-Network-Stage2-changes.pkt`
 
