@@ -13,7 +13,6 @@ The network follows a **Three-Tier Hierarchical Architecture (Access, Distributi
 - Secure Device Management  
 - Structured Testing and Troubleshooting  
 
-
 ---
 
 ## Project Goals
@@ -27,6 +26,17 @@ The network follows a **Three-Tier Hierarchical Architecture (Access, Distributi
 
 ---
 
+## Network Architecture
+
+### Access Layer
+
+- Two access switches per floor (e.g., `F1-ASW1`, `F1-ASW2`).
+- End-user devices (PCs, printers) connect at this layer
+- Layer 2 EtherChannels between same-floor switches
+- Layer 3 EtherChannels to Distribution switches
+- 10+ VLANs configured for departmental segmentation
+- HSRP configured for redundant default gateways
+- Port Security enabled on access ports
 
 ## 📂 Project Structure
 
