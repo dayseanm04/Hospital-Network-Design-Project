@@ -2,11 +2,17 @@
 
 ## Project Overview
 
-## Project Overview
-
 This project is a large-scale enterprise hospital network designed and implemented using Cisco Packet Tracer to simulate a real-world production environment supporting approximately **500 users**.
 
-The network follows a **Three-Tier Hierarchical Architecture (Access, Distribution, Core)**
+The network follows a **Three-Tier Hierarchical Architecture (Access, Distribution, Core)** and is engineered with a strong focus on:
+
+- Redundancy and High Availability  
+- Network Segmentation using VLANs and VLSM  
+- Dynamic Routing with OSPF  
+- Enterprise Service Deployment (DHCP, NTP, DNS, SYSLOG)  
+- Secure Device Management  
+- Structured Testing and Troubleshooting  
+
 
 ---
 
