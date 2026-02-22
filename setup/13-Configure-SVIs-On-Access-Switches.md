@@ -1,4 +1,4 @@
-# 🧩 Configure SVIs on the Access Switches (Default Gateways)
+# Configure SVIs on the Access Switches (Default Gateways)
 
 **Goal:** Configure **SVIs** on each Access Switch so VLANs have a **default gateway** for routing.
 
@@ -8,9 +8,9 @@
 
 ---
 
-## 📍 SVI IP Plan
+## SVI IP Plan
 
-### 🟦 F1-ASW1 SVIs
+### F1-ASW1 SVIs
 
 | VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
@@ -19,7 +19,7 @@
 
 ---
 
-### 🟩 F1-ASW2 SVIs
+### F1-ASW2 SVIs
 
 | VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
@@ -27,7 +27,7 @@
 
 ---
 
-### 🟨 F2-ASW1 SVIs
+### F2-ASW1 SVIs
 
 | VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
@@ -36,7 +36,7 @@
 
 ---
 
-### 🟥 F2-ASW2 SVIs
+### F2-ASW2 SVIs
 
 | VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
@@ -44,7 +44,7 @@
 
 ---
 
-### 🟪 F3-ASW1 SVIs
+### F3-ASW1 SVIs
 
 | VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
@@ -52,7 +52,7 @@
 
 ---
 
-### 🟫 F3-ASW2 SVIs
+### F3-ASW2 SVIs
 
 | VLAN | Department| SVI IP (Gateway) | Subnet Mask |
 |---:|---|---|---|
@@ -61,18 +61,18 @@
 
 ---
 
-## 🛠️ Step-by-Step Configuration
+## Step-by-Step Configuration
 
-### 1️⃣ Enter global configuration mode
+### Enter global configuration mode
 
 ```bash
 enable
 conf t
 ```
 
-### 2️⃣ Create the SVIs listed for that switch
+### Create the SVIs listed for that switch
 
-#### ♦️ Use this pattern for each VLAN:
+#### Use this pattern for each VLAN:
 
 ```bash
 interface vlan <VLAN>
@@ -83,18 +83,18 @@ exit
 
 **Note: sicne you will be typing many IP addresses pay close attention**
 
-### 3️⃣ Save
+### Save
 
 ```bash
 end
 write memory
 ```
 
-#### 🔷 Note 🔷 I did not configure an SVI for every single VLAN because it would be unnecessary and repetitive for the scope of this project, as the core concepts and functionality are already clearly shown. I configured SVIs for most VLANs.
+#### Note: I did not configure an SVI for every single VLAN because it would be unnecessary and repetitive for the scope of this project, as the core concepts and functionality are already clearly shown. I configured SVIs for most VLANs.
 
-## ✅ Verification
+## Verification
 
-### 4️⃣ Confirm SVIs are up
+### Confirm SVIs are up
 
 #### show ip int brief | include Vlan on F1-ASW1
 
