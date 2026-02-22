@@ -96,6 +96,35 @@ A dedicated internal services segment hosts:
 - Port Security on access switches
 - Loopback interfaces configured for routing stability and management
 
+---
+
+## Redundancy & High Availability Design
+
+- Layer 2 and Layer 3 EtherChannels throughout the network
+- HSRP for gateway redundancy
+- Dual Distribution switches
+- Dual Core Firewalls
+- Dual Edge Routers
+- Dynamic routing using OSPF
+
+The design minimizes single points of failure and reflects enterprise-grade network engineering practices.
+
+---
+
+## Testing & Troubleshooting
+
+Comprehensive validation and troubleshooting performed, including:
+
+- Endpoint-to-Gateway connectivity testing
+- Inter-VLAN routing verification
+- Internet reachability testing
+- Service validation (DHCP, NTP, DNS, SYSLOG)
+- OSPF adjacency troubleshooting (EXSTART state, area mismatch)
+- Packet loss and routing issue troubleshooting and resolution
+
+---
+
+
 ## 📂 Project Structure
 
 | Folder / File | Purpose |
