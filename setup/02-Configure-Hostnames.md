@@ -1,19 +1,19 @@
-# Task 2 – Configure Hostnames 🏷️
+# Task 2 – Configure Hostnames 
 
-### 📌 Objective
+###  Objective
 Assign clear and consistent hostnames to all network devices in the hospital network.  
 This helps with **identification**, **troubleshooting**, and **network documentation**.
 
 ### All commands are entered from **global configuration mode**.  
 - Use: `hostname <DEVICE-NAME>`
 
-## 🌐 ISP Devices
+##  ISP Devices
 
 | Device Role | Hostname |
 |------------|--------------------|
 | ISP1 Router | `ISP1-R1` |
 
-## 🌐 INET Devices
+##  INET Devices
 
 | Device Role | Hostname |
 |------------|--------------------|
@@ -21,14 +21,14 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 
 ---
 
-## 🔥 Edge  Devices
+##  Edge  Devices
 
 | Device Role | Hostname |
 |------------|--------------------|
 | Edge Router | `HS-EDGE-R1` |
 | Edge Router | `HS-EDGE-R2` |
 
-## 🔥 Core  Devices
+## Core  Devices
 
 | Device Role | Hostname |
 |------------|--------------------|
@@ -37,7 +37,7 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 
 ---
 
-## 🏗️ Distribution Layer Switches (Routing Enabled)
+## Distribution Layer Switches (Routing Enabled)
 
 | Device Role | Hostname |
 |------------|--------------------|
@@ -46,7 +46,7 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 
 ---
 
-## 🧱 Access Layer Switches – Floor 1
+## Access Layer Switches – Floor 1
 
 | Device Role | Hostname to Assign |
 |------------|--------------------|
@@ -56,7 +56,7 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 
 ---
 
-## 🧱 Access Layer Switches – Floor 2
+## Access Layer Switches – Floor 2
 
 | Device Role | Hostname |
 |------------|--------------------|
@@ -65,7 +65,7 @@ This helps with **identification**, **troubleshooting**, and **network documenta
 
 ---
 
-## 🧱 Access Layer Switches – Floor 3
+##  Access Layer Switches – Floor 3
 
 | Device Role | Hostname |
 |------------|--------------------|
