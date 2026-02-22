@@ -140,32 +140,3 @@ Comprehensive validation and troubleshooting performed, including:
 | 📁 **[`packet-tracer-files/`](./packet-tracer-files)** | Cisco Packet Tracer project files |
 | 📁 **[`skip/`](./skip)** | Skipped steps |
 | 📄 **[`Project-Overview.md`](./Project-Overview.md)** | High-level explanation of the project |
-
----
-
-## 🧠 Design 
-
-- Three-tier architecture (core, distribution, access)
-- Department-based VLAN segmentation
-- Structured and scalable IP addressing
-- Redundant links using EtherChannel
-- Network security enforcement
-
----
-
-## 🔐 Security Focus
-Security is applied **across the entire network**, including:
-- Device access protection
-- Traffic control using ACLs
-- Secure management access
-- Segmentation between departments
-
-I will add additional security features as the project evolves.
-
----
-
-## 🧪 Testing & Validation
-
-Testing is organized into dedicated categories to verify that the hospital network operates correctly, securely, and reliably.
-
-The testing phase validates **redundancy, failover behavior, security controls, and end-to-end connectivity** across the entire network. 
