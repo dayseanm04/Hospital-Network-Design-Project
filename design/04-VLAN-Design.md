@@ -1,11 +1,11 @@
-# 🌐 VLAN Design
+# VLAN Design
 
 Each department is placed in its own VLAN with a matching subnet from the IP Addressing Plan.  
 The **default gateway is always the first usable IP address in each subnet**.
 
 ---
 
-## 🧱 Floor 1 – Emergency & Patient Access (172.16.1.0/24)
+## Floor 1 – Emergency & Patient Access (172.16.1.0/24)
 
 | VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
 |--------:|-------------------------------|--------------------|--------------------|--------------------|
@@ -18,7 +18,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 ---
 
-## 🧱 Floor 2 – Administration & HR  (172.16.2.0/24)
+## Floor 2 – Administration & HR  (172.16.2.0/24)
 
 | VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
 |--------:|-------------------------------|--------------------|--------------------|--------------------|
@@ -30,7 +30,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 ---
 
-## 🧱 Floor 3 – Inpatient Care & ICU (172.16.3.0/24)
+## Floor 3 – Inpatient Care & ICU (172.16.3.0/24)
 
 | VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
 |--------:|-------------------------------|--------------------|--------------------|--------------------|
@@ -42,7 +42,7 @@ The **default gateway is always the first usable IP address in each subnet**.
 
 ---
 
-## 🧱 Floor 4 – Specialty Care, Clinics & ICU (172.16.4.0/24)
+## Floor 4 – Specialty Care, Clinics & ICU (172.16.4.0/24)
 
 | VLAN ID | Department                          | Subnet             | Mask               | Default Gateway    |
 |--------:|-------------------------------------|--------------------|--------------------|--------------------|
@@ -53,20 +53,20 @@ The **default gateway is always the first usable IP address in each subnet**.
 | 440     | Phlebotomy / Blood Draw             | 172.16.4.160/28    | 255.255.255.240    | 172.16.4.161       |
 | 450     | Nurse Station (Floor 4)             | 172.16.4.176/28    | 255.255.255.240    | 172.16.4.177       |
 
-## 🧩 Security Stations(172.16.5.0/26) & Receptionists (172.16.6.0/26)
+## Security Stations(172.16.5.0/26) & Receptionists (172.16.6.0/26)
 
 | VLAN ID | Department                    | Subnet             | Mask               | Default Gateway    |
 |--------|-------------------------------|--------------------|--------------------|--------------------|
 | 500     | Security Station   | 172.16.5.0/26   | 255.255.255.192  | 172.16.5.1  |
 | 600     | Receptionists      | 172.16.6.0/25   | 255.255.255.128  | 172.16.6.1  |
 
-## 🧩 Server VLAN
+##  Server VLAN
 
 | VLAN ID | Department      | Subnet         | Mask              | Default Gateway |
 |--------|------------------|----------------|-------------------|-----------------|
 | 700     | Server          | 10.10.10.0/27  | 255.255.255.224   | 10.10.10.1     |
 
-## 🧩IT Department
+## IT Department
 
 | VLAN ID | Department      | Subnet         | Mask              | Default Gateway |
 |--------|------------------|----------------|-------------------|-----------------|
