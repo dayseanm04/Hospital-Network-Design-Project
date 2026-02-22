@@ -1,10 +1,10 @@
-# 🔐 Firewall Port-Channel Nameif Reference
+# Firewall Port-Channel Nameif Reference
 
-## 📌 Purpose
+## Purpose
 
 This document is the **reference for the Core firewalls Port-Channel interface naming (`nameif`) and security levels** 
 
-## 🧱 Device Scope
+## Device Scope
 
 | Device | Role |
 |------|-----|
@@ -13,7 +13,7 @@ This document is the **reference for the Core firewalls Port-Channel interface n
 
 ---
 
-## 🔌 HS-CORE-FW1 – Port-Channel Interfaces
+## HS-CORE-FW1 – Port-Channel Interfaces
 
 | Interface | nameif | Description | Security Level | Connected To |
 |---------|--------|-------------|----------------|--------------|
@@ -22,7 +22,7 @@ This document is the **reference for the Core firewalls Port-Channel interface n
 
 ---
 
-## 🔌 HS-CORE-FW2 – Port-Channel Interfaces
+## HS-CORE-FW2 – Port-Channel Interfaces
 
 | Interface | nameif | Description | Security Level | Connected To |
 |---------|--------|-------------|----------------|--------------|
@@ -31,7 +31,7 @@ This document is the **reference for the Core firewalls Port-Channel interface n
 
 ---
 
-## 🧭 Security Level Reference
+## Security Level Reference
 
 | Security Level | Zone Type | Typical Usage |
 |---------------|----------|---------------|
@@ -40,7 +40,7 @@ This document is the **reference for the Core firewalls Port-Channel interface n
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 - Firewall interfaces **must have a `nameif` configured** to fully participate in:
   - Routing protocols (OSPF)
