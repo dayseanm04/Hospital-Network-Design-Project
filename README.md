@@ -129,7 +129,6 @@ Comprehensive validation and troubleshooting performed, including:
 
 ---
 
-
 ## 📂 Project Structure
 
 | Folder / File | Purpose |
@@ -137,7 +136,7 @@ Comprehensive validation and troubleshooting performed, including:
 | 📁 **[`design/`](./design)** | Network planning, requirements, VLAN design, and IP addressing |
 | 📁 **[`docs/`](./docs)** | Reference documents used throughout the project |
 | 📁 **[`setup/`](./setup)** | Initial device and network setup tasks |
-| 📁 **[`implementation-tasks/`](./implementation-tasks)** | Core network implementation tasks |
+| 📁 **[`implementation-tasks/`](./implementation-tasks)** | Core network implementation tasks (Routing, Redundancy etc) |
 | 📁 **[`Network-Security/`](./Network-Security)** | Hospital Network security tasks |
 | 📁 **[`testing/`](./testing)** | Connectivity, security, and validation tests |
 | 📁 **[`troubleshooting/`](./troubleshooting)** | Issue identification and resolution documentation |
