@@ -40,6 +40,18 @@ The network follows a **Three-Tier Hierarchical Architecture (Access, Distributi
 
 Note there are multuple users per floor, I used 2 Access switches per floor for demostratation.
 
+---
+
+### Distribution Layer
+
+- Two distribution switches (`DSW1`, `DSW2`)
+- Layer 3 EtherChannel between distribution switches
+- Redundant Layer 3 EtherChannels to Core Firewalls
+- OSPF configured for dynamic routing
+
+---
+
+
 ## 📂 Project Structure
 
 | Folder / File | Purpose |
