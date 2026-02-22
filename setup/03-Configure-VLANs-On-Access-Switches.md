@@ -1,6 +1,6 @@
 # 03 Configure VLANs On Access Switches
 
-## 🎯 Goal
+## Goal
 Configure all required VLANs on the **Access Switches** in the hospital network.  
 This task focuses:
 
@@ -10,7 +10,7 @@ This task focuses:
 
 ---
 
-## ✅ Standard VLAN Configuration Pattern
+## Standard VLAN Configuration Pattern
 
 #### 1️⃣ Enter global configuration mode  
 `configure terminal`
@@ -24,7 +24,7 @@ This task focuses:
 #### 4️⃣ Exit VLAN configuration mode  
 `exit`
 
-## ✅ Standard Interface Assignment Pattern
+## Standard Interface Assignment Pattern
 
 #### 1️⃣ Enter interface configuration  
 `interface range [INTERFACE_RANGE]`
@@ -37,9 +37,9 @@ This task focuses:
 
 ---
 
-# 🏥 Floor 1 Access Switches
+# Floor 1 Access Switches
 
-## 🧩 Floor 1 – F1-ASW1
+##  Floor 1 – F1-ASW1
 
 | VLAN ID | VLAN Name | Access Ports |
 |--------:|-----------|--------------|
@@ -47,7 +47,7 @@ This task focuses:
 | 110 | X-Ray-Imaging-DPT | Gi1/0/9 – Gi1/0/16 |
 
 
-## 🧩 Floor 1 – F1-ASW2
+##  Floor 1 – F1-ASW2
 
 | VLAN ID | VLAN Name | Access Ports |
 |--------:|-----------|--------------|
@@ -58,9 +58,9 @@ This task focuses:
 
 ---
 
-# 🏥 Floor 2 Access Switches
+#  Floor 2 Access Switches
 
-## 🧩 Floor 2 – F2-ASW1
+## Floor 2 – F2-ASW1
 
 | VLAN ID | VLAN Name | Access Ports |
 |--------:|-----------|--------------|
@@ -70,7 +70,7 @@ This task focuses:
 
 ---
 
-## 🧩 Floor 2 – F2-ASW2
+## Floor 2 – F2-ASW2
 
 | VLAN ID | VLAN Name | Access Ports |
 |--------:|-----------|--------------|
@@ -78,7 +78,7 @@ This task focuses:
 | 210 | Billing-Finance-DPT | Gi1/0/5 – Gi1/0/8 |
 | 230 | Insurance-DPT | Gi1/0/9 – Gi1/0/12 |
 
-## 🧩 Service-ASW
+## Service-ASW
 
 | VLAN ID | VLAN Name | Access Ports |
 |--------:|-----------|--------------|
@@ -88,9 +88,9 @@ This task focuses:
 
 ---
 
-# 🏥 Floor 3 Access Switches
+# Floor 3 Access Switches
 
-## 🧩 Floor 3 – F3-ASW1
+## Floor 3 – F3-ASW1
 
 | VLAN ID | VLAN Name | Access Ports |
 |--------:|-----------|--------------|
@@ -102,7 +102,7 @@ This task focuses:
 
 ---
 
-## 🧩 Floor 3 – F3-ASW2
+## Floor 3 – F3-ASW2
 
 | VLAN ID | VLAN Name | Access Ports |
 |--------:|-----------|--------------|
@@ -112,7 +112,7 @@ This task focuses:
 
 
 
-## 🔍 Verification (Run on Each Access Switch)
+##  Verification (Run on Each Access Switch)
 
 ### ✔ Verify VLAN creation:
 - `show vlan brief`
