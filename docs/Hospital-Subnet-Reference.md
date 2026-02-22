@@ -1,14 +1,14 @@
-# 🧮 Subnet-Reference (Hospital Network Design)
+# Subnet-Reference (Hospital Network Design)
 
 This file is a quick reference for the VLAN subnets used in the hospital network design project.
 
 ✅ **Network** • ✅ **Mask** • ✅ **Gateway (first usable IP)** • ✅ **Usable range** • ✅ **Broadcast**
 
-> 💡 **Rule used:** The **default gateway is the first usable IP** in each subnet.
+> **Rule used:** The **default gateway is the first usable IP** in each subnet.
 
 ---
 
-## 🧱 Floor 1 — Emergency & Patient Access (172.16.1.0/24)
+## Floor 1 — Emergency & Patient Access (172.16.1.0/24)
 
 | VLAN | Department | Network / Prefix | Mask | Default GW | Usable Host Range | Broadcast |
 |---:|---|---|---|---|---|---|
@@ -18,7 +18,7 @@ This file is a quick reference for the VLAN subnets used in the hospital network
 
 ---
 
-## 🧱 Floor 2 — Administration, HR & Billing (172.16.2.0/24)
+## Floor 2 — Administration, HR & Billing (172.16.2.0/24)
 
 | VLAN | Department | Network / Prefix | Mask | Default GW | Usable Host Range | Broadcast |
 |---:|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ This file is a quick reference for the VLAN subnets used in the hospital network
 
 ---
 
-## 🧱 Floor 3 — Inpatient Care & ICU (172.16.3.0/24)
+## Floor 3 — Inpatient Care & ICU (172.16.3.0/24)
 
 | VLAN | Department | Network / Prefix | Mask | Default GW | Usable Host Range | Broadcast |
 |---:|---|---|---|---|---|---|
@@ -39,7 +39,7 @@ This file is a quick reference for the VLAN subnets used in the hospital network
 ---
 
 
-## 🧩 Shared Services (Servers + IT)
+## Shared Services (Servers + IT)
 
 | VLAN | Department | Network / Prefix | Mask | Default GW | Usable Host Range | Broadcast |
 |---:|---|---|---|---|---|---|
