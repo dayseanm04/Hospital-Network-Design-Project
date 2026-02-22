@@ -1,19 +1,19 @@
-# 📞 06-Voice-VLAN-Design.md
+# 06-Voice-VLAN-Design.md
 
 
 ## ❌ Skip this Cisco Packet tracer was giving me problems (too much limitations)❌
 
 
-## 📌 Overview
+## Overview
 
 This document describes the **Voice VLAN design** I will use in the network.  
 Each department and floor has its **own dedicated Voice VLAN and subnet** to support **IP phones (VoIP)**.
 
 Separating voice traffic from data traffic helps improve:
 
-- 📈 Call quality
-- 🔒 Security
-- 🛠️ Network management
+- Call quality
+- Security
+- Network management
 
 ---
 
@@ -23,7 +23,7 @@ Separating voice traffic from data traffic helps improve:
 
 ---
 
-## 🎯 Design Goals
+## Design Goals
 
 - Assign **one Voice VLAN per floor or department**
 - Use **clear VLAN numbering**
@@ -32,7 +32,7 @@ Separating voice traffic from data traffic helps improve:
 
 ---
 
-## 🏥 Voice VLANs by Floor & Department
+## Voice VLANs by Floor & Department
 
 | Department / Location | Voice VLAN ID | Subnet | Subnet Size | Purpose |
 |----------------------|---------------|--------|-------------|---------|
@@ -44,13 +44,13 @@ Separating voice traffic from data traffic helps improve:
 
 ---
 
-## 🌐 IP Addressing Notes
+## IP Addressing Notes
 
 - The **first usable IP address** in each subnet is used as the **default gateway**
 
 ---
 
-## 🔊 Why Separate Voice VLANs?
+## Why Separate Voice VLANs?
 
 Using dedicated Voice VLANs allows the network to:
 - Prioritize voice traffic (QoS)
@@ -60,7 +60,6 @@ Using dedicated Voice VLANs allows the network to:
 
 ---
 
-## 📝 Summary
+##  Summary
 - Each floor and department has a **dedicated Voice VLAN**
 - Voice VLANs use **private IP addressing**
-
