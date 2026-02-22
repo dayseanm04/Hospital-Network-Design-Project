@@ -1,4 +1,4 @@
-# 🏥 02 – Hospital Department Analysis
+# 02 – Hospital Department Analysis
 
 The goal is to understand device counts, employee distribution, and network demand so the network can be designed with the right capacity, segmentation, and performance.
 
@@ -6,7 +6,7 @@ The information below is based on the hospital’s floor-by-floor device and sta
 
 ---
 
-## 📌 Floor 1 – Emergency & Patient Access  
+## Floor 1 – Emergency & Patient Access  
 Floor 1 contains the highest-priority departments that require fast access, low latency, and strong reliability.
 
 ### Departments
@@ -35,7 +35,7 @@ Floor 1 contains the highest-priority departments that require fast access, low 
 
 ---
 
-## 📌 Floor 2 – Administration, HR & IT  
+## Floor 2 – Administration, HR & IT  
 This floor contains mainly office-based departments that handle hospital operations and sensitive data.
 
 ### Departments
@@ -61,7 +61,7 @@ This floor contains mainly office-based departments that handle hospital operati
 
 ---
 
-## 📌 Floor 3 – Inpatient Care (ICU & General Care)  
+## Floor 3 – Inpatient Care (ICU & General Care)  
 This floor includes critical departments that require constant uptime for patient monitoring and communication.
 
 ### Departments
@@ -85,7 +85,7 @@ This floor includes critical departments that require constant uptime for patien
 
 ---
 
-## 📌 Floor 4 – Specialty Care, Clinics & Final Inpatient Rooms  
+## Floor 4 – Specialty Care, Clinics & Final Inpatient Rooms  
 This floor serves specialized care units and additional inpatient rooms.
 
 ### Departments
@@ -110,7 +110,7 @@ This floor serves specialized care units and additional inpatient rooms.
 
 ---
 
-## 📌 Hospital Summary
+## Hospital Summary
 
 | Category | Total |
 |---------|-------|
