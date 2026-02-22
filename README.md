@@ -77,6 +77,24 @@ A dedicated internal services segment hosts:
 - DNS Server
 - Syslog Server
 
+### Service Implementation Details
+
+- Static IP addressing for servers and IT Department
+- DHCP pools configured per VLAN
+- HSRP integrated with DHCP default gateway design
+- Centralized logging to Syslog server
+- NTP synchronization across all network devices
+
+---
+
+## Security Implementations
+
+- SSH-only remote device management
+- Local authentication configured
+- Standard ACL restricting management access to IT Department devices
+- VLAN-based network segmentation
+- Port Security on access switches
+- Loopback interfaces configured for routing stability and management
 
 ## 📂 Project Structure
 
