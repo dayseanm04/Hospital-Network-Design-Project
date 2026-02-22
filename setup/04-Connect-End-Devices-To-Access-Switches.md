@@ -1,4 +1,4 @@
-# 🔌 04 – Connect End Devices to Access Switches (ASW)
+# 04 – Connect End Devices to Access Switches (ASW)
 
 ### Floor 1
 
