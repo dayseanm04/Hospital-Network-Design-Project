@@ -3,7 +3,8 @@
 ## Reference Toplogy
 
 <img width="1034" height="629" alt="toplogy" src="https://github.com/user-attachments/assets/5ee324f3-8d54-45f6-9cbf-4264a7588f7d" />
-<img width="1034" height="629" alt="toplogy" src="https://github.com/user-attachments/assets/2107ad5d-9e59-4c62-a615-5512e7488b2b" />
+<img width="975" height="298" alt="2" src="https://github.com/user-attachments/assets/3a2ee9ea-95d3-44bc-a49d-231fb042781d" />
+
 
 ## Project Overview
 
