@@ -1,4 +1,4 @@
-# 📘 Device Inventory – Setup Overview
+# Device Inventory – Setup Overview
 
 I will design the network using a Three-Tier Architecture to create a scalable and hierarchical network structure.
 This architecture breaks the network into three layers: 
@@ -11,7 +11,7 @@ Note: I may be updated some of the devices as the project evolves (When its nece
 
 ---
 
-# 🧠 1. Core Layer Devices (Tier 1)
+# 1. Core Layer Devices (Tier 1)
 
 ### Core Routers
 
@@ -26,7 +26,7 @@ Note: I may be updated some of the devices as the project evolves (When its nece
 
 ---
 
-# 🏛️ 2. Distribution Layer Devices (Tier 2)
+#  2. Distribution Layer Devices (Tier 2)
 
 These switches handle routing for VLANs, inter-VLAN connectivity and redundancy.
 
@@ -38,7 +38,7 @@ These switches handle routing for VLANs, inter-VLAN connectivity and redundancy.
 
 ---
 
-# 🏢 3. Access Layer Devices (Tier 3)
+#  3. Access Layer Devices (Tier 3)
 
 These switches connect end devices (PCs, phones and printers) on each floor of the hospital.
 
