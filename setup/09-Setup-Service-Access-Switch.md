@@ -1,6 +1,6 @@
-# 🖧 Setup a Service Switch (Service-ASW)
+# Setup a Service Switch (Service-ASW)
 
-## 📌 Overview
+## Overview
 The **Service Access Switch (Service-ASW)** is used to connect and support internal network services such as **DHCP**.  
 It acts as a dedicated switch for servers that provide essential services to the hospital network.
 
@@ -13,7 +13,7 @@ This setup step focuses on preparing the Service-ASW by:
 
 ---
 
-## 🧱 Device Information
+## Device Information
 
 | Attribute | Value |
 |---------|------|
@@ -25,9 +25,9 @@ This setup step focuses on preparing the Service-ASW by:
 
 ---
 
-## 🔌 Physical Connectivity
+## Physical Connectivity
 
-### 🔗 Uplink Connections
+### Uplink Connections
 
 | Service-ASW Interface | Connected Device | Remote Interface |
 |---------------------|-----------------|-----------------|
@@ -40,7 +40,7 @@ I configured Interface descriptions on **Service-ASW**, **DSW1**, and **DSW2** t
 
 ---
 
-## 🏷 Hostname Configuration
+## Hostname Configuration
 
 | Device | Action |
 |------|-------|
@@ -49,12 +49,10 @@ I configured Interface descriptions on **Service-ASW**, **DSW1**, and **DSW2** t
 
 ---
 
-## 📝 Summary
+## Summary
 The Service-ASW has been successfully prepared with:
 - Documented physical connectivity
 - Clear interface descriptions across layers
-
-
 
 ## Referenct Network Diagram
 
