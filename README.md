@@ -1,12 +1,12 @@
-# 🏥Hospital Network Design Project
+# Hospital Network Design Project
 
 ## Project Overview
 
-This project is a **complete hospital network design and implementation** built in **Cisco Packet Tracer**.
+## Project Overview
 
-The goal is to design a **secure, reliable, and scalable enterprise network** that supports hospital departments, critical services, and IT management while following real-world networking best practices.
+This project is a large-scale enterprise hospital network designed and implemented using Cisco Packet Tracer to simulate a real-world production environment supporting approximately **500 users**.
 
-The project is organized in **stages**, starting from design and planning, then moving into implementation, security, testing, and troubleshooting.
+The network follows a **Three-Tier Hierarchical Architecture (Access, Distribution, Core)**
 
 ---
 
