@@ -1,11 +1,11 @@
-# 🌐 06 – ISP1 to Hospital Connection
+# 06 – ISP1 to Hospital Connection
 
 This document describes the **WAN connection between ISP1 and the hospital network**.  
 The connection provides external internet access to the hospital.
 
 ---
 
-## 📌 Connection Overview
+## Connection Overview
 
 The hospital connects to **ISP1** through the **core firewall** using a point-to-point /30 network.
 
@@ -25,7 +25,7 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 ---
 
-## 🌍 WAN IP Addressing
+## WAN IP Addressing
 
 | Device | Interface | IP Address | Subnet Mask | Network |
 |------|-----------|------------|-------------|---------|
@@ -40,7 +40,7 @@ The hospital connects to **ISP1** through the **core firewall** using a point-to
 
 <img width="656" height="309" alt="toplogy" src="https://github.com/user-attachments/assets/537ffd1a-d9d6-4c81-9758-98f69abc88d1" />
 
-## ✅ Verification
+##  Verification
 
 ### On ISP1-R1: show ip interface brief | include Port
 
