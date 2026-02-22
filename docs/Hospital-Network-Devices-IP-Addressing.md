@@ -1,4 +1,4 @@
-# 🌐 Network Devices IP Addressing Table
+# Network Devices IP Addressing Table
 
 This document contains the **IP addresses used by all network devices** in the Hospital Network Design project.
 
@@ -6,9 +6,9 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
-## 🧱 Core Layer
+## Core Layer
 
-### 🌍 ISP1 ↔ Edge Rotuer 1
+### ISP1 ↔ Edge Rotuer 1
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
@@ -16,7 +16,7 @@ The information is grouped by **network layer** and **type of connection** so it
 | ISP1-R1 → HS-EDGE-R1 | HS-EDGE-R1 Port Channel 15| 69.45.12.2 /30 | 69.45.12.0 /30 |
 
 
-### 🌍 ISP2 ↔ Edge Rotuer 2
+### ISP2 ↔ Edge Rotuer 2
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
@@ -28,7 +28,7 @@ The information is grouped by **network layer** and **type of connection** so it
 <img width="638" height="290" alt="toplogy" src="https://github.com/user-attachments/assets/33757fd0-8292-4410-bf97-095fd0d36a47" />
 
 
-### 🌍 Edge Rotuer 1 ↔ Edge Rotuer 2
+### Edge Rotuer 1 ↔ Edge Rotuer 2
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
@@ -41,14 +41,14 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
-### 🔐 Edge Rotuer 1 ↔ Core Firewall 1
+### Edge Rotuer 1 ↔ Core Firewall 1
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
 | HS-EDGE-R1 → HS-CORE-FW1 | HS-EDGE-R1 Port Channel 1 | 10.200.0.1 /30 | 10.200.0.0 /30 |
 | HS-EDGE-R1 → HS-CORE-FW1 | HS-CORE-FW1 Port Channel 1 | 10.200.0.2 /30 | 10.200.0.0 /30 |
 
-### 🔐 Edge Rotuer 2 ↔ Core Firewall 2
+### Edge Rotuer 2 ↔ Core Firewall 2
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
@@ -61,14 +61,14 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
-## 🧭 Core Firewall 1 ↔ Distribution Switch 1
+## Core Firewall 1 ↔ Distribution Switch 1
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
 | HS-CORE-FW1 → DSW1 | HS-CORE-FW1 Port Channel 20 | 10.255.0.1 /30 | 10.255.0.0 /30 |
 | HS-CORE-FW1 → DSW1 | DSW1 Port Channel 20 | 10.255.0.2 /30 | 10.255.0.0 /30 |
 
-## 🧭 Core Firewall 1 ↔ Distribution Switch 1
+## Core Firewall 1 ↔ Distribution Switch 1
 
 | Connection | Interface | IP Address | Network |
 |-----------|----------|-----------|--------|
@@ -81,10 +81,10 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
-## 🏢 Distribution Layer ↔ Access Layer  
+## Distribution Layer ↔ Access Layer  
 *(All links below are **Layer 3 LACP EtherChannels**)*
 
-### 🧑‍⚕️ Floor 1
+### Floor 1
 
 | Connection | Port-Channel | IP Address | Network |
 |-----------|-------------|-----------|--------|
@@ -99,7 +99,7 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
-### 🏥 Floor 2
+### Floor 2
 
 | Connection | Port-Channel | IP Address | Network |
 |-----------|-------------|-----------|--------|
@@ -114,7 +114,7 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
-### 🏬 Floor 3
+### Floor 3
 
 | Connection | Port-Channel | IP Address | Network |
 |-----------|-------------|-----------|--------|
@@ -129,7 +129,7 @@ The information is grouped by **network layer** and **type of connection** so it
 
 ---
 
-## 🧰 Distribution Layer ↔ Service Access Switch
+## Distribution Layer ↔ Service Access Switch
 
 | Connection | Port-Channel | IP Address | Network |
 |-----------|-------------|-----------|--------|
