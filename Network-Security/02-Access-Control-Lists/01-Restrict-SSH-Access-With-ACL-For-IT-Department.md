@@ -1,10 +1,10 @@
-# 🔒 Restrict SSH Access With ACL for IT Department
+# Restrict SSH Access With ACL for IT Department
 
 In this task, I restricted **SSH (VTY) access** on **all network devices** so that **only IT Department hosts** are allowed to remotely manage the network. This improves security by ensuring that remote access is limited to authorized systems only.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Allow **SSH access only from IT Department PCs**
 - Block all other remote access attempts
@@ -12,7 +12,7 @@ In this task, I restricted **SSH (VTY) access** on **all network devices** so th
 
 ---
 
-## 🧩 IT Department Hosts Allowed
+## IT Department Hosts Allowed
 
 | Device | IP Address |
 |------|------------|
@@ -21,9 +21,9 @@ In this task, I restricted **SSH (VTY) access** on **all network devices** so th
 
 ---
 
-## 🛠️ Step 1 - Create a Standard ACL
+## Step 1 - Create a Standard ACL
 
-#### 🔷 do this on all of the network devices
+#### do this on all of the network devices
 
 Create an access control list that **permits only IT Department IP addresses**:
 
@@ -36,9 +36,9 @@ ip access-list standard Allow-SSH
 
 **Note: this done in global config mode**
 
-**Note: 💡 Any IP address not explicitly permitted will be denied by default.**
+**Note: Any IP address not explicitly permitted will be denied by default.**
 
-## 🖥️ Step 2 - Configure VTY Lines
+## Step 2 - Configure VTY Lines
 
 ```bash
 line vty 0 15
@@ -50,7 +50,7 @@ logging synchronous
 access-class Allow-SSH in
 ```
 
-### 🔍 What this does:
+### What this does:
 
 - Requires local authentication
 - Limits VTY sessions to 2
@@ -72,4 +72,3 @@ IT-PC1 sucessfully SSH into F1-ASW1
 ### 🔶 Note 🔶: I will use the loopback IP address on each network device for management purposes. This provides a stable and consistent IP for remote access and monitoring, even if physical interfaces go down.
 
 ### Reference loopback IPs ➡️ [Here](/docs/Loopback-Interfaces-Reference.md)
-
