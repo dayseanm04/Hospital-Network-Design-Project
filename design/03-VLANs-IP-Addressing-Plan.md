@@ -1,4 +1,4 @@
-# 🌐 03 – VLANs IP Addressing Plan
+# 03 – VLANs IP Addressing Plan
 
 For this IP addressing plan I will use **VLSM (Variable Length Subnet Masking)** to allocate the right number of IP addresses to each hospital department.
 <br/>
@@ -6,7 +6,7 @@ Each floor uses a separate **/24 network**
 
 ---
 
-# 🧩 Floor 1 – IP Addressing (172.16.1.0/24)
+# Floor 1 – IP Addressing (172.16.1.0/24)
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|---------|
@@ -27,7 +27,7 @@ Each floor uses a separate **/24 network**
 
 ---
 
-# 🧩 Floor 2 – IP Addressing (172.16.2.0/24)
+# Floor 2 – IP Addressing (172.16.2.0/24)
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
@@ -45,7 +45,7 @@ Each floor uses a separate **/24 network**
 
 ---
 
-# 🧩 Floor 3 – IP Addressing (172.16.3.0/24)
+# Floor 3 – IP Addressing (172.16.3.0/24)
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
@@ -63,7 +63,7 @@ Each floor uses a separate **/24 network**
 
 ---
 
-# 🧩 Floor 4 – IP Addressing (172.16.4.0/24)
+# Floor 4 – IP Addressing (172.16.4.0/24)
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
@@ -80,7 +80,7 @@ Each floor uses a separate **/24 network**
 **Floor 4 Total Allocated IPs:** about 214  
 **Floor 4 Total Devices:** about 120  
 
-## 🧩 Security Stations & Receptionists Addressing (172.16.5.0/26)
+## Security Stations & Receptionists Addressing (172.16.5.0/26)
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
@@ -89,13 +89,13 @@ Each floor uses a separate **/24 network**
 | Loading Dock / Supply / Supply Chain / Purchasing  | 172.16.7.0/27 | 255.255.255.224 | .1 - .30 | about 15 | 30 |
 
 
-## 🧩 Servers Addressing (10.10.10.0/27)
+## Servers Addressing (10.10.10.0/27)
 
 | Department | Subnet | Mask | Usable IP Range | Devices | Usable IP |
 |-----------|--------|------|------------------|---------|----------|
 | Server | 10.10.10.0/27 | 255.255.255.224 | .1 – .30 | about 10 | 30|
 
-## 🧩IT Department (10.50.50.0/26)
+## T Department (10.50.50.0/26)
 
 | Department | Subnet  | Mask   | Usable IP Range | Devices | Usable IP |
 |--------|--------------|----------------|-----------------|---------|-------|
@@ -103,7 +103,7 @@ Each floor uses a separate **/24 network**
 
 ---
 
-# ✅ Summary of Addressing Plan
+# Summary of Addressing Plan
 
 | Floor | Total IPs Allocated | Total Devices | Notes |
 |-------|----------------------|---------------|--------|
@@ -114,7 +114,7 @@ Each floor uses a separate **/24 network**
 
 ---
 
-# 📘 Notes
+# Notes
 
 - Each floor uses its own **/24 network** to keep addressing simple.  
 - I divided the using VLSM to avoid wasting IP addresses.  
@@ -123,10 +123,6 @@ Each floor uses a separate **/24 network**
 - Security stations share the same subnet **172.16.5.0/26**
 - The devices are strictly PCs, IP Phones and printers. It dosent include hospital equipments sinces I cant simulate that in Packet Tracer
 
----
-
 This IP plan will be used later in the **VLAN design**, **routing config**, and **device configuration** sections.
-
----
 
 **Note: the number of divices might be off a little, it wont affect the network**
