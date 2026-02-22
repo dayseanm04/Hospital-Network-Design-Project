@@ -1,10 +1,10 @@
-# 🔒 Disable CDP on All Network Devices
+# Disable CDP on All Network Devices
 
 In this task, I disabled **Cisco Discovery Protocol (CDP)** on all network devices in the hospital network to improve **security** and reduce **unnecessary control-plane traffic**.
 
 By disabling CDP, devices no longer advertise information such as **hostnames, interface details, and platform types** to neighboring devices, which helps limit information exposure and slightly reduces CPU usage.
 
-## 🎯 Objective
+## Objective
 
 - ✅ Disable CDP globally on all network devices
 - ✅ Prevent devices from sharing neighbor information
@@ -16,14 +16,14 @@ By disabling CDP, devices no longer advertise information such as **hostnames, i
 
 ---
 
-## 🧠 Background
+## Background
 
 - CDP is **enabled by default** on Cisco devices  
 - In this project, CDP was enabled on **all network devices except the firewall**
 
 ---
 
-## 🔍 Check CDP on DSW1
+## Check CDP on DSW1
 
 ```bash
 show cdp neighbors
@@ -31,9 +31,9 @@ show cdp neighbors
 
 <img width="803" height="171" alt="DSW1-show-cdp" src="https://github.com/user-attachments/assets/a75f8a6e-0131-419c-99b7-fa39200663e9" />
 
-## ⚙️ Disable CDP (Apply on All Network Devices)
+## Disable CDP (Apply on All Network Devices)
 
-#### 🟢 Enter global configuration mode and disable CDP:
+#### Enter global configuration mode and disable CDP:
 
 ```bash
 no cdp run
@@ -41,9 +41,9 @@ no cdp run
 
 **Note**  This command disables CDP globally on the device, stopping all CDP advertisements and neighbor discovery.
 
-### 🔎 Verification
+### Verification
 
-#### 🟢 After disabling CDP, verify that it is no longer running :
+#### After disabling CDP, verify that it is no longer running :
 
 On DSW1
 
