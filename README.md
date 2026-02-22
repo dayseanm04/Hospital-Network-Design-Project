@@ -1,5 +1,10 @@
 # Hospital Network Design Project
 
+## Reference Toplogy
+
+<img width="1034" height="629" alt="toplogy" src="https://github.com/user-attachments/assets/5ee324f3-8d54-45f6-9cbf-4264a7588f7d" />
+<img width="1034" height="629" alt="toplogy" src="https://github.com/user-attachments/assets/2107ad5d-9e59-4c62-a615-5512e7488b2b" />
+
 ## Project Overview
 
 This project is a large-scale enterprise hospital network designed and implemented using Cisco Packet Tracer to simulate a real-world production environment supporting approximately **500 users**.
