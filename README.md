@@ -38,6 +38,8 @@ The network follows a **Three-Tier Hierarchical Architecture (Access, Distributi
 - HSRP configured for redundant default gateways
 - Port Security enabled on access ports
 
+Note there are multuple users per floor, I used 2 Access switches per floor for demostratation.
+
 ## 📂 Project Structure
 
 | Folder / File | Purpose |
