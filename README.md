@@ -51,6 +51,15 @@ Note there are multuple users per floor, I used 2 Access switches per floor for 
 
 ---
 
+### Core Layer
+
+- Two core firewalls (`HS-CORE-FW1`, `HS-CORE-FW2`)
+- Redundant Layer 3 EtherChannels to Edge Routers
+- High-availability backbone design
+
+---
+
+
 
 ## 📂 Project Structure
 
