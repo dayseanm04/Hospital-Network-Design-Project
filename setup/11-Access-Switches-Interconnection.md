@@ -1,6 +1,6 @@
-# 🔗 Access Switches Interconnection
+# Access Switches Interconnection
 
-## 📌 Purpose
+## Purpose
 This document describes the **interconnections between Access Switches (ASWs)** in the hospital network.  
 These links provide **redundancy and Layer 2 connectivity** between access layer switches on the same floor.
 
@@ -10,7 +10,7 @@ These links provide **redundancy and Layer 2 connectivity** between access layer
 
 ---
 
-## 🏥 Access Layer Interconnection Overview
+## Access Layer Interconnection Overview
 
 - Access switches are interconnected **per floor**
 - Each floor has **two access switches**
@@ -21,9 +21,9 @@ These links provide **redundancy and Layer 2 connectivity** between access layer
 
 ---
 
-## 🔌 Physical Connection Table
+## Physical Connection Table
 
-### 🏢 Floor 1 Access Switches
+### Floor 1 Access Switches
 | From Device | Interface | To Device | Interface |
 |---|---|---|---|
 | F1-ASW1 | G1/1/1 | F1-ASW2 | G1/1/1 |
@@ -31,7 +31,7 @@ These links provide **redundancy and Layer 2 connectivity** between access layer
 
 ---
 
-### 🏢 Floor 2 Access Switches
+### Floor 2 Access Switches
 | From Device | Interface | To Device | Interface |
 |---|---|---|---|
 | F2-ASW1 | G1/1/1 | F2-ASW2 | G1/1/1 |
@@ -39,7 +39,7 @@ These links provide **redundancy and Layer 2 connectivity** between access layer
 
 ---
 
-### 🏢 Floor 3 Access Switches
+### Floor 3 Access Switches
 | From Device | Interface | To Device | Interface |
 |---|---|---|---|
 | F3-ASW1 | G1/1/1 | F3-ASW2 | G1/1/1 |
@@ -47,5 +47,4 @@ These links provide **redundancy and Layer 2 connectivity** between access layer
 
 ---
 
-## ✅ Next: [Configure Layer 2 EtherChannel ASWs interconnections](/implementation-tasks/01-Redundancy/04-Configure-L2-LACP-EtherChannel-Between-Access-Switches.md)
-
+## Next: [Configure Layer 2 EtherChannel ASWs interconnections](/implementation-tasks/01-Redundancy/04-Configure-L2-LACP-EtherChannel-Between-Access-Switches.md)
