@@ -1,6 +1,6 @@
-# 🔁 HSRP Gateway Redundancy Design for Hospital Network
+#  SRP Gateway Redundancy Design for Hospital Network
 
-## 📌 Overview
+## Overview
 This document describes the **HSRP (Hot Standby Router Protocol) design** used at the **access layer** of the hospital network.
 
 HSRP is implemented to provide:
@@ -10,7 +10,7 @@ HSRP is implemented to provide:
 
 ---
 
-## 🧠 HSRP Design Principles
+## HSRP Design Principles
 
 | Design Element | Description |
 |---------------|------------|
@@ -22,7 +22,7 @@ HSRP is implemented to provide:
 
 ---
 
-## 🌐 HSRP Virtual IP Strategy
+## HSRP Virtual IP Strategy
 
 - Each VLAN uses an **HSRP Virtual IP (VIP)** as the default gateway
 - The VIP is the **3rd usable IP address** in the subnet
@@ -30,7 +30,7 @@ HSRP is implemented to provide:
 
 ---
 
-## 🧱 Floor 1 – HSRP Role Design
+## Floor 1 – HSRP Role Design
 
 ### VLANs
 - **VLAN 101** – Emergency Department  
@@ -47,7 +47,7 @@ HSRP is implemented to provide:
 
 ---
 
-## 🧱 Floor 2 – HSRP Role Design
+## Floor 2 – HSRP Role Design
 
 ### VLANs
 - **VLAN 200** – Medical Records  
@@ -64,7 +64,7 @@ HSRP is implemented to provide:
 
 ---
 
-## 🧱 Floor 3 – HSRP Role Design
+## Floor 3 – HSRP Role Design
 
 ### VLANs
 - **VLAN 300** – Nurse Offices  
@@ -84,14 +84,14 @@ HSRP is implemented to provide:
 
 ---
 
-## 📝 Design Notes
+## Design Notes
 - Only **access-layer switches** participate in HSRP
 - Active/standby roles are **intentionally alternated per VLAN** to:
   - Balance traffic load
   - Avoid a single access switch becoming a bottleneck
   - If the active switch fails, the standby switch **automatically takes over** as the default gateway
 
-## ✅ Benefits of This Design
+## Benefits of This Design
 - No single point of failure at the access layer
 - Efficient use of the access switches
-- Simplifies troubleshooting 
+- Simplifies troubleshooting
