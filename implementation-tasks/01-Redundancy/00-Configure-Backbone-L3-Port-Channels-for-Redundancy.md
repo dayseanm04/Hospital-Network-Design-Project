@@ -81,7 +81,7 @@ interface g1/2
 
 ---
 
-## 2️⃣ Core ↔ Distribution Redundant Links
+# 2️⃣ Core ↔ Distribution Redundant Links
 
 ## HS-CORE-FW1 ↔ DSW1
 
