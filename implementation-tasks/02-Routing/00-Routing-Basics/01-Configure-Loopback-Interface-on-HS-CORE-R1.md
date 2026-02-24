@@ -1,4 +1,4 @@
-# 🌐 Enable Routing and Configure Loopback Interfaces
+#  Enable Routing and Configure Loopback Interfaces
 
 **Purpose:** Configure **Loopback interface** on HS-CORE-R1 Loopback interfaces used for routing, testing, and router IDs for dynamic routing protocols such as OSPF.
 
@@ -12,19 +12,19 @@
 
 ---
 
-## 🧭 What I will do in this task:
-- 🔁 Configure **Loopback0** interfaces on HS-CORE-R1
+## What I will do in this task:
+- Configure **Loopback0** interfaces on HS-CORE-R1
 
 ---
 
-## 🛠️  Configure Loopbacks on **HS-CORE-R1**
+##  Configure Loopbacks on **HS-CORE-R1**
 
 | HS-CORE-R1 | Loopback IP |
 |---|---|
 | HS-CORE-R1 | 10.0.0.15/32 |
 
 
-### 💠 Steps
+### Steps
 
 ```bash
 interface loopback0
@@ -34,12 +34,10 @@ end
 
 ---
 
-## ✅ Verification
+## Verification
 
-### 💠 Verify Loopback Interface
+### Verify Loopback Interface
 
 #### On HS-CORE-R1 show ip interface brief | include Loopback
 
 <img width="800" height="85" alt="HS-CORE-R1-Loopback-int" src="https://github.com/user-attachments/assets/faf2cd4d-5ffd-41db-a76b-11b4f5430751" />
-
-
