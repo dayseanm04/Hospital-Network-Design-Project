@@ -1,6 +1,6 @@
-# 🌐 Configure Default Routes on Hospital Edge Routers
+# Configure Default Routes on Hospital Edge Routers
 
-## 📌 Overview
+## Overview
 In this task, I will configure **default routes** on the Hospital **Edge Routers** to  **ISP1**. 
 
 
@@ -10,30 +10,30 @@ In this task, I will configure **default routes** on the Hospital **Edge Routers
 
 ---
 
-## 🎯 Objective
+## Objective
 - Configure a **default route** pointing towards ISP1-R1
 - Advertise the default routes into the OSPF domain
 - Verify default route propagation to access switches
 
 ---
 
-## 🖧 Edge Router Default Route Configuration
+## Edge Router Default Route Configuration
 
-### 🔵 HS-EDGE-R1 (To ISP1 PortChannel 15)
+### HS-EDGE-R1 (To ISP1 PortChannel 15)
 
 ```bash
 ip route 0.0.0.0 0.0.0.0 69.45.12.1
 ```
 
-### 🔵 HS-EDGE-R2 (To ISP1 PortChannel 10)
+### HS-EDGE-R2 (To ISP1 PortChannel 10)
 
 ```bash
 ip route 0.0.0.0 0.0.0.0 100.45.12.1
 ```
 
-## 🔁 Advertise Default Route into OSPF
+## Advertise Default Route into OSPF
 
-### ♦️ On the Edge Routers (Area 0 – Backbone)
+### On the Edge Routers (Area 0 – Backbone)
 
 On HS-EDGE-R1 and HS-EDGE-R2:
 
@@ -42,7 +42,7 @@ router ospf 10
  default-information originate
 ```
 
-## 🔍 Verification
+## Verification
 
 #### show ip route on HS-EDGE-R1
 
