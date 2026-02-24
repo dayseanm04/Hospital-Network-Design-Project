@@ -1,11 +1,11 @@
-# 🔀 Configure EtherChannel Load Balancing for the L3 Port-Channels
+# Configure EtherChannel Load Balancing for the L3 Port-Channels
 
-## 📌 Overview
+## Overview
 This task, I will configure **EtherChannel load balancing** for all **Layer 3 Port-Channels** in the network.
 
 The **source–destination IP** load balancing method is used to ensure that packets belonging to the same traffic flow always use the same physical link within the Port-Channel.
 
-## 🎯 Objective
+## Objective
 - Configure a consistent load-balancing method across all devices
 - Improve bandwidth utilization while maintaining packet order
 
@@ -16,7 +16,7 @@ The **source–destination IP** load balancing method is used to ensure that pac
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 In Global config mode:
 
