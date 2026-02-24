@@ -85,6 +85,14 @@ ip address <assigned-IP> 255.255.255.255
 exit
 ```
 
+| Device | Loopback IP |
+| ------ | ----------- |
+| HS-EDGE-R1| 10.0.0.15 |
+| HS-EDGE-R2| 10.0.0.14 |
+
+### Steps (repeat on each The Edge Routers)
+
+
 ---
 
 ## Verification
@@ -117,7 +125,6 @@ exit
 
 <img width="762" height="82" alt="F3-ASW2-lo0" src="https://github.com/user-attachments/assets/73f313e6-612b-45e2-86a8-8d4aa9a2db29" />
 
-
 #### On Service-ASW show ip interface brief | include Loopback
 
 <img width="797" height="81" alt="Service-ASW-lo0" src="https://github.com/user-attachments/assets/2eed3041-0fd2-4af4-8020-a0a3b9853754" />
@@ -129,4 +136,3 @@ exit
 #### On DSW2 show ip interface brief | include Loopback
 
 <img width="759" height="83" alt="DSW2-lo0" src="https://github.com/user-attachments/assets/2e18a9ce-6ac0-4638-b552-a1f0fee9f918" />
-
