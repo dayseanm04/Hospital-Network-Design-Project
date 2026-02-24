@@ -37,6 +37,6 @@ ip route 200.10.0.0 255.255.255.0 100.45.12.1
 
 <img width="627" height="134" alt="E1" src="https://github.com/user-attachments/assets/8ab98eab-dfa4-466c-8f0e-ebc15ec6ab28" />
 
+#### On HS-EDGE-R2 show ip route static
 
-
-
+<img width="646" height="137" alt="E2" src="https://github.com/user-attachments/assets/9caa6717-f123-4749-b98e-834b147f05c9" />
