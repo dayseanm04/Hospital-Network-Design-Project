@@ -1,6 +1,6 @@
-# 🔁 Redundancy – Hospital Network Design
+# Redundancy – Hospital Network Design
 
-## 📌 Overview
+## Overview
 The **Redundancy** folder documents how **high availability and fault tolerance** are implemented in the Hospital Network Design project.
 
 Healthcare networks must remain operational at all times.  
@@ -10,7 +10,7 @@ All configurations follow **enterprise networking best practices** and are desig
 
 ---
 
-## 🎯 Goals of Redundancy
+## Goals of Redundancy
 
 - ✅ Ensure continuous network availability  
 - ✅ Increase bandwidth using bundled links  
@@ -20,10 +20,10 @@ All configurations follow **enterprise networking best practices** and are desig
 
 ---
 
-## 🧠 Design Highlights
+## Design Highlights
 
-- 🔗 **LACP (IEEE 802.3ad)** used for link aggregation
-- ⚡ Increased throughput by bundling multiple physical links
-- 🛑 Automatic failover if a link goes down
-- 🏥 Built to support hospital-critical systems (EMR, servers, etc)
-- 🧱 Fully integrated with the **core, distribution, and access layers**
+- **LACP (IEEE 802.3ad)** used for link aggregation
+- Increased throughput by bundling multiple physical links
+- Automatic failover if a link goes down
+- Built to support hospital-critical systems (EMR, servers, etc)
+- Fully integrated with the **core, distribution, and access layers**
