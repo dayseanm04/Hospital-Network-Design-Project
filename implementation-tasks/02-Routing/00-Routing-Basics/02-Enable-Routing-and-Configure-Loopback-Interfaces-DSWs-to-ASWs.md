@@ -1,4 +1,4 @@
-# 🌐 Enable Routing and Configure Loopback Interfaces
+# Enable Routing and Configure Loopback Interfaces
 
 **Purpose:** Enable **Layer 3 routing** on all Distribution and Access switches and configure **Loopback interfaces** 
 used for routing, testing, and router IDs for dynamic routing protocols such as OSPF.
@@ -12,13 +12,13 @@ used for routing, testing, and router IDs for dynamic routing protocols such as 
 
 ---
 
-## 🧭 What I will do in this task:
-- ✅ Enable **IP routing** on all ASWs, DSWs, and the Service switch  
-- 🔁 Configure **Loopback0** interfaces with unique IP addresses  
+## What I will do in this task:
+- Enable **IP routing** on all ASWs, DSWs, and the Service switch  
+- Configure **Loopback0** interfaces with unique IP addresses  
 
 ---
 
-## ✅ Devices Involved
+## Devices Involved
 - **Distribution Switches:** DSW1, DSW2  
 - **Access Switches:**  
   - F1-ASW1, F1-ASW2  
@@ -33,7 +33,7 @@ used for routing, testing, and router IDs for dynamic routing protocols such as 
 
 ### 1️⃣ Enable routing on ALL Access and Distribution switches
 
-#### 💠 On **each switch**, enter global configuration mode and enable routing:
+#### On **each switch**, enter global configuration mode and enable routing:
 
 ```bash
 ip routing
@@ -43,7 +43,7 @@ ip routing
 
 ---
 
-## 🔁 Part 2 - Configure Loopback Interfaces
+## Part 2 - Configure Loopback Interfaces
 
 **Why Loopbacks?** Loopback interfaces are always up and are commonly used for  Router IDs (OSPF), a stable management IPs and for Routing verification and testing
 
@@ -62,7 +62,7 @@ ip routing
 | Service-ASW | 10.0.0.7/32 |
 
 
-### 💠 Steps (repeat on each ASW):
+### Steps (repeat on each ASW):
 
 ```bash
 interface loopback0
@@ -77,7 +77,7 @@ exit
 | DSW1 | 10.0.0.10/32 |
 | DSW2 | 10.0.0.11/32 |
 
-###  💠 Steps (repeat on each DSW):
+### Steps (repeat on each DSW):
 
 ```bash
 interface loopback0
@@ -87,10 +87,9 @@ exit
 
 ---
 
-## ✅ Verification
+## Verification
 
-### 💠 Verify Loopback Interfaces
-
+### Verify Loopback Interfaces
 
 #### On F1-ASW1 show ip interface brief | include Loopback
 
