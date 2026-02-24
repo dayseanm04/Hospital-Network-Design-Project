@@ -1,6 +1,6 @@
-# 🔗 Configure Layer 3 EtherChannel for DSWs to ASWs
+# Configure Layer 3 EtherChannel for DSWs to ASWs
 
-## 📌 Overview
+## Overview
 In this task I will configure **Layer 3 EtherChannels** between the **Distribution Switches (DSW1 and DSW2)** and the **Access Switches (ASWs)**.
 
 I removed the **Layer 2 port-channels** and replaced with **routed EtherChannels** using **LACP**.  
@@ -20,11 +20,11 @@ This approach provides:
 
 ---
 
-## 🧹 Part A - Remove OLD L2 EtherChannels (Trunks)
+## Part A - Remove OLD L2 EtherChannels (Trunks)
 
 ### 1️⃣ Remove L2 Port-Channels on **DSW1 and DSW2 (Po1–Po6)**
 
-#### 🔷In global config moderemove Po1 through Po6 (repeat for each Po#):  
+#### In global config moderemove Po1 through Po6 (repeat for each Po#):  
 
 ```bash
 no interface po1
@@ -32,7 +32,7 @@ no interface po1
 
 **repeat for po2–po6**
 
-### 🔷 Then revert the member interfaces (**G1/0/1–12**):  
+### Then revert the member interfaces (**G1/0/1–12**):  
 
 Remove trunk/L2 configurations and re-enable interfaces:  
 
@@ -47,21 +47,21 @@ no shutdown
 
 ### 2️⃣ Remove L2 Port-Channels on **Access Switches (Po1–Po2)**
 
-#### 🔷 On **each ASW**, remove the existing L2 port-channels:  
+#### On **each ASW**, remove the existing L2 port-channels:  
 
 ```bash
 no interface po1
 no interface po2
 ```
 
-#### 🔷 Then remove the trunk allowed VLANs and bring links up:  
+#### Then remove the trunk allowed VLANs and bring links up:  
 
 ```bash
 no switchport trunk allowed vlan #,#
 no shutdown
 ```
 
-## 🔁 Part B - Configure L3 LACP EtherChannels (Routed Port-Channels)
+## Part B - Configure L3 LACP EtherChannels (Routed Port-Channels)
 
 ### 3️⃣ L3 EtherChannel Command Template (Use This Everywhere)
 On **both sides** of the EtherChannel:
@@ -80,7 +80,7 @@ On **both sides** of the EtherChannel:
 
 
 
-## 🔄 Design Change Summary
+## Design Change Summary
 
 | Before | After |
 |------|------|
@@ -88,15 +88,15 @@ On **both sides** of the EtherChannel:
 | Trunk links | Point-to-point routed links |
 
 
-## 🌐 Layer 3 Point-to-Point Networks
+## Layer 3 Point-to-Point Networks
 
 Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-## 🏢 Floor 1 – Access Switches
+## Floor 1 – Access Switches
 
-### 🔹 DSW1 ↔ F1-ASW1
+### DSW1 ↔ F1-ASW1
 
 | Item | Details |
 |----|--------|
@@ -107,7 +107,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-### 🔹 DSW2 ↔ F1-ASW1
+### DSW2 ↔ F1-ASW1
 
 | Item | Details |
 |----|--------|
@@ -118,7 +118,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-### 🔹 DSW1 ↔ F1-ASW2
+### DSW1 ↔ F1-ASW2
 
 | Item | Details |
 |----|--------|
@@ -129,7 +129,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-### 🔹 DSW2 ↔ F1-ASW2
+### DSW2 ↔ F1-ASW2
 
 | Item | Details |
 |----|--------|
@@ -140,9 +140,9 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-## 🏥 Floor 2 – Access Switches
+## Floor 2 – Access Switches
 
-### 🔹 DSW1 ↔ F2-ASW1
+### DSW1 ↔ F2-ASW1
 
 | Item | Details |
 |----|--------|
@@ -153,7 +153,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-### 🔹 DSW1 ↔ F2-ASW2
+### DSW1 ↔ F2-ASW2
 
 | Item | Details |
 |----|--------|
@@ -164,7 +164,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-### 🔹 DSW1 ↔ F2-ASW1
+### DSW1 ↔ F2-ASW1
 
 | Item | Details |
 |----|--------|
@@ -176,7 +176,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 ---
 
 
-### 🔹 DSW2 ↔ F2-ASW2
+### DSW2 ↔ F2-ASW2
 
 | Item | Details |
 |----|--------|
@@ -187,9 +187,9 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-## 🏬 Floor 3 – Access Switches
+## Floor 3 – Access Switches
 
-### 🔹 DSW1 ↔ F3-ASW1
+### DSW1 ↔ F3-ASW1
 
 | Item | Details |
 |----|--------|
@@ -200,7 +200,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-### 🔹 DSW2 ↔ F3-ASW1
+### DSW2 ↔ F3-ASW1
 
 | Item | Details |
 |----|--------|
@@ -211,7 +211,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-### 🔹 DSW1 ↔ F3-ASW2
+### DSW1 ↔ F3-ASW2
 
 | Item | Details |
 |----|--------|
@@ -222,7 +222,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-### 🔹 DSW2 ↔ F3-ASW2
+### DSW2 ↔ F3-ASW2
 
 | Item | Details |
 |----|--------|
@@ -233,7 +233,7 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 
 ---
 
-## ✅ Verification
+## Verification
 
 ### show etherchannel summary on DSW1
 
@@ -300,16 +300,3 @@ Each DSW–ASW connection uses a dedicated **/30 subnet**.
 ### show ip int brief | include Port-channel on F3-ASW2
 
 <img width="768" height="101" alt="F3-ASW2-show-ip-int-brief" src="https://github.com/user-attachments/assets/ed3d3b61-5d3c-40ce-a9e8-1f2008ee2774" />
-
-
-
-
-
-
-
-
-
-
-
-
-
