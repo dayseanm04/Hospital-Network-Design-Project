@@ -15,3 +15,12 @@ The internet network used in this project is:
 - Demonstrate internet reachability using static routing
 
 ---
+
+# Configuration
+
+## On HS-EDGE-R1
+
+```plaintext
+ip route 200.10.0.0 255.255.255.0 69.45.12.1
+```
+
