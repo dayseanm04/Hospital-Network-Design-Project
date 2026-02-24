@@ -1,4 +1,4 @@
-# 🔗 01 – Configure L3 LACP EtherChannel between DSW1 ↔ DSW2
+# 01 – Configure L3 LACP EtherChannel between DSW1 ↔ DSW2
 
 In this task I will configure a **Layer 3 (routed) LACP EtherChannel**
 between **DSW1** and **DSW2**.
@@ -8,14 +8,14 @@ between **DSW1** and **DSW2**.
 <img width="504" height="275" alt="topology" src="https://github.com/user-attachments/assets/cbb3c6e7-dfce-4e76-bc63-76188936ada1" />
 
 
-### ✅ Why L3 EtherChannel here?
+### Why L3 EtherChannel here?
 - Keeps the inter-distribution link **routed** (no VLANs carried)
 - Reduces STP complexity since its a routed port
 - Provides **redundancy + bandwidth** using LACP
 
 ---
 
-## 🧠 Design Summary
+## Design Summary
 
 | Item | Value |
 |------|------|
@@ -30,14 +30,14 @@ between **DSW1** and **DSW2**.
 
 ---
 
-## ✅ Step-by-Step 
+## Step-by-Step 
 
 ### 1️⃣ Enable Routing on the Distribution Switches
 On each distribution switch, enable Layer 3 routing:
 - Enter global configuration mode
 - Enable routing on the switch (`ip routing`)
 
-> 📌 Only required if routing is not already enabled.
+> Only required if routing is not already enabled.
 
 ---
 
@@ -94,7 +94,7 @@ Assign a /30 network for the routed Port-Channel:
 
 ---
 
-## 🔍 Verification
+## Verification
 
 Run these checks on **both DSW1 and DSW2**:
 
