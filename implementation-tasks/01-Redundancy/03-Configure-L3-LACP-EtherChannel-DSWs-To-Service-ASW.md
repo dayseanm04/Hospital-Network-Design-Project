@@ -1,6 +1,6 @@
-# 🔗 Configure Layer 3 EtherChannel for DSWs to Service Switch
+# Configure Layer 3 EtherChannel for DSWs to Service Switch
 
-## 📌 Overview
+## Overview
 
 In this task I will configure **Layer 3 LACP EtherChannel** between the **distribution switches (DSW1 and DSW2)** and the **Service Access Switch (Service-ASW)**.
 
@@ -14,7 +14,7 @@ This provides **redundancy** and **higher bandwidth** for traffic going to and f
 
 ---
 
-## 🧱 Devices Involved
+## Devices Involved
 
 | Device | Role |
 |------|-----|
@@ -24,7 +24,7 @@ This provides **redundancy** and **higher bandwidth** for traffic going to and f
 
 ---
 
-## 🔌 Physical Connectivity
+## Physical Connectivity
 
 | Service-ASW Interface | Connected Device | Remote Interface |
 |---------------------|-----------------|-----------------|
@@ -35,7 +35,7 @@ This provides **redundancy** and **higher bandwidth** for traffic going to and f
 
 ---
 
-## 🌐 Layer 3 EtherChannel Design
+## Layer 3 EtherChannel Design
 
 Each DSW–Service-ASW connection uses a **point-to-point /30 network**, with IP addresses assigned to the **Port-Channel interfaces**.
 
@@ -43,7 +43,7 @@ Each DSW–Service-ASW connection uses a **point-to-point /30 network**, with IP
 
 ## 1️⃣ Configure L3 LACP EtherChannel: DSW1 ↔ Service-ASW
 
-### ✅ On DSW1 (Port-Channel 7)
+### On DSW1 (Port-Channel 7)
 
 ```bash
 interface G1/0/13-14
@@ -51,16 +51,16 @@ no switchport
 channel-group 7 mode active
 ```
 
-#### 🔷Configure Po7
+#### Configure Po7
 
 ```bash
 description To-Service-ASW
 ip address 10.255.2.1 255.255.255.252
 ```
 
-### ✅ On **Service-ASW** (Port-Channel 1)
+### On **Service-ASW** (Port-Channel 1)
 
-#### 🔷 Bundle uplinks to DSW1:
+#### Bundle uplinks to DSW1:
 
 ```bash
 interface range G1/0/23-24
@@ -68,8 +68,7 @@ no switchport
 channel-group 1 mode active
 ```
 
-
-#### 🔷Configure Po1
+#### Configure Po1
 
 ```bashdescription To-DSW1
 ip address 10.255.2.2 255.255.255.252
@@ -79,7 +78,7 @@ ip address 10.255.2.2 255.255.255.252
 
 ## 2️⃣ Configure L3 LACP EtherChannel: DSW2 ↔ Service-ASW
 
-### ✅ On DSW2 (Port-Channel 7)
+### On DSW2 (Port-Channel 7)
 
 ```bash
 interface G1/0/13-14
@@ -87,16 +86,16 @@ no switchport
 channel-group 7 mode active
 ```
 
-#### 🔷Configure Po7
+#### Configure Po7
 
 ```bash
 description To-Service-ASW
 ip address 10.255.2.5 255.255.255.252
 ```
 
-### ✅ On **Service-ASW** (Port-Channel 2)
+### On **Service-ASW** (Port-Channel 2)
 
-#### 🔷 Bundle uplinks to DSW1:
+#### Bundle uplinks to DSW1:
 
 ```bash
 interface range G1/0/21-22
@@ -105,7 +104,7 @@ channel-group 2 mode active
 ```
 
 
-#### 🔷Configure Po2
+#### Configure Po2
 
 ```bash
 description To-DSW2
@@ -114,9 +113,9 @@ ip address 10.255.2.6 255.255.255.252
 
 ---
 
-## 🔁 DSW1 ↔ Service-ASW EtherChannel
+## DSW1 ↔ Service-ASW EtherChannel
 
-### 📍 Logical Link Details
+### Logical Link Details
 
 | Item | Details |
 |----|--------|
@@ -129,9 +128,9 @@ ip address 10.255.2.6 255.255.255.252
 
 ---
 
-## 🔁 DSW2 ↔ Service-ASW EtherChannel
+## DSW2 ↔ Service-ASW EtherChannel
 
-### 📍 Logical Link Details
+### Logical Link Details
 
 | Item | Details |
 |----|--------|
@@ -144,7 +143,7 @@ ip address 10.255.2.6 255.255.255.252
 
 ---
 
-## ⚙ Routing Requirement
+## Routing Requirement
 
 | Device | Requirement |
 |------|------------|
@@ -155,7 +154,7 @@ This allows Layer 3 forwarding between the service Access Switch and the distrib
 
 ---
 
-## ✅ Verification 
+## Verification 
 
 ### show etherchannel summary on DSW1
 
