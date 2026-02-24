@@ -92,6 +92,17 @@ exit
 
 ### Steps (repeat on each The Edge Routers)
 
+| Device | OSPF Router ID |
+| ------ | ----------- |
+| HS-CORE-FW1| 10.0.0.20 |
+| HS-CORE-FW2| 10.0.0.21 |
+
+### Steps (repeat on each The Core Firewalls)
+
+```bash
+router ospf ProcessID
+router-id <IP>
+```
 
 ---
 
