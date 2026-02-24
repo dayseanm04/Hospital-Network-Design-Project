@@ -29,3 +29,14 @@ ip route 200.10.0.0 255.255.255.0 69.45.12.1
 ```plaintext
 ip route 200.10.0.0 255.255.255.0 100.45.12.1
 ```
+
+### Verification
+
+
+#### On HS-EDGE-R1 show ip route static
+
+<img width="627" height="134" alt="E1" src="https://github.com/user-attachments/assets/8ab98eab-dfa4-466c-8f0e-ebc15ec6ab28" />
+
+
+
+
