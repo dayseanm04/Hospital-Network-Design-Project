@@ -1,6 +1,6 @@
-# 🔁 Configure Backbone L3 Port-Channels for Redundancy
+# Configure Backbone L3 Port-Channels for Redundancy
 
-## 📌 Overview
+## Overview
 This task, I will implements**Layer 3 static Port-Channels** across the hospital backbone to provide:
 
 - High availability
@@ -14,7 +14,7 @@ The backbone includes:
 
 ---
 
-## 🧱 Backbone Interconnections
+## Backbone Interconnections
 
 The following Layer 3 Port-Channels form the redundant backbone:
 
@@ -29,9 +29,9 @@ The following Layer 3 Port-Channels form the redundant backbone:
 ---
 
 
-# 🧱 1️⃣ Edge ↔ Core Redundant Links
+# 1️⃣ Edge ↔ Core Redundant Links
 
-## 🔷 HS-EDGE-R1 ↔ HS-CORE-FW1
+## HS-EDGE-R1 ↔ HS-CORE-FW1
 
 #### On HS-EDGE-R1 in global config mode:
 
@@ -50,7 +50,7 @@ interface g1/2
  channel-group 1 mode on
 ```
 
-## 🔷 HS-EDGE-R2 ↔ HS-CORE-FW2
+## HS-EDGE-R2 ↔ HS-CORE-FW2
 
 #### On HS-EDGE-R2 in global config mode:
 
@@ -69,7 +69,7 @@ interface g1/2
  channel-group 1 mode on
 ```
 
-## 🔍 Verification
+## Verification
 
 ### show etherchannel summary on HS-EDGE-R1 ✅
 
@@ -81,9 +81,9 @@ interface g1/2
 
 ---
 
-## 🧱 2️⃣ Core ↔ Distribution Redundant Links
+## 2️⃣ Core ↔ Distribution Redundant Links
 
-## 🔷 HS-CORE-FW1 ↔ DSW1
+## HS-CORE-FW1 ↔ DSW1
 
 #### On HS-CORE-FW1 in global config mode:
 
@@ -101,7 +101,7 @@ interface range g1/1/1, g1/1/4
  channel-group 20 mode on
 ```
 
-## 🔷 HS-CORE-FW2 ↔ DSW2
+## HS-CORE-FW2 ↔ DSW2
 
 #### On HS-CORE-FW2 in global config mode:
 
@@ -119,7 +119,7 @@ interface range g1/1/1, g1/1/4
  channel-group 20 mode on
 ```
 
-## 🔍 Verification
+## Verification
 
 ### show etherchannel summary on DSW1 ✅
 
@@ -131,9 +131,9 @@ interface range g1/1/1, g1/1/4
 
 ---
 
-## 🧱 3️⃣ Edge ↔ Edge Redundant Interconnection
+## 3️⃣ Edge ↔ Edge Redundant Interconnection
 
-## 🔷 HS-EDGE-R1 to HS-EDGE-R2
+## HS-EDGE-R1 to HS-EDGE-R2
 
 #### On HS-EDGE-R1 in global config mode:
 
