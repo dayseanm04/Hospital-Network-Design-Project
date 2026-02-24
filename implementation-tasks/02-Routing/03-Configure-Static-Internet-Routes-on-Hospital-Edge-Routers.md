@@ -8,18 +8,13 @@
 ## Overview
 This task, I will configure static routes on the hospital edge routers so internal traffic can reach the simulated internet network.
 
-The internet network used in this project is:
+The internet network used in this project is: **`200.10.0.0/24`**
 
-200.10.0.0/24
-
----
 
 ## Objective
 - Configure internet-bound static routes
 - Ensure hospital LAN traffic exits toward ISP1
 - Demonstrate internet reachability using static routing
-
----
 
 # Configuration
 
