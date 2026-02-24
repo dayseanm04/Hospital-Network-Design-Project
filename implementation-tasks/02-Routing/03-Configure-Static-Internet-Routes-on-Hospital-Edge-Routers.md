@@ -24,3 +24,8 @@ The internet network used in this project is:
 ip route 200.10.0.0 255.255.255.0 69.45.12.1
 ```
 
+## On HS-EDGE-R2
+
+```plaintext
+ip route 200.10.0.0 255.255.255.0 100.45.12.1
+```
