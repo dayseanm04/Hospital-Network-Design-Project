@@ -1,17 +1,17 @@
 # 🚨 Issue: OSPF Area Mismatch Between DSW1 and Service-ASW
 
-## 📌 Problem Description
+## Problem Description
 OSPF adjacency failed to form between **DSW1** and **Service-ASW** over the **10.255.2.0/30** point-to-point Port-Channel link. Even though I enabled OSPF on both devices, they did not become neighbors.
 
 ---
 
-## 🌐 Affected Devices
+## Affected Devices
 - DSW1  
 - Service-ASW
 
 ---
 
-## ❌ Symptoms Observed
+## Symptoms Observed
 - Service-ASW displayed OSPF error messages
 - This error was displayed on Service-ASW **See Below**
 
@@ -19,7 +19,7 @@ OSPF adjacency failed to form between **DSW1** and **Service-ASW** over the **10
 
 ---
 
-## 🔍 Troubleshooting Steps Taken
+## Troubleshooting Steps Taken
 - 1️⃣ Ran show ip protocols on DSW1 and Service-ASW to see the networks I enabled OSPF on
 - 2️⃣ Checked the Port-Channel interface status (up/up)
 - 3️⃣ Compared OSPF **area numbers** for the 10.255.2.0/30 network on DSWS1 and DSW2 (See Below)
@@ -30,7 +30,7 @@ OSPF adjacency failed to form between **DSW1** and **Service-ASW** over the **10
 
 ---
 
-## 🛠 Root Cause
+## Root Cause
 The **10.255.2.0/30** network was configured as:
 - **Area 0** on **DSW1**
 - **Area 1** on **Service-ASW**
@@ -55,7 +55,7 @@ network 10.255.2.0 0.0.0.3 area 1
 
 After correcting the area number, OSPF adjacency successfully formed.
 
-## 🧪 Verification
+## Verification
 
 - OSPF neighbor state changed to **FULL**
 - Service-ASW transitioned from **LOADING** to **FULL**
@@ -78,7 +78,7 @@ DSW1 became neighbors with Service-ASW
 
 ---
 
-## 📝 Lessons Learned
+## Lessons Learned
 - Always verify that **OSPF area numbers match on both ends** of a point-to-point link  
 - OSPF area mismatches will prevent neighbor relationships even if IP addressing is correct  
 - Checking error messages (`mismatch area ID`) early can significantly speed up troubleshooting
