@@ -1,4 +1,4 @@
-# 📦 Configure DHCP Pools (Scopes) – DHCP Server
+# Configure DHCP Pools (Scopes) – DHCP Server
 
 **Goal:** Configure DHCP pools on the **DHCP-SRV** so client devices on each floor and department automatically receive IP addresses.  
 
@@ -58,7 +58,7 @@ For **each pool**, fill in:
 - **Starting IP Address**
 - **Maximum Number of Users**
 
-👉 Click **Add** after each pool.
+Click **Add** after each pool.
 
 ---
 
@@ -78,4 +78,3 @@ I have to configure an IP helper-address on the Access Switches, for them to be 
 ### DHCP Pool
 
 <img width="820" height="412" alt="DHCP-pool" src="https://github.com/user-attachments/assets/247bfdf6-2f1f-4d91-8b3f-74868d622965" />
-
