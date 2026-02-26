@@ -1,9 +1,9 @@
-# 🌐 Enable OSPF for the IT DPT Subnet (10.50.50.0/26)
+# Enable OSPF for the IT DPT Subnet (10.50.50.0/26)
 
 I this task I will advertise the **IT Department subnet (10.50.50.0/26)** into **OSPF Process 1 (Area 1)** so it is reachable throughout the network.
 
 
-## 🧩 IT DPT Subnet Info
+## IT DPT Subnet Info
 
 | VLAN/Dept | Subnet | Wildcard | OSPF Area |
 |---|---|---|---|
@@ -15,9 +15,9 @@ I this task I will advertise the **IT Department subnet (10.50.50.0/26)** into *
 
 ---
 
-## ✅ Step 1 - Configure OSPF on **Service-ASW** 🖥️
+## Step 1 - Configure OSPF on **Service-ASW** 🖥️
 
-### 1️⃣Enter Global Config mode:
+### 1️⃣ Enter Global Config mode:
 
 ```bash
 enable
@@ -36,7 +36,7 @@ router ospf 10
 network 10.50.50.0 0.0.0.63 area 1
 ```
 
-## 🔍 Step 2 - Verify on Service-ASW ✅
+## Step 2 - Verify on Service-ASW ✅
 
 ```bash
 show ip protocols
@@ -44,7 +44,7 @@ show ip protocols
 
 <img width="745" height="264" alt="verify-ospf-IT-dpt-subnet" src="https://github.com/user-attachments/assets/26c9fc4b-755e-4354-aea0-1755d34187ae" />
 
-## 🔍 Step 3 - Verify on DSW1 and DSW2 ✅
+## Step 3 - Verify on DSW1 and DSW2 ✅
 
 ```bash
 show ip route | include 10.50.50.0
