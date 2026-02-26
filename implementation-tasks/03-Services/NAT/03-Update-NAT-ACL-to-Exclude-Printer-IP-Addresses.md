@@ -13,7 +13,7 @@ PAT allows multiple internal hosts to share a limited number of public IP addres
 
 ## Reference Topology
 
-<img width="784" height="639" alt="topology" src="https://github.com/user-attachments/assets/5e8733fb-7ee1-4ac0-b0b5-9877d5e5b8fc" />
+<img width="998" height="501" alt="toplogy" src="https://github.com/user-attachments/assets/f24d1e61-38cf-457c-ad85-86ae028bebb2" />
 
 ---
 
