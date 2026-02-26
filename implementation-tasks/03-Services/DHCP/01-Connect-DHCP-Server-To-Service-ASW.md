@@ -1,6 +1,6 @@
-# 🖥️ 01 – Setup DHCP Server (Connection to Service-ASW)
+# 01 – Setup DHCP Server (Connection to Service-ASW)
 
-## 📌 Overview
+## Overview
 In this task I will connect the **DHCP server (DHCP-SRV)** to the **Service Access Switch (Service-ASW)**
 
 ## Referenct Network Diagram
@@ -9,7 +9,7 @@ In this task I will connect the **DHCP server (DHCP-SRV)** to the **Service Acce
 
 ---
 
-## 🔌 Physical Connection
+## Physical Connection
 
 | Device | Interface | Connects To | Interface |
 |--------|-----------|------------|-----------|
