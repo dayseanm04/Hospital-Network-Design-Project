@@ -6,13 +6,13 @@
 
 ---
 
-## 📌 Problem Description
+## Problem Description
 
 When I ping **HS-EDGE-R2** from internal hosts (PCs connected to the Access Switches) to I got **50% packet loss**.  
 
 ---
 
-## 🌐 Affected Devices
+## Affected Devices
 - ED1 (Floor 1 PC)
 - Access Switches (Floor 1, Floor 2, Floor 3)
 - DSW1
@@ -22,7 +22,7 @@ When I ping **HS-EDGE-R2** from internal hosts (PCs connected to the Access Swit
 
 ---
 
-## ❌ Symptoms Observed
+## Symptoms Observed
 
 Emergency DPT PC1 ping HS-EDGE-R2 
 
@@ -34,7 +34,7 @@ Emergency DPT PC1 ping HS-EDGE-R2
 
 ---
 
-## 🔍 Troubleshooting Steps Taken
+## Troubleshooting Steps Taken
 - 1️⃣ Verified that all interfaces and links were **up/up**
 - 2️⃣ Confirmed correct **IP addressing** across access, distribution, core, and edge layers
 - 3️⃣ Used **simulation mode** to trace packet flow
@@ -78,7 +78,7 @@ This ensured that OSPF preferred **consistent upstream paths**, eliminating asym
 
 ---
 
-## 🧪 Verification
+## Verification
 Re-ran ICMP tests after changes:
 
 - ED1 (Floor 1) → HS-EDGE-R2 ✅
@@ -100,4 +100,3 @@ MRD-1 (Floor 2)
 ICU-1 (Floor 2)
 
 <img width="876" height="466" alt="F3-PC-ping" src="https://github.com/user-attachments/assets/8b30ea08-b822-46b5-a075-38063b5608af" />
-
