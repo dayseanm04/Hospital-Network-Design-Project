@@ -1,4 +1,4 @@
-# 07 – Verify HSRP Gateways and DHCP Assignments
+# 06 – Verify HSRP Gateways and DHCP Assignments
 
 This task verifies that **HSRP** and **DHCP** are working together correctly across the network.  
 
