@@ -1,10 +1,10 @@
-# 🌐 Configure OSPF Costs for Port Channels.md
+# Configure OSPF Costs for Port Channels.md
 
-## 📌 Overview
+## Overview
 This this task, I will configure **OSPF costs** the **Port-Channels** the default is coost 1. The goal is to to change the default OSPF cost.
 
 
-## 🎯 Objective
+## Objective
 - Change the default OSPF cost on Port-Channels
 
 
@@ -14,7 +14,7 @@ This this task, I will configure **OSPF costs** the **Port-Channels** the defaul
 
 ---
 
-## 🧠 Design Logic
+## Design Logic
 
 Each access switch is to both distribution 1 and 2 via **Port-Channels**.
 
@@ -26,7 +26,7 @@ Example (Floor 1):
 - I will adjusted the OSPF cost is manually **control which path is preferred**
 
 
-## 🔍 Default State (Before Change)
+## Default State (Before Change)
 
 ```bash
 show ip ospf interface brief
@@ -41,7 +41,7 @@ Note: The Default OSPF cost: 1. OSPF may select different forward and return pat
 
 ## 🔧 OSPF Cost Configuration
 
-### ♦️ On all of the Access Switches. In Global config mode:
+### On all of the Access Switches. In Global config mode:
 
 ```bash
 interface Port-Channel1
@@ -51,7 +51,7 @@ interface Port-Channel2
  ip ospf cost 10
 ```
 
-### ♦️ On the Distribution Switches (DSW1 / DSW2) In Global config mode:
+### On the Distribution Switches (DSW1 / DSW2) In Global config mode:
 
 ```bash
 interface Port-Channel1 - 7
@@ -64,7 +64,7 @@ interface Port-Channel1 - 10
  ip ospf cost 100
 ```
 
-### ♦️ On the Core Firewall (HS-CORE / HS-CORE) In Global config mode:
+### On the Core Firewall (HS-CORE / HS-CORE) In Global config mode:
 
 ```bash
 interface Port-Channel1
@@ -74,7 +74,7 @@ interface Port-Channel20
  ospf cost 10
 ```
 
-### ♦️ On the Edge Routers (HS-EDGE-R1 / HS-EDGE-R12) In Global config mode:
+### On the Edge Routers (HS-EDGE-R1 / HS-EDGE-R12) In Global config mode:
 
 ```bash
 interface Port-Channel1
@@ -84,7 +84,7 @@ interface Port-Channel10
 ip ospf cost 10
 ```
 
-## 🔍 Verification
+## Verification
 
 Verify OSPF interface costs:
 
