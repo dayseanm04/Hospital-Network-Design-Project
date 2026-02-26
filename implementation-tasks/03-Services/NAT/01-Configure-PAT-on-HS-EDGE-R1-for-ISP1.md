@@ -1,6 +1,6 @@
-# 🌐 Configure PAT on HS-EDGE-R1 for ISP1
+# Configure PAT on HS-EDGE-R1 for ISP1
 
-## 📌 Overview
+## Overview
 
 This task, I will configures **PAT (NAT Overload)** on **HS-EDGE-R1** to translate internal hospital networks to public IP addresses from the **ISP1 NAT pool**.
 
@@ -12,14 +12,14 @@ PAT allows multiple internal hosts to share a limited number of public IP addres
 
 ---
 
-## 🎯 Objective
+## Objective
 - Create ACL for internal networks to be translated
 - Configure NAT inside/outside interfaces
 - Configure NAT pool for ISP1
 
 ---
 
-## 🧾 Step 1 – Create ACL for NAT Translation
+## Step 1 – Create ACL for NAT Translation
 
 ```bash
 ip access-list standard Translate-NAT
@@ -34,7 +34,7 @@ Note: This translates Floor1 - 3 and the IT Department. It dosent translate the 
 
 Also note that I made the sequence number increase by 10 so that I can insert new ACL entries when necessary.
 
-## 🔧 Step 2 – Configure NAT Interfaces
+## Step 2 – Configure NAT Interfaces
 
 In Global Config mode:
 
@@ -48,7 +48,7 @@ interface Port-channel1
 
 Note: Port-Channel 15 is the connection to ISP1 and Port-Channel 1 is the connection to HS-CORE-FW1
 
-## 🌍 Step 3 – Configure NAT Pool (ISP1)
+## Step 3 – Configure NAT Pool (ISP1)
 
 In Global Config mode:
 
@@ -60,7 +60,7 @@ Note:
 - The public IP range is 100.100.100.1 – 100.100.100.2
 - The total usable IPs is 2
 
-## 🔁 Step 4 – Enable PAT (Overload)
+## Step 4 – Enable PAT (Overload)
 
 In Global Config mode:
 
@@ -68,7 +68,7 @@ In Global Config mode:
 ip nat inside source list Translate-NAT pool ISP1-Pool overload
 ```
 
-## 🔍 Verification
+## Verification
 
 ```bash
 show ip nat statistics
