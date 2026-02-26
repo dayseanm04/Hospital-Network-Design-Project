@@ -1,4 +1,4 @@
-# 🖥️ Configure DHCP SRV IP address.md
+# Configure DHCP SRV IP address.md
 
 **Goal:** Assign a **static IP address** for **DHCP-SRV** in the **Servers VLAN (VLAN 700)** and verify connectivity to the gateway.
 
@@ -6,7 +6,7 @@
 
 <img width="483" height="147" alt="reference-net-diagram" src="https://github.com/user-attachments/assets/a26ec6e8-5e91-4bd5-bec0-cd67ca246e14" />
 
-## 🌐 Network Info (VLAN 700 — Servers)
+## Network Info (VLAN 700 — Servers)
 
 | Item | Value |
 |---|---|
@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ Step-by-Step (Cisco Packet Tracer Server)
+## Step-by-Step (Cisco Packet Tracer Server)
 
 ### 1️⃣ Open the DHCP-SRV device
 - Click **DHCP-SRV**
@@ -29,7 +29,7 @@
 
 ### 3️⃣ Configure the static IP settings
 
-#### ♦️ Enter the following:
+#### Enter the following:
 
 | Field | Value |
 |---|---|
@@ -52,7 +52,4 @@ Run:
 
 <img width="739" height="324" alt="DHCP-ipconfig" src="https://github.com/user-attachments/assets/f0895b17-3086-4dc8-a543-f1cd05ddc2b0" />
 
-
-
 ## ✅ Click here to view connectivity test: [05-Test-DHCP-SRV-to-Server-VLAN-Gateway.md](/testing/04-Connectivity-Tests/05-Test-DHCP-SRV-to-Server-VLAN-Gateway.md)
-
