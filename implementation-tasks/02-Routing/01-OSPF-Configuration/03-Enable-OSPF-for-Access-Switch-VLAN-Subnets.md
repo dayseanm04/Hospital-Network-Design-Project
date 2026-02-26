@@ -1,7 +1,7 @@
-# 🧠 Enable OSPF for the Subnets on the Access Switches
+# Enable OSPF for the Subnets on the Access Switches
 
 
-## ✅ VLANs/Subnets that must be in OSPF (Access Switches)
+## VLANs/Subnets that must be in OSPF (Access Switches)
 
 | Access Switch | VLAN ID | Department / VLAN Name | Subnet (CIDR) | Wildcard Mask | OSPF Area |
 |---|---:|---|---|---|---:|
@@ -18,14 +18,14 @@
 
 ### ⚙️ Configuration format
 
-#### 🔷 Enter Global Config mode
+#### Enter Global Config mode
 
 ```bash
 enable
 configure terminal
 ```
 
-#### 🔷 Enter OSPF config mode
+#### Enter OSPF config mode
 
 ```bash
 router ospf 10
@@ -33,14 +33,14 @@ network <network Address> <Wildcard Mask> area 1
 ```
 
 
-### 🏥 Example F1-ASW1 (VLAN 101, 110)
+### Example F1-ASW1 (VLAN 101, 110)
 
 ```bash
 router ospf 10
 network 172.16.1.0 0.0.0.63 area 1
 ```
 
-#### 🔷 Save Config
+#### Save Config
 
 ```bash
 end
