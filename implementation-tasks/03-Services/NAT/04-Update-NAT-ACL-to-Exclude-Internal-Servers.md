@@ -1,4 +1,4 @@
-# 🌐 04 – Update NAT ACL to Exclude Internal Servers
+# 04 – Update NAT ACL to Exclude Internal Servers
 
 ##  Overview
 
@@ -6,7 +6,7 @@ In this task I will exclude the internal server VLAN hosts from NAT translation.
 
 ## Reference Toplogy
 
-<img width="977" height="463" alt="topology" src="https://github.com/user-attachments/assets/1a6a6992-db35-4fa8-b6c6-58d28caec93d" />
+<img width="998" height="501" alt="toplogy" src="https://github.com/user-attachments/assets/f24d1e61-38cf-457c-ad85-86ae028bebb2" />
 
 ##  Internal Server VLAN
 
@@ -44,5 +44,3 @@ On HS-EDGE-R1 show ip access-list Translate-NAT
 On HS-EDGE-R2 show ip access-list Translate-NAT
 
 <img width="661" height="359" alt="2" src="https://github.com/user-attachments/assets/8b23d4e8-6d5a-4b46-aa19-8fbd5b3cb8ae" />
-
-
