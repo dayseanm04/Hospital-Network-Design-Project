@@ -17,19 +17,19 @@ The Distribution Switches to Access Switches connected are Layer 3 Etherchannel,
 
 ---
 
-## 🏢 VLANs That Require DHCP Relay
+## VLANs That Require DHCP Relay
 
-### 🟦 Floor 1
+### Floor 1
 - VLAN 101 (Emergency)
 - VLAN 110 (X-Ray)
 - VLAN 120 (Nurse Station)
 
-### 🟩 Floor 2
+### Floor 2
 - VLAN 200 (Medical Records)
 - VLAN 210 (Billing)
 - VLAN 220 (HR)
 
-### 🟨 Floor 3
+### Floor 3
 - VLAN 300 (Nurses Office)
 - VLAN 310 (ICU)
 - VLAN 330 (Radiology)
@@ -38,7 +38,7 @@ The Distribution Switches to Access Switches connected are Layer 3 Etherchannel,
 
 ## 🛠️ Step-by-Step Config
 
-### 1️⃣ Enter global configuration mode
+### Enter global configuration mode
 
 On **each Access Switch**:
 
@@ -49,7 +49,7 @@ configure terminal
 
 ---
 
-### 2️⃣ Configure DHCP relay on client VLAN SVIs
+### Configure DHCP relay on client VLAN SVIs
 
 For **each VLAN listed above**, use this pattern:
 
@@ -58,7 +58,7 @@ interface vlan <VLAN-ID>
 ip helper-address 10.10.10.2
 ```
 
-### 3️⃣ Exit and save
+### Exit and save
 
 ```bash
 end
