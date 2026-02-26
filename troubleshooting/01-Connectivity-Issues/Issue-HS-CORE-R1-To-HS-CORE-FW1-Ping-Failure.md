@@ -4,11 +4,11 @@
 
 <img width="569" height="263" alt="HS1-CORE-FW1-HS-CORE-R1" src="https://github.com/user-attachments/assets/8955fd02-a101-4e98-97c5-6484cc844c8f" />
 
-## 📌 Problem Description
+## Problem Description
 
 When I pinged HS-CORE-FW1 **10.255.255.1** from HS-CORE-R1 it failed, and also when I pinged the HS-CORE-R1 from the Fw it also failed.
 
-## 📝 Ping Results 
+## Ping Results 
 
 #### Test 1: HS-CORE-R1 to 10.255.255.1 
 
@@ -20,11 +20,11 @@ When I pinged HS-CORE-FW1 **10.255.255.1** from HS-CORE-R1 it failed, and also w
  
 The ping test Failed.
 
-## 🌐 Affected Devices
+## Affected Devices
 - HS-CORE-R1
 - HS-CORE-FW1
 
-## 🔍 Troubleshooting Steps Taken
+## roubleshooting Steps Taken
 - I viewed the running config of the HS-CORE-FW1
 - I viewed the interface IP and status
 
@@ -39,7 +39,7 @@ Since I was pining the firewall the first that came to mind was that the **firew
 
 ## ✅ Resolution
 
-### 🔍 Identified Cause
+### Identified Cause
 The ping failure between **HS-CORE-R1** and **HS-CORE-FW1** was caused by the firewall **blocking ICMP traffic by default**.  
 Since no security policies had been configured yet, the firewall’s **implicit deny rule** prevented ICMP echo requests from reaching HS-CORE-FW1.
 
@@ -100,5 +100,5 @@ The ACL I configured permited the pings from **HS-CORE-R1**. The hit count was 5
 write memory
 ```
 
-## 📝 Lessons Learned
+## Lessons Learned
 Always check ACLs and also view the running configuration.
