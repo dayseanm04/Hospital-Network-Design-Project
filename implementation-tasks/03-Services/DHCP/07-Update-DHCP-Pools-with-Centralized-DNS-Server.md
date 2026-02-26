@@ -1,6 +1,6 @@
-# 🌐 08 – Update DHCP Pools with Centralized DNS Server
+# 07 – Update DHCP Pools with Centralized DNS Server
 
-## 📌 Overview
+## Overview
 
 In this task, I will updates all DHCP pools on the **DHCP-SRV** to use a centralized DNS server:
 DNS Server: 200.10.0.2
@@ -10,14 +10,14 @@ DNS Server: 200.10.0.2
 <img width="984" height="438" alt="toplogy" src="https://github.com/user-attachments/assets/3c2ecd67-1e2e-40b0-a8f9-5d50c7032b97" />
 
 
-## 🏥 Scope of Update
+## Scope of Update
 
 All department DHCP pools must be updated to use:
 DNS Server: 200.10.0.2
 
 ---
 
-## 🖥️ Configuration Steps (Packet Tracer – GUI)
+## Configuration Steps (Packet Tracer – GUI)
 
 ### Step 1 – Access the DHCP Server
 
@@ -36,5 +36,3 @@ Repeat this for all department pools.
 ### Verify
 
 <img width="740" height="379" alt="11" src="https://github.com/user-attachments/assets/67f759a4-9aae-4013-8950-fc9bb1820f6e" />
-
-
