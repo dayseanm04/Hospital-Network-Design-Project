@@ -1,6 +1,6 @@
-# 🌐 03 – Update NAT ACL to Exclude Printer IP Addresses
+# 03 – Update NAT ACL to Exclude Printer IP Addresses
 
-## 📌 Overview
+## Overview
 
 Earlier, the **Translate-NAT** ACL I configured permitted entire /24 network for NAT translation.  
 This means that printers IP addresses to be translated by NAT.
@@ -72,13 +72,3 @@ On HS-EDGE-R1 show ip access-list Translate-NAT
 On HS-EDGE-R2 show ip access-list Translate-NAT
 
 <img width="666" height="306" alt="2" src="https://github.com/user-attachments/assets/a4bc0ff4-8c60-4452-b643-85274199aa86" />
-
-
-
-
-
-
-
-
-
-
