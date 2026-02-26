@@ -1,11 +1,11 @@
 # 🚨 Issue: Clients Not Receiving IP Due to Routing Issue (VLAN 101)
 
-## 📌 Problem Description
+## Problem Description
 **ED1 (Emergency DPT PC1)** connected to **F1-ASW1** could not obtain an IP address from the **DHCP-SRV**, even after configuring an **IP helper address** on **VLAN 101**.
 
 ---
 
-## 🌐 Affected Devices
+## Affected Devices
 - ED1 (Emergency DPT PC1)
 - F1-ASW1
 - DSW1 / DSW2
@@ -14,7 +14,7 @@
 
 ---
 
-## ❌ Symptoms Observed
+## Symptoms Observed
 - ED1 could not receive an IP address from DHCP (DHCP request fails **See Below**).
 
 <img width="600" height="204" alt="ED1-DHCP-Failed" src="https://github.com/user-attachments/assets/a0e89389-4189-4af8-a1d7-1de8c1bc05fb" />
@@ -26,7 +26,7 @@
 ---
 
 
-## 🔍 Troubleshooting Steps Taken
+## Troubleshooting Steps Taken
 
 ### 1️⃣ Verified DHCP-SRV IP settings
 - Checked DHCP-SRV IP, subnet, and default gateway 
@@ -80,7 +80,7 @@ Since I havent enable OSPF for the Deparment subnets those subnets were advertis
 
 ---
 
-## ✅ Resolution
+## Resolution
 
 ### 1️⃣ Enable OSPF for VLAN 101 on F1-ASW1
 
@@ -93,7 +93,6 @@ On **F1-ASW1**, add the VLAN 101 subnet into OSPF (Area 1).
   - `network 172.16.1.0 0.0.0.63 area 1`  
   *(**0.0.0.63** is the wildcard for /26, and VLAN 101 is 172.16.1.1/26.)* 
   
-
 ---
 
 ## 🧪 Verification
