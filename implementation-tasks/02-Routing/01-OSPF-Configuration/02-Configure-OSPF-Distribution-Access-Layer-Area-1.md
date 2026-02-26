@@ -1,4 +1,4 @@
-# 🛰️ Configure OSPF Between DSWs and ASWs (Area 1)
+# Configure OSPF Between DSWs and ASWs (Area 1)
 
 **Goal:** Enable **OSPF process 1 (Area 1)** on:
 - **DSW1 + DSW2** (all /30 port-channel links to access switches)
@@ -15,14 +15,14 @@
 
 ## 1️⃣ Enable OSPF on DSW1 (Area 1)
 
-### ♦️ On DSW1 in global config mode:
+### On DSW1 in global config mode:
 
 ```bash
 router ospf 10
 network 10.10.0.0 0.0.0.255 area 1
 ```
 
-✅ **This enables OSPF on all DSW1 port-channels** going to the ASWs because they all fall inside **10.10.0.0/24** (each link is /30).
+**This enables OSPF on all DSW1 port-channels** going to the ASWs because they all fall inside **10.10.0.0/24** (each link is /30).
 
 ## 2️⃣ Also enable OSPF on DSW1 → Service-ASW P2P link
 
@@ -45,7 +45,7 @@ router ospf 10
 network 10.20.0.0 0.0.0.255 area 1
 ```
 
-✅ **This enables OSPF on all DSW2 port-channels** going to the ASWs because they all fall inside **10.10.0.0/24** (each link is /30).
+**This enables OSPF on all DSW2 port-channels** going to the ASWs because they all fall inside **10.10.0.0/24** (each link is /30).
 
 ## 4️⃣ Also enable OSPF on DSW2 → Service-ASW P2P link
 
@@ -142,9 +142,9 @@ network 10.255.2.4 0.0.0.3 area 1
 
 - `network 10.10.10.0 0.0.0.31 area 1` 
 
-### ✅ Note: /27 mask (255.255.255.224) has the wildcard mask of: **0.0.0.31**. 
-- 🔷 128 + 64 + 32 = 224.
-- 🔷 Add the Rest together: 16 + 8 + 4 + 2 + 1 =  31
+### Note: /27 mask (255.255.255.224) has the wildcard mask of: **0.0.0.31**. 
+- 128 + 64 + 32 = 224.
+- Add the Rest together: 16 + 8 + 4 + 2 + 1 =  31
 
 # ✅ Verification (Run on a few devices)
 
