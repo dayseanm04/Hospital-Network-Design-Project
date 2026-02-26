@@ -1,10 +1,10 @@
-# 🌐 Configure OSPF Backbone for Hospital Core and Edge
+# Configure OSPF Backbone for Hospital Core and Edge
 
-## 📌 Overview
+## Overview
 This task., I will configure **OSPF Area 0 (Backbone)** across the **Hospital Edge Routers**, **Core Firewalls**, and **Distribution Switches**.  
 
 
-## 🎯 Objective
+## Objective
 - Enable **OSPF process 10** on all backbone devices
 - Advertise their **loopback interfaces**
 - Enable OSPF on **core, edge, and distribution backbone links**
@@ -99,7 +99,7 @@ router ospf 10
 
 ---
 
-## 🔍 Verification
+## Verification
 
 ### show ip ospf neighbor on HS-EDGE-R1
 
