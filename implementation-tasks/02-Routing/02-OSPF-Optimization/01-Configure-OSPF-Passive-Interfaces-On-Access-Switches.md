@@ -1,6 +1,6 @@
-# 💤 Configure OSPF Passive Interfaces (OSPF Optimization)
+# Configure OSPF Passive Interfaces (OSPF Optimization)
 
-## 📌 Overview
+## Overview
 
 In this task, I will configure **OSPF passive interfaces for VLANs on the access switches** so that **OSPF routing updates are not sent or received on user VLANs**.
 
@@ -8,14 +8,14 @@ The VLAN networks remain advertised in OSPF, but **end devices do not participat
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Prevent OSPF hello packets on end-user VLANs
 - Reduce OSPF overhead on the access layer
 
 ---
 
-## 🧾 VLANs to Make Passive
+## VLANs to Make Passive
 
 | Access Switch | VLANs (Passive) |
 |-------------|------------------|
@@ -26,7 +26,7 @@ The VLAN networks remain advertised in OSPF, but **end devices do not participat
 
 ---
 
-## ⚙️ Configuration Steps
+## Configuration Steps
 
 ### 1️⃣ Enter OSPF configuration mode
 ```bash
@@ -40,13 +40,13 @@ passive-interface Vlan <VLAN-ID>
 end
 ```
 
-### 💾 Save Configuration
+### Save Configuration
 
 ```bash
 write memory
 ```
 
-## ✅ Verification (Run on ALL Access Switches)
+## Verification (Run on ALL Access Switches)
 
 #### 🔷 show ip protocols on F1-ASW1
 
