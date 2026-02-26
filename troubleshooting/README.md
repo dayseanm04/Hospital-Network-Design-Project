@@ -12,13 +12,11 @@ This folder contains documented **network issues encountered during the Hospital
 
 ---
 
-## 🧪 Standard Troubleshooting Format
+## Standard Troubleshooting Format
 Each troubleshooting document includes:
-- 📝 **Problem description**
-- 🔍 **Root cause analysis**
-- 🛠️ **Resolution steps**
-- ✅ **Verification and testing results**
+- **Problem description**
+- **Root cause analysis**
+- **Resolution steps**
+- **Verification and testing results**
 
 This ensures issues are **clearly documented and reproducible**.
-
-
