@@ -1,4 +1,4 @@
-# 📡 Configure DHCP Relay For Access Layer VLANs.md
+# Configure DHCP Relay For Access Layer VLANs.md
 
 The Distribution Switches to Access Switches connected are Layer 3 Etherchannel, The Access Switches doesnt not Foward broadcast to the Distributon Switches!
 
@@ -9,7 +9,7 @@ The Distribution Switches to Access Switches connected are Layer 3 Etherchannel,
 
 <img width="744" height="152" alt="reference-diagram" src="https://github.com/user-attachments/assets/0c90204a-c658-4b00-9081-f7736323d8ad" />
 
-## 🧠 DHCP Server Info
+## DHCP Server Info
 
 | DHCP | IP Address |
 |---|---|
@@ -65,7 +65,4 @@ end
 write memory
 ```
 
-
 ### 🔷 Note 🔷 I did not configure the IP helper address for every single VLAN because the goal was to demonstrate how DHCP relay works, which has already been shown. Repeating the same ip helper-address configuration on every VLAN would be repetitive and would not add additional value to the project.
-
-
