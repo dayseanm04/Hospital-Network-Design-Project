@@ -5,7 +5,7 @@
 <img width="555" height="408" alt="topology1" src="https://github.com/user-attachments/assets/e2906137-59fe-4948-b491-a99921c7d45e" />
 
 
-## 📌 Problem Description
+## Problem Description
 
 After configuring **OSPF Area 0** across the hospital backbone, OSPF neighbor adjacencies involving the **core firewalls** failed to progress past the **EXSTART** state.
 
@@ -15,10 +15,9 @@ Find it here:
 
 ### [✅ Click here for Tropbleshoot OSPF Adjacency Stuck in EXSTART State](/implementation-tasks/02-Routing/01-OSPF-Configuration/01Configure-OSPF-Backbone-for-Hospital-Core-and-Edge.md)
 
-
 ---
 
-## 🌐 Affected Devices
+## Affected Devices
 - HS-EDGE-R1
 - HS-EDGE-R2
 - HS-CORE-FW1
@@ -28,7 +27,7 @@ Find it here:
 
 ---
 
-## ❌ Symptoms Observed
+## Symptoms Observed
 
 - OSPF neighbors stuck in **EXSTART**
 - I used **show ip ospf neighbor** on the Edge Routers and Distribution Switches (See Below).
@@ -44,7 +43,7 @@ Find it here:
 
 - The Core firewalls did not reach **FULL** state
 
-## 🔍 Troubleshooting Steps Taken
+## Troubleshooting Steps Taken
 - 1️⃣ Verified physical interfaces and Port-Channels were up/up
 - 2️⃣ Confirmed correct IP addressing on all OSPF links
 - 3️⃣ I Ran **`show running-config | section Port`** on on HS-CORE-FW1 and HS-CORE-FW2. (See Below)
@@ -72,7 +71,7 @@ Configured **nameif** and security levels on all firewall Port-Channels connecte
 - Edge Routers
 - Distribution Switches
 
-## ♦️ Config summary:
+## Config summary:
 
 In Global Config mode On HS-CORE-FW1:
 
@@ -92,7 +91,7 @@ In Global Config mode On HS-CORE-FW2:
 - nameif INSIDE-B
 - security-level 100
 
-## 🧪 Verification
+## Verification
 
 ### show ip ospf neighbor on HS-EDGE-R1
 
