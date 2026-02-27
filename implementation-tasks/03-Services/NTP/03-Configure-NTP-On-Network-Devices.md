@@ -1,9 +1,9 @@
-# ⏱️ Configure NTP for Network Devices
+# Configure NTP for Network Devices
 
-## 📌 Overview
+## Overview
 This task configures **NTP with authentication** on **network devices** so they securely synchronize time with the **internal NTP server**.
 
-#### ♦️Time synchronization is critical for:
+#### Time synchronization is critical for:
 
 - Logs and auditing
 - Security events
@@ -11,7 +11,7 @@ This task configures **NTP with authentication** on **network devices** so they 
 
 ---
 
-## 🎯 Objective
+## Objective
 - Enable NTP authentication on network devices
 - Configure a trusted authentication key
 - Define the internal NTP server as the time source
@@ -19,7 +19,7 @@ This task configures **NTP with authentication** on **network devices** so they 
 
 ---
 
-## 🏥 NTP Configuration Details
+## NTP Configuration Details
 
 | Item | Value |
 |----|----|
@@ -28,53 +28,50 @@ This task configures **NTP with authentication** on **network devices** so they 
 | Authentication Method | MD5 |
 | Password | ccna |
 
-**⚠️ Important: These values must match the configuration on the NTP server**.
+**Important: These values must match the configuration on the NTP server**.
 
 ---
 
-### 1️⃣ Enter global configuration mode
+### Enter global configuration mode
 
 ```bash
 enable
 configure terminal
 ```
 
-### 2️⃣ Enable NTP authentication
+### Enable NTP authentication
 
 ```bash
 ntp authenticate
 ```
 
-### 3️⃣ Configure and trust the authentication key
+### Configure and trust the authentication key
 
 ```bash
 ntp authentication-key 10 md5 ccna
 ntp trusted-key 10
 ```
 
-### 4️⃣ Configure the NTP server
+### Configure the NTP server
 
 ```bash
 ntp server 10.10.10.3 key 10
 ```
 
-### 5️⃣ update the calendar
+### update the calendar
 
 ```bash
 ntp update-calendar
 ```
 
-### 💾 Save Configuration
+### Save Configuration
 
 ```bash
 do write memory
 ```
 
-### 📝 Notes
+### Notes
 - Time synchronization may take a short period after configuration
 - Press the fast foword button a couple of time
 
 👉 **[Click here to view NTP Time Synchronization Tests](/testing/05-Services-Tests/NTP/)**
-
-
-
