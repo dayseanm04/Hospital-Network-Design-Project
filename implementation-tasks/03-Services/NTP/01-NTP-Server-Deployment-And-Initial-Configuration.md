@@ -1,6 +1,6 @@
-# ⏱️ NTP Server Deployment and Initial Configuration
+# NTP Server Deployment and Initial Configuration
 
-## 📌 Overview
+## Overview
 
 I This task I will deploy and performs the **initial configuration of an internal NTP server** for the Hospital Network Design project.
 
@@ -8,7 +8,7 @@ The NTP server will provide **accurate and consistent time synchronization** for
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Deploy an internal NTP server
 - Enable the NTP service on the server
@@ -22,7 +22,7 @@ The NTP server will provide **accurate and consistent time synchronization** for
 
 ---
 
-## 🏥 NTP Server Details
+## NTP Server Details
 
 | Setting | Value |
 |------|------|
@@ -34,9 +34,9 @@ The NTP server will provide **accurate and consistent time synchronization** for
 
 ---
 
-## ⚙️ Configuration Steps
+## Configuration Steps
 
-### 1️⃣ Enable NTP Service
+### Enable NTP Service
 
 - Open **NTP-SRV**
 - Navigate to **Services**
@@ -45,16 +45,15 @@ The NTP server will provide **accurate and consistent time synchronization** for
 
 <img width="739" height="287" alt="NTP-Service" src="https://github.com/user-attachments/assets/d53c5eaf-be08-4f86-b3ab-0070ede72ae3" />
 
-
 ---
 
-### 2️⃣ Connect the Server to the Network
+### Connect the Server to the Network
 - Connect **NTP-SRV** `G0` to **Service-ASW** `G1/0/2
 - NTP SRV **G0** to Service-ASW **G1/0/2** interface
 
 ---
 
-### 3️⃣ Configure Static IP Address
+### Configure Static IP Address
 
 - Open the server’s **IP Configuration**
 - Assign the following:
