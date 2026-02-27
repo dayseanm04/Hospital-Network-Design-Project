@@ -1,6 +1,6 @@
-# ⏱️ NTP Service – Implementation Tasks
+# NTP Service – Implementation Tasks
 
-## 📌 Overview
+## Overview
 This folder contains the **implementation tasks for the Network Time Protocol (NTP) service** in the Hospital Network Design project.
 
 These tasks focus on **deploying an internal NTP server, securing it with authentication, and configuring network devices to synchronize time** using the trusted server.
@@ -14,7 +14,7 @@ Accurate and consistent time synchronization is critical for:
 
 ---
 
-## 🛠️ NTP Implementation Tasks
+## NTP Implementation Tasks
 
 | Step | Task | Description |
 |----|----|----|
@@ -24,7 +24,7 @@ Accurate and consistent time synchronization is critical for:
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The NTP service ensures:
 - All network devices share a **consistent and trusted time source**
@@ -35,8 +35,8 @@ This is especially important in a hospital environment where **accurate logging 
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Authentication keys must match between the NTP server and network devices
 
-👉 **[Click here to view NTP Testsing Folder](/testing/05-Services-Tests/NTP/)**
+**[Click here to view NTP Testsing Folder](/testing/05-Services-Tests/NTP/)**
