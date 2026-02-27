@@ -1,6 +1,6 @@
-# 🔐 NTP – Enable Authentication on NTP Server
+# NTP – Enable Authentication on NTP Server
 
-## 📌 Overview
+## Overview
 
  In this task I will enable **NTP authentication** on the internal NTP server to ensure that **only trusted network devices** can synchronize time.
 
@@ -8,14 +8,14 @@ NTP authentication helps protect the network from **unauthorized or spoofed time
 
 ---
 
-## 🎯 Objective
+## Objective
 - Enable NTP authentication on the NTP server
 - Configure an authentication key
 - Secure the NTP service before client-side configuration
 
 ---
 
-## 🏥 NTP Authentication Details
+## NTP Authentication Details
 
 | Setting | Value |
 |------|------|
@@ -26,16 +26,16 @@ NTP authentication helps protect the network from **unauthorized or spoofed time
 
 ---
 
-## ⚙️ Configuration Steps
+## Configuration Steps
 
-### 1️⃣ Open the NTP Server
+### Open the NTP Server
 
 - Click on **NTP-SRV**
 - Navigate to **Services**
 
 ---
 
-### 2️⃣ Enable NTP Authentication
+### Enable NTP Authentication
 
 - Select **NTP**
 - Enable **Authentication**
