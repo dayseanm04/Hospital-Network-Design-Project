@@ -1,6 +1,6 @@
-# 🖥️ Configure Logging Synchronous on Console and VTY
+# Configure Logging Synchronous on Console and VTY
 
-## 📌 Overview
+## Overview
 
 I this task I will configure **logging synchronous** on both the **console** and **VTY (remote access) lines** of network devices.
 
@@ -8,7 +8,7 @@ I this task I will configure **logging synchronous** on both the **console** and
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Prevent log messages from interrupting CLI input
 - Improve usability during console and SSH sessions
@@ -16,7 +16,7 @@ I this task I will configure **logging synchronous** on both the **console** and
 
 ---
 
-## 🧠 Why This Matters
+## Why This Matters
 
 Without `logging synchronous`, system messages (for example, OSPF updates) can appear **in the middle of a command**, causing:
 
@@ -28,18 +28,18 @@ Enabling logging synchronous ensures a **professional and user-friendly manageme
 
 ---
 
-## ⚙️ Configuration 
+## Configuration 
 
 Apply the following configuration on **ALL network devices**.
 
-### 1️⃣ Enter global configuration mode
+### Enter global configuration mode
 
 ```bash
 enable
 configure terminal
 ```
 
-### 2️⃣ Configure logging synchronous on the console line
+### Configure logging synchronous on the console line
 
 ```bash
 line console 0
@@ -47,7 +47,7 @@ logging synchronous
 exit
 ```
 
-### 3️⃣ Configure logging synchronous on VTY lines
+### Configure logging synchronous on VTY lines
 
 ```bash
 line vty 0 15
@@ -55,7 +55,7 @@ logging synchronous
 exit
 ```
 
-### 💾 Save Configuration
+### Save Configuration
 
 ```bash
 do write
