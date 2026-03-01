@@ -1,6 +1,6 @@
-# 🧪 04 – Test IT Department Endpoints to Internal Servers
+# 04 – Test IT Department Endpoints to Internal Servers
 
-## 📌 Test Objective
+## Test Objective
 
 Verify that IT Department endpoints can successfully reach internal servers located in the Server VLAN (VLAN 240 – 10.10.10.0/27).
 
@@ -16,8 +16,7 @@ This confirms:
 
 ---
 
-
-## 🏢 IT Department Endpoints Tested
+## IT Department Endpoints Tested
 
 | Device | VLAN | Subnet | IP Address | Switch |
 |--------|------|--------|------------|--------|
@@ -26,7 +25,7 @@ This confirms:
 
 ---
 
-## 🖥️ Internal Server
+## Internal Server
 
 | Server | VLAN | Subnet | IP Address |
 |--------|------|--------|------------|
@@ -34,7 +33,7 @@ This confirms:
 
 ---
 
-## 🧪 Test Command
+## Test Command
 
 ```bash
 ping 10.10.10.2
@@ -46,7 +45,7 @@ ping 10.10.10.2
 
 ---
 
-## 🧪 Test Command
+## Test Command
 
 ```bash
 ping 10.10.10.2
@@ -55,7 +54,6 @@ ping 10.10.10.2
 ### IT-PC2 to DHCP-SRV ping was successful ✅
 
 <img width="696" height="366" alt="IT-PC2" src="https://github.com/user-attachments/assets/ea8d6491-7a10-4a9d-89c5-24ffcda63393" />
-
 ---
 
 ## 🔎 Validation Summary
