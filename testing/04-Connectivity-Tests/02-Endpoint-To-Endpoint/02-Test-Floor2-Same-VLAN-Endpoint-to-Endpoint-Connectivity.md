@@ -1,10 +1,10 @@
-# 🧪 Test – Floor 2 Same VLAN Endpoint-to-Endpoint Connectivity
+# Test – Floor 2 Same VLAN Endpoint-to-Endpoint Connectivity
 
-## 📌 Purpose
+## Purpose
 
 This test verifies **intra-VLAN connectivity** between endpoints in the **same VLAN** on Floor 2.
 
-> 💡 These tests confirm that devices within the same broadcast domain can communicate properly across access switches (F2-ASW1 and F2-ASW2).
+> These tests confirm that devices within the same broadcast domain can communicate properly across access switches (F2-ASW1 and F2-ASW2).
 
 ## Reference Topology
 
@@ -12,27 +12,27 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 
 ---
 
-# 🏢 Floor 2 – Intra-VLAN Connectivity Tests
+# Floor 2 – Intra-VLAN Connectivity Tests
 
-## 🧪 Test 1 – Medical Records Department (VLAN 200)
+## Test 1 – Medical Records Department (VLAN 200)
 
-### 🖥️ IP Addressing
+### IP Addressing
 
 | Device | IP Address | Address Type | Subnet Mask | Default Gateway |
 |---------|------------|--------------|-------------|-----------------|
 | MRD-1 | 172.16.2.4 | DHCP | 255.255.255.224 | 172.16.2.3 |
 | MRD-PRNT | 172.16.2.20 | Static | 255.255.255.224 | 172.16.2.3 |
 
-### 🔎 Devices Tested
+### Devices Tested
 - **MRD-1** (PC – DHCP)
 - **MRD-PRNT** (Printer – Static)
 
-### 📍 VLAN Information
+### VLAN Information
 - VLAN: **200 – Medical Records DPT**
 - Subnet: **172.16.2.0/27**
 - Default Gateway: **172.16.2.3**
 
-### 🔧 Test Command
+### Test Command
 
 ```bash
 ping 172.16.2.20
@@ -51,11 +51,11 @@ ping 172.16.2.20
 | Fin-1    | 172.16.2.37 | DHCP         | 255.255.255.224 | 172.16.2.35     |
 | Fin-PRNT | 172.16.2.60 | Static       | 255.255.255.224 | 172.16.2.35     |
 
-### 🔎 Devices Tested
+### Devices Tested
 - **Fin-1** (PC – DHCP)
 - **Fin-PRNT** (Printer – Static)
 
-### 📍 VLAN Information
+### VLAN Information
 - VLAN: **210 – Billing & Finance DPT**
 - Subnet: **172.16.2.32/27**
 - Default Gateway: **172.16.2.35**
@@ -70,18 +70,18 @@ ping 172.16.2.60
 
 ---
 
-## 🧪 Test 3 – Human Resources Department (VLAN 220)
+## Test 3 – Human Resources Department (VLAN 220)
 
 | Device  | IP Address  | Address Type | Subnet Mask     | Default Gateway |
 | ------- | ----------- | ------------ | --------------- | --------------- |
 | HR-1    | 172.16.2.68 | DHCP         | 255.255.255.224 | 172.16.2.67     |
 | HR-PRNT | 172.16.2.80 | Static       | 255.255.255.224 | 172.16.2.67     |
 
-### 🔎 Devices Tested
+### Devices Tested
 - **HR-1** (PC – DHCP)
 - **HR-PRNT** (Printer – Static)
 
-### 📍 VLAN Information
+### VLAN Information
 - VLAN: **220 – Human Resources DPT**
 - Subnet: **172.16.2.64/27**
 - Default Gateway: **172.16.2.67**
@@ -96,6 +96,6 @@ ping 172.16.2.80
 
 ---
 
-### 🎯 Overall Test Summary
+### Overall Test Summary
 
 All Floor 2 endpoints successfully communicated within their respective VLANs
