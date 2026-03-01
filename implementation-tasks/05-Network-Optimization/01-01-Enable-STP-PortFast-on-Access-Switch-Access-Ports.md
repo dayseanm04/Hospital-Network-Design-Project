@@ -1,4 +1,4 @@
-# ⚡ 01 – Enable STP PortFast on Access Switch Access Ports
+# 01 – Enable STP PortFast on Access Switch Access Ports
 
 In this task, I enabled **Spanning Tree Protocol (STP) PortFast** on **access switch ports connected to end devices** (PCs, printers, etc.).  
 
@@ -6,7 +6,7 @@ PortFast allows access ports to transition immediately to the **forwarding state
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - ✅ Enable STP PortFast on all **access switch access port connected to PCs and Printers**
 - ✅ Reduce STP convergence delay for user devices
@@ -18,8 +18,7 @@ PortFast allows access ports to transition immediately to the **forwarding state
 
 ---
 
-
-## 🧠 Scope of Configuration
+## Scope of Configuration
 
 I enabled PortFast on the following **Access Layer switches**:
 
@@ -31,14 +30,14 @@ I enabled PortFast on the following **Access Layer switches**:
 - `F3-ASW2`
 
 
-## ⚠️ Important Note
+### Important Note
 
 - **PortFast should only be enabled on ports connected to end devices.**
 - It must **not** be enabled on trunk ports or ports connected to otherswitches, because it could network loops.
 
 ---
 
-## ⚙️ Configuration Steps (Access Switches)
+## Configuration Steps (Access Switches)
 
 On each access switch, enter **interface range configuration mode** for ports connected to end devices:
 
@@ -48,7 +47,7 @@ interface range <start-interface> - <end-interface>
 
 ➡️ Selects a group of access ports connected to PCs, printers, or other end devices.
 
-#### 🟢 Enable Portfast
+#### Enable Portfast
 
 ```bash
 spanning-tree portfast
@@ -59,7 +58,4 @@ spanning-tree portfast
 #### Expecteded Warning
 
 <img width="833" height="106" alt="Portfast-warning" src="https://github.com/user-attachments/assets/8375d295-b4b9-4058-9664-7fa8df140cbc" />
-
-
-
 
