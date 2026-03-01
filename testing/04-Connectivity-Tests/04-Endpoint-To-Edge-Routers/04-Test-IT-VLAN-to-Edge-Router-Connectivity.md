@@ -1,9 +1,9 @@
-# 🧪 Test – IT VLAN to Edge Router Connectivity
+# Test – IT VLAN to Edge Router Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies that the **IT Department VLAN (VLAN 240)** can successfully reach the **Edge Routers (HS-EDGE-R1 and HS-EDGE-R2)**.
 
-### 💡 Successful replies confirm:
+### Successful replies confirm:
 - Layer 3 routing from IT VLAN to Edge layer
 - Redundant Edge router paths are operational
 - Core-to-Edge connectivity is functioning correctly
@@ -15,7 +15,7 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 ---
 
 
-# 🏢 Source Endpoint – IT Department
+# Source Endpoint – IT Department
 
 | Device | VLAN | Subnet | IP Address | Address Type | Connected Switch |
 |--------|------|--------|------------|--------------|------------------|
@@ -23,7 +23,7 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 
 ---
 
-# 🌐 Edge Router
+# Edge Router
 
 | Target Device | Interface Type | IP Address |
 |---------------|---------------|------------|
@@ -34,9 +34,9 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 
 ---
 
-## 🧪 Test 1 – IT-PC1 → HS-EDGE-R1
+## Test 1 – IT-PC1 → HS-EDGE-R1
 
-### 🔧 Commands
+### Commands
 ```bash
 ping 10.0.0.15      # HS-EDGE-R1 Loopback
 ping 10.200.0.1     # HS-EDGE-R1 Port-Channel1
@@ -50,7 +50,7 @@ ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 
 ---
 
-## 🧪 Test 1.5 – IT-PC1 → HS-EDGE-R1 and HS-EDGE-R2 Po10
+## Test 1.5 – IT-PC1 → HS-EDGE-R1 and HS-EDGE-R2 Po10
 
 ```bash
 
@@ -64,9 +64,9 @@ ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 
 ---
 
-## 🧪 Test 2 – IT-PC1 → HS-EDGE-R2
+## Test 2 – IT-PC1 → HS-EDGE-R2
 
-### 🔧 Commands
+### Commands
 ```bash
 ping 10.0.0.14      # HS-EDGE-R2 Loopback
 ping 10.200.0.5     # HS-EDGE-R2 Port-Channel10
@@ -78,7 +78,7 @@ ping 10.200.0.5     # HS-EDGE-R2 Port-Channel10
 
 ---
 
-## 🎯 Overall Test Summary
+## Overall Test Summary
 
 - IT DPT VLAN successfully reached both Edge routers
 - Loopback interfaces reachable (routing validation)
