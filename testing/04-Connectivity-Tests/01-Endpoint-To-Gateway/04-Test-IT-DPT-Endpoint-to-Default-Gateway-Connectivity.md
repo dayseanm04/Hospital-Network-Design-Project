@@ -1,6 +1,6 @@
-# 🧪 Test – IT Department Endpoint to Default Gateway Connectivity
+# Test – IT Department Endpoint to Default Gateway Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies that **IT Department endpoints** can successfully reach their **default gateway** within the IT Department VLAN.
 
 ## Reference Topology
@@ -9,7 +9,7 @@ This test verifies that **IT Department endpoints** can successfully reach their
 
 ---
 
-## 🏢 IT Department VLAN Overview
+## IT Department VLAN Overview
 
 | PC Name | Department | VLAN ID | Subnet | Default Gateway | Connected Switch |
 |------|-----------|--------|--------|----------------|------------------|
@@ -18,7 +18,7 @@ This test verifies that **IT Department endpoints** can successfully reach their
 
 ---
 
-## 🧪 Test – IT Department (VLAN 240)
+## Test – IT Department (VLAN 240)
 
 **Devices Tested**
 - **IT-PC1**
@@ -37,8 +37,3 @@ ping 10.50.50.1
 ### IT-PC2 ping was successful ✅
 
 <img width="870" height="471" alt="IT-PC2" src="https://github.com/user-attachments/assets/897454d6-43bb-4f3b-ad02-b87c4a14dca0" />
-
-
-
-
-
