@@ -1,9 +1,9 @@
-# 🧪 Test – Floor 2 Endpoints to Edge Routers Connectivity
+# Test – Floor 2 Endpoints to Edge Routers Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies that Floor 2 endpoints can successfully reach the Edge Routers (HS-EDGE-R1 and HS-EDGE-R2).
 
-> 💡 Successful replies confirm proper Layer 3 routing from Access → Distribution → Core → Edge.
+> Successful replies confirm proper Layer 3 routing from Access → Distribution → Core → Edge.
 
 ## Reference Topology
 
@@ -11,7 +11,7 @@ This test verifies that Floor 2 endpoints can successfully reach the Edge Router
 
 ---
 
-## 🏢 Floor 2 Endpoints
+## Floor 2 Endpoints
 
 | Device | VLAN | Subnet | IP Address | Connected Switch |
 |--------|------|--------|------------|------------------|
@@ -20,7 +20,7 @@ This test verifies that Floor 2 endpoints can successfully reach the Edge Router
 
 ---
 
-## 🧪 Test 1 – MRD-1 → HS-EDGE-R1
+## Test 1 – MRD-1 → HS-EDGE-R1
 
 ```bash
 ping 10.0.0.15      # HS-EDGE-R1 Loopback
@@ -33,7 +33,7 @@ ping 10.200.0.1     # HS-EDGE-R1 Port-Channel1
 
 ---
 
-## 🧪 Test 1.5 – ED-1 → HS-EDGE-R1 and HS-EDGE-R2 Po10
+## Test 1.5 – ED-1 → HS-EDGE-R1 and HS-EDGE-R2 Po10
 
 ```bash
 ping 10.150.0.1     # HS-EDGE-R1 Port-Channel10
@@ -46,8 +46,7 @@ ping 10.150.0.2     # HS-EDGE-R2 Port-Channel10
 
 ---
 
-
-## 🧪 Test 2 – Fin-3 → HS-EDGE-R2
+## Test 2 – Fin-3 → HS-EDGE-R2
 
 ```bash
 ping 10.0.0.14      # HS-EDGE-R2 Loopback
@@ -60,5 +59,5 @@ ping 10.200.0.5     # HS-EDGE-R2 Port-Channel10
 
 ---
 
-## 🎯 Result
+## Result
 -  Floor 2 endpoints successfully reached the Edge routers
