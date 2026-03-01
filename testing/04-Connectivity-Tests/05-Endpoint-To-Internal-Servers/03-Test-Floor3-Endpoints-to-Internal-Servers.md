@@ -1,6 +1,6 @@
-# 🧪 03 – Test Floor 3 Endpoints to Internal Servers
+# 03 – Test Floor 3 Endpoints to Internal Servers
 
-## 📌 Test Objective
+## Test Objective
 
 Verify that Floor 3 endpoints can successfully reach internal servers located in the Server VLAN (VLAN 240 – 10.10.10.0/27).
 
@@ -16,7 +16,7 @@ This confirms:
 
 ---
 
-## 🏢 Floor 3 Endpoints Tested
+## Floor 3 Endpoints Tested
 
 | Device | VLAN | Subnet | IP Address |
 |--------|------|--------|------------|
@@ -25,7 +25,7 @@ This confirms:
 
 ---
 
-## 🖥️ Internal Server
+## Internal Server
 
 | Server | VLAN | Subnet | IP Address |
 |--------|------|--------|------------|
@@ -33,7 +33,7 @@ This confirms:
 
 ---
 
-## 🧪 Test Command
+## Test Command
 
 ```bash
 ping 10.10.10.2
@@ -45,7 +45,7 @@ ping 10.10.10.2
 
 ---
 
-## 🧪 Test Command
+## Test Command
 
 ```bash
 ping 10.10.10.2
@@ -57,7 +57,7 @@ ping 10.10.10.2
 
 ---
 
-## 🔎 Validation Summary
+## Validation Summary
 
 - Floor 3 VLANs can reach Server VLAN
 - Inter-VLAN routing is functioning
