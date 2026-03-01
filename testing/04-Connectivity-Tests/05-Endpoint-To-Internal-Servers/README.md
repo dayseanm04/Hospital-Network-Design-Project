@@ -1,6 +1,6 @@
-# 🖥️ 05 – Endpoint to Internal Servers Connectivity Testing
+# 05 – Endpoint to Internal Servers Connectivity Testing
 
-## 📌 Overview
+## Overview
 
 This folder contains validation tests that verify **Layer 3 connectivity from hospital endpoints to internal servers.**
 
@@ -13,7 +13,7 @@ These tests confirm:
 
 ---
 
-## 🏢 Floors & Departments Covered
+## Floors & Departments Covered
 
 | Test File | Description |
 |------------|------------|
@@ -24,7 +24,7 @@ These tests confirm:
 
 ---
 
-## 🧪 What Is Being Tested?
+## What Is Being Tested?
 
 Each test file validates:
 
