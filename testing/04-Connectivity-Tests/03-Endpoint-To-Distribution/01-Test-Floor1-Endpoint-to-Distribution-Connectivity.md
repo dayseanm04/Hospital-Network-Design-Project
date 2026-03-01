@@ -1,10 +1,10 @@
-# 🧪 Test – Floor 1 Endpoint to Distribution Connectivity
+# Test – Floor 1 Endpoint to Distribution Connectivity
 
-## 📌 Purpose
+## Purpose
 
 This test verifies that Floor 1 endpoints can reach Distribution Switch infrastructure (DSW1 / DSW2 loopbacks and Port-Channels).
 
-> 💡 Successful replies confirm proper Layer 3 routing from Access → Distribution layer.
+> Successful replies confirm proper Layer 3 routing from Access → Distribution layer.
 
 ## Reference Topology
 
@@ -12,7 +12,7 @@ This test verifies that Floor 1 endpoints can reach Distribution Switch infrastr
 
 ---
 
-## 🏢 Floor 1 Endpoints
+## Floor 1 Endpoints
 
 | Device | VLAN | Subnet | IP Address | Connected Switch |
 |--------|------|--------|------------|------------------|
@@ -23,7 +23,7 @@ Note: there are multple PCs in on Floor 1 and I some of them for demonstration.
 
 ---
 
-## 🧪 Test 1 – ED-1 → DSW1
+## Test 1 – ED-1 → DSW1
 
 ```bash
 ping 10.0.0.10      # DSW1 Loopback
@@ -36,7 +36,7 @@ ping 10.10.0.1      # DSW1 Port-Channel1
 
 ---
 
-## 🧪 Test 2 – F1-ED-Nrs-1 → DSW2
+## Test 2 – F1-ED-Nrs-1 → DSW2
 
 ```bash
 ping 10.0.0.11      # DSW2 Loopback
@@ -50,6 +50,6 @@ ping 10.20.0.5      # DSW2 Port-Channel2
 
 ---
 
-## 🎯 Result
+## Result
 
 Floor 1 endpoints can reach both Distribution switches
