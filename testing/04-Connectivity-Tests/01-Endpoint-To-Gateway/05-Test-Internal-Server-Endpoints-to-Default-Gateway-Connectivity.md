@@ -1,9 +1,9 @@
-# 🧪 Test – Internal Server Endpoints to Default Gateway Connectivity
+# Test – Internal Server Endpoints to Default Gateway Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies that **Hospital internal servers** can successfully reach their **default gateway** within the Servers VLAN.
 
-> 💡 These servers provide critical network services.
+> These servers provide critical network services.
 
 ## Reference Topology
 
@@ -11,7 +11,7 @@ This test verifies that **Hospital internal servers** can successfully reach the
 
 ---
 
-## 🖥️ Internal Servers VLAN Overview
+## Internal Servers VLAN Overview
 
 | Server Name | Service Role | VLAN ID | Subnet | Default Gateway | Connected Switch |
 |------------|-------------|--------|--------|----------------|------------------|
@@ -21,7 +21,7 @@ This test verifies that **Hospital internal servers** can successfully reach the
 
 ---
 
-## 🧪 Test – Internal Services VLAN (VLAN 700)
+## Test – Internal Services VLAN (VLAN 700)
 
 **Devices Tested**
 - **DHCP-SRV**
