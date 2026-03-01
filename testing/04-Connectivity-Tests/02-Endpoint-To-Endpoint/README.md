@@ -1,6 +1,6 @@
-# 🧪 02 – Endpoint-to-Endpoint Connectivity Tests
+# 02 – Endpoint-to-Endpoint Connectivity Tests
 
-## 📌 Overview
+## Overview
 
 This folder contains connectivity tests that verify communication between endpoints across the Hospital Network.
 
@@ -12,7 +12,7 @@ These tests validate:
 
 ---
 
-## 🏢 Floors & Departments Covered
+##  Floors & Departments Covered
 
 | Test File | Description |
 |-----------|------------|
@@ -24,7 +24,7 @@ These tests validate:
 
 ---
 
-## 🧪 Test Methodology
+##  Test Methodology
 
 Each test file follows this validation structure:
 
@@ -35,7 +35,7 @@ Each test file follows this validation structure:
 5. Ping Result
 6. Screenshot of the Results
 
-## 🔎 What These Tests Validate
+## What These Tests Validate
 
 These endpoint-to-endpoint tests confirm:
 
