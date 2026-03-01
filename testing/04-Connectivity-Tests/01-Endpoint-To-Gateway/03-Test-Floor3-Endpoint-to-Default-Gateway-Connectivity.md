@@ -1,9 +1,9 @@
-# 🧪 Test – Floor 3 Endpoints to Default Gateway Connectivity
+# Test – Floor 3 Endpoints to Default Gateway Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies that **Floor 3 endpoints** can successfully reach their **default gateway** within their assigned VLANs.
 
-> 💡 Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
+> Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
 
 ## Reference Topology
 
@@ -11,7 +11,7 @@ This test verifies that **Floor 3 endpoints** can successfully reach their **def
 
 ---
 
-## 🏢 Floor 3 VLAN Overview
+## Floor 3 VLAN Overview
 
 | PC Name | Department | VLAN ID | Subnet | Default Gateway | Connected Switch |
 |------|-----------|--------|--------|----------------|------------------|
@@ -24,7 +24,7 @@ This test verifies that **Floor 3 endpoints** can successfully reach their **def
 
 ---
 
-## 🧪 Test 1 – F3 Nurse Department (VLAN 300)
+## Test 1 – F3 Nurse Department (VLAN 300)
 
 **Devices Tested**
 - **F3-Nrs-1** (connected to F3-ASW1)
@@ -46,7 +46,7 @@ ping 172.16.3.3
 
 ---
 
-## 🧪 Test 2 – F3 Nurse Department (VLAN 310)
+## Test 2 – F3 Nurse Department (VLAN 310)
 
 **Devices Tested**
 - **ICU-1** (connected to F3-ASW1)
@@ -68,7 +68,7 @@ ping 172.16.3.67
 
 ---
 
-## 🧪 Test 3 – Radiology Department (VLAN 330)
+## Test 3 – Radiology Department (VLAN 330)
 
 **Devices Tested**
 - **Rad-1** (connected to F3-ASW1)
@@ -87,4 +87,3 @@ ping 172.16.3.131
 ### Rad-3 ping was successful ✅
 
 <img width="862" height="439" alt="Rad-3" src="https://github.com/user-attachments/assets/88b521d6-0120-4203-96be-5fd1298087ed" />
-
