@@ -1,6 +1,6 @@
-# 🧪 01 – Endpoint to Default Gateway Connectivity Tests
+# 01 – Endpoint to Default Gateway Connectivity Tests
 
-## 📌 Overview
+## Overview
 
 This folder contains connectivity tests that verify end devices (PCs and and internal servers) can successfully reach their configured default gateway.
 
@@ -12,7 +12,7 @@ If an endpoint cannot reach its default gateway:
 
 ---
 
-## 🎯 Test Objective
+## Test Objective
 
 For each floor and department:
 
@@ -21,7 +21,7 @@ For each floor and department:
 
 ---
 
-## 🏢 Floors & Departments Covered
+## Floors & Departments Covered
 
 | Test File | Description |
 |-----------|------------|
@@ -33,7 +33,7 @@ For each floor and department:
 
 ---
 
-## 🧪 Test Method
+## Test Method
 
 Each test file follows this structure:
 
@@ -46,7 +46,7 @@ Each test file follows this structure:
 
 ---
 
-## 🔎 What This Validates
+## What This Validates
 
 These tests confirm:
 
@@ -55,4 +55,3 @@ These tests confirm:
 - Default Gateway are operational  
 - Routing is functioning at the access layer  
 - No local ACL is blocking traffic  
-
