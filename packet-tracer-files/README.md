@@ -30,6 +30,6 @@ This stage builds on the foundational network setup from Stage 1 by introducing 
 - I Setup **ISP1 and ISP2** and configured Layer 3 **Port-Channels** and IP addressing 
 - Deployed an additional **core firewall** for improved redundancy
 - Added **internet servers** (DNS, Web, NTP) connected to INET-SW which is connected to ISP1
-- Configured **NAT** to allow the internet services to be reachbbly by the hospital lan
+- Configured **NAT** to allow the internet services to be reachable by the hospital lan
 
 Stage 2 focuses on integrating **ISPs and internet services** while preparing the network for internet connectivity.
