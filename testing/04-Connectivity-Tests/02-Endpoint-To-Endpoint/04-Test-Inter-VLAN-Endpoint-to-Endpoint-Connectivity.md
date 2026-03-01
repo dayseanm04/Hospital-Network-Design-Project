@@ -1,9 +1,9 @@
-# 🧪 Test – Inter-VLAN Endpoint-to-Endpoint Connectivity
+# Test – Inter-VLAN Endpoint-to-Endpoint Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies **Layer 3 (Inter-VLAN) connectivity** between endpoints located in **different VLANs across multiple floors**.
 
-### 💡 Successful results confirm that:
+### Successful results confirm that:
 - Inter-VLAN routing is functioning correctly
 - Default gateways are properly configured
 - Core/distribution routing (OSPF) is operating as expected
@@ -14,13 +14,13 @@ This test verifies **Layer 3 (Inter-VLAN) connectivity** between endpoints locat
 
 ---
 
-# 🌐 Inter-VLAN Connectivity Tests
+# Inter-VLAN Connectivity Tests
 
 ---
 
-## 🧪 Test 1 – Floor 1 to Floor 2
+## Test 1 – Floor 1 to Floor 2
 
-### 🔎 Devices
+### Devices
 - **ED-1** – VLAN 101 (172.16.1.0/26) – Floor 1  
 - **MRD-1** – VLAN 200 (172.16.2.0/27) – Floor 2  
 
@@ -36,9 +36,9 @@ ping 172.16.2.4
 
 ---
 
-## 🧪 Test 2 – Floor 1 to Floor 3
+## Test 2 – Floor 1 to Floor 3
 
-### 🔎 Devices
+### Devices
 - **ED-1** – VLAN 101 (172.16.1.0/26) – Floor 1  
 - **Rad-1** – VLAN 330 (172.16.3.128/26) – Floor 3
 
@@ -54,9 +54,9 @@ ping 172.16.3.133
 
 ---
 
-## 🧪 Test 3 – Floor 2 to Floor 1
+## Test 3 – Floor 2 to Floor 1
 
-### 🔎 Devices
+### Devices
 - **Fin-1** – VLAN 210 (172.16.2.32/27) – Floor 2 
 - **ED-1** – VLAN 101 (172.16.1.0/26) – Floor 1
 
@@ -72,13 +72,13 @@ ping 172.16.1.4
 
 ---
 
-## 🧪 Test 4 – Floor 2 to Floor 3
+## Test 4 – Floor 2 to Floor 3
 
-### 🔎 Devices
+### Devices
 - **Fin-1** – VLAN 210 (172.16.2.32/27) – Floor 2 
 - **ICU-1** – VLAN 310 (172.16.3.64/26) –Floor 3
 
-### 🔧 Test Command
+### Test Command
 
 ```bash
 ping 172.16.3.70
@@ -90,13 +90,13 @@ ping 172.16.3.70
 
 ---
 
-## 🧪 Test 5 – Floor 3 to Floor 1
+## Test 5 – Floor 3 to Floor 1
 
-### 🔎 Devices
+### Devices
 - **F3-Nrs-1** – VLAN 300 (172.16.3.0/26) – Floor 3
 - **ED-1** – VLAN 101 (172.16.1.0/27) –Floor 1
 
-### 🔧 Test Command
+### Test Command
 
 ```bash
 ping 172.16.3.4
@@ -108,9 +108,9 @@ ping 172.16.3.4
 
 ---
 
-## 🧪 Test 6 – Floor 3 to Floor 2
+## Test 6 – Floor 3 to Floor 2
 
-### 🔎 Devices
+### Devices
 - **F3-Nrs-1** – VLAN 300 (172.16.3.0/26) – Floor 3
 - **HR-1** – VLAN 220 (172.16.2.0/27) –Floor 2
 
@@ -126,5 +126,5 @@ ping 172.16.2.68
 
 ---
 
-## 🎯 Overall Test Summary
+## Overall Test Summary
 Endpoints in different VLANs can communicate successfully
