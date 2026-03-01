@@ -1,9 +1,9 @@
-# 🧪 Test – Floor 2 Endpoints to Default Gateway Connectivity
+# Test – Floor 2 Endpoints to Default Gateway Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies that **Floor 2 endpoints** can successfully reach their **default gateway** within their assigned VLANs.
 
-> 💡 Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
+> Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
 
 ## Reference Topology
 
@@ -11,7 +11,7 @@ This test verifies that **Floor 2 endpoints** can successfully reach their **def
 
 ---
 
-## 🏢 Floor 2 VLAN Overview
+## Floor 2 VLAN Overview
 
 | PC Name | Department | VLAN ID | Subnet | Default Gateway | Connected Switch |
 |------|-----------|--------|--------|----------------|------------------|
@@ -23,7 +23,7 @@ This test verifies that **Floor 2 endpoints** can successfully reach their **def
 
 ---
 
-## 🧪 Test 1 – Medical Records Department (VLAN 200)
+## Test 1 – Medical Records Department (VLAN 200)
 
 **Devices Tested**
 - **MRD-1** (connected to F2-ASW1)
@@ -45,7 +45,7 @@ ping 172.16.2.3
 
 ---
 
-## 🧪 Test 2 – Billing & Finance Department (VLAN 210)
+## Test 2 – Billing & Finance Department (VLAN 210)
 
 **Devices Tested**
 - **Fin-1** (connected to F2-ASW1)
@@ -65,7 +65,7 @@ ping 172.16.2.35
 
 <img width="875" height="481" alt="FIN-3" src="https://github.com/user-attachments/assets/22510a1c-ab52-4034-9b99-9e14c809cd08" />
 
-## 🧪 Test 3 – Human Resources Department (VLAN 220)
+## Test 3 – Human Resources Department (VLAN 220)
 
 **Devices Tested**
 - **HR-1** (connected to F2-ASW1)
