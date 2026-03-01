@@ -1,9 +1,9 @@
-# 🧪 Test – Floor 1 Endpoints to Default Gateway Connectivity
+# Test – Floor 1 Endpoints to Default Gateway Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies that **Floor 1 end devices** can successfully reach their **default gateway** within their respective VLANs.
 
-> 💡 Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
+> Although there are multiple PCs for the VLAN in this project, I will use **some PC sper VLAN** to validate connectivity and avoid repetition.
 
 ## Reference Topology
 
@@ -11,7 +11,7 @@ This test verifies that **Floor 1 end devices** can successfully reach their **d
 
 ---
 
-## 🏢 Floor 1 VLAN Overview
+## Floor 1 VLAN Overview
 
 | PC Name | Department | VLAN ID | Subnet | Default Gateway | Connected Switch |
 |------|-----------|--------|--------|----------------|------------------|
@@ -22,7 +22,7 @@ This test verifies that **Floor 1 end devices** can successfully reach their **d
 
 ---
 
-## 🧪 Test 1 – Emergency Department PCs (VLAN 101)
+## Test 1 – Emergency Department PCs (VLAN 101)
 
 **Devices Tested**
 - **ED-1** (connected to F1-ASW1)
