@@ -1,9 +1,9 @@
-# 🧪 Test – IT VLAN to Distribution Connectivity
+# Test – IT VLAN to Distribution Connectivity
 
-## 📌 Purpose
+## Purpose
 This test verifies that the **IT Department VLAN (VLAN 240)** can successfully reach the **Distribution Layer (DSW1 / DSW2)** including loopback interfaces and port-channels.
 
-## 💡 Successful replies confirm:
+## Successful replies confirm:
 - Layer 3 routing from IT VLAN to Distribution layer
 - Redundant paths to DSW1 and DSW2
 -  Proper core/distribution reachability
@@ -14,7 +14,7 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 
 ---
 
-# 🏢 Source Endpoint – IT Department
+# Source Endpoint – IT Department
 
 | Device | VLAN | Subnet | IP Address | Address Type | Connected Switch |
 |--------|------|--------|------------|--------------|------------------|
@@ -22,7 +22,7 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 
 ---
 
-# 🌐 Distribution Infrastructure Targets
+# Distribution Infrastructure Targets
 
 | Target Device | Interface Type | IP Address |
 |---------------|---------------|------------|
@@ -33,9 +33,9 @@ This test verifies that the **IT Department VLAN (VLAN 240)** can successfully r
 
 ---
 
-## 🧪 Test 1 – IT-PC1 → DSW1
+## Test 1 – IT-PC1 → DSW1
 
-### 🔧 Commands
+### Commands
 ```bash
 ping 10.0.0.10      # DSW1 Loopback
 ping 10.255.2.1     # DSW1 Port-Channel
@@ -47,9 +47,9 @@ ping 10.255.2.1     # DSW1 Port-Channel
 
 ---
 
-## 🧪 Test 2 – IT-PC1 → DSW2
+## Test 2 – IT-PC1 → DSW2
 
-### 🔧 Commands
+### Commands
 ```bash
 ping 10.0.0.11      # DSW2 Loopback
 ping 10.255.2.6     # DSW2 Port-Channel
@@ -61,9 +61,8 @@ ping 10.255.2.6     # DSW2 Port-Channel
 
 ---
 
-## 🎯 Overall Test Summary
+## Overall Test Summary
 
 - IT VLAN successfully reached both Distribution switches
 - Loopback interfaces are reachable
 - Port-channel interfaces are reachable
-
