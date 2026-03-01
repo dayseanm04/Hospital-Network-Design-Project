@@ -1,10 +1,10 @@
-# 🧪 Test – Floor 1 Same VLAN Endpoint-to-Endpoint Connectivity
+# Test – Floor 1 Same VLAN Endpoint-to-Endpoint Connectivity
 
-## 📌 Purpose
+## Purpose
 
 This test verifies **intra-VLAN connectivity** between endpoints in the **same VLAN** on Floor 1.
 
-> 💡 These tests confirm that devices within the same broadcast domain can communicate properly across access switches (F1-ASW1 and F1-ASW2).
+> These tests confirm that devices within the same broadcast domain can communicate properly across access switches (F1-ASW1 and F1-ASW2).
 
 ## Reference Topology
 
@@ -12,12 +12,12 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 
 ---
 
-# 🏢 Floor 1 – Intra-VLAN Connectivity Tests
+# Floor 1 – Intra-VLAN Connectivity Tests
 
 
-## 🧪 Test 1 – Emergency Department (VLAN 101)
+## Test 1 – Emergency Department (VLAN 101)
 
-### 🖥️ IP Addressing
+### IP Addressing
 
 | Device | IP Address | Address Type | Subnet Mask | Default Gateway |
 |---------|------------|--------------|-------------|-----------------|
@@ -25,18 +25,18 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 | ED-PRNT | 172.16.1.31 | Static | 255.255.255.192 | 172.16.1.3 |
 
 
-### 🔎 Devices Tested
+### Devices Tested
 - **ED-1** (PC – DHCP)
 - **ED-PRNT** (Printer – Static)
 
-### 📍 VLAN Information
+### VLAN Information
 - VLAN: **101 – Emergency DPT**
 - Subnet: **172.16.1.0/26**
 - Default Gateway: **172.16.1.3**
 - ED-1 connected to **F1-ASW1**
 - ED-PRNT connected to **F1-ASW2**
 
-### 🔧 Test Command
+### Test Command
 
 ```bash
 ping 172.16.1.31
@@ -48,7 +48,7 @@ ping 172.16.1.31
 
 ---
 
-# 🧪 Test 2 – X-Ray Department (VLAN 110)
+# Test 2 – X-Ray Department (VLAN 110)
 
 | Device   | IP Address  | Address Type | Subnet Mask     | Default Gateway |
 | -------- | ----------- | ------------ | --------------- | --------------- |
@@ -57,12 +57,12 @@ ping 172.16.1.31
 
 ---
 
-### 🔎 Devices Tested
+### Devices Tested
 
 - **X-R-1** (PC – DHCP)
 - **X-R-PRNT** (Printer – Static)
 
-### 📍 VLAN Information
+### VLAN Information
 
 - VLAN: 110 – X-Ray DPT
 - Subnet: 172.16.1.64/27
@@ -76,7 +76,7 @@ ping 172.16.1.31
 
 ---
 
-# 🧪 Test 3 – F1 ED Nurses Department (VLAN 120)
+# Test 3 – F1 ED Nurses Department (VLAN 120)
 
 | Device   | IP Address   | Address Type | Subnet Mask     | Default Gateway |
 | -------- | ------------ | ------------ | --------------- | --------------- |
@@ -85,12 +85,12 @@ ping 172.16.1.31
 
 ---
 
-### 🔎 Devices Tested
+### Devices Tested
 
 - **Nrs-1** (PC – DHCP)
 - **Nrs-PRNT** (Printer – Static)
 
-### 📍 VLAN Information
+### VLAN Information
 
 - VLAN: 120 – Floor 1 Emergency DPT Nurses
 - Subnet: 172.16.1.96/27
@@ -103,6 +103,6 @@ ping 172.16.1.31
 
 ---
 
-### 🎯 Overall Test Summary
+### Overall Test Summary
 
 All Floor 1 endpoints successfully communicated within their respective VLANs
