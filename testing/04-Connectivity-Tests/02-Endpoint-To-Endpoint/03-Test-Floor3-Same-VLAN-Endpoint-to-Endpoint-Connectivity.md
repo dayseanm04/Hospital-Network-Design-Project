@@ -1,8 +1,8 @@
-# 🧪 Test – Floor 3 Same VLAN Endpoint-to-Endpoint Connectivity
+# Test – Floor 3 Same VLAN Endpoint-to-Endpoint Connectivity
 
 This test verifies **intra-VLAN connectivity** between endpoints in the **same VLAN** on Floor 3.
 
-> 💡 These tests confirm that devices within the same broadcast domain can communicate properly across access switches (F3-ASW1 and F3-ASW2).
+> These tests confirm that devices within the same broadcast domain can communicate properly across access switches (F3-ASW1 and F3-ASW2).
 
 ## Reference Topology
 
@@ -10,29 +10,29 @@ This test verifies **intra-VLAN connectivity** between endpoints in the **same V
 
 ---
 
-# 🏢 Floor 3 – Intra-VLAN Connectivity Tests
+# Floor 3 – Intra-VLAN Connectivity Tests
 
-## 🧪 Test 1 – Floor 3 Nurses Department (VLAN 300)
+## Test 1 – Floor 3 Nurses Department (VLAN 300)
 
-### 🖥️ IP Addressing
+### IP Addressing
 
 | Device | IP Address | Address Type | Subnet Mask | Default Gateway |
 |---------|------------|--------------|-------------|-----------------|
 | F3-Nrs-1 | 172.16.3.4 | DHCP | 255.255.255.192 | 172.16.3.3 |
 | F3-Nrs-PRNT | 172.16.3.30 | Static | 255.255.255.192 | 172.16.3.3 |
 
-### 🔎 Devices Tested
+### Devices Tested
 - **F3-Nrs-1** (PC – DHCP)
 - **F3-Nrs-PRNT** (Printer – Static)
 
-### 📍 VLAN Information
+### VLAN Information
 - VLAN: **300 – Floor 3 Nurses DPT**
 - Subnet: **172.16.3.0/26**
 - Default Gateway: **172.16.3.3**
 - F3-Nrs-1 connected to **F3-ASW1**
 - F3-Nrs-PRNT connected to **F3-ASW2**
 
-### 🔧 Test Command
+### Test Command
 
 ```bash
 ping 172.16.3.30
@@ -44,27 +44,27 @@ ping 172.16.3.30
 
 ---
 
-## 🧪 Test 2 – ICU Department (VLAN 310)
+## Test 2 – ICU Department (VLAN 310)
 
-### 🖥️ IP Addressing
+### IP Addressing
 
 | Device | IP Address  | Address Type | Subnet Mask     | Default Gateway |
 | ------ | ----------- | ------------ | --------------- | --------------- |
 | ICU-1  | 172.16.3.70 | DHCP         | 255.255.255.224 | 172.16.3.67     |
 | ICU-4  | 172.16.3.73 | DHCP         | 255.255.255.224 | 172.16.3.67     |
 
-### 🔎 Devices Tested
+### Devices Tested
 - **ICU-1** (PC – DHCP)
 - **ICU-4** (PC – DHCP)
 
-### 📍 VLAN Information
+### VLAN Information
 - VLAN: **310 – ICU DPT**
 - Subnet: **172.16.3.64/26**
 - Default Gateway: **172.16.3.64**
 - ICU-1 connected to **F3-ASW1**
 - ICU-4-PRNT connected to **F3-ASW2**
 
-### 🔧 Test Command
+### Test Command
 
 ```bash
 ping 172.16.3.73
@@ -76,27 +76,27 @@ ping 172.16.3.73
 
 ---
 
-## 🧪 Test 3 – Radiology Department (VLAN 330)
+## Test 3 – Radiology Department (VLAN 330)
 
-### 🖥️ IP Addressing
+### IP Addressing
 
 | Device   | IP Address   | Address Type | Subnet Mask     | Default Gateway |
 | -------- | ------------ | ------------ | --------------- | --------------- |
 | Rad-1    | 172.16.3.133 | DHCP         | 255.255.255.224 | 172.16.3.131    |
 | Rad-PRNT | 172.16.3.140 | Static       | 255.255.255.224 | 172.16.3.131    |
 
-### 🔎 Devices Tested
+### Devices Tested
 - **Rad-1** (PC – DHCP)
 - **Rad-PRNT** (Printer – DHCP)
 
-### 📍 VLAN Information
+### VLAN Information
 - VLAN: **310 – ICU DPT**
 - Subnet: **172.16.3.128/26**
 - Default Gateway: **172.16.3.131**
 - ICU-1 connected to **F3-ASW1**
 - ICU-4-PRNT connected to **F3-ASW2**
 
-### 🔧 Test Command
+### Test Command
 
 ```bash
 ping 172.16.3.73
@@ -108,6 +108,6 @@ ping 172.16.3.73
 
 ---
 
-### 🎯 Overall Test Summary
+### Overall Test Summary
 
 All Floor 3 endpoints successfully communicated within their respective VLANs
