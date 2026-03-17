@@ -36,6 +36,7 @@ From ED-1:
 ping 70.70.70.10
 ```
 
+<img width="1043" height="383" alt="1" src="https://github.com/user-attachments/assets/43218a05-28dc-4673-9802-024e6666a606" />
 
 
 
