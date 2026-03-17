@@ -35,6 +35,24 @@ From MRD-1:
 ping 70.70.70.20
 ```
 
+<img width="1065" height="409" alt="1" src="https://github.com/user-attachments/assets/225764bb-8a3f-4f01-baac-8732cd18a8f7" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
