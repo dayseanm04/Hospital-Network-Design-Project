@@ -55,6 +55,9 @@ Shut down DSW2
 
 From MRD-1 again ping ping 70.70.70.20
 
+<img width="987" height="463" alt="14" src="https://github.com/user-attachments/assets/c61eed46-2943-4191-8b9e-58899bd54671" />
+
+The ping was successful ✅
 
 
 
