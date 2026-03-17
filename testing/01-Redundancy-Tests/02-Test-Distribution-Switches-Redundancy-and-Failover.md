@@ -51,7 +51,9 @@ Shut down DSW2
 
 <img width="620" height="495" alt="13" src="https://github.com/user-attachments/assets/cce01d2d-8ed3-42c1-af1e-66f46513c3fa" />
 
+### Step 3 – Test Failover
 
+From MRD-1 again ping ping 70.70.70.20
 
 
 
