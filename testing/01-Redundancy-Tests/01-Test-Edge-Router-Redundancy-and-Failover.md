@@ -25,3 +25,27 @@ Traffic should automatically fail over to the remaining router if one goes down.
 | ED-1 PC (172.16.1.5) | 70.70.70.10 | Test internet connectivity |
 
 ---
+
+## Test Steps
+
+### Step 1 – Initial Connectivity Test
+
+From ED-1:
+
+```cmd
+ping 70.70.70.10
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
