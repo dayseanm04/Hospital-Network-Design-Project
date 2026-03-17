@@ -25,7 +25,15 @@ Traffic from the access layer should be able to reach the edge routers through e
 
 ---
 
+## Test Steps
 
+### Step 1 – Initial Connectivity Test
+
+From MRD-1:
+
+```cmd
+ping 70.70.70.20
+```
 
 
 
