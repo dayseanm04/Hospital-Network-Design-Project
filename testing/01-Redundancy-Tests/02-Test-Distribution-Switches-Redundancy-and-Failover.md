@@ -11,7 +11,11 @@ Traffic from the access layer should be able to reach the edge routers through e
 
 ---
 
+## Objective
+- Verify redundancy at the distribution layer
+- Confirm failover works during switch failure
 
+---
 
 
 
