@@ -59,6 +59,9 @@ From MRD-1 again ping ping 70.70.70.20
 
 The ping was successful ✅
 
+<img width="790" height="483" alt="15" src="https://github.com/user-attachments/assets/8075c520-3011-45f8-ad87-f6c401cee276" />
+
+Note the Packet left through DSW1
 
 
 
