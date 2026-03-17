@@ -17,6 +17,14 @@ Traffic from the access layer should be able to reach the edge routers through e
 
 ---
 
+##  Test Scenario
+
+| Source | Destination | Purpose |
+|--------|-------------|----------|
+| MRD-1 PC (172.16.2.7)| 70.70.70.20 | Test internet connectivity |
+
+---
+
 
 
 
