@@ -47,8 +47,9 @@ Shut down DSW2
 
 <img width="750" height="378" alt="12" src="https://github.com/user-attachments/assets/d452aa0d-075f-4536-9905-c11098d8cc58" />
 
+### Reference Topology
 
-
+<img width="620" height="495" alt="13" src="https://github.com/user-attachments/assets/cce01d2d-8ed3-42c1-af1e-66f46513c3fa" />
 
 
 
