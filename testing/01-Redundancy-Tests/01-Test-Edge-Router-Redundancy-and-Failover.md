@@ -64,5 +64,9 @@ The ping was successful ✅
 
 Note the Packet left through **HS-EDGE-R2**
 
+Observations
 
-
+- Initial traffic used one of the edge routers
+- After failure, traffic rerouted automatically (OSPF)
+- No packet loss observed during test
+- Network remained reachable
