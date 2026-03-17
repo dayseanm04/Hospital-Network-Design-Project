@@ -43,6 +43,22 @@ The ping was successful ✅
 
 Shut down DSW2
 
+<img width="754" height="276" alt="11" src="https://github.com/user-attachments/assets/98235f48-9a64-4492-abd7-47ebd6da89cf" />
+
+<img width="750" height="378" alt="12" src="https://github.com/user-attachments/assets/d452aa0d-075f-4536-9905-c11098d8cc58" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
