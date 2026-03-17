@@ -60,18 +60,9 @@ From ED-1 again ping ping 70.70.70.10
 
 The ping was successful ✅
 
+<img width="778" height="615" alt="7" src="https://github.com/user-attachments/assets/13c8ff20-b8cc-4c73-b447-abd5a95331be" />
 
-
-
-
-
-
-
-
-
-
-
-
+Note the Packet left through **HS-EDGE-R2**
 
 
 
