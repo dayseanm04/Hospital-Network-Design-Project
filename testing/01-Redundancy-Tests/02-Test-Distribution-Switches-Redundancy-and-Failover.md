@@ -63,8 +63,12 @@ The ping was successful ✅
 
 Note the Packet left through DSW1
 
+Observations
 
-
+- Initial traffic used one of the distribution switches
+- After failure, traffic rerouted automatically (OSPF)
+- No packet loss observed during test
+- Network remained reachable
 
 
 
