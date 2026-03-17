@@ -48,6 +48,9 @@ Shut down HS-EDGE-R1
 
 <img width="743" height="373" alt="4" src="https://github.com/user-attachments/assets/6284fe34-2b29-4f77-af4a-183aecabfbd0" />
 
+### Reference Topology
+
+<img width="603" height="492" alt="5" src="https://github.com/user-attachments/assets/076ad576-2a04-4a2d-a9c8-777eea21f12b" />
 
 
 
