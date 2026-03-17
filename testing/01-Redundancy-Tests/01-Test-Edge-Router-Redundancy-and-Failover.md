@@ -52,6 +52,25 @@ Shut down HS-EDGE-R1
 
 <img width="603" height="492" alt="5" src="https://github.com/user-attachments/assets/076ad576-2a04-4a2d-a9c8-777eea21f12b" />
 
+### Step 3 – Test Failover
+
+From ED-1 again ping ping 70.70.70.10
+
+<img width="961" height="568" alt="6" src="https://github.com/user-attachments/assets/75ba3424-f3cb-4d14-ac42-dbb3c850e949" />
+
+The ping was successful ✅
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
