@@ -33,3 +33,10 @@ This stage builds on the foundational network setup from Stage 1 by introducing 
 - Configured **NAT** to allow the internet services to be reachable by the hospital lan
 
 Stage 2 focuses on integrating **ISPs and internet services** while preparing the network for internet connectivity.
+
+## Final - Project completed
+
+### `Hospital-Network-Design-Final`
+
+
+
