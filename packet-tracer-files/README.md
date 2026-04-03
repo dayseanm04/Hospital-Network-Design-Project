@@ -38,5 +38,5 @@ Stage 2 focuses on integrating **ISPs and internet services** while preparing th
 
 ### `Hospital-Network-Design-Final`
 
-
-
+### Key Additions
+- Configured **Port Security**
