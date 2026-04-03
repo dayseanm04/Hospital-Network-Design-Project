@@ -40,3 +40,4 @@ Stage 2 focuses on integrating **ISPs and internet services** while preparing th
 
 ### Key Additions
 - Configured **Port Security**
+- Tested Reduandancy
